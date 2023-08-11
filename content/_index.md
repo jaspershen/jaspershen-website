@@ -93,7 +93,7 @@ sections:
       
 - block: about.biography
   content:
-    title: Biography
+    title: About me
     username: admin
   id: about
 # - block: features
@@ -121,69 +121,71 @@ sections:
 #       name: Linux
 #     title: Skills
 - block: experience
+  id: experience
   content:
     date_format: Jan 2006
     items:
     - company: Stanford Chinese Postdoctoral Association
-      company_logo: org-x
+      company_logo: scpa_logo
       company_url: "https://scpa.netlify.app/"
       date_end: "2022-07-31"
       date_start: "2021-08-01"
       description: ""
-      location: Palo Alto, California
+      location: Palo Alto, California 🇺🇸
       title: Co-chair
+      
     - company: Stanford University
-      company_logo: org-gc
+      company_logo: stanford_logo
       company_url: "https://www.stanford.edu/"
       date_end: ""
       date_start: "2019-04-01"
       description: |-
-        Advisor: [Prof. Michael P. Snyder](http://snyderlab.stanford.edu/)
+        :man_teacher: Advisor: [Prof. Michael P. Snyder](http://snyderlab.stanford.edu/)
         
-        Research:
+        🧪 Research:
         * Metabolomics and System Biology
         * Multi-omics data analysis and their application in healthcare
         * Software and algorithm development for metabolomics and other omics data
       
-      location: Palo Alto, California
+      location: Palo Alto, California 🇺🇸
       title: Postdoctoral Research Fellow
     - company: Chinese Academy of Sciences
-      company_logo: org-gc
+      company_logo: cas_logo
       company_url: "http://www.ucas.ac.cn/"
       date_end: "2019-03-31"
       date_start: "2019-01-01"
       description: |-
-        Advisor: [Prof. Zheng-Jiang Zhu](http://www.zhulab.cn/index.php)
+        :man_teacher: Advisor: [Prof. Zheng-Jiang Zhu](http://www.zhulab.cn/index.php)
       
-      location: Shanghai, China
+      location: Shanghai, China 🇨🇳
       title: Research Scientist
       
     - company: Chinese Academy of Sciences
-      company_logo: org-gc
+      company_logo: cas_logo
       company_url: "http://www.ucas.ac.cn/"
       date_end: "2018-12-31"
       date_start: "2013-09-01"
       description: |-
-        Advisor: [Prof. Zheng-Jiang Zhu](http://www.zhulab.cn/index.php)
+        :man_teacher: Advisor: [Prof. Zheng-Jiang Zhu](http://www.zhulab.cn/index.php)
         
-        Research:
+        🧪 Research:
   
         * Metabolomics and System Biology
         * Bioinformatics
       
-      location: Shanghai, China
+      location: Shanghai, China 🇨🇳
       title: Ph.D.
       
     - company: Inner Mongolia University
-      company_logo: org-gc
+      company_logo: imu_logo
       company_url: "http://www.ucas.ac.cn/"
       date_end: "2013-07-01"
       date_start: "2009-09-01"
       description: 
-      location: Hohhot, Inner Mongolia, China
+      location: Hohhot, Inner Mongolia, China 🇨🇳
       title: B.S.
       
-    title: Education/Experience
+    title: Experience
   design:
     columns: "2"
 - block: accomplishments
@@ -218,29 +220,20 @@ sections:
     title: Accomplish&shy;ments
   design:
     columns: "2"
+  
 - block: collection
   content:
-    count: 3
+    count: 5
     filters:
-      author: ""
-      category: ""
-      exclude_featured: false
-      exclude_future: false
-      exclude_past: false
+      featured_only: false
       folders:
-      - post
-      publication_type: ""
-      tag: ""
-    offset: 0
-    order: desc
-    subtitle: ""
-    text: ""
-    title: Posts
+      - publication
+    title: Publications
   design:
     columns: "2"
-    view: compact
-  id: posts
-  
+    view: card
+  id: publication
+
 - block: portfolio
   content:
     buttons:
@@ -267,31 +260,22 @@ sections:
 #     title: Gallery
   design:
     columns: "1"
-- block: collection
-  content:
-    filters:
-      featured_only: true
-      folders:
-      - publication
-    title: Featured Publications
-  design:
-    columns: "2"
-    view: card
-  id: featured
-- block: collection
-  content:
-    filters:
-      exclude_featured: true
-      folders:
-      - publication
-    text: |-
-      {{% callout note %}}
-      Quickly discover relevant content by [filtering publications](./publication/).
-      {{% /callout %}}
-    title: Recent Publications
-  design:
-    columns: "2"
-    view: citation
+  
+# - block: collection
+#   content:
+#     filters:
+#       exclude_featured: true
+#       folders:
+#       - publication
+#     text: |-
+#       {{% callout note %}}
+#       Quickly discover relevant content by [filtering publications](./publication/).
+#       {{% /callout %}}
+#     title: Recent Publications
+#   design:
+#     columns: "2"
+#     view: citation
+    
 - block: collection
   content:
     filters:
@@ -302,11 +286,36 @@ sections:
     columns: "2"
     view: compact
   id: talks
-- block: tag_cloud
+
+- block: collection
   content:
-    title: Popular Topics
+    count: 3
+    filters:
+      author: ""
+      category: ""
+      exclude_featured: false
+      exclude_future: false
+      exclude_past: false
+      folders:
+      - post
+      publication_type: ""
+      tag: ""
+    offset: 0
+    order: desc
+    subtitle: ""
+    text: ""
+    title: Posts
   design:
     columns: "2"
+    view: compact
+  id: posts
+  
+- block: tag_cloud
+  content:
+    title: 
+  design:
+    columns: "1"
+    
 - block: contact
   content:
     address:
