@@ -4,22 +4,22 @@
 #   The weight parameter defines the order that the links will appear in.
 
 main:
-  - name: Home
+  - name: 🏠
     url: '#about'
     weight: 10
-  - name: Posts
+  - name: 📖 Posts
     url: '#posts'
     weight: 20
-  - name: Projects
+  - name: 💻 Projects
     url: '#projects'
     weight: 30
-  - name: Talks
+  - name: 🗣️ Talks
     url: '#talks'
     weight: 40
-  - name: Publications
+  - name: 🗞️ Publications
     url: '#featured'
     weight: 50
-  - name: Contact
+  - name: 📥 Contact
     url: '#contact'
     weight: 60
 

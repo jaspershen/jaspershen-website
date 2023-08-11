@@ -6,9 +6,9 @@
 # Appearance
 
 appearance:
-  theme_day: minimal
-  theme_night: minimal
-  font: minimal
+  theme_day: ntu2
+  theme_night: ntu2
+  font: ntu2
   font_size: L
 
 # SEO
@@ -45,7 +45,7 @@ header:
 
 footer:
   copyright:
-    notice: '© {year} Me. This work is licensed under {license}'
+    notice: '© {year} Xiaotao Shen'
     license:
       enable: true
       allow_derivatives: false
@@ -66,7 +66,7 @@ features:
     theme_light: github-light
     theme_dark: dracula
   math:
-    enable: false
+    enable: true
   privacy_pack:
     enable: false
   repository:
@@ -105,7 +105,7 @@ features:
 extensions:
   cms:
     branch: main
-    local_backend: false
+    local_backend: true
   academicons:
     enable: true
 

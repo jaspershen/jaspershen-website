@@ -1,43 +1,44 @@
 ---
-bio: My research interests include distributed robotics, mobile computing and programmable
-  matter.
+bio: Metabolomics, Multi-omics, Bioinformatics, Systems Biology.
 education:
   courses:
-  - course: PhD in Artificial Intelligence
-    institution: Stanford University
-    year: 2012
-  - course: MEng in Artificial Intelligence
-    institution: Massachusetts Institute of Technology
-    year: 2009
-  - course: BSc in Artificial Intelligence
-    institution: Massachusetts Institute of Technology
-    year: 2008
-email: ""
-first_name: Alice
+  - course: PhD
+    institution: Chinese Academy of Sciences
+    year: 2013-2018
+  - course: BSc
+    institution: Inner Mongolia University
+    year: 2009-2013
+email: "shenxt@stanford.edu"
+first_name: Xiaotao
 highlight_name: true
 interests:
-- Artificial Intelligence
-- Computational Linguistics
-- Information Retrieval
-last_name: Wu
+- Bioinformatics
+- Metabolomics
+- Proteomics
+- Microbiome
+- Multi-omics
+- Systems Biology
+- Aging
+
+last_name: Shen
 organizations:
-- name: Stanford University
+- name: Stanford University School of Medicine
   url: https://www.stanford.edu/
-role: Professor of Artificial Intelligence
+role: Postdoctoral Research Fellow
 social:
 - icon: envelope
   icon_pack: fas
   link: /#contact
 - display:
     header: true
-  icon: twitter
+  icon: github
   icon_pack: fab
-  label: Follow me on Twitter
+  # label: Follow me on GitHub
   link: https://twitter.com/GeorgeCushen
 - icon: graduation-cap
   icon_pack: fas
   link: https://scholar.google.co.uk/citations?user=sIwtMXoAAAAJ
-- icon: github
+- icon: twitter
   icon_pack: fab
   link: https://github.com/gcushen
 - icon: linkedin
@@ -49,8 +50,16 @@ social:
 status:
   icon: ☕️
 superuser: true
-title: Alice Wu 吳恩達
+title: Xiaotao Shen
 ---
 
-Alice Wu is a professor of artificial intelligence at the Stanford AI Lab. Her research interests include distributed robotics, mobile computing and programmable matter. She leads the Robotic Neurobiology group, which develops self-reconfiguring robots, systems of self-organizing robots, and mobile sensor networks.
-{style="text-align: justify;"}
+I am now a Postdoctoral Research Fellow in [Prof. Michael Snyder's lab](https://med.stanford.edu/snyderlab/about.html) at Stanford University School of Medicine. My overarching research interests are bioinformatics algorithms development for multi-omics data, and their application to precision medicine. Specifically, I am interested in bioinformatics algorithm development, including 1) Comprehensive analysis workflow and deep learning for LC-MS data, 2) Metabolic network analysis, 3) Wearable and multi-omics data integration, and 4) microbiome and metabolome data integration. 
+
+I also employed the developed bioinformatics algorithms as a unique systems biology approach to study the potential biomarkers and mechanisms of 1) pregnancy and related diseases, 2) aging and related diseases, and 3) cancer. 
+More tools and projects I developed can be found in the `Projects` part.
+
+Now I am also the member of [Stanford Chinese Postdoctral Association (SCPA)](https://scpa.netlify.app/). Fell free to let me know if you want to join us and work for the amazing community!
+
+:floppy_disk: [Download my CV](https://www.shenxt.info/files/XiaotaoShen_CV.pdf)
+
+ :dog: :octocat: :school: :u7533: :smile: :facepunch: :fist: :family: :panda_face: :earth_asia: :tada: :cn:
