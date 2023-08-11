@@ -1,0 +1,752 @@
+<?xml version="1.0" encoding="utf-8" standalone="yes" ?>
+<rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
+  <channel>
+    <title>Github | Xiaotao Shen</title>
+    <link>https://jaspershen.github.io/category/github/</link>
+      <atom:link href="https://jaspershen.github.io/category/github/index.xml" rel="self" type="application/rss+xml" />
+    <description>Github</description>
+    <generator>Wowchemy (https://wowchemy.com)</generator><language>en-us</language><lastBuildDate>Thu, 19 Mar 2020 00:00:00 +0000</lastBuildDate>
+    <image>
+      <url>https://jaspershen.github.io/media/icon_hu805a85e690e4f2727bf7d5f685d888f7_86836_512x512_fill_lanczos_center_3.png</url>
+      <title>Github</title>
+      <link>https://jaspershen.github.io/category/github/</link>
+    </image>
+    
+    <item>
+      <title>Video test in rmakrdown</title>
+      <link>https://jaspershen.github.io/post/2020-3-19-video-test-rmarkdown/</link>
+      <pubDate>Thu, 19 Mar 2020 00:00:00 +0000</pubDate>
+      <guid>https://jaspershen.github.io/post/2020-3-19-video-test-rmarkdown/</guid>
+      <description>
+
+&lt;div id=&#34;TOC&#34;&gt;
+&lt;ul&gt;
+&lt;li&gt;&lt;a href=&#34;#video-from-youtube&#34;&gt;&lt;span class=&#34;toc-section-number&#34;&gt;1&lt;/span&gt; Video from youtube&lt;/a&gt;&lt;/li&gt;
+&lt;li&gt;&lt;a href=&#34;#video-from-bilibili&#34;&gt;&lt;span class=&#34;toc-section-number&#34;&gt;2&lt;/span&gt; Video from bilibili&lt;/a&gt;&lt;/li&gt;
+&lt;li&gt;&lt;a href=&#34;#video-from-tecent&#34;&gt;&lt;span class=&#34;toc-section-number&#34;&gt;3&lt;/span&gt; Video from Tecent&lt;/a&gt;&lt;/li&gt;
+&lt;li&gt;&lt;a href=&#34;#music-from-xiami-music&#34;&gt;&lt;span class=&#34;toc-section-number&#34;&gt;4&lt;/span&gt; Music from Xiami music&lt;/a&gt;&lt;/li&gt;
+&lt;/ul&gt;
+&lt;/div&gt;
+
+&lt;div id=&#34;video-from-youtube&#34; class=&#34;section level1&#34;&gt;
+&lt;h1&gt;&lt;span class=&#34;header-section-number&#34;&gt;1&lt;/span&gt; Video from youtube&lt;/h1&gt;
+&lt;pre class=&#34;markdown&#34;&gt;&lt;code&gt;&amp;lt;iframe width=&amp;quot;100%&amp;quot; height=&amp;quot;500&amp;quot; src=&amp;quot;https://www.youtube.com/embed/8_QoT3ygdI4&amp;quot; frameborder=&amp;quot;0&amp;quot; allow=&amp;quot;accelerometer; autoplay; encrypted-media; gyroscope; picture-in-picture&amp;quot; allowfullscreen&amp;gt;&amp;lt;/iframe&amp;gt;&lt;/code&gt;&lt;/pre&gt;
+&lt;iframe width=&#34;100%&#34; height=&#34;500&#34; src=&#34;https://www.youtube.com/embed/8_QoT3ygdI4&#34; frameborder=&#34;0&#34; allow=&#34;accelerometer; autoplay; encrypted-media; gyroscope; picture-in-picture&#34; allowfullscreen&gt;
+&lt;/iframe&gt;
+&lt;/div&gt;
+&lt;div id=&#34;video-from-bilibili&#34; class=&#34;section level1&#34;&gt;
+&lt;h1&gt;&lt;span class=&#34;header-section-number&#34;&gt;2&lt;/span&gt; Video from bilibili&lt;/h1&gt;
+&lt;pre class=&#34;markdown&#34;&gt;&lt;code&gt;&amp;lt;iframe width=&amp;quot;100%&amp;quot; height=&amp;quot;500&amp;quot; src=&amp;quot;//player.bilibili.com/player.html?aid=47432978&amp;amp;cid=83074959&amp;amp;page=1&amp;quot; scrolling=&amp;quot;yes&amp;quot; border=&amp;quot;0&amp;quot; frameborder=&amp;quot;no&amp;quot; framespacing=&amp;quot;0&amp;quot; allowfullscreen=&amp;quot;true&amp;quot;&amp;gt; &amp;lt;/iframe&amp;gt;&lt;/code&gt;&lt;/pre&gt;
+&lt;iframe width=&#34;100%&#34; height=&#34;500&#34; src=&#34;//player.bilibili.com/player.html?aid=47432978&amp;amp;cid=83074959&amp;amp;page=1&#34; scrolling=&#34;yes&#34; border=&#34;0&#34; frameborder=&#34;no&#34; framespacing=&#34;0&#34; allowfullscreen=&#34;true&#34;&gt;
+&lt;/iframe&gt;
+&lt;/div&gt;
+&lt;div id=&#34;video-from-tecent&#34; class=&#34;section level1&#34;&gt;
+&lt;h1&gt;&lt;span class=&#34;header-section-number&#34;&gt;3&lt;/span&gt; Video from Tecent&lt;/h1&gt;
+&lt;pre class=&#34;markdown&#34;&gt;&lt;code&gt;&amp;lt;iframe width=&amp;quot;100%&amp;quot; height=&amp;quot;500&amp;quot; frameborder=&amp;quot;0&amp;quot; src=&amp;quot;https://v.qq.com/txp/iframe/player.html?vid=s0855vzl4du&amp;quot; allowFullScreen=&amp;quot;true&amp;quot;&amp;gt;&amp;lt;/iframe&amp;gt;&lt;/code&gt;&lt;/pre&gt;
+&lt;iframe width=&#34;100%&#34; height=&#34;500&#34; frameborder=&#34;0&#34; src=&#34;https://v.qq.com/txp/iframe/player.html?vid=s0855vzl4du&#34; allowFullScreen=&#34;true&#34;&gt;
+&lt;/iframe&gt;
+&lt;/div&gt;
+&lt;div id=&#34;music-from-xiami-music&#34; class=&#34;section level1&#34;&gt;
+&lt;h1&gt;&lt;span class=&#34;header-section-number&#34;&gt;4&lt;/span&gt; Music from Xiami music&lt;/h1&gt;
+&lt;pre class=&#34;markdown&#34;&gt;&lt;code&gt;&amp;lt;iframe frameborder=&amp;quot;no&amp;quot; border=&amp;quot;0&amp;quot; marginwidth=&amp;quot;0&amp;quot; marginheight=&amp;quot;0&amp;quot; width=&amp;quot;100%&amp;quot; height=&amp;quot;110&amp;quot; loading=&amp;quot;lazy&amp;quot; sandbox=&amp;quot;allow-popups allow-scripts allow-same-origin&amp;quot; src=&amp;quot;https://www.xiami.com/webapp/embed-player?autoPlay=1&amp;amp;id=1769071425&amp;quot;&amp;gt;&amp;lt;/iframe&amp;gt;&lt;/code&gt;&lt;/pre&gt;
+&lt;iframe frameborder=&#34;no&#34; border=&#34;0&#34; marginwidth=&#34;0&#34; marginheight=&#34;0&#34; width=&#34;100%&#34; height=&#34;110&#34; loading=&#34;lazy&#34; sandbox=&#34;allow-popups allow-scripts allow-same-origin&#34; src=&#34;https://www.xiami.com/webapp/embed-player?autoPlay=1&amp;amp;id=1769071425&#34;&gt;
+&lt;/iframe&gt;
+&lt;p&gt;&lt;img src=&#34;http://ghchart.rshah.org/jaspershen&#34; alt=&#34;Name Your GitHub chart&#34;&gt;&lt;/p&gt;
+&lt;/div&gt;
+</description>
+    </item>
+    
+    <item>
+      <title>如何在一台电脑上设置多个github账号</title>
+      <link>https://jaspershen.github.io/post/2020-03-11-multi-github-in-one-pc/</link>
+      <pubDate>Tue, 10 Mar 2020 00:00:00 +0000</pubDate>
+      <guid>https://jaspershen.github.io/post/2020-03-11-multi-github-in-one-pc/</guid>
+      <description>
+
+&lt;div id=&#34;TOC&#34;&gt;
+&lt;ul&gt;
+&lt;li&gt;&lt;a href=&#34;#生成秘钥&#34;&gt;&lt;span class=&#34;toc-section-number&#34;&gt;1&lt;/span&gt; 生成秘钥&lt;/a&gt;&lt;ul&gt;
+&lt;li&gt;&lt;a href=&#34;#生成jaspershen的秘钥&#34;&gt;&lt;span class=&#34;toc-section-number&#34;&gt;1.0.1&lt;/span&gt; 生成jaspershen的秘钥&lt;/a&gt;&lt;/li&gt;
+&lt;li&gt;&lt;a href=&#34;#生成shenxt账户的秘钥&#34;&gt;&lt;span class=&#34;toc-section-number&#34;&gt;1.1&lt;/span&gt; 生成shenxt账户的秘钥&lt;/a&gt;&lt;/li&gt;
+&lt;/ul&gt;&lt;/li&gt;
+&lt;li&gt;&lt;a href=&#34;#将两个秘钥分别添加到自己对应的github账户中&#34;&gt;&lt;span class=&#34;toc-section-number&#34;&gt;2&lt;/span&gt; 将两个秘钥分别添加到自己对应的github账户中&lt;/a&gt;&lt;/li&gt;
+&lt;li&gt;&lt;a href=&#34;#编辑配置文件&#34;&gt;&lt;span class=&#34;toc-section-number&#34;&gt;3&lt;/span&gt; 编辑配置文件&lt;/a&gt;&lt;/li&gt;
+&lt;li&gt;&lt;a href=&#34;#配置仓库设置&#34;&gt;&lt;span class=&#34;toc-section-number&#34;&gt;4&lt;/span&gt; 配置仓库设置&lt;/a&gt;&lt;ul&gt;
+&lt;li&gt;&lt;a href=&#34;#删除全局配置&#34;&gt;&lt;span class=&#34;toc-section-number&#34;&gt;4.1&lt;/span&gt; 删除全局配置&lt;/a&gt;&lt;/li&gt;
+&lt;li&gt;&lt;a href=&#34;#设置local配置&#34;&gt;&lt;span class=&#34;toc-section-number&#34;&gt;4.2&lt;/span&gt; 设置local配置&lt;/a&gt;&lt;/li&gt;
+&lt;/ul&gt;&lt;/li&gt;
+&lt;li&gt;&lt;a href=&#34;#将本地仓库推送到远程仓库github&#34;&gt;&lt;span class=&#34;toc-section-number&#34;&gt;5&lt;/span&gt; 将本地仓库推送到远程仓库(github)&lt;/a&gt;&lt;/li&gt;
+&lt;/ul&gt;
+&lt;/div&gt;
+
+&lt;p&gt;如何在一台电脑上进行多个github账户的配置?&lt;/p&gt;
+&lt;div id=&#34;生成秘钥&#34; class=&#34;section level1&#34;&gt;
+&lt;h1&gt;&lt;span class=&#34;header-section-number&#34;&gt;1&lt;/span&gt; 生成秘钥&lt;/h1&gt;
+&lt;p&gt;首先需要对自己的多个不同账户生成对应的秘钥.比如我有两个账户分别为jaspershen和shenxt,这时候对两个账户分别生成对应账户,注意一定要区分开,不能后面一个将前面一个覆盖了.&lt;/p&gt;
+&lt;div id=&#34;生成jaspershen的秘钥&#34; class=&#34;section level3&#34;&gt;
+&lt;h3&gt;&lt;span class=&#34;header-section-number&#34;&gt;1.0.1&lt;/span&gt; 生成jaspershen的秘钥&lt;/h3&gt;
+&lt;pre&gt;&lt;code&gt;ssh-keygen -t rsa -C “shenxt1990@163.com”&lt;/code&gt;&lt;/pre&gt;
+&lt;p&gt;这时候会在&lt;code&gt;~/.ssh/&lt;/code&gt;(我使用的是mac)文件夹下自动生成两个文件,分别是&lt;code&gt;id_rsa&lt;/code&gt;和&lt;code&gt;id_rsa.pub&lt;/code&gt;.&lt;/p&gt;
+&lt;/div&gt;
+&lt;div id=&#34;生成shenxt账户的秘钥&#34; class=&#34;section level2&#34;&gt;
+&lt;h2&gt;&lt;span class=&#34;header-section-number&#34;&gt;1.1&lt;/span&gt; 生成shenxt账户的秘钥&lt;/h2&gt;
+&lt;p&gt;注意一定要重命名,我们这边将其命名为&lt;code&gt;id_rsa_2&lt;/code&gt;.&lt;/p&gt;
+&lt;pre&gt;&lt;code&gt;ssh-keygen -t rsa -f ~/.ssh/id_rsa_2 -C &amp;quot;kagawabale@163.com&amp;quot;&lt;/code&gt;&lt;/pre&gt;
+&lt;p&gt;这时候会在&lt;code&gt;~/.ssh/&lt;/code&gt;文件夹下生成新的秘钥文件,分别是&lt;code&gt;id_rsa2&lt;/code&gt;(秘钥)和&lt;code&gt;id_rsa_2.pub&lt;/code&gt;(公钥).&lt;/p&gt;
+&lt;/div&gt;
+&lt;/div&gt;
+&lt;div id=&#34;将两个秘钥分别添加到自己对应的github账户中&#34; class=&#34;section level1&#34;&gt;
+&lt;h1&gt;&lt;span class=&#34;header-section-number&#34;&gt;2&lt;/span&gt; 将两个秘钥分别添加到自己对应的github账户中&lt;/h1&gt;
+&lt;p&gt;然后需要将两个秘钥(公钥文件)分别添加到自己对应的账户当中.&lt;/p&gt;
+&lt;p&gt;使用vi打开公钥文件即可.&lt;/p&gt;
+&lt;pre&gt;&lt;code&gt;vi ~/.ssh/id_rsa.pud#jaspershen账户
+vi ~/.ssh/id_rsa_2.pud#shenxt账户&lt;/code&gt;&lt;/pre&gt;
+&lt;/div&gt;
+&lt;div id=&#34;编辑配置文件&#34; class=&#34;section level1&#34;&gt;
+&lt;h1&gt;&lt;span class=&#34;header-section-number&#34;&gt;3&lt;/span&gt; 编辑配置文件&lt;/h1&gt;
+&lt;p&gt;先确认在&lt;code&gt;~/.ssh/&lt;/code&gt;文件夹中是否存在&lt;code&gt;config&lt;/code&gt;文件,如果不存在,首先创建一个,然后对其进行编辑.内容如下:&lt;/p&gt;
+&lt;pre&gt;&lt;code&gt;# jaspershen
+Host github_jaspershen
+HostName ssh.github.com
+User git
+IdentityFile ~/.ssh/id_rsa
+
+# shenxt
+Host github_shenxt  # 前缀名可以任意设置
+HostName ssh.github.com
+User git
+IdentityFile ~/.ssh/id_rsa_2&lt;/code&gt;&lt;/pre&gt;
+&lt;p&gt;需要更改的地方是&lt;code&gt;Host&lt;/code&gt;和&lt;code&gt;IdentityFile&lt;/code&gt;,修改为自己能够识别的内容,以及自己生成的秘钥即可.&lt;/p&gt;
+&lt;blockquote&gt;
+&lt;p&gt;注意,HostName一定要是&lt;code&gt;ssh.github.com&lt;/code&gt;,不然可能会失败.&lt;/p&gt;
+&lt;/blockquote&gt;
+&lt;p&gt;修改完之后,保存退出,然后在terminal下命令以下命令,看是否正常:&lt;/p&gt;
+&lt;pre&gt;&lt;code&gt;ssh -T git@github_jaspershen
+ssh -T git@github_shenxt&lt;/code&gt;&lt;/pre&gt;
+&lt;p&gt;如果出现下面结果,说明已经正常工作:&lt;/p&gt;
+&lt;pre&gt;&lt;code&gt;Hi jaspershen! You&amp;#39;ve successfully authenticated, but GitHub does not provide shell access.&lt;/code&gt;&lt;/pre&gt;
+&lt;/div&gt;
+&lt;div id=&#34;配置仓库设置&#34; class=&#34;section level1&#34;&gt;
+&lt;h1&gt;&lt;span class=&#34;header-section-number&#34;&gt;4&lt;/span&gt; 配置仓库设置&lt;/h1&gt;
+&lt;p&gt;首先需要删除git配置的全局用户名和邮箱.接着在自己每个项目的仓库中按照需要设置不同的&lt;code&gt;user.name&lt;/code&gt;和&lt;code&gt;user.email&lt;/code&gt;.&lt;/p&gt;
+&lt;div id=&#34;删除全局配置&#34; class=&#34;section level2&#34;&gt;
+&lt;h2&gt;&lt;span class=&#34;header-section-number&#34;&gt;4.1&lt;/span&gt; 删除全局配置&lt;/h2&gt;
+&lt;pre&gt;&lt;code&gt;git config --global --unset &amp;#39;user.name&amp;#39;
+git config --global --unset &amp;#39;user.email&amp;#39;&lt;/code&gt;&lt;/pre&gt;
+&lt;/div&gt;
+&lt;div id=&#34;设置local配置&#34; class=&#34;section level2&#34;&gt;
+&lt;h2&gt;&lt;span class=&#34;header-section-number&#34;&gt;4.2&lt;/span&gt; 设置local配置&lt;/h2&gt;
+&lt;p&gt;在自己的每个文件夹(repo仓库)下,打开terminal,然后进行设置.&lt;/p&gt;
+&lt;pre&gt;&lt;code&gt;git config user.name `xxx`
+git config user.email `xxx@xxx.com`&lt;/code&gt;&lt;/pre&gt;
+&lt;blockquote&gt;
+&lt;p&gt;注意,在设置结束之后,创建git repo(&lt;code&gt;git init&lt;/code&gt;)的时候,一定要再次检查一下用户名和用户邮箱,如果不对, 需要再次设置.&lt;/p&gt;
+&lt;/blockquote&gt;
+&lt;/div&gt;
+&lt;/div&gt;
+&lt;div id=&#34;将本地仓库推送到远程仓库github&#34; class=&#34;section level1&#34;&gt;
+&lt;h1&gt;&lt;span class=&#34;header-section-number&#34;&gt;5&lt;/span&gt; 将本地仓库推送到远程仓库(github)&lt;/h1&gt;
+&lt;p&gt;之后再添加远程仓库的时候,就不能直接使用&lt;code&gt;http&lt;/code&gt;的方式了,只能使用&lt;code&gt;ssh&lt;/code&gt;方式.&lt;/p&gt;
+&lt;pre&gt;&lt;code&gt;git remote add origin git@github_jaspershen:jaspershen/example.git # jaspershen account
+git remote add origin git@github_shenxt:shenxt/example.git # shenxt account&lt;/code&gt;&lt;/pre&gt;
+&lt;p&gt;其中&lt;code&gt;github_jaspershen&lt;/code&gt;或者&lt;code&gt;github_shenxt&lt;/code&gt;就是在配置文件中设置的&lt;code&gt;Host&lt;/code&gt;.&lt;/p&gt;
+&lt;p&gt;然后使用&lt;code&gt;git remote -v&lt;/code&gt;确认是否连接上.&lt;/p&gt;
+&lt;p&gt;最后进行推送.&lt;/p&gt;
+&lt;pre&gt;&lt;code&gt;git push origin master&lt;/code&gt;&lt;/pre&gt;
+&lt;p&gt;其实，上面的配置文件的意思就是，按照你设置远程仓库时使用不同的Host名称，查找&lt;code&gt;~/.ssh/config&lt;/code&gt;文件使用不同的SSH 文件连接到GitHub。这样你就将是以不同的身份访问GitHub仓库。&lt;/p&gt;
+&lt;/div&gt;
+</description>
+    </item>
+    
+    <item>
+      <title>使用Github和Hexo建独立博客</title>
+      <link>https://jaspershen.github.io/post/2017-09-09-github-blog/</link>
+      <pubDate>Fri, 25 Nov 2016 00:00:00 +0000</pubDate>
+      <guid>https://jaspershen.github.io/post/2017-09-09-github-blog/</guid>
+      <description>
+&lt;script src=&#34;index_files/header-attrs/header-attrs.js&#34;&gt;&lt;/script&gt;
+
+&lt;div id=&#34;TOC&#34;&gt;
+&lt;ul&gt;
+&lt;li&gt;&lt;a href=&#34;#hexo介绍&#34;&gt;&lt;span class=&#34;toc-section-number&#34;&gt;0.1&lt;/span&gt; 1. Hexo介绍&lt;/a&gt;&lt;/li&gt;
+&lt;li&gt;&lt;a href=&#34;#环境准备&#34;&gt;&lt;span class=&#34;toc-section-number&#34;&gt;0.2&lt;/span&gt; 2. 环境准备&lt;/a&gt;
+&lt;ul&gt;
+&lt;li&gt;&lt;a href=&#34;#安装node.js&#34;&gt;&lt;span class=&#34;toc-section-number&#34;&gt;0.2.1&lt;/span&gt; 2.1 安装node.js&lt;/a&gt;&lt;/li&gt;
+&lt;li&gt;&lt;a href=&#34;#安装hexo&#34;&gt;&lt;span class=&#34;toc-section-number&#34;&gt;0.2.2&lt;/span&gt; 2.2 安装hexo&lt;/a&gt;&lt;/li&gt;
+&lt;/ul&gt;&lt;/li&gt;
+&lt;li&gt;&lt;a href=&#34;#利用hexo搭建一个博客&#34;&gt;&lt;span class=&#34;toc-section-number&#34;&gt;0.3&lt;/span&gt; 3. 利用Hexo搭建一个博客&lt;/a&gt;
+&lt;ul&gt;
+&lt;li&gt;&lt;a href=&#34;#创建博客目录shenxtgithub.io&#34;&gt;&lt;span class=&#34;toc-section-number&#34;&gt;0.3.1&lt;/span&gt; 3.1 &lt;span&gt;创建博客目录shenxt@github.io&lt;/span&gt;&lt;/a&gt;&lt;/li&gt;
+&lt;li&gt;&lt;a href=&#34;#生成静态页面&#34;&gt;&lt;span class=&#34;toc-section-number&#34;&gt;0.3.2&lt;/span&gt; 3.2 生成静态页面&lt;/a&gt;&lt;/li&gt;
+&lt;li&gt;&lt;a href=&#34;#运行&#34;&gt;&lt;span class=&#34;toc-section-number&#34;&gt;0.3.3&lt;/span&gt; 3.3 运行&lt;/a&gt;&lt;/li&gt;
+&lt;/ul&gt;&lt;/li&gt;
+&lt;li&gt;&lt;a href=&#34;#发一篇文章试试&#34;&gt;&lt;span class=&#34;toc-section-number&#34;&gt;0.4&lt;/span&gt; 4 发一篇文章试试&lt;/a&gt;
+&lt;ul&gt;
+&lt;li&gt;&lt;a href=&#34;#穿件一个新的博客&#34;&gt;&lt;span class=&#34;toc-section-number&#34;&gt;0.4.1&lt;/span&gt; 4.1 穿件一个新的博客&lt;/a&gt;&lt;/li&gt;
+&lt;/ul&gt;&lt;/li&gt;
+&lt;li&gt;&lt;a href=&#34;#配置&#34;&gt;&lt;span class=&#34;toc-section-number&#34;&gt;0.5&lt;/span&gt; 5 配置&lt;/a&gt;&lt;/li&gt;
+&lt;li&gt;&lt;a href=&#34;#更换主题&#34;&gt;&lt;span class=&#34;toc-section-number&#34;&gt;0.6&lt;/span&gt; 6 更换主题&lt;/a&gt;&lt;/li&gt;
+&lt;li&gt;&lt;a href=&#34;#部署到github上&#34;&gt;&lt;span class=&#34;toc-section-number&#34;&gt;0.7&lt;/span&gt; 7 部署到github上&lt;/a&gt;
+&lt;ul&gt;
+&lt;li&gt;&lt;a href=&#34;#在github网页版上创建和自己账户名相同的仓库比如我的账户为shenxt因此创建的仓库为shenxt.github.io&#34;&gt;&lt;span class=&#34;toc-section-number&#34;&gt;0.7.1&lt;/span&gt; 7.1 在github网页版上创建和自己账户名相同的仓库，比如我的账户为shenxt，因此，创建的仓库为shenxt.github.io。&lt;/a&gt;&lt;/li&gt;
+&lt;li&gt;&lt;a href=&#34;#安装hexo-deployer-git&#34;&gt;&lt;span class=&#34;toc-section-number&#34;&gt;0.7.2&lt;/span&gt; 7.2 安装hexo-deployer-git&lt;/a&gt;&lt;/li&gt;
+&lt;li&gt;&lt;a href=&#34;#网站配置git&#34;&gt;&lt;span class=&#34;toc-section-number&#34;&gt;0.7.3&lt;/span&gt; 7.3 网站配置git&lt;/a&gt;&lt;/li&gt;
+&lt;li&gt;&lt;a href=&#34;#部署&#34;&gt;&lt;span class=&#34;toc-section-number&#34;&gt;0.7.4&lt;/span&gt; 7.4 部署&lt;/a&gt;&lt;/li&gt;
+&lt;/ul&gt;&lt;/li&gt;
+&lt;li&gt;&lt;a href=&#34;#贴标签方便搜索&#34;&gt;&lt;span class=&#34;toc-section-number&#34;&gt;0.8&lt;/span&gt; 贴标签，方便搜索&lt;/a&gt;
+&lt;ul&gt;
+&lt;li&gt;&lt;a href=&#34;#两个确认&#34;&gt;&lt;span class=&#34;toc-section-number&#34;&gt;0.8.1&lt;/span&gt; 8.1 两个确认&lt;/a&gt;&lt;/li&gt;
+&lt;li&gt;&lt;a href=&#34;#新建tags页面&#34;&gt;&lt;span class=&#34;toc-section-number&#34;&gt;0.8.2&lt;/span&gt; 8.2 新建tags页面&lt;/a&gt;&lt;/li&gt;
+&lt;li&gt;&lt;a href=&#34;#修改sourcetagsindex.md&#34;&gt;&lt;span class=&#34;toc-section-number&#34;&gt;0.8.3&lt;/span&gt; 8.3 修改source/tags/index.md&lt;/a&gt;&lt;/li&gt;
+&lt;li&gt;&lt;a href=&#34;#在文章中添加tags&#34;&gt;&lt;span class=&#34;toc-section-number&#34;&gt;0.8.4&lt;/span&gt; 8.4 在文章中添加tags&lt;/a&gt;&lt;/li&gt;
+&lt;/ul&gt;&lt;/li&gt;
+&lt;li&gt;&lt;a href=&#34;#分类给文章归档&#34;&gt;&lt;span class=&#34;toc-section-number&#34;&gt;0.9&lt;/span&gt; 9 分类，给文章归档&lt;/a&gt;
+&lt;ul&gt;
+&lt;li&gt;&lt;a href=&#34;#两个确认-1&#34;&gt;&lt;span class=&#34;toc-section-number&#34;&gt;0.9.1&lt;/span&gt; 9.1 两个确认&lt;/a&gt;&lt;/li&gt;
+&lt;li&gt;&lt;a href=&#34;#新建categories文件&#34;&gt;&lt;span class=&#34;toc-section-number&#34;&gt;0.9.2&lt;/span&gt; 9.2 新建categories文件&lt;/a&gt;&lt;/li&gt;
+&lt;li&gt;&lt;a href=&#34;#修改categoriesindex.md&#34;&gt;&lt;span class=&#34;toc-section-number&#34;&gt;0.9.3&lt;/span&gt; 9.3 修改categories/index.md&lt;/a&gt;&lt;/li&gt;
+&lt;li&gt;&lt;a href=&#34;#在文章中添加categories&#34;&gt;&lt;span class=&#34;toc-section-number&#34;&gt;0.9.4&lt;/span&gt; 9.4 在文章中添加categories&lt;/a&gt;&lt;/li&gt;
+&lt;/ul&gt;&lt;/li&gt;
+&lt;li&gt;&lt;a href=&#34;#添加评论功能&#34;&gt;&lt;span class=&#34;toc-section-number&#34;&gt;0.10&lt;/span&gt; 10 添加评论功能&lt;/a&gt;&lt;/li&gt;
+&lt;/ul&gt;
+&lt;/div&gt;
+
+&lt;p&gt;参考了一篇&lt;a href=&#34;https://github.com/limedroid/HexoLearning#42-直接方式&#34;&gt;非常好的文章&lt;/a&gt;，然后结合自己的实际问题，讲解如何使用github结合hexo建立个人的独立博客。&lt;/p&gt;
+&lt;div id=&#34;hexo介绍&#34; class=&#34;section level2&#34; number=&#34;0.1&#34;&gt;
+&lt;h2&gt;&lt;span class=&#34;header-section-number&#34;&gt;0.1&lt;/span&gt; 1. Hexo介绍&lt;/h2&gt;
+&lt;p&gt;&lt;a href=&#34;https://hexo.io/zh-cn/&#34;&gt;Hexo&lt;/a&gt;是基于NodeJs的静态博客框架，简单、轻量，其生成的静态网页可以托管在Github和Heroku上。&lt;/p&gt;
+&lt;p&gt;. 超快速度
+. 支持MarkDown
+. 一键部署
+. 丰富的插件&lt;/p&gt;
+&lt;p&gt;下面以我的博客为例，&lt;a href=&#34;https://shenxt.github.io/&#34;&gt;shenxt.github.io&lt;/a&gt;为例，讲解如何部署自己的博客。&lt;/p&gt;
+&lt;/div&gt;
+&lt;div id=&#34;环境准备&#34; class=&#34;section level2&#34; number=&#34;0.2&#34;&gt;
+&lt;h2&gt;&lt;span class=&#34;header-section-number&#34;&gt;0.2&lt;/span&gt; 2. 环境准备&lt;/h2&gt;
+&lt;div id=&#34;安装node.js&#34; class=&#34;section level3&#34; number=&#34;0.2.1&#34;&gt;
+&lt;h3&gt;&lt;span class=&#34;header-section-number&#34;&gt;0.2.1&lt;/span&gt; 2.1 安装node.js&lt;/h3&gt;
+&lt;p&gt;去&lt;a href=&#34;https://nodejs.org/en/download/&#34;&gt;nodejs&lt;/a&gt;官网下载对应系统的安装包，按提示安装。&lt;/p&gt;
+&lt;p&gt;检验安装成功，在git shell中输入一下代码：&lt;/p&gt;
+&lt;pre&gt;&lt;code&gt;$ node -v&lt;/code&gt;&lt;/pre&gt;
+&lt;/div&gt;
+&lt;div id=&#34;安装hexo&#34; class=&#34;section level3&#34; number=&#34;0.2.2&#34;&gt;
+&lt;h3&gt;&lt;span class=&#34;header-section-number&#34;&gt;0.2.2&lt;/span&gt; 2.2 安装hexo&lt;/h3&gt;
+&lt;pre&gt;&lt;code&gt;$ npm install hexo-cli -g&lt;/code&gt;&lt;/pre&gt;
+&lt;p&gt;如果是mac，则需要输入：&lt;/p&gt;
+&lt;pre&gt;&lt;code&gt;$ sudo npm install hexo-cli -g&lt;/code&gt;&lt;/pre&gt;
+&lt;/div&gt;
+&lt;/div&gt;
+&lt;div id=&#34;利用hexo搭建一个博客&#34; class=&#34;section level2&#34; number=&#34;0.3&#34;&gt;
+&lt;h2&gt;&lt;span class=&#34;header-section-number&#34;&gt;0.3&lt;/span&gt; 3. 利用Hexo搭建一个博客&lt;/h2&gt;
+&lt;div id=&#34;创建博客目录shenxtgithub.io&#34; class=&#34;section level3&#34; number=&#34;0.3.1&#34;&gt;
+&lt;h3&gt;&lt;span class=&#34;header-section-number&#34;&gt;0.3.1&lt;/span&gt; 3.1 &lt;a href=&#34;mailto:创建博客目录shenxt@github.io&#34; class=&#34;email&#34;&gt;创建博客目录shenxt@github.io&lt;/a&gt;&lt;/h3&gt;
+&lt;pre&gt;&lt;code&gt;$ hexo init shenxt.github.io
+$ cd limedroid.github.io
+$ npm install&lt;/code&gt;&lt;/pre&gt;
+&lt;/div&gt;
+&lt;div id=&#34;生成静态页面&#34; class=&#34;section level3&#34; number=&#34;0.3.2&#34;&gt;
+&lt;h3&gt;&lt;span class=&#34;header-section-number&#34;&gt;0.3.2&lt;/span&gt; 3.2 生成静态页面&lt;/h3&gt;
+&lt;pre&gt;&lt;code&gt;$ hexo clean
+$ hexo g # g is generate&lt;/code&gt;&lt;/pre&gt;
+&lt;/div&gt;
+&lt;div id=&#34;运行&#34; class=&#34;section level3&#34; number=&#34;0.3.3&#34;&gt;
+&lt;h3&gt;&lt;span class=&#34;header-section-number&#34;&gt;0.3.3&lt;/span&gt; 3.3 运行&lt;/h3&gt;
+&lt;pre&gt;&lt;code&gt;$ hexo s -p3600# is server&lt;/code&gt;&lt;/pre&gt;
+&lt;p&gt;然后可以打开浏览器，输入地址 localhost:3600 即可看到效果。&lt;/p&gt;
+&lt;/div&gt;
+&lt;/div&gt;
+&lt;div id=&#34;发一篇文章试试&#34; class=&#34;section level2&#34; number=&#34;0.4&#34;&gt;
+&lt;h2&gt;&lt;span class=&#34;header-section-number&#34;&gt;0.4&lt;/span&gt; 4 发一篇文章试试&lt;/h2&gt;
+&lt;div id=&#34;穿件一个新的博客&#34; class=&#34;section level3&#34; number=&#34;0.4.1&#34;&gt;
+&lt;h3&gt;&lt;span class=&#34;header-section-number&#34;&gt;0.4.1&lt;/span&gt; 4.1 穿件一个新的博客&lt;/h3&gt;
+&lt;pre&gt;&lt;code&gt;$ hexo new test&lt;/code&gt;&lt;/pre&gt;
+&lt;p&gt;此时会在source/posts目录下生成test.md文件，输入一些内容，然后保存。&lt;/p&gt;
+&lt;p&gt;然后看一下效果:&lt;/p&gt;
+&lt;pre&gt;&lt;code&gt;$ hexo clean
+$ hexo g
+$ hexo s -p3600# is server&lt;/code&gt;&lt;/pre&gt;
+&lt;p&gt;然后可以打开浏览器，输入地址 localhost:3600 即可看到效果。&lt;/p&gt;
+&lt;/div&gt;
+&lt;/div&gt;
+&lt;div id=&#34;配置&#34; class=&#34;section level2&#34; number=&#34;0.5&#34;&gt;
+&lt;h2&gt;&lt;span class=&#34;header-section-number&#34;&gt;0.5&lt;/span&gt; 5 配置&lt;/h2&gt;
+&lt;p&gt;网站的设置大部分都在_config.yml文件夹中，详细配置可以查看&lt;a href=&#34;https://hexo.io/zh-cn/docs/configuration.html&#34;&gt;官方文档&lt;/a&gt;。&lt;/p&gt;
+&lt;p&gt;下面只列出简单常用配置:&lt;/p&gt;
+&lt;p&gt;.title -&amp;gt; 网站标题
+.subtitle -&amp;gt; 网站副标题
+.description -&amp;gt; 网站描述
+.author -&amp;gt; 您的名字
+.language -&amp;gt; 网站使用的语言&lt;/p&gt;
+&lt;p&gt;注意：进行配置时，需要在冒号:后加一个英文空格。&lt;/p&gt;
+&lt;/div&gt;
+&lt;div id=&#34;更换主题&#34; class=&#34;section level2&#34; number=&#34;0.6&#34;&gt;
+&lt;h2&gt;&lt;span class=&#34;header-section-number&#34;&gt;0.6&lt;/span&gt; 6 更换主题&lt;/h2&gt;
+&lt;p&gt;在网站配置文件_config.yml中，配置theme。&lt;/p&gt;
+&lt;pre&gt;&lt;code&gt;theme: next&lt;/code&gt;&lt;/pre&gt;
+&lt;p&gt;next是主题的名字。Hexo有不同的人贡献主题，可以到其&lt;a href=&#34;https://hexo.io/themes/index.html&#34;&gt;官方网站&lt;/a&gt;上下载不同主题。看中某一主题之后，直接点击其名字，进入到其github界面，然后复制其网址，使用下面代码，即可下载主题到本地。&lt;/p&gt;
+&lt;pre&gt;&lt;code&gt;git clone https://github.com/fi3ework/hexo-theme-archer&lt;/code&gt;&lt;/pre&gt;
+&lt;p&gt;然后将博客的配置文件theme修改为archer即可。&lt;/p&gt;
+&lt;p&gt;观察效果：&lt;/p&gt;
+&lt;pre&gt;&lt;code&gt;$ hexo clean
+$ hexo g
+$ hexo s -p3600# is server&lt;/code&gt;&lt;/pre&gt;
+&lt;/div&gt;
+&lt;div id=&#34;部署到github上&#34; class=&#34;section level2&#34; number=&#34;0.7&#34;&gt;
+&lt;h2&gt;&lt;span class=&#34;header-section-number&#34;&gt;0.7&lt;/span&gt; 7 部署到github上&lt;/h2&gt;
+&lt;div id=&#34;在github网页版上创建和自己账户名相同的仓库比如我的账户为shenxt因此创建的仓库为shenxt.github.io&#34; class=&#34;section level3&#34; number=&#34;0.7.1&#34;&gt;
+&lt;h3&gt;&lt;span class=&#34;header-section-number&#34;&gt;0.7.1&lt;/span&gt; 7.1 在github网页版上创建和自己账户名相同的仓库，比如我的账户为shenxt，因此，创建的仓库为shenxt.github.io。&lt;/h3&gt;
+&lt;/div&gt;
+&lt;div id=&#34;安装hexo-deployer-git&#34; class=&#34;section level3&#34; number=&#34;0.7.2&#34;&gt;
+&lt;h3&gt;&lt;span class=&#34;header-section-number&#34;&gt;0.7.2&lt;/span&gt; 7.2 安装hexo-deployer-git&lt;/h3&gt;
+&lt;pre&gt;&lt;code&gt;$ npm install hexo-deployer-git --save&lt;/code&gt;&lt;/pre&gt;
+&lt;/div&gt;
+&lt;div id=&#34;网站配置git&#34; class=&#34;section level3&#34; number=&#34;0.7.3&#34;&gt;
+&lt;h3&gt;&lt;span class=&#34;header-section-number&#34;&gt;0.7.3&lt;/span&gt; 7.3 网站配置git&lt;/h3&gt;
+&lt;p&gt;在网上的配置文件_config.yml中配置deploy。&lt;/p&gt;
+&lt;pre class=&#34;deploy:&#34;&gt;&lt;code&gt;  type: git
+  repo: https://github.com/shenxt/shenxt.github.io
+  branch: master&lt;/code&gt;&lt;/pre&gt;
+&lt;/div&gt;
+&lt;div id=&#34;部署&#34; class=&#34;section level3&#34; number=&#34;0.7.4&#34;&gt;
+&lt;h3&gt;&lt;span class=&#34;header-section-number&#34;&gt;0.7.4&lt;/span&gt; 7.4 部署&lt;/h3&gt;
+&lt;pre&gt;&lt;code&gt;$ hexo d# d is deploy&lt;/code&gt;&lt;/pre&gt;
+&lt;/div&gt;
+&lt;/div&gt;
+&lt;div id=&#34;贴标签方便搜索&#34; class=&#34;section level2&#34; number=&#34;0.8&#34;&gt;
+&lt;h2&gt;&lt;span class=&#34;header-section-number&#34;&gt;0.8&lt;/span&gt; 贴标签，方便搜索&lt;/h2&gt;
+&lt;div id=&#34;两个确认&#34; class=&#34;section level3&#34; number=&#34;0.8.1&#34;&gt;
+&lt;h3&gt;&lt;span class=&#34;header-section-number&#34;&gt;0.8.1&lt;/span&gt; 8.1 两个确认&lt;/h3&gt;
+&lt;p&gt;. 首先确认博客的配置文件中有：&lt;/p&gt;
+&lt;pre&gt;&lt;code&gt;tag_dir: tags&lt;/code&gt;&lt;/pre&gt;
+&lt;p&gt;. 然后确认主题的配置文件有：&lt;/p&gt;
+&lt;pre&gt;&lt;code&gt;tags: tags&lt;/code&gt;&lt;/pre&gt;
+&lt;/div&gt;
+&lt;div id=&#34;新建tags页面&#34; class=&#34;section level3&#34; number=&#34;0.8.2&#34;&gt;
+&lt;h3&gt;&lt;span class=&#34;header-section-number&#34;&gt;0.8.2&lt;/span&gt; 8.2 新建tags页面&lt;/h3&gt;
+&lt;pre&gt;&lt;code&gt;$ hexo new page tags&lt;/code&gt;&lt;/pre&gt;
+&lt;p&gt;此时会在source/下生成tags/index.md文件。&lt;/p&gt;
+&lt;/div&gt;
+&lt;div id=&#34;修改sourcetagsindex.md&#34; class=&#34;section level3&#34; number=&#34;0.8.3&#34;&gt;
+&lt;h3&gt;&lt;span class=&#34;header-section-number&#34;&gt;0.8.3&lt;/span&gt; 8.3 修改source/tags/index.md&lt;/h3&gt;
+&lt;pre&gt;&lt;code&gt;title: tags
+date: 2015-10-20 06:49:50
+type: &amp;quot;tags&amp;quot;
+comments: false&lt;/code&gt;&lt;/pre&gt;
+&lt;/div&gt;
+&lt;div id=&#34;在文章中添加tags&#34; class=&#34;section level3&#34; number=&#34;0.8.4&#34;&gt;
+&lt;h3&gt;&lt;span class=&#34;header-section-number&#34;&gt;0.8.4&lt;/span&gt; 8.4 在文章中添加tags&lt;/h3&gt;
+&lt;p&gt;在你的文章中添加：&lt;/p&gt;
+&lt;pre&gt;&lt;code&gt;tags:
+    - Tag1
+    - Tag2
+    - Tag3&lt;/code&gt;&lt;/pre&gt;
+&lt;p&gt;其文件头部类似于：&lt;/p&gt;
+&lt;pre&gt;&lt;code&gt;title: TagEditText
+date: 2016-11-19 10:44:25
+tags:
+    - Tag1
+    - Tag2
+    - Tag3&lt;/code&gt;&lt;/pre&gt;
+&lt;/div&gt;
+&lt;/div&gt;
+&lt;div id=&#34;分类给文章归档&#34; class=&#34;section level2&#34; number=&#34;0.9&#34;&gt;
+&lt;h2&gt;&lt;span class=&#34;header-section-number&#34;&gt;0.9&lt;/span&gt; 9 分类，给文章归档&lt;/h2&gt;
+&lt;div id=&#34;两个确认-1&#34; class=&#34;section level3&#34; number=&#34;0.9.1&#34;&gt;
+&lt;h3&gt;&lt;span class=&#34;header-section-number&#34;&gt;0.9.1&lt;/span&gt; 9.1 两个确认&lt;/h3&gt;
+&lt;p&gt;. 确认博客配置文件打开了&lt;/p&gt;
+&lt;pre&gt;&lt;code&gt;category_dir: categories&lt;/code&gt;&lt;/pre&gt;
+&lt;p&gt;. 确认主题配置文件打开了&lt;/p&gt;
+&lt;pre&gt;&lt;code&gt;categories: /categories&lt;/code&gt;&lt;/pre&gt;
+&lt;/div&gt;
+&lt;div id=&#34;新建categories文件&#34; class=&#34;section level3&#34; number=&#34;0.9.2&#34;&gt;
+&lt;h3&gt;&lt;span class=&#34;header-section-number&#34;&gt;0.9.2&lt;/span&gt; 9.2 新建categories文件&lt;/h3&gt;
+&lt;pre&gt;&lt;code&gt;hexo new page categories&lt;/code&gt;&lt;/pre&gt;
+&lt;/div&gt;
+&lt;div id=&#34;修改categoriesindex.md&#34; class=&#34;section level3&#34; number=&#34;0.9.3&#34;&gt;
+&lt;h3&gt;&lt;span class=&#34;header-section-number&#34;&gt;0.9.3&lt;/span&gt; 9.3 修改categories/index.md&lt;/h3&gt;
+&lt;pre&gt;&lt;code&gt;title: categories
+date: 2015-10-20 06:49:50
+type: &amp;quot;categories&amp;quot;
+comments: false&lt;/code&gt;&lt;/pre&gt;
+&lt;/div&gt;
+&lt;div id=&#34;在文章中添加categories&#34; class=&#34;section level3&#34; number=&#34;0.9.4&#34;&gt;
+&lt;h3&gt;&lt;span class=&#34;header-section-number&#34;&gt;0.9.4&lt;/span&gt; 9.4 在文章中添加categories&lt;/h3&gt;
+&lt;p&gt;在文章中添加：&lt;/p&gt;
+&lt;pre&gt;&lt;code&gt;categories:
+    - cate&lt;/code&gt;&lt;/pre&gt;
+&lt;p&gt;其文件头部类似：&lt;/p&gt;
+&lt;pre&gt;&lt;code&gt;title: TagEditText
+date: 2016-11-19 10:44:25
+categories:
+    - cate&lt;/code&gt;&lt;/pre&gt;
+&lt;/div&gt;
+&lt;/div&gt;
+&lt;div id=&#34;添加评论功能&#34; class=&#34;section level2&#34; number=&#34;0.10&#34;&gt;
+&lt;h2&gt;&lt;span class=&#34;header-section-number&#34;&gt;0.10&lt;/span&gt; 10 添加评论功能&lt;/h2&gt;
+&lt;p&gt;这里推荐使用韩国的来必力系统。参考&lt;a href=&#34;https://www.drixn.com/2017/LiveReCommentsSystem/&#34;&gt;这个博客&lt;/a&gt;进行设置。&lt;/p&gt;
+&lt;/div&gt;
+</description>
+    </item>
+    
+    <item>
+      <title>我的第一篇博客</title>
+      <link>https://jaspershen.github.io/post/2016-11-25-first-blog/</link>
+      <pubDate>Fri, 25 Nov 2016 00:00:00 +0000</pubDate>
+      <guid>https://jaspershen.github.io/post/2016-11-25-first-blog/</guid>
+      <description>
+&lt;script src=&#34;index_files/header-attrs/header-attrs.js&#34;&gt;&lt;/script&gt;
+
+&lt;div id=&#34;TOC&#34;&gt;
+&lt;ul&gt;
+&lt;li&gt;&lt;a href=&#34;#我的博客&#34;&gt;&lt;span class=&#34;toc-section-number&#34;&gt;1&lt;/span&gt; 我的博客&lt;/a&gt;&lt;/li&gt;
+&lt;/ul&gt;
+&lt;/div&gt;
+
+&lt;div id=&#34;我的博客&#34; class=&#34;section level1&#34; number=&#34;1&#34;&gt;
+&lt;h1&gt;&lt;span class=&#34;header-section-number&#34;&gt;1&lt;/span&gt; 我的博客&lt;/h1&gt;
+&lt;p&gt;我的博客使用markdown编写，使用的编辑器是ATOM，使用起来还是非常方便的。以后有时间，就用博客来记录我的学习，生活和工作。&lt;/p&gt;
+&lt;p&gt;申祖涛于上海&lt;/p&gt;
+&lt;p&gt;2016年11月25日晚8点十分&lt;/p&gt;
+&lt;/div&gt;
+</description>
+    </item>
+    
+    <item>
+      <title>使用Github Pages建独立博客</title>
+      <link>https://jaspershen.github.io/post/2012-02-22-github-pages/</link>
+      <pubDate>Wed, 22 Feb 2012 00:00:00 +0000</pubDate>
+      <guid>https://jaspershen.github.io/post/2012-02-22-github-pages/</guid>
+      <description>
+&lt;script src=&#34;index_files/header-attrs/header-attrs.js&#34;&gt;&lt;/script&gt;
+
+&lt;div id=&#34;TOC&#34;&gt;
+&lt;ul&gt;
+&lt;li&gt;&lt;a href=&#34;#购买绑定独立域名&#34;&gt;&lt;span class=&#34;toc-section-number&#34;&gt;0.1&lt;/span&gt; 购买、绑定独立域名&lt;/a&gt;&lt;/li&gt;
+&lt;li&gt;&lt;a href=&#34;#配置和使用github&#34;&gt;&lt;span class=&#34;toc-section-number&#34;&gt;0.2&lt;/span&gt; 配置和使用Github&lt;/a&gt;
+&lt;ul&gt;
+&lt;li&gt;&lt;a href=&#34;#检查ssh-keys的设置&#34;&gt;&lt;span class=&#34;toc-section-number&#34;&gt;0.2.1&lt;/span&gt; 1、检查SSH keys的设置&lt;/a&gt;&lt;/li&gt;
+&lt;li&gt;&lt;a href=&#34;#备份和移除原来的ssh-key设置&#34;&gt;&lt;span class=&#34;toc-section-number&#34;&gt;0.2.2&lt;/span&gt; 2、备份和移除原来的ssh key设置：&lt;/a&gt;&lt;/li&gt;
+&lt;li&gt;&lt;a href=&#34;#生成新的ssh-key&#34;&gt;&lt;span class=&#34;toc-section-number&#34;&gt;0.2.3&lt;/span&gt; 3、生成新的SSH Key：&lt;/a&gt;&lt;/li&gt;
+&lt;li&gt;&lt;a href=&#34;#添加ssh-key到github&#34;&gt;&lt;span class=&#34;toc-section-number&#34;&gt;0.2.4&lt;/span&gt; 4、添加SSH Key到GitHub：&lt;/a&gt;&lt;/li&gt;
+&lt;li&gt;&lt;a href=&#34;#测试一下&#34;&gt;&lt;span class=&#34;toc-section-number&#34;&gt;0.2.5&lt;/span&gt; 5、测试一下&lt;/a&gt;&lt;/li&gt;
+&lt;li&gt;&lt;a href=&#34;#设置你的账号信息&#34;&gt;&lt;span class=&#34;toc-section-number&#34;&gt;0.2.6&lt;/span&gt; 6、设置你的账号信息&lt;/a&gt;&lt;/li&gt;
+&lt;li&gt;&lt;a href=&#34;#成功了&#34;&gt;&lt;span class=&#34;toc-section-number&#34;&gt;0.2.7&lt;/span&gt; 成功了&lt;/a&gt;&lt;/li&gt;
+&lt;/ul&gt;&lt;/li&gt;
+&lt;li&gt;&lt;a href=&#34;#使用github-pages建立博客&#34;&gt;&lt;span class=&#34;toc-section-number&#34;&gt;0.3&lt;/span&gt; 使用GitHub Pages建立博客&lt;/a&gt;
+&lt;ul&gt;
+&lt;li&gt;&lt;a href=&#34;#user-organization-pages&#34;&gt;&lt;span class=&#34;toc-section-number&#34;&gt;0.3.1&lt;/span&gt; User &amp;amp; Organization Pages&lt;/a&gt;&lt;/li&gt;
+&lt;li&gt;&lt;a href=&#34;#绑定域名&#34;&gt;&lt;span class=&#34;toc-section-number&#34;&gt;0.3.2&lt;/span&gt; 绑定域名&lt;/a&gt;&lt;/li&gt;
+&lt;/ul&gt;&lt;/li&gt;
+&lt;li&gt;&lt;a href=&#34;#jekyll模板系统&#34;&gt;&lt;span class=&#34;toc-section-number&#34;&gt;0.4&lt;/span&gt; Jekyll模板系统&lt;/a&gt;
+&lt;ul&gt;
+&lt;li&gt;&lt;a href=&#34;#jekyll基本结构&#34;&gt;&lt;span class=&#34;toc-section-number&#34;&gt;0.4.1&lt;/span&gt; Jekyll基本结构&lt;/a&gt;&lt;/li&gt;
+&lt;li&gt;&lt;a href=&#34;#jekyll的配置&#34;&gt;&lt;span class=&#34;toc-section-number&#34;&gt;0.4.2&lt;/span&gt; Jekyll的配置&lt;/a&gt;&lt;/li&gt;
+&lt;li&gt;&lt;a href=&#34;#yaml-front-matter和模板变量&#34;&gt;&lt;span class=&#34;toc-section-number&#34;&gt;0.4.3&lt;/span&gt; YAML Front Matter和模板变量&lt;/a&gt;&lt;/li&gt;
+&lt;/ul&gt;&lt;/li&gt;
+&lt;li&gt;&lt;a href=&#34;#使用disqus管理评论&#34;&gt;&lt;span class=&#34;toc-section-number&#34;&gt;0.5&lt;/span&gt; 使用Disqus管理评论&lt;/a&gt;&lt;/li&gt;
+&lt;li&gt;&lt;a href=&#34;#代码高亮插件&#34;&gt;&lt;span class=&#34;toc-section-number&#34;&gt;0.6&lt;/span&gt; 代码高亮插件&lt;/a&gt;&lt;/li&gt;
+&lt;li&gt;&lt;a href=&#34;#搭建本地jekyll环境&#34;&gt;&lt;span class=&#34;toc-section-number&#34;&gt;0.7&lt;/span&gt; 搭建本地jekyll环境&lt;/a&gt;&lt;/li&gt;
+&lt;li&gt;&lt;a href=&#34;#结语&#34;&gt;&lt;span class=&#34;toc-section-number&#34;&gt;0.8&lt;/span&gt; 结语&lt;/a&gt;&lt;/li&gt;
+&lt;/ul&gt;
+&lt;/div&gt;
+
+&lt;p&gt;&lt;a href=&#34;http://github.com&#34; title=&#34;Github&#34;&gt;Github&lt;/a&gt;很好的将代码和社区联系在了一起，于是发生了很多有趣的事情，世界也因为他美好了一点点。Github作为现在最流行的代码仓库，已经得到很多大公司和项目的青睐，比如&lt;a href=&#34;https://github.com/jquery/jquery&#34; title=&#34;jQuery@github&#34;&gt;jQuery&lt;/a&gt;、&lt;a href=&#34;https://github.com/twitter/bootstrap&#34; title=&#34;Twitter@github&#34;&gt;Twitter&lt;/a&gt;等。为使项目更方便的被人理解，介绍页面少不了，甚至会需要完整的文档站，Github替你想到了这一点，他提供了&lt;a href=&#34;http://pages.github.com/&#34; title=&#34;Github Pages&#34;&gt;Github Pages&lt;/a&gt;的服务，不仅可以方便的为项目建立介绍站点，也可以用来建立个人博客。&lt;/p&gt;
+&lt;p&gt;Github Pages有以下几个优点：&lt;/p&gt;
+&lt;ul&gt;
+&lt;li&gt;
+轻量级的博客系统，没有麻烦的配置
+&lt;/li&gt;
+&lt;li&gt;
+使用标记语言，比如&lt;a href=&#34;http://markdown.tw&#34;&gt;Markdown&lt;/a&gt;
+&lt;/li&gt;
+&lt;li&gt;
+无需自己搭建服务器
+&lt;/li&gt;
+&lt;li&gt;
+根据Github的限制，对应的每个站有300MB空间
+&lt;/li&gt;
+&lt;li&gt;
+可以绑定自己的域名
+&lt;/li&gt;
+&lt;/ul&gt;
+&lt;p&gt;当然他也有缺点：&lt;/p&gt;
+&lt;ul&gt;
+&lt;li&gt;使用&lt;a href=&#34;https://github.com/mojombo/jekyll&#34; title=&#34;Jekyll&#34;&gt;Jekyll&lt;/a&gt;模板系统，相当于静态页发布，适合博客，文档介绍等。&lt;/li&gt;
+&lt;li&gt;动态程序的部分相当局限，比如没有评论，不过还好我们有解决方案。&lt;/li&gt;
+&lt;li&gt;基于Git，很多东西需要动手，不像Wordpress有强大的后台&lt;/li&gt;
+&lt;/ul&gt;
+&lt;p&gt;大致介绍到此，作为个人博客来说，简洁清爽的表达自己的工作、心得，就已达目标，所以Github Pages是我认为此需求最完美的解决方案了。&lt;/p&gt;
+&lt;div id=&#34;购买绑定独立域名&#34; class=&#34;section level2&#34; number=&#34;0.1&#34;&gt;
+&lt;h2&gt;&lt;span class=&#34;header-section-number&#34;&gt;0.1&lt;/span&gt; 购买、绑定独立域名&lt;/h2&gt;
+&lt;p&gt;虽说&lt;a href=&#34;http://www.godaddy.com/&#34; title=&#34;Godaddy&#34;&gt;Godaddy&lt;/a&gt;曾支持过SOPA，并且首页放着极其不专业的大胸美女，但是作为域名服务商他做的还不赖，选择它最重要的原因是他支持支付宝，没有信用卡有时真的很难过。&lt;/p&gt;
+&lt;p&gt;域名的购买不用多讲，注册、选域名、支付，有网购经验的都毫无压力，优惠码也遍地皆是。域名的配置需要提醒一下，因为伟大英明的GFW的存在，我们必须多做些事情。&lt;/p&gt;
+&lt;p&gt;流传Godaddy的域名解析服务器被墙掉，导致域名无法访问，后来这个事情在&lt;a href=&#34;http://beiyuu.com&#34; title=&#34;BeiYuu&#34;&gt;BeiYuu&lt;/a&gt;也发生了，不得已需要把域名解析服务迁移到国内比较稳定的服务商处，这个迁移对于域名来说没有什么风险，最终的控制权还是在Godaddy那里，你随时都可以改回去。&lt;/p&gt;
+&lt;p&gt;我们选择&lt;a href=&#34;https://www.dnspod.cn/&#34; title=&#34;DNSPod&#34;&gt;DNSPod&lt;/a&gt;的服务，他们的产品做得不错，易用、免费，收费版有更高端的功能，暂不需要。注册登录之后，按照DNSPod的说法，只需三步（我们插入一步）：&lt;/p&gt;
+&lt;ul&gt;
+&lt;li&gt;
+首先添加域名记录，可参考DNSPod的帮助文档：&lt;a href=&#34;https://www.dnspod.cn/Support&#34;&gt;https://www.dnspod.cn/Support&lt;/a&gt;
+&lt;/li&gt;
+&lt;li&gt;
+在DNSPod自己的域名下添加一条&lt;a href=&#34;http://baike.baidu.com/view/65575.htm&#34;&gt;A记录&lt;/a&gt;，地址就是Github Pages的服务IP地址：207.97.227.245
+&lt;/li&gt;
+&lt;li&gt;
+在域名注册商处修改DNS服务:去Godaddy修改Nameservers为这两个地址：f1g1ns1.dnspod.net、f1g1ns2.dnspod.net。如果你不明白在哪里修改，可以参考这里：&lt;a href=&#34;https://www.dnspod.cn/support/index/fid/119&#34;&gt;Godaddy注册的域名如何使用DNSPod&lt;/a&gt;
+&lt;/li&gt;
+&lt;li&gt;
+等待域名解析生效
+&lt;/li&gt;
+&lt;/ul&gt;
+&lt;p&gt;域名的配置部分完成，跪谢方校长。&lt;/p&gt;
+&lt;/div&gt;
+&lt;div id=&#34;配置和使用github&#34; class=&#34;section level2&#34; number=&#34;0.2&#34;&gt;
+&lt;h2&gt;&lt;span class=&#34;header-section-number&#34;&gt;0.2&lt;/span&gt; 配置和使用Github&lt;/h2&gt;
+&lt;p&gt;Git是版本管理的未来，他的优点我不再赘述，相关资料很多。推荐这本&lt;a href=&#34;http://progit.org/book/zh/&#34; title=&#34;Pro Git中文版&#34;&gt;Git中文教程&lt;/a&gt;。&lt;/p&gt;
+&lt;p&gt;要使用Git，需要安装它的客户端，推荐在Linux下使用Git，会比较方便。Windows版的下载地址在这里：&lt;a href=&#34;http://code.google.com/p/msysgit/downloads/list&#34; title=&#34;Windows版Git客户端&#34;&gt;http://code.google.com/p/msysgit/downloads/list&lt;/a&gt;。其他系统的安装也可以参考官方的&lt;a href=&#34;http://help.github.com/mac-set-up-git/&#34; title=&#34;Mac下Git安装&#34;&gt;安装教程&lt;/a&gt;。&lt;/p&gt;
+&lt;p&gt;下载安装客户端之后，各个系统的配置就类似了，我们使用windows作为例子，Linux和Mac与此类似。&lt;/p&gt;
+&lt;p&gt;在Windows下，打开Git Bash，其他系统下面则打开终端（Terminal）：
+&lt;img src=&#34;https://jaspershen.github.io/images/githubpages/bootcamp_1_win_gitbash.jpg&#34; alt=&#34;Git Bash&#34; /&gt;&lt;/p&gt;
+&lt;div id=&#34;检查ssh-keys的设置&#34; class=&#34;section level3&#34; number=&#34;0.2.1&#34;&gt;
+&lt;h3&gt;&lt;span class=&#34;header-section-number&#34;&gt;0.2.1&lt;/span&gt; 1、检查SSH keys的设置&lt;/h3&gt;
+&lt;p&gt;首先我们需要检查你电脑上现有的ssh key：&lt;/p&gt;
+&lt;pre&gt;&lt;code&gt;$ cd ~/.ssh&lt;/code&gt;&lt;/pre&gt;
+&lt;p&gt;如果显示“No such file or directory”，跳到第三步，否则继续。&lt;/p&gt;
+&lt;/div&gt;
+&lt;div id=&#34;备份和移除原来的ssh-key设置&#34; class=&#34;section level3&#34; number=&#34;0.2.2&#34;&gt;
+&lt;h3&gt;&lt;span class=&#34;header-section-number&#34;&gt;0.2.2&lt;/span&gt; 2、备份和移除原来的ssh key设置：&lt;/h3&gt;
+&lt;p&gt;因为已经存在key文件，所以需要备份旧的数据并删除：&lt;/p&gt;
+&lt;pre&gt;&lt;code&gt;$ ls
+config  id_rsa  id_rsa.pub  known_hosts
+$ mkdir key_backup
+$ cp id_rsa* key_backup
+$ rm id_rsa*&lt;/code&gt;&lt;/pre&gt;
+&lt;/div&gt;
+&lt;div id=&#34;生成新的ssh-key&#34; class=&#34;section level3&#34; number=&#34;0.2.3&#34;&gt;
+&lt;h3&gt;&lt;span class=&#34;header-section-number&#34;&gt;0.2.3&lt;/span&gt; 3、生成新的SSH Key：&lt;/h3&gt;
+&lt;p&gt;输入下面的代码，就可以生成新的key文件，我们只需要默认设置就好，所以当需要输入文件名的时候，回车就好。&lt;/p&gt;
+&lt;pre&gt;&lt;code&gt;$ ssh-keygen -t rsa -C &amp;quot;邮件地址@youremail.com&amp;quot;
+Generating public/private rsa key pair.
+Enter file in which to save the key (/Users/your_user_directory/.ssh/id_rsa):&amp;lt;回车就好&amp;gt;&lt;/code&gt;&lt;/pre&gt;
+&lt;p&gt;然后系统会要你输入加密串（&lt;a href=&#34;http://help.github.com/ssh-key-passphrases/&#34;&gt;Passphrase&lt;/a&gt;）：&lt;/p&gt;
+&lt;pre&gt;&lt;code&gt;Enter passphrase (empty for no passphrase):&amp;lt;输入加密串&amp;gt;
+Enter same passphrase again:&amp;lt;再次输入加密串&amp;gt;&lt;/code&gt;&lt;/pre&gt;
+&lt;p&gt;最后看到这样的界面，就成功设置ssh key了：
+&lt;img src=&#34;https://jaspershen.github.io/images/githubpages/ssh-key-set.png&#34; alt=&#34;ssh key success&#34; /&gt;&lt;/p&gt;
+&lt;/div&gt;
+&lt;div id=&#34;添加ssh-key到github&#34; class=&#34;section level3&#34; number=&#34;0.2.4&#34;&gt;
+&lt;h3&gt;&lt;span class=&#34;header-section-number&#34;&gt;0.2.4&lt;/span&gt; 4、添加SSH Key到GitHub：&lt;/h3&gt;
+&lt;p&gt;在本机设置SSH Key之后，需要添加到GitHub上，以完成SSH链接的设置。&lt;/p&gt;
+&lt;p&gt;用文本编辑工具打开id_rsa.pub文件，如果看不到这个文件，你需要设置显示隐藏文件。准确的复制这个文件的内容，才能保证设置的成功。&lt;/p&gt;
+&lt;p&gt;在GitHub的主页上点击设置按钮：
+&lt;img src=&#34;https://jaspershen.github.io/images/githubpages/github-account-setting.png&#34; alt=&#34;github account setting&#34; /&gt;&lt;/p&gt;
+&lt;p&gt;选择SSH Keys项，把复制的内容粘贴进去，然后点击Add Key按钮即可：
+&lt;img src=&#34;https://jaspershen.github.io/images/githubpages/bootcamp_1_ssh.jpg&#34; alt=&#34;set ssh keys&#34; /&gt;&lt;/p&gt;
+&lt;p&gt;PS：如果需要配置多个GitHub账号，可以参看这个&lt;a href=&#34;http://omiga.org/blog/archives/2269&#34;&gt;多个github帐号的SSH key切换&lt;/a&gt;，不过需要提醒一下的是，如果你只是通过这篇文章中所述配置了Host，那么你多个账号下面的提交用户会是一个人，所以需要通过命令&lt;code&gt;git config --global --unset user.email&lt;/code&gt;删除用户账户设置，在每一个repo下面使用&lt;code&gt;git config --local user.email &#39;你的github邮箱@mail.com&#39;&lt;/code&gt; 命令单独设置用户账户信息&lt;/p&gt;
+&lt;/div&gt;
+&lt;div id=&#34;测试一下&#34; class=&#34;section level3&#34; number=&#34;0.2.5&#34;&gt;
+&lt;h3&gt;&lt;span class=&#34;header-section-number&#34;&gt;0.2.5&lt;/span&gt; 5、测试一下&lt;/h3&gt;
+&lt;p&gt;可以输入下面的命令，看看设置是否成功，&lt;code&gt;git@github.com&lt;/code&gt;的部分不要修改：&lt;/p&gt;
+&lt;pre&gt;&lt;code&gt;$ ssh -T git@github.com&lt;/code&gt;&lt;/pre&gt;
+&lt;p&gt;如果是下面的反应：&lt;/p&gt;
+&lt;pre&gt;&lt;code&gt;The authenticity of host &amp;#39;github.com (207.97.227.239)&amp;#39; can&amp;#39;t be established.
+RSA key fingerprint is 16:27:ac:a5:76:28:2d:36:63:1b:56:4d:eb:df:a6:48.
+Are you sure you want to continue connecting (yes/no)?&lt;/code&gt;&lt;/pre&gt;
+&lt;p&gt;不要紧张，输入&lt;code&gt;yes&lt;/code&gt;就好，然后会看到：&lt;/p&gt;
+&lt;pre&gt;&lt;code&gt;Hi &amp;lt;em&amp;gt;username&amp;lt;/em&amp;gt;! You&amp;#39;ve successfully authenticated, but GitHub does not provide shell access.&lt;/code&gt;&lt;/pre&gt;
+&lt;/div&gt;
+&lt;div id=&#34;设置你的账号信息&#34; class=&#34;section level3&#34; number=&#34;0.2.6&#34;&gt;
+&lt;h3&gt;&lt;span class=&#34;header-section-number&#34;&gt;0.2.6&lt;/span&gt; 6、设置你的账号信息&lt;/h3&gt;
+&lt;p&gt;现在你已经可以通过SSH链接到GitHub了，还有一些个人信息需要完善的。&lt;/p&gt;
+&lt;p&gt;Git会根据用户的名字和邮箱来记录提交。GitHub也是用这些信息来做权限的处理，输入下面的代码进行个人信息的设置，把名称和邮箱替换成你自己的，名字必须是你的真名，而不是GitHub的昵称。&lt;/p&gt;
+&lt;pre&gt;&lt;code&gt;$ git config --global user.name &amp;quot;你的名字&amp;quot;
+$ git config --global user.email &amp;quot;your_email@youremail.com&amp;quot;&lt;/code&gt;&lt;/pre&gt;
+&lt;div id=&#34;设置github的token&#34; class=&#34;section level4&#34; number=&#34;0.2.6.1&#34;&gt;
+&lt;h4&gt;&lt;span class=&#34;header-section-number&#34;&gt;0.2.6.1&lt;/span&gt; 设置GitHub的token&lt;/h4&gt;
+&lt;p&gt;2012-4-28补充：新版的接口已经不需要配置token了，所以下面这段可以跳过了&lt;/p&gt;
+&lt;p&gt;有些工具没有通过SSH来链接GitHub。如果要使用这类工具，你需要找到然后设置你的API Token。&lt;/p&gt;
+&lt;p&gt;在GitHub上，你可以点击&lt;em&gt;Account Setting &amp;gt; Account Admin&lt;/em&gt;：
+&lt;img src=&#34;https://jaspershen.github.io/images/githubpages/bootcamp_1_token.jpg&#34; alt=&#34;set ssh keys&#34; /&gt;&lt;/p&gt;
+&lt;p&gt;然后在你的命令行中，输入下面的命令，把token添加进去：&lt;/p&gt;
+&lt;pre&gt;&lt;code&gt;$ git config --global user.name &amp;quot;你的名字&amp;quot;
+$ git config --global user.token 0123456789your123456789token&lt;/code&gt;&lt;/pre&gt;
+&lt;p&gt;如果你改了GitHub的密码，需要重新设置token。&lt;/p&gt;
+&lt;/div&gt;
+&lt;/div&gt;
+&lt;div id=&#34;成功了&#34; class=&#34;section level3&#34; number=&#34;0.2.7&#34;&gt;
+&lt;h3&gt;&lt;span class=&#34;header-section-number&#34;&gt;0.2.7&lt;/span&gt; 成功了&lt;/h3&gt;
+&lt;p&gt;好了，你已经可以成功连接GitHub了。&lt;/p&gt;
+&lt;/div&gt;
+&lt;/div&gt;
+&lt;div id=&#34;使用github-pages建立博客&#34; class=&#34;section level2&#34; number=&#34;0.3&#34;&gt;
+&lt;h2&gt;&lt;span class=&#34;header-section-number&#34;&gt;0.3&lt;/span&gt; 使用GitHub Pages建立博客&lt;/h2&gt;
+&lt;p&gt;与GitHub建立好链接之后，就可以方便的使用它提供的Pages服务，GitHub Pages分两种，一种是你的GitHub用户名建立的&lt;code&gt;username.github.io&lt;/code&gt;这样的用户&amp;amp;组织页（站），另一种是依附项目的pages。&lt;/p&gt;
+&lt;div id=&#34;user-organization-pages&#34; class=&#34;section level3&#34; number=&#34;0.3.1&#34;&gt;
+&lt;h3&gt;&lt;span class=&#34;header-section-number&#34;&gt;0.3.1&lt;/span&gt; User &amp;amp; Organization Pages&lt;/h3&gt;
+&lt;p&gt;想建立个人博客是用的第一种，形如&lt;code&gt;beiyuu.github.io&lt;/code&gt;这样的可访问的站，每个用户名下面只能建立一个，创建之后点击&lt;code&gt;Admin&lt;/code&gt;进入项目管理，可以看到是这样的：
+&lt;img src=&#34;https://jaspershen.github.io/images/githubpages/user-pages.png&#34; alt=&#34;user pages&#34; /&gt;
+而普通的项目是这样的，即使你也是用的&lt;code&gt;othername.github.io&lt;/code&gt;：
+&lt;img src=&#34;https://jaspershen.github.io/images/githubpages/other-pages.png&#34; alt=&#34;other pages&#34; /&gt;&lt;/p&gt;
+&lt;p&gt;创建好&lt;code&gt;username.github.io&lt;/code&gt;项目之后，提交一个&lt;code&gt;index.html&lt;/code&gt;文件，然后&lt;code&gt;push&lt;/code&gt;到GitHub的&lt;code&gt;master&lt;/code&gt;分支（也就是普通意义上的主干）。第一次页面生效需要一些时间，大概10分钟左右。&lt;/p&gt;
+&lt;p&gt;生效之后，访问&lt;code&gt;username.github.io&lt;/code&gt;就可以看到你上传的页面了，&lt;a href=&#34;http://beiyuu.github.io&#34;&gt;beiyuu.github.io&lt;/a&gt;就是一个例子。&lt;/p&gt;
+&lt;p&gt;关于第二种项目&lt;code&gt;pages&lt;/code&gt;，简单提一下，他和用户pages使用的后台程序是同一套，只不过它的目的是项目的帮助文档等跟项目绑定的内容，所以需要在项目的&lt;code&gt;gh-pages&lt;/code&gt;分支上去提交相应的文件，GitHub会自动帮你生成项目pages。具体的使用帮助可以参考&lt;a href=&#34;http://pages.github.com/&#34; title=&#34;Github Pages&#34;&gt;Github Pages&lt;/a&gt;的官方文档：&lt;/p&gt;
+&lt;/div&gt;
+&lt;div id=&#34;绑定域名&#34; class=&#34;section level3&#34; number=&#34;0.3.2&#34;&gt;
+&lt;h3&gt;&lt;span class=&#34;header-section-number&#34;&gt;0.3.2&lt;/span&gt; 绑定域名&lt;/h3&gt;
+&lt;p&gt;我们在第一部分就提到了在DNS部分的设置，再来看在GitHub的配置，要想让&lt;code&gt;username.github.io&lt;/code&gt;能通过你自己的域名来访问，需要在项目的根目录下新建一个名为&lt;code&gt;CNAME&lt;/code&gt;的文件，文件内容形如：&lt;/p&gt;
+&lt;pre&gt;&lt;code&gt;beiyuu.com&lt;/code&gt;&lt;/pre&gt;
+&lt;p&gt;你也可以绑定在二级域名上：&lt;/p&gt;
+&lt;pre&gt;&lt;code&gt;blog.beiyuu.com&lt;/code&gt;&lt;/pre&gt;
+&lt;p&gt;需要提醒的一点是，如果你使用形如&lt;code&gt;beiyuu.com&lt;/code&gt;这样的一级域名的话，需要在DNS处设置A记录到&lt;code&gt;207.97.227.245&lt;/code&gt;（&lt;strong&gt;这个地址会有变动，&lt;a href=&#34;https://help.github.com/articles/my-custom-domain-isn-t-working&#34;&gt;这里&lt;/a&gt;查看&lt;/strong&gt;），而不是在DNS处设置为CNAME的形式，否则可能会对其他服务（比如email）造成影响。&lt;/p&gt;
+&lt;p&gt;设置成功后，根据DNS的情况，最长可能需要一天才能生效，耐心等待吧。&lt;/p&gt;
+&lt;/div&gt;
+&lt;/div&gt;
+&lt;div id=&#34;jekyll模板系统&#34; class=&#34;section level2&#34; number=&#34;0.4&#34;&gt;
+&lt;h2&gt;&lt;span class=&#34;header-section-number&#34;&gt;0.4&lt;/span&gt; Jekyll模板系统&lt;/h2&gt;
+&lt;p&gt;GitHub Pages为了提供对HTML内容的支持，选择了&lt;a href=&#34;https://github.com/mojombo/jekyll&#34; title=&#34;Jekyll&#34;&gt;Jekyll&lt;/a&gt;作为模板系统，Jekyll是一个强大的静态模板系统，作为个人博客使用，基本上可以满足要求，也能保持管理的方便，你可以查看&lt;a href=&#34;https://github.com/mojombo/jekyll/blob/master/README.textile&#34;&gt;Jekyll官方文档&lt;/a&gt;。&lt;/p&gt;
+&lt;p&gt;你可以直接fork&lt;a href=&#34;https://github.com/beiyuu/Github-Pages-Example&#34;&gt;我的项目&lt;/a&gt;，然后改名，就有了你自己的满足Jekyll要求的文档了，当然你也可以按照下面的介绍自己创建。&lt;/p&gt;
+&lt;div id=&#34;jekyll基本结构&#34; class=&#34;section level3&#34; number=&#34;0.4.1&#34;&gt;
+&lt;h3&gt;&lt;span class=&#34;header-section-number&#34;&gt;0.4.1&lt;/span&gt; Jekyll基本结构&lt;/h3&gt;
+&lt;p&gt;Jekyll的核心其实就是一个文本的转换引擎，用你最喜欢的标记语言写文档，可以是Markdown、Textile或者HTML等等，再通过&lt;code&gt;layout&lt;/code&gt;将文档拼装起来，根据你设置的URL规则来展现，这些都是通过严格的配置文件来定义，最终的产出就是web页面。&lt;/p&gt;
+&lt;p&gt;基本的Jekyll结构如下：&lt;/p&gt;
+&lt;pre&gt;&lt;code&gt;|-- _config.yml
+|-- _includes
+|-- _layouts
+|   |-- default.html
+|   `-- post.html
+|-- _posts
+|   |-- 2007-10-29-why-every-programmer-should-play-nethack.textile
+|   `-- 2009-04-26-barcamp-boston-4-roundup.textile
+|-- _site
+`-- index.html&lt;/code&gt;&lt;/pre&gt;
+&lt;p&gt;简单介绍一下他们的作用：&lt;/p&gt;
+&lt;div id=&#34;config.yml&#34; class=&#34;section level4&#34; number=&#34;0.4.1.1&#34;&gt;
+&lt;h4&gt;&lt;span class=&#34;header-section-number&#34;&gt;0.4.1.1&lt;/span&gt; _config.yml&lt;/h4&gt;
+&lt;p&gt;配置文件，用来定义你想要的效果，设置之后就不用关心了。&lt;/p&gt;
+&lt;/div&gt;
+&lt;div id=&#34;includes&#34; class=&#34;section level4&#34; number=&#34;0.4.1.2&#34;&gt;
+&lt;h4&gt;&lt;span class=&#34;header-section-number&#34;&gt;0.4.1.2&lt;/span&gt; _includes&lt;/h4&gt;
+&lt;p&gt;可以用来存放一些小的可复用的模块，方便通过&lt;code&gt;{ % include file.ext %}&lt;/code&gt;（去掉前两个{中或者{与%中的空格，下同）灵活的调用。这条命令会调用_includes/file.ext文件。&lt;/p&gt;
+&lt;/div&gt;
+&lt;div id=&#34;layouts&#34; class=&#34;section level4&#34; number=&#34;0.4.1.3&#34;&gt;
+&lt;h4&gt;&lt;span class=&#34;header-section-number&#34;&gt;0.4.1.3&lt;/span&gt; _layouts&lt;/h4&gt;
+&lt;p&gt;这是模板文件存放的位置。模板需要通过&lt;a href=&#34;https://github.com/mojombo/jekyll/wiki/YAML-Front-Matter&#34;&gt;YAML front matter&lt;/a&gt;来定义，后面会讲到，&lt;code&gt;{ { content }}&lt;/code&gt;标记用来将数据插入到这些模板中来。&lt;/p&gt;
+&lt;/div&gt;
+&lt;div id=&#34;posts&#34; class=&#34;section level4&#34; number=&#34;0.4.1.4&#34;&gt;
+&lt;h4&gt;&lt;span class=&#34;header-section-number&#34;&gt;0.4.1.4&lt;/span&gt; _posts&lt;/h4&gt;
+&lt;p&gt;你的动态内容，一般来说就是你的博客正文存放的文件夹。他的命名有严格的规定，必须是&lt;code&gt;2012-02-22-artical-title.MARKUP&lt;/code&gt;这样的形式，MARKUP是你所使用标记语言的文件后缀名，根据_config.yml中设定的链接规则，可以根据你的文件名灵活调整，文章的日期和标记语言后缀与文章的标题的独立的。&lt;/p&gt;
+&lt;/div&gt;
+&lt;div id=&#34;site&#34; class=&#34;section level4&#34; number=&#34;0.4.1.5&#34;&gt;
+&lt;h4&gt;&lt;span class=&#34;header-section-number&#34;&gt;0.4.1.5&lt;/span&gt; _site&lt;/h4&gt;
+&lt;p&gt;这个是Jekyll生成的最终的文档，不用去关心。最好把他放在你的&lt;code&gt;.gitignore&lt;/code&gt;文件中忽略它。&lt;/p&gt;
+&lt;/div&gt;
+&lt;div id=&#34;其他文件夹&#34; class=&#34;section level4&#34; number=&#34;0.4.1.6&#34;&gt;
+&lt;h4&gt;&lt;span class=&#34;header-section-number&#34;&gt;0.4.1.6&lt;/span&gt; 其他文件夹&lt;/h4&gt;
+&lt;p&gt;你可以创建任何的文件夹，在根目录下面也可以创建任何文件，假设你创建了&lt;code&gt;project&lt;/code&gt;文件夹，下面有一个&lt;code&gt;github-pages.md&lt;/code&gt;的文件，那么你就可以通过&lt;code&gt;yoursite.com/project/github-pages&lt;/code&gt;访问的到，如果你是使用一级域名的话。文件后缀可以是&lt;code&gt;.html&lt;/code&gt;或者&lt;code&gt;markdown&lt;/code&gt;或者&lt;code&gt;textile&lt;/code&gt;。这里还有很多的例子：&lt;a href=&#34;https://github.com/mojombo/jekyll/wiki/Sites&#34;&gt;https://github.com/mojombo/jekyll/wiki/Sites&lt;/a&gt;&lt;/p&gt;
+&lt;/div&gt;
+&lt;/div&gt;
+&lt;div id=&#34;jekyll的配置&#34; class=&#34;section level3&#34; number=&#34;0.4.2&#34;&gt;
+&lt;h3&gt;&lt;span class=&#34;header-section-number&#34;&gt;0.4.2&lt;/span&gt; Jekyll的配置&lt;/h3&gt;
+&lt;p&gt;Jekyll的配置写在_config.yml文件中，可配置项有很多，我们不去一一追究了，很多配置虽有用但是一般不需要去关心，&lt;a href=&#34;https://github.com/mojombo/jekyll/wiki/configuration&#34;&gt;官方配置文档&lt;/a&gt;有很详细的说明，确实需要了可以去这里查，我们主要说两个比较重要的东西，一个是&lt;code&gt;Permalink&lt;/code&gt;，还有就是自定义项。&lt;/p&gt;
+&lt;p&gt;&lt;code&gt;Permalink&lt;/code&gt;项用来定义你最终的文章链接是什么形式，他有下面几个变量：&lt;/p&gt;
+&lt;ul&gt;
+&lt;li&gt;&lt;code&gt;year&lt;/code&gt; 文件名中的年份&lt;/li&gt;
+&lt;li&gt;&lt;code&gt;month&lt;/code&gt; 文件名中的月份&lt;/li&gt;
+&lt;li&gt;&lt;code&gt;day&lt;/code&gt; 文件名中的日期&lt;/li&gt;
+&lt;li&gt;&lt;code&gt;title&lt;/code&gt; 文件名中的文章标题&lt;/li&gt;
+&lt;li&gt;&lt;code&gt;categories&lt;/code&gt; 文章的分类，如果文章没有分类，会忽略&lt;/li&gt;
+&lt;li&gt;&lt;code&gt;i-month&lt;/code&gt; 文件名中的除去前缀0的月份&lt;/li&gt;
+&lt;li&gt;&lt;code&gt;i-day&lt;/code&gt; 文件名中的除去前缀0的日期&lt;/li&gt;
+&lt;/ul&gt;
+&lt;p&gt;看看最终的配置效果：&lt;/p&gt;
+&lt;ul&gt;
+&lt;li&gt;&lt;code&gt;permalink: pretty&lt;/code&gt; /2009/04/29/slap-chop/index.html&lt;/li&gt;
+&lt;li&gt;&lt;code&gt;permalink: /:month-:day-:year/:title.html&lt;/code&gt; /04-29-2009/slap-chop.html&lt;/li&gt;
+&lt;li&gt;&lt;code&gt;permalink: /blog/:year/:month/:day/:title&lt;/code&gt; /blog/2009/04/29/slap-chop/index.html&lt;/li&gt;
+&lt;/ul&gt;
+&lt;p&gt;我使用的是：&lt;/p&gt;
+&lt;ul&gt;
+&lt;li&gt;&lt;code&gt;permalink: /:title&lt;/code&gt; /github-pages&lt;/li&gt;
+&lt;/ul&gt;
+&lt;p&gt;自定义项的内容，例如我们定义了&lt;code&gt;title:BeiYuu的博客&lt;/code&gt;这样一项，那么你就可以在文章中使用&lt;code&gt;{ { site.title }}&lt;/code&gt;来引用这个变量了，非常方便定义些全局变量。&lt;/p&gt;
+&lt;/div&gt;
+&lt;div id=&#34;yaml-front-matter和模板变量&#34; class=&#34;section level3&#34; number=&#34;0.4.3&#34;&gt;
+&lt;h3&gt;&lt;span class=&#34;header-section-number&#34;&gt;0.4.3&lt;/span&gt; YAML Front Matter和模板变量&lt;/h3&gt;
+&lt;p&gt;对于使用YAML定义格式的文章，Jekyll会特别对待，他的格式要求比较严格，必须是这样的形式：&lt;/p&gt;
+&lt;pre&gt;&lt;code&gt;---
+layout: post
+title: Blogging Like a Hacker
+---&lt;/code&gt;&lt;/pre&gt;
+&lt;p&gt;前后的&lt;code&gt;---&lt;/code&gt;不能省略，在这之间，你可以定一些你需要的变量，layout就是调用&lt;code&gt;_layouts&lt;/code&gt;下面的某一个模板，他还有一些其他的变量可以使用：&lt;/p&gt;
+&lt;ul&gt;
+&lt;li&gt;&lt;code&gt;permalink&lt;/code&gt; 你可以对某一篇文章使用通用设置之外的永久链接&lt;/li&gt;
+&lt;li&gt;&lt;code&gt;published&lt;/code&gt; 可以单独设置某一篇文章是否需要发布&lt;/li&gt;
+&lt;li&gt;&lt;code&gt;category&lt;/code&gt; 设置文章的分类&lt;/li&gt;
+&lt;li&gt;&lt;code&gt;tags&lt;/code&gt; 设置文章的tag&lt;/li&gt;
+&lt;/ul&gt;
+&lt;p&gt;上面的&lt;code&gt;title&lt;/code&gt;就是自定义的内容，你也可以设置其他的内容，在文章中可以通过&lt;code&gt;{ { page.title }}&lt;/code&gt;这样的形式调用。&lt;/p&gt;
+&lt;p&gt;模板变量，我们之前也涉及了不少了，还有其他需要的变量，可以参考官方的文档：&lt;a href=&#34;https://github.com/mojombo/jekyll/wiki/template-data&#34; title=&#34;Jekyll Template Data&#34;&gt;https://github.com/mojombo/jekyll/wiki/template-data&lt;/a&gt;&lt;/p&gt;
+&lt;/div&gt;
+&lt;/div&gt;
+&lt;div id=&#34;使用disqus管理评论&#34; class=&#34;section level2&#34; number=&#34;0.5&#34;&gt;
+&lt;h2&gt;&lt;span class=&#34;header-section-number&#34;&gt;0.5&lt;/span&gt; 使用Disqus管理评论&lt;/h2&gt;
+&lt;p&gt;模板部分到此就算是配置完毕了，但是Jekyll只是个静态页面的发布系统，想做到关爽场倒是很容易，如果想要评论呢？也很简单。&lt;/p&gt;
+&lt;p&gt;现在专做评论模块的产品有很多，比如&lt;a href=&#34;http://disqus.com/&#34;&gt;Disqus&lt;/a&gt;，还有国产的&lt;a href=&#34;http://duoshuo.com/&#34;&gt;多说&lt;/a&gt;，Disqus对现在各种系统的支持都比较全面，到写博客为止，多说现在仅是WordPress的一个插件，所以我这里暂时也使用不了，多说与国内的社交网络紧密结合，还是有很多亮点的，值得期待一下。我先选择了Disqus。&lt;/p&gt;
+&lt;p&gt;注册账号什么的就不提了，Disqus支持很多的博客平台，参见下图：
+&lt;img src=&#34;https://jaspershen.github.io/images/githubpages/disqus-site.jpg&#34; alt=&#34;Disqus sites&#34; /&gt;&lt;/p&gt;
+&lt;p&gt;我们选择最下面的&lt;code&gt;Universal Code&lt;/code&gt;就好，然后会看到一个介绍页面，把下面这段代码复制到你的模板里面，可以只复制到显示文章的模板中：&lt;/p&gt;
+&lt;pre&gt;&lt;code&gt;&amp;lt;div id=&amp;quot;disqus_thread&amp;quot;&amp;gt;&amp;lt;/div&amp;gt;
+&amp;lt;script type=&amp;quot;text/javascript&amp;quot;&amp;gt;
+    /* * * CONFIGURATION VARIABLES: EDIT BEFORE PASTING INTO YOUR WEBPAGE * * */
+    var disqus_shortname = &amp;#39;example&amp;#39;; // required: replace example with your forum shortname 这个地方需要改成你配置的网站名
+
+    /* * * DON&amp;#39;T EDIT BELOW THIS LINE * * */
+    (function() {
+        var dsq = document.createElement(&amp;#39;script&amp;#39;); dsq.type = &amp;#39;text/javascript&amp;#39;; dsq.async = true;
+        dsq.src = &amp;#39;http://&amp;#39; + disqus_shortname + &amp;#39;.disqus.com/embed.js&amp;#39;;
+        (document.getElementsByTagName(&amp;#39;head&amp;#39;)[0] || document.getElementsByTagName(&amp;#39;body&amp;#39;)[0]).appendChild(dsq);
+    })();
+&amp;lt;/script&amp;gt;
+&amp;lt;noscript&amp;gt;Please enable JavaScript to view the &amp;lt;a href=&amp;quot;http://disqus.com/?ref_noscript&amp;quot;&amp;gt;comments powered by Disqus.&amp;lt;/a&amp;gt;&amp;lt;/noscript&amp;gt;
+&amp;lt;a href=&amp;quot;http://disqus.com&amp;quot; class=&amp;quot;dsq-brlink&amp;quot;&amp;gt;blog comments powered by &amp;lt;span class=&amp;quot;logo-disqus&amp;quot;&amp;gt;Disqus&amp;lt;/span&amp;gt;&amp;lt;/a&amp;gt;&lt;/code&gt;&lt;/pre&gt;
+&lt;p&gt;配置完之后，你也可以做一些异步加载的处理，提高性能，比如我就在最开始页面打开的时候不显示评论，当你想看评论的时候，点击“显示评论”再加载Disqus的模块。代码很简单，你可以参考我的写法。&lt;/p&gt;
+&lt;pre&gt;&lt;code&gt;$(&amp;#39;#disqus_container .comment&amp;#39;).on(&amp;#39;click&amp;#39;,function(){
+        $(this).html(&amp;#39;加载中...&amp;#39;);
+        var disqus_shortname = &amp;#39;beiyuu&amp;#39;;
+        var that = this;
+        BYB.includeScript(&amp;#39;http://&amp;#39; + disqus_shortname + &amp;#39;.disqus.com/embed.js&amp;#39;,function(){$(that).remove()}); //这是一个加载js的函数
+});&lt;/code&gt;&lt;/pre&gt;
+&lt;p&gt;如果你不喜欢Disqus的样式，你也可以根据他生成的HTML结构，自己改写样式覆盖它的，Disqus现在也提供每个页面的评论数接口，&lt;a href=&#34;http://docs.disqus.com/developers/universal/&#34;&gt;帮助文档&lt;/a&gt;在这里可以看到。&lt;/p&gt;
+&lt;/div&gt;
+&lt;div id=&#34;代码高亮插件&#34; class=&#34;section level2&#34; number=&#34;0.6&#34;&gt;
+&lt;h2&gt;&lt;span class=&#34;header-section-number&#34;&gt;0.6&lt;/span&gt; 代码高亮插件&lt;/h2&gt;
+&lt;p&gt;如果写技术博客，代码高亮少不了，有两个可选插件&lt;a href=&#34;http://mihai.bazon.net/projects/javascript-syntax-highlighting-engine&#34;&gt;DlHightLight代码高亮组件&lt;/a&gt;和&lt;a href=&#34;http://code.google.com/p/google-code-prettify/&#34;&gt;Google Code Prettify&lt;/a&gt;。DLHightLight支持的语言相对较少一些，有js、css、xml和html，Google的高亮插件基本上任何语言都支持，也可以自定义语言，也支持自动识别，也有行号的特别支持。&lt;/p&gt;
+&lt;p&gt;Google的高亮插件使用也比较方便，只需要在&lt;code&gt;&amp;lt;pre&amp;gt;&lt;/code&gt;的标签上加入&lt;code&gt;prettyprint&lt;/code&gt;即可。所以我选择了Google Code Prettify。&lt;/p&gt;
+&lt;/div&gt;
+&lt;div id=&#34;搭建本地jekyll环境&#34; class=&#34;section level2&#34; number=&#34;0.7&#34;&gt;
+&lt;h2&gt;&lt;span class=&#34;header-section-number&#34;&gt;0.7&lt;/span&gt; 搭建本地jekyll环境&lt;/h2&gt;
+&lt;p&gt;这里主要介绍一下在Mac OS X下面的安装过程，其他操作系统可以参考官方的&lt;a href=&#34;https://github.com/mojombo/jekyll/wiki/Install&#34;&gt;jekyll安装&lt;/a&gt;。&lt;/p&gt;
+&lt;p&gt;作为生活在水深火热的墙内人民，有必要进行下面一步修改gem的源，方便我们更快的下载所需组建：&lt;/p&gt;
+&lt;pre&gt;&lt;code&gt;sudo gem sources --remove http://rubygems.org/
+sudo gem sources -a http://ruby.taobao.org/&lt;/code&gt;&lt;/pre&gt;
+&lt;p&gt;然后用Gem安装jekyll&lt;/p&gt;
+&lt;pre&gt;&lt;code&gt;$ gem install jekyll&lt;/code&gt;&lt;/pre&gt;
+&lt;p&gt;不过一般如果有出错提示，你可能需要这样安装：&lt;/p&gt;
+&lt;pre&gt;&lt;code&gt;$ sudo gem install jekyll&lt;/code&gt;&lt;/pre&gt;
+&lt;p&gt;我到了这一步的时候总是提示错误&lt;code&gt;Failed to build gem native extension&lt;/code&gt;，很可能的一个原因是没有安装rvm，&lt;a href=&#34;https://rvm.io/rvm/install/&#34;&gt;rvm的安装&lt;/a&gt;可以参考这里，或者敲入下面的命令：&lt;/p&gt;
+&lt;pre&gt;&lt;code&gt;$ curl -L https://get.rvm.io | bash -s stable --ruby&lt;/code&gt;&lt;/pre&gt;
+&lt;p&gt;然后还需要安装Markdown的解释器，这个需要在你的_config.yml里面设置&lt;code&gt;markdown:rdiscount&lt;/code&gt;：&lt;/p&gt;
+&lt;pre&gt;&lt;code&gt;$ gem install jekyll rdiscount&lt;/code&gt;&lt;/pre&gt;
+&lt;p&gt;好了，如果一切顺利的话，本地环境就基本搭建完成了，进入之前我们建立的博客目录，运行下面的命令：&lt;/p&gt;
+&lt;pre&gt;&lt;code&gt;$ jekyll serve --watch&lt;/code&gt;&lt;/pre&gt;
+&lt;p&gt;这个时候，你就可以通过&lt;code&gt;localhost:4000&lt;/code&gt;来访问了。还有关于&lt;a href=&#34;http://jekyllbootstrap.com/&#34;&gt;jekyll bootstrap&lt;/a&gt;的资料，需要自己修改调试的，可以研究一下。&lt;/p&gt;
+&lt;p&gt;我在这个过程中还遇到两个诡异的没有解决的问题，一个是我放在根目录下面的blog.md等文件，在GitHub的pages服务上一切正常，可以通过&lt;code&gt;beiyuu.com/blog&lt;/code&gt;访问的到，但是在本地环境下，总是&lt;code&gt;not found&lt;/code&gt;，很是让人郁闷，看生成的&lt;code&gt;_site&lt;/code&gt;目录下面的文件，也是正常的&lt;code&gt;blog.html&lt;/code&gt;，但就是找不到，只有当我把URL改为&lt;code&gt;localhost:4000/blog.html&lt;/code&gt;的时候，才能访问的到，环境不同真糟糕。&lt;/p&gt;
+&lt;p&gt;还有一个是关于&lt;code&gt;category&lt;/code&gt;的问题，根据&lt;code&gt;YAML&lt;/code&gt;的语法，我们在文章头部可以定义文章所属的类别，也可以定义为&lt;code&gt;category:[blog,rss]&lt;/code&gt;这样子的多类别，我在本地试一切正常，但是push到GitHub之后，就无法读取了，真让人着急，没有办法，只能采用别的办法满足我的需求了。这里还有一篇&lt;a href=&#34;http://chxt6896.github.com/blog/2012/02/13/blog-jekyll-native.html&#34;&gt;Jekyll 本地调试之若干问题&lt;/a&gt;，安装中如果有其他问题，也可以对照参考一下。&lt;/p&gt;
+&lt;/div&gt;
+&lt;div id=&#34;结语&#34; class=&#34;section level2&#34; number=&#34;0.8&#34;&gt;
+&lt;h2&gt;&lt;span class=&#34;header-section-number&#34;&gt;0.8&lt;/span&gt; 结语&lt;/h2&gt;
+&lt;p&gt;如果你跟着这篇不那么详尽的教程，成功搭建了自己的博客，恭喜你！剩下的就是保持热情的去写自己的文章吧。&lt;/p&gt;
+&lt;/div&gt;
+</description>
+    </item>
+    
+  </channel>
+</rss>

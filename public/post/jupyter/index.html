@@ -292,8 +292,8 @@
 
 
 
-<link rel="icon" type="image/png" href="/media/icon_hu0b7a4cb9992c9ac0e91bd28ffd38dd00_9727_32x32_fill_lanczos_center_3.png" />
-<link rel="apple-touch-icon" type="image/png" href="/media/icon_hu0b7a4cb9992c9ac0e91bd28ffd38dd00_9727_180x180_fill_lanczos_center_3.png" />
+<link rel="icon" type="image/png" href="/media/icon_hu805a85e690e4f2727bf7d5f685d888f7_86836_32x32_fill_lanczos_center_3.png" />
+<link rel="apple-touch-icon" type="image/png" href="/media/icon_hu805a85e690e4f2727bf7d5f685d888f7_86836_180x180_fill_lanczos_center_3.png" />
 
 <meta name="theme-color" content="#007C48" />
 
@@ -377,7 +377,7 @@
     "name": "Xiaotao Shen",
     "logo": {
       "@type": "ImageObject",
-      "url": "https://jaspershen.github.io/media/icon_hu0b7a4cb9992c9ac0e91bd28ffd38dd00_9727_192x192_fill_lanczos_center_3.png"
+      "url": "https://jaspershen.github.io/media/icon_hu805a85e690e4f2727bf7d5f685d888f7_86836_192x192_fill_lanczos_center_3.png"
     }
   },
   "description": "Learn how to blog in Academic using Jupyter notebooks"
@@ -557,7 +557,7 @@
           
 
           <li class="nav-item">
-            <a class="nav-link " href="/#about"><span>🏠</span></a>
+            <a class="nav-link " href="/#about"><span>🏠 About</span></a>
           </li>
 
           
@@ -885,7 +885,7 @@
   
   <span class="middot-divider"></span>
   <span class="article-reading-time">
-    2 min read
+    1 min read
   </span>
   
 
@@ -940,37 +940,35 @@
 
 <figure  >
   <div class="d-flex justify-content-center">
-    <div class="w-100" ><img src="./index_1_0.png" alt="png" loading="lazy" data-zoomable /></div>
+    <div class="w-100" ><img src="./academic_0_0.png" alt="png" loading="lazy" data-zoomable /></div>
   </div></figure>
 </p>
 <div class="highlight"><pre tabindex="0" class="chroma"><code class="language-python" data-lang="python"><span class="line"><span class="cl"><span class="nb">print</span><span class="p">(</span><span class="s2">&#34;Welcome to Academic!&#34;</span><span class="p">)</span>
 </span></span></code></pre></div><pre><code>Welcome to Academic!
 </code></pre>
-<h2 id="install-python-and-jupyterlab">Install Python and JupyterLab</h2>
-<p><a href="https://www.anaconda.com/distribution/#download-section" target="_blank" rel="noopener">Install Anaconda</a> which includes Python 3 and JupyterLab.</p>
-<p>Alternatively, install JupyterLab with <code>pip3 install jupyterlab</code>.</p>
-<h2 id="create-or-upload-a-jupyter-notebook">Create or upload a Jupyter notebook</h2>
-<p>Run the following commands in your Terminal, substituting <code>&lt;MY-WEBSITE-FOLDER&gt;</code> and <code>&lt;SHORT-POST-TITLE&gt;</code> with the file path to your Academic website folder and a short title for your blog post (use hyphens instead of spaces), respectively:</p>
-<div class="highlight"><pre tabindex="0" class="chroma"><code class="language-bash" data-lang="bash"><span class="line"><span class="cl">mkdir -p &lt;MY-WEBSITE-FOLDER&gt;/content/post/&lt;SHORT-POST-TITLE&gt;/
-</span></span><span class="line"><span class="cl"><span class="nb">cd</span> &lt;MY-WEBSITE-FOLDER&gt;/content/post/&lt;SHORT-POST-TITLE&gt;/
-</span></span><span class="line"><span class="cl">jupyter lab index.ipynb
-</span></span></code></pre></div><p>The <code>jupyter</code> command above will launch the JupyterLab editor, allowing us to add Academic metadata and write the content.</p>
-<h2 id="edit-your-post-metadata">Edit your post metadata</h2>
-<p>The first cell of your Jupter notebook will contain your post metadata (<a href="https://sourcethemes.com/academic/docs/front-matter/" target="_blank" rel="noopener">front matter</a>).</p>
-<p>In Jupter, choose <em>Markdown</em> as the type of the first cell and wrap your Academic metadata in three dashes, indicating that it is YAML front matter:</p>
-<div class="highlight"><pre tabindex="0" class="chroma"><code class="language-fallback" data-lang="fallback"><span class="line"><span class="cl">---
-</span></span><span class="line"><span class="cl">title: My post&#39;s title
-</span></span><span class="line"><span class="cl">date: 2019-09-01
+<h2 id="install-python-and-jupyter">Install Python and Jupyter</h2>
+<p><a href="https://www.anaconda.com/distribution/#download-section" target="_blank" rel="noopener">Install Anaconda</a> which includes Python 3 and Jupyter notebook.</p>
+<p>Otherwise, for advanced users, install Jupyter notebook with <code>pip3 install jupyter</code>.</p>
+<h2 id="create-a-new-blog-post-as-usualhttpssourcethemescomacademicdocsmanaging-contentcreate-a-blog-post">Create a new blog post <a href="https://sourcethemes.com/academic/docs/managing-content/#create-a-blog-post" target="_blank" rel="noopener">as usual</a></h2>
+<p>Run the following commands in your Terminal, substituting <code>&lt;MY_WEBSITE_FOLDER&gt;</code> and <code>my-post</code> with the file path to your Academic website folder and a name for your blog post (without spaces), respectively:</p>
+<div class="highlight"><pre tabindex="0" class="chroma"><code class="language-bash" data-lang="bash"><span class="line"><span class="cl"><span class="nb">cd</span> &lt;MY_WEBSITE_FOLDER&gt;
+</span></span><span class="line"><span class="cl">hugo new  --kind post post/my-post
+</span></span><span class="line"><span class="cl"><span class="nb">cd</span> &lt;MY_WEBSITE_FOLDER&gt;/content/post/my-post/
+</span></span></code></pre></div><h2 id="create-or-upload-a-jupyter-notebook">Create or upload a Jupyter notebook</h2>
+<p>Run the following command to start Jupyter within your new blog post folder. Then create a new Jupyter notebook (<em>New &gt; Python Notebook</em>) or upload a notebook.</p>
+<div class="highlight"><pre tabindex="0" class="chroma"><code class="language-bash" data-lang="bash"><span class="line"><span class="cl">jupyter notebook
+</span></span></code></pre></div><h2 id="convert-notebook-to-markdown">Convert notebook to Markdown</h2>
+<div class="highlight"><pre tabindex="0" class="chroma"><code class="language-bash" data-lang="bash"><span class="line"><span class="cl">jupyter nbconvert Untitled.ipynb --to markdown --NbConvertApp.output_files_dir<span class="o">=</span>.
 </span></span><span class="line"><span class="cl">
-</span></span><span class="line"><span class="cl"># Put any other Academic metadata here...
-</span></span><span class="line"><span class="cl">---
-</span></span></code></pre></div><p>Edit the metadata of your post, using the <a href="https://sourcethemes.com/academic/docs/managing-content" target="_blank" rel="noopener">documentation</a> as a guide to the available options.</p>
+</span></span><span class="line"><span class="cl"><span class="c1"># Copy the contents of Untitled.md and append it to index.md:</span>
+</span></span><span class="line"><span class="cl">cat Untitled.md <span class="p">|</span> tee -a index.md
+</span></span><span class="line"><span class="cl">
+</span></span><span class="line"><span class="cl"><span class="c1"># Remove the temporary file:</span>
+</span></span><span class="line"><span class="cl">rm Untitled.md
+</span></span></code></pre></div><h2 id="edit-your-post-metadata">Edit your post metadata</h2>
+<p>Open <code>index.md</code> in your text editor and edit the title etc. in the <a href="https://sourcethemes.com/academic/docs/front-matter/" target="_blank" rel="noopener">front matter</a> according to your preference.</p>
 <p>To set a <a href="https://sourcethemes.com/academic/docs/managing-content/#featured-image" target="_blank" rel="noopener">featured image</a>, place an image named <code>featured</code> into your post&rsquo;s folder.</p>
-<p>For other tips, such as using math, see the guide on <a href="https://wowchemy.com/docs/content/writing-markdown-latex/" target="_blank" rel="noopener">writing content with Academic</a>.</p>
-<h2 id="convert-notebook-to-markdown">Convert notebook to Markdown</h2>
-<div class="highlight"><pre tabindex="0" class="chroma"><code class="language-bash" data-lang="bash"><span class="line"><span class="cl">jupyter nbconvert index.ipynb --to markdown --NbConvertApp.output_files_dir<span class="o">=</span>.
-</span></span></code></pre></div><h2 id="example">Example</h2>
-<p>This post was created with Jupyter. The orginal files can be found at <a href="https://github.com/gcushen/hugo-academic/tree/master/exampleSite/content/post/jupyter" target="_blank" rel="noopener">https://github.com/gcushen/hugo-academic/tree/master/exampleSite/content/post/jupyter</a></p>
+<p>For other tips, such as using math, see the guide on <a href="https://sourcethemes.com/academic/docs/writing-markdown-latex/" target="_blank" rel="noopener">writing content with Academic</a>.</p>
 
     </div>
 
@@ -1118,7 +1116,7 @@
   <div class="media author-card content-widget-hr">
     
       
-      <a href="https://jaspershen.github.io/"><img class="avatar mr-3 avatar-circle" src="/authors/admin/avatar_hu3c64bd0f98018e2d901b7c60447ac42e_1387900_270x270_fill_q75_lanczos_center.jpg" alt="Xiaotao Shen"></a>
+      <a href="https://jaspershen.github.io/"><img class="avatar mr-3 avatar-circle" src="/authors/admin/avatar_hu86242519a21313948ac7dc77e0a27da6_1568301_270x270_fill_q75_lanczos_center.jpg" alt="Xiaotao Shen"></a>
     
 
     <div class="media-body">

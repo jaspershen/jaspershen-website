@@ -1,0 +1,943 @@
+<?xml version="1.0" encoding="utf-8" standalone="yes" ?>
+<rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
+  <channel>
+    <title>literature | Xiaotao Shen</title>
+    <link>https://jaspershen.github.io/category/literature/</link>
+      <atom:link href="https://jaspershen.github.io/category/literature/index.xml" rel="self" type="application/rss+xml" />
+    <description>literature</description>
+    <generator>Wowchemy (https://wowchemy.com)</generator><language>en-us</language><lastBuildDate>Wed, 10 Mar 2021 00:00:00 +0000</lastBuildDate>
+    <image>
+      <url>https://jaspershen.github.io/media/icon_hu805a85e690e4f2727bf7d5f685d888f7_86836_512x512_fill_lanczos_center_3.png</url>
+      <title>literature</title>
+      <link>https://jaspershen.github.io/category/literature/</link>
+    </image>
+    
+    <item>
+      <title>文献阅读-Noninvasive blood tests for fetal development predict gestational age and preterm delivery</title>
+      <link>https://jaspershen.github.io/post/2021-03-11-paper-reading-noninvasive-blood-tests-for-fetal-development-predict-gestational-age-and-preterm-delivery/</link>
+      <pubDate>Wed, 10 Mar 2021 00:00:00 +0000</pubDate>
+      <guid>https://jaspershen.github.io/post/2021-03-11-paper-reading-noninvasive-blood-tests-for-fetal-development-predict-gestational-age-and-preterm-delivery/</guid>
+      <description>
+&lt;script src=&#34;index_files/header-attrs/header-attrs.js&#34;&gt;&lt;/script&gt;
+
+&lt;div id=&#34;TOC&#34;&gt;
+&lt;ul&gt;
+&lt;li&gt;&lt;a href=&#34;#文献题目&#34;&gt;&lt;span class=&#34;toc-section-number&#34;&gt;1&lt;/span&gt; 文献题目:&lt;/a&gt;&lt;/li&gt;
+&lt;li&gt;&lt;a href=&#34;#summary&#34;&gt;&lt;span class=&#34;toc-section-number&#34;&gt;2&lt;/span&gt; Summary&lt;/a&gt;
+&lt;ul&gt;
+&lt;li&gt;&lt;a href=&#34;#results&#34;&gt;&lt;span class=&#34;toc-section-number&#34;&gt;2.1&lt;/span&gt; Results&lt;/a&gt;&lt;/li&gt;
+&lt;/ul&gt;&lt;/li&gt;
+&lt;/ul&gt;
+&lt;/div&gt;
+
+&lt;div id=&#34;文献题目&#34; class=&#34;section level1&#34; number=&#34;1&#34;&gt;
+&lt;h1&gt;&lt;span class=&#34;header-section-number&#34;&gt;1&lt;/span&gt; 文献题目:&lt;/h1&gt;
+&lt;p&gt;Noninvasive blood tests for fetal development predict gestational age and preterm delivery&lt;/p&gt;
+&lt;/div&gt;
+&lt;div id=&#34;summary&#34; class=&#34;section level1&#34; number=&#34;2&#34;&gt;
+&lt;h1&gt;&lt;span class=&#34;header-section-number&#34;&gt;2&lt;/span&gt; Summary&lt;/h1&gt;
+&lt;blockquote&gt;
+&lt;p&gt;Noninvasive blood tests that provide information about fetal development and gestational age could potentially improve prenatal care. Ultrasound, the current gold standard, is not always affordable in low-resource settings and does not predict spontaneous preterm birth, a leading cause of infant death. In a pilot study of 31 healthy pregnant women, we found that measurement of nine cell-free RNA (cfRNA) transcripts in maternal blood predicted gestational age with comparable accuracy to ultrasound but at substantially lower cost. In a related study of 38 women (25 full-term and 13 preterm deliveries), all at elevated risk of delivering preterm, we identified seven cfRNA transcripts that accurately classified women who delivered preterm up to 2 months in advance of labor. These tests hold promise for prenatal care in both the developed and developing worlds, although they require validation in larger, blinded clinical trials.&lt;/p&gt;
+&lt;/blockquote&gt;
+&lt;div id=&#34;results&#34; class=&#34;section level2&#34; number=&#34;2.1&#34;&gt;
+&lt;h2&gt;&lt;span class=&#34;header-section-number&#34;&gt;2.1&lt;/span&gt; Results&lt;/h2&gt;
+&lt;p&gt;31个pregnant women,mothly sampling.共有521个plasma samples.所有women都是full term (delivery GA &amp;gt;= 37 weeks).记录了medicine. 强调了:&lt;/p&gt;
+&lt;blockquote&gt;
+&lt;p&gt;and their medical records showed no unusual health changes during pregnancy (table S1).&lt;/p&gt;
+&lt;/blockquote&gt;
+&lt;p&gt;但是table S1中并没有记录.&lt;/p&gt;
+&lt;p&gt;&lt;img src=&#34;Screen%20Shot%202021-03-11%20at%2010.03.37%20AM.png&#34; /&gt;&lt;/p&gt;
+&lt;p&gt;测cfRNA时,特异性的只测量某些:&lt;/p&gt;
+&lt;blockquote&gt;
+&lt;p&gt;Each sam- ple was analyzed by highlymultiplexed real-time polymerase chain reaction (PCR) using a panel of genes with expression specific to the placenta or to the immune system, or highly enriched in the fetal liver (table S2).&lt;/p&gt;
+&lt;/blockquote&gt;
+&lt;p&gt;某些placental(胎盘)cfRNA在delivery之后就无法测量到.&lt;/p&gt;
+&lt;blockquote&gt;
+&lt;p&gt;Placental cfRNAs and several fetal liver cfRNAs were not detected above the noise floor after delivery, which sup- ports their pregnancy-derived origin; some fetal liver transcripts were also expressed in the adult liver, and we observed a small maternal baseline for this subset. cfRNAmeasurements&lt;/p&gt;
+&lt;/blockquote&gt;
+&lt;p&gt;跟immune system相关的cfRNA在GA期间逐渐升高,然后delivery之后恢复到正常水平,说明在GA期间主要是有怀孕引起的升高.&lt;/p&gt;
+&lt;blockquote&gt;
+&lt;p&gt;cfRNAmeasurements correspond- ing to immune system–related genes increased during gestation and showed a return to measurable baselines after delivery, which supports their predominantly maternal origin.&lt;/p&gt;
+&lt;/blockquote&gt;
+&lt;p&gt;BMI并不影响到cfRNA的含量.将women分为几组,然后使用wulcoxon test检验.&lt;/p&gt;
+&lt;blockquote&gt;
+&lt;p&gt;We have tested for the effect of BMI on circulating cfRNA levels using estimated
+transcript counts of GAPDH per milliliter of plasma and found no significant difference
+between underweight (BMI &amp;lt; 18.5), normal weight (18.5 ≤ BMI &amp;lt; 25), overweight (25 ≤
+BMI &amp;lt; 30), and obese (BMI ≥ 30) individuals both before and after Bonferroni correction
+using a Wilcoxon rank sum test.&lt;/p&gt;
+&lt;/blockquote&gt;
+&lt;blockquote&gt;
+&lt;p&gt;P-values for distinct tests of GAPDH levels before and after Bonferroni correction,
+respectively, were as follows: (1) underweight versus normal weight (P = 0.58, 1),
+underweight versus overweight (P = 0.12, 0.80), underweight versus obese (P = 0.26, 1),
+normal weight versus overweight (P = 0.06, 0.35), normal weight versus obese (P = 0.16,
+0.95), and overweight versus obese (P = 0.72, 1). Similar results were obtained for
+placental-specific cfRNAs such as CAPN6, CGA, and CGB.&lt;/p&gt;
+&lt;/blockquote&gt;
+&lt;blockquote&gt;
+&lt;p&gt;All comparisons were done within cohorts so that differences in BMI distribution
+between cohorts were not confounding.&lt;/p&gt;
+&lt;/blockquote&gt;
+&lt;p&gt;建立预测GA模型,使用了RF模型,徐哪去最后九个cfRNA作为maker.预测效果跟使用所有51个cfRNA相差无几.预测效果随着GA增加而变好.third trimester效果最好.&lt;/p&gt;
+&lt;blockquote&gt;
+&lt;p&gt;We then built a random forest model to predict time from sample collection until delivery, using cfRNA measurements as the primary fea- tures. We also found that model performance improved significantly over the course of pregnancy, as measured by root mean squared error (RMSE) for both training [RMSE = 6.0 (first trimester, T1), 3.9 (second trimester, T2), 3.3 (third trimester, T3), 3.7 (postpartum, PP) weeks] (Fig. 2C) and validation sets [RMSE = 5.4 (T1), 4.2 (T2), 3.8 (T3), 2.6 (PP) weeks] (Fig. 2D). Although&lt;/p&gt;
+&lt;/blockquote&gt;
+&lt;/div&gt;
+&lt;/div&gt;
+</description>
+    </item>
+    
+    <item>
+      <title>2020-12-09学习总结</title>
+      <link>https://jaspershen.github.io/post/2020-12-09-summary/</link>
+      <pubDate>Wed, 09 Dec 2020 00:00:00 +0000</pubDate>
+      <guid>https://jaspershen.github.io/post/2020-12-09-summary/</guid>
+      <description>
+
+&lt;div id=&#34;TOC&#34;&gt;
+&lt;ul&gt;
+&lt;li&gt;&lt;a href=&#34;#文献需要subscribe&#34;&gt;&lt;span class=&#34;toc-section-number&#34;&gt;0.1&lt;/span&gt; 文献需要subscribe&lt;/a&gt;&lt;ul&gt;
+&lt;li&gt;&lt;a href=&#34;#nature-系列&#34;&gt;&lt;span class=&#34;toc-section-number&#34;&gt;0.1.1&lt;/span&gt; Nature 系列&lt;/a&gt;&lt;/li&gt;
+&lt;li&gt;&lt;a href=&#34;#cell系列&#34;&gt;&lt;span class=&#34;toc-section-number&#34;&gt;0.1.2&lt;/span&gt; Cell系列&lt;/a&gt;&lt;/li&gt;
+&lt;li&gt;&lt;a href=&#34;#science系列&#34;&gt;&lt;span class=&#34;toc-section-number&#34;&gt;0.1.3&lt;/span&gt; Science系列&lt;/a&gt;&lt;/li&gt;
+&lt;li&gt;&lt;a href=&#34;#others&#34;&gt;&lt;span class=&#34;toc-section-number&#34;&gt;0.1.4&lt;/span&gt; Others&lt;/a&gt;&lt;/li&gt;
+&lt;/ul&gt;&lt;/li&gt;
+&lt;li&gt;&lt;a href=&#34;#文献阅读&#34;&gt;&lt;span class=&#34;toc-section-number&#34;&gt;0.2&lt;/span&gt; 文献阅读&lt;/a&gt;&lt;ul&gt;
+&lt;li&gt;&lt;a href=&#34;#non-targeted-urinary-metabolomics-in-pregnancy-and-associations-with-fetal-growth-restriction&#34;&gt;&lt;span class=&#34;toc-section-number&#34;&gt;0.2.1&lt;/span&gt; 1. non-targeted urinary metabolomics in pregnancy and associations with fetal growth restriction&lt;/a&gt;&lt;/li&gt;
+&lt;li&gt;&lt;a href=&#34;#section&#34;&gt;&lt;span class=&#34;toc-section-number&#34;&gt;0.2.2&lt;/span&gt; 2.&lt;/a&gt;&lt;/li&gt;
+&lt;/ul&gt;&lt;/li&gt;
+&lt;li&gt;&lt;a href=&#34;#单词&#34;&gt;&lt;span class=&#34;toc-section-number&#34;&gt;0.3&lt;/span&gt; 单词&lt;/a&gt;&lt;/li&gt;
+&lt;/ul&gt;
+&lt;/div&gt;
+
+&lt;p&gt;昨天的组会汇报被人问懵了.但是问题的实质在于自己英语不好,对课题了解程度不够,所以还是需要加强.&lt;/p&gt;
+&lt;div id=&#34;文献需要subscribe&#34; class=&#34;section level2&#34;&gt;
+&lt;h2&gt;&lt;span class=&#34;header-section-number&#34;&gt;0.1&lt;/span&gt; 文献需要subscribe&lt;/h2&gt;
+&lt;p&gt;全部重新subscribe,&lt;a href=&#34;mailto:都使用shenxt1990@outlook邮箱&#34; class=&#34;email&#34;&gt;都使用shenxt1990@outlook邮箱&lt;/a&gt;.&lt;/p&gt;
+&lt;div id=&#34;nature-系列&#34; class=&#34;section level3&#34;&gt;
+&lt;h3&gt;&lt;span class=&#34;header-section-number&#34;&gt;0.1.1&lt;/span&gt; Nature 系列&lt;/h3&gt;
+&lt;ol style=&#34;list-style-type: decimal&#34;&gt;
+&lt;li&gt;&lt;p&gt;Nature&lt;/p&gt;&lt;/li&gt;
+&lt;li&gt;&lt;p&gt;Nature Biotechnology&lt;/p&gt;&lt;/li&gt;
+&lt;li&gt;&lt;p&gt;Nature Methods&lt;/p&gt;&lt;/li&gt;
+&lt;li&gt;&lt;p&gt;Cell Discovery&lt;/p&gt;&lt;/li&gt;
+&lt;li&gt;&lt;p&gt;Nature Genetics&lt;/p&gt;&lt;/li&gt;
+&lt;li&gt;&lt;p&gt;Nature Microbiology&lt;/p&gt;&lt;/li&gt;
+&lt;li&gt;&lt;p&gt;Nature Reviews Drug Discovery&lt;/p&gt;&lt;/li&gt;
+&lt;li&gt;&lt;p&gt;Nature Reviews Molecular Cell Biology&lt;/p&gt;&lt;/li&gt;
+&lt;li&gt;&lt;p&gt;Cell Research&lt;/p&gt;&lt;/li&gt;
+&lt;li&gt;&lt;p&gt;Nature Aging&lt;/p&gt;&lt;/li&gt;
+&lt;li&gt;&lt;p&gt;Nature Cell Biology&lt;/p&gt;&lt;/li&gt;
+&lt;li&gt;&lt;p&gt;npj Systems Biology and Applications&lt;/p&gt;&lt;/li&gt;
+&lt;li&gt;&lt;p&gt;Nature Biomedical Engineering&lt;/p&gt;&lt;/li&gt;
+&lt;li&gt;&lt;p&gt;Nature Chemical Biology&lt;/p&gt;&lt;/li&gt;
+&lt;li&gt;&lt;p&gt;Nature Protocols&lt;/p&gt;&lt;/li&gt;
+&lt;li&gt;&lt;p&gt;Nature Reviews Microbiology&lt;/p&gt;&lt;/li&gt;
+&lt;li&gt;&lt;p&gt;Nature Cancer&lt;/p&gt;&lt;/li&gt;
+&lt;li&gt;&lt;p&gt;Nature Immunology&lt;/p&gt;&lt;/li&gt;
+&lt;li&gt;&lt;p&gt;Nature Neuroscience&lt;/p&gt;&lt;/li&gt;
+&lt;li&gt;&lt;p&gt;Nature Medicine&lt;/p&gt;&lt;/li&gt;
+&lt;li&gt;&lt;p&gt;Journal of Exposure Science &amp;amp; Environmental Epidemiology&lt;/p&gt;&lt;/li&gt;
+&lt;li&gt;&lt;p&gt;Nature Metabolism&lt;/p&gt;&lt;/li&gt;
+&lt;li&gt;&lt;p&gt;Nature Reviews Immunology&lt;/p&gt;&lt;/li&gt;
+&lt;li&gt;&lt;p&gt;Nature Communications&lt;/p&gt;&lt;/li&gt;
+&lt;li&gt;&lt;p&gt;Nature Reviews Methods Primers&lt;/p&gt;&lt;/li&gt;
+&lt;/ol&gt;
+&lt;/div&gt;
+&lt;div id=&#34;cell系列&#34; class=&#34;section level3&#34;&gt;
+&lt;h3&gt;&lt;span class=&#34;header-section-number&#34;&gt;0.1.2&lt;/span&gt; Cell系列&lt;/h3&gt;
+&lt;ol style=&#34;list-style-type: decimal&#34;&gt;
+&lt;li&gt;&lt;p&gt;Cancer cell&lt;/p&gt;&lt;/li&gt;
+&lt;li&gt;&lt;p&gt;Cell&lt;/p&gt;&lt;/li&gt;
+&lt;li&gt;&lt;p&gt;Cell Chemical Biology&lt;/p&gt;&lt;/li&gt;
+&lt;li&gt;&lt;p&gt;Cell Host &amp;amp; Microbe&lt;/p&gt;&lt;/li&gt;
+&lt;li&gt;&lt;p&gt;Cell Metabolism&lt;/p&gt;&lt;/li&gt;
+&lt;li&gt;&lt;p&gt;Cell Stem Cell&lt;/p&gt;&lt;/li&gt;
+&lt;li&gt;&lt;p&gt;Cell Systems&lt;/p&gt;&lt;/li&gt;
+&lt;li&gt;&lt;p&gt;Developmental Cell&lt;/p&gt;&lt;/li&gt;
+&lt;li&gt;&lt;p&gt;Immunity&lt;/p&gt;&lt;/li&gt;
+&lt;li&gt;&lt;p&gt;Molecular Cell&lt;/p&gt;&lt;/li&gt;
+&lt;li&gt;&lt;p&gt;Molecular Therapy&lt;/p&gt;&lt;/li&gt;
+&lt;li&gt;&lt;p&gt;Molecular Therapy - Methods &amp;amp; Clinical Development&lt;/p&gt;&lt;/li&gt;
+&lt;li&gt;&lt;p&gt;Neuron&lt;/p&gt;&lt;/li&gt;
+&lt;li&gt;&lt;/li&gt;
+&lt;/ol&gt;
+&lt;/div&gt;
+&lt;div id=&#34;science系列&#34; class=&#34;section level3&#34;&gt;
+&lt;h3&gt;&lt;span class=&#34;header-section-number&#34;&gt;0.1.3&lt;/span&gt; Science系列&lt;/h3&gt;
+&lt;ol style=&#34;list-style-type: decimal&#34;&gt;
+&lt;li&gt;&lt;p&gt;Science&lt;/p&gt;&lt;/li&gt;
+&lt;li&gt;&lt;p&gt;Science Translational Medicine&lt;/p&gt;&lt;/li&gt;
+&lt;li&gt;&lt;p&gt;Science Advanced&lt;/p&gt;&lt;/li&gt;
+&lt;/ol&gt;
+&lt;/div&gt;
+&lt;div id=&#34;others&#34; class=&#34;section level3&#34;&gt;
+&lt;h3&gt;&lt;span class=&#34;header-section-number&#34;&gt;0.1.4&lt;/span&gt; Others&lt;/h3&gt;
+&lt;ol style=&#34;list-style-type: decimal&#34;&gt;
+&lt;li&gt;&lt;p&gt;Bioinformatics&lt;/p&gt;&lt;/li&gt;
+&lt;li&gt;&lt;p&gt;BioRxiv&lt;/p&gt;&lt;/li&gt;
+&lt;li&gt;&lt;p&gt;Briefings in Bioinformatics&lt;/p&gt;&lt;/li&gt;
+&lt;li&gt;&lt;/li&gt;
+&lt;/ol&gt;
+&lt;/div&gt;
+&lt;/div&gt;
+&lt;div id=&#34;文献阅读&#34; class=&#34;section level2&#34;&gt;
+&lt;h2&gt;&lt;span class=&#34;header-section-number&#34;&gt;0.2&lt;/span&gt; 文献阅读&lt;/h2&gt;
+&lt;div id=&#34;non-targeted-urinary-metabolomics-in-pregnancy-and-associations-with-fetal-growth-restriction&#34; class=&#34;section level3&#34;&gt;
+&lt;h3&gt;&lt;span class=&#34;header-section-number&#34;&gt;0.2.1&lt;/span&gt; 1. non-targeted urinary metabolomics in pregnancy and associations with fetal growth restriction&lt;/h3&gt;
+&lt;p&gt;没有太多可借鉴的地方.&lt;/p&gt;
+&lt;/div&gt;
+&lt;div id=&#34;section&#34; class=&#34;section level3&#34;&gt;
+&lt;h3&gt;&lt;span class=&#34;header-section-number&#34;&gt;0.2.2&lt;/span&gt; 2.&lt;/h3&gt;
+&lt;/div&gt;
+&lt;/div&gt;
+&lt;div id=&#34;单词&#34; class=&#34;section level2&#34;&gt;
+&lt;h2&gt;&lt;span class=&#34;header-section-number&#34;&gt;0.3&lt;/span&gt; 单词&lt;/h2&gt;
+&lt;p&gt;Anecdotal: 基于道听途说&lt;/p&gt;
+&lt;p&gt;whilst: 相当于while&lt;/p&gt;
+&lt;p&gt;metastatic: 转移&lt;/p&gt;
+&lt;p&gt;adhere: 坚持&lt;/p&gt;
+&lt;p&gt;discordant: 不一致的&lt;/p&gt;
+&lt;/div&gt;
+</description>
+    </item>
+    
+    <item>
+      <title>github大文件无法上传</title>
+      <link>https://jaspershen.github.io/post/2020-11-06-github-large-file/</link>
+      <pubDate>Fri, 06 Nov 2020 00:00:00 +0000</pubDate>
+      <guid>https://jaspershen.github.io/post/2020-11-06-github-large-file/</guid>
+      <description>
+
+
+&lt;p&gt;将本地文件更新到github时,遇到如下问题:&lt;/p&gt;
+&lt;pre&gt;&lt;code&gt;remote: error: GH001: Large files detected. You may want to try Git Large File Storage - https://git-lfs.github.com.
+remote: error: Trace: 8756e0d10b2fb95c8b6974bbb8dac04efccdf70b4d52dd0fe1abb4248cdf229f
+remote: error: See http://git.io/iEPt8g for more information.
+remote: error: File summary/20201029_summary.pptx is 274.76 MB; this exceeds GitHub&amp;#39;s file size limit of 100.00 MB
+To https://github.com/jaspershen/ryan_microsampling
+ ! [remote rejected] master -&amp;gt; master (pre-receive hook declined)
+error: failed to push some refs to &amp;#39;https://github.com/jaspershen/ryan_microsampling&amp;#39;&lt;/code&gt;&lt;/pre&gt;
+&lt;p&gt;原因是有大文件(&amp;gt;100 M),所以无法上传,但是因为已经git add了,删除也无法消除问题,所以需要使用下面命令:&lt;/p&gt;
+&lt;pre&gt;&lt;code&gt;git filter-branch -f --index-filter &amp;#39;git rm --cached --ignore-unmatch fixtures/11_user_answer.json&amp;#39;&lt;/code&gt;&lt;/pre&gt;
+&lt;p&gt;然后再push即可.&lt;/p&gt;
+</description>
+    </item>
+    
+    <item>
+      <title>学术英语经典语句</title>
+      <link>https://jaspershen.github.io/post/2020-10-06-academic-english/</link>
+      <pubDate>Tue, 06 Oct 2020 00:00:00 +0000</pubDate>
+      <guid>https://jaspershen.github.io/post/2020-10-06-academic-english/</guid>
+      <description>
+
+
+&lt;ol style=&#34;list-style-type: decimal&#34;&gt;
+&lt;li&gt;&lt;p&gt;Since genetic risk is non-time-varying, longitudinal analyte data were collapsed by taking the median across time points.&lt;/p&gt;&lt;/li&gt;
+&lt;li&gt;&lt;p&gt;Ashkenazi Jewish德国犹太裔.&lt;/p&gt;&lt;/li&gt;
+&lt;/ol&gt;
+</description>
+    </item>
+    
+    <item>
+      <title>加州covid19隔离日记2020-05-07</title>
+      <link>https://jaspershen.github.io/post/2020-05-07-quarantine-daily-note/</link>
+      <pubDate>Thu, 07 May 2020 00:00:00 +0000</pubDate>
+      <guid>https://jaspershen.github.io/post/2020-05-07-quarantine-daily-note/</guid>
+      <description>
+
+
+&lt;p&gt;这几天都是早早的到了实验室.今天把看到了一些关于labor marker的学术术语总结一下:&lt;/p&gt;
+&lt;p&gt;cervix: 子宫颈.&lt;/p&gt;
+&lt;p&gt;cervix dilates: 子宫颈扩大.&lt;/p&gt;
+&lt;p&gt;contractions: 收缩.&lt;/p&gt;
+&lt;p&gt;uterine: 子宫&lt;/p&gt;
+&lt;p&gt;dialate: 扩大,膨胀.&lt;/p&gt;
+&lt;p&gt;spontaneous: 自发的,自然地,无意识的.&lt;/p&gt;
+&lt;p&gt;nulliparous:未生育过的.&lt;/p&gt;
+&lt;p&gt;multiparous:多产的,一胎多子的.&lt;/p&gt;
+&lt;p&gt;parturition:分娩,生产.&lt;/p&gt;
+&lt;p&gt;obstetric: 产科的生产的,分娩的.&lt;/p&gt;
+</description>
+    </item>
+    
+    <item>
+      <title>加州covid19隔离日记2020-05-05</title>
+      <link>https://jaspershen.github.io/post/2020-05-05-quarantine-daily-note/</link>
+      <pubDate>Tue, 05 May 2020 00:00:00 +0000</pubDate>
+      <guid>https://jaspershen.github.io/post/2020-05-05-quarantine-daily-note/</guid>
+      <description>
+
+&lt;div id=&#34;TOC&#34;&gt;
+&lt;ul&gt;
+&lt;li&gt;&lt;a href=&#34;#method&#34;&gt;&lt;span class=&#34;toc-section-number&#34;&gt;1&lt;/span&gt; Method&lt;/a&gt;&lt;ul&gt;
+&lt;li&gt;&lt;a href=&#34;#study-design&#34;&gt;&lt;span class=&#34;toc-section-number&#34;&gt;1.1&lt;/span&gt; Study design&lt;/a&gt;&lt;/li&gt;
+&lt;li&gt;&lt;a href=&#34;#metabolomics数据采集&#34;&gt;&lt;span class=&#34;toc-section-number&#34;&gt;1.2&lt;/span&gt; Metabolomics数据采集&lt;/a&gt;&lt;/li&gt;
+&lt;li&gt;&lt;a href=&#34;#statistical-analysis&#34;&gt;&lt;span class=&#34;toc-section-number&#34;&gt;1.3&lt;/span&gt; Statistical analysis&lt;/a&gt;&lt;/li&gt;
+&lt;/ul&gt;&lt;/li&gt;
+&lt;/ul&gt;
+&lt;/div&gt;
+
+&lt;p&gt;今天早上就来了办公室.看了一篇文章.&lt;/p&gt;
+&lt;p&gt;发表在Nature medincine.&lt;/p&gt;
+&lt;p&gt;A maternal serum metabolite ratio predicts fetal growth restriction at term&lt;/p&gt;
+&lt;p&gt;作者使用代谢组学发现可以使用母亲血液中的metabolite来预测胎儿的fetal growth restriction (FCR).FCR是指一个未出生的婴儿在某个时间(gestational age)的预期体重低于某个范围,一般是指胎儿体重小于所有同GA时期的所有胎儿体重的10%分位数.&lt;/p&gt;
+&lt;p&gt;作者一共选取了175个case在出生的时候是FGR,然后有299个controls.最后作者找到了四个metabolites,分别是(1-(1-enyl-stearoyl)- 2-oleoyl-GPC (P-18:0/18:1) and 1,5-anhydroglucitol) to the product of the relative concentrations of two negatively asso- ciated metabolites (5α-androstan-3α,17α-diol disulfate and N1,N12-diacetylspermine) predicted FGR at term.&lt;/p&gt;
+&lt;p&gt;最后是在两个单独的cohort上进行验证.&lt;/p&gt;
+&lt;p&gt;作者研究的是term FGR,定义为出生时体重低于3%分位或体重处3%和10%分位之间,但是featal abdominal growth velocity(胎儿腹围生长速度)低于10%分位.&lt;/p&gt;
+&lt;p&gt;metabolimics数据是untargeted,首先进行log转换.&lt;/p&gt;
+&lt;div id=&#34;method&#34; class=&#34;section level1&#34;&gt;
+&lt;h1&gt;&lt;span class=&#34;header-section-number&#34;&gt;1&lt;/span&gt; Method&lt;/h1&gt;
+&lt;div id=&#34;study-design&#34; class=&#34;section level2&#34;&gt;
+&lt;h2&gt;&lt;span class=&#34;header-section-number&#34;&gt;1.1&lt;/span&gt; Study design&lt;/h2&gt;
+&lt;p&gt;discovery dataset来自于POP cohort.在12,20,29和36 GA进行血液样品采集.&lt;/p&gt;
+&lt;p&gt;FGR at term定义:&lt;/p&gt;
+&lt;p&gt;在37 week或者之后出生,体重低于3%分位或者体重处于3%和10%分位之间,但是胎儿在20和36周之间的腹围生长速率(ACGVD1)小于10%分位.&lt;/p&gt;
+&lt;p&gt;外部验证数据集:&lt;/p&gt;
+&lt;/div&gt;
+&lt;div id=&#34;metabolomics数据采集&#34; class=&#34;section level2&#34;&gt;
+&lt;h2&gt;&lt;span class=&#34;header-section-number&#34;&gt;1.2&lt;/span&gt; Metabolomics数据采集&lt;/h2&gt;
+&lt;p&gt;对于POP发现样品,每个人的12,20,28和36周的样品采集了数据.而对于验证数据集,对于每个人只采集了一个样品,处于24-28周之间.&lt;/p&gt;
+&lt;/div&gt;
+&lt;div id=&#34;statistical-analysis&#34; class=&#34;section level2&#34;&gt;
+&lt;h2&gt;&lt;span class=&#34;header-section-number&#34;&gt;1.3&lt;/span&gt; Statistical analysis&lt;/h2&gt;
+&lt;p&gt;数据首先进行log转换.对于logistic regression,还需要进行scale.&lt;/p&gt;
+&lt;p&gt;#如何对出生体重进行校正&lt;/p&gt;
+&lt;p&gt;将参与者按照gestation age分成不同组,保证每组大于50人.分别是24-28,29-31,32-33和42-44.34-41则每周一个组,所以一共有12个组.&lt;/p&gt;
+&lt;p&gt;对于每个组(比如第i组),分别计算男性胎儿(m[i])和女性胎儿(f[i])的体重平均值.然后计算得到男性胎儿和女性胎儿的体重平均值的差值.&lt;/p&gt;
+&lt;p&gt;d[i] = m[i] - f[i]&lt;/p&gt;
+&lt;p&gt;然后分别对每组的胎儿体重进行校正:&lt;/p&gt;
+&lt;p&gt;m*[i] = m[i] - d[i]/2&lt;/p&gt;
+&lt;p&gt;f*[i] = f[i] + d[i]/2&lt;/p&gt;
+&lt;p&gt;可以看到其实就是将性别带来的误差对所有胎儿进行校正.&lt;/p&gt;
+&lt;/div&gt;
+&lt;/div&gt;
+</description>
+    </item>
+    
+    <item>
+      <title>Learning representations of microbe–metabolite interactions文献总结</title>
+      <link>https://jaspershen.github.io/post/2019-11-11-nm-mmvec/</link>
+      <pubDate>Mon, 11 Nov 2019 00:00:00 +0000</pubDate>
+      <guid>https://jaspershen.github.io/post/2019-11-11-nm-mmvec/</guid>
+      <description>
+&lt;script src=&#34;index_files/header-attrs/header-attrs.js&#34;&gt;&lt;/script&gt;
+
+&lt;div id=&#34;TOC&#34;&gt;
+&lt;ul&gt;
+&lt;li&gt;&lt;a href=&#34;#abstract&#34;&gt;&lt;span class=&#34;toc-section-number&#34;&gt;1&lt;/span&gt; Abstract&lt;/a&gt;&lt;/li&gt;
+&lt;li&gt;&lt;a href=&#34;#results&#34;&gt;&lt;span class=&#34;toc-section-number&#34;&gt;2&lt;/span&gt; Results&lt;/a&gt;&lt;/li&gt;
+&lt;li&gt;&lt;a href=&#34;#reference&#34;&gt;&lt;span class=&#34;toc-section-number&#34;&gt;3&lt;/span&gt; Reference&lt;/a&gt;&lt;/li&gt;
+&lt;/ul&gt;
+&lt;/div&gt;
+
+&lt;p&gt;文章题目:&lt;/p&gt;
+&lt;p&gt;Learning representations of microbe–metabolite interactions&lt;/p&gt;
+&lt;p&gt;文章Supplementary&lt;/p&gt;
+&lt;p&gt;&lt;a href=&#34;https://static-content.springer.com/esm/art%3A10.1038%2Fs41592-019-0616-3/MediaObjects/41592_2019_616_MOESM1_ESM.pdf&#34; class=&#34;uri&#34;&gt;https://static-content.springer.com/esm/art%3A10.1038%2Fs41592-019-0616-3/MediaObjects/41592_2019_616_MOESM1_ESM.pdf&lt;/a&gt;&lt;/p&gt;
+&lt;p&gt;这篇文章中的interactions across omics就是指在统计学意义上的两个变量的关系,如相关性.&lt;/p&gt;
+&lt;p&gt;microbe-metabolite relationship就是指微生物和metabolite的相关性.&lt;/p&gt;
+&lt;div id=&#34;abstract&#34; class=&#34;section level1&#34; number=&#34;1&#34;&gt;
+&lt;h1&gt;&lt;span class=&#34;header-section-number&#34;&gt;1&lt;/span&gt; Abstract&lt;/h1&gt;
+&lt;p&gt;Previous work has been able to predict metabolite abundance profiles from microbe abundance profiles&lt;a href=&#34;#fn1&#34; class=&#34;footnote-ref&#34; id=&#34;fnref1&#34;&gt;&lt;sup&gt;1&lt;/sup&gt;&lt;/a&gt; &lt;a href=&#34;#fn2&#34; class=&#34;footnote-ref&#34; id=&#34;fnref2&#34;&gt;&lt;sup&gt;2&lt;/sup&gt;&lt;/a&gt;. However, because conventional correlation techniques have unacceptably high false-discovery rates, finding meaningful relationships between genes within complex microbiomes and their products in the metabolome is challenging.&lt;/p&gt;
+&lt;p&gt;传统的correlation计算方法有着非常大的错误发现率,因此发现microbe和他们的product metabolite还是非常具有挑战性的.&lt;/p&gt;
+&lt;p&gt;Relative abundances of thousands of microbes and metabolites can be measured using sequencing technology and mass spectrometry, respectively, resulting in the generation of high-dimensional microbiome and metabolomics datasets.&lt;/p&gt;
+&lt;p&gt;microbiome得到的定量信息也是relative abundance.对于metabolome数据,能够测到的metabolite依赖于提取的方法以及分析方法,因此其实我们得到的metabolome是a partial snapshot of the metabolome.并不完全的完整的.&lt;/p&gt;
+&lt;p&gt;Quantifying microbe–metabolite interactions from these abundances requires estimating a distribution across all possible microbe–metabolite interactions.&lt;/p&gt;
+&lt;p&gt;从相对定量的数据中得到microbe-metabolite interactions需要得到所有的microbe–metabolite interactions的分布.是否可以理解为需要由NULL分布,然后才能知道某个interaction是不是真的interaction?&lt;/p&gt;
+&lt;p&gt;Pearson’s and Spearman’s correlations assume independence between interactions.&lt;/p&gt;
+&lt;p&gt;我们常用的correlation方法假设两个变量之间的关系和其他的变量是独立的,这是不一定的.所以还有一种办法叫做偏相关性.&lt;/p&gt;
+&lt;p&gt;作者举了例子来说明,为什么使用传统的correlation数据会早成错误发现(假阳性或者假阴性).&lt;/p&gt;
+&lt;div class=&#34;figure&#34;&gt;
+&lt;img src=&#34;figure1.png&#34; alt=&#34;&#34; /&gt;
+&lt;p class=&#34;caption&#34;&gt;Supplementary Figure 1&lt;/p&gt;
+&lt;/div&gt;
+&lt;p&gt;我并没有看懂他是什么意思?&lt;/p&gt;
+&lt;p&gt;在microbome和metabolite中会有使用某个变量占所有变量的比例来表示这个变量的吗?&lt;/p&gt;
+&lt;p&gt;好像并没有啊.&lt;/p&gt;
+&lt;p&gt;&lt;strong&gt;scale invariance&lt;/strong&gt;什么意思?标度不变.&lt;/p&gt;
+&lt;p&gt;An alternative approach is to consider co-occurrence probabilities instead of correlations.&lt;/p&gt;
+&lt;p&gt;一个可替代的方法是考虑共出现的概率而不是相关性.&lt;/p&gt;
+&lt;p&gt;Here, co-occurrence probabilities refer to the conditional probability of observing a metabolite given that a microbe was observed, thereby allowing us to identify the most likely microbe–metabolite interactions.&lt;/p&gt;
+&lt;p&gt;共出现概率是指当一个microbe(细菌)在的时候,观察到某个代谢物的条件概率.从而能够鉴定到真正的microbe-metabolite interaction.&lt;/p&gt;
+&lt;p&gt;To do this, we propose ‘mmvec’, (microbe–metabolite vecors), a neural network that predicts an entire metabolite abundance profile from a single microbe sequence.&lt;/p&gt;
+&lt;p&gt;因此作者提出了&lt;code&gt;mmvec&lt;/code&gt;(microbe–metabolite vecors)概念.利用neural network从一个single microbe的sequence来预测整个的metabolite abundance.&lt;/p&gt;
+&lt;div class=&#34;figure&#34;&gt;
+&lt;img src=&#34;figure2.png&#34; alt=&#34;&#34; /&gt;
+&lt;p class=&#34;caption&#34;&gt;Figure 1&lt;/p&gt;
+&lt;/div&gt;
+&lt;p&gt;这幅图是指如何使用microbe sequence去预测metabolite abundance.&lt;/p&gt;
+&lt;p&gt;Through iterative training, mmvec can learn the co-occurrence probabilities between microbes and metabolites. The microbe–metabolite interactions can be ranked and visualized through standard dimensionality reduction interfaces, enabling interpretable findings.&lt;/p&gt;
+&lt;p&gt;其实就是给定microbe的中的一个sequnce之后,预测所有metabolite abundance.&lt;/p&gt;
+&lt;/div&gt;
+&lt;div id=&#34;results&#34; class=&#34;section level1&#34; number=&#34;2&#34;&gt;
+&lt;h1&gt;&lt;span class=&#34;header-section-number&#34;&gt;2&lt;/span&gt; Results&lt;/h1&gt;
+&lt;/div&gt;
+&lt;div id=&#34;reference&#34; class=&#34;section level1&#34; number=&#34;3&#34;&gt;
+&lt;h1&gt;&lt;span class=&#34;header-section-number&#34;&gt;3&lt;/span&gt; Reference&lt;/h1&gt;
+&lt;/div&gt;
+&lt;div class=&#34;footnotes&#34;&gt;
+&lt;hr /&gt;
+&lt;ol&gt;
+&lt;li id=&#34;fn1&#34;&gt;&lt;p&gt;Noecker, C. et al. Metabolic model-based integration of microbiome taxonomic and metabolomic profiles elucidates mechanistic links between ecological and metabolic variation. MSystems 1, e00013–e00015 (2016).&lt;a href=&#34;#fnref1&#34; class=&#34;footnote-back&#34;&gt;↩︎&lt;/a&gt;&lt;/p&gt;&lt;/li&gt;
+&lt;li id=&#34;fn2&#34;&gt;&lt;p&gt;Mallick, H. et al. Predictive metabolomic profiling of microbial communities using amplicon or metagenomic sequences. Nat. Commun. 10, 3136 (2019).&lt;a href=&#34;#fnref2&#34; class=&#34;footnote-back&#34;&gt;↩︎&lt;/a&gt;&lt;/p&gt;&lt;/li&gt;
+&lt;/ol&gt;
+&lt;/div&gt;
+</description>
+    </item>
+    
+    <item>
+      <title>Metmicrobome Literature Sumamry</title>
+      <link>https://jaspershen.github.io/post/2019-11-04-metmicrobome-literature-sumamry/</link>
+      <pubDate>Mon, 04 Nov 2019 00:00:00 +0000</pubDate>
+      <guid>https://jaspershen.github.io/post/2019-11-04-metmicrobome-literature-sumamry/</guid>
+      <description>
+&lt;script src=&#34;index_files/header-attrs/header-attrs.js&#34;&gt;&lt;/script&gt;
+
+&lt;div id=&#34;TOC&#34;&gt;
+&lt;ul&gt;
+&lt;li&gt;&lt;a href=&#34;#predictive-metabolomic-profiling-of-microbial-communities-using-amplicon-or-metagenomic-sequences&#34;&gt;&lt;span class=&#34;toc-section-number&#34;&gt;1&lt;/span&gt; Predictive metabolomic profiling of microbial communities using amplicon or metagenomic sequences&lt;/a&gt;
+&lt;ul&gt;
+&lt;li&gt;&lt;a href=&#34;#methods&#34;&gt;&lt;span class=&#34;toc-section-number&#34;&gt;1.1&lt;/span&gt; Methods&lt;/a&gt;
+&lt;ul&gt;
+&lt;li&gt;&lt;a href=&#34;#training-and-validation-cohort-descriptions&#34;&gt;&lt;span class=&#34;toc-section-number&#34;&gt;1.1.1&lt;/span&gt; Training and validation cohort descriptions&lt;/a&gt;&lt;/li&gt;
+&lt;li&gt;&lt;a href=&#34;#taxonomic-and-functional-profiling&#34;&gt;&lt;span class=&#34;toc-section-number&#34;&gt;1.1.2&lt;/span&gt; Taxonomic and functional profiling&lt;/a&gt;&lt;/li&gt;
+&lt;li&gt;&lt;a href=&#34;#metabolite-profiling&#34;&gt;&lt;span class=&#34;toc-section-number&#34;&gt;1.1.3&lt;/span&gt; Metabolite profiling&lt;/a&gt;&lt;/li&gt;
+&lt;li&gt;&lt;a href=&#34;#elastic-net-regularization&#34;&gt;&lt;span class=&#34;toc-section-number&#34;&gt;1.1.4&lt;/span&gt; Elastic net regularization&lt;/a&gt;&lt;/li&gt;
+&lt;li&gt;&lt;a href=&#34;#significance-testing-with-shuffled-data&#34;&gt;&lt;span class=&#34;toc-section-number&#34;&gt;1.1.5&lt;/span&gt; Significance testing with shuffled data&lt;/a&gt;&lt;/li&gt;
+&lt;li&gt;&lt;a href=&#34;#gene-set-enrichment-analysis&#34;&gt;&lt;span class=&#34;toc-section-number&#34;&gt;1.1.6&lt;/span&gt; Gene set enrichment analysis&lt;/a&gt;&lt;/li&gt;
+&lt;/ul&gt;&lt;/li&gt;
+&lt;/ul&gt;&lt;/li&gt;
+&lt;/ul&gt;
+&lt;/div&gt;
+
+&lt;div id=&#34;predictive-metabolomic-profiling-of-microbial-communities-using-amplicon-or-metagenomic-sequences&#34; class=&#34;section level1&#34; number=&#34;1&#34;&gt;
+&lt;h1&gt;&lt;span class=&#34;header-section-number&#34;&gt;1&lt;/span&gt; Predictive metabolomic profiling of microbial communities using amplicon or metagenomic sequences&lt;/h1&gt;
+&lt;p&gt;开发的软件名字叫做MelonnPan(Model-based Genomically Informed High-dimensional Predictor of Microbial Community Metabolic Profile)&lt;/p&gt;
+&lt;p&gt;在一个cohort上开发, 在另一个indepent dataset上做验证.&lt;/p&gt;
+&lt;p&gt;This revealed high concordance (一致) between predicted and observed community metabolic trends in &amp;gt;50% of metabolites whose identities were confirmed against laboratory standards, including prediction of metabolic shifts associated with bile acids, fatty acids, steroids, prenol lipids, and sphingolipids.&lt;/p&gt;
+&lt;div id=&#34;methods&#34; class=&#34;section level2&#34; number=&#34;1.1&#34;&gt;
+&lt;h2&gt;&lt;span class=&#34;header-section-number&#34;&gt;1.1&lt;/span&gt; Methods&lt;/h2&gt;
+&lt;div id=&#34;training-and-validation-cohort-descriptions&#34; class=&#34;section level3&#34; number=&#34;1.1.1&#34;&gt;
+&lt;h3&gt;&lt;span class=&#34;header-section-number&#34;&gt;1.1.1&lt;/span&gt; Training and validation cohort descriptions&lt;/h3&gt;
+&lt;p&gt;One training data sets, two validation data sets.&lt;/p&gt;
+&lt;/div&gt;
+&lt;div id=&#34;taxonomic-and-functional-profiling&#34; class=&#34;section level3&#34; number=&#34;1.1.2&#34;&gt;
+&lt;h3&gt;&lt;span class=&#34;header-section-number&#34;&gt;1.1.2&lt;/span&gt; Taxonomic and functional profiling&lt;/h3&gt;
+&lt;p&gt;Stool samples.&lt;/p&gt;
+&lt;/div&gt;
+&lt;div id=&#34;metabolite-profiling&#34; class=&#34;section level3&#34; number=&#34;1.1.3&#34;&gt;
+&lt;h3&gt;&lt;span class=&#34;header-section-number&#34;&gt;1.1.3&lt;/span&gt; Metabolite profiling&lt;/h3&gt;
+&lt;p&gt;HHILIC and RPLC. 8869 features and 466 metabolites.&lt;/p&gt;
+&lt;/div&gt;
+&lt;div id=&#34;elastic-net-regularization&#34; class=&#34;section level3&#34; number=&#34;1.1.4&#34;&gt;
+&lt;h3&gt;&lt;span class=&#34;header-section-number&#34;&gt;1.1.4&lt;/span&gt; Elastic net regularization&lt;/h3&gt;
+&lt;p&gt;Elastic net regularization technique. Use the R package &lt;code&gt;glmnet&lt;/code&gt;.&lt;/p&gt;
+&lt;p&gt;Spearman correlation coefficient (r) between the true and pre- dicted metabolite compositions was used to evaluate the predictability of each compound. Following Cohen68, we term those metabolites for which r is &amp;gt;0.3 as “well predicted” and flag the rest as poorly predicted metabolites.&lt;/p&gt;
+&lt;/div&gt;
+&lt;div id=&#34;significance-testing-with-shuffled-data&#34; class=&#34;section level3&#34; number=&#34;1.1.5&#34;&gt;
+&lt;h3&gt;&lt;span class=&#34;header-section-number&#34;&gt;1.1.5&lt;/span&gt; Significance testing with shuffled data&lt;/h3&gt;
+&lt;p&gt;其实就是permutation test.&lt;/p&gt;
+&lt;/div&gt;
+&lt;div id=&#34;gene-set-enrichment-analysis&#34; class=&#34;section level3&#34; number=&#34;1.1.6&#34;&gt;
+&lt;h3&gt;&lt;span class=&#34;header-section-number&#34;&gt;1.1.6&lt;/span&gt; Gene set enrichment analysis&lt;/h3&gt;
+&lt;/div&gt;
+&lt;/div&gt;
+&lt;/div&gt;
+</description>
+    </item>
+    
+    <item>
+      <title>Maternal urinary metabolic signatures of fetal growth and associated clinical and environmental factors in the INMA study文献阅读总结</title>
+      <link>https://jaspershen.github.io/post/2019-11-01-maternal-urinary-metabolic-signatures/</link>
+      <pubDate>Fri, 01 Nov 2019 00:00:00 +0000</pubDate>
+      <guid>https://jaspershen.github.io/post/2019-11-01-maternal-urinary-metabolic-signatures/</guid>
+      <description>
+&lt;script src=&#34;index_files/header-attrs/header-attrs.js&#34;&gt;&lt;/script&gt;
+
+&lt;div id=&#34;TOC&#34;&gt;
+&lt;ul&gt;
+&lt;li&gt;&lt;a href=&#34;#abstract&#34;&gt;&lt;span class=&#34;toc-section-number&#34;&gt;1&lt;/span&gt; Abstract&lt;/a&gt;&lt;/li&gt;
+&lt;li&gt;&lt;a href=&#34;#methods&#34;&gt;&lt;span class=&#34;toc-section-number&#34;&gt;2&lt;/span&gt; Methods&lt;/a&gt;
+&lt;ul&gt;
+&lt;li&gt;&lt;a href=&#34;#study-population&#34;&gt;&lt;span class=&#34;toc-section-number&#34;&gt;2.1&lt;/span&gt; Study population&lt;/a&gt;&lt;/li&gt;
+&lt;li&gt;&lt;a href=&#34;#definition-of-the-fetal-and-birth-measurements&#34;&gt;&lt;span class=&#34;toc-section-number&#34;&gt;2.2&lt;/span&gt; Definition of the fetal and birth measurements&lt;/a&gt;&lt;/li&gt;
+&lt;li&gt;&lt;a href=&#34;#metabolic-profiling-by-nmr&#34;&gt;&lt;span class=&#34;toc-section-number&#34;&gt;2.3&lt;/span&gt; Metabolic profiling by NMR&lt;/a&gt;&lt;/li&gt;
+&lt;li&gt;&lt;a href=&#34;#statistical-analysis&#34;&gt;&lt;span class=&#34;toc-section-number&#34;&gt;2.4&lt;/span&gt; Statistical analysis&lt;/a&gt;
+&lt;ul&gt;
+&lt;li&gt;&lt;a href=&#34;#step-1.-identify-main-sources-of-metabolic-variation-between-first-and-third-trimesters-of-gestation&#34;&gt;&lt;span class=&#34;toc-section-number&#34;&gt;2.4.1&lt;/span&gt; Step 1. Identify main sources of metabolic variation between first and third trimesters of gestation&lt;/a&gt;&lt;/li&gt;
+&lt;li&gt;&lt;a href=&#34;#step-2.-identify-metabolites-associated-with-fetal-growth&#34;&gt;&lt;span class=&#34;toc-section-number&#34;&gt;2.4.2&lt;/span&gt; Step 2. Identify metabolites associated with fetal growth&lt;/a&gt;&lt;/li&gt;
+&lt;li&gt;&lt;a href=&#34;#step-3.-assess-the-extent-to-which-the-metabolite-panel-associated-with-fetal-growth-can-be-explained-by-known-growth-related-factors-from-epidemiological-and-clinical-data&#34;&gt;&lt;span class=&#34;toc-section-number&#34;&gt;2.4.3&lt;/span&gt; Step 3. Assess the extent to which the metabolite panel associated with fetal growth can be explained by known growth-related factors from epidemiological and clinical data&lt;/a&gt;&lt;/li&gt;
+&lt;li&gt;&lt;a href=&#34;#step-4.-determinants-of-birth-weight-a-variance-decomposition-analysis&#34;&gt;&lt;span class=&#34;toc-section-number&#34;&gt;2.4.4&lt;/span&gt; Step 4. Determinants of birth weight: a variance decomposition analysis&lt;/a&gt;&lt;/li&gt;
+&lt;/ul&gt;&lt;/li&gt;
+&lt;/ul&gt;&lt;/li&gt;
+&lt;/ul&gt;
+&lt;/div&gt;
+
+&lt;div id=&#34;abstract&#34; class=&#34;section level1&#34; number=&#34;1&#34;&gt;
+&lt;h1&gt;&lt;span class=&#34;header-section-number&#34;&gt;1&lt;/span&gt; Abstract&lt;/h1&gt;
+&lt;p&gt;使用NMR仪器采集urine数据.一共两个cohort.两个时间点(fisrt and third trimesters of gestation).用metabolome来预测fetal growth和birth weight.&lt;/p&gt;
+&lt;p&gt;测到的东西包括:branched-chain amino acids(支链氨基酸);isoleucine(异亮氨酸),valine(颉氨酸),leucine(亮氨酸),alanine(丙氨酸)和3 hydroxyisobutyrate(羟基异丁酸)(metabolite of valine).&lt;/p&gt;
+&lt;p&gt;另外一大类就是:pregnancy-related hormone by-products of estrogens and progesterone, and the methyl donor choline.
+Physical activity, as well as other modifiable lifestyle/clinical factors, such as coffee consumption, vitamin D intake, and smoking, were identified as potential sources of metabolic variation during pregnancy.First trimester metabolic phenotypes could not predict reproducibly weight at later stages of development.&lt;/p&gt;
+&lt;p&gt;Significant reproducible maternal urinary metabolic signatures of fetal growth and birth weight are identified for the first time and linked to modifiable lifestyle factors. This novel approach to prenatal(产前的) screening, combining multiple risk factors, present a great opportunity to personalize pregnancy management management and reduce newborn disease risk in later life.&lt;/p&gt;
+&lt;/div&gt;
+&lt;div id=&#34;methods&#34; class=&#34;section level1&#34; number=&#34;2&#34;&gt;
+&lt;h1&gt;&lt;span class=&#34;header-section-number&#34;&gt;2&lt;/span&gt; Methods&lt;/h1&gt;
+&lt;p&gt;NMR采集数据,一共1695 metabolic phenotypes.&lt;/p&gt;
+&lt;p&gt;Exploratory metabolic profiling offers a powerful means of capturing systems-level information that re- flects both maternal genetic and environmental influ- ences, hence helping to elucidate metabolic disturbances and pathways associated with fetal outcomes.&lt;/p&gt;
+&lt;p&gt;This study aimed to (1) characterize the maternal urinary metabolome throughout pregnancy, (2) identify maternal metabolic signatures of fetal growth in two subcohorts, (3) explain potential sources of variation in metabolic profiles based on lifestyle and clinical data, and finally (4) to determine the individ- ual importance of metabolic signatures versus other maternal&lt;/p&gt;
+&lt;div id=&#34;study-population&#34; class=&#34;section level2&#34; number=&#34;2.1&#34;&gt;
+&lt;h2&gt;&lt;span class=&#34;header-section-number&#34;&gt;2.1&lt;/span&gt; Study population&lt;/h2&gt;
+&lt;p&gt;The women were interviewed twice during pregnancy (in the first and third trimesters of gestation) to obtain infor- mation about their sociodemographic characteristics and lifestyle variables. The urine samples were collected in the same interview in the morning (spot samples). The urine samples were collected in the same interview in the morning (spot samples). 所以一共有两个时间点.分别在first trimester and third trimesters.时间为&lt;strong&gt;12.4 ± 1.2&lt;/strong&gt;和&lt;strong&gt;33.9 ± 1.3&lt;/strong&gt; weeks.&lt;/p&gt;
+&lt;/div&gt;
+&lt;div id=&#34;definition-of-the-fetal-and-birth-measurements&#34; class=&#34;section level2&#34; number=&#34;2.2&#34;&gt;
+&lt;h2&gt;&lt;span class=&#34;header-section-number&#34;&gt;2.2&lt;/span&gt; Definition of the fetal and birth measurements&lt;/h2&gt;
+&lt;p&gt;Fetal weight(FW)就是使用ultrasound对胎儿的几个指标进行测量(详细指标见下面内容),然后使用&lt;code&gt;Hadlock&lt;/code&gt;公式进行计算,可以得出胎儿的体重.&lt;/p&gt;
+&lt;p&gt;然后下面一个概念就是&lt;code&gt;fetal growth score&lt;/code&gt;.&lt;/p&gt;
+&lt;p&gt;下面是原文:&lt;/p&gt;
+&lt;p&gt;Fetal growth scores or standard deviation scores (z- scores) were obtained using longitudinal growth curves calculated for each individual adjusting for constitutional factors known to affect fetal growth (i.e., maternal age, height, parity, pre-pregnancy weight, country of origin, father’s height, and fetal sex).&lt;/p&gt;
+&lt;p&gt;推测做法:&lt;/p&gt;
+&lt;p&gt;对于每一个母亲,使用胎儿的体重(fetal weight,FW)作为因变量,然后其他的一些因素,比如maternal age等等作为cofounding factor,然后进行回归,剩余的残差就是矫正过后的fetal growth score.&lt;/p&gt;
+&lt;p&gt;协变量:&lt;/p&gt;
+&lt;p&gt;Gestational age was calculated from the date of the last menstrual period (LMP) which was self-reported and was confirmed using ultrasound examination in 12 wk of gestation. When the date did not match the ultrasound measurement estimation by 7 days or more, the gestational age was corrected using its relationship to the crown-rump length(顶臀长).&lt;/p&gt;
+&lt;p&gt;GA有两种计算方式,一种是使用孕妇自己报告的最后一次月经的第一天开始算起,整个怀孕周期为280天.10个妊娠月(每个妊娠月为28天).另外一种方法是使用ultrasound在12周的数据进行反推.如果两种方法的误差不在一周内,&lt;code&gt;则以哪种为准呢?&lt;/code&gt;如果误差在大于一周,则使用他们与crown-rump length(顶臀长)的关系进行矫正(&lt;code&gt;如何矫正?&lt;/code&gt;).&lt;/p&gt;
+&lt;p&gt;Fetal growth score是使用longitudinal growth curve来计算的,然后adjust了一些已知的能够影响fetal growth的因素,如maternal age(母亲的年龄),height(母亲的身高),parity(已生胎数),pre-pregnancy weight(怀孕前的体重),country of origin(地区),father’s height(母亲的身高),and fetal sex(胎儿性别).&lt;/p&gt;
+&lt;p&gt;这个值是一个标准化后的值.(standard deviation scores,z-scores).&lt;/p&gt;
+&lt;p&gt;没有矫正后的z-score.&lt;/p&gt;
+&lt;p&gt;date of conception:妊娠期.&lt;/p&gt;
+&lt;p&gt;Gestational age(孕龄)was established by using crown–rump length when the calculated date of conception differed from the fetal age based on the subject’s self-reported last menstrual period by 7 days or more.&lt;/p&gt;
+&lt;/div&gt;
+&lt;div id=&#34;metabolic-profiling-by-nmr&#34; class=&#34;section level2&#34; number=&#34;2.3&#34;&gt;
+&lt;h2&gt;&lt;span class=&#34;header-section-number&#34;&gt;2.3&lt;/span&gt; Metabolic profiling by NMR&lt;/h2&gt;
+&lt;p&gt;一共鉴定到64个代谢物,其中47个fully identified.&lt;/p&gt;
+&lt;/div&gt;
+&lt;div id=&#34;statistical-analysis&#34; class=&#34;section level2&#34; number=&#34;2.4&#34;&gt;
+&lt;h2&gt;&lt;span class=&#34;header-section-number&#34;&gt;2.4&lt;/span&gt; Statistical analysis&lt;/h2&gt;
+&lt;div id=&#34;step-1.-identify-main-sources-of-metabolic-variation-between-first-and-third-trimesters-of-gestation&#34; class=&#34;section level3&#34; number=&#34;2.4.1&#34;&gt;
+&lt;h3&gt;&lt;span class=&#34;header-section-number&#34;&gt;2.4.1&lt;/span&gt; Step 1. Identify main sources of metabolic variation between first and third trimesters of gestation&lt;/h3&gt;
+&lt;p&gt;PCA和OPLSA用来观察first and third trimester gestation的整体差异.&lt;/p&gt;
+&lt;/div&gt;
+&lt;div id=&#34;step-2.-identify-metabolites-associated-with-fetal-growth&#34; class=&#34;section level3&#34; number=&#34;2.4.2&#34;&gt;
+&lt;h3&gt;&lt;span class=&#34;header-section-number&#34;&gt;2.4.2&lt;/span&gt; Step 2. Identify metabolites associated with fetal growth&lt;/h3&gt;
+&lt;p&gt;对于所有的metabolite数据,首先将其进行log transformation.然后将fetal growth score作为因变量,metabolite作为自变量,而采样时间作为confounding factor进行multivarite linear regression.得到的每一个metabolite的coefficient乘以1.5的作为当该metabolite level提高50%时其对fetal growth score的影响(&lt;code&gt;没有太懂?&lt;/code&gt;).&lt;/p&gt;
+&lt;p&gt;Regression coefficients are presented as a percent of change in the z-score of each fetal growth measure.&lt;/p&gt;
+&lt;/div&gt;
+&lt;div id=&#34;step-3.-assess-the-extent-to-which-the-metabolite-panel-associated-with-fetal-growth-can-be-explained-by-known-growth-related-factors-from-epidemiological-and-clinical-data&#34; class=&#34;section level3&#34; number=&#34;2.4.3&#34;&gt;
+&lt;h3&gt;&lt;span class=&#34;header-section-number&#34;&gt;2.4.3&lt;/span&gt; Step 3. Assess the extent to which the metabolite panel associated with fetal growth can be explained by known growth-related factors from epidemiological and clinical data&lt;/h3&gt;
+&lt;p&gt;探究哪一些的metaboloite-fetal relationshi可以被一些已知的epidemiological和clinical data所解释.&lt;/p&gt;
+&lt;p&gt;作者考虑了以下已知的和fetal growth相关的参数:&lt;/p&gt;
+&lt;p&gt;maternal clinical parameters.&lt;/p&gt;
+&lt;p&gt;materna lifestyle in third trimester.&lt;/p&gt;
+&lt;p&gt;dietary intake in third trimester.&lt;/p&gt;
+&lt;p&gt;sociodemographic characteristics (社会人口特征).&lt;/p&gt;
+&lt;p&gt;一共有38个信息.详细信息请请见该&lt;a href=&#34;https://office365stanford-my.sharepoint.com/❌/r/personal/shenxt_stanford_edu/_layouts/15/Doc.aspx?sourcedoc=%7BE1FAE2E0-2B7D-4600-A1E3-2EC7B2391350%7D&amp;amp;file=41467_2019_11881_MOESM4_ESM.xlsx&amp;amp;action=default&amp;amp;mobileredirect=true&#34;&gt;表格&lt;/a&gt;.&lt;/p&gt;
+&lt;p&gt;将metabolite和maternal parameters进行spearman correlation的计算,然后化作crios plot(只保留p adjust &amp;lt; 0.05, FDR矫正).&lt;/p&gt;
+&lt;p&gt;In addition, correlation adjusted scores (CAR scores) were used to measure the correlation between metabolite levels and all the Mahalanobis decorrelated predictors in one model (growth-related factors selected from epidemiological and clinical data) as implemented in the R-package ‘care’&lt;/p&gt;
+&lt;p&gt;这段话没有看懂.&lt;/p&gt;
+&lt;p&gt;什么是correlation adjusted scores?&lt;/p&gt;
+&lt;/div&gt;
+&lt;div id=&#34;step-4.-determinants-of-birth-weight-a-variance-decomposition-analysis&#34; class=&#34;section level3&#34; number=&#34;2.4.4&#34;&gt;
+&lt;h3&gt;&lt;span class=&#34;header-section-number&#34;&gt;2.4.4&lt;/span&gt; Step 4. Determinants of birth weight: a variance decomposition analysis&lt;/h3&gt;
+&lt;/div&gt;
+&lt;/div&gt;
+&lt;/div&gt;
+</description>
+    </item>
+    
+    <item>
+      <title>怀孕基础知识总结</title>
+      <link>https://jaspershen.github.io/post/2019-11-01-pregnancy-knowledge/</link>
+      <pubDate>Fri, 01 Nov 2019 00:00:00 +0000</pubDate>
+      <guid>https://jaspershen.github.io/post/2019-11-01-pregnancy-knowledge/</guid>
+      <description>
+&lt;script src=&#34;index_files/header-attrs/header-attrs.js&#34;&gt;&lt;/script&gt;
+
+&lt;div id=&#34;TOC&#34;&gt;
+&lt;ul&gt;
+&lt;li&gt;&lt;a href=&#34;#孕龄gestational-agega的计算&#34;&gt;&lt;span class=&#34;toc-section-number&#34;&gt;1&lt;/span&gt; 孕龄(gestational age,GA)的计算&lt;/a&gt;&lt;/li&gt;
+&lt;/ul&gt;
+&lt;/div&gt;
+
+&lt;p&gt;因为要做跟怀孕相关的项目,所以把一些基础的怀孕知识做一下总结.&lt;/p&gt;
+&lt;div id=&#34;孕龄gestational-agega的计算&#34; class=&#34;section level1&#34; number=&#34;1&#34;&gt;
+&lt;h1&gt;&lt;span class=&#34;header-section-number&#34;&gt;1&lt;/span&gt; 孕龄(gestational age,GA)的计算&lt;/h1&gt;
+&lt;p&gt;整个怀孕周期为280天.10个妊娠月(每个妊娠月为28天).孕妇在妊娠38-42周内分娩,均为足月.由于每位女性月经周期长短不一,所以推测的预产期与实际预产期有1-2周的出入也是正常的.主要的计算方法有以下几种:&lt;/p&gt;
+&lt;ol style=&#34;list-style-type: decimal&#34;&gt;
+&lt;li&gt;根据末次月经计算:&lt;/li&gt;
+&lt;/ol&gt;
+&lt;p&gt;末次月经日期(第一天)的月份加9或减3,为预产期月份数;天数加7,为预产期日.例如:张女士的末次月经是2008年3月13日,其预产期约为:2008年12月20日.李女士的末次月经是2008年5月28日,其预产期约为:2009年3月5日.也可以从末次月经第一天起向后推算到第280天就是预产期.&lt;/p&gt;
+&lt;ol start=&#34;2&#34; style=&#34;list-style-type: decimal&#34;&gt;
+&lt;li&gt;根据胎动日期计算:&lt;/li&gt;
+&lt;/ol&gt;
+&lt;p&gt;如不清末次月经日期,可以依据胎动日期来进行推算.一般胎动开始于怀孕后的18-20周.计算方法为:初产妇是胎动日加20周;经产妇是胎动日加22周.&lt;/p&gt;
+&lt;ol start=&#34;3&#34; style=&#34;list-style-type: decimal&#34;&gt;
+&lt;li&gt;根据基础体温曲线计算:&lt;/li&gt;
+&lt;/ol&gt;
+&lt;p&gt;将基础体温曲线的低温段的最后一天作为排卵日,从排卵日向后推算264-268天,或加38周.&lt;/p&gt;
+&lt;ol start=&#34;4&#34; style=&#34;list-style-type: decimal&#34;&gt;
+&lt;li&gt;根据B超检查推算:&lt;/li&gt;
+&lt;/ol&gt;
+&lt;p&gt;医生做B超时测得胎头双顶间径,头臀长度及股骨长度即可估算出胎龄,并推算出预产期(此方法大多作为医生B超检查诊断应用).&lt;/p&gt;
+&lt;p&gt;用来预测胎儿体重(fetal birth weight)的几个参数(从超声波测量而来):&lt;/p&gt;
+&lt;ul&gt;
+&lt;li&gt;&lt;p&gt;Fiparietal diameter(BPD):胎儿双顶径.为两侧顶骨隆突间的距离,是胎头最大横径,临床用B型超声检测此值判断胎儿大小,妊娠足月时平均长度约9.3cm.&lt;/p&gt;&lt;/li&gt;
+&lt;li&gt;&lt;p&gt;Femur length(FL):胎儿股骨长度.&lt;/p&gt;&lt;/li&gt;
+&lt;li&gt;&lt;p&gt;Head circumference (AC):胎儿头围.&lt;/p&gt;&lt;/li&gt;
+&lt;li&gt;&lt;p&gt;Abdominal circumference (AC):胎儿腹围.&lt;/p&gt;&lt;/li&gt;
+&lt;li&gt;&lt;p&gt;crown–rump length:胎儿的头臀长.&lt;/p&gt;&lt;/li&gt;
+&lt;/ul&gt;
+&lt;ol start=&#34;5&#34; style=&#34;list-style-type: decimal&#34;&gt;
+&lt;li&gt;从孕吐开始的时间推算:&lt;/li&gt;
+&lt;/ol&gt;
+&lt;p&gt;反应孕吐一般出现在怀孕6周末，就是末次月经后42天，由此向后推算至280天即为预产期。&lt;/p&gt;
+&lt;/div&gt;
+</description>
+    </item>
+    
+    <item>
+      <title>Pregancy project participant information summary</title>
+      <link>https://jaspershen.github.io/post/pregancy-project-participant-information-summary/</link>
+      <pubDate>Wed, 30 Oct 2019 00:00:00 +0000</pubDate>
+      <guid>https://jaspershen.github.io/post/pregancy-project-participant-information-summary/</guid>
+      <description>
+&lt;script src=&#34;index_files/header-attrs/header-attrs.js&#34;&gt;&lt;/script&gt;
+
+&lt;div id=&#34;TOC&#34;&gt;
+&lt;ul&gt;
+&lt;li&gt;&lt;a href=&#34;#maternal-dob&#34;&gt;&lt;span class=&#34;toc-section-number&#34;&gt;1&lt;/span&gt; Maternal DOB&lt;/a&gt;&lt;/li&gt;
+&lt;li&gt;&lt;a href=&#34;#age&#34;&gt;&lt;span class=&#34;toc-section-number&#34;&gt;2&lt;/span&gt; Age&lt;/a&gt;&lt;/li&gt;
+&lt;li&gt;&lt;a href=&#34;#marital-status&#34;&gt;&lt;span class=&#34;toc-section-number&#34;&gt;3&lt;/span&gt; Marital Status&lt;/a&gt;&lt;/li&gt;
+&lt;li&gt;&lt;a href=&#34;#ethinic-group&#34;&gt;&lt;span class=&#34;toc-section-number&#34;&gt;4&lt;/span&gt; Ethinic Group&lt;/a&gt;&lt;/li&gt;
+&lt;li&gt;&lt;a href=&#34;#employed&#34;&gt;&lt;span class=&#34;toc-section-number&#34;&gt;5&lt;/span&gt; Employed&lt;/a&gt;&lt;/li&gt;
+&lt;li&gt;&lt;a href=&#34;#housing&#34;&gt;&lt;span class=&#34;toc-section-number&#34;&gt;6&lt;/span&gt; Housing&lt;/a&gt;&lt;/li&gt;
+&lt;li&gt;&lt;a href=&#34;#parity&#34;&gt;&lt;span class=&#34;toc-section-number&#34;&gt;7&lt;/span&gt; Parity&lt;/a&gt;&lt;/li&gt;
+&lt;li&gt;&lt;a href=&#34;#pmh&#34;&gt;&lt;span class=&#34;toc-section-number&#34;&gt;8&lt;/span&gt; PMH&lt;/a&gt;&lt;/li&gt;
+&lt;li&gt;&lt;a href=&#34;#psh&#34;&gt;&lt;span class=&#34;toc-section-number&#34;&gt;9&lt;/span&gt; PSH&lt;/a&gt;&lt;/li&gt;
+&lt;li&gt;&lt;a href=&#34;#ob-hx&#34;&gt;&lt;span class=&#34;toc-section-number&#34;&gt;10&lt;/span&gt; OB hx&lt;/a&gt;&lt;/li&gt;
+&lt;li&gt;&lt;a href=&#34;#genetic-testing&#34;&gt;&lt;span class=&#34;toc-section-number&#34;&gt;11&lt;/span&gt; Genetic testing&lt;/a&gt;&lt;/li&gt;
+&lt;li&gt;&lt;a href=&#34;#section&#34;&gt;&lt;span class=&#34;toc-section-number&#34;&gt;12&lt;/span&gt; &lt;/a&gt;&lt;/li&gt;
+&lt;/ul&gt;
+&lt;/div&gt;
+
+&lt;div id=&#34;maternal-dob&#34; class=&#34;section level1&#34; number=&#34;1&#34;&gt;
+&lt;h1&gt;&lt;span class=&#34;header-section-number&#34;&gt;1&lt;/span&gt; Maternal DOB&lt;/h1&gt;
+&lt;p&gt;Maternal date of birth.&lt;/p&gt;
+&lt;/div&gt;
+&lt;div id=&#34;age&#34; class=&#34;section level1&#34; number=&#34;2&#34;&gt;
+&lt;h1&gt;&lt;span class=&#34;header-section-number&#34;&gt;2&lt;/span&gt; Age&lt;/h1&gt;
+&lt;p&gt;Mother age.&lt;/p&gt;
+&lt;/div&gt;
+&lt;div id=&#34;marital-status&#34; class=&#34;section level1&#34; number=&#34;3&#34;&gt;
+&lt;h1&gt;&lt;span class=&#34;header-section-number&#34;&gt;3&lt;/span&gt; Marital Status&lt;/h1&gt;
+&lt;p&gt;Mothers’ marriage status&lt;/p&gt;
+&lt;table&gt;
+&lt;colgroup&gt;
+&lt;col width=&#34;50%&#34; /&gt;
+&lt;col width=&#34;50%&#34; /&gt;
+&lt;/colgroup&gt;
+&lt;thead&gt;
+&lt;tr class=&#34;header&#34;&gt;
+&lt;th align=&#34;left&#34;&gt;Lable&lt;/th&gt;
+&lt;th align=&#34;left&#34;&gt;Meaning&lt;/th&gt;
+&lt;/tr&gt;
+&lt;/thead&gt;
+&lt;tbody&gt;
+&lt;tr class=&#34;odd&#34;&gt;
+&lt;td align=&#34;left&#34;&gt;Married, FOB involved&lt;/td&gt;
+&lt;td align=&#34;left&#34;&gt;Married, FOB involved&lt;/td&gt;
+&lt;/tr&gt;
+&lt;tr class=&#34;even&#34;&gt;
+&lt;td align=&#34;left&#34;&gt;Unknown, FOB involved&lt;/td&gt;
+&lt;td align=&#34;left&#34;&gt;Unknown, FOB involved&lt;/td&gt;
+&lt;/tr&gt;
+&lt;tr class=&#34;odd&#34;&gt;
+&lt;td align=&#34;left&#34;&gt;Single, FOB involved&lt;/td&gt;
+&lt;td align=&#34;left&#34;&gt;Single, FOB involved&lt;/td&gt;
+&lt;/tr&gt;
+&lt;tr class=&#34;even&#34;&gt;
+&lt;td align=&#34;left&#34;&gt;Unknown&lt;/td&gt;
+&lt;td align=&#34;left&#34;&gt;Unknown&lt;/td&gt;
+&lt;/tr&gt;
+&lt;tr class=&#34;odd&#34;&gt;
+&lt;td align=&#34;left&#34;&gt;NA&lt;/td&gt;
+&lt;td align=&#34;left&#34;&gt;NA&lt;/td&gt;
+&lt;/tr&gt;
+&lt;tr class=&#34;even&#34;&gt;
+&lt;td align=&#34;left&#34;&gt;Unmarried, FOB involved&lt;/td&gt;
+&lt;td align=&#34;left&#34;&gt;Unmarried, FOB involved&lt;/td&gt;
+&lt;/tr&gt;
+&lt;tr class=&#34;odd&#34;&gt;
+&lt;td align=&#34;left&#34;&gt;Unmarried, FOB involved, but not living together&lt;/td&gt;
+&lt;td align=&#34;left&#34;&gt;Unmarried, FOB involved, but not living together&lt;/td&gt;
+&lt;/tr&gt;
+&lt;tr class=&#34;even&#34;&gt;
+&lt;td align=&#34;left&#34;&gt;Unmarried, FOB not involved&lt;/td&gt;
+&lt;td align=&#34;left&#34;&gt;Unmarried, FOB not involved&lt;/td&gt;
+&lt;/tr&gt;
+&lt;tr class=&#34;odd&#34;&gt;
+&lt;td align=&#34;left&#34;&gt;unknown, FOB involved but living separately&lt;/td&gt;
+&lt;td align=&#34;left&#34;&gt;unknown, FOB involved but living separately&lt;/td&gt;
+&lt;/tr&gt;
+&lt;tr class=&#34;even&#34;&gt;
+&lt;td align=&#34;left&#34;&gt;Single&lt;/td&gt;
+&lt;td align=&#34;left&#34;&gt;Single&lt;/td&gt;
+&lt;/tr&gt;
+&lt;/tbody&gt;
+&lt;/table&gt;
+&lt;p&gt;&lt;strong&gt;Note&lt;/strong&gt;:&lt;/p&gt;
+&lt;p&gt;I don’t know what the meaning of “FOB involved”.&lt;/p&gt;
+&lt;/div&gt;
+&lt;div id=&#34;ethinic-group&#34; class=&#34;section level1&#34; number=&#34;4&#34;&gt;
+&lt;h1&gt;&lt;span class=&#34;header-section-number&#34;&gt;4&lt;/span&gt; Ethinic Group&lt;/h1&gt;
+&lt;p&gt;The ethnicity of mothers.&lt;/p&gt;
+&lt;table&gt;
+&lt;thead&gt;
+&lt;tr class=&#34;header&#34;&gt;
+&lt;th align=&#34;left&#34;&gt;Lable&lt;/th&gt;
+&lt;th align=&#34;left&#34;&gt;Meaning&lt;/th&gt;
+&lt;/tr&gt;
+&lt;/thead&gt;
+&lt;tbody&gt;
+&lt;tr class=&#34;odd&#34;&gt;
+&lt;td align=&#34;left&#34;&gt;Afr Am&lt;/td&gt;
+&lt;td align=&#34;left&#34;&gt;Black&lt;/td&gt;
+&lt;/tr&gt;
+&lt;tr class=&#34;even&#34;&gt;
+&lt;td align=&#34;left&#34;&gt;4 (Asian)&lt;/td&gt;
+&lt;td align=&#34;left&#34;&gt;Asian&lt;/td&gt;
+&lt;/tr&gt;
+&lt;tr class=&#34;odd&#34;&gt;
+&lt;td align=&#34;left&#34;&gt;1&lt;/td&gt;
+&lt;td align=&#34;left&#34;&gt;White&lt;/td&gt;
+&lt;/tr&gt;
+&lt;tr class=&#34;even&#34;&gt;
+&lt;td align=&#34;left&#34;&gt;2&lt;/td&gt;
+&lt;td align=&#34;left&#34;&gt;Black&lt;/td&gt;
+&lt;/tr&gt;
+&lt;tr class=&#34;odd&#34;&gt;
+&lt;td align=&#34;left&#34;&gt;3&lt;/td&gt;
+&lt;td align=&#34;left&#34;&gt;Latina&lt;/td&gt;
+&lt;/tr&gt;
+&lt;tr class=&#34;even&#34;&gt;
+&lt;td align=&#34;left&#34;&gt;4&lt;/td&gt;
+&lt;td align=&#34;left&#34;&gt;Pacific Islander&lt;/td&gt;
+&lt;/tr&gt;
+&lt;tr class=&#34;odd&#34;&gt;
+&lt;td align=&#34;left&#34;&gt;5&lt;/td&gt;
+&lt;td align=&#34;left&#34;&gt;Asian&lt;/td&gt;
+&lt;/tr&gt;
+&lt;/tbody&gt;
+&lt;/table&gt;
+&lt;/div&gt;
+&lt;div id=&#34;employed&#34; class=&#34;section level1&#34; number=&#34;5&#34;&gt;
+&lt;h1&gt;&lt;span class=&#34;header-section-number&#34;&gt;5&lt;/span&gt; Employed&lt;/h1&gt;
+&lt;p&gt;The mothers’ work status.&lt;/p&gt;
+&lt;/div&gt;
+&lt;div id=&#34;housing&#34; class=&#34;section level1&#34; number=&#34;6&#34;&gt;
+&lt;h1&gt;&lt;span class=&#34;header-section-number&#34;&gt;6&lt;/span&gt; Housing&lt;/h1&gt;
+&lt;p&gt;House status.&lt;/p&gt;
+&lt;/div&gt;
+&lt;div id=&#34;parity&#34; class=&#34;section level1&#34; number=&#34;7&#34;&gt;
+&lt;h1&gt;&lt;span class=&#34;header-section-number&#34;&gt;7&lt;/span&gt; Parity&lt;/h1&gt;
+&lt;p&gt;Gravidity is defined as the number of times that a woman has been pregnant.&lt;/p&gt;
+&lt;p&gt;&lt;strong&gt;Note&lt;/strong&gt;:&lt;/p&gt;
+&lt;p&gt;[8] “G4P1021” “G3P1011” NA “G5P2” “G5P0” “G10P3154” “G3P2002”&lt;br /&gt;
+[15] “G4P2012” “G4P0303” “G6P5005” “G14P4-1-8-4” “G4P3003” “G7P4115” “G9P4044”&lt;br /&gt;
+[22] “G5P2022” “G5P2113” “G5P0040” “G8P5025”&lt;/p&gt;
+&lt;p&gt;I don not understand what that means.&lt;/p&gt;
+&lt;/div&gt;
+&lt;div id=&#34;pmh&#34; class=&#34;section level1&#34; number=&#34;8&#34;&gt;
+&lt;h1&gt;&lt;span class=&#34;header-section-number&#34;&gt;8&lt;/span&gt; PMH&lt;/h1&gt;
+&lt;p&gt;I don’t understand what this means, but it may be mothers’s diesease.&lt;/p&gt;
+&lt;/div&gt;
+&lt;div id=&#34;psh&#34; class=&#34;section level1&#34; number=&#34;9&#34;&gt;
+&lt;h1&gt;&lt;span class=&#34;header-section-number&#34;&gt;9&lt;/span&gt; PSH&lt;/h1&gt;
+&lt;p&gt;I don’t understand what this means.&lt;/p&gt;
+&lt;/div&gt;
+&lt;div id=&#34;ob-hx&#34; class=&#34;section level1&#34; number=&#34;10&#34;&gt;
+&lt;h1&gt;&lt;span class=&#34;header-section-number&#34;&gt;10&lt;/span&gt; OB hx&lt;/h1&gt;
+&lt;p&gt;I donn’t understand what this means.&lt;/p&gt;
+&lt;/div&gt;
+&lt;div id=&#34;genetic-testing&#34; class=&#34;section level1&#34; number=&#34;11&#34;&gt;
+&lt;h1&gt;&lt;span class=&#34;header-section-number&#34;&gt;11&lt;/span&gt; Genetic testing&lt;/h1&gt;
+&lt;p&gt;Genetic testing for mothers.&lt;/p&gt;
+&lt;/div&gt;
+&lt;div id=&#34;section&#34; class=&#34;section level1&#34; number=&#34;12&#34;&gt;
+&lt;h1&gt;&lt;span class=&#34;header-section-number&#34;&gt;12&lt;/span&gt; &lt;/h1&gt;
+&lt;/div&gt;
+</description>
+    </item>
+    
+    <item>
+      <title>pubmed插件scholarscoop使用总结</title>
+      <link>https://jaspershen.github.io/post/pubmed-scholarscoop-summary/</link>
+      <pubDate>Mon, 28 Oct 2019 00:00:00 +0000</pubDate>
+      <guid>https://jaspershen.github.io/post/pubmed-scholarscoop-summary/</guid>
+      <description>
+&lt;script src=&#34;index_files/header-attrs/header-attrs.js&#34;&gt;&lt;/script&gt;
+
+
+&lt;div id=&#34;如何对某个影响因子范围内的文章进行筛选&#34; class=&#34;section level1&#34;&gt;
+&lt;h1&gt;如何对某个影响因子范围内的文章进行筛选?&lt;/h1&gt;
+&lt;p&gt;可以参考下面的连接.&lt;/p&gt;
+&lt;p&gt;&lt;a href=&#34;http://blog.scholarscope.cn/tutorial/pubmed-filter-longterm/&#34; class=&#34;uri&#34;&gt;http://blog.scholarscope.cn/tutorial/pubmed-filter-longterm/&lt;/a&gt;&lt;/p&gt;
+&lt;/div&gt;
+&lt;div id=&#34;如何查看期刊影响因子&#34; class=&#34;section level1&#34;&gt;
+&lt;h1&gt;如何查看期刊影响因子?&lt;/h1&gt;
+&lt;p&gt;&lt;a href=&#34;https://www.scholarscope.cn/tools.html&#34; class=&#34;uri&#34;&gt;https://www.scholarscope.cn/tools.html&lt;/a&gt;&lt;/p&gt;
+&lt;p&gt;点击该网址,然后点击&lt;code&gt;查询期刊影响因子&lt;/code&gt;.&lt;/p&gt;
+&lt;/div&gt;
+</description>
+    </item>
+    
+    <item>
+      <title>文献管理工具mendeley使用总结</title>
+      <link>https://jaspershen.github.io/post/mendeley-summary/</link>
+      <pubDate>Mon, 28 Oct 2019 00:00:00 +0000</pubDate>
+      <guid>https://jaspershen.github.io/post/mendeley-summary/</guid>
+      <description>
+&lt;script src=&#34;index_files/header-attrs/header-attrs.js&#34;&gt;&lt;/script&gt;
+
+
+</description>
+    </item>
+    
+    <item>
+      <title>pregnancy project文献阅读总结</title>
+      <link>https://jaspershen.github.io/post/pregnancy-project/</link>
+      <pubDate>Fri, 11 Oct 2019 00:00:00 +0000</pubDate>
+      <guid>https://jaspershen.github.io/post/pregnancy-project/</guid>
+      <description>
+&lt;script src=&#34;index_files/header-attrs/header-attrs.js&#34;&gt;&lt;/script&gt;
+
+&lt;div id=&#34;TOC&#34;&gt;
+&lt;ul&gt;
+&lt;li&gt;&lt;a href=&#34;#google-key-work-search&#34;&gt;&lt;span class=&#34;toc-section-number&#34;&gt;1&lt;/span&gt; Google key work search&lt;/a&gt;
+&lt;ul&gt;
+&lt;li&gt;&lt;a href=&#34;#urinary-metabolic-variation-analysis-during-pregnancy-and-application-in-gestational-diabetes-mellitus-and-spontaneous-abortion-biomarker-discovery&#34;&gt;&lt;span class=&#34;toc-section-number&#34;&gt;1.1&lt;/span&gt; Urinary metabolic variation analysis during pregnancy and application in Gestational Diabetes Mellitus and spontaneous abortion biomarker discovery&lt;/a&gt;&lt;/li&gt;
+&lt;li&gt;&lt;a href=&#34;#metabolic-profiling-of-pregnancy-cross--sectional-and-longitudinal-evidence&#34;&gt;&lt;span class=&#34;toc-section-number&#34;&gt;1.2&lt;/span&gt; Metabolic profiling of pregnancy: cross- sectional and longitudinal evidence&lt;/a&gt;&lt;/li&gt;
+&lt;li&gt;&lt;a href=&#34;#maternal-urinary-metabolic-signatures-of-fetal-growth-and-associated-clinical-and-environmental-factors-in-the-inma-study&#34;&gt;&lt;span class=&#34;toc-section-number&#34;&gt;1.3&lt;/span&gt; Maternal urinary metabolic signatures of fetal growth and associated clinical and environmental factors in the INMA study&lt;/a&gt;
+&lt;ul&gt;
+&lt;li&gt;&lt;a href=&#34;#结论&#34;&gt;&lt;span class=&#34;toc-section-number&#34;&gt;1.3.1&lt;/span&gt; 结论&lt;/a&gt;&lt;/li&gt;
+&lt;li&gt;&lt;a href=&#34;#study-population&#34;&gt;&lt;span class=&#34;toc-section-number&#34;&gt;1.3.2&lt;/span&gt; Study population&lt;/a&gt;&lt;/li&gt;
+&lt;li&gt;&lt;a href=&#34;#definition-of-the-fetal-and-birth-measurements&#34;&gt;&lt;span class=&#34;toc-section-number&#34;&gt;1.3.3&lt;/span&gt; Definition of the fetal and birth measurements&lt;/a&gt;&lt;/li&gt;
+&lt;/ul&gt;&lt;/li&gt;
+&lt;li&gt;&lt;a href=&#34;#variants-in-the-fetal-genome-near-pro-inflammatory-cytokine-genes-on-2q13-associate-with-gestational-duration&#34;&gt;&lt;span class=&#34;toc-section-number&#34;&gt;1.4&lt;/span&gt; Variants in the fetal genome near pro-inflammatory cytokine genes on 2q13 associate with gestational duration&lt;/a&gt;
+&lt;ul&gt;
+&lt;li&gt;&lt;a href=&#34;#定义&#34;&gt;&lt;span class=&#34;toc-section-number&#34;&gt;1.4.1&lt;/span&gt; 定义&lt;/a&gt;&lt;/li&gt;
+&lt;li&gt;&lt;a href=&#34;#一些pregnancy公开数据库&#34;&gt;&lt;span class=&#34;toc-section-number&#34;&gt;1.4.2&lt;/span&gt; 一些pregnancy公开数据库&lt;/a&gt;&lt;/li&gt;
+&lt;li&gt;&lt;a href=&#34;#文章总结&#34;&gt;&lt;span class=&#34;toc-section-number&#34;&gt;1.4.3&lt;/span&gt; 文章总结:&lt;/a&gt;&lt;/li&gt;
+&lt;/ul&gt;&lt;/li&gt;
+&lt;/ul&gt;&lt;/li&gt;
+&lt;/ul&gt;
+&lt;/div&gt;
+
+&lt;div id=&#34;google-key-work-search&#34; class=&#34;section level1&#34; number=&#34;1&#34;&gt;
+&lt;h1&gt;&lt;span class=&#34;header-section-number&#34;&gt;1&lt;/span&gt; Google key work search&lt;/h1&gt;
+&lt;div id=&#34;urinary-metabolic-variation-analysis-during-pregnancy-and-application-in-gestational-diabetes-mellitus-and-spontaneous-abortion-biomarker-discovery&#34; class=&#34;section level2&#34; number=&#34;1.1&#34;&gt;
+&lt;h2&gt;&lt;span class=&#34;header-section-number&#34;&gt;1.1&lt;/span&gt; Urinary metabolic variation analysis during pregnancy and application in Gestational Diabetes Mellitus and spontaneous abortion biomarker discovery&lt;/h2&gt;
+&lt;p&gt;&lt;a href=&#34;https://www.ncbi.nlm.nih.gov/pmc/articles/PMC6384939/pdf/41598_2019_Article_39259.pdf&#34; class=&#34;uri&#34;&gt;https://www.ncbi.nlm.nih.gov/pmc/articles/PMC6384939/pdf/41598_2019_Article_39259.pdf&lt;/a&gt;&lt;/p&gt;
+&lt;p&gt;LC-MS urine metabolomics, 50 health pregant women. 3 time points. Age, BMI, parity and gravity (引力). Additionally, urine metabolomics was applied for early prediction of two pregnancy complications(并发症), gestational diabetes mellitus(妊娠期糖尿病) and spontaneous abortion(自然流产).&lt;/p&gt;
+&lt;p&gt;Our results suggested that during normal pregnancy progression, pathways of &lt;strong&gt;steroid hormone biosynthesis and tyrosine metabolism&lt;/strong&gt; were signifcantly regulated.&lt;/p&gt;
+&lt;p&gt;First, second and third trimester:&lt;/p&gt;
+&lt;p&gt;妊娠期是指受孕后至分娩前的生理时期，属生理学名词，亦称怀孕期。自成熟卵受精后至胎儿娩出，一般为266天左右。为便于计算，妊娠通常是从末次月经第一天算起，足月妊娠约为280天(40周)。在妊娠期间母体的新陈代谢、消化系统、呼吸系统、血管系统、神经系统、内分泌系统、生殖系统、骨关节韧带及乳房均发生相应的改变。妊娠期全过程共分为3个时期：妊娠13周末以前称早期妊娠(First trimester)；第14～27周末称中期妊娠(Second trimester)；第28周及其后称晚期妊娠(Third trimester)。&lt;/p&gt;
+&lt;p&gt;MetPA pathway analysis showed that steroid hormone biosynthesis was upregulated in healthy controls during pregnancy with a high impact. Tyrosine metabolism was down-regulated with less impact (Fig. 2c).&lt;/p&gt;
+&lt;p&gt;BMI and other clinical factor correlation with metabolome.&lt;/p&gt;
+&lt;p&gt;Waters ACQUITY H-class LC system coupled with an LTQ-Orbitrap mass spectrometer (Thermo Fisher Scientific, Villebon-sur-Yvette, France).&lt;/p&gt;
+&lt;p&gt;&lt;strong&gt;It is also RPLC column&lt;/strong&gt;&lt;/p&gt;
+&lt;p&gt;Waters HSS C18 column (3.0 × 100 mm, 1.7 μm) at a flow rate of 0.3 ml/min. Mobile&lt;/p&gt;
+&lt;/div&gt;
+&lt;div id=&#34;metabolic-profiling-of-pregnancy-cross--sectional-and-longitudinal-evidence&#34; class=&#34;section level2&#34; number=&#34;1.2&#34;&gt;
+&lt;h2&gt;&lt;span class=&#34;header-section-number&#34;&gt;1.2&lt;/span&gt; Metabolic profiling of pregnancy: cross- sectional and longitudinal evidence&lt;/h2&gt;
+&lt;p&gt;The aim of this study is to comprehensively characterise the maternal systemic metabolism across a wide range of metabolic and inflammatory measures in both cross-sectional and longitudinal settings coupled with with replication.&lt;/p&gt;
+&lt;p&gt;This is a serum based study.&lt;/p&gt;
+&lt;/div&gt;
+&lt;div id=&#34;maternal-urinary-metabolic-signatures-of-fetal-growth-and-associated-clinical-and-environmental-factors-in-the-inma-study&#34; class=&#34;section level2&#34; number=&#34;1.3&#34;&gt;
+&lt;h2&gt;&lt;span class=&#34;header-section-number&#34;&gt;1.3&lt;/span&gt; Maternal urinary metabolic signatures of fetal growth and associated clinical and environmental factors in the INMA study&lt;/h2&gt;
+&lt;p&gt;使用NMR仪器采集urine数据.一共两个cohort.两个时间点(fisrt and third trimesters of gestation).用metabolome来预测fetal growth和birth weight.&lt;/p&gt;
+&lt;p&gt;测到的东西包括:branched-chain amino acids(支链氨基酸);isoleucine(异亮氨酸),valine(颉氨酸),leucine(亮氨酸),alanine(丙氨酸)和3 hydroxyisobutyrate(羟基异丁酸)(metabolite of valine).&lt;/p&gt;
+&lt;p&gt;另外一大类就是:pregnancy-related hormone by-products of estrogens and progesterone, and the methyl donor choline.
+Physical activity, as well as other modifiable lifestyle/clinical factors, such as coffee consumption, vitamin D intake, and smoking, were identified as potential sources of metabolic variation during pregnancy.First trimester metabolic phenotypes could not predict reproducibly weight at later stages of development.&lt;/p&gt;
+&lt;div id=&#34;结论&#34; class=&#34;section level3&#34; number=&#34;1.3.1&#34;&gt;
+&lt;h3&gt;&lt;span class=&#34;header-section-number&#34;&gt;1.3.1&lt;/span&gt; 结论&lt;/h3&gt;
+&lt;p&gt;Significant reproducible maternal urinary metabolic signatures of fetal growth and birth weight are identified for the first time and linked to modifiable lifestyle factors. This novel approach to prenatal(产前的) screening, combining multiple risk factors, present a great opportunity to personalize pregnancy management management and reduce newborn disease risk in later life.&lt;/p&gt;
+&lt;p&gt;NMR采集数据,一共1695 metabolic phenotypes.&lt;/p&gt;
+&lt;p&gt;This is good study.&lt;/p&gt;
+&lt;p&gt;Exploratory metabolic profiling offers a powerful means of capturing systems-level information that re- flects both maternal genetic and environmental influ- ences, hence helping to elucidate metabolic disturbances and pathways associated with fetal outcomes.&lt;/p&gt;
+&lt;p&gt;This study aimed to (1) characterize the maternal urinary metabolome throughout pregnancy, (2) identify maternal metabolic signatures of fetal growth in two subcohorts, (3) explain potential sources of variation in metabolic profiles based on lifestyle and clinical data, and finally (4) to determine the individ- ual importance of metabolic signatures versus other maternal&lt;/p&gt;
+&lt;/div&gt;
+&lt;div id=&#34;study-population&#34; class=&#34;section level3&#34; number=&#34;1.3.2&#34;&gt;
+&lt;h3&gt;&lt;span class=&#34;header-section-number&#34;&gt;1.3.2&lt;/span&gt; Study population&lt;/h3&gt;
+&lt;p&gt;The women were interviewed twice during pregnancy (in the first and third trimesters of gestation) to obtain infor- mation about their sociodemographic characteristics and lifestyle variables. The urine samples were collected in the same interview in the morning (spot samples). The urine samples were collected in the same interview in the morning (spot samples). 所以一共有两个时间点.分别在first trimester and third trimesters.时间为12.4 ± 1.2 and 33.9 ± 1.3 weeks.&lt;/p&gt;
+&lt;/div&gt;
+&lt;div id=&#34;definition-of-the-fetal-and-birth-measurements&#34; class=&#34;section level3&#34; number=&#34;1.3.3&#34;&gt;
+&lt;h3&gt;&lt;span class=&#34;header-section-number&#34;&gt;1.3.3&lt;/span&gt; Definition of the fetal and birth measurements&lt;/h3&gt;
+&lt;p&gt;Fetal growth scores or standard deviation scores (z- scores) were obtained using longitudinal growth curves calculated for each individual adjusting for constitutional factors known to affect fetal growth (i.e., maternal age, height, parity, pre-pregnancy weight, country of origin, father’s height, and fetal sex).&lt;/p&gt;
+&lt;p&gt;Fetal growth score是使用longitudinal growth curve来计算的,然后adjust了一些已知的能够影响fetal growth的因素,如maternal age(母亲的年龄),height(母亲的身高),parity(已生胎数),pre-pregnancy weight(怀孕前的体重),country of origin(地区),father’s height(母亲的身高),and fetal sex(胎儿性别).&lt;/p&gt;
+&lt;p&gt;这个值是一个标准化后的值.(standard deviation scores,z-scores).&lt;/p&gt;
+&lt;p&gt;没有矫正后的z-score.&lt;/p&gt;
+&lt;p&gt;Anthropometric measures at birth included body weight and placental weight and were scaled to z-scores by subtracting the mean and dividing by the standard deviation. For further details on phenotype measurements and covariate definitions, such as gestational age, see Additional file 1: Supplementary Methods and a pre- vious article on the INMA cohort [13].
+Metabolic&lt;/p&gt;
+&lt;p&gt;用来预测胎儿体重(fetal birth weight)的几个参数(从超声波测量而来):&lt;/p&gt;
+&lt;ul&gt;
+&lt;li&gt;&lt;p&gt;Fiparietal diameter(BPD):胎儿双顶径.为两侧顶骨隆突间的距离,是胎头最大横径,临床用B型超声检测此值判断胎儿大小,妊娠足月时平均长度约9.3cm.&lt;/p&gt;&lt;/li&gt;
+&lt;li&gt;&lt;p&gt;Femur length(FL):胎儿股骨长度.&lt;/p&gt;&lt;/li&gt;
+&lt;li&gt;&lt;p&gt;Head circumference (AC):胎儿头围.&lt;/p&gt;&lt;/li&gt;
+&lt;li&gt;&lt;p&gt;Abdominal circumference (AC):胎儿腹围.&lt;/p&gt;&lt;/li&gt;
+&lt;li&gt;&lt;p&gt;crown–rump length:胎儿的头臀长.&lt;/p&gt;&lt;/li&gt;
+&lt;/ul&gt;
+&lt;p&gt;date of conception:妊娠期.&lt;/p&gt;
+&lt;p&gt;Gestational age(孕龄)was established by using crown–rump length when the calculated date of conception differed from the fetal age based on the subject’s self-reported last menstrual period by 7 days or more.&lt;/p&gt;
+&lt;/div&gt;
+&lt;/div&gt;
+&lt;div id=&#34;variants-in-the-fetal-genome-near-pro-inflammatory-cytokine-genes-on-2q13-associate-with-gestational-duration&#34; class=&#34;section level2&#34; number=&#34;1.4&#34;&gt;
+&lt;h2&gt;&lt;span class=&#34;header-section-number&#34;&gt;1.4&lt;/span&gt; Variants in the fetal genome near pro-inflammatory cytokine genes on 2q13 associate with gestational duration&lt;/h2&gt;
+&lt;ul&gt;
+&lt;li&gt;&lt;p&gt;早产(preterm birth),是指在妊娠不足37周出生的婴儿.早产与婴儿之后的神经发育延迟(neurodevelopmental delay),脑瘫(cerebral palsy),糖尿病(diabetes),高血压以及精神疾病(psychiatric disorders)等都有关.&lt;/p&gt;&lt;/li&gt;
+&lt;li&gt;&lt;p&gt;过期生产(postterm birth),是指在妊娠超过42周之后出生的婴儿.&lt;/p&gt;&lt;/li&gt;
+&lt;/ul&gt;
+&lt;p&gt;在发达国家,preterm和postterm都有大约5%-10%的比例.在低收入和中等收入国家,preterm的比例比高收入国家更高.&lt;/p&gt;
+&lt;p&gt;Although timing of parturition is influenced by many non-genetic risk factors, including parity(母亲的胎数), maternal stress(母亲的紧张状态), smoking, urogenital infection(泌尿系统的感染), educational attainment(受教育程度), and socioeconomic status(社会经济程度), there is compelling evidence for a substantial genetic impact.&lt;/p&gt;
+&lt;div id=&#34;定义&#34; class=&#34;section level3&#34; number=&#34;1.4.1&#34;&gt;
+&lt;h3&gt;&lt;span class=&#34;header-section-number&#34;&gt;1.4.1&lt;/span&gt; 定义&lt;/h3&gt;
+&lt;ul&gt;
+&lt;li&gt;preterm: &amp;lt; 34 weeks&lt;br /&gt;
+&lt;/li&gt;
+&lt;li&gt;preterm: &amp;lt; 34 weeks&lt;/li&gt;
+&lt;li&gt;postterm: &amp;gt;= 42 weeks&lt;/li&gt;
+&lt;/ul&gt;
+&lt;/div&gt;
+&lt;div id=&#34;一些pregnancy公开数据库&#34; class=&#34;section level3&#34; number=&#34;1.4.2&#34;&gt;
+&lt;h3&gt;&lt;span class=&#34;header-section-number&#34;&gt;1.4.2&lt;/span&gt; 一些pregnancy公开数据库&lt;/h3&gt;
+&lt;ul&gt;
+&lt;li&gt;Early Growth Genetics Consortium &lt;a href=&#34;https://egg-consortium.org/&#34; class=&#34;uri&#34;&gt;https://egg-consortium.org/&lt;/a&gt;&lt;/li&gt;
+&lt;li&gt;Integrative Psychiatric Research (iPSYCH) study &lt;a href=&#34;https://ipsych.au.dk/about-ipsych/&#34; class=&#34;uri&#34;&gt;https://ipsych.au.dk/about-ipsych/&lt;/a&gt;&lt;/li&gt;
+&lt;li&gt;Genomic and Proteomic Network for Preterm Birth Research (GPN) &lt;a href=&#34;https://www.ncbi.nlm.nih.gov/projects/gap/cgi-bin/study.cgi?study_id=phs000714.v1.p1&#34; class=&#34;uri&#34;&gt;https://www.ncbi.nlm.nih.gov/projects/gap/cgi-bin/study.cgi?study_id=phs000714.v1.p1&lt;/a&gt;&lt;/li&gt;
+&lt;/ul&gt;
+&lt;p&gt;这些数据库大部分是关于基因组学的,可以到时候考虑用它做个验证什么的.&lt;/p&gt;
+&lt;p&gt;parturition(分娩)&lt;/p&gt;
+&lt;/div&gt;
+&lt;div id=&#34;文章总结&#34; class=&#34;section level3&#34; number=&#34;1.4.3&#34;&gt;
+&lt;h3&gt;&lt;span class=&#34;header-section-number&#34;&gt;1.4.3&lt;/span&gt; 文章总结:&lt;/h3&gt;
+&lt;/div&gt;
+&lt;/div&gt;
+&lt;/div&gt;
+</description>
+    </item>
+    
+    <item>
+      <title>文献解读:Longitudinal multi-omics of host– microbe dynamics in prediabetes</title>
+      <link>https://jaspershen.github.io/post/longitudinal-multi-omics-of-host-microbe-dynamics-in-prediabetes/</link>
+      <pubDate>Tue, 08 Oct 2019 00:00:00 +0000</pubDate>
+      <guid>https://jaspershen.github.io/post/longitudinal-multi-omics-of-host-microbe-dynamics-in-prediabetes/</guid>
+      <description>
+&lt;script src=&#34;index_files/header-attrs/header-attrs.js&#34;&gt;&lt;/script&gt;
+
+
+</description>
+    </item>
+    
+  </channel>
+</rss>

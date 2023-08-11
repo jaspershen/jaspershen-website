@@ -35,54 +35,155 @@ sections:
 #       gradient_end: '#1976d2'
 #       gradient_start: '#004ba0'
 #       text_color_light: true
+
+- block: slider
+  content:
+    slides:
+    - align: center
+      background:
+        color: '#666'
+        image:
+          filename: stanford.jpg
+          filters:
+            brightness: 0.8
+        position: right
+      content: 👋Welcome to Xiaotao Shen's Personal Website!👋
+      title: "😁 Hello, everyone!"
+      link:
+        icon: address-card
+        icon_pack: fas
+        text: Check my CV here
+        url: https://www.shenxt.info/files/XiaotaoShen_CV.pdf
+    - align: left
+      background:
+        color: '#333'
+        image:
+          filename: bioinformatics.jpg
+          filters:
+            brightness: 0.8
+        position: center
+      content: I am broadly interested in Metabolomics, Multi-omics, Biostatistics, Systems Biology, and Bioinformatics, and their application in healthcare.
+      link:
+        icon: graduation-cap
+        icon_pack: fas
+        text: Check my publications here
+        url: "https://scholar.google.co.uk/citations?hl=en&user=3TK9yz8AAAAJ"
+      title: Research interest
+    - align: center
+      background:
+        color: '#555'
+        image:
+          filename: wcc.jpg
+          filters:
+            brightness: 0.8
+        position: center
+      content: 😄Life with my family😄
+      link:
+        # icon: graduation-cap
+        # icon_pack: fas
+        text: 👫 Chuchu Wang's blog
+        url: "http://wangcc.sxl.cn/"
+      title: ☕️ Record My life ☕️
+      
+  design:
+    interval: 5000
+    is_fullscreen: true
+    loop: true
+    slide_height: ""
       
 - block: about.biography
   content:
     title: Biography
     username: admin
   id: about
-- block: features
-  content:
-    items:
-    - description: 90%
-      icon: r-project
-      icon_pack: fab
-      name: R
-    - description: 100%
-      icon: chart-line
-      icon_pack: fas
-      name: Statistics
-    - description: 10%
-      icon: camera-retro
-      icon_pack: fas
-      name: Photography
-    title: Skills
+# - block: features
+#   content:
+#     items:
+#     - description: 90%
+#       icon: r-project
+#       icon_pack: fab
+#       name: R
+#     - description: 50%
+#       icon: chart-line
+#       icon_pack: fas
+#       name: Statistics
+#     - description: 80%
+#       icon: github
+#       icon_pack: fab
+#       name: GitHub
+#     - description: 50%
+#       icon: python
+#       icon_pack: fab
+#       name: Python
+#     - description: 80%
+#       icon: linux
+#       icon_pack: fab
+#       name: Linux
+#     title: Skills
 - block: experience
   content:
     date_format: Jan 2006
     items:
-    - company: GenCoin
-      company_logo: org-gc
-      company_url: ""
-      date_end: ""
-      date_start: "2021-01-01"
-      description: |2-
-          Responsibilities include:
-
-          * Analysing
-          * Modelling
-          * Deploying
-      location: California
-      title: CEO
-    - company: University X
+    - company: Stanford Chinese Postdoctoral Association
       company_logo: org-x
-      company_url: ""
-      date_end: "2020-12-31"
-      date_start: "2016-01-01"
-      description: Taught electronic engineering and researched semiconductor physics.
-      location: California
-      title: Professor of Semiconductor Physics
-    title: Experience
+      company_url: "https://scpa.netlify.app/"
+      date_end: "2022-07-31"
+      date_start: "2021-08-01"
+      description: ""
+      location: Palo Alto, California
+      title: Co-chair
+    - company: Stanford University
+      company_logo: org-gc
+      company_url: "https://www.stanford.edu/"
+      date_end: ""
+      date_start: "2019-04-01"
+      description: |-
+        Advisor: [Prof. Michael P. Snyder](http://snyderlab.stanford.edu/)
+        
+        Research:
+        * Metabolomics and System Biology
+        * Multi-omics data analysis and their application in healthcare
+        * Software and algorithm development for metabolomics and other omics data
+      
+      location: Palo Alto, California
+      title: Postdoctoral Research Fellow
+    - company: Chinese Academy of Sciences
+      company_logo: org-gc
+      company_url: "http://www.ucas.ac.cn/"
+      date_end: "2019-03-31"
+      date_start: "2019-01-01"
+      description: |-
+        Advisor: [Prof. Zheng-Jiang Zhu](http://www.zhulab.cn/index.php)
+      
+      location: Shanghai, China
+      title: Research Scientist
+      
+    - company: Chinese Academy of Sciences
+      company_logo: org-gc
+      company_url: "http://www.ucas.ac.cn/"
+      date_end: "2018-12-31"
+      date_start: "2013-09-01"
+      description: |-
+        Advisor: [Prof. Zheng-Jiang Zhu](http://www.zhulab.cn/index.php)
+        
+        Research:
+  
+        * Metabolomics and System Biology
+        * Bioinformatics
+      
+      location: Shanghai, China
+      title: Ph.D.
+      
+    - company: Inner Mongolia University
+      company_logo: org-gc
+      company_url: "http://www.ucas.ac.cn/"
+      date_end: "2013-07-01"
+      date_start: "2009-09-01"
+      description: 
+      location: Hohhot, Inner Mongolia, China
+      title: B.S.
+      
+    title: Education/Experience
   design:
     columns: "2"
 - block: accomplishments
@@ -119,7 +220,7 @@ sections:
     columns: "2"
 - block: collection
   content:
-    count: 5
+    count: 3
     filters:
       author: ""
       category: ""
@@ -134,11 +235,12 @@ sections:
     order: desc
     subtitle: ""
     text: ""
-    title: Recent Posts
+    title: Posts
   design:
     columns: "2"
     view: compact
   id: posts
+  
 - block: portfolio
   content:
     buttons:
@@ -158,11 +260,11 @@ sections:
     flip_alt_rows: false
     view: showcase
   id: projects
-- block: markdown
-  content:
-    subtitle: ""
-    text: '{{< gallery album="demo" >}}'
-    title: Gallery
+# - block: markdown
+#   content:
+#     subtitle: ""
+#     text: '{{< gallery album="demo" >}}'
+#     title: Gallery
   design:
     columns: "1"
 - block: collection

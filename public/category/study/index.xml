@@ -1,0 +1,150 @@
+<?xml version="1.0" encoding="utf-8" standalone="yes" ?>
+<rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
+  <channel>
+    <title>Study | Xiaotao Shen</title>
+    <link>https://jaspershen.github.io/category/study/</link>
+      <atom:link href="https://jaspershen.github.io/category/study/index.xml" rel="self" type="application/rss+xml" />
+    <description>Study</description>
+    <generator>Wowchemy (https://wowchemy.com)</generator><language>en-us</language><lastBuildDate>Fri, 08 Nov 2019 00:00:00 +0000</lastBuildDate>
+    <image>
+      <url>https://jaspershen.github.io/media/icon_hu805a85e690e4f2727bf7d5f685d888f7_86836_512x512_fill_lanczos_center_3.png</url>
+      <title>Study</title>
+      <link>https://jaspershen.github.io/category/study/</link>
+    </image>
+    
+    <item>
+      <title>Windows使用Summary</title>
+      <link>https://jaspershen.github.io/post/2019-11-08-windows-summary/</link>
+      <pubDate>Fri, 08 Nov 2019 00:00:00 +0000</pubDate>
+      <guid>https://jaspershen.github.io/post/2019-11-08-windows-summary/</guid>
+      <description>
+&lt;script src=&#34;index_files/header-attrs/header-attrs.js&#34;&gt;&lt;/script&gt;
+
+&lt;div id=&#34;TOC&#34;&gt;
+&lt;ul&gt;
+&lt;li&gt;&lt;a href=&#34;#如何在两台电脑间共享文件夹&#34;&gt;&lt;span class=&#34;toc-section-number&#34;&gt;1&lt;/span&gt; 如何在两台电脑间共享文件夹?&lt;/a&gt;&lt;/li&gt;
+&lt;li&gt;&lt;a href=&#34;#cmd命令&#34;&gt;&lt;span class=&#34;toc-section-number&#34;&gt;2&lt;/span&gt; CMD命令&lt;/a&gt;
+&lt;ul&gt;
+&lt;li&gt;&lt;a href=&#34;#如何使用cmd修改路径&#34;&gt;&lt;span class=&#34;toc-section-number&#34;&gt;2.1&lt;/span&gt; 如何使用CMD修改路径?&lt;/a&gt;&lt;/li&gt;
+&lt;li&gt;&lt;a href=&#34;#查看当前路径&#34;&gt;&lt;span class=&#34;toc-section-number&#34;&gt;2.2&lt;/span&gt; 查看当前路径&lt;/a&gt;&lt;/li&gt;
+&lt;li&gt;&lt;a href=&#34;#查看当前路径下文件&#34;&gt;&lt;span class=&#34;toc-section-number&#34;&gt;2.3&lt;/span&gt; 查看当前路径下文件&lt;/a&gt;&lt;/li&gt;
+&lt;/ul&gt;&lt;/li&gt;
+&lt;/ul&gt;
+&lt;/div&gt;
+
+&lt;div id=&#34;如何在两台电脑间共享文件夹&#34; class=&#34;section level1&#34; number=&#34;1&#34;&gt;
+&lt;h1&gt;&lt;span class=&#34;header-section-number&#34;&gt;1&lt;/span&gt; 如何在两台电脑间共享文件夹?&lt;/h1&gt;
+&lt;p&gt;参考帖子:&lt;/p&gt;
+&lt;p&gt;&lt;a href=&#34;https://jingyan.baidu.com/article/93f9803f3e9788e0e46f55c8.html&#34; class=&#34;uri&#34;&gt;https://jingyan.baidu.com/article/93f9803f3e9788e0e46f55c8.html&lt;/a&gt;&lt;/p&gt;
+&lt;ol style=&#34;list-style-type: decimal&#34;&gt;
+&lt;li&gt;&lt;p&gt;保证两台电脑在同一个网络中.对于Stanford来说,如果在其他地方,需要连接VPN.&lt;/p&gt;&lt;/li&gt;
+&lt;li&gt;&lt;p&gt;在workstation(电脑B)上打开网络设置.&lt;/p&gt;&lt;/li&gt;
+&lt;/ol&gt;
+&lt;p&gt;&lt;img src=&#34;figure1.png&#34; /&gt;&lt;/p&gt;
+&lt;ol start=&#34;3&#34; style=&#34;list-style-type: decimal&#34;&gt;
+&lt;li&gt;选择&lt;code&gt;Sharing options&lt;/code&gt;&lt;/li&gt;
+&lt;/ol&gt;
+&lt;p&gt;&lt;img src=&#34;figure2.png&#34; /&gt;&lt;/p&gt;
+&lt;ol start=&#34;4&#34; style=&#34;list-style-type: decimal&#34;&gt;
+&lt;li&gt;&lt;code&gt;Private&lt;/code&gt;按照下面进行设置.&lt;/li&gt;
+&lt;/ol&gt;
+&lt;p&gt;&lt;img src=&#34;figure3.png&#34; /&gt;&lt;/p&gt;
+&lt;ol start=&#34;5&#34; style=&#34;list-style-type: decimal&#34;&gt;
+&lt;li&gt;&lt;code&gt;All network按照下面设置&lt;/code&gt;&lt;/li&gt;
+&lt;/ol&gt;
+&lt;p&gt;&lt;img src=&#34;figure4.png&#34; /&gt;&lt;/p&gt;
+&lt;ol start=&#34;6&#34; style=&#34;list-style-type: decimal&#34;&gt;
+&lt;li&gt;选择要共享的文件夹,然后右键打开属性.然后选择&lt;code&gt;Share&lt;/code&gt;.&lt;/li&gt;
+&lt;/ol&gt;
+&lt;p&gt;&lt;img src=&#34;figure5.png&#34; /&gt;&lt;/p&gt;
+&lt;ol start=&#34;7&#34; style=&#34;list-style-type: decimal&#34;&gt;
+&lt;li&gt;选择&lt;code&gt;Everyone&lt;/code&gt;,然后点击&lt;code&gt;Share&lt;/code&gt;.&lt;/li&gt;
+&lt;/ol&gt;
+&lt;p&gt;&lt;img src=&#34;figure6.png&#34; /&gt;&lt;/p&gt;
+&lt;p&gt;8.然后再点击第6步中的&lt;code&gt;Advanced Sharing&lt;/code&gt;.按照下图设置.&lt;/p&gt;
+&lt;p&gt;&lt;img src=&#34;figure7.png&#34; /&gt;&lt;/p&gt;
+&lt;p&gt;9.快捷键&lt;code&gt;win + R&lt;/code&gt;打开&lt;code&gt;run&lt;/code&gt;.然后输入B电脑的IPV4地址.然后需要登录,注意,使用的是你在B电脑上的账号和密码登录,有时候注意登录名前需要添加&lt;code&gt;win\&lt;/code&gt;&lt;/p&gt;
+&lt;p&gt;&lt;img src=&#34;figure8.png&#34; /&gt;&lt;/p&gt;
+&lt;ol start=&#34;10&#34; style=&#34;list-style-type: decimal&#34;&gt;
+&lt;li&gt;最终效果如下图.&lt;/li&gt;
+&lt;/ol&gt;
+&lt;p&gt;&lt;img src=&#34;figure9.png&#34; /&gt;&lt;/p&gt;
+&lt;/div&gt;
+&lt;div id=&#34;cmd命令&#34; class=&#34;section level1&#34; number=&#34;2&#34;&gt;
+&lt;h1&gt;&lt;span class=&#34;header-section-number&#34;&gt;2&lt;/span&gt; CMD命令&lt;/h1&gt;
+&lt;div id=&#34;如何使用cmd修改路径&#34; class=&#34;section level2&#34; number=&#34;2.1&#34;&gt;
+&lt;h2&gt;&lt;span class=&#34;header-section-number&#34;&gt;2.1&lt;/span&gt; 如何使用CMD修改路径?&lt;/h2&gt;
+&lt;p&gt;如果修改某个盘,先直接打盘名加冒号即可,不需要使用&lt;code&gt;cd&lt;/code&gt;命令.&lt;/p&gt;
+&lt;pre&gt;&lt;code&gt;D:&lt;/code&gt;&lt;/pre&gt;
+&lt;p&gt;然后进入到某个盘的子目录下,才需要使用&lt;code&gt;cd&lt;/code&gt;命令.&lt;/p&gt;
+&lt;/div&gt;
+&lt;div id=&#34;查看当前路径&#34; class=&#34;section level2&#34; number=&#34;2.2&#34;&gt;
+&lt;h2&gt;&lt;span class=&#34;header-section-number&#34;&gt;2.2&lt;/span&gt; 查看当前路径&lt;/h2&gt;
+&lt;pre&gt;&lt;code&gt;cd&lt;/code&gt;&lt;/pre&gt;
+&lt;/div&gt;
+&lt;div id=&#34;查看当前路径下文件&#34; class=&#34;section level2&#34; number=&#34;2.3&#34;&gt;
+&lt;h2&gt;&lt;span class=&#34;header-section-number&#34;&gt;2.3&lt;/span&gt; 查看当前路径下文件&lt;/h2&gt;
+&lt;pre&gt;&lt;code&gt;dir&lt;/code&gt;&lt;/pre&gt;
+&lt;/div&gt;
+&lt;/div&gt;
+</description>
+    </item>
+    
+    <item>
+      <title>Markdown cookbook</title>
+      <link>https://jaspershen.github.io/post/markdown-cookbook/</link>
+      <pubDate>Tue, 29 Oct 2019 00:00:00 +0000</pubDate>
+      <guid>https://jaspershen.github.io/post/markdown-cookbook/</guid>
+      <description>
+&lt;script src=&#34;index_files/header-attrs/header-attrs.js&#34;&gt;&lt;/script&gt;
+
+&lt;div id=&#34;TOC&#34;&gt;
+&lt;ul&gt;
+&lt;li&gt;&lt;a href=&#34;#markdown通用技巧&#34;&gt;&lt;span class=&#34;toc-section-number&#34;&gt;1&lt;/span&gt; Markdown通用技巧&lt;/a&gt;
+&lt;ul&gt;
+&lt;li&gt;&lt;a href=&#34;#如何在markdown中使用font&#34;&gt;&lt;span class=&#34;toc-section-number&#34;&gt;1.1&lt;/span&gt; 如何在markdown中使用font?&lt;/a&gt;&lt;/li&gt;
+&lt;li&gt;&lt;a href=&#34;#如何在markdown中插入脚注&#34;&gt;&lt;span class=&#34;toc-section-number&#34;&gt;1.2&lt;/span&gt; 如何在markdown中插入脚注?&lt;/a&gt;&lt;/li&gt;
+&lt;/ul&gt;&lt;/li&gt;
+&lt;li&gt;&lt;a href=&#34;#rmarkdown&#34;&gt;&lt;span class=&#34;toc-section-number&#34;&gt;2&lt;/span&gt; Rmarkdown&lt;/a&gt;&lt;/li&gt;
+&lt;/ul&gt;
+&lt;/div&gt;
+
+&lt;div id=&#34;markdown通用技巧&#34; class=&#34;section level1&#34; number=&#34;1&#34;&gt;
+&lt;h1&gt;&lt;span class=&#34;header-section-number&#34;&gt;1&lt;/span&gt; Markdown通用技巧&lt;/h1&gt;
+&lt;div id=&#34;如何在markdown中使用font&#34; class=&#34;section level2&#34; number=&#34;1.1&#34;&gt;
+&lt;h2&gt;&lt;span class=&#34;header-section-number&#34;&gt;1.1&lt;/span&gt; 如何在markdown中使用font?&lt;/h2&gt;
+&lt;p&gt;参考文档:&lt;a href=&#34;https://sspai.com/post/45217&#34; class=&#34;uri&#34;&gt;https://sspai.com/post/45217&lt;/a&gt;&lt;/p&gt;
+&lt;p&gt;在markdown文档任意地方插入下面的代码:&lt;/p&gt;
+&lt;pre&gt;&lt;code&gt;&amp;lt;head&amp;gt; 
+    &amp;lt;script defer src=&amp;quot;https://use.fontawesome.com/releases/v5.0.13/js/all.js&amp;quot;&amp;gt;&amp;lt;/script&amp;gt; 
+    &amp;lt;script defer src=&amp;quot;https://use.fontawesome.com/releases/v5.0.13/js/v4-shims.js&amp;quot;&amp;gt;&amp;lt;/script&amp;gt; 
+&amp;lt;/head&amp;gt; 
+&amp;lt;link rel=&amp;quot;stylesheet&amp;quot; href=&amp;quot;https://use.fontawesome.com/releases/v5.0.13/css/all.css&amp;quot;&amp;gt;&lt;/code&gt;&lt;/pre&gt;
+&lt;p&gt;然后使用下列语句插入font:&lt;/p&gt;
+&lt;pre&gt;&lt;code&gt;&amp;lt;i class=&amp;quot;fa fa-weixin&amp;quot;&amp;gt;&amp;lt;/i&amp;gt;&lt;/code&gt;&lt;/pre&gt;
+&lt;p&gt;显示:&lt;i class=&#34;fa fa-weixin&#34;&gt;&lt;/i&gt;&lt;/p&gt;
+&lt;/div&gt;
+&lt;div id=&#34;如何在markdown中插入脚注&#34; class=&#34;section level2&#34; number=&#34;1.2&#34;&gt;
+&lt;h2&gt;&lt;span class=&#34;header-section-number&#34;&gt;1.2&lt;/span&gt; 如何在markdown中插入脚注?&lt;/h2&gt;
+&lt;p&gt;在正文中插入:&lt;/p&gt;
+&lt;pre&gt;&lt;code&gt;You can create footnotes like this[^footnote].&lt;/code&gt;&lt;/pre&gt;
+&lt;p&gt;然后在参考文献地方插入:&lt;/p&gt;
+&lt;pre&gt;&lt;code&gt;[^footnote]: Here is the *text* of the **footnote**.&lt;/code&gt;&lt;/pre&gt;
+&lt;p&gt;显示如下:&lt;/p&gt;
+&lt;p&gt;You can create footnotes like this&lt;a href=&#34;#fn1&#34; class=&#34;footnote-ref&#34; id=&#34;fnref1&#34;&gt;&lt;sup&gt;1&lt;/sup&gt;&lt;/a&gt;.&lt;/p&gt;
+&lt;/div&gt;
+&lt;/div&gt;
+&lt;div id=&#34;rmarkdown&#34; class=&#34;section level1&#34; number=&#34;2&#34;&gt;
+&lt;h1&gt;&lt;span class=&#34;header-section-number&#34;&gt;2&lt;/span&gt; Rmarkdown&lt;/h1&gt;
+&lt;/div&gt;
+&lt;div class=&#34;footnotes&#34;&gt;
+&lt;hr /&gt;
+&lt;ol&gt;
+&lt;li id=&#34;fn1&#34;&gt;&lt;p&gt;Here is the &lt;em&gt;text&lt;/em&gt; of the &lt;strong&gt;footnote&lt;/strong&gt;.&lt;a href=&#34;#fnref1&#34; class=&#34;footnote-back&#34;&gt;↩︎&lt;/a&gt;&lt;/p&gt;&lt;/li&gt;
+&lt;/ol&gt;
+&lt;/div&gt;
+</description>
+    </item>
+    
+  </channel>
+</rss>

@@ -1,0 +1,162 @@
+<?xml version="1.0" encoding="utf-8" standalone="yes" ?>
+<rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
+  <channel>
+    <title>Git | Xiaotao Shen</title>
+    <link>https://jaspershen.github.io/category/git/</link>
+      <atom:link href="https://jaspershen.github.io/category/git/index.xml" rel="self" type="application/rss+xml" />
+    <description>Git</description>
+    <generator>Wowchemy (https://wowchemy.com)</generator><language>en-us</language><lastBuildDate>Thu, 19 Mar 2020 00:00:00 +0000</lastBuildDate>
+    <image>
+      <url>https://jaspershen.github.io/media/icon_hu805a85e690e4f2727bf7d5f685d888f7_86836_512x512_fill_lanczos_center_3.png</url>
+      <title>Git</title>
+      <link>https://jaspershen.github.io/category/git/</link>
+    </image>
+    
+    <item>
+      <title>Video test in rmakrdown</title>
+      <link>https://jaspershen.github.io/post/2020-3-19-video-test-rmarkdown/</link>
+      <pubDate>Thu, 19 Mar 2020 00:00:00 +0000</pubDate>
+      <guid>https://jaspershen.github.io/post/2020-3-19-video-test-rmarkdown/</guid>
+      <description>
+
+&lt;div id=&#34;TOC&#34;&gt;
+&lt;ul&gt;
+&lt;li&gt;&lt;a href=&#34;#video-from-youtube&#34;&gt;&lt;span class=&#34;toc-section-number&#34;&gt;1&lt;/span&gt; Video from youtube&lt;/a&gt;&lt;/li&gt;
+&lt;li&gt;&lt;a href=&#34;#video-from-bilibili&#34;&gt;&lt;span class=&#34;toc-section-number&#34;&gt;2&lt;/span&gt; Video from bilibili&lt;/a&gt;&lt;/li&gt;
+&lt;li&gt;&lt;a href=&#34;#video-from-tecent&#34;&gt;&lt;span class=&#34;toc-section-number&#34;&gt;3&lt;/span&gt; Video from Tecent&lt;/a&gt;&lt;/li&gt;
+&lt;li&gt;&lt;a href=&#34;#music-from-xiami-music&#34;&gt;&lt;span class=&#34;toc-section-number&#34;&gt;4&lt;/span&gt; Music from Xiami music&lt;/a&gt;&lt;/li&gt;
+&lt;/ul&gt;
+&lt;/div&gt;
+
+&lt;div id=&#34;video-from-youtube&#34; class=&#34;section level1&#34;&gt;
+&lt;h1&gt;&lt;span class=&#34;header-section-number&#34;&gt;1&lt;/span&gt; Video from youtube&lt;/h1&gt;
+&lt;pre class=&#34;markdown&#34;&gt;&lt;code&gt;&amp;lt;iframe width=&amp;quot;100%&amp;quot; height=&amp;quot;500&amp;quot; src=&amp;quot;https://www.youtube.com/embed/8_QoT3ygdI4&amp;quot; frameborder=&amp;quot;0&amp;quot; allow=&amp;quot;accelerometer; autoplay; encrypted-media; gyroscope; picture-in-picture&amp;quot; allowfullscreen&amp;gt;&amp;lt;/iframe&amp;gt;&lt;/code&gt;&lt;/pre&gt;
+&lt;iframe width=&#34;100%&#34; height=&#34;500&#34; src=&#34;https://www.youtube.com/embed/8_QoT3ygdI4&#34; frameborder=&#34;0&#34; allow=&#34;accelerometer; autoplay; encrypted-media; gyroscope; picture-in-picture&#34; allowfullscreen&gt;
+&lt;/iframe&gt;
+&lt;/div&gt;
+&lt;div id=&#34;video-from-bilibili&#34; class=&#34;section level1&#34;&gt;
+&lt;h1&gt;&lt;span class=&#34;header-section-number&#34;&gt;2&lt;/span&gt; Video from bilibili&lt;/h1&gt;
+&lt;pre class=&#34;markdown&#34;&gt;&lt;code&gt;&amp;lt;iframe width=&amp;quot;100%&amp;quot; height=&amp;quot;500&amp;quot; src=&amp;quot;//player.bilibili.com/player.html?aid=47432978&amp;amp;cid=83074959&amp;amp;page=1&amp;quot; scrolling=&amp;quot;yes&amp;quot; border=&amp;quot;0&amp;quot; frameborder=&amp;quot;no&amp;quot; framespacing=&amp;quot;0&amp;quot; allowfullscreen=&amp;quot;true&amp;quot;&amp;gt; &amp;lt;/iframe&amp;gt;&lt;/code&gt;&lt;/pre&gt;
+&lt;iframe width=&#34;100%&#34; height=&#34;500&#34; src=&#34;//player.bilibili.com/player.html?aid=47432978&amp;amp;cid=83074959&amp;amp;page=1&#34; scrolling=&#34;yes&#34; border=&#34;0&#34; frameborder=&#34;no&#34; framespacing=&#34;0&#34; allowfullscreen=&#34;true&#34;&gt;
+&lt;/iframe&gt;
+&lt;/div&gt;
+&lt;div id=&#34;video-from-tecent&#34; class=&#34;section level1&#34;&gt;
+&lt;h1&gt;&lt;span class=&#34;header-section-number&#34;&gt;3&lt;/span&gt; Video from Tecent&lt;/h1&gt;
+&lt;pre class=&#34;markdown&#34;&gt;&lt;code&gt;&amp;lt;iframe width=&amp;quot;100%&amp;quot; height=&amp;quot;500&amp;quot; frameborder=&amp;quot;0&amp;quot; src=&amp;quot;https://v.qq.com/txp/iframe/player.html?vid=s0855vzl4du&amp;quot; allowFullScreen=&amp;quot;true&amp;quot;&amp;gt;&amp;lt;/iframe&amp;gt;&lt;/code&gt;&lt;/pre&gt;
+&lt;iframe width=&#34;100%&#34; height=&#34;500&#34; frameborder=&#34;0&#34; src=&#34;https://v.qq.com/txp/iframe/player.html?vid=s0855vzl4du&#34; allowFullScreen=&#34;true&#34;&gt;
+&lt;/iframe&gt;
+&lt;/div&gt;
+&lt;div id=&#34;music-from-xiami-music&#34; class=&#34;section level1&#34;&gt;
+&lt;h1&gt;&lt;span class=&#34;header-section-number&#34;&gt;4&lt;/span&gt; Music from Xiami music&lt;/h1&gt;
+&lt;pre class=&#34;markdown&#34;&gt;&lt;code&gt;&amp;lt;iframe frameborder=&amp;quot;no&amp;quot; border=&amp;quot;0&amp;quot; marginwidth=&amp;quot;0&amp;quot; marginheight=&amp;quot;0&amp;quot; width=&amp;quot;100%&amp;quot; height=&amp;quot;110&amp;quot; loading=&amp;quot;lazy&amp;quot; sandbox=&amp;quot;allow-popups allow-scripts allow-same-origin&amp;quot; src=&amp;quot;https://www.xiami.com/webapp/embed-player?autoPlay=1&amp;amp;id=1769071425&amp;quot;&amp;gt;&amp;lt;/iframe&amp;gt;&lt;/code&gt;&lt;/pre&gt;
+&lt;iframe frameborder=&#34;no&#34; border=&#34;0&#34; marginwidth=&#34;0&#34; marginheight=&#34;0&#34; width=&#34;100%&#34; height=&#34;110&#34; loading=&#34;lazy&#34; sandbox=&#34;allow-popups allow-scripts allow-same-origin&#34; src=&#34;https://www.xiami.com/webapp/embed-player?autoPlay=1&amp;amp;id=1769071425&#34;&gt;
+&lt;/iframe&gt;
+&lt;p&gt;&lt;img src=&#34;http://ghchart.rshah.org/jaspershen&#34; alt=&#34;Name Your GitHub chart&#34;&gt;&lt;/p&gt;
+&lt;/div&gt;
+</description>
+    </item>
+    
+    <item>
+      <title>如何在一台电脑上设置多个github账号</title>
+      <link>https://jaspershen.github.io/post/2020-03-11-multi-github-in-one-pc/</link>
+      <pubDate>Tue, 10 Mar 2020 00:00:00 +0000</pubDate>
+      <guid>https://jaspershen.github.io/post/2020-03-11-multi-github-in-one-pc/</guid>
+      <description>
+
+&lt;div id=&#34;TOC&#34;&gt;
+&lt;ul&gt;
+&lt;li&gt;&lt;a href=&#34;#生成秘钥&#34;&gt;&lt;span class=&#34;toc-section-number&#34;&gt;1&lt;/span&gt; 生成秘钥&lt;/a&gt;&lt;ul&gt;
+&lt;li&gt;&lt;a href=&#34;#生成jaspershen的秘钥&#34;&gt;&lt;span class=&#34;toc-section-number&#34;&gt;1.0.1&lt;/span&gt; 生成jaspershen的秘钥&lt;/a&gt;&lt;/li&gt;
+&lt;li&gt;&lt;a href=&#34;#生成shenxt账户的秘钥&#34;&gt;&lt;span class=&#34;toc-section-number&#34;&gt;1.1&lt;/span&gt; 生成shenxt账户的秘钥&lt;/a&gt;&lt;/li&gt;
+&lt;/ul&gt;&lt;/li&gt;
+&lt;li&gt;&lt;a href=&#34;#将两个秘钥分别添加到自己对应的github账户中&#34;&gt;&lt;span class=&#34;toc-section-number&#34;&gt;2&lt;/span&gt; 将两个秘钥分别添加到自己对应的github账户中&lt;/a&gt;&lt;/li&gt;
+&lt;li&gt;&lt;a href=&#34;#编辑配置文件&#34;&gt;&lt;span class=&#34;toc-section-number&#34;&gt;3&lt;/span&gt; 编辑配置文件&lt;/a&gt;&lt;/li&gt;
+&lt;li&gt;&lt;a href=&#34;#配置仓库设置&#34;&gt;&lt;span class=&#34;toc-section-number&#34;&gt;4&lt;/span&gt; 配置仓库设置&lt;/a&gt;&lt;ul&gt;
+&lt;li&gt;&lt;a href=&#34;#删除全局配置&#34;&gt;&lt;span class=&#34;toc-section-number&#34;&gt;4.1&lt;/span&gt; 删除全局配置&lt;/a&gt;&lt;/li&gt;
+&lt;li&gt;&lt;a href=&#34;#设置local配置&#34;&gt;&lt;span class=&#34;toc-section-number&#34;&gt;4.2&lt;/span&gt; 设置local配置&lt;/a&gt;&lt;/li&gt;
+&lt;/ul&gt;&lt;/li&gt;
+&lt;li&gt;&lt;a href=&#34;#将本地仓库推送到远程仓库github&#34;&gt;&lt;span class=&#34;toc-section-number&#34;&gt;5&lt;/span&gt; 将本地仓库推送到远程仓库(github)&lt;/a&gt;&lt;/li&gt;
+&lt;/ul&gt;
+&lt;/div&gt;
+
+&lt;p&gt;如何在一台电脑上进行多个github账户的配置?&lt;/p&gt;
+&lt;div id=&#34;生成秘钥&#34; class=&#34;section level1&#34;&gt;
+&lt;h1&gt;&lt;span class=&#34;header-section-number&#34;&gt;1&lt;/span&gt; 生成秘钥&lt;/h1&gt;
+&lt;p&gt;首先需要对自己的多个不同账户生成对应的秘钥.比如我有两个账户分别为jaspershen和shenxt,这时候对两个账户分别生成对应账户,注意一定要区分开,不能后面一个将前面一个覆盖了.&lt;/p&gt;
+&lt;div id=&#34;生成jaspershen的秘钥&#34; class=&#34;section level3&#34;&gt;
+&lt;h3&gt;&lt;span class=&#34;header-section-number&#34;&gt;1.0.1&lt;/span&gt; 生成jaspershen的秘钥&lt;/h3&gt;
+&lt;pre&gt;&lt;code&gt;ssh-keygen -t rsa -C “shenxt1990@163.com”&lt;/code&gt;&lt;/pre&gt;
+&lt;p&gt;这时候会在&lt;code&gt;~/.ssh/&lt;/code&gt;(我使用的是mac)文件夹下自动生成两个文件,分别是&lt;code&gt;id_rsa&lt;/code&gt;和&lt;code&gt;id_rsa.pub&lt;/code&gt;.&lt;/p&gt;
+&lt;/div&gt;
+&lt;div id=&#34;生成shenxt账户的秘钥&#34; class=&#34;section level2&#34;&gt;
+&lt;h2&gt;&lt;span class=&#34;header-section-number&#34;&gt;1.1&lt;/span&gt; 生成shenxt账户的秘钥&lt;/h2&gt;
+&lt;p&gt;注意一定要重命名,我们这边将其命名为&lt;code&gt;id_rsa_2&lt;/code&gt;.&lt;/p&gt;
+&lt;pre&gt;&lt;code&gt;ssh-keygen -t rsa -f ~/.ssh/id_rsa_2 -C &amp;quot;kagawabale@163.com&amp;quot;&lt;/code&gt;&lt;/pre&gt;
+&lt;p&gt;这时候会在&lt;code&gt;~/.ssh/&lt;/code&gt;文件夹下生成新的秘钥文件,分别是&lt;code&gt;id_rsa2&lt;/code&gt;(秘钥)和&lt;code&gt;id_rsa_2.pub&lt;/code&gt;(公钥).&lt;/p&gt;
+&lt;/div&gt;
+&lt;/div&gt;
+&lt;div id=&#34;将两个秘钥分别添加到自己对应的github账户中&#34; class=&#34;section level1&#34;&gt;
+&lt;h1&gt;&lt;span class=&#34;header-section-number&#34;&gt;2&lt;/span&gt; 将两个秘钥分别添加到自己对应的github账户中&lt;/h1&gt;
+&lt;p&gt;然后需要将两个秘钥(公钥文件)分别添加到自己对应的账户当中.&lt;/p&gt;
+&lt;p&gt;使用vi打开公钥文件即可.&lt;/p&gt;
+&lt;pre&gt;&lt;code&gt;vi ~/.ssh/id_rsa.pud#jaspershen账户
+vi ~/.ssh/id_rsa_2.pud#shenxt账户&lt;/code&gt;&lt;/pre&gt;
+&lt;/div&gt;
+&lt;div id=&#34;编辑配置文件&#34; class=&#34;section level1&#34;&gt;
+&lt;h1&gt;&lt;span class=&#34;header-section-number&#34;&gt;3&lt;/span&gt; 编辑配置文件&lt;/h1&gt;
+&lt;p&gt;先确认在&lt;code&gt;~/.ssh/&lt;/code&gt;文件夹中是否存在&lt;code&gt;config&lt;/code&gt;文件,如果不存在,首先创建一个,然后对其进行编辑.内容如下:&lt;/p&gt;
+&lt;pre&gt;&lt;code&gt;# jaspershen
+Host github_jaspershen
+HostName ssh.github.com
+User git
+IdentityFile ~/.ssh/id_rsa
+
+# shenxt
+Host github_shenxt  # 前缀名可以任意设置
+HostName ssh.github.com
+User git
+IdentityFile ~/.ssh/id_rsa_2&lt;/code&gt;&lt;/pre&gt;
+&lt;p&gt;需要更改的地方是&lt;code&gt;Host&lt;/code&gt;和&lt;code&gt;IdentityFile&lt;/code&gt;,修改为自己能够识别的内容,以及自己生成的秘钥即可.&lt;/p&gt;
+&lt;blockquote&gt;
+&lt;p&gt;注意,HostName一定要是&lt;code&gt;ssh.github.com&lt;/code&gt;,不然可能会失败.&lt;/p&gt;
+&lt;/blockquote&gt;
+&lt;p&gt;修改完之后,保存退出,然后在terminal下命令以下命令,看是否正常:&lt;/p&gt;
+&lt;pre&gt;&lt;code&gt;ssh -T git@github_jaspershen
+ssh -T git@github_shenxt&lt;/code&gt;&lt;/pre&gt;
+&lt;p&gt;如果出现下面结果,说明已经正常工作:&lt;/p&gt;
+&lt;pre&gt;&lt;code&gt;Hi jaspershen! You&amp;#39;ve successfully authenticated, but GitHub does not provide shell access.&lt;/code&gt;&lt;/pre&gt;
+&lt;/div&gt;
+&lt;div id=&#34;配置仓库设置&#34; class=&#34;section level1&#34;&gt;
+&lt;h1&gt;&lt;span class=&#34;header-section-number&#34;&gt;4&lt;/span&gt; 配置仓库设置&lt;/h1&gt;
+&lt;p&gt;首先需要删除git配置的全局用户名和邮箱.接着在自己每个项目的仓库中按照需要设置不同的&lt;code&gt;user.name&lt;/code&gt;和&lt;code&gt;user.email&lt;/code&gt;.&lt;/p&gt;
+&lt;div id=&#34;删除全局配置&#34; class=&#34;section level2&#34;&gt;
+&lt;h2&gt;&lt;span class=&#34;header-section-number&#34;&gt;4.1&lt;/span&gt; 删除全局配置&lt;/h2&gt;
+&lt;pre&gt;&lt;code&gt;git config --global --unset &amp;#39;user.name&amp;#39;
+git config --global --unset &amp;#39;user.email&amp;#39;&lt;/code&gt;&lt;/pre&gt;
+&lt;/div&gt;
+&lt;div id=&#34;设置local配置&#34; class=&#34;section level2&#34;&gt;
+&lt;h2&gt;&lt;span class=&#34;header-section-number&#34;&gt;4.2&lt;/span&gt; 设置local配置&lt;/h2&gt;
+&lt;p&gt;在自己的每个文件夹(repo仓库)下,打开terminal,然后进行设置.&lt;/p&gt;
+&lt;pre&gt;&lt;code&gt;git config user.name `xxx`
+git config user.email `xxx@xxx.com`&lt;/code&gt;&lt;/pre&gt;
+&lt;blockquote&gt;
+&lt;p&gt;注意,在设置结束之后,创建git repo(&lt;code&gt;git init&lt;/code&gt;)的时候,一定要再次检查一下用户名和用户邮箱,如果不对, 需要再次设置.&lt;/p&gt;
+&lt;/blockquote&gt;
+&lt;/div&gt;
+&lt;/div&gt;
+&lt;div id=&#34;将本地仓库推送到远程仓库github&#34; class=&#34;section level1&#34;&gt;
+&lt;h1&gt;&lt;span class=&#34;header-section-number&#34;&gt;5&lt;/span&gt; 将本地仓库推送到远程仓库(github)&lt;/h1&gt;
+&lt;p&gt;之后再添加远程仓库的时候,就不能直接使用&lt;code&gt;http&lt;/code&gt;的方式了,只能使用&lt;code&gt;ssh&lt;/code&gt;方式.&lt;/p&gt;
+&lt;pre&gt;&lt;code&gt;git remote add origin git@github_jaspershen:jaspershen/example.git # jaspershen account
+git remote add origin git@github_shenxt:shenxt/example.git # shenxt account&lt;/code&gt;&lt;/pre&gt;
+&lt;p&gt;其中&lt;code&gt;github_jaspershen&lt;/code&gt;或者&lt;code&gt;github_shenxt&lt;/code&gt;就是在配置文件中设置的&lt;code&gt;Host&lt;/code&gt;.&lt;/p&gt;
+&lt;p&gt;然后使用&lt;code&gt;git remote -v&lt;/code&gt;确认是否连接上.&lt;/p&gt;
+&lt;p&gt;最后进行推送.&lt;/p&gt;
+&lt;pre&gt;&lt;code&gt;git push origin master&lt;/code&gt;&lt;/pre&gt;
+&lt;p&gt;其实，上面的配置文件的意思就是，按照你设置远程仓库时使用不同的Host名称，查找&lt;code&gt;~/.ssh/config&lt;/code&gt;文件使用不同的SSH 文件连接到GitHub。这样你就将是以不同的身份访问GitHub仓库。&lt;/p&gt;
+&lt;/div&gt;
+</description>
+    </item>
+    
+  </channel>
+</rss>

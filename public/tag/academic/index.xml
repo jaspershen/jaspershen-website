@@ -5,90 +5,900 @@
     <link>https://jaspershen.github.io/tag/academic/</link>
       <atom:link href="https://jaspershen.github.io/tag/academic/index.xml" rel="self" type="application/rss+xml" />
     <description>Academic</description>
-    <generator>Wowchemy (https://wowchemy.com)</generator><language>en-us</language><lastBuildDate>Sun, 13 Dec 2020 00:00:00 +0000</lastBuildDate>
+    <generator>Wowchemy (https://wowchemy.com)</generator><language>en-us</language><lastBuildDate>Mon, 04 Nov 2019 00:00:00 +0000</lastBuildDate>
     <image>
-      <url>https://jaspershen.github.io/media/icon_hu0b7a4cb9992c9ac0e91bd28ffd38dd00_9727_512x512_fill_lanczos_center_3.png</url>
+      <url>https://jaspershen.github.io/media/icon_hu805a85e690e4f2727bf7d5f685d888f7_86836_512x512_fill_lanczos_center_3.png</url>
       <title>Academic</title>
       <link>https://jaspershen.github.io/tag/academic/</link>
     </image>
     
     <item>
-      <title>Welcome to Wowchemy, the website builder for Hugo</title>
-      <link>https://jaspershen.github.io/post/getting-started/</link>
-      <pubDate>Sun, 13 Dec 2020 00:00:00 +0000</pubDate>
-      <guid>https://jaspershen.github.io/post/getting-started/</guid>
-      <description>&lt;div class=&#34;highlight&#34;&gt;&lt;pre tabindex=&#34;0&#34; class=&#34;chroma&#34;&gt;&lt;code class=&#34;language-python&#34; data-lang=&#34;python&#34;&gt;&lt;span class=&#34;line&#34;&gt;&lt;span class=&#34;cl&#34;&gt;&lt;span class=&#34;kn&#34;&gt;import&lt;/span&gt; &lt;span class=&#34;nn&#34;&gt;libr&lt;/span&gt;
-&lt;/span&gt;&lt;/span&gt;&lt;span class=&#34;line&#34;&gt;&lt;span class=&#34;cl&#34;&gt;&lt;span class=&#34;nb&#34;&gt;print&lt;/span&gt;&lt;span class=&#34;p&#34;&gt;(&lt;/span&gt;&lt;span class=&#34;s1&#34;&gt;&amp;#39;hello&amp;#39;&lt;/span&gt;&lt;span class=&#34;p&#34;&gt;)&lt;/span&gt;
-&lt;/span&gt;&lt;/span&gt;&lt;/code&gt;&lt;/pre&gt;&lt;/div&gt;&lt;h2 id=&#34;overview&#34;&gt;Overview&lt;/h2&gt;
-&lt;ol&gt;
-&lt;li&gt;The Wowchemy website builder for Hugo, along with its starter templates, is designed for professional creators, educators, and teams/organizations - although it can be used to create any kind of site&lt;/li&gt;
-&lt;li&gt;The template can be modified and customised to suit your needs. It&amp;rsquo;s a good platform for anyone looking to take control of their data and online identity whilst having the convenience to start off with a &lt;strong&gt;no-code solution (write in Markdown and customize with YAML parameters)&lt;/strong&gt; and having &lt;strong&gt;flexibility to later add even deeper personalization with HTML and CSS&lt;/strong&gt;&lt;/li&gt;
-&lt;li&gt;You can work with all your favourite tools and apps with hundreds of plugins and integrations to speed up your workflows, interact with your readers, and much more&lt;/li&gt;
+      <title>Metmicrobome Literature Sumamry</title>
+      <link>https://jaspershen.github.io/post/2019-11-04-metmicrobome-literature-sumamry/</link>
+      <pubDate>Mon, 04 Nov 2019 00:00:00 +0000</pubDate>
+      <guid>https://jaspershen.github.io/post/2019-11-04-metmicrobome-literature-sumamry/</guid>
+      <description>
+&lt;script src=&#34;index_files/header-attrs/header-attrs.js&#34;&gt;&lt;/script&gt;
+
+&lt;div id=&#34;TOC&#34;&gt;
+&lt;ul&gt;
+&lt;li&gt;&lt;a href=&#34;#predictive-metabolomic-profiling-of-microbial-communities-using-amplicon-or-metagenomic-sequences&#34;&gt;&lt;span class=&#34;toc-section-number&#34;&gt;1&lt;/span&gt; Predictive metabolomic profiling of microbial communities using amplicon or metagenomic sequences&lt;/a&gt;
+&lt;ul&gt;
+&lt;li&gt;&lt;a href=&#34;#methods&#34;&gt;&lt;span class=&#34;toc-section-number&#34;&gt;1.1&lt;/span&gt; Methods&lt;/a&gt;
+&lt;ul&gt;
+&lt;li&gt;&lt;a href=&#34;#training-and-validation-cohort-descriptions&#34;&gt;&lt;span class=&#34;toc-section-number&#34;&gt;1.1.1&lt;/span&gt; Training and validation cohort descriptions&lt;/a&gt;&lt;/li&gt;
+&lt;li&gt;&lt;a href=&#34;#taxonomic-and-functional-profiling&#34;&gt;&lt;span class=&#34;toc-section-number&#34;&gt;1.1.2&lt;/span&gt; Taxonomic and functional profiling&lt;/a&gt;&lt;/li&gt;
+&lt;li&gt;&lt;a href=&#34;#metabolite-profiling&#34;&gt;&lt;span class=&#34;toc-section-number&#34;&gt;1.1.3&lt;/span&gt; Metabolite profiling&lt;/a&gt;&lt;/li&gt;
+&lt;li&gt;&lt;a href=&#34;#elastic-net-regularization&#34;&gt;&lt;span class=&#34;toc-section-number&#34;&gt;1.1.4&lt;/span&gt; Elastic net regularization&lt;/a&gt;&lt;/li&gt;
+&lt;li&gt;&lt;a href=&#34;#significance-testing-with-shuffled-data&#34;&gt;&lt;span class=&#34;toc-section-number&#34;&gt;1.1.5&lt;/span&gt; Significance testing with shuffled data&lt;/a&gt;&lt;/li&gt;
+&lt;li&gt;&lt;a href=&#34;#gene-set-enrichment-analysis&#34;&gt;&lt;span class=&#34;toc-section-number&#34;&gt;1.1.6&lt;/span&gt; Gene set enrichment analysis&lt;/a&gt;&lt;/li&gt;
+&lt;/ul&gt;&lt;/li&gt;
+&lt;/ul&gt;&lt;/li&gt;
+&lt;/ul&gt;
+&lt;/div&gt;
+
+&lt;div id=&#34;predictive-metabolomic-profiling-of-microbial-communities-using-amplicon-or-metagenomic-sequences&#34; class=&#34;section level1&#34; number=&#34;1&#34;&gt;
+&lt;h1&gt;&lt;span class=&#34;header-section-number&#34;&gt;1&lt;/span&gt; Predictive metabolomic profiling of microbial communities using amplicon or metagenomic sequences&lt;/h1&gt;
+&lt;p&gt;开发的软件名字叫做MelonnPan(Model-based Genomically Informed High-dimensional Predictor of Microbial Community Metabolic Profile)&lt;/p&gt;
+&lt;p&gt;在一个cohort上开发, 在另一个indepent dataset上做验证.&lt;/p&gt;
+&lt;p&gt;This revealed high concordance (一致) between predicted and observed community metabolic trends in &amp;gt;50% of metabolites whose identities were confirmed against laboratory standards, including prediction of metabolic shifts associated with bile acids, fatty acids, steroids, prenol lipids, and sphingolipids.&lt;/p&gt;
+&lt;div id=&#34;methods&#34; class=&#34;section level2&#34; number=&#34;1.1&#34;&gt;
+&lt;h2&gt;&lt;span class=&#34;header-section-number&#34;&gt;1.1&lt;/span&gt; Methods&lt;/h2&gt;
+&lt;div id=&#34;training-and-validation-cohort-descriptions&#34; class=&#34;section level3&#34; number=&#34;1.1.1&#34;&gt;
+&lt;h3&gt;&lt;span class=&#34;header-section-number&#34;&gt;1.1.1&lt;/span&gt; Training and validation cohort descriptions&lt;/h3&gt;
+&lt;p&gt;One training data sets, two validation data sets.&lt;/p&gt;
+&lt;/div&gt;
+&lt;div id=&#34;taxonomic-and-functional-profiling&#34; class=&#34;section level3&#34; number=&#34;1.1.2&#34;&gt;
+&lt;h3&gt;&lt;span class=&#34;header-section-number&#34;&gt;1.1.2&lt;/span&gt; Taxonomic and functional profiling&lt;/h3&gt;
+&lt;p&gt;Stool samples.&lt;/p&gt;
+&lt;/div&gt;
+&lt;div id=&#34;metabolite-profiling&#34; class=&#34;section level3&#34; number=&#34;1.1.3&#34;&gt;
+&lt;h3&gt;&lt;span class=&#34;header-section-number&#34;&gt;1.1.3&lt;/span&gt; Metabolite profiling&lt;/h3&gt;
+&lt;p&gt;HHILIC and RPLC. 8869 features and 466 metabolites.&lt;/p&gt;
+&lt;/div&gt;
+&lt;div id=&#34;elastic-net-regularization&#34; class=&#34;section level3&#34; number=&#34;1.1.4&#34;&gt;
+&lt;h3&gt;&lt;span class=&#34;header-section-number&#34;&gt;1.1.4&lt;/span&gt; Elastic net regularization&lt;/h3&gt;
+&lt;p&gt;Elastic net regularization technique. Use the R package &lt;code&gt;glmnet&lt;/code&gt;.&lt;/p&gt;
+&lt;p&gt;Spearman correlation coefficient (r) between the true and pre- dicted metabolite compositions was used to evaluate the predictability of each compound. Following Cohen68, we term those metabolites for which r is &amp;gt;0.3 as “well predicted” and flag the rest as poorly predicted metabolites.&lt;/p&gt;
+&lt;/div&gt;
+&lt;div id=&#34;significance-testing-with-shuffled-data&#34; class=&#34;section level3&#34; number=&#34;1.1.5&#34;&gt;
+&lt;h3&gt;&lt;span class=&#34;header-section-number&#34;&gt;1.1.5&lt;/span&gt; Significance testing with shuffled data&lt;/h3&gt;
+&lt;p&gt;其实就是permutation test.&lt;/p&gt;
+&lt;/div&gt;
+&lt;div id=&#34;gene-set-enrichment-analysis&#34; class=&#34;section level3&#34; number=&#34;1.1.6&#34;&gt;
+&lt;h3&gt;&lt;span class=&#34;header-section-number&#34;&gt;1.1.6&lt;/span&gt; Gene set enrichment analysis&lt;/h3&gt;
+&lt;/div&gt;
+&lt;/div&gt;
+&lt;/div&gt;
+</description>
+    </item>
+    
+    <item>
+      <title>Maternal urinary metabolic signatures of fetal growth and associated clinical and environmental factors in the INMA study文献阅读总结</title>
+      <link>https://jaspershen.github.io/post/2019-11-01-maternal-urinary-metabolic-signatures/</link>
+      <pubDate>Fri, 01 Nov 2019 00:00:00 +0000</pubDate>
+      <guid>https://jaspershen.github.io/post/2019-11-01-maternal-urinary-metabolic-signatures/</guid>
+      <description>
+&lt;script src=&#34;index_files/header-attrs/header-attrs.js&#34;&gt;&lt;/script&gt;
+
+&lt;div id=&#34;TOC&#34;&gt;
+&lt;ul&gt;
+&lt;li&gt;&lt;a href=&#34;#abstract&#34;&gt;&lt;span class=&#34;toc-section-number&#34;&gt;1&lt;/span&gt; Abstract&lt;/a&gt;&lt;/li&gt;
+&lt;li&gt;&lt;a href=&#34;#methods&#34;&gt;&lt;span class=&#34;toc-section-number&#34;&gt;2&lt;/span&gt; Methods&lt;/a&gt;
+&lt;ul&gt;
+&lt;li&gt;&lt;a href=&#34;#study-population&#34;&gt;&lt;span class=&#34;toc-section-number&#34;&gt;2.1&lt;/span&gt; Study population&lt;/a&gt;&lt;/li&gt;
+&lt;li&gt;&lt;a href=&#34;#definition-of-the-fetal-and-birth-measurements&#34;&gt;&lt;span class=&#34;toc-section-number&#34;&gt;2.2&lt;/span&gt; Definition of the fetal and birth measurements&lt;/a&gt;&lt;/li&gt;
+&lt;li&gt;&lt;a href=&#34;#metabolic-profiling-by-nmr&#34;&gt;&lt;span class=&#34;toc-section-number&#34;&gt;2.3&lt;/span&gt; Metabolic profiling by NMR&lt;/a&gt;&lt;/li&gt;
+&lt;li&gt;&lt;a href=&#34;#statistical-analysis&#34;&gt;&lt;span class=&#34;toc-section-number&#34;&gt;2.4&lt;/span&gt; Statistical analysis&lt;/a&gt;
+&lt;ul&gt;
+&lt;li&gt;&lt;a href=&#34;#step-1.-identify-main-sources-of-metabolic-variation-between-first-and-third-trimesters-of-gestation&#34;&gt;&lt;span class=&#34;toc-section-number&#34;&gt;2.4.1&lt;/span&gt; Step 1. Identify main sources of metabolic variation between first and third trimesters of gestation&lt;/a&gt;&lt;/li&gt;
+&lt;li&gt;&lt;a href=&#34;#step-2.-identify-metabolites-associated-with-fetal-growth&#34;&gt;&lt;span class=&#34;toc-section-number&#34;&gt;2.4.2&lt;/span&gt; Step 2. Identify metabolites associated with fetal growth&lt;/a&gt;&lt;/li&gt;
+&lt;li&gt;&lt;a href=&#34;#step-3.-assess-the-extent-to-which-the-metabolite-panel-associated-with-fetal-growth-can-be-explained-by-known-growth-related-factors-from-epidemiological-and-clinical-data&#34;&gt;&lt;span class=&#34;toc-section-number&#34;&gt;2.4.3&lt;/span&gt; Step 3. Assess the extent to which the metabolite panel associated with fetal growth can be explained by known growth-related factors from epidemiological and clinical data&lt;/a&gt;&lt;/li&gt;
+&lt;li&gt;&lt;a href=&#34;#step-4.-determinants-of-birth-weight-a-variance-decomposition-analysis&#34;&gt;&lt;span class=&#34;toc-section-number&#34;&gt;2.4.4&lt;/span&gt; Step 4. Determinants of birth weight: a variance decomposition analysis&lt;/a&gt;&lt;/li&gt;
+&lt;/ul&gt;&lt;/li&gt;
+&lt;/ul&gt;&lt;/li&gt;
+&lt;/ul&gt;
+&lt;/div&gt;
+
+&lt;div id=&#34;abstract&#34; class=&#34;section level1&#34; number=&#34;1&#34;&gt;
+&lt;h1&gt;&lt;span class=&#34;header-section-number&#34;&gt;1&lt;/span&gt; Abstract&lt;/h1&gt;
+&lt;p&gt;使用NMR仪器采集urine数据.一共两个cohort.两个时间点(fisrt and third trimesters of gestation).用metabolome来预测fetal growth和birth weight.&lt;/p&gt;
+&lt;p&gt;测到的东西包括:branched-chain amino acids(支链氨基酸);isoleucine(异亮氨酸),valine(颉氨酸),leucine(亮氨酸),alanine(丙氨酸)和3 hydroxyisobutyrate(羟基异丁酸)(metabolite of valine).&lt;/p&gt;
+&lt;p&gt;另外一大类就是:pregnancy-related hormone by-products of estrogens and progesterone, and the methyl donor choline.
+Physical activity, as well as other modifiable lifestyle/clinical factors, such as coffee consumption, vitamin D intake, and smoking, were identified as potential sources of metabolic variation during pregnancy.First trimester metabolic phenotypes could not predict reproducibly weight at later stages of development.&lt;/p&gt;
+&lt;p&gt;Significant reproducible maternal urinary metabolic signatures of fetal growth and birth weight are identified for the first time and linked to modifiable lifestyle factors. This novel approach to prenatal(产前的) screening, combining multiple risk factors, present a great opportunity to personalize pregnancy management management and reduce newborn disease risk in later life.&lt;/p&gt;
+&lt;/div&gt;
+&lt;div id=&#34;methods&#34; class=&#34;section level1&#34; number=&#34;2&#34;&gt;
+&lt;h1&gt;&lt;span class=&#34;header-section-number&#34;&gt;2&lt;/span&gt; Methods&lt;/h1&gt;
+&lt;p&gt;NMR采集数据,一共1695 metabolic phenotypes.&lt;/p&gt;
+&lt;p&gt;Exploratory metabolic profiling offers a powerful means of capturing systems-level information that re- flects both maternal genetic and environmental influ- ences, hence helping to elucidate metabolic disturbances and pathways associated with fetal outcomes.&lt;/p&gt;
+&lt;p&gt;This study aimed to (1) characterize the maternal urinary metabolome throughout pregnancy, (2) identify maternal metabolic signatures of fetal growth in two subcohorts, (3) explain potential sources of variation in metabolic profiles based on lifestyle and clinical data, and finally (4) to determine the individ- ual importance of metabolic signatures versus other maternal&lt;/p&gt;
+&lt;div id=&#34;study-population&#34; class=&#34;section level2&#34; number=&#34;2.1&#34;&gt;
+&lt;h2&gt;&lt;span class=&#34;header-section-number&#34;&gt;2.1&lt;/span&gt; Study population&lt;/h2&gt;
+&lt;p&gt;The women were interviewed twice during pregnancy (in the first and third trimesters of gestation) to obtain infor- mation about their sociodemographic characteristics and lifestyle variables. The urine samples were collected in the same interview in the morning (spot samples). The urine samples were collected in the same interview in the morning (spot samples). 所以一共有两个时间点.分别在first trimester and third trimesters.时间为&lt;strong&gt;12.4 ± 1.2&lt;/strong&gt;和&lt;strong&gt;33.9 ± 1.3&lt;/strong&gt; weeks.&lt;/p&gt;
+&lt;/div&gt;
+&lt;div id=&#34;definition-of-the-fetal-and-birth-measurements&#34; class=&#34;section level2&#34; number=&#34;2.2&#34;&gt;
+&lt;h2&gt;&lt;span class=&#34;header-section-number&#34;&gt;2.2&lt;/span&gt; Definition of the fetal and birth measurements&lt;/h2&gt;
+&lt;p&gt;Fetal weight(FW)就是使用ultrasound对胎儿的几个指标进行测量(详细指标见下面内容),然后使用&lt;code&gt;Hadlock&lt;/code&gt;公式进行计算,可以得出胎儿的体重.&lt;/p&gt;
+&lt;p&gt;然后下面一个概念就是&lt;code&gt;fetal growth score&lt;/code&gt;.&lt;/p&gt;
+&lt;p&gt;下面是原文:&lt;/p&gt;
+&lt;p&gt;Fetal growth scores or standard deviation scores (z- scores) were obtained using longitudinal growth curves calculated for each individual adjusting for constitutional factors known to affect fetal growth (i.e., maternal age, height, parity, pre-pregnancy weight, country of origin, father’s height, and fetal sex).&lt;/p&gt;
+&lt;p&gt;推测做法:&lt;/p&gt;
+&lt;p&gt;对于每一个母亲,使用胎儿的体重(fetal weight,FW)作为因变量,然后其他的一些因素,比如maternal age等等作为cofounding factor,然后进行回归,剩余的残差就是矫正过后的fetal growth score.&lt;/p&gt;
+&lt;p&gt;协变量:&lt;/p&gt;
+&lt;p&gt;Gestational age was calculated from the date of the last menstrual period (LMP) which was self-reported and was confirmed using ultrasound examination in 12 wk of gestation. When the date did not match the ultrasound measurement estimation by 7 days or more, the gestational age was corrected using its relationship to the crown-rump length(顶臀长).&lt;/p&gt;
+&lt;p&gt;GA有两种计算方式,一种是使用孕妇自己报告的最后一次月经的第一天开始算起,整个怀孕周期为280天.10个妊娠月(每个妊娠月为28天).另外一种方法是使用ultrasound在12周的数据进行反推.如果两种方法的误差不在一周内,&lt;code&gt;则以哪种为准呢?&lt;/code&gt;如果误差在大于一周,则使用他们与crown-rump length(顶臀长)的关系进行矫正(&lt;code&gt;如何矫正?&lt;/code&gt;).&lt;/p&gt;
+&lt;p&gt;Fetal growth score是使用longitudinal growth curve来计算的,然后adjust了一些已知的能够影响fetal growth的因素,如maternal age(母亲的年龄),height(母亲的身高),parity(已生胎数),pre-pregnancy weight(怀孕前的体重),country of origin(地区),father’s height(母亲的身高),and fetal sex(胎儿性别).&lt;/p&gt;
+&lt;p&gt;这个值是一个标准化后的值.(standard deviation scores,z-scores).&lt;/p&gt;
+&lt;p&gt;没有矫正后的z-score.&lt;/p&gt;
+&lt;p&gt;date of conception:妊娠期.&lt;/p&gt;
+&lt;p&gt;Gestational age(孕龄)was established by using crown–rump length when the calculated date of conception differed from the fetal age based on the subject’s self-reported last menstrual period by 7 days or more.&lt;/p&gt;
+&lt;/div&gt;
+&lt;div id=&#34;metabolic-profiling-by-nmr&#34; class=&#34;section level2&#34; number=&#34;2.3&#34;&gt;
+&lt;h2&gt;&lt;span class=&#34;header-section-number&#34;&gt;2.3&lt;/span&gt; Metabolic profiling by NMR&lt;/h2&gt;
+&lt;p&gt;一共鉴定到64个代谢物,其中47个fully identified.&lt;/p&gt;
+&lt;/div&gt;
+&lt;div id=&#34;statistical-analysis&#34; class=&#34;section level2&#34; number=&#34;2.4&#34;&gt;
+&lt;h2&gt;&lt;span class=&#34;header-section-number&#34;&gt;2.4&lt;/span&gt; Statistical analysis&lt;/h2&gt;
+&lt;div id=&#34;step-1.-identify-main-sources-of-metabolic-variation-between-first-and-third-trimesters-of-gestation&#34; class=&#34;section level3&#34; number=&#34;2.4.1&#34;&gt;
+&lt;h3&gt;&lt;span class=&#34;header-section-number&#34;&gt;2.4.1&lt;/span&gt; Step 1. Identify main sources of metabolic variation between first and third trimesters of gestation&lt;/h3&gt;
+&lt;p&gt;PCA和OPLSA用来观察first and third trimester gestation的整体差异.&lt;/p&gt;
+&lt;/div&gt;
+&lt;div id=&#34;step-2.-identify-metabolites-associated-with-fetal-growth&#34; class=&#34;section level3&#34; number=&#34;2.4.2&#34;&gt;
+&lt;h3&gt;&lt;span class=&#34;header-section-number&#34;&gt;2.4.2&lt;/span&gt; Step 2. Identify metabolites associated with fetal growth&lt;/h3&gt;
+&lt;p&gt;对于所有的metabolite数据,首先将其进行log transformation.然后将fetal growth score作为因变量,metabolite作为自变量,而采样时间作为confounding factor进行multivarite linear regression.得到的每一个metabolite的coefficient乘以1.5的作为当该metabolite level提高50%时其对fetal growth score的影响(&lt;code&gt;没有太懂?&lt;/code&gt;).&lt;/p&gt;
+&lt;p&gt;Regression coefficients are presented as a percent of change in the z-score of each fetal growth measure.&lt;/p&gt;
+&lt;/div&gt;
+&lt;div id=&#34;step-3.-assess-the-extent-to-which-the-metabolite-panel-associated-with-fetal-growth-can-be-explained-by-known-growth-related-factors-from-epidemiological-and-clinical-data&#34; class=&#34;section level3&#34; number=&#34;2.4.3&#34;&gt;
+&lt;h3&gt;&lt;span class=&#34;header-section-number&#34;&gt;2.4.3&lt;/span&gt; Step 3. Assess the extent to which the metabolite panel associated with fetal growth can be explained by known growth-related factors from epidemiological and clinical data&lt;/h3&gt;
+&lt;p&gt;探究哪一些的metaboloite-fetal relationshi可以被一些已知的epidemiological和clinical data所解释.&lt;/p&gt;
+&lt;p&gt;作者考虑了以下已知的和fetal growth相关的参数:&lt;/p&gt;
+&lt;p&gt;maternal clinical parameters.&lt;/p&gt;
+&lt;p&gt;materna lifestyle in third trimester.&lt;/p&gt;
+&lt;p&gt;dietary intake in third trimester.&lt;/p&gt;
+&lt;p&gt;sociodemographic characteristics (社会人口特征).&lt;/p&gt;
+&lt;p&gt;一共有38个信息.详细信息请请见该&lt;a href=&#34;https://office365stanford-my.sharepoint.com/❌/r/personal/shenxt_stanford_edu/_layouts/15/Doc.aspx?sourcedoc=%7BE1FAE2E0-2B7D-4600-A1E3-2EC7B2391350%7D&amp;amp;file=41467_2019_11881_MOESM4_ESM.xlsx&amp;amp;action=default&amp;amp;mobileredirect=true&#34;&gt;表格&lt;/a&gt;.&lt;/p&gt;
+&lt;p&gt;将metabolite和maternal parameters进行spearman correlation的计算,然后化作crios plot(只保留p adjust &amp;lt; 0.05, FDR矫正).&lt;/p&gt;
+&lt;p&gt;In addition, correlation adjusted scores (CAR scores) were used to measure the correlation between metabolite levels and all the Mahalanobis decorrelated predictors in one model (growth-related factors selected from epidemiological and clinical data) as implemented in the R-package ‘care’&lt;/p&gt;
+&lt;p&gt;这段话没有看懂.&lt;/p&gt;
+&lt;p&gt;什么是correlation adjusted scores?&lt;/p&gt;
+&lt;/div&gt;
+&lt;div id=&#34;step-4.-determinants-of-birth-weight-a-variance-decomposition-analysis&#34; class=&#34;section level3&#34; number=&#34;2.4.4&#34;&gt;
+&lt;h3&gt;&lt;span class=&#34;header-section-number&#34;&gt;2.4.4&lt;/span&gt; Step 4. Determinants of birth weight: a variance decomposition analysis&lt;/h3&gt;
+&lt;/div&gt;
+&lt;/div&gt;
+&lt;/div&gt;
+</description>
+    </item>
+    
+    <item>
+      <title>怀孕基础知识总结</title>
+      <link>https://jaspershen.github.io/post/2019-11-01-pregnancy-knowledge/</link>
+      <pubDate>Fri, 01 Nov 2019 00:00:00 +0000</pubDate>
+      <guid>https://jaspershen.github.io/post/2019-11-01-pregnancy-knowledge/</guid>
+      <description>
+&lt;script src=&#34;index_files/header-attrs/header-attrs.js&#34;&gt;&lt;/script&gt;
+
+&lt;div id=&#34;TOC&#34;&gt;
+&lt;ul&gt;
+&lt;li&gt;&lt;a href=&#34;#孕龄gestational-agega的计算&#34;&gt;&lt;span class=&#34;toc-section-number&#34;&gt;1&lt;/span&gt; 孕龄(gestational age,GA)的计算&lt;/a&gt;&lt;/li&gt;
+&lt;/ul&gt;
+&lt;/div&gt;
+
+&lt;p&gt;因为要做跟怀孕相关的项目,所以把一些基础的怀孕知识做一下总结.&lt;/p&gt;
+&lt;div id=&#34;孕龄gestational-agega的计算&#34; class=&#34;section level1&#34; number=&#34;1&#34;&gt;
+&lt;h1&gt;&lt;span class=&#34;header-section-number&#34;&gt;1&lt;/span&gt; 孕龄(gestational age,GA)的计算&lt;/h1&gt;
+&lt;p&gt;整个怀孕周期为280天.10个妊娠月(每个妊娠月为28天).孕妇在妊娠38-42周内分娩,均为足月.由于每位女性月经周期长短不一,所以推测的预产期与实际预产期有1-2周的出入也是正常的.主要的计算方法有以下几种:&lt;/p&gt;
+&lt;ol style=&#34;list-style-type: decimal&#34;&gt;
+&lt;li&gt;根据末次月经计算:&lt;/li&gt;
 &lt;/ol&gt;
-&lt;p&gt;&lt;a href=&#34;https://wowchemy.com&#34; target=&#34;_blank&#34; rel=&#34;noopener&#34;&gt;
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-&lt;figure  &gt;
-  &lt;div class=&#34;d-flex justify-content-center&#34;&gt;
-    &lt;div class=&#34;w-100&#34; &gt;&lt;img src=&#34;https://raw.githubusercontent.com/wowchemy/wowchemy-hugo-modules/main/starters/academic/preview.png&#34; alt=&#34;The template is mobile first with a responsive design to ensure that your site looks stunning on every device.&#34; loading=&#34;lazy&#34; data-zoomable /&gt;&lt;/div&gt;
-  &lt;/div&gt;&lt;/figure&gt;
-&lt;/a&gt;&lt;/p&gt;
-&lt;h2 id=&#34;get-started&#34;&gt;Get Started&lt;/h2&gt;
+&lt;p&gt;末次月经日期(第一天)的月份加9或减3,为预产期月份数;天数加7,为预产期日.例如:张女士的末次月经是2008年3月13日,其预产期约为:2008年12月20日.李女士的末次月经是2008年5月28日,其预产期约为:2009年3月5日.也可以从末次月经第一天起向后推算到第280天就是预产期.&lt;/p&gt;
+&lt;ol start=&#34;2&#34; style=&#34;list-style-type: decimal&#34;&gt;
+&lt;li&gt;根据胎动日期计算:&lt;/li&gt;
+&lt;/ol&gt;
+&lt;p&gt;如不清末次月经日期,可以依据胎动日期来进行推算.一般胎动开始于怀孕后的18-20周.计算方法为:初产妇是胎动日加20周;经产妇是胎动日加22周.&lt;/p&gt;
+&lt;ol start=&#34;3&#34; style=&#34;list-style-type: decimal&#34;&gt;
+&lt;li&gt;根据基础体温曲线计算:&lt;/li&gt;
+&lt;/ol&gt;
+&lt;p&gt;将基础体温曲线的低温段的最后一天作为排卵日,从排卵日向后推算264-268天,或加38周.&lt;/p&gt;
+&lt;ol start=&#34;4&#34; style=&#34;list-style-type: decimal&#34;&gt;
+&lt;li&gt;根据B超检查推算:&lt;/li&gt;
+&lt;/ol&gt;
+&lt;p&gt;医生做B超时测得胎头双顶间径,头臀长度及股骨长度即可估算出胎龄,并推算出预产期(此方法大多作为医生B超检查诊断应用).&lt;/p&gt;
+&lt;p&gt;用来预测胎儿体重(fetal birth weight)的几个参数(从超声波测量而来):&lt;/p&gt;
 &lt;ul&gt;
-&lt;li&gt;👉 &lt;a href=&#34;https://wowchemy.com/templates/&#34; target=&#34;_blank&#34; rel=&#34;noopener&#34;&gt;&lt;strong&gt;Create a new site&lt;/strong&gt;&lt;/a&gt;&lt;/li&gt;
-&lt;li&gt;📚 &lt;a href=&#34;https://wowchemy.com/docs/&#34; target=&#34;_blank&#34; rel=&#34;noopener&#34;&gt;&lt;strong&gt;Personalize your site&lt;/strong&gt;&lt;/a&gt;&lt;/li&gt;
-&lt;li&gt;💬 &lt;a href=&#34;https://discord.gg/z8wNYzb&#34; target=&#34;_blank&#34; rel=&#34;noopener&#34;&gt;Chat with the &lt;strong&gt;Wowchemy community&lt;/strong&gt;&lt;/a&gt; or &lt;a href=&#34;https://discourse.gohugo.io&#34; target=&#34;_blank&#34; rel=&#34;noopener&#34;&gt;&lt;strong&gt;Hugo community&lt;/strong&gt;&lt;/a&gt;&lt;/li&gt;
-&lt;li&gt;🐦 Twitter: &lt;a href=&#34;https://twitter.com/wowchemy&#34; target=&#34;_blank&#34; rel=&#34;noopener&#34;&gt;@wowchemy&lt;/a&gt; &lt;a href=&#34;https://twitter.com/GeorgeCushen&#34; target=&#34;_blank&#34; rel=&#34;noopener&#34;&gt;@GeorgeCushen&lt;/a&gt; &lt;a href=&#34;https://twitter.com/search?q=%23MadeWithWowchemy&amp;amp;src=typed_query&#34; target=&#34;_blank&#34; rel=&#34;noopener&#34;&gt;#MadeWithWowchemy&lt;/a&gt;&lt;/li&gt;
-&lt;li&gt;💡 &lt;a href=&#34;https://github.com/wowchemy/wowchemy-hugo-themes/issues&#34; target=&#34;_blank&#34; rel=&#34;noopener&#34;&gt;Request a &lt;strong&gt;feature&lt;/strong&gt; or report a &lt;strong&gt;bug&lt;/strong&gt; for &lt;em&gt;Wowchemy&lt;/em&gt;&lt;/a&gt;&lt;/li&gt;
-&lt;li&gt;⬆️ &lt;strong&gt;Updating Wowchemy?&lt;/strong&gt; View the &lt;a href=&#34;https://wowchemy.com/docs/hugo-tutorials/update/&#34; target=&#34;_blank&#34; rel=&#34;noopener&#34;&gt;Update Tutorial&lt;/a&gt; and &lt;a href=&#34;https://wowchemy.com/updates/&#34; target=&#34;_blank&#34; rel=&#34;noopener&#34;&gt;Release Notes&lt;/a&gt;&lt;/li&gt;
+&lt;li&gt;&lt;p&gt;Fiparietal diameter(BPD):胎儿双顶径.为两侧顶骨隆突间的距离,是胎头最大横径,临床用B型超声检测此值判断胎儿大小,妊娠足月时平均长度约9.3cm.&lt;/p&gt;&lt;/li&gt;
+&lt;li&gt;&lt;p&gt;Femur length(FL):胎儿股骨长度.&lt;/p&gt;&lt;/li&gt;
+&lt;li&gt;&lt;p&gt;Head circumference (AC):胎儿头围.&lt;/p&gt;&lt;/li&gt;
+&lt;li&gt;&lt;p&gt;Abdominal circumference (AC):胎儿腹围.&lt;/p&gt;&lt;/li&gt;
+&lt;li&gt;&lt;p&gt;crown–rump length:胎儿的头臀长.&lt;/p&gt;&lt;/li&gt;
 &lt;/ul&gt;
-&lt;h2 id=&#34;crowd-funded-open-source-software&#34;&gt;Crowd-funded open-source software&lt;/h2&gt;
-&lt;p&gt;To help us develop this template and software sustainably under the MIT license, we ask all individuals and businesses that use it to help support its ongoing maintenance and development via sponsorship.&lt;/p&gt;
-&lt;h3 id=&#34;-click-here-to-become-a-sponsor-and-help-support-wowchemys-future-httpswowchemycomsponsor&#34;&gt;&lt;a href=&#34;https://wowchemy.com/sponsor/&#34; target=&#34;_blank&#34; rel=&#34;noopener&#34;&gt;❤️ Click here to become a sponsor and help support Wowchemy&amp;rsquo;s future ❤️&lt;/a&gt;&lt;/h3&gt;
-&lt;p&gt;As a token of appreciation for sponsoring, you can &lt;strong&gt;unlock &lt;a href=&#34;https://wowchemy.com/sponsor/&#34; target=&#34;_blank&#34; rel=&#34;noopener&#34;&gt;these&lt;/a&gt; awesome rewards and extra features 🦄✨&lt;/strong&gt;&lt;/p&gt;
-&lt;h2 id=&#34;ecosystem&#34;&gt;Ecosystem&lt;/h2&gt;
+&lt;ol start=&#34;5&#34; style=&#34;list-style-type: decimal&#34;&gt;
+&lt;li&gt;从孕吐开始的时间推算:&lt;/li&gt;
+&lt;/ol&gt;
+&lt;p&gt;反应孕吐一般出现在怀孕6周末，就是末次月经后42天，由此向后推算至280天即为预产期。&lt;/p&gt;
+&lt;/div&gt;
+</description>
+    </item>
+    
+    <item>
+      <title>Machine for genomics conference</title>
+      <link>https://jaspershen.github.io/post/machine-for-genomics-conference/</link>
+      <pubDate>Thu, 17 Oct 2019 00:00:00 +0000</pubDate>
+      <guid>https://jaspershen.github.io/post/machine-for-genomics-conference/</guid>
+      <description>
+&lt;script src=&#34;index_files/header-attrs/header-attrs.js&#34;&gt;&lt;/script&gt;
+
+&lt;div id=&#34;TOC&#34;&gt;
 &lt;ul&gt;
-&lt;li&gt;&lt;strong&gt;&lt;a href=&#34;https://github.com/wowchemy/hugo-academic-cli&#34; target=&#34;_blank&#34; rel=&#34;noopener&#34;&gt;Hugo Academic CLI&lt;/a&gt;:&lt;/strong&gt; Automatically import publications from BibTeX&lt;/li&gt;
+&lt;li&gt;&lt;a href=&#34;#machine-learning-for-biomedical-information&#34;&gt;&lt;span class=&#34;toc-section-number&#34;&gt;0.0.1&lt;/span&gt; Machine learning for biomedical information&lt;/a&gt;&lt;/li&gt;
 &lt;/ul&gt;
-&lt;h2 id=&#34;inspiration&#34;&gt;Inspiration&lt;/h2&gt;
-&lt;p&gt;&lt;a href=&#34;https://academic-demo.netlify.com/&#34; target=&#34;_blank&#34; rel=&#34;noopener&#34;&gt;Check out the latest &lt;strong&gt;demo&lt;/strong&gt;&lt;/a&gt; of what you&amp;rsquo;ll get in less than 10 minutes, or &lt;a href=&#34;https://wowchemy.com/user-stories/&#34; target=&#34;_blank&#34; rel=&#34;noopener&#34;&gt;view the &lt;strong&gt;showcase&lt;/strong&gt;&lt;/a&gt; of personal, project, and business sites.&lt;/p&gt;
-&lt;h2 id=&#34;features&#34;&gt;Features&lt;/h2&gt;
+&lt;/div&gt;
+
+&lt;p&gt;freenome&lt;/p&gt;
+&lt;p&gt;freenome intergateing innovative science to develop a blood-based cancer test starting with CRC.&lt;/p&gt;
+&lt;p&gt;cfDNA (cell free DNA).&lt;/p&gt;
+&lt;p&gt;Interpreting deep learning models of regulatory DNA&lt;/p&gt;
+&lt;p&gt;Anshul Kundaje&lt;/p&gt;
+&lt;p&gt;decoding genome function&lt;/p&gt;
+&lt;p&gt;control elements gene&lt;/p&gt;
+&lt;p&gt;ATAC-seq/DNase-seq&lt;/p&gt;
+&lt;p&gt;ChIP-seq&lt;/p&gt;
+&lt;p&gt;prediCtive model of regularity DNA&lt;/p&gt;
+&lt;p&gt;Just transform DNA sequence to dummy matrxi.&lt;/p&gt;
+&lt;div id=&#34;machine-learning-for-biomedical-information&#34; class=&#34;section level3&#34; number=&#34;0.0.1&#34;&gt;
+&lt;h3&gt;&lt;span class=&#34;header-section-number&#34;&gt;0.0.1&lt;/span&gt; Machine learning for biomedical information&lt;/h3&gt;
+&lt;p&gt;hierarchical latent variable models?&lt;/p&gt;
+&lt;/div&gt;
+</description>
+    </item>
+    
+    <item>
+      <title>Docker的安装使用和配置</title>
+      <link>https://jaspershen.github.io/post/docker/</link>
+      <pubDate>Wed, 16 Oct 2019 00:00:00 +0000</pubDate>
+      <guid>https://jaspershen.github.io/post/docker/</guid>
+      <description>
+&lt;script src=&#34;index_files/header-attrs/header-attrs.js&#34;&gt;&lt;/script&gt;
+
+
+&lt;p&gt;将自己安装docker,使用以及配置记录下来,主要还包括常用的命令总结以及一些bug的处理,以及一些常见资源.&lt;/p&gt;
+</description>
+    </item>
+    
+    <item>
+      <title>R语言常见统计预测模型</title>
+      <link>https://jaspershen.github.io/post/r-ml-model/</link>
+      <pubDate>Wed, 16 Oct 2019 00:00:00 +0000</pubDate>
+      <guid>https://jaspershen.github.io/post/r-ml-model/</guid>
+      <description>
+&lt;script src=&#34;index_files/header-attrs/header-attrs.js&#34;&gt;&lt;/script&gt;
+
+&lt;div id=&#34;TOC&#34;&gt;
 &lt;ul&gt;
-&lt;li&gt;&lt;strong&gt;Page builder&lt;/strong&gt; - Create &lt;em&gt;anything&lt;/em&gt; with &lt;a href=&#34;https://wowchemy.com/docs/page-builder/&#34; target=&#34;_blank&#34; rel=&#34;noopener&#34;&gt;&lt;strong&gt;widgets&lt;/strong&gt;&lt;/a&gt; and &lt;a href=&#34;https://wowchemy.com/docs/content/writing-markdown-latex/&#34; target=&#34;_blank&#34; rel=&#34;noopener&#34;&gt;&lt;strong&gt;elements&lt;/strong&gt;&lt;/a&gt;&lt;/li&gt;
-&lt;li&gt;&lt;strong&gt;Edit any type of content&lt;/strong&gt; - Blog posts, publications, talks, slides, projects, and more!&lt;/li&gt;
-&lt;li&gt;&lt;strong&gt;Create content&lt;/strong&gt; in &lt;a href=&#34;https://wowchemy.com/docs/content/writing-markdown-latex/&#34; target=&#34;_blank&#34; rel=&#34;noopener&#34;&gt;&lt;strong&gt;Markdown&lt;/strong&gt;&lt;/a&gt;, &lt;a href=&#34;https://wowchemy.com/docs/import/jupyter/&#34; target=&#34;_blank&#34; rel=&#34;noopener&#34;&gt;&lt;strong&gt;Jupyter&lt;/strong&gt;&lt;/a&gt;, or &lt;a href=&#34;https://wowchemy.com/docs/install-locally/&#34; target=&#34;_blank&#34; rel=&#34;noopener&#34;&gt;&lt;strong&gt;RStudio&lt;/strong&gt;&lt;/a&gt;&lt;/li&gt;
-&lt;li&gt;&lt;strong&gt;Plugin System&lt;/strong&gt; - Fully customizable &lt;a href=&#34;https://wowchemy.com/docs/customization/&#34; target=&#34;_blank&#34; rel=&#34;noopener&#34;&gt;&lt;strong&gt;color&lt;/strong&gt; and &lt;strong&gt;font themes&lt;/strong&gt;&lt;/a&gt;&lt;/li&gt;
-&lt;li&gt;&lt;strong&gt;Display Code and Math&lt;/strong&gt; - Code highlighting and &lt;a href=&#34;https://en.wikibooks.org/wiki/LaTeX/Mathematics&#34; target=&#34;_blank&#34; rel=&#34;noopener&#34;&gt;LaTeX math&lt;/a&gt; supported&lt;/li&gt;
-&lt;li&gt;&lt;strong&gt;Integrations&lt;/strong&gt; - &lt;a href=&#34;https://analytics.google.com&#34; target=&#34;_blank&#34; rel=&#34;noopener&#34;&gt;Google Analytics&lt;/a&gt;, &lt;a href=&#34;https://disqus.com&#34; target=&#34;_blank&#34; rel=&#34;noopener&#34;&gt;Disqus commenting&lt;/a&gt;, Maps, Contact Forms, and more!&lt;/li&gt;
-&lt;li&gt;&lt;strong&gt;Beautiful Site&lt;/strong&gt; - Simple and refreshing one page design&lt;/li&gt;
-&lt;li&gt;&lt;strong&gt;Industry-Leading SEO&lt;/strong&gt; - Help get your website found on search engines and social media&lt;/li&gt;
-&lt;li&gt;&lt;strong&gt;Media Galleries&lt;/strong&gt; - Display your images and videos with captions in a customizable gallery&lt;/li&gt;
-&lt;li&gt;&lt;strong&gt;Mobile Friendly&lt;/strong&gt; - Look amazing on every screen with a mobile friendly version of your site&lt;/li&gt;
-&lt;li&gt;&lt;strong&gt;Multi-language&lt;/strong&gt; - 34+ language packs including English, 中文, and Português&lt;/li&gt;
-&lt;li&gt;&lt;strong&gt;Multi-user&lt;/strong&gt; - Each author gets their own profile page&lt;/li&gt;
-&lt;li&gt;&lt;strong&gt;Privacy Pack&lt;/strong&gt; - Assists with GDPR&lt;/li&gt;
-&lt;li&gt;&lt;strong&gt;Stand Out&lt;/strong&gt; - Bring your site to life with animation, parallax backgrounds, and scroll effects&lt;/li&gt;
-&lt;li&gt;&lt;strong&gt;One-Click Deployment&lt;/strong&gt; - No servers. No databases. Only files.&lt;/li&gt;
+&lt;li&gt;&lt;a href=&#34;#lasso模型&#34;&gt;&lt;span class=&#34;toc-section-number&#34;&gt;0.0.1&lt;/span&gt; lasso模型&lt;/a&gt;&lt;/li&gt;
+&lt;li&gt;&lt;a href=&#34;#references&#34;&gt;&lt;span class=&#34;toc-section-number&#34;&gt;0.0.2&lt;/span&gt; References&lt;/a&gt;&lt;/li&gt;
 &lt;/ul&gt;
-&lt;h2 id=&#34;themes&#34;&gt;Themes&lt;/h2&gt;
-&lt;p&gt;Wowchemy and its templates come with &lt;strong&gt;automatic day (light) and night (dark) mode&lt;/strong&gt; built-in. Alternatively, visitors can choose their preferred mode - click the moon icon in the top right of the &lt;a href=&#34;https://academic-demo.netlify.com/&#34; target=&#34;_blank&#34; rel=&#34;noopener&#34;&gt;Demo&lt;/a&gt; to see it in action! Day/night mode can also be disabled by the site admin in &lt;code&gt;params.toml&lt;/code&gt;.&lt;/p&gt;
-&lt;p&gt;&lt;a href=&#34;https://wowchemy.com/docs/customization&#34; target=&#34;_blank&#34; rel=&#34;noopener&#34;&gt;Choose a stunning &lt;strong&gt;theme&lt;/strong&gt; and &lt;strong&gt;font&lt;/strong&gt;&lt;/a&gt; for your site. Themes are fully customizable.&lt;/p&gt;
-&lt;h2 id=&#34;license&#34;&gt;License&lt;/h2&gt;
-&lt;p&gt;Copyright 2016-present &lt;a href=&#34;https://georgecushen.com&#34; target=&#34;_blank&#34; rel=&#34;noopener&#34;&gt;George Cushen&lt;/a&gt;.&lt;/p&gt;
-&lt;p&gt;Released under the &lt;a href=&#34;https://github.com/wowchemy/wowchemy-hugo-themes/blob/master/LICENSE.md&#34; target=&#34;_blank&#34; rel=&#34;noopener&#34;&gt;MIT&lt;/a&gt; license.&lt;/p&gt;
+&lt;/div&gt;
+
+&lt;div id=&#34;lasso模型&#34; class=&#34;section level3&#34; number=&#34;0.0.1&#34;&gt;
+&lt;h3&gt;&lt;span class=&#34;header-section-number&#34;&gt;0.0.1&lt;/span&gt; lasso模型&lt;/h3&gt;
+&lt;p&gt;LASSO回归的特点是在拟合广义线性模型的同时进行变量筛选(variable selection)和复杂度调整(regularization).因此,不论因变量(dependent/response varaible)是连续的(continuous),还是二元或者多元离散的（discrete）,都可以用LASSO回归建模然后预测.这里的变量筛选是指不把所有的变量都放入模型中进行拟合,而是有选择的把变量放入模型从而得到更好的性能参数. 复杂度调整是指通过一系列参数控制模型的复杂度,从而避免过拟合(overfitting). 对于线性模型来说,复杂度与模型的变量数有直接关系,变量数越多,模型复杂度就越高. 更多的变量在拟合时往往可以给出一个看似更好的模型,但是同时也面临过度拟合的危险.此时如果用全新的数据去验证模型(validation),通常效果很差. 一般来说,变量数大于数据点数量很多,或者某一个离散变量有太多独特值时,都有可能过度拟合.&lt;/p&gt;
+&lt;p&gt;LASSO回归的复杂度主要由参数&lt;span class=&#34;math inline&#34;&gt;\(\lambda\)&lt;/span&gt;(lambda)来控制.lambda越大,对变量较多的线性模型的惩罚力度就越大.最终获得一个变量较少的模型.&lt;/p&gt;
+&lt;p&gt;另外还有一个参数&lt;span class=&#34;math inline&#34;&gt;\(\alpha\)&lt;/span&gt;(alpha)用来控制高度相关性模型的性状.LASSO回归时,alpha设置为1.&lt;/p&gt;
+&lt;p&gt;使用&lt;code&gt;glmnet&lt;/code&gt;包可以进行LASSO回归.它可以对一系列不同的lambda值进行拟合,每次拟合都用到上一个lambda拟合的结果,从而大大提高了运行效率.&lt;/p&gt;
+&lt;div id=&#34;常用参数如下&#34; class=&#34;section level4&#34; number=&#34;0.0.1.1&#34;&gt;
+&lt;h4&gt;&lt;span class=&#34;header-section-number&#34;&gt;0.0.1.1&lt;/span&gt; 常用参数如下:&lt;/h4&gt;
+&lt;ul&gt;
+&lt;li&gt;&lt;code&gt;x&lt;/code&gt;: 自变量数据集,需要为matrix格式,行为观测列为变量.&lt;br /&gt;
+&lt;/li&gt;
+&lt;li&gt;&lt;code&gt;y&lt;/code&gt;: 因变量数据集,需要为matrix格式,只有一列.&lt;/li&gt;
+&lt;li&gt;&lt;code&gt;family&lt;/code&gt;: 应变量类型.如果时连续性变量(也就是要做回归分析),&lt;code&gt;family&lt;/code&gt;应该为&lt;code&gt;gussian&lt;/code&gt;(高斯分布/正态分布)或者&lt;code&gt;poisson&lt;/code&gt;(泊松分布).如果为两分类不连续变量(factor类型,且只有两个levels),应设置为&lt;code&gt;binomial&lt;/code&gt;.如果时多分类不连续变量(factor类型,且多个levels),则应设置为&lt;code&gt;multinomial&lt;/code&gt;.如果设置为&lt;code&gt;cox&lt;/code&gt;,则y应当为一个两列的matrix,列名分别为&lt;code&gt;time&lt;/code&gt;和&lt;code&gt;status&lt;/code&gt;,&lt;code&gt;tiem&lt;/code&gt;为存活时间,&lt;code&gt;status&lt;/code&gt;为结局状态(1代表死亡,0代表还未死亡).&lt;/li&gt;
+&lt;li&gt;&lt;code&gt;alpha&lt;/code&gt;: 在LASSO回归中,将其设置为1.&lt;/li&gt;
+&lt;li&gt;&lt;code&gt;nlambda&lt;/code&gt;: 选取多少个lambda进行优化,默认为100.也就是使用100个lambda值拟合出100个系数不同的模型.&lt;/li&gt;
+&lt;li&gt;&lt;code&gt;lambda&lt;/code&gt;: 提供lambda值,如果设置该值(一个或者多个),则会覆盖掉自动选择的lambda值.&lt;/li&gt;
+&lt;li&gt;&lt;code&gt;standardize&lt;/code&gt;: 是否对数据进行标准化(scale),默认为TRUE.推荐自己对数据进行标准化,如果自己做过sca了,这里需要设置为FALSE.&lt;/li&gt;
+&lt;/ul&gt;
+&lt;/div&gt;
+&lt;div id=&#34;构建模型&#34; class=&#34;section level4&#34; number=&#34;0.0.1.2&#34;&gt;
+&lt;h4&gt;&lt;span class=&#34;header-section-number&#34;&gt;0.0.1.2&lt;/span&gt; 构建模型&lt;/h4&gt;
+&lt;p&gt;构建模型之后,可以将其打印出来观察具体信息.&lt;/p&gt;
+&lt;/div&gt;
+&lt;/div&gt;
+&lt;div id=&#34;references&#34; class=&#34;section level3&#34; number=&#34;0.0.2&#34;&gt;
+&lt;h3&gt;&lt;span class=&#34;header-section-number&#34;&gt;0.0.2&lt;/span&gt; References&lt;/h3&gt;
+&lt;ul&gt;
+&lt;li&gt;&lt;a href=&#34;https://cosx.org/2016/10/data-mining-1-lasso/&#34; class=&#34;uri&#34;&gt;https://cosx.org/2016/10/data-mining-1-lasso/&lt;/a&gt;&lt;/li&gt;
+&lt;/ul&gt;
+&lt;/div&gt;
+</description>
+    </item>
+    
+    <item>
+      <title>网络分析之igraph</title>
+      <link>https://jaspershen.github.io/post/igraph/</link>
+      <pubDate>Tue, 15 Oct 2019 00:00:00 +0000</pubDate>
+      <guid>https://jaspershen.github.io/post/igraph/</guid>
+      <description>
+&lt;script src=&#34;index_files/header-attrs/header-attrs.js&#34;&gt;&lt;/script&gt;
+
+&lt;div id=&#34;TOC&#34;&gt;
+&lt;ul&gt;
+&lt;li&gt;&lt;a href=&#34;#安装&#34;&gt;&lt;span class=&#34;toc-section-number&#34;&gt;0.0.1&lt;/span&gt; 安装&lt;/a&gt;&lt;/li&gt;
+&lt;li&gt;&lt;a href=&#34;#常用功能总结&#34;&gt;&lt;span class=&#34;toc-section-number&#34;&gt;0.0.2&lt;/span&gt; 常用功能总结&lt;/a&gt;&lt;/li&gt;
+&lt;li&gt;&lt;a href=&#34;#从data-frame转变为igraph对象&#34;&gt;&lt;span class=&#34;toc-section-number&#34;&gt;0.0.3&lt;/span&gt; 从data frame转变为``igraph对象&lt;/a&gt;&lt;/li&gt;
+&lt;/ul&gt;
+&lt;/div&gt;
+
+&lt;p&gt;&lt;code&gt;igraph&lt;/code&gt;是一些列网络分析工具的集合.开源且免费,拥有R, Python以及C/C++等语言接口.我们主要介绍R语言中的&lt;code&gt;igraph&lt;/code&gt;包.其官网如下:
+&lt;a href=&#34;https://igraph.org/r/doc/plot.common.html&#34; class=&#34;uri&#34;&gt;https://igraph.org/r/doc/plot.common.html&lt;/a&gt;&lt;/p&gt;
+&lt;div id=&#34;安装&#34; class=&#34;section level3&#34; number=&#34;0.0.1&#34;&gt;
+&lt;h3&gt;&lt;span class=&#34;header-section-number&#34;&gt;0.0.1&lt;/span&gt; 安装&lt;/h3&gt;
+&lt;/div&gt;
+&lt;div id=&#34;常用功能总结&#34; class=&#34;section level3&#34; number=&#34;0.0.2&#34;&gt;
+&lt;h3&gt;&lt;span class=&#34;header-section-number&#34;&gt;0.0.2&lt;/span&gt; 常用功能总结&lt;/h3&gt;
+&lt;/div&gt;
+&lt;div id=&#34;从data-frame转变为igraph对象&#34; class=&#34;section level3&#34; number=&#34;0.0.3&#34;&gt;
+&lt;h3&gt;&lt;span class=&#34;header-section-number&#34;&gt;0.0.3&lt;/span&gt; 从data frame转变为``igraph对象&lt;/h3&gt;
+&lt;p&gt;使用&lt;code&gt;graph_from_data_frame()&lt;/code&gt;函数.一共三个参数:&lt;/p&gt;
+&lt;ul&gt;
+&lt;li&gt;&lt;p&gt;&lt;code&gt;d&lt;/code&gt;:&lt;code&gt;data.frame&lt;/code&gt;,前两列必须是一条边的两个顶点,比如第一列为&lt;code&gt;from&lt;/code&gt;,第二列为&lt;code&gt;to&lt;/code&gt;.其余的列会作为edge的属性.&lt;/p&gt;&lt;/li&gt;
+&lt;li&gt;&lt;p&gt;&lt;code&gt;directed&lt;/code&gt;:是否为有向图,默认为TRUE.&lt;/p&gt;&lt;/li&gt;
+&lt;li&gt;&lt;p&gt;&lt;code&gt;vertices&lt;/code&gt;:需要是一个data.frame.第一列是vertex的名字,然后其他列是vertex的属性.&lt;/p&gt;&lt;/li&gt;
+&lt;/ul&gt;
+&lt;pre class=&#34;r&#34;&gt;&lt;code&gt;library(igraph)&lt;/code&gt;&lt;/pre&gt;
+&lt;pre&gt;&lt;code&gt;## 
+## Attaching package: &amp;#39;igraph&amp;#39;&lt;/code&gt;&lt;/pre&gt;
+&lt;pre&gt;&lt;code&gt;## The following objects are masked from &amp;#39;package:stats&amp;#39;:
+## 
+##     decompose, spectrum&lt;/code&gt;&lt;/pre&gt;
+&lt;pre&gt;&lt;code&gt;## The following object is masked from &amp;#39;package:base&amp;#39;:
+## 
+##     union&lt;/code&gt;&lt;/pre&gt;
+&lt;pre class=&#34;r&#34;&gt;&lt;code&gt;actors &amp;lt;- data.frame(name=c(&amp;quot;Alice&amp;quot;, &amp;quot;Bob&amp;quot;, &amp;quot;Cecil&amp;quot;, &amp;quot;David&amp;quot;,
+                            &amp;quot;Esmeralda&amp;quot;),
+                     age=c(48,33,45,34,21),
+                     gender=c(&amp;quot;F&amp;quot;,&amp;quot;M&amp;quot;,&amp;quot;F&amp;quot;,&amp;quot;M&amp;quot;,&amp;quot;F&amp;quot;))
+
+relations &amp;lt;- data.frame(from=c(&amp;quot;Bob&amp;quot;, &amp;quot;Cecil&amp;quot;, &amp;quot;Cecil&amp;quot;, &amp;quot;David&amp;quot;,
+                               &amp;quot;David&amp;quot;, &amp;quot;Esmeralda&amp;quot;),
+                        to=c(&amp;quot;Alice&amp;quot;, &amp;quot;Bob&amp;quot;, &amp;quot;Alice&amp;quot;, &amp;quot;Alice&amp;quot;, &amp;quot;Bob&amp;quot;, &amp;quot;Alice&amp;quot;),
+                        same.dept=c(FALSE,FALSE,TRUE,FALSE,FALSE,TRUE),
+                        friendship=c(4,5,5,2,1,1), advice=c(4,5,5,4,2,3))
+g &amp;lt;- graph_from_data_frame(relations, directed = TRUE, vertices = actors)
+g&lt;/code&gt;&lt;/pre&gt;
+&lt;pre&gt;&lt;code&gt;## IGRAPH 3a13e29 DN-- 5 6 -- 
+## + attr: name (v/c), age (v/n), gender (v/c), same.dept (e/l),
+## | friendship (e/n), advice (e/n)
+## + edges from 3a13e29 (vertex names):
+## [1] Bob      -&amp;gt;Alice Cecil    -&amp;gt;Bob   Cecil    -&amp;gt;Alice David    -&amp;gt;Alice
+## [5] David    -&amp;gt;Bob   Esmeralda-&amp;gt;Alice&lt;/code&gt;&lt;/pre&gt;
+&lt;pre class=&#34;r&#34;&gt;&lt;code&gt;plot(g)&lt;/code&gt;&lt;/pre&gt;
+&lt;p&gt;&lt;img src=&#34;index_files/figure-html/unnamed-chunk-1-1.png&#34; width=&#34;672&#34; /&gt;&lt;/p&gt;
+&lt;div id=&#34;寻找某个vertex的neighbor&#34; class=&#34;section level4&#34; number=&#34;0.0.3.1&#34;&gt;
+&lt;h4&gt;&lt;span class=&#34;header-section-number&#34;&gt;0.0.3.1&lt;/span&gt; 寻找某个vertex的neighbor&lt;/h4&gt;
+&lt;p&gt;使用&lt;code&gt;neighbors()&lt;/code&gt;函数.一共两个参数:&lt;/p&gt;
+&lt;ul&gt;
+&lt;li&gt;&lt;code&gt;graph&lt;/code&gt;:&lt;code&gt;igraph&lt;/code&gt;类对象.&lt;br /&gt;
+&lt;/li&gt;
+&lt;li&gt;&lt;code&gt;V&lt;/code&gt;:某vertex的名字(name).&lt;br /&gt;
+&lt;/li&gt;
+&lt;li&gt;&lt;code&gt;mode&lt;/code&gt;: 对于有向图来说,是寻找从该vertex出发的neighbors(‘out’),还是指向该vertex的neighbors(‘in’),还是两种都寻找(‘both’).&lt;/li&gt;
+&lt;/ul&gt;
+&lt;/div&gt;
+&lt;div id=&#34;设置graph中vertex的属性&#34; class=&#34;section level4&#34; number=&#34;0.0.3.2&#34;&gt;
+&lt;h4&gt;&lt;span class=&#34;header-section-number&#34;&gt;0.0.3.2&lt;/span&gt; 设置graph中vertex的属性&lt;/h4&gt;
+&lt;p&gt;如果需要给graph中的vertex增加或者修改属性,可以使用&lt;code&gt;ste_vertex_attr()&lt;/code&gt;函数.一共四个参数:&lt;/p&gt;
+&lt;ul&gt;
+&lt;li&gt;&lt;code&gt;graph&lt;/code&gt;:&lt;code&gt;igraph&lt;/code&gt;类对象.&lt;br /&gt;
+&lt;/li&gt;
+&lt;li&gt;&lt;code&gt;name&lt;/code&gt;:设置的新的属性的名字.&lt;br /&gt;
+&lt;/li&gt;
+&lt;li&gt;&lt;code&gt;index&lt;/code&gt;:设置vertex属性时的vertex的index.默认按照graph中vertex的默认index(V(graph))来设置.&lt;/li&gt;
+&lt;li&gt;&lt;code&gt;value&lt;/code&gt;:设置的属性的值.需要和vertex的长度一致.&lt;/li&gt;
+&lt;/ul&gt;
+&lt;/div&gt;
+&lt;div id=&#34;将igraph对象转变为data.frame格式&#34; class=&#34;section level4&#34; number=&#34;0.0.3.3&#34;&gt;
+&lt;h4&gt;&lt;span class=&#34;header-section-number&#34;&gt;0.0.3.3&lt;/span&gt; 将&lt;code&gt;igraph&lt;/code&gt;对象转变为data.frame格式&lt;/h4&gt;
+&lt;p&gt;使用&lt;code&gt;as_long_data_frame()&lt;/code&gt;函数可以将&lt;code&gt;igraph&lt;/code&gt;转换为data.frame格式.只有一个参数,就是&lt;code&gt;graph&lt;/code&gt;.&lt;/p&gt;
+&lt;/div&gt;
+&lt;div id=&#34;从一个graph提取子graphsubgraph&#34; class=&#34;section level4&#34; number=&#34;0.0.3.4&#34;&gt;
+&lt;h4&gt;&lt;span class=&#34;header-section-number&#34;&gt;0.0.3.4&lt;/span&gt; 从一个graph提取子graph(subgraph)&lt;/h4&gt;
+&lt;p&gt;使用&lt;code&gt;subgraph()&lt;/code&gt;函数.一共两个参数:&lt;/p&gt;
+&lt;ul&gt;
+&lt;li&gt;&lt;code&gt;graph&lt;/code&gt;:&lt;code&gt;igraph&lt;/code&gt;类对象.&lt;br /&gt;
+&lt;/li&gt;
+&lt;li&gt;&lt;code&gt;V&lt;/code&gt;:要提取的subgraph的所有的vertex的名字(name).&lt;/li&gt;
+&lt;/ul&gt;
+&lt;/div&gt;
+&lt;div id=&#34;获取vertex属性&#34; class=&#34;section level4&#34; number=&#34;0.0.3.5&#34;&gt;
+&lt;h4&gt;&lt;span class=&#34;header-section-number&#34;&gt;0.0.3.5&lt;/span&gt; 获取vertex属性&lt;/h4&gt;
+&lt;p&gt;使用&lt;code&gt;vertex_attr()&lt;/code&gt;函数.一共4个参数.&lt;/p&gt;
+&lt;ul&gt;
+&lt;li&gt;&lt;code&gt;graph&lt;/code&gt;:&lt;code&gt;igraph&lt;/code&gt;类对象.&lt;br /&gt;
+&lt;/li&gt;
+&lt;li&gt;&lt;code&gt;name&lt;/code&gt;:需要获取的属性的名字,默认提取所有属性.&lt;/li&gt;
+&lt;li&gt;index:需要获取那些vertex的属性,默认提取所有的vertex.&lt;/li&gt;
+&lt;/ul&gt;
+&lt;/div&gt;
+&lt;/div&gt;
+</description>
+    </item>
+    
+    <item>
+      <title>R可视化之小提琴图</title>
+      <link>https://jaspershen.github.io/post/r-violin/</link>
+      <pubDate>Sat, 12 Oct 2019 00:00:00 +0000</pubDate>
+      <guid>https://jaspershen.github.io/post/r-violin/</guid>
+      <description>
+&lt;script src=&#34;index_files/header-attrs/header-attrs.js&#34;&gt;&lt;/script&gt;
+
+&lt;div id=&#34;TOC&#34;&gt;
+&lt;ul&gt;
+&lt;li&gt;&lt;a href=&#34;#基础小提琴图绘制&#34;&gt;&lt;span class=&#34;toc-section-number&#34;&gt;0.1&lt;/span&gt; 基础小提琴图绘制&lt;/a&gt;
+&lt;ul&gt;
+&lt;li&gt;&lt;a href=&#34;#使用ggplot2包中的geom_violin函数.&#34;&gt;&lt;span class=&#34;toc-section-number&#34;&gt;0.1.1&lt;/span&gt; 使用&lt;code&gt;ggplot2&lt;/code&gt;包中的&lt;code&gt;geom_violin()&lt;/code&gt;函数.&lt;/a&gt;&lt;/li&gt;
+&lt;/ul&gt;&lt;/li&gt;
+&lt;li&gt;&lt;a href=&#34;#将小提琴图水平展示&#34;&gt;&lt;span class=&#34;toc-section-number&#34;&gt;0.2&lt;/span&gt; 将小提琴图水平展示&lt;/a&gt;&lt;/li&gt;
+&lt;li&gt;&lt;a href=&#34;#小提琴图与箱型图同时展示&#34;&gt;&lt;span class=&#34;toc-section-number&#34;&gt;0.3&lt;/span&gt; 小提琴图与箱型图同时展示&lt;/a&gt;&lt;/li&gt;
+&lt;/ul&gt;
+&lt;/div&gt;
+
+&lt;blockquote&gt;
+&lt;p&gt;本文翻译自“The graph gallery”网站,原帖文地址链接:&lt;a href=&#34;https://www.r-graph-gallery.com/95-violin-plot-with-ggplot2.html&#34; class=&#34;uri&#34;&gt;https://www.r-graph-gallery.com/95-violin-plot-with-ggplot2.html&lt;/a&gt;.&lt;/p&gt;
+&lt;/blockquote&gt;
+&lt;div id=&#34;基础小提琴图绘制&#34; class=&#34;section level2&#34; number=&#34;0.1&#34;&gt;
+&lt;h2&gt;&lt;span class=&#34;header-section-number&#34;&gt;0.1&lt;/span&gt; 基础小提琴图绘制&lt;/h2&gt;
+&lt;div id=&#34;使用ggplot2包中的geom_violin函数.&#34; class=&#34;section level3&#34; number=&#34;0.1.1&#34;&gt;
+&lt;h3&gt;&lt;span class=&#34;header-section-number&#34;&gt;0.1.1&lt;/span&gt; 使用&lt;code&gt;ggplot2&lt;/code&gt;包中的&lt;code&gt;geom_violin()&lt;/code&gt;函数.&lt;/h3&gt;
+&lt;pre class=&#34;r&#34;&gt;&lt;code&gt;library(ggplot2)
+#构建数据
+data &amp;lt;- data.frame(
+  name = c( rep(&amp;quot;A&amp;quot;,500), rep(&amp;quot;B&amp;quot;,500), rep(&amp;quot;B&amp;quot;,500), rep(&amp;quot;C&amp;quot;,20), rep(&amp;#39;D&amp;#39;, 100)),
+  value = c( rnorm(500, 10, 5), rnorm(500, 13, 1), rnorm(500, 18, 1), rnorm(20, 25, 4), rnorm(100, 12, 1) )
+)
+
+head(data)&lt;/code&gt;&lt;/pre&gt;
+&lt;pre&gt;&lt;code&gt;##   name     value
+## 1    A  7.269702
+## 2    A  9.985260
+## 3    A 13.631438
+## 4    A 18.297933
+## 5    A 12.261669
+## 6    A 11.602473&lt;/code&gt;&lt;/pre&gt;
+&lt;pre class=&#34;r&#34;&gt;&lt;code&gt;# Most basic violin chart
+p &amp;lt;- 
+  ggplot(data, aes(x = name, y = value, fill = name)) + 
+  geom_violin() +
+  theme_bw()
+
+p&lt;/code&gt;&lt;/pre&gt;
+&lt;p&gt;&lt;img src=&#34;index_files/figure-html/unnamed-chunk-1-1.png&#34; width=&#34;672&#34; /&gt;&lt;/p&gt;
+&lt;div id=&#34;数据格式&#34; class=&#34;section level4&#34; number=&#34;0.1.1.1&#34;&gt;
+&lt;h4&gt;&lt;span class=&#34;header-section-number&#34;&gt;0.1.1.1&lt;/span&gt; 数据格式&lt;/h4&gt;
+&lt;p&gt;注意在使用&lt;code&gt;geom_violin()&lt;/code&gt;函数构建小提琴图时,数据格式为长数据(long format).每一行时一个观测.一共需要两列:&lt;/p&gt;
+&lt;ul&gt;
+&lt;li&gt;一个分类变量,用于X轴.需要为&lt;code&gt;factor&lt;/code&gt;格式.&lt;br /&gt;
+&lt;/li&gt;
+&lt;li&gt;数值型变量,用于Y轴.&lt;/li&gt;
+&lt;/ul&gt;
+&lt;/div&gt;
+&lt;div id=&#34;数据转换&#34; class=&#34;section level4&#34; number=&#34;0.1.1.2&#34;&gt;
+&lt;h4&gt;&lt;span class=&#34;header-section-number&#34;&gt;0.1.1.2&lt;/span&gt; 数据转换&lt;/h4&gt;
+&lt;p&gt;如果数据为宽数据格式,需要对其进行转变.可以使用&lt;code&gt;tidyr&lt;/code&gt;中的&lt;code&gt;pivot_longer()&lt;/code&gt;函数将其转变为长数据格式.&lt;/p&gt;
+&lt;pre class=&#34;r&#34;&gt;&lt;code&gt;data_wide &amp;lt;- 
+  iris[ , 1:4]
+library(tidyverse)&lt;/code&gt;&lt;/pre&gt;
+&lt;pre&gt;&lt;code&gt;## ── Attaching packages ─────────────────────────────────────── tidyverse 1.3.0 ──&lt;/code&gt;&lt;/pre&gt;
+&lt;pre&gt;&lt;code&gt;## ✓ tibble  3.1.0     ✓ dplyr   1.0.4
+## ✓ tidyr   1.1.3     ✓ stringr 1.4.0
+## ✓ readr   1.4.0     ✓ forcats 0.5.0
+## ✓ purrr   0.3.4&lt;/code&gt;&lt;/pre&gt;
+&lt;pre&gt;&lt;code&gt;## ── Conflicts ────────────────────────────────────────── tidyverse_conflicts() ──
+## x dplyr::filter() masks stats::filter()
+## x dplyr::lag()    masks stats::lag()&lt;/code&gt;&lt;/pre&gt;
+&lt;pre class=&#34;r&#34;&gt;&lt;code&gt;data_long &amp;lt;- 
+  data_wide %&amp;gt;% 
+  tidyr::pivot_longer(cols = everything(), 
+                      names_to = &amp;quot;variable&amp;quot;, values_to = &amp;quot;value&amp;quot;)
+head(data_long)&lt;/code&gt;&lt;/pre&gt;
+&lt;pre&gt;&lt;code&gt;## # A tibble: 6 x 2
+##   variable     value
+##   &amp;lt;chr&amp;gt;        &amp;lt;dbl&amp;gt;
+## 1 Sepal.Length   5.1
+## 2 Sepal.Width    3.5
+## 3 Petal.Length   1.4
+## 4 Petal.Width    0.2
+## 5 Sepal.Length   4.9
+## 6 Sepal.Width    3&lt;/code&gt;&lt;/pre&gt;
+&lt;pre class=&#34;r&#34;&gt;&lt;code&gt;library(ggplot2)
+
+data_long %&amp;gt;% 
+  ggplot(., aes(variable, value)) +
+  geom_violin(aes(fill = variable)) +
+  theme_bw()&lt;/code&gt;&lt;/pre&gt;
+&lt;p&gt;&lt;img src=&#34;index_files/figure-html/unnamed-chunk-2-1.png&#34; width=&#34;672&#34; /&gt;&lt;/p&gt;
+&lt;/div&gt;
+&lt;/div&gt;
+&lt;/div&gt;
+&lt;div id=&#34;将小提琴图水平展示&#34; class=&#34;section level2&#34; number=&#34;0.2&#34;&gt;
+&lt;h2&gt;&lt;span class=&#34;header-section-number&#34;&gt;0.2&lt;/span&gt; 将小提琴图水平展示&lt;/h2&gt;
+&lt;pre class=&#34;r&#34;&gt;&lt;code&gt;library(ggplot2)
+library(tidyverse)
+  iris[ , 1:4] %&amp;gt;% 
+  tidyr::pivot_longer(cols = everything(), 
+                      names_to = &amp;quot;variable&amp;quot;,
+                      values_to = &amp;quot;value&amp;quot;) %&amp;gt;% 
+  ggplot(., aes(variable, value)) +
+  geom_violin(aes(fill = variable, colour = variable)) +
+  theme_bw() +
+    theme(legend.position = &amp;quot;none&amp;quot;) +
+    coord_flip()&lt;/code&gt;&lt;/pre&gt;
+&lt;p&gt;&lt;img src=&#34;index_files/figure-html/unnamed-chunk-3-1.png&#34; width=&#34;672&#34; /&gt;&lt;/p&gt;
+&lt;/div&gt;
+&lt;div id=&#34;小提琴图与箱型图同时展示&#34; class=&#34;section level2&#34; number=&#34;0.3&#34;&gt;
+&lt;h2&gt;&lt;span class=&#34;header-section-number&#34;&gt;0.3&lt;/span&gt; 小提琴图与箱型图同时展示&lt;/h2&gt;
+&lt;pre class=&#34;r&#34;&gt;&lt;code&gt;library(ggplot2)
+library(tidyverse)
+  iris[ , 1:4] %&amp;gt;% 
+  tidyr::pivot_longer(cols = everything(), 
+                      names_to = &amp;quot;variable&amp;quot;,
+                      values_to = &amp;quot;value&amp;quot;) %&amp;gt;% 
+  ggplot(., aes(variable, value)) +
+  geom_violin(aes(fill = variable, colour = variable), width = 1.4) +
+    geom_boxplot(fill = NA, width = 0.1, colour = &amp;quot;grey&amp;quot;) +
+  theme_bw() +
+    theme(legend.position = &amp;quot;none&amp;quot;) +
+    coord_flip()&lt;/code&gt;&lt;/pre&gt;
+&lt;pre&gt;&lt;code&gt;## Warning: position_dodge requires non-overlapping x intervals&lt;/code&gt;&lt;/pre&gt;
+&lt;p&gt;&lt;img src=&#34;index_files/figure-html/unnamed-chunk-4-1.png&#34; width=&#34;672&#34; /&gt;&lt;/p&gt;
+&lt;/div&gt;
+</description>
+    </item>
+    
+    <item>
+      <title>R可视化之桑吉图</title>
+      <link>https://jaspershen.github.io/post/r-sankey/</link>
+      <pubDate>Sat, 12 Oct 2019 00:00:00 +0000</pubDate>
+      <guid>https://jaspershen.github.io/post/r-sankey/</guid>
+      <description>
+&lt;script src=&#34;index_files/header-attrs/header-attrs.js&#34;&gt;&lt;/script&gt;
+&lt;script src=&#34;index_files/htmlwidgets/htmlwidgets.js&#34;&gt;&lt;/script&gt;
+&lt;script src=&#34;index_files/d3/d3.min.js&#34;&gt;&lt;/script&gt;
+&lt;script src=&#34;index_files/sankey/sankey.js&#34;&gt;&lt;/script&gt;
+&lt;script src=&#34;index_files/sankeyNetwork-binding/sankeyNetwork.js&#34;&gt;&lt;/script&gt;
+
+&lt;div id=&#34;TOC&#34;&gt;
+&lt;ul&gt;
+&lt;li&gt;&lt;a href=&#34;#使用networkd3包构建桑吉图&#34;&gt;&lt;span class=&#34;toc-section-number&#34;&gt;0.1&lt;/span&gt; 使用&lt;code&gt;networkD3&lt;/code&gt;包构建桑吉图&lt;/a&gt;
+&lt;ul&gt;
+&lt;li&gt;&lt;a href=&#34;#基础桑吉图绘制&#34;&gt;&lt;span class=&#34;toc-section-number&#34;&gt;0.1.1&lt;/span&gt; 基础桑吉图绘制&lt;/a&gt;&lt;/li&gt;
+&lt;li&gt;&lt;a href=&#34;#另外一个例子&#34;&gt;&lt;span class=&#34;toc-section-number&#34;&gt;0.1.2&lt;/span&gt; 另外一个例子&lt;/a&gt;&lt;/li&gt;
+&lt;li&gt;&lt;a href=&#34;#使用ggalluvial包绘制桑吉图&#34;&gt;&lt;span class=&#34;toc-section-number&#34;&gt;0.1.3&lt;/span&gt; 使用&lt;code&gt;ggalluvial&lt;/code&gt;包绘制桑吉图&lt;/a&gt;&lt;/li&gt;
+&lt;/ul&gt;&lt;/li&gt;
+&lt;/ul&gt;
+&lt;/div&gt;
+
+&lt;blockquote&gt;
+&lt;p&gt;本文翻译自“The graph gallery”网站,原帖文地址链接:&lt;a href=&#34;https://www.r-graph-gallery.com/sankey-diagram.html&#34; class=&#34;uri&#34;&gt;https://www.r-graph-gallery.com/sankey-diagram.html&lt;/a&gt;&lt;/p&gt;
+&lt;/blockquote&gt;
+&lt;p&gt;桑吉图(sankey diagram)使用来研究同一个变量在其不同分类中的比例或者说是流动的.实体(或者说是节点,node)一般使用长方形或者文字来表示.箭头和弧线用来表示在他们之间的流动.&lt;/p&gt;
+&lt;div id=&#34;使用networkd3包构建桑吉图&#34; class=&#34;section level2&#34; number=&#34;0.1&#34;&gt;
+&lt;h2&gt;&lt;span class=&#34;header-section-number&#34;&gt;0.1&lt;/span&gt; 使用&lt;code&gt;networkD3&lt;/code&gt;包构建桑吉图&lt;/h2&gt;
+&lt;div id=&#34;基础桑吉图绘制&#34; class=&#34;section level3&#34; number=&#34;0.1.1&#34;&gt;
+&lt;h3&gt;&lt;span class=&#34;header-section-number&#34;&gt;0.1.1&lt;/span&gt; 基础桑吉图绘制&lt;/h3&gt;
+&lt;p&gt;可以使用两种格式的数据进行桑吉图绘制:&lt;/p&gt;
+&lt;ul&gt;
+&lt;li&gt;connection data frame(一共三列),可以理解为长数据.&lt;/li&gt;
+&lt;li&gt;关联矩阵(incidence matrix),可以理解为宽数据.&lt;/li&gt;
+&lt;/ul&gt;
+&lt;div id=&#34;使用connection-data-frame&#34; class=&#34;section level4&#34; number=&#34;0.1.1.1&#34;&gt;
+&lt;h4&gt;&lt;span class=&#34;header-section-number&#34;&gt;0.1.1.1&lt;/span&gt; 使用connection data frame&lt;/h4&gt;
+&lt;p&gt;connection data frame至少需要两列,分别为source和target.第三列可以用来说明该connection的数值.&lt;/p&gt;
+&lt;pre class=&#34;r&#34;&gt;&lt;code&gt;library(networkD3)
+library(tidyverse)&lt;/code&gt;&lt;/pre&gt;
+&lt;pre&gt;&lt;code&gt;## ── Attaching packages ─────────────────────────────────────── tidyverse 1.3.0 ──&lt;/code&gt;&lt;/pre&gt;
+&lt;pre&gt;&lt;code&gt;## ✓ ggplot2 3.3.3     ✓ purrr   0.3.4
+## ✓ tibble  3.1.0     ✓ dplyr   1.0.4
+## ✓ tidyr   1.1.3     ✓ stringr 1.4.0
+## ✓ readr   1.4.0     ✓ forcats 0.5.0&lt;/code&gt;&lt;/pre&gt;
+&lt;pre&gt;&lt;code&gt;## ── Conflicts ────────────────────────────────────────── tidyverse_conflicts() ──
+## x dplyr::filter() masks stats::filter()
+## x dplyr::lag()    masks stats::lag()&lt;/code&gt;&lt;/pre&gt;
+&lt;pre class=&#34;r&#34;&gt;&lt;code&gt;links &amp;lt;- data.frame(
+  source = c(&amp;quot;group_A&amp;quot;,&amp;quot;group_A&amp;quot;, &amp;quot;group_B&amp;quot;, &amp;quot;group_C&amp;quot;, &amp;quot;group_C&amp;quot;, &amp;quot;group_E&amp;quot;), 
+  target = c(&amp;quot;group_C&amp;quot;,&amp;quot;group_D&amp;quot;, &amp;quot;group_E&amp;quot;, &amp;quot;group_F&amp;quot;, &amp;quot;group_G&amp;quot;, &amp;quot;group_H&amp;quot;), 
+  value = c(2,3, 2, 3, 1, 3)
+  )
+head(links)&lt;/code&gt;&lt;/pre&gt;
+&lt;pre&gt;&lt;code&gt;##    source  target value
+## 1 group_A group_C     2
+## 2 group_A group_D     3
+## 3 group_B group_E     2
+## 4 group_C group_F     3
+## 5 group_C group_G     1
+## 6 group_E group_H     3&lt;/code&gt;&lt;/pre&gt;
+&lt;pre class=&#34;r&#34;&gt;&lt;code&gt;##构建connection data frame中所有nodes的data frame
+nodes &amp;lt;- data.frame(
+  name = c(as.character(links$source), 
+  as.character(links$target)) %&amp;gt;% unique()
+)
+
+#然后我们需要将每个node的名字代替为其在node data frame中的位置index,注意是要从哦开始计算.
+links$IDsource &amp;lt;- match(links$source, nodes$name) - 1 
+links$IDtarget &amp;lt;- match(links$target, nodes$name) - 1
+
+#开始创建桑吉图
+p &amp;lt;- networkD3::sankeyNetwork(
+  Links = links,
+  Nodes = nodes,
+  Source = &amp;quot;IDsource&amp;quot;,
+  Target = &amp;quot;IDtarget&amp;quot;,
+  Value = &amp;quot;value&amp;quot;,
+  NodeID = &amp;quot;name&amp;quot;,
+  sinksRight = FALSE
+)
+p&lt;/code&gt;&lt;/pre&gt;
+&lt;div id=&#34;htmlwidget-1&#34; style=&#34;width:672px;height:480px;&#34; class=&#34;sankeyNetwork html-widget&#34;&gt;&lt;/div&gt;
+&lt;script type=&#34;application/json&#34; data-for=&#34;htmlwidget-1&#34;&gt;{&#34;x&#34;:{&#34;links&#34;:{&#34;source&#34;:[0,0,1,2,2,3],&#34;target&#34;:[2,4,3,5,6,7],&#34;value&#34;:[2,3,2,3,1,3]},&#34;nodes&#34;:{&#34;name&#34;:[&#34;group_A&#34;,&#34;group_B&#34;,&#34;group_C&#34;,&#34;group_E&#34;,&#34;group_D&#34;,&#34;group_F&#34;,&#34;group_G&#34;,&#34;group_H&#34;],&#34;group&#34;:[&#34;group_A&#34;,&#34;group_B&#34;,&#34;group_C&#34;,&#34;group_E&#34;,&#34;group_D&#34;,&#34;group_F&#34;,&#34;group_G&#34;,&#34;group_H&#34;]},&#34;options&#34;:{&#34;NodeID&#34;:&#34;name&#34;,&#34;NodeGroup&#34;:&#34;name&#34;,&#34;LinkGroup&#34;:null,&#34;colourScale&#34;:&#34;d3.scaleOrdinal(d3.schemeCategory20);&#34;,&#34;fontSize&#34;:7,&#34;fontFamily&#34;:null,&#34;nodeWidth&#34;:15,&#34;nodePadding&#34;:10,&#34;units&#34;:&#34;&#34;,&#34;margin&#34;:{&#34;top&#34;:null,&#34;right&#34;:null,&#34;bottom&#34;:null,&#34;left&#34;:null},&#34;iterations&#34;:32,&#34;sinksRight&#34;:false}},&#34;evals&#34;:[],&#34;jsHooks&#34;:[]}&lt;/script&gt;
+&lt;p&gt;图片时交互性的.&lt;/p&gt;
+&lt;/div&gt;
+&lt;div id=&#34;使用关联矩阵&#34; class=&#34;section level4&#34; number=&#34;0.1.1.2&#34;&gt;
+&lt;h4&gt;&lt;span class=&#34;header-section-number&#34;&gt;0.1.1.2&lt;/span&gt; 使用关联矩阵&lt;/h4&gt;
+&lt;p&gt;关联矩阵时正方形或者长方形的.行名和列名分别为node的名称.每一个cell代表着两个node之间flow的数值.但是因为在&lt;code&gt;network3D&lt;/code&gt;中,只能使用长数据,因此其实就是将宽数据转换为长数据.&lt;/p&gt;
+&lt;/div&gt;
+&lt;/div&gt;
+&lt;div id=&#34;另外一个例子&#34; class=&#34;section level3&#34; number=&#34;0.1.2&#34;&gt;
+&lt;h3&gt;&lt;span class=&#34;header-section-number&#34;&gt;0.1.2&lt;/span&gt; 另外一个例子&lt;/h3&gt;
+&lt;p&gt;我们使用桑吉图来展示科学家的移民或者说是流动情况.左边代表科学家的移出国,右边代表科学家的移进国.数据来自scientific publication(&lt;a href=&#34;https://onlinelibrary.wiley.com/doi/abs/10.1111/imre.12327&#34; class=&#34;uri&#34;&gt;https://onlinelibrary.wiley.com/doi/abs/10.1111/imre.12327&lt;/a&gt;).&lt;/p&gt;
+&lt;pre class=&#34;r&#34;&gt;&lt;code&gt;#加载包
+library(tidyverse)
+library(networkD3)
+
+# 读取数据
+data &amp;lt;- 
+  read.table(&amp;quot;https://raw.githubusercontent.com/holtzy/data_to_viz/master/Example_dataset/13_AdjacencyDirectedWeighted.csv&amp;quot;, header = TRUE)
+
+# 讲数据转换为长数据
+data_long &amp;lt;- data %&amp;gt;%
+  rownames_to_column(var = &amp;quot;name&amp;quot;) %&amp;gt;%
+  pivot_longer(cols = -name, names_to = &amp;quot;key&amp;quot;, values_to = &amp;quot;value&amp;quot;) %&amp;gt;% 
+  filter(value &amp;gt; 0) %&amp;gt;% 
+  as.data.frame()
+
+colnames(data_long) &amp;lt;- 
+  c(&amp;quot;source&amp;quot;, &amp;quot;target&amp;quot;, &amp;quot;value&amp;quot;)
+
+data_long$target &amp;lt;- 
+  paste(data_long$target, &amp;quot; &amp;quot;, sep = &amp;quot;&amp;quot;)
+
+# 创建node data frame
+nodes &amp;lt;- 
+  data.frame(name = c(as.character(data_long$source),  
+                      as.character(data_long$target)) %&amp;gt;% unique()
+             ) %&amp;gt;% 
+  arrange(name) %&amp;gt;% 
+  as.data.frame()
+ 
+data_long$IDsource = match(data_long$source, nodes$name) - 1 
+data_long$IDtarget = match(data_long$target, nodes$name) - 1
+
+# prepare colour scale
+ColourScal &amp;lt;- &amp;#39;d3.scaleOrdinal() .range([&amp;quot;#FDE725FF&amp;quot;,&amp;quot;#B4DE2CFF&amp;quot;,&amp;quot;#6DCD59FF&amp;quot;,&amp;quot;#35B779FF&amp;quot;,&amp;quot;#1F9E89FF&amp;quot;,
+&amp;quot;#26828EFF&amp;quot;,&amp;quot;#31688EFF&amp;quot;,&amp;quot;#3E4A89FF&amp;quot;,&amp;quot;#482878FF&amp;quot;,&amp;quot;#440154FF&amp;quot;])&amp;#39;
+
+# Make the Network
+sankeyNetwork(
+  Links = data_long,
+  Nodes = nodes,
+  Source = &amp;quot;IDsource&amp;quot;,
+  Target = &amp;quot;IDtarget&amp;quot;,
+  Value = &amp;quot;value&amp;quot;,
+  NodeID = &amp;quot;name&amp;quot;,
+  sinksRight = FALSE,
+  colourScale = ColourScal,
+  nodeWidth = 40,
+  fontSize = 13,
+  nodePadding = 20
+)&lt;/code&gt;&lt;/pre&gt;
+&lt;div id=&#34;htmlwidget-2&#34; style=&#34;width:672px;height:480px;&#34; class=&#34;sankeyNetwork html-widget&#34;&gt;&lt;/div&gt;
+&lt;script type=&#34;application/json&#34; data-for=&#34;htmlwidget-2&#34;&gt;{&#34;x&#34;:{&#34;links&#34;:{&#34;source&#34;:[0,0,0,0,0,2,2,2,2,2,2,4,6,6,6,8,8,10,10,12,12,12,12,12,12,13,13,13,13,13,16,16,18,18,18],&#34;target&#34;:[1,5,9,11,19,3,5,9,11,15,19,5,5,7,9,5,7,5,11,3,5,9,11,14,19,3,5,9,11,15,5,17,5,9,19],&#34;value&#34;:[3.142471,2.107883,0.540887,0.155988,0.673004,1.630997,0.601265,0.97306,0.333608,0.380388,0.869311,2.401476,1.762587,0.879198,3.627847,1.215929,0.276908,0.17037,0.190706,0.525881,1.390272,1.508008,0.34742,1.307907,4.902081,0.145264,0.468762,1.057904,0.278746,0.781316,0.60923,1.870501,0.449623,0.169274,0.927243]},&#34;nodes&#34;:{&#34;name&#34;:[&#34;Africa&#34;,&#34;Africa &#34;,&#34;East Asia&#34;,&#34;East.Asia &#34;,&#34;Europe&#34;,&#34;Europe &#34;,&#34;Latin America&#34;,&#34;Latin.America &#34;,&#34;North America&#34;,&#34;North.America &#34;,&#34;Oceania&#34;,&#34;Oceania &#34;,&#34;South Asia&#34;,&#34;South East Asia&#34;,&#34;South.Asia &#34;,&#34;South.East.Asia &#34;,&#34;Soviet Union&#34;,&#34;Soviet.Union &#34;,&#34;West Asia&#34;,&#34;West.Asia &#34;],&#34;group&#34;:[&#34;Africa&#34;,&#34;Africa &#34;,&#34;East Asia&#34;,&#34;East.Asia &#34;,&#34;Europe&#34;,&#34;Europe &#34;,&#34;Latin America&#34;,&#34;Latin.America &#34;,&#34;North America&#34;,&#34;North.America &#34;,&#34;Oceania&#34;,&#34;Oceania &#34;,&#34;South Asia&#34;,&#34;South East Asia&#34;,&#34;South.Asia &#34;,&#34;South.East.Asia &#34;,&#34;Soviet Union&#34;,&#34;Soviet.Union &#34;,&#34;West Asia&#34;,&#34;West.Asia &#34;]},&#34;options&#34;:{&#34;NodeID&#34;:&#34;name&#34;,&#34;NodeGroup&#34;:&#34;name&#34;,&#34;LinkGroup&#34;:null,&#34;colourScale&#34;:&#34;d3.scaleOrdinal() .range([\&#34;#FDE725FF\&#34;,\&#34;#B4DE2CFF\&#34;,\&#34;#6DCD59FF\&#34;,\&#34;#35B779FF\&#34;,\&#34;#1F9E89FF\&#34;,\n\&#34;#26828EFF\&#34;,\&#34;#31688EFF\&#34;,\&#34;#3E4A89FF\&#34;,\&#34;#482878FF\&#34;,\&#34;#440154FF\&#34;])&#34;,&#34;fontSize&#34;:13,&#34;fontFamily&#34;:null,&#34;nodeWidth&#34;:40,&#34;nodePadding&#34;:20,&#34;units&#34;:&#34;&#34;,&#34;margin&#34;:{&#34;top&#34;:null,&#34;right&#34;:null,&#34;bottom&#34;:null,&#34;left&#34;:null},&#34;iterations&#34;:32,&#34;sinksRight&#34;:false}},&#34;evals&#34;:[],&#34;jsHooks&#34;:[]}&lt;/script&gt;
+&lt;/div&gt;
+&lt;div id=&#34;使用ggalluvial包绘制桑吉图&#34; class=&#34;section level3&#34; number=&#34;0.1.3&#34;&gt;
+&lt;h3&gt;&lt;span class=&#34;header-section-number&#34;&gt;0.1.3&lt;/span&gt; 使用&lt;code&gt;ggalluvial&lt;/code&gt;包绘制桑吉图&lt;/h3&gt;
+&lt;p&gt;&lt;code&gt;ggalluvial&lt;/code&gt;包是&lt;code&gt;ggplot2&lt;/code&gt;的一个扩展包.可以用来绘制桑吉图.&lt;/p&gt;
+&lt;pre class=&#34;r&#34;&gt;&lt;code&gt;##加载包
+library(ggalluvial)
+## 使用示例数据
+data(vaccinations)
+head(vaccinations)&lt;/code&gt;&lt;/pre&gt;
+&lt;pre&gt;&lt;code&gt;##      survey freq subject response start_date   end_date
+## 1 ms153_NSA   48       1   Always 2010-09-22 2010-10-25
+## 2 ms153_NSA    9       2   Always 2010-09-22 2010-10-25
+## 3 ms153_NSA   66       3   Always 2010-09-22 2010-10-25
+## 4 ms153_NSA    1       4   Always 2010-09-22 2010-10-25
+## 5 ms153_NSA   11       5   Always 2010-09-22 2010-10-25
+## 6 ms153_NSA    1       6   Always 2010-09-22 2010-10-25&lt;/code&gt;&lt;/pre&gt;
+&lt;pre class=&#34;r&#34;&gt;&lt;code&gt;levels(vaccinations$response) &amp;lt;- rev(levels(vaccinations$response))
+ggplot(vaccinations,
+       aes(x = survey, 
+           y = freq,
+           stratum = response, 
+           alluvium = subject,
+           fill = response, 
+           label = response)) +
+  scale_x_discrete(expand = c(.1, .1)) +
+  ggalluvial::geom_flow() +
+  labs(x = &amp;quot;&amp;quot;, y = &amp;quot;&amp;quot;) +
+  ggalluvial::geom_stratum(alpha = .5) +
+  geom_text(stat = &amp;quot;stratum&amp;quot;, size = 3) +
+  theme_bw() +
+  theme(legend.position = &amp;quot;none&amp;quot;, 
+        plot.background = element_blank(), 
+        panel.border = element_blank(), 
+        panel.grid = element_blank(), 
+        axis.ticks = element_blank(), 
+        axis.text.y = element_blank()) +
+  ggtitle(&amp;quot;vaccination survey responses at three points in time&amp;quot;)&lt;/code&gt;&lt;/pre&gt;
+&lt;pre&gt;&lt;code&gt;## Warning: The `.dots` argument of `group_by()` is deprecated as of dplyr 1.0.0.&lt;/code&gt;&lt;/pre&gt;
+&lt;p&gt;&lt;img src=&#34;index_files/figure-html/unnamed-chunk-3-1.png&#34; width=&#34;672&#34; /&gt;&lt;/p&gt;
+&lt;p&gt;我们在对该包做一个详细的讲解.&lt;/p&gt;
+&lt;div id=&#34;冲积图alluvial-diagrams的结构&#34; class=&#34;section level4&#34; number=&#34;0.1.3.1&#34;&gt;
+&lt;h4&gt;&lt;span class=&#34;header-section-number&#34;&gt;0.1.3.1&lt;/span&gt; 冲积图(Alluvial diagrams)的结构&lt;/h4&gt;
+&lt;p&gt;使用&lt;code&gt;ggalluvial&lt;/code&gt;包绘制的图称之为冲积图(Alluvial diagrams).我们以上面的例子图为例,来进行解释.&lt;/p&gt;
+&lt;ul&gt;
+&lt;li&gt;&lt;p&gt;X轴代表着数据流动的分类.比如上图中,一共有三类,也就是ms153_NSA,ms432_NSA和ms460_NSA.&lt;/p&gt;&lt;/li&gt;
+&lt;li&gt;&lt;p&gt;而X轴的每一类又会分为不同的分组,称之为地层(strata).在我们这个例子中,每一类都分成了四组,Missing,Never,Sometimes和Always.&lt;/p&gt;&lt;/li&gt;
+&lt;li&gt;&lt;p&gt;然后我们再看每一列,每一列的每一个分组都会被图形分割,这称之为冲积(alluvia).在这个例子中,每个冲积的宽度(也就是在Y轴上range)代表着分类的该组分到下一个分类某个分组的数据的多少.当然,冲积的颜色用来代表不同的分类.&lt;/p&gt;&lt;/li&gt;
+&lt;li&gt;&lt;p&gt;两个相邻的分类之间的连接的冲积称之为flow.&lt;/p&gt;&lt;/li&gt;
+&lt;/ul&gt;
+&lt;p&gt;我们对这个图的结构进行详细的理解之后,我们在来看如何使用&lt;code&gt;galluvial&lt;/code&gt;包绘制冲积图.&lt;/p&gt;
+&lt;/div&gt;
+&lt;div id=&#34;所需要的数据类型&#34; class=&#34;section level4&#34; number=&#34;0.1.3.2&#34;&gt;
+&lt;h4&gt;&lt;span class=&#34;header-section-number&#34;&gt;0.1.3.2&lt;/span&gt; 所需要的数据类型&lt;/h4&gt;
+&lt;p&gt;跟&lt;code&gt;network3D&lt;/code&gt;包一样,&lt;code&gt;ggalluvial&lt;/code&gt;包也可以使用宽数据和长数据.我们使用&lt;code&gt;UCBAdmissions&lt;/code&gt;数据为例进行说明.&lt;/p&gt;
+&lt;div id=&#34;宽数据&#34; class=&#34;section level5&#34; number=&#34;0.1.3.2.1&#34;&gt;
+&lt;h5&gt;&lt;span class=&#34;header-section-number&#34;&gt;0.1.3.2.1&lt;/span&gt; 宽数据&lt;/h5&gt;
+&lt;p&gt;&lt;code&gt;UCBAdmissions&lt;/code&gt;数据一共有4列.&lt;/p&gt;
+&lt;/div&gt;
+&lt;/div&gt;
+&lt;/div&gt;
+&lt;/div&gt;
+</description>
+    </item>
+    
+    <item>
+      <title>pregnancy project文献阅读总结</title>
+      <link>https://jaspershen.github.io/post/pregnancy-project/</link>
+      <pubDate>Fri, 11 Oct 2019 00:00:00 +0000</pubDate>
+      <guid>https://jaspershen.github.io/post/pregnancy-project/</guid>
+      <description>
+&lt;script src=&#34;index_files/header-attrs/header-attrs.js&#34;&gt;&lt;/script&gt;
+
+&lt;div id=&#34;TOC&#34;&gt;
+&lt;ul&gt;
+&lt;li&gt;&lt;a href=&#34;#google-key-work-search&#34;&gt;&lt;span class=&#34;toc-section-number&#34;&gt;1&lt;/span&gt; Google key work search&lt;/a&gt;
+&lt;ul&gt;
+&lt;li&gt;&lt;a href=&#34;#urinary-metabolic-variation-analysis-during-pregnancy-and-application-in-gestational-diabetes-mellitus-and-spontaneous-abortion-biomarker-discovery&#34;&gt;&lt;span class=&#34;toc-section-number&#34;&gt;1.1&lt;/span&gt; Urinary metabolic variation analysis during pregnancy and application in Gestational Diabetes Mellitus and spontaneous abortion biomarker discovery&lt;/a&gt;&lt;/li&gt;
+&lt;li&gt;&lt;a href=&#34;#metabolic-profiling-of-pregnancy-cross--sectional-and-longitudinal-evidence&#34;&gt;&lt;span class=&#34;toc-section-number&#34;&gt;1.2&lt;/span&gt; Metabolic profiling of pregnancy: cross- sectional and longitudinal evidence&lt;/a&gt;&lt;/li&gt;
+&lt;li&gt;&lt;a href=&#34;#maternal-urinary-metabolic-signatures-of-fetal-growth-and-associated-clinical-and-environmental-factors-in-the-inma-study&#34;&gt;&lt;span class=&#34;toc-section-number&#34;&gt;1.3&lt;/span&gt; Maternal urinary metabolic signatures of fetal growth and associated clinical and environmental factors in the INMA study&lt;/a&gt;
+&lt;ul&gt;
+&lt;li&gt;&lt;a href=&#34;#结论&#34;&gt;&lt;span class=&#34;toc-section-number&#34;&gt;1.3.1&lt;/span&gt; 结论&lt;/a&gt;&lt;/li&gt;
+&lt;li&gt;&lt;a href=&#34;#study-population&#34;&gt;&lt;span class=&#34;toc-section-number&#34;&gt;1.3.2&lt;/span&gt; Study population&lt;/a&gt;&lt;/li&gt;
+&lt;li&gt;&lt;a href=&#34;#definition-of-the-fetal-and-birth-measurements&#34;&gt;&lt;span class=&#34;toc-section-number&#34;&gt;1.3.3&lt;/span&gt; Definition of the fetal and birth measurements&lt;/a&gt;&lt;/li&gt;
+&lt;/ul&gt;&lt;/li&gt;
+&lt;li&gt;&lt;a href=&#34;#variants-in-the-fetal-genome-near-pro-inflammatory-cytokine-genes-on-2q13-associate-with-gestational-duration&#34;&gt;&lt;span class=&#34;toc-section-number&#34;&gt;1.4&lt;/span&gt; Variants in the fetal genome near pro-inflammatory cytokine genes on 2q13 associate with gestational duration&lt;/a&gt;
+&lt;ul&gt;
+&lt;li&gt;&lt;a href=&#34;#定义&#34;&gt;&lt;span class=&#34;toc-section-number&#34;&gt;1.4.1&lt;/span&gt; 定义&lt;/a&gt;&lt;/li&gt;
+&lt;li&gt;&lt;a href=&#34;#一些pregnancy公开数据库&#34;&gt;&lt;span class=&#34;toc-section-number&#34;&gt;1.4.2&lt;/span&gt; 一些pregnancy公开数据库&lt;/a&gt;&lt;/li&gt;
+&lt;li&gt;&lt;a href=&#34;#文章总结&#34;&gt;&lt;span class=&#34;toc-section-number&#34;&gt;1.4.3&lt;/span&gt; 文章总结:&lt;/a&gt;&lt;/li&gt;
+&lt;/ul&gt;&lt;/li&gt;
+&lt;/ul&gt;&lt;/li&gt;
+&lt;/ul&gt;
+&lt;/div&gt;
+
+&lt;div id=&#34;google-key-work-search&#34; class=&#34;section level1&#34; number=&#34;1&#34;&gt;
+&lt;h1&gt;&lt;span class=&#34;header-section-number&#34;&gt;1&lt;/span&gt; Google key work search&lt;/h1&gt;
+&lt;div id=&#34;urinary-metabolic-variation-analysis-during-pregnancy-and-application-in-gestational-diabetes-mellitus-and-spontaneous-abortion-biomarker-discovery&#34; class=&#34;section level2&#34; number=&#34;1.1&#34;&gt;
+&lt;h2&gt;&lt;span class=&#34;header-section-number&#34;&gt;1.1&lt;/span&gt; Urinary metabolic variation analysis during pregnancy and application in Gestational Diabetes Mellitus and spontaneous abortion biomarker discovery&lt;/h2&gt;
+&lt;p&gt;&lt;a href=&#34;https://www.ncbi.nlm.nih.gov/pmc/articles/PMC6384939/pdf/41598_2019_Article_39259.pdf&#34; class=&#34;uri&#34;&gt;https://www.ncbi.nlm.nih.gov/pmc/articles/PMC6384939/pdf/41598_2019_Article_39259.pdf&lt;/a&gt;&lt;/p&gt;
+&lt;p&gt;LC-MS urine metabolomics, 50 health pregant women. 3 time points. Age, BMI, parity and gravity (引力). Additionally, urine metabolomics was applied for early prediction of two pregnancy complications(并发症), gestational diabetes mellitus(妊娠期糖尿病) and spontaneous abortion(自然流产).&lt;/p&gt;
+&lt;p&gt;Our results suggested that during normal pregnancy progression, pathways of &lt;strong&gt;steroid hormone biosynthesis and tyrosine metabolism&lt;/strong&gt; were signifcantly regulated.&lt;/p&gt;
+&lt;p&gt;First, second and third trimester:&lt;/p&gt;
+&lt;p&gt;妊娠期是指受孕后至分娩前的生理时期，属生理学名词，亦称怀孕期。自成熟卵受精后至胎儿娩出，一般为266天左右。为便于计算，妊娠通常是从末次月经第一天算起，足月妊娠约为280天(40周)。在妊娠期间母体的新陈代谢、消化系统、呼吸系统、血管系统、神经系统、内分泌系统、生殖系统、骨关节韧带及乳房均发生相应的改变。妊娠期全过程共分为3个时期：妊娠13周末以前称早期妊娠(First trimester)；第14～27周末称中期妊娠(Second trimester)；第28周及其后称晚期妊娠(Third trimester)。&lt;/p&gt;
+&lt;p&gt;MetPA pathway analysis showed that steroid hormone biosynthesis was upregulated in healthy controls during pregnancy with a high impact. Tyrosine metabolism was down-regulated with less impact (Fig. 2c).&lt;/p&gt;
+&lt;p&gt;BMI and other clinical factor correlation with metabolome.&lt;/p&gt;
+&lt;p&gt;Waters ACQUITY H-class LC system coupled with an LTQ-Orbitrap mass spectrometer (Thermo Fisher Scientific, Villebon-sur-Yvette, France).&lt;/p&gt;
+&lt;p&gt;&lt;strong&gt;It is also RPLC column&lt;/strong&gt;&lt;/p&gt;
+&lt;p&gt;Waters HSS C18 column (3.0 × 100 mm, 1.7 μm) at a flow rate of 0.3 ml/min. Mobile&lt;/p&gt;
+&lt;/div&gt;
+&lt;div id=&#34;metabolic-profiling-of-pregnancy-cross--sectional-and-longitudinal-evidence&#34; class=&#34;section level2&#34; number=&#34;1.2&#34;&gt;
+&lt;h2&gt;&lt;span class=&#34;header-section-number&#34;&gt;1.2&lt;/span&gt; Metabolic profiling of pregnancy: cross- sectional and longitudinal evidence&lt;/h2&gt;
+&lt;p&gt;The aim of this study is to comprehensively characterise the maternal systemic metabolism across a wide range of metabolic and inflammatory measures in both cross-sectional and longitudinal settings coupled with with replication.&lt;/p&gt;
+&lt;p&gt;This is a serum based study.&lt;/p&gt;
+&lt;/div&gt;
+&lt;div id=&#34;maternal-urinary-metabolic-signatures-of-fetal-growth-and-associated-clinical-and-environmental-factors-in-the-inma-study&#34; class=&#34;section level2&#34; number=&#34;1.3&#34;&gt;
+&lt;h2&gt;&lt;span class=&#34;header-section-number&#34;&gt;1.3&lt;/span&gt; Maternal urinary metabolic signatures of fetal growth and associated clinical and environmental factors in the INMA study&lt;/h2&gt;
+&lt;p&gt;使用NMR仪器采集urine数据.一共两个cohort.两个时间点(fisrt and third trimesters of gestation).用metabolome来预测fetal growth和birth weight.&lt;/p&gt;
+&lt;p&gt;测到的东西包括:branched-chain amino acids(支链氨基酸);isoleucine(异亮氨酸),valine(颉氨酸),leucine(亮氨酸),alanine(丙氨酸)和3 hydroxyisobutyrate(羟基异丁酸)(metabolite of valine).&lt;/p&gt;
+&lt;p&gt;另外一大类就是:pregnancy-related hormone by-products of estrogens and progesterone, and the methyl donor choline.
+Physical activity, as well as other modifiable lifestyle/clinical factors, such as coffee consumption, vitamin D intake, and smoking, were identified as potential sources of metabolic variation during pregnancy.First trimester metabolic phenotypes could not predict reproducibly weight at later stages of development.&lt;/p&gt;
+&lt;div id=&#34;结论&#34; class=&#34;section level3&#34; number=&#34;1.3.1&#34;&gt;
+&lt;h3&gt;&lt;span class=&#34;header-section-number&#34;&gt;1.3.1&lt;/span&gt; 结论&lt;/h3&gt;
+&lt;p&gt;Significant reproducible maternal urinary metabolic signatures of fetal growth and birth weight are identified for the first time and linked to modifiable lifestyle factors. This novel approach to prenatal(产前的) screening, combining multiple risk factors, present a great opportunity to personalize pregnancy management management and reduce newborn disease risk in later life.&lt;/p&gt;
+&lt;p&gt;NMR采集数据,一共1695 metabolic phenotypes.&lt;/p&gt;
+&lt;p&gt;This is good study.&lt;/p&gt;
+&lt;p&gt;Exploratory metabolic profiling offers a powerful means of capturing systems-level information that re- flects both maternal genetic and environmental influ- ences, hence helping to elucidate metabolic disturbances and pathways associated with fetal outcomes.&lt;/p&gt;
+&lt;p&gt;This study aimed to (1) characterize the maternal urinary metabolome throughout pregnancy, (2) identify maternal metabolic signatures of fetal growth in two subcohorts, (3) explain potential sources of variation in metabolic profiles based on lifestyle and clinical data, and finally (4) to determine the individ- ual importance of metabolic signatures versus other maternal&lt;/p&gt;
+&lt;/div&gt;
+&lt;div id=&#34;study-population&#34; class=&#34;section level3&#34; number=&#34;1.3.2&#34;&gt;
+&lt;h3&gt;&lt;span class=&#34;header-section-number&#34;&gt;1.3.2&lt;/span&gt; Study population&lt;/h3&gt;
+&lt;p&gt;The women were interviewed twice during pregnancy (in the first and third trimesters of gestation) to obtain infor- mation about their sociodemographic characteristics and lifestyle variables. The urine samples were collected in the same interview in the morning (spot samples). The urine samples were collected in the same interview in the morning (spot samples). 所以一共有两个时间点.分别在first trimester and third trimesters.时间为12.4 ± 1.2 and 33.9 ± 1.3 weeks.&lt;/p&gt;
+&lt;/div&gt;
+&lt;div id=&#34;definition-of-the-fetal-and-birth-measurements&#34; class=&#34;section level3&#34; number=&#34;1.3.3&#34;&gt;
+&lt;h3&gt;&lt;span class=&#34;header-section-number&#34;&gt;1.3.3&lt;/span&gt; Definition of the fetal and birth measurements&lt;/h3&gt;
+&lt;p&gt;Fetal growth scores or standard deviation scores (z- scores) were obtained using longitudinal growth curves calculated for each individual adjusting for constitutional factors known to affect fetal growth (i.e., maternal age, height, parity, pre-pregnancy weight, country of origin, father’s height, and fetal sex).&lt;/p&gt;
+&lt;p&gt;Fetal growth score是使用longitudinal growth curve来计算的,然后adjust了一些已知的能够影响fetal growth的因素,如maternal age(母亲的年龄),height(母亲的身高),parity(已生胎数),pre-pregnancy weight(怀孕前的体重),country of origin(地区),father’s height(母亲的身高),and fetal sex(胎儿性别).&lt;/p&gt;
+&lt;p&gt;这个值是一个标准化后的值.(standard deviation scores,z-scores).&lt;/p&gt;
+&lt;p&gt;没有矫正后的z-score.&lt;/p&gt;
+&lt;p&gt;Anthropometric measures at birth included body weight and placental weight and were scaled to z-scores by subtracting the mean and dividing by the standard deviation. For further details on phenotype measurements and covariate definitions, such as gestational age, see Additional file 1: Supplementary Methods and a pre- vious article on the INMA cohort [13].
+Metabolic&lt;/p&gt;
+&lt;p&gt;用来预测胎儿体重(fetal birth weight)的几个参数(从超声波测量而来):&lt;/p&gt;
+&lt;ul&gt;
+&lt;li&gt;&lt;p&gt;Fiparietal diameter(BPD):胎儿双顶径.为两侧顶骨隆突间的距离,是胎头最大横径,临床用B型超声检测此值判断胎儿大小,妊娠足月时平均长度约9.3cm.&lt;/p&gt;&lt;/li&gt;
+&lt;li&gt;&lt;p&gt;Femur length(FL):胎儿股骨长度.&lt;/p&gt;&lt;/li&gt;
+&lt;li&gt;&lt;p&gt;Head circumference (AC):胎儿头围.&lt;/p&gt;&lt;/li&gt;
+&lt;li&gt;&lt;p&gt;Abdominal circumference (AC):胎儿腹围.&lt;/p&gt;&lt;/li&gt;
+&lt;li&gt;&lt;p&gt;crown–rump length:胎儿的头臀长.&lt;/p&gt;&lt;/li&gt;
+&lt;/ul&gt;
+&lt;p&gt;date of conception:妊娠期.&lt;/p&gt;
+&lt;p&gt;Gestational age(孕龄)was established by using crown–rump length when the calculated date of conception differed from the fetal age based on the subject’s self-reported last menstrual period by 7 days or more.&lt;/p&gt;
+&lt;/div&gt;
+&lt;/div&gt;
+&lt;div id=&#34;variants-in-the-fetal-genome-near-pro-inflammatory-cytokine-genes-on-2q13-associate-with-gestational-duration&#34; class=&#34;section level2&#34; number=&#34;1.4&#34;&gt;
+&lt;h2&gt;&lt;span class=&#34;header-section-number&#34;&gt;1.4&lt;/span&gt; Variants in the fetal genome near pro-inflammatory cytokine genes on 2q13 associate with gestational duration&lt;/h2&gt;
+&lt;ul&gt;
+&lt;li&gt;&lt;p&gt;早产(preterm birth),是指在妊娠不足37周出生的婴儿.早产与婴儿之后的神经发育延迟(neurodevelopmental delay),脑瘫(cerebral palsy),糖尿病(diabetes),高血压以及精神疾病(psychiatric disorders)等都有关.&lt;/p&gt;&lt;/li&gt;
+&lt;li&gt;&lt;p&gt;过期生产(postterm birth),是指在妊娠超过42周之后出生的婴儿.&lt;/p&gt;&lt;/li&gt;
+&lt;/ul&gt;
+&lt;p&gt;在发达国家,preterm和postterm都有大约5%-10%的比例.在低收入和中等收入国家,preterm的比例比高收入国家更高.&lt;/p&gt;
+&lt;p&gt;Although timing of parturition is influenced by many non-genetic risk factors, including parity(母亲的胎数), maternal stress(母亲的紧张状态), smoking, urogenital infection(泌尿系统的感染), educational attainment(受教育程度), and socioeconomic status(社会经济程度), there is compelling evidence for a substantial genetic impact.&lt;/p&gt;
+&lt;div id=&#34;定义&#34; class=&#34;section level3&#34; number=&#34;1.4.1&#34;&gt;
+&lt;h3&gt;&lt;span class=&#34;header-section-number&#34;&gt;1.4.1&lt;/span&gt; 定义&lt;/h3&gt;
+&lt;ul&gt;
+&lt;li&gt;preterm: &amp;lt; 34 weeks&lt;br /&gt;
+&lt;/li&gt;
+&lt;li&gt;preterm: &amp;lt; 34 weeks&lt;/li&gt;
+&lt;li&gt;postterm: &amp;gt;= 42 weeks&lt;/li&gt;
+&lt;/ul&gt;
+&lt;/div&gt;
+&lt;div id=&#34;一些pregnancy公开数据库&#34; class=&#34;section level3&#34; number=&#34;1.4.2&#34;&gt;
+&lt;h3&gt;&lt;span class=&#34;header-section-number&#34;&gt;1.4.2&lt;/span&gt; 一些pregnancy公开数据库&lt;/h3&gt;
+&lt;ul&gt;
+&lt;li&gt;Early Growth Genetics Consortium &lt;a href=&#34;https://egg-consortium.org/&#34; class=&#34;uri&#34;&gt;https://egg-consortium.org/&lt;/a&gt;&lt;/li&gt;
+&lt;li&gt;Integrative Psychiatric Research (iPSYCH) study &lt;a href=&#34;https://ipsych.au.dk/about-ipsych/&#34; class=&#34;uri&#34;&gt;https://ipsych.au.dk/about-ipsych/&lt;/a&gt;&lt;/li&gt;
+&lt;li&gt;Genomic and Proteomic Network for Preterm Birth Research (GPN) &lt;a href=&#34;https://www.ncbi.nlm.nih.gov/projects/gap/cgi-bin/study.cgi?study_id=phs000714.v1.p1&#34; class=&#34;uri&#34;&gt;https://www.ncbi.nlm.nih.gov/projects/gap/cgi-bin/study.cgi?study_id=phs000714.v1.p1&lt;/a&gt;&lt;/li&gt;
+&lt;/ul&gt;
+&lt;p&gt;这些数据库大部分是关于基因组学的,可以到时候考虑用它做个验证什么的.&lt;/p&gt;
+&lt;p&gt;parturition(分娩)&lt;/p&gt;
+&lt;/div&gt;
+&lt;div id=&#34;文章总结&#34; class=&#34;section level3&#34; number=&#34;1.4.3&#34;&gt;
+&lt;h3&gt;&lt;span class=&#34;header-section-number&#34;&gt;1.4.3&lt;/span&gt; 文章总结:&lt;/h3&gt;
+&lt;/div&gt;
+&lt;/div&gt;
+&lt;/div&gt;
+</description>
+    </item>
+    
+    <item>
+      <title>文献解读:Longitudinal multi-omics of host– microbe dynamics in prediabetes</title>
+      <link>https://jaspershen.github.io/post/longitudinal-multi-omics-of-host-microbe-dynamics-in-prediabetes/</link>
+      <pubDate>Tue, 08 Oct 2019 00:00:00 +0000</pubDate>
+      <guid>https://jaspershen.github.io/post/longitudinal-multi-omics-of-host-microbe-dynamics-in-prediabetes/</guid>
+      <description>
+&lt;script src=&#34;index_files/header-attrs/header-attrs.js&#34;&gt;&lt;/script&gt;
+
+
 </description>
     </item>
     

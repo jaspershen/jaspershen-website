@@ -1,0 +1,1758 @@
+<!DOCTYPE html>
+<!-- This site was created with Wowchemy. https://www.wowchemy.com -->
+<!-- Last Published: August 10, 2023 --><html lang="en-us" >
+
+
+<head>
+  <meta charset="utf-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1" />
+  <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+  
+  
+  
+    <meta name="generator" content="Wowchemy 5.7.0 for Hugo" />
+  
+
+  
+  
+
+
+
+
+
+
+
+
+
+
+
+
+  
+  
+
+
+
+
+
+
+
+
+
+
+  
+
+
+
+
+
+
+
+  
+  
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+  
+
+  
+  
+  
+    
+      
+      <link rel="preload" as="style" href="https://fonts.googleapis.com/css2?family=Bruno+Ace&family=Limelight&family=Poppins:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,100;1,200;1,300;1,400;1,500;1,600;1,700;1,800;1,900&display=swap">
+      <link rel="stylesheet" href="https://fonts.googleapis.com/css2?family=Bruno+Ace&family=Limelight&family=Poppins:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,100;1,200;1,300;1,400;1,500;1,600;1,700;1,800;1,900&display=swap" media="print" onload="this.media='all'">
+    
+  
+
+  
+  
+
+  
+  
+    
+    <script src="/js/mathjax-config.js"></script>
+  
+
+  
+
+  <link rel="stylesheet" href="/css/vendor-bundle.min.047268c6dd09ad74ba54a0ba71837064.css" media="print" onload="this.media='all'">
+
+  
+  
+  
+    
+    
+      <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/academicons@1.9.2/css/academicons.min.css" integrity="sha512-KlJCpRsLf+KKu2VQa5vmRuClRFjxc5lXO03ixZt82HZUk41+1I0bD8KBSA0fY290ayMfWYI9udIqeOWSu1/uZg==" crossorigin="anonymous" media="print" onload="this.media='all'">
+    
+
+    
+    
+    
+    
+      
+      
+    
+    
+    
+
+    
+    
+    
+
+    
+
+    
+    
+      
+      
+
+      
+      
+
+      
+    
+      
+      
+
+      
+      
+
+      
+    
+      
+      
+
+      
+      
+
+      
+    
+      
+      
+
+      
+      
+
+      
+    
+      
+      
+
+      
+      
+
+      
+    
+      
+      
+
+      
+      
+
+      
+    
+      
+      
+
+      
+      
+
+      
+    
+      
+      
+
+      
+      
+
+      
+    
+      
+      
+
+      
+      
+
+      
+    
+      
+      
+
+      
+      
+
+      
+    
+      
+      
+
+      
+      
+
+      
+        <script src="https://cdn.jsdelivr.net/npm/mathjax@3/es5/tex-chtml.js" integrity="" crossorigin="anonymous" async></script>
+      
+    
+      
+      
+
+      
+      
+
+      
+    
+      
+      
+
+      
+      
+
+      
+    
+  
+
+  
+  
+  
+  
+  
+  
+  <link rel="stylesheet" href="/css/wowchemy.00f70589ff95c2db8722b74912195f3f.css" />
+
+  
+  
+  
+
+  
+  
+  
+  
+  
+  
+  
+    
+    
+    <link rel="stylesheet" href="/css/libs/chroma/github-light.min.css" title="hl-light" media="print" onload="this.media='all'" >
+    <link rel="stylesheet" href="/css/libs/chroma/dracula.min.css" title="hl-dark" media="print" onload="this.media='all'" disabled>
+  
+
+  
+  
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+  
+  
+  
+
+
+
+
+
+
+  <meta name="author" content="Xiaotao Shen" />
+
+
+
+
+
+  
+
+<meta name="description" content="1 Git配置 1.1 安装git之后,需要进行一些全局设置,比如用户名邮箱. 1.2 除了用户名邮箱之外,也可以对其他内容进行配置,如: 1.3 查看所有的配置 2 基础操作 2.1 创建本地git版本库 2.2 将文件添加到版本库 2.2.1 使用git add命令将文件添加到暂存区: 2.2.2 使用git commit命令将暂存区文件提交到仓库中. 2.3 查看仓库状态 2.4 查看仓库中的具体修改 2.5 查看提交的历史记录 2.6 版本回退 2.7 回到未来某个版本 2." />
+
+
+
+<link rel="alternate" hreflang="en-us" href="https://jaspershen.github.io/post/2020-03-04-git_github/" />
+<link rel="canonical" href="https://jaspershen.github.io/post/2020-03-04-git_github/" />
+
+
+
+  <link rel="manifest" href="/manifest.webmanifest" />
+
+
+
+<link rel="icon" type="image/png" href="/media/icon_hu805a85e690e4f2727bf7d5f685d888f7_86836_32x32_fill_lanczos_center_3.png" />
+<link rel="apple-touch-icon" type="image/png" href="/media/icon_hu805a85e690e4f2727bf7d5f685d888f7_86836_180x180_fill_lanczos_center_3.png" />
+
+<meta name="theme-color" content="#007C48" />
+
+
+
+
+
+
+
+
+
+
+  
+  
+
+
+
+
+
+
+<meta property="twitter:card" content="summary" />
+
+  <meta property="twitter:site" content="@wowchemy" />
+  <meta property="twitter:creator" content="@wowchemy" />
+<meta property="twitter:image" content="https://jaspershen.github.io/media/icon_hu805a85e690e4f2727bf7d5f685d888f7_86836_512x512_fill_lanczos_center_3.png" />
+<meta property="og:site_name" content="Xiaotao Shen" />
+<meta property="og:url" content="https://jaspershen.github.io/post/2020-03-04-git_github/" />
+<meta property="og:title" content="git和GitHub使用 | Xiaotao Shen" />
+<meta property="og:description" content="1 Git配置 1.1 安装git之后,需要进行一些全局设置,比如用户名邮箱. 1.2 除了用户名邮箱之外,也可以对其他内容进行配置,如: 1.3 查看所有的配置 2 基础操作 2.1 创建本地git版本库 2.2 将文件添加到版本库 2.2.1 使用git add命令将文件添加到暂存区: 2.2.2 使用git commit命令将暂存区文件提交到仓库中. 2.3 查看仓库状态 2.4 查看仓库中的具体修改 2.5 查看提交的历史记录 2.6 版本回退 2.7 回到未来某个版本 2." /><meta property="og:image" content="https://jaspershen.github.io/media/icon_hu805a85e690e4f2727bf7d5f685d888f7_86836_512x512_fill_lanczos_center_3.png" /><meta property="og:locale" content="en-us" />
+
+  
+    <meta
+      property="article:published_time"
+      content="2020-03-04T00:00:00&#43;00:00"
+    />
+  
+  
+    <meta property="article:modified_time" content="2020-03-04T00:00:00&#43;00:00">
+  
+
+
+
+
+
+
+    
+
+
+
+
+
+
+  
+
+
+
+
+<script type="application/ld+json">
+{
+  "@context": "https://schema.org",
+  "@type": "BlogPosting",
+  "mainEntityOfPage": {
+    "@type": "WebPage",
+    "@id": "https://jaspershen.github.io/post/2020-03-04-git_github/"
+  },
+  "headline": "git和GitHub使用",
+  
+  "datePublished": "2020-03-04T00:00:00Z",
+  "dateModified": "2020-03-04T00:00:00Z",
+  
+  "author": {
+    "@type": "Person",
+    "name": "Xiaotao Shen"
+  },
+  
+  "publisher": {
+    "@type": "Organization",
+    "name": "Xiaotao Shen",
+    "logo": {
+      "@type": "ImageObject",
+      "url": "https://jaspershen.github.io/media/icon_hu805a85e690e4f2727bf7d5f685d888f7_86836_192x192_fill_lanczos_center_3.png"
+    }
+  },
+  "description": "1 Git配置 1.1 安装git之后,需要进行一些全局设置,比如用户名邮箱. 1.2 除了用户名邮箱之外,也可以对其他内容进行配置,如: 1.3 查看所有的配置 2 基础操作 2.1 创建本地git版本库 2.2 将文件添加到版本库 2.2.1 使用git add命令将文件添加到暂存区: 2.2.2 使用git commit命令将暂存区文件提交到仓库中. 2.3 查看仓库状态 2.4 查看仓库中的具体修改 2.5 查看提交的历史记录 2.6 版本回退 2.7 回到未来某个版本 2."
+}
+</script>
+
+  
+
+  
+
+
+
+
+  
+  
+  
+
+  
+  
+
+  
+
+
+  
+  <title>git和GitHub使用 | Xiaotao Shen</title>
+
+  
+  
+  
+  
+
+
+
+
+
+
+
+
+
+
+
+</head>
+
+
+<body id="top" data-spy="scroll" data-offset="70" data-target="#TableOfContents" class="page-wrapper   " data-wc-page-id="c53569705732d156c3c051946848e7e7" >
+
+  
+  
+  
+  
+  
+  
+  
+  
+  
+  <script src="/js/wowchemy-init.min.c51bb6301bb2be5edd35b3630c50ed3a.js"></script>
+
+  
+
+
+<aside class="search-modal" id="search">
+  <div class="container">
+    <section class="search-header">
+
+      <div class="row no-gutters justify-content-between mb-3">
+        <div class="col-6">
+          <h1>Search</h1>
+        </div>
+        <div class="col-6 col-search-close">
+          <a class="js-search" href="#" aria-label="Close"><i class="fas fa-times-circle text-muted" aria-hidden="true"></i></a>
+        </div>
+      </div>
+
+      <div id="search-box">
+        
+        <input name="q" id="search-query" placeholder="Search..." autocapitalize="off"
+        autocomplete="off" autocorrect="off" spellcheck="false" type="search" class="form-control"
+        aria-label="Search...">
+        
+      </div>
+
+      
+      
+
+      
+
+    </section>
+    <section class="section-search-results">
+
+      <div id="search-hits">
+        
+      </div>
+
+    </section>
+  </div>
+</aside>
+
+
+
+  <div class="page-header header--fixed">
+  
+  
+  
+  
+  
+
+
+
+
+
+
+
+
+
+
+
+
+<header>
+  <nav class="navbar navbar-expand-lg navbar-light compensate-for-scrollbar" id="navbar-main">
+    <div class="container-xl">
+
+      
+      <div class="d-none d-lg-inline-flex">
+        <a class="navbar-brand" href="/">Xiaotao Shen</a>
+      </div>
+      
+
+      
+      <button type="button" class="navbar-toggler" data-toggle="collapse"
+              data-target="#navbar-content" aria-controls="navbar-content" aria-expanded="false" aria-label="Toggle navigation">
+      <span><i class="fas fa-bars"></i></span>
+      </button>
+      
+
+      
+      <div class="navbar-brand-mobile-wrapper d-inline-flex d-lg-none">
+        <a class="navbar-brand" href="/">Xiaotao Shen</a>
+      </div>
+      
+
+      
+      
+      <div class="navbar-collapse main-menu-item collapse justify-content-start" id="navbar-content">
+
+        
+        <ul class="navbar-nav d-md-inline-flex">
+          
+
+          
+
+          
+          
+          
+            
+          
+
+          
+
+          
+          
+          
+          
+
+          
+            
+              
+              
+            
+            
+              
+              
+              
+                
+              
+              
+            
+          
+
+          <li class="nav-item">
+            <a class="nav-link " href="/#about"><span>🏠 About</span></a>
+          </li>
+
+          
+          
+
+          
+
+          
+          
+          
+            
+          
+
+          
+
+          
+          
+          
+          
+
+          
+            
+              
+              
+            
+            
+              
+              
+              
+                
+              
+              
+            
+          
+
+          <li class="nav-item">
+            <a class="nav-link " href="/#posts"><span>📖 Posts</span></a>
+          </li>
+
+          
+          
+
+          
+
+          
+          
+          
+            
+          
+
+          
+
+          
+          
+          
+          
+
+          
+            
+              
+              
+            
+            
+              
+              
+              
+                
+              
+              
+            
+          
+
+          <li class="nav-item">
+            <a class="nav-link " href="/#projects"><span>💻 Projects</span></a>
+          </li>
+
+          
+          
+
+          
+
+          
+          
+          
+            
+          
+
+          
+
+          
+          
+          
+          
+
+          
+            
+              
+              
+            
+            
+              
+              
+              
+                
+              
+              
+            
+          
+
+          <li class="nav-item">
+            <a class="nav-link " href="/#talks"><span>🗣️ Talks</span></a>
+          </li>
+
+          
+          
+
+          
+
+          
+          
+          
+            
+          
+
+          
+
+          
+          
+          
+          
+
+          
+            
+              
+              
+            
+            
+              
+              
+              
+                
+              
+              
+            
+          
+
+          <li class="nav-item">
+            <a class="nav-link " href="/#featured"><span>🗞️ Publications</span></a>
+          </li>
+
+          
+          
+
+          
+
+          
+          
+          
+            
+          
+
+          
+
+          
+          
+          
+          
+
+          
+            
+              
+              
+            
+            
+              
+              
+              
+                
+              
+              
+            
+          
+
+          <li class="nav-item">
+            <a class="nav-link " href="/#contact"><span>📥 Contact</span></a>
+          </li>
+
+          
+          
+
+        
+
+          
+        </ul>
+      </div>
+
+      <ul class="nav-icons navbar-nav flex-row ml-auto d-flex pl-md-2">
+
+        
+        
+          
+            
+            <li class="nav-item d-none d-lg-inline-flex">
+              <a class="nav-link" href="https://twitter.com/GeorgeCushen" target="_blank" rel="noopener" aria-label="github">
+                <i class="fab fa-github" aria-hidden="true"></i>
+              </a>
+            </li>
+          
+        
+
+        
+        
+        
+        <li class="nav-item">
+          <a class="nav-link js-search" href="#" aria-label="Search"><i class="fas fa-search" aria-hidden="true"></i></a>
+        </li>
+        
+
+        
+        
+        
+        <li class="nav-item dropdown theme-dropdown">
+          <a href="#" class="nav-link" data-toggle="dropdown" aria-haspopup="true" aria-label="Display preferences">
+            <i class="fas fa-moon" aria-hidden="true"></i>
+          </a>
+          <div class="dropdown-menu">
+            <a href="#" class="dropdown-item js-set-theme-light">
+              <span>Light</span>
+            </a>
+            <a href="#" class="dropdown-item js-set-theme-dark">
+              <span>Dark</span>
+            </a>
+            <a href="#" class="dropdown-item js-set-theme-auto">
+              <span>Automatic</span>
+            </a>
+          </div>
+        </li>
+        
+
+        
+        
+
+      </ul>
+
+    </div>
+  </nav>
+</header>
+
+
+  </div>
+
+  <div class="page-body">
+    
+    
+    
+
+    <article class="article">
+
+  
+
+
+
+
+
+
+
+
+
+
+
+
+
+  
+
+  
+  
+  
+<div class="article-container pt-3">
+  <h1>git和GitHub使用</h1>
+
+  
+
+  
+    
+
+
+<div class="article-metadata">
+
+  
+  
+
+  
+  <span class="article-date">
+    
+    
+      
+    
+    Mar 4, 2020
+  </span>
+  
+
+  
+
+  
+  <span class="middot-divider"></span>
+  <span class="article-reading-time">
+    3 min read
+  </span>
+  
+
+  
+  
+  
+  
+
+  
+  
+  <span class="middot-divider"></span>
+  <span class="article-categories">
+    <i class="fas fa-folder mr-1"></i><a href="/category/rstudio/">Rstudio</a>, <a href="/category/r/">R</a></span>
+  
+
+</div>
+
+    
+
+
+
+
+
+  
+</div>
+
+
+
+  <div class="article-container">
+
+    <div class="article-style">
+      
+
+<div id="TOC">
+<ul>
+<li><a href="#git配置"><span class="toc-section-number">1</span> Git配置</a><ul>
+<li><a href="#安装git之后需要进行一些全局设置比如用户名邮箱."><span class="toc-section-number">1.1</span> 安装git之后,需要进行一些全局设置,比如用户名邮箱.</a></li>
+<li><a href="#除了用户名邮箱之外也可以对其他内容进行配置如"><span class="toc-section-number">1.2</span> 除了用户名邮箱之外,也可以对其他内容进行配置,如:</a></li>
+<li><a href="#查看所有的配置"><span class="toc-section-number">1.3</span> 查看所有的配置</a></li>
+</ul></li>
+<li><a href="#基础操作"><span class="toc-section-number">2</span> 基础操作</a><ul>
+<li><a href="#创建本地git版本库"><span class="toc-section-number">2.1</span> 创建本地git版本库</a></li>
+<li><a href="#将文件添加到版本库"><span class="toc-section-number">2.2</span> 将文件添加到版本库</a><ul>
+<li><a href="#使用git-add命令将文件添加到暂存区"><span class="toc-section-number">2.2.1</span> 使用<code>git add</code>命令将文件添加到暂存区:</a></li>
+<li><a href="#使用git-commit命令将暂存区文件提交到仓库中."><span class="toc-section-number">2.2.2</span> 使用<code>git commit</code>命令将暂存区文件提交到仓库中.</a></li>
+</ul></li>
+<li><a href="#查看仓库状态"><span class="toc-section-number">2.3</span> 查看仓库状态</a></li>
+<li><a href="#查看仓库中的具体修改"><span class="toc-section-number">2.4</span> 查看仓库中的具体修改</a></li>
+<li><a href="#查看提交的历史记录"><span class="toc-section-number">2.5</span> 查看提交的历史记录</a></li>
+<li><a href="#版本回退"><span class="toc-section-number">2.6</span> 版本回退</a></li>
+<li><a href="#回到未来某个版本"><span class="toc-section-number">2.7</span> 回到未来某个版本</a></li>
+<li><a href="#撤销修改"><span class="toc-section-number">2.8</span> 撤销修改</a><ul>
+<li><a href="#丢弃工作区中的文件修改"><span class="toc-section-number">2.8.1</span> 丢弃工作区中的文件修改</a></li>
+<li><a href="#丢弃暂存区的修改"><span class="toc-section-number">2.8.2</span> 丢弃暂存区的修改</a></li>
+</ul></li>
+<li><a href="#删除文件"><span class="toc-section-number">2.9</span> 删除文件</a></li>
+</ul></li>
+<li><a href="#git的分支管理"><span class="toc-section-number">3</span> git的分支管理</a><ul>
+<li><a href="#查看分支"><span class="toc-section-number">3.1</span> 查看分支</a></li>
+<li><a href="#创建分支"><span class="toc-section-number">3.2</span> 创建分支</a></li>
+<li><a href="#切换分支"><span class="toc-section-number">3.3</span> 切换分支</a></li>
+<li><a href="#switch命令"><span class="toc-section-number">3.4</span> <code>switch</code>命令</a></li>
+<li><a href="#合并分支merge"><span class="toc-section-number">3.5</span> 合并分支(merge)</a></li>
+<li><a href="#删除分支"><span class="toc-section-number">3.6</span> 删除分支</a></li>
+<li><a href="#分支提交冲突"><span class="toc-section-number">3.7</span> 分支提交冲突</a></li>
+<li><a href="#分支策略"><span class="toc-section-number">3.8</span> 分支策略</a></li>
+</ul></li>
+<li><a href="#远程仓库github"><span class="toc-section-number">4</span> 远程仓库(GitHub)</a><ul>
+<li><a href="#添加到远程仓库"><span class="toc-section-number">4.1</span> 添加到远程仓库</a></li>
+<li><a href="#推送到远程仓库"><span class="toc-section-number">4.2</span> 推送到远程仓库</a></li>
+<li><a href="#从远程仓库获取最新内容"><span class="toc-section-number">4.3</span> 从远程仓库获取最新内容</a></li>
+<li><a href="#查看远程仓库信息"><span class="toc-section-number">4.4</span> 查看远程仓库信息</a></li>
+<li><a href="#从远程仓库克隆"><span class="toc-section-number">4.5</span> 从远程仓库克隆</a></li>
+</ul></li>
+<li><a href="#设置忽略文件"><span class="toc-section-number">5</span> 设置忽略文件</a></li>
+</ul>
+</div>
+
+<div id="git配置" class="section level1">
+<h1><span class="header-section-number">1</span> Git配置</h1>
+<div id="安装git之后需要进行一些全局设置比如用户名邮箱." class="section level2">
+<h2><span class="header-section-number">1.1</span> 安装git之后,需要进行一些全局设置,比如用户名邮箱.</h2>
+<p>设置的主要命令是<code>git config</code>:</p>
+<pre><code>git config --global user.name &quot;your name&quot; 
+git config --global user.email &quot;your email&quot; </code></pre>
+<p>其中,<code>--global</code>是指全局配置,如果不写,则只为当前仓库(repository)配置.</p>
+<p>如果有多个git用户,这时候需要先确定某个仓库使用的哪个账户.</p>
+<pre><code>git config user.name
+git config user.email </code></pre>
+<p>查询全局的git账户信息:</p>
+<pre><code>git config --global user.name
+git config --global user.email </code></pre>
+</div>
+<div id="除了用户名邮箱之外也可以对其他内容进行配置如" class="section level2">
+<h2><span class="header-section-number">1.2</span> 除了用户名邮箱之外,也可以对其他内容进行配置,如:</h2>
+<pre><code>git config --global color.ui true #让git显示不同的颜色
+git config cor.ignorcase true #让git对仓库中文件大小写敏感</code></pre>
+</div>
+<div id="查看所有的配置" class="section level2">
+<h2><span class="header-section-number">1.3</span> 查看所有的配置</h2>
+<pre><code>git config -l</code></pre>
+</div>
+</div>
+<div id="基础操作" class="section level1">
+<h1><span class="header-section-number">2</span> 基础操作</h1>
+<div id="创建本地git版本库" class="section level2">
+<h2><span class="header-section-number">2.1</span> 创建本地git版本库</h2>
+<p>使用<code>git init</code>命令.</p>
+<p>首先,创建一个你要当作仓库的文件夹,然后将其设置为工作路径,然后执行.</p>
+<pre><code>mkdir git_test
+cd git_test
+git init</code></pre>
+<p><img src="Annotation%202020-03-04%20101100.png" /></p>
+<p>这时候查看目录结构,就可以看到创建了一个名为<code>.git</code>的子目录,这就说明创建版本库成功了.</p>
+<p><img src="Annotation%202020-03-04%20101400.png" /></p>
+</div>
+<div id="将文件添加到版本库" class="section level2">
+<h2><span class="header-section-number">2.2</span> 将文件添加到版本库</h2>
+<p>要将一个文件纳入到版本管理,首先需要将其添加到暂存区,然后才能提交到仓库中.</p>
+<div id="使用git-add命令将文件添加到暂存区" class="section level3">
+<h3><span class="header-section-number">2.2.1</span> 使用<code>git add</code>命令将文件添加到暂存区:</h3>
+<p>比如我们首先新建一个名为<code>README.md</code>的文件,然后将其添加到暂存区.</p>
+<pre><code>git add README.md</code></pre>
+<p>当然也可以使用下面命令将所有修改添加到暂存区:</p>
+<pre><code>git add .</code></pre>
+<p><code>.</code> 是正则表达式,代表任意文件.但是空文件夹是不会添加到暂存区的.</p>
+</div>
+<div id="使用git-commit命令将暂存区文件提交到仓库中." class="section level3">
+<h3><span class="header-section-number">2.2.2</span> 使用<code>git commit</code>命令将暂存区文件提交到仓库中.</h3>
+<pre><code>git commit #如果暂存区有文件,则将其中的文件提交到仓库
+git commit -m &quot;your note for this commit&quot; #用于注明提交的内容,变更等信息,方便溯源</code></pre>
+<p><img src="Annotation%202020-03-04%20102352.png" /></p>
+<p>如果直接使用<code>git commit</code>提交,不带注释信息,则会先弹出评论界面,需要评论.</p>
+<p><img src="Annotation%202020-03-04%20102751.png" /></p>
+<p>注意这时候是使用vi打开的文件,所以需要掌握一点vi的基础知识.参考下面帖子:</p>
+<p><a href="https://www.cnblogs.com/itech/archive/2009/04/17/1438439.html" class="uri">https://www.cnblogs.com/itech/archive/2009/04/17/1438439.html</a></p>
+<p>简单来说,首先在命令行模式下按下字母<code>i</code>进入插入模式,在该模式下进行信息的输入.输入结束之后,点击<code>ESC</code>退回到命令行模式,然后再输入冒号(<code>:</code>).输入w,回车,保存,然后输入q,回车,退出vi编辑器.</p>
+</div>
+</div>
+<div id="查看仓库状态" class="section level2">
+<h2><span class="header-section-number">2.3</span> 查看仓库状态</h2>
+<p>不论我们是新建了文件,将文件加入暂存区,或者是其他修改等,我们都可以使用<code>git status</code>来查看当前的仓库状态.</p>
+<p>如果当前没有任何变动.</p>
+<p><img src="Annotation%202020-03-04%20103831.png" /></p>
+<p>如果我们新建了一个文件,然后再次查看状态:</p>
+<p>因为我们还没有将其添加到暂存区,因此显示该新建文件为 <code>Untracted files</code></p>
+<p><img src="Annotation%202020-03-04%20103937.png" /></p>
+<p>将文件放入暂存区,然后再查看状态:</p>
+<p><img src="Annotation%202020-03-04%20104126.png" /></p>
+<p>然后再将其进行提交,查看状态.</p>
+<p><img src="Annotation%202020-03-04%20104709.png" /></p>
+</div>
+<div id="查看仓库中的具体修改" class="section level2">
+<h2><span class="header-section-number">2.4</span> 查看仓库中的具体修改</h2>
+<p>如果做过之后修改,我们忘了做了哪些修改,可以使用<code>git diff</code>命令来查看具体修改内容.</p>
+<pre><code>git diff #查看所有改动
+git diff README.md #查看具体文件的改动</code></pre>
+<p>比如我们再<code>test.txt</code>文件中加入一行,然后查看:</p>
+<p><img src="Annotation%202020-03-04%20105306.png" /></p>
+<p>可以看到记录了对该文件的修改内容.</p>
+<blockquote>
+<p>注意,如果你修改之后已经将其存入暂存区,则<code>git diff</code>不会再显示内容.</p>
+</blockquote>
+<p><img src="Annotation%202020-03-04%20105454.png" /></p>
+</div>
+<div id="查看提交的历史记录" class="section level2">
+<h2><span class="header-section-number">2.5</span> 查看提交的历史记录</h2>
+<p>有的时候,你需要查看自己做过哪些提交(commit),来回顾自己的完成部分,这时候需要使用<code>git log</code>命令.</p>
+<pre><code>git log     #显示所有提交的历史记录
+git log --pretty=oneline    #单行显示提交历史记录的内容</code></pre>
+<p><img src="Annotation%202020-03-04%20105927.png" /></p>
+<p>可以看到我们现在一共进行了4次提交,每次提交的第一行commit之后是该次提交的唯一<code>ID</code>.然后后面显示提交者,时间以及一些记录等.</p>
+<p>如果提交非常多,需要显示内容精简一些,就需要使用<code>git log --pretty=oneline</code>命令.</p>
+<p><img src="Annotation%202020-03-04%20110141.png" /></p>
+</div>
+<div id="版本回退" class="section level2">
+<h2><span class="header-section-number">2.6</span> 版本回退</h2>
+<p>有了<code>git log</code>来查看提交的历史记录,我们就可以通过<code>git reset --hard</code>来退回到我们需要的某个特定把呢不能.</p>
+<pre><code>git reset --hard HEAD^        # 回退到上一个提交版本
+git reset --hard HEAD^^        # 回退到上上一个提交版本
+git reset --hard &#39;commit_id&#39;    # 会退到 commit_id 指定的提交版本</code></pre>
+<p>使用<code>git log</code>我们可以看到每个提交都有一个唯一的commit ID,其中上一个也可以使用<code>HEAD</code>代表.因此我们可以退回到上一个版本.比如,我们在最近的一次提交中修改了test.txt,在其中加入一行.</p>
+<p><img src="Annotation%202020-03-04%20110543.png" /></p>
+<p>我们想退回到上一个版本,不想加入这一行,可以使用下面命令.</p>
+<pre><code>git reset --hard HEAD^</code></pre>
+<p>这时候再查看log,可以看到最近的一个commit已经消失,回到了上一个提交.而上一次的修改也已经消失.</p>
+<p><img src="Annotation%202020-03-04%20110857.png" /></p>
+</div>
+<div id="回到未来某个版本" class="section level2">
+<h2><span class="header-section-number">2.7</span> 回到未来某个版本</h2>
+<p>退回到原来某个版本之后,如何再回到未来某个版本呢?还是使用<code>git reset --hard</code>命令,但是此时使用<code>git log</code>命令是无法显示在这之后的提交信息的。但是，通过<code>git reflog</code>可以获取到操作命令的历史。</p>
+<p><img src="Annotation%202020-03-04%20111241.png" /></p>
+<p>这时候只要在使用<code>git reset</code>命令就可以回到未来的任意一个版本了.而且这时候再使用<code>git log</code>也回到了最初的版本提交记录.</p>
+<p><img src="Annotation%202020-03-04%20111622.png" /></p>
+</div>
+<div id="撤销修改" class="section level2">
+<h2><span class="header-section-number">2.8</span> 撤销修改</h2>
+<p>撤销修改同样包括两方面的内容，由于仓库中的文件在提交之前，可能在工作区中(也就是还未运行 <code>git add</code>命令)，尚未在版本控制范围内，也可能在暂存区中(也就是运行了<code>git add</code>命令但是没有运行<code>git commit .</code>命令)。</p>
+<div id="丢弃工作区中的文件修改" class="section level3">
+<h3><span class="header-section-number">2.8.1</span> 丢弃工作区中的文件修改</h3>
+<p>使用如下命令.</p>
+<pre><code>git checkout -- READ.md    #如果 READ.md 文件在工作区，则丢弃其修改
+git checkout -- .            #丢弃当前目录下所有工作区中文件的修改</code></pre>
+<p>比如我们再<code>test.txt</code>中添加另外一行,然后不加入暂存区,然后将其丢弃掉.</p>
+<p><img src="Annotation%202020-03-04%20112427.png" /></p>
+<p>然后运行:</p>
+<pre><code>git checkout -- test.txt</code></pre>
+<p><img src="Annotation%202020-03-04%20112527.png" /></p>
+</div>
+<div id="丢弃暂存区的修改" class="section level3">
+<h3><span class="header-section-number">2.8.2</span> 丢弃暂存区的修改</h3>
+<p>如果已经运行了<code>git add</code>将修改放入了暂存区,可以通过下列命令进行丢弃:</p>
+<pre><code>git reset HEAD README.md #将 README.md 恢复到 HEAD 提交版本的状态
+git checkout -- README.md</code></pre>
+<p><img src="Annotation%202020-03-04%20112956.png" /></p>
+<p>然后将其删除掉.</p>
+<p><img src="Annotation%202020-03-04%20113351.png" /></p>
+</div>
+</div>
+<div id="删除文件" class="section level2">
+<h2><span class="header-section-number">2.9</span> 删除文件</h2>
+<p>在文件未添加到暂存区之前,对想删除文件可以直接物理删除.或者通过<code>git checkout -- file</code>来丢弃.如果文件已经被提交,则需要<code>git rm</code>来删除.</p>
+<pre><code>git rm Readme.md #删除已经提交(commit)过的文件</code></pre>
+<blockquote>
+<p>注意: <code>git rm</code>只能删除已经提交到版本库中的文件.其他状态的文件直接用这个命令操作是出错的.</p>
+</blockquote>
+<p><img src="Annotation%202020-03-04%20204036.png" /></p>
+</div>
+</div>
+<div id="git的分支管理" class="section level1">
+<h1><span class="header-section-number">3</span> git的分支管理</h1>
+<p>分支管理是版本管理中的重要概念.在进行多个并行作业时,我们经常会用到分支.在这类并行开发的过程中,往往同时存在着多个最新的代码状态.</p>
+<p>master分支时git默认创建的分支.因此基本上所有的开发都是以这个分支为中心进行的.</p>
+<p>在不同分支中,可以同时进行不同的作业,等该分支的作业完成之后,再与master分支进行合并.</p>
+<p>比如下图中,我们首先以master作为模板复制得到<code>feature A</code>的分支.<code>feature A</code>分支主要用来开发另外一个新的特性,等开发完毕之后,再将其合并到master分支中即可.</p>
+<p><img src="Annotation%202020-03-04%20205634.png" /></p>
+<div id="查看分支" class="section level2">
+<h2><span class="header-section-number">3.1</span> 查看分支</h2>
+<p>使用<code>git branch</code>命令查看分支信息.</p>
+<pre><code>git branch        #查看本地分支信息
+git branch -v     #查看相对详细的本地分支信息
+git branch -av     #查看包括远程仓库在内的分支信息</code></pre>
+<p><img src="Annotation%202020-03-04%20210006.png" /></p>
+<p>可以看到我们现在只有一个分支,也就是master,然后星号标识的就是当前所在的分支.</p>
+</div>
+<div id="创建分支" class="section level2">
+<h2><span class="header-section-number">3.2</span> 创建分支</h2>
+<p>使用 <code>git branch new.name</code>用来创建新的分支.</p>
+<pre><code>git branch development ##创建一个新的名字叫做development的分支</code></pre>
+<blockquote>
+<p>需要注意的是,在哪个分支下面新建分支,则该分支就是copy自当前所在的分支.</p>
+</blockquote>
+</div>
+<div id="切换分支" class="section level2">
+<h2><span class="header-section-number">3.3</span> 切换分支</h2>
+<p>使用<code>git checkout</code>命令来切换分支.比如我们先新建一个development的分支,然后切换到该分支下.</p>
+<pre><code>git branch development
+git checkout development</code></pre>
+<p>当然也可以使用下面命令直接创建并切换到新建的分支下.</p>
+<pre><code>git checkout -b development</code></pre>
+</div>
+<div id="switch命令" class="section level2">
+<h2><span class="header-section-number">3.4</span> <code>switch</code>命令</h2>
+<p>我们注意到切换分支使用<code>git checkout &lt;branch&gt;</code>,而前面讲过的撤销修改则是<code>git checkout -- &lt;file&gt;</code>,同一个命令,有两种作用,确实有点令人迷惑.</p>
+<p>实际上,切换分支这个动作,用<code>switch</code>更科学。因此，最新版本的Git提供了新的<code>git switch</code>命令来切换分支：</p>
+<p>创建并切换到新的development分支,可以使用:</p>
+<pre><code>git switch -c development </code></pre>
+<p>直接切换到已有分支:</p>
+<pre><code>git switch master</code></pre>
+<p><img src="Annotation%202020-03-04%20210500.png" /></p>
+<p>我们下面在development分支下面再新建一个<code>development.txt</code>文件,然后写入一些内容.</p>
+<p><img src="Annotation%202020-03-04%20211512.png" /></p>
+<p>可以看到此时有一个新建的development.txt文件.如果我们切换到master分支,还是有该文件,但是对该文件内容进行修改,则因为没有加入到暂存区,因此并不会进行版本控制.</p>
+</div>
+<div id="合并分支merge" class="section level2">
+<h2><span class="header-section-number">3.5</span> 合并分支(merge)</h2>
+<p>当我们修复完成一个Bug,或者开发完成一个新特性,我们就会把相关的Bug或者特性的上修改合并回原来的主分支上.,这时候就需要<code>git merge</code>命令来做分支的合并.</p>
+<p>首先需要切换回最终需要合并的分支,也就是<code>master</code>分支,然后再合并.</p>
+<pre><code>git checkout master        #切换回 master 分支
+git merge development     #将development分支中的修改合并回master分支</code></pre>
+<p><img src="Annotation%202020-03-04%20212532.png" /></p>
+</div>
+<div id="删除分支" class="section level2">
+<h2><span class="header-section-number">3.6</span> 删除分支</h2>
+<p>当之前创建的分支,完成了它的使命,如Bug修复完,分支合并以后,这个分支就不在需要了,就可以删除它.</p>
+<pre><code>git branch -d development #删除development分支</code></pre>
+<p>如果分支没有合并到master分支中,直接使用上面命令会报错,可以使用下面的命令强制删除.</p>
+<pre><code>git branch -D development</code></pre>
+</div>
+<div id="分支提交冲突" class="section level2">
+<h2><span class="header-section-number">3.7</span> 分支提交冲突</h2>
+<p>如果新创建了一个分支<code>develpment</code>,然后在该分支下对<code>readme.txt</code>进行修改,然后提交.</p>
+<p>随后然后切换到<code>master</code>分支,然后也对<code>readme.txt</code>进行修改,然后也提交.</p>
+<p>这样,两个分支分别有了不同的提交.这种情况下,再进行合并就会有冲突.</p>
+<p>我们合并一下试试:</p>
+<pre><code>![](Screen Shot 2020-03-11 at 9.20.30 PM.png)</code></pre>
+<p>可以看到报错,Git告诉我们,<code>readme.txt</code>文件存在冲突,必须手动解决冲突后再提交.<code>git status</code>也可以告诉我们冲突的文件:</p>
+<pre><code>git status</code></pre>
+<p><img src="Screen%20Shot%202020-03-11%20at%209.25.20%20PM.png" /></p>
+<p>这时候我们可以使用<code>vi</code>或者其他工具打开冲突的文件,在这就是<code>readme.txt</code>:</p>
+<p><img src="Screen%20Shot%202020-03-11%20at%209.32.06%20PM.png" /></p>
+<p>Git用<code>&lt;&lt;&lt;&lt;&lt;&lt;&lt;</code>，<code>=======</code>，<code>&gt;&gt;&gt;&gt;&gt;&gt;&gt;</code>标记出不同分支的内容，我们修改如下后保存：</p>
+<p>我们将这些记号删除,然后保留自己想要保留的修改就可.然后重新提交.</p>
+<pre><code>git add .
+git commit-m &#39;remove conflict&#39;</code></pre>
+<p>这时候就完成了合并.可以删除development分支了.</p>
+<p>这时候使用<code>git log</code>也可以看到分支的提交情况.使用<code>git log --graph</code>可以观察分支合并图.</p>
+</div>
+<div id="分支策略" class="section level2">
+<h2><span class="header-section-number">3.8</span> 分支策略</h2>
+<p>在实际开发中，我们应该按照几个基本原则进行分支管理：</p>
+<p>首先，<code>master</code>分支应该是非常稳定的，也就是仅用来发布新版本，平时不能在上面干活；</p>
+<p>那在哪干活呢？干活都在<code>dev</code>分支上，也就是说，<code>dev</code>分支是不稳定的，到某个时候，比如<code>1.0</code>版本发布时，再把<code>dev</code>分支合并到<code>master</code>上，在<code>master</code>分支发布1.0版本；</p>
+<p>你和你的小伙伴们每个人都在<code>dev</code>分支上干活，每个人都有自己的分支，时不时地往<code>dev</code>分支上合并就可以了。</p>
+</div>
+</div>
+<div id="远程仓库github" class="section level1">
+<h1><span class="header-section-number">4</span> 远程仓库(GitHub)</h1>
+<p>上面的所有命令都是针对本地仓库的操作.当我们希望多个人来协作时,会将代码发布到一个统一的远程仓库,然后多个人在本地操作以后,再推送到远程仓库.其他人协作时,需要先同步远程仓库的内容,再推送自己的修改.这就要用到了我们最常用的github.</p>
+<div id="添加到远程仓库" class="section level2">
+<h2><span class="header-section-number">4.1</span> 添加到远程仓库</h2>
+<p>比如我们上面所建立的<code>git_test</code>本地仓库,我们需要将其添加到github的远程仓库中.</p>
+<pre><code>git remote add origin your_remote_git_repo #为本地仓库添加远程仓库</code></pre>
+<p>其中<code>your_remote_git_repo</code>是再github中创建的.我们先创建一下,然后进行尝试.</p>
+<p>格式为<code>git@github.com:user.name/repo_name</code>.
+当然,也可以直接使用远程仓库的网址:</p>
+<p><a href="https://github.com/jaspershen/git_test" class="uri">https://github.com/jaspershen/git_test</a></p>
+<p><img src="Annotation%202020-03-04%20213542.png" /></p>
+</div>
+<div id="推送到远程仓库" class="section level2">
+<h2><span class="header-section-number">4.2</span> 推送到远程仓库</h2>
+<p>使用<code>git push</code>将本地仓库的内容推送到远程仓库.</p>
+<pre><code>git push -u origin master #第一次推送时使用,可以简化后面的推送或者拉取命令使用
+git push origin master #将本地master分支推送到origin远程分支,后面之后就可以直接使用该命令推送</code></pre>
+<p><img src="Annotation%202020-03-04%20214807.png" /></p>
+<p>以后再推送的时候,就使用<code>git push</code>就可以了.</p>
+<p>这时候可以看到github中已经有了内容.</p>
+<p><img src="Annotation%202020-03-04%20214930.png" /></p>
+</div>
+<div id="从远程仓库获取最新内容" class="section level2">
+<h2><span class="header-section-number">4.3</span> 从远程仓库获取最新内容</h2>
+<p>在多人协作过程中,当自己完成了本地仓库中的提交,想要向远程仓库推送前,需要先获取到远程仓库的最新内容。</p>
+<p>可以通过<code>git fetch</code>和<code>git pull</code>来获取远程仓库的内容.</p>
+<pre><code>git fetch origin master    
+git pull origin master</code></pre>
+<p>两者之间的区别:</p>
+<ul>
+<li><p><code>git fetch</code>是仅仅获取远程仓库的更新内容,并不会自动做合并.</p></li>
+<li><p><code>git pull</code>在获取远程仓库的内容后,会自动做合并,可以看成<code>git fetch</code>之后<code>git merge</code>.</p></li>
+</ul>
+</div>
+<div id="查看远程仓库信息" class="section level2">
+<h2><span class="header-section-number">4.4</span> 查看远程仓库信息</h2>
+<pre><code>git remote -v</code></pre>
+</div>
+<div id="从远程仓库克隆" class="section level2">
+<h2><span class="header-section-number">4.5</span> 从远程仓库克隆</h2>
+<p>如果你本地没有仓库,希望从已有的远程仓库上复制一份代码,那么你需要<code>git clone</code>.</p>
+<pre><code>git clone https://github.com/jaspershen/git_test #通过 https 协议,克隆Github上git仓库的源码
+git clone jaspershen@github.com/git/git_test #通过ssh协议,克隆Github上git仓库的源码</code></pre>
+</div>
+</div>
+<div id="设置忽略文件" class="section level1">
+<h1><span class="header-section-number">5</span> 设置忽略文件</h1>
+<p>有时候仓库中的某些文件或者文件夹并不需要进行同步,这时候可以通过设置忽略文件<code>.gitignore</code>进行管理.</p>
+<p>参考帖子:</p>
+<p><a href="https://github.com/onlynight/ReadmeDemo/tree/master/Readmes/GitIgnore" class="uri">https://github.com/onlynight/ReadmeDemo/tree/master/Readmes/GitIgnore</a></p>
+</div>
+
+    </div>
+
+    
+
+
+
+
+
+<div class="article-tags">
+  
+  <a class="badge badge-light" href="/tag/blog/">Blog</a>
+  
+  <a class="badge badge-light" href="/tag/chinese/">Chinese</a>
+  
+</div>
+
+
+
+<div class="share-box">
+  <ul class="share">
+    
+      
+      
+      
+        
+      
+      
+      
+      
+      
+      
+      
+      <li>
+        <a href="https://twitter.com/intent/tweet?url=https%3A%2F%2Fjaspershen.github.io%2Fpost%2F2020-03-04-git_github%2F&amp;text=git%E5%92%8CGitHub%E4%BD%BF%E7%94%A8" target="_blank" rel="noopener" class="share-btn-twitter" aria-label="twitter">
+          <i class="fab fa-twitter"></i>
+        </a>
+      </li>
+    
+      
+      
+      
+        
+      
+      
+      
+      
+      
+      
+      
+      <li>
+        <a href="https://www.facebook.com/sharer.php?u=https%3A%2F%2Fjaspershen.github.io%2Fpost%2F2020-03-04-git_github%2F&amp;t=git%E5%92%8CGitHub%E4%BD%BF%E7%94%A8" target="_blank" rel="noopener" class="share-btn-facebook" aria-label="facebook">
+          <i class="fab fa-facebook"></i>
+        </a>
+      </li>
+    
+      
+      
+      
+        
+      
+      
+      
+      
+      
+      
+      
+        
+      
+      <li>
+        <a href="mailto:?subject=git%E5%92%8CGitHub%E4%BD%BF%E7%94%A8&amp;body=https%3A%2F%2Fjaspershen.github.io%2Fpost%2F2020-03-04-git_github%2F" target="_blank" rel="noopener" class="share-btn-email" aria-label="envelope">
+          <i class="fas fa-envelope"></i>
+        </a>
+      </li>
+    
+      
+      
+      
+        
+      
+      
+      
+      
+      
+      
+      
+      <li>
+        <a href="https://www.linkedin.com/shareArticle?url=https%3A%2F%2Fjaspershen.github.io%2Fpost%2F2020-03-04-git_github%2F&amp;title=git%E5%92%8CGitHub%E4%BD%BF%E7%94%A8" target="_blank" rel="noopener" class="share-btn-linkedin" aria-label="linkedin-in">
+          <i class="fab fa-linkedin-in"></i>
+        </a>
+      </li>
+    
+      
+      
+      
+        
+      
+      
+      
+      
+      
+      
+      
+      <li>
+        <a href="whatsapp://send?text=git%E5%92%8CGitHub%E4%BD%BF%E7%94%A8%20https%3A%2F%2Fjaspershen.github.io%2Fpost%2F2020-03-04-git_github%2F" target="_blank" rel="noopener" class="share-btn-whatsapp" aria-label="whatsapp">
+          <i class="fab fa-whatsapp"></i>
+        </a>
+      </li>
+    
+      
+      
+      
+        
+      
+      
+      
+      
+      
+      
+      
+      <li>
+        <a href="https://service.weibo.com/share/share.php?url=https%3A%2F%2Fjaspershen.github.io%2Fpost%2F2020-03-04-git_github%2F&amp;title=git%E5%92%8CGitHub%E4%BD%BF%E7%94%A8" target="_blank" rel="noopener" class="share-btn-weibo" aria-label="weibo">
+          <i class="fab fa-weibo"></i>
+        </a>
+      </li>
+    
+  </ul>
+</div>
+
+
+
+
+
+
+
+
+
+
+
+  
+  
+
+
+
+  
+  
+  
+    
+  
+  
+  
+  <div class="media author-card content-widget-hr">
+    
+      
+      <a href="https://jaspershen.github.io/"><img class="avatar mr-3 avatar-circle" src="/authors/admin/avatar_hu86242519a21313948ac7dc77e0a27da6_1568301_270x270_fill_q75_lanczos_center.jpg" alt="Xiaotao Shen"></a>
+    
+
+    <div class="media-body">
+      <h5 class="card-title"><a href="https://jaspershen.github.io/">Xiaotao Shen</a></h5>
+      <h6 class="card-subtitle">Postdoctoral Research Fellow</h6>
+      <p class="card-text">Metabolomics, Multi-omics, Bioinformatics, Systems Biology.</p>
+      <ul class="network-icon" aria-hidden="true">
+  
+    
+    
+    
+      
+    
+    
+    
+    
+    
+      
+    
+    <li>
+      <a href="/#contact" >
+        <i class="fas fa-envelope"></i>
+      </a>
+    </li>
+  
+    
+    
+    
+      
+    
+    
+    
+    
+    
+      
+    
+    <li>
+      <a href="https://twitter.com/GeorgeCushen" target="_blank" rel="noopener">
+        <i class="fab fa-github"></i>
+      </a>
+    </li>
+  
+    
+    
+    
+      
+    
+    
+    
+    
+    
+      
+    
+    <li>
+      <a href="https://scholar.google.co.uk/citations?user=sIwtMXoAAAAJ" target="_blank" rel="noopener">
+        <i class="fas fa-graduation-cap"></i>
+      </a>
+    </li>
+  
+    
+    
+    
+      
+    
+    
+    
+    
+    
+      
+    
+    <li>
+      <a href="https://github.com/gcushen" target="_blank" rel="noopener">
+        <i class="fab fa-twitter"></i>
+      </a>
+    </li>
+  
+    
+    
+    
+      
+    
+    
+    
+    
+    
+      
+    
+    <li>
+      <a href="https://www.linkedin.com/" target="_blank" rel="noopener">
+        <i class="fab fa-linkedin"></i>
+      </a>
+    </li>
+  
+    
+    
+    
+    
+    
+    
+    
+      
+    
+    <li>
+      <a href="/uploads/resume.pdf" >
+        <i class="ai ai-cv"></i>
+      </a>
+    </li>
+  
+</ul>
+
+    </div>
+  </div>
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+  </div>
+</article>
+  </div>
+
+  <div class="page-footer">
+    
+    
+    <div class="container">
+      <footer class="site-footer">
+
+  
+
+
+
+
+
+
+
+
+
+
+
+
+  
+  
+  
+  
+  
+
+
+
+
+
+
+
+
+
+
+
+
+
+  
+  
+  
+
+  
+  
+    
+  
+  
+    
+  
+
+  
+
+  
+  <p class="powered-by copyright-license-text">
+    © 2023 Xiaotao Shen
+  </p>
+  
+
+  <p class="powered-by footer-license-icons">
+    <a href="https://creativecommons.org/licenses/by-nc-nd/4.0" rel="noopener noreferrer" target="_blank" aria-label="Creative Commons">
+      <i class="fab fa-creative-commons fa-2x" aria-hidden="true"></i>
+      <i class="fab fa-creative-commons-by fa-2x" aria-hidden="true"></i>
+      
+        <i class="fab fa-creative-commons-nc fa-2x" aria-hidden="true"></i>
+      
+      
+        <i class="fab fa-creative-commons-nd fa-2x" aria-hidden="true"></i>
+      
+    </a>
+  </p>
+
+
+
+
+
+  <p class="powered-by">
+    
+    
+    
+      
+      
+      
+      
+      
+      
+      Published with <a href="https://wowchemy.com/?utm_campaign=poweredby" target="_blank" rel="noopener">Wowchemy</a> — the free, <a href="https://github.com/wowchemy/wowchemy-hugo-themes" target="_blank" rel="noopener">open source</a> website builder that empowers creators.
+    
+  </p>
+</footer>
+
+    </div>
+    
+  </div>
+
+  
+
+
+<script src="/js/vendor-bundle.min.f64289d8217e08e3afcd597d60836062.js"></script>
+
+
+
+
+  
+
+  
+  
+
+  
+
+
+
+
+
+
+
+
+
+
+
+
+
+  
+  <script id="search-hit-fuse-template" type="text/x-template">
+    <div class="search-hit" id="summary-{{key}}">
+      <div class="search-hit-content">
+        <div class="search-hit-name">
+          <a href="{{relpermalink}}">{{title}}</a>
+          <div class="article-metadata search-hit-type">{{type}}</div>
+          <p class="search-hit-description">{{snippet}}</p>
+        </div>
+      </div>
+    </div>
+  </script>
+  
+    <script src="https://cdn.jsdelivr.net/gh/krisk/Fuse@v3.2.1/dist/fuse.min.js" integrity="sha512-o38bmzBGX+hD3JHWUFCDA09btWaqrNmoJ3RXLlrysA7PP01Kgs4UlE4MhelE1v5dJR3+cxlR4qQlotsW7jKsnw==" crossorigin="anonymous"></script>
+    <script src="https://cdn.jsdelivr.net/gh/julmot/mark.js@8.11.1/dist/jquery.mark.min.js" integrity="sha512-mhbv5DqBMgrWL+32MmsDOt/OAvqr/cHimk6B8y/bx/xS88MVkYGPiVv2ixKVrkywF2qHplNRUvFsAHUdxZ3Krg==" crossorigin="anonymous"></script>
+  
+
+
+
+
+
+
+
+
+
+
+
+
+  
+  
+  
+  
+  
+  
+  
+
+
+
+
+
+
+
+<script id="page-data" type="application/json">{"use_headroom":true}</script>
+
+
+
+  <script src="/js/wowchemy-headroom.db4755770454eb63685f8de785c0a172.js" type="module"></script>
+
+
+
+
+
+
+
+
+
+  
+  
+
+
+<script src="/en/js/wowchemy.min.ead4a376bcf2c4714888c770ea9b0040.js"></script>
+
+
+
+
+
+
+
+  
+<div id="modal" class="modal fade" role="dialog">
+  <div class="modal-dialog">
+    <div class="modal-content">
+      <div class="modal-header">
+        <h5 class="modal-title">Cite</h5>
+        <button type="button" class="close" data-dismiss="modal" aria-label="Close">
+          <span aria-hidden="true">&times;</span>
+        </button>
+      </div>
+      <div class="modal-body">
+        
+        <pre><code></code></pre>
+      </div>
+      <div class="modal-footer">
+        <a class="btn btn-outline-primary my-1 js-copy-cite" href="#" target="_blank">
+          <i class="fas fa-copy"></i> Copy
+        </a>
+        <a class="btn btn-outline-primary my-1 js-download-cite" href="#" target="_blank">
+          <i class="fas fa-download"></i> Download
+        </a>
+        <div id="modal-error"></div>
+      </div>
+    </div>
+  </div>
+</div>
+
+
+  <script src="/js/wowchemy-publication.68f8d7090562ca65fc6d3cb3f8f2d2cb.js" type="module"></script>
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+</body>
+</html>

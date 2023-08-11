@@ -1,0 +1,2046 @@
+<!DOCTYPE html>
+<!-- This site was created with Wowchemy. https://www.wowchemy.com -->
+<!-- Last Published: August 10, 2023 --><html lang="en-us" >
+
+
+<head>
+  <meta charset="utf-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1" />
+  <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+  
+  
+  
+    <meta name="generator" content="Wowchemy 5.7.0 for Hugo" />
+  
+
+  
+  
+
+
+
+
+
+
+
+
+
+
+
+
+  
+  
+
+
+
+
+
+
+
+
+
+
+  
+
+
+
+
+
+
+
+  
+  
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+  
+
+  
+  
+  
+    
+      
+      <link rel="preload" as="style" href="https://fonts.googleapis.com/css2?family=Bruno+Ace&family=Limelight&family=Poppins:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,100;1,200;1,300;1,400;1,500;1,600;1,700;1,800;1,900&display=swap">
+      <link rel="stylesheet" href="https://fonts.googleapis.com/css2?family=Bruno+Ace&family=Limelight&family=Poppins:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,100;1,200;1,300;1,400;1,500;1,600;1,700;1,800;1,900&display=swap" media="print" onload="this.media='all'">
+    
+  
+
+  
+  
+
+  
+  
+    
+    <script src="/js/mathjax-config.js"></script>
+  
+
+  
+
+  <link rel="stylesheet" href="/css/vendor-bundle.min.047268c6dd09ad74ba54a0ba71837064.css" media="print" onload="this.media='all'">
+
+  
+  
+  
+    
+    
+      <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/academicons@1.9.2/css/academicons.min.css" integrity="sha512-KlJCpRsLf+KKu2VQa5vmRuClRFjxc5lXO03ixZt82HZUk41+1I0bD8KBSA0fY290ayMfWYI9udIqeOWSu1/uZg==" crossorigin="anonymous" media="print" onload="this.media='all'">
+    
+
+    
+    
+    
+    
+      
+      
+    
+    
+    
+
+    
+    
+    
+
+    
+
+    
+    
+      
+      
+
+      
+      
+
+      
+    
+      
+      
+
+      
+      
+
+      
+    
+      
+      
+
+      
+      
+
+      
+    
+      
+      
+
+      
+      
+
+      
+    
+      
+      
+
+      
+      
+
+      
+    
+      
+      
+
+      
+      
+
+      
+    
+      
+      
+
+      
+      
+
+      
+    
+      
+      
+
+      
+      
+
+      
+    
+      
+      
+
+      
+      
+
+      
+    
+      
+      
+
+      
+      
+
+      
+    
+      
+      
+
+      
+      
+
+      
+        <script src="https://cdn.jsdelivr.net/npm/mathjax@3/es5/tex-chtml.js" integrity="" crossorigin="anonymous" async></script>
+      
+    
+      
+      
+
+      
+      
+
+      
+    
+      
+      
+
+      
+      
+
+      
+    
+  
+
+  
+  
+  
+  
+  
+  
+  <link rel="stylesheet" href="/css/wowchemy.00f70589ff95c2db8722b74912195f3f.css" />
+
+  
+  
+  
+
+  
+  
+  
+  
+  
+  
+  
+    
+    
+    <link rel="stylesheet" href="/css/libs/chroma/github-light.min.css" title="hl-light" media="print" onload="this.media='all'" >
+    <link rel="stylesheet" href="/css/libs/chroma/dracula.min.css" title="hl-dark" media="print" onload="this.media='all'" disabled>
+  
+
+  
+  
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+  
+  
+  
+
+
+
+
+
+
+  <meta name="author" content="Xiaotao Shen" />
+
+
+
+
+
+  
+
+<meta name="description" content="1 dplython1.1 安装1.2 简单介绍2 dfply2.1 安装2.2 函数概览2.2.1 &gt;&gt;和&gt;&gt;=管道操作符2.2.2 数据框标志X2.2.3 选择某列或者删除某列(selecting and dropping)2.2.4 对列进行筛选2.2.5 数据框转变2.2.6 分组(grouping)2.2.7 重塑数据框(reshaping)2.2.8 合并(joining)1 dplythondplython是python借鉴R中dplyr包开发的,用于数据tidy的包." />
+
+
+
+<link rel="alternate" hreflang="en-us" href="https://jaspershen.github.io/post/2019-11-29-python-dplyphon/" />
+<link rel="canonical" href="https://jaspershen.github.io/post/2019-11-29-python-dplyphon/" />
+
+
+
+  <link rel="manifest" href="/manifest.webmanifest" />
+
+
+
+<link rel="icon" type="image/png" href="/media/icon_hu805a85e690e4f2727bf7d5f685d888f7_86836_32x32_fill_lanczos_center_3.png" />
+<link rel="apple-touch-icon" type="image/png" href="/media/icon_hu805a85e690e4f2727bf7d5f685d888f7_86836_180x180_fill_lanczos_center_3.png" />
+
+<meta name="theme-color" content="#007C48" />
+
+
+
+
+
+
+
+
+
+
+  
+  
+
+
+
+
+
+
+<meta property="twitter:card" content="summary" />
+
+  <meta property="twitter:site" content="@wowchemy" />
+  <meta property="twitter:creator" content="@wowchemy" />
+<meta property="twitter:image" content="https://jaspershen.github.io/media/icon_hu805a85e690e4f2727bf7d5f685d888f7_86836_512x512_fill_lanczos_center_3.png" />
+<meta property="og:site_name" content="Xiaotao Shen" />
+<meta property="og:url" content="https://jaspershen.github.io/post/2019-11-29-python-dplyphon/" />
+<meta property="og:title" content="Python中与dplyr类似的数据处理包 | Xiaotao Shen" />
+<meta property="og:description" content="1 dplython1.1 安装1.2 简单介绍2 dfply2.1 安装2.2 函数概览2.2.1 &gt;&gt;和&gt;&gt;=管道操作符2.2.2 数据框标志X2.2.3 选择某列或者删除某列(selecting and dropping)2.2.4 对列进行筛选2.2.5 数据框转变2.2.6 分组(grouping)2.2.7 重塑数据框(reshaping)2.2.8 合并(joining)1 dplythondplython是python借鉴R中dplyr包开发的,用于数据tidy的包." /><meta property="og:image" content="https://jaspershen.github.io/media/icon_hu805a85e690e4f2727bf7d5f685d888f7_86836_512x512_fill_lanczos_center_3.png" /><meta property="og:locale" content="en-us" />
+
+  
+    <meta
+      property="article:published_time"
+      content="2019-11-29T00:00:00&#43;00:00"
+    />
+  
+  
+    <meta property="article:modified_time" content="2019-11-29T00:00:00&#43;00:00">
+  
+
+
+
+
+
+
+    
+
+
+
+
+
+
+  
+
+
+
+
+<script type="application/ld+json">
+{
+  "@context": "https://schema.org",
+  "@type": "BlogPosting",
+  "mainEntityOfPage": {
+    "@type": "WebPage",
+    "@id": "https://jaspershen.github.io/post/2019-11-29-python-dplyphon/"
+  },
+  "headline": "Python中与dplyr类似的数据处理包",
+  
+  "datePublished": "2019-11-29T00:00:00Z",
+  "dateModified": "2019-11-29T00:00:00Z",
+  
+  "author": {
+    "@type": "Person",
+    "name": "Xiaotao Shen"
+  },
+  
+  "publisher": {
+    "@type": "Organization",
+    "name": "Xiaotao Shen",
+    "logo": {
+      "@type": "ImageObject",
+      "url": "https://jaspershen.github.io/media/icon_hu805a85e690e4f2727bf7d5f685d888f7_86836_192x192_fill_lanczos_center_3.png"
+    }
+  },
+  "description": "1 dplython\r1.1 安装\r1.2 简单介绍\r2 dfply\r2.1 安装\r2.2 函数概览\r2.2.1 \u0026gt;\u0026gt;和\u0026gt;\u0026gt;=管道操作符\r2.2.2 数据框标志X\r2.2.3 选择某列或者删除某列(selecting and dropping)\r2.2.4 对列进行筛选\r2.2.5 数据框转变\r2.2.6 分组(grouping)\r2.2.7 重塑数据框(reshaping)\r2.2.8 合并(joining)\r1 dplython\rdplython是python借鉴R中dplyr包开发的,用于数据tidy的包."
+}
+</script>
+
+  
+
+  
+
+
+
+
+  
+  
+  
+
+  
+  
+
+  
+
+
+  
+  <title>Python中与dplyr类似的数据处理包 | Xiaotao Shen</title>
+
+  
+  
+  
+  
+
+
+
+
+
+
+
+
+
+
+
+</head>
+
+
+<body id="top" data-spy="scroll" data-offset="70" data-target="#TableOfContents" class="page-wrapper   " data-wc-page-id="74b5f6e6f1e5c00ea56cc9fa28a5912b" >
+
+  
+  
+  
+  
+  
+  
+  
+  
+  
+  <script src="/js/wowchemy-init.min.c51bb6301bb2be5edd35b3630c50ed3a.js"></script>
+
+  
+
+
+<aside class="search-modal" id="search">
+  <div class="container">
+    <section class="search-header">
+
+      <div class="row no-gutters justify-content-between mb-3">
+        <div class="col-6">
+          <h1>Search</h1>
+        </div>
+        <div class="col-6 col-search-close">
+          <a class="js-search" href="#" aria-label="Close"><i class="fas fa-times-circle text-muted" aria-hidden="true"></i></a>
+        </div>
+      </div>
+
+      <div id="search-box">
+        
+        <input name="q" id="search-query" placeholder="Search..." autocapitalize="off"
+        autocomplete="off" autocorrect="off" spellcheck="false" type="search" class="form-control"
+        aria-label="Search...">
+        
+      </div>
+
+      
+      
+
+      
+
+    </section>
+    <section class="section-search-results">
+
+      <div id="search-hits">
+        
+      </div>
+
+    </section>
+  </div>
+</aside>
+
+
+
+  <div class="page-header header--fixed">
+  
+  
+  
+  
+  
+
+
+
+
+
+
+
+
+
+
+
+
+<header>
+  <nav class="navbar navbar-expand-lg navbar-light compensate-for-scrollbar" id="navbar-main">
+    <div class="container-xl">
+
+      
+      <div class="d-none d-lg-inline-flex">
+        <a class="navbar-brand" href="/">Xiaotao Shen</a>
+      </div>
+      
+
+      
+      <button type="button" class="navbar-toggler" data-toggle="collapse"
+              data-target="#navbar-content" aria-controls="navbar-content" aria-expanded="false" aria-label="Toggle navigation">
+      <span><i class="fas fa-bars"></i></span>
+      </button>
+      
+
+      
+      <div class="navbar-brand-mobile-wrapper d-inline-flex d-lg-none">
+        <a class="navbar-brand" href="/">Xiaotao Shen</a>
+      </div>
+      
+
+      
+      
+      <div class="navbar-collapse main-menu-item collapse justify-content-start" id="navbar-content">
+
+        
+        <ul class="navbar-nav d-md-inline-flex">
+          
+
+          
+
+          
+          
+          
+            
+          
+
+          
+
+          
+          
+          
+          
+
+          
+            
+              
+              
+            
+            
+              
+              
+              
+                
+              
+              
+            
+          
+
+          <li class="nav-item">
+            <a class="nav-link " href="/#about"><span>🏠 About</span></a>
+          </li>
+
+          
+          
+
+          
+
+          
+          
+          
+            
+          
+
+          
+
+          
+          
+          
+          
+
+          
+            
+              
+              
+            
+            
+              
+              
+              
+                
+              
+              
+            
+          
+
+          <li class="nav-item">
+            <a class="nav-link " href="/#posts"><span>📖 Posts</span></a>
+          </li>
+
+          
+          
+
+          
+
+          
+          
+          
+            
+          
+
+          
+
+          
+          
+          
+          
+
+          
+            
+              
+              
+            
+            
+              
+              
+              
+                
+              
+              
+            
+          
+
+          <li class="nav-item">
+            <a class="nav-link " href="/#projects"><span>💻 Projects</span></a>
+          </li>
+
+          
+          
+
+          
+
+          
+          
+          
+            
+          
+
+          
+
+          
+          
+          
+          
+
+          
+            
+              
+              
+            
+            
+              
+              
+              
+                
+              
+              
+            
+          
+
+          <li class="nav-item">
+            <a class="nav-link " href="/#talks"><span>🗣️ Talks</span></a>
+          </li>
+
+          
+          
+
+          
+
+          
+          
+          
+            
+          
+
+          
+
+          
+          
+          
+          
+
+          
+            
+              
+              
+            
+            
+              
+              
+              
+                
+              
+              
+            
+          
+
+          <li class="nav-item">
+            <a class="nav-link " href="/#featured"><span>🗞️ Publications</span></a>
+          </li>
+
+          
+          
+
+          
+
+          
+          
+          
+            
+          
+
+          
+
+          
+          
+          
+          
+
+          
+            
+              
+              
+            
+            
+              
+              
+              
+                
+              
+              
+            
+          
+
+          <li class="nav-item">
+            <a class="nav-link " href="/#contact"><span>📥 Contact</span></a>
+          </li>
+
+          
+          
+
+        
+
+          
+        </ul>
+      </div>
+
+      <ul class="nav-icons navbar-nav flex-row ml-auto d-flex pl-md-2">
+
+        
+        
+          
+            
+            <li class="nav-item d-none d-lg-inline-flex">
+              <a class="nav-link" href="https://twitter.com/GeorgeCushen" target="_blank" rel="noopener" aria-label="github">
+                <i class="fab fa-github" aria-hidden="true"></i>
+              </a>
+            </li>
+          
+        
+
+        
+        
+        
+        <li class="nav-item">
+          <a class="nav-link js-search" href="#" aria-label="Search"><i class="fas fa-search" aria-hidden="true"></i></a>
+        </li>
+        
+
+        
+        
+        
+        <li class="nav-item dropdown theme-dropdown">
+          <a href="#" class="nav-link" data-toggle="dropdown" aria-haspopup="true" aria-label="Display preferences">
+            <i class="fas fa-moon" aria-hidden="true"></i>
+          </a>
+          <div class="dropdown-menu">
+            <a href="#" class="dropdown-item js-set-theme-light">
+              <span>Light</span>
+            </a>
+            <a href="#" class="dropdown-item js-set-theme-dark">
+              <span>Dark</span>
+            </a>
+            <a href="#" class="dropdown-item js-set-theme-auto">
+              <span>Automatic</span>
+            </a>
+          </div>
+        </li>
+        
+
+        
+        
+
+      </ul>
+
+    </div>
+  </nav>
+</header>
+
+
+  </div>
+
+  <div class="page-body">
+    
+    
+    
+
+    <article class="article">
+
+  
+
+
+
+
+
+
+
+
+
+
+
+
+
+  
+
+  
+  
+  
+<div class="article-container pt-3">
+  <h1>Python中与dplyr类似的数据处理包</h1>
+
+  
+
+  
+    
+
+
+<div class="article-metadata">
+
+  
+  
+
+  
+  <span class="article-date">
+    
+    
+      
+    
+    Nov 29, 2019
+  </span>
+  
+
+  
+
+  
+  <span class="middot-divider"></span>
+  <span class="article-reading-time">
+    14 min read
+  </span>
+  
+
+  
+  
+  
+  
+
+  
+  
+  <span class="middot-divider"></span>
+  <span class="article-categories">
+    <i class="fas fa-folder mr-1"></i><a href="/category/python/">Python</a></span>
+  
+
+</div>
+
+    
+
+
+
+
+
+  
+</div>
+
+
+
+  <div class="article-container">
+
+    <div class="article-style">
+      
+
+<div id="TOC">
+<ul>
+<li><a href="#dplython"><span class="toc-section-number">1</span> dplython</a><ul>
+<li><a href="#安装"><span class="toc-section-number">1.1</span> 安装</a></li>
+<li><a href="#简单介绍"><span class="toc-section-number">1.2</span> 简单介绍</a></li>
+</ul></li>
+<li><a href="#dfply"><span class="toc-section-number">2</span> dfply</a><ul>
+<li><a href="#安装-1"><span class="toc-section-number">2.1</span> 安装</a></li>
+<li><a href="#函数概览"><span class="toc-section-number">2.2</span> 函数概览</a><ul>
+<li><a href="#和管道操作符"><span class="toc-section-number">2.2.1</span> <code>&gt;&gt;</code>和<code>&gt;&gt;=</code>管道操作符</a></li>
+<li><a href="#数据框标志x"><span class="toc-section-number">2.2.2</span> 数据框标志<code>X</code></a></li>
+<li><a href="#选择某列或者删除某列selecting-and-dropping"><span class="toc-section-number">2.2.3</span> 选择某列或者删除某列(selecting and dropping)</a></li>
+<li><a href="#对列进行筛选"><span class="toc-section-number">2.2.4</span> 对列进行筛选</a></li>
+<li><a href="#数据框转变"><span class="toc-section-number">2.2.5</span> 数据框转变</a></li>
+<li><a href="#分组grouping"><span class="toc-section-number">2.2.6</span> 分组(grouping)</a></li>
+<li><a href="#重塑数据框reshaping"><span class="toc-section-number">2.2.7</span> 重塑数据框(reshaping)</a></li>
+<li><a href="#合并joining"><span class="toc-section-number">2.2.8</span> 合并(joining)</a></li>
+</ul></li>
+</ul></li>
+</ul>
+</div>
+
+<div id="dplython" class="section level1">
+<h1><span class="header-section-number">1</span> dplython</h1>
+<p><code>dplython</code>是python借鉴R中<code>dplyr</code>包开发的,用于数据tidy的包.基本语法跟R非常像,而且还支持管道函数(操作符<code>&gt;&gt;</code>).对于我这种从R转python的人来说,用起来会更加熟悉和方便.</p>
+<p>官网在这.</p>
+<p><a href="https://pythonhosted.org/dplython/" class="uri">https://pythonhosted.org/dplython/</a></p>
+<div id="安装" class="section level2">
+<h2><span class="header-section-number">1.1</span> 安装</h2>
+<pre><code>pip install dplython</code></pre>
+<p>也可以从github上安装最新开发版本.</p>
+<pre><code>pip install git+https://github.com/dodger487/dplython.git</code></pre>
+</div>
+<div id="简单介绍" class="section level2">
+<h2><span class="header-section-number">1.2</span> 简单介绍</h2>
+<p>加载所需要的包.</p>
+<pre class="python"><code>import pandas as pd
+import numpy as np
+import dplython as dply
+from dplython import (DplyFrame, X, diamonds, select, sift,
+  sample_n, sample_frac, head, arrange, mutate, group_by,
+  summarize, DelayFunction)</code></pre>
+<p>支持管道符操作,但是如果要将每一个操作写作一行,需要使用小括号将其括起来.</p>
+<pre class="python"><code>diamonds &gt;&gt; head</code></pre>
+<pre><code>##    Unnamed: 0  carat      cut color clarity  ...  table  price     x     y     z
+## 0           1   0.23    Ideal     E     SI2  ...   55.0    326  3.95  3.98  2.43
+## 1           2   0.21  Premium     E     SI1  ...   61.0    326  3.89  3.84  2.31
+## 2           3   0.23     Good     E     VS1  ...   65.0    327  4.05  4.07  2.31
+## 3           4   0.29  Premium     I     VS2  ...   58.0    334  4.20  4.23  2.63
+## 4           5   0.31     Good     J     SI2  ...   58.0    335  4.34  4.35  2.75
+## 
+## [5 rows x 11 columns]</code></pre>
+<pre class="python"><code>(
+diamonds &gt;&gt;
+head(5)
+)</code></pre>
+<pre><code>##    Unnamed: 0  carat      cut color clarity  ...  table  price     x     y     z
+## 0           1   0.23    Ideal     E     SI2  ...   55.0    326  3.95  3.98  2.43
+## 1           2   0.21  Premium     E     SI1  ...   61.0    326  3.89  3.84  2.31
+## 2           3   0.23     Good     E     VS1  ...   65.0    327  4.05  4.07  2.31
+## 3           4   0.29  Premium     I     VS2  ...   58.0    334  4.20  4.23  2.63
+## 4           5   0.31     Good     J     SI2  ...   58.0    335  4.34  4.35  2.75
+## 
+## [5 rows x 11 columns]</code></pre>
+<p>再<code>dplyr</code>中,进行行筛选的函数为<code>filter()</code>,但是在<code>dplython</code>中,函数名为<code>sift()</code>,暂时不知道为什么要改名,猜想可能是由于和python自带函数冲突.</p>
+<p>列名不能直接引用,需要使用dplython中的<code>X</code>来引用.</p>
+<blockquote>
+<p>X.foo will refer to the “foo” column of the DataFrame in which it is later applied.</p>
+</blockquote>
+<pre class="python"><code>(
+diamonds &gt;&gt; 
+sift(X.carat &gt; 4) &gt;&gt; 
+select(X.carat, X.cut, X.depth, X.price)
+)</code></pre>
+<pre><code>##        carat      cut  depth  price
+## 25998   4.01  Premium   61.0  15223
+## 25999   4.01  Premium   62.5  15223
+## 27130   4.13     Fair   64.8  17329
+## 27415   5.01     Fair   65.5  18018
+## 27630   4.50     Fair   65.8  18531</code></pre>
+<pre class="python"><code>(diamonds &gt;&gt;
+  sample_n(10) &gt;&gt;
+  arrange(X.carat) &gt;&gt;
+  select(X.carat, X.cut, X.depth, X.price))
+  </code></pre>
+<pre><code>##        carat        cut  depth  price
+## 34904   0.34    Premium   59.2    880
+## 41186   0.39      Ideal   61.6   1201
+## 40502   0.43  Very Good   60.7   1143
+## 52362   0.54      Ideal   61.1   2502
+## 53392   0.77       Good   63.8   2665
+## 6651    0.90    Premium   62.7   4092
+## 6643    0.90      Ideal   62.7   4091
+## 5532    0.92  Very Good   62.1   3854
+## 9229    1.02    Premium   61.9   4558
+## 27546   2.05    Premium   61.8  18318</code></pre>
+<pre class="python"><code>(diamonds &gt;&gt;
+  mutate(carat_bin=X.carat.round()) &gt;&gt;
+  group_by(X.cut, X.carat_bin) &gt;&gt;
+  summarize(avg_price=X.price.mean()))</code></pre>
+<pre><code>##           cut  carat_bin     avg_price
+## 0        Fair        0.0   1027.979275
+## 1        Fair        1.0   3305.754579
+## 2        Fair        2.0   9588.269737
+## 3        Fair        3.0  13466.823529
+## 4        Fair        4.0  15842.666667
+## 5        Fair        5.0  18018.000000
+## 6        Good        0.0    786.054191
+## 7        Good        1.0   3815.307879
+## 8        Good        2.0  11096.950321
+## 9        Good        3.0  15924.176471
+## 10      Ideal        0.0    863.908535
+## 11      Ideal        1.0   4213.864948
+## 12      Ideal        2.0  12838.984078
+## 13      Ideal        3.0  16156.681818
+## 14      Ideal        4.0  12587.000000
+## 15    Premium        0.0    863.329085
+## 16    Premium        1.0   4382.906453
+## 17    Premium        2.0  12337.020064
+## 18    Premium        3.0  15636.047619
+## 19    Premium        4.0  16335.000000
+## 20  Very Good        0.0    766.354590
+## 21  Very Good        1.0   4135.271007
+## 22  Very Good        2.0  12281.851661
+## 23  Very Good        3.0  15053.555556
+## 24  Very Good        4.0  15984.000000</code></pre>
+<p>需要注意的是,使用管道函数,第一行为要处理的数据,第二行开始,都要缩进.</p>
+<p>但是作者已经3年没有维护这个包了,所以感觉有点悬,有可能废掉了,所以还是别用了.</p>
+</div>
+</div>
+<div id="dfply" class="section level1">
+<h1><span class="header-section-number">2</span> dfply</h1>
+<p>另外一个将<code>dplyr</code>移植到python的包是<code>dfply</code>,可能更加可靠一些.</p>
+<p>官网如下:</p>
+<p><a href="https://github.com/kieferk/dfply#the--and--pipe-operators" class="uri">https://github.com/kieferk/dfply#the--and--pipe-operators</a></p>
+<p><a href="https://github.com/kieferk/dfply" class="uri">https://github.com/kieferk/dfply</a></p>
+<div id="安装-1" class="section level2">
+<h2><span class="header-section-number">2.1</span> 安装</h2>
+<pre><code>pip install dfply</code></pre>
+</div>
+<div id="函数概览" class="section level2">
+<h2><span class="header-section-number">2.2</span> 函数概览</h2>
+<div id="和管道操作符" class="section level3">
+<h3><span class="header-section-number">2.2.1</span> <code>&gt;&gt;</code>和<code>&gt;&gt;=</code>管道操作符</h3>
+<p>在R中,管道操作符为<code>%&gt;%</code>,在python中,改为<code>&gt;&gt;</code>.</p>
+<pre class="python"><code>from dfply import *
+diamonds &gt;&gt; head(5)</code></pre>
+<pre><code>##    carat      cut color clarity  depth  table  price     x     y     z
+## 0   0.23    Ideal     E     SI2   61.5   55.0    326  3.95  3.98  2.43
+## 1   0.21  Premium     E     SI1   59.8   61.0    326  3.89  3.84  2.31
+## 2   0.23     Good     E     VS1   56.9   65.0    327  4.05  4.07  2.31
+## 3   0.29  Premium     I     VS2   62.4   58.0    334  4.20  4.23  2.63
+## 4   0.31     Good     J     SI2   63.3   58.0    335  4.34  4.35  2.75</code></pre>
+<pre class="python"><code>(
+diamonds &gt;&gt;
+  head(5)
+)</code></pre>
+<pre><code>##    carat      cut color clarity  depth  table  price     x     y     z
+## 0   0.23    Ideal     E     SI2   61.5   55.0    326  3.95  3.98  2.43
+## 1   0.21  Premium     E     SI1   59.8   61.0    326  3.89  3.84  2.31
+## 2   0.23     Good     E     VS1   56.9   65.0    327  4.05  4.07  2.31
+## 3   0.29  Premium     I     VS2   62.4   58.0    334  4.20  4.23  2.63
+## 4   0.31     Good     J     SI2   63.3   58.0    335  4.34  4.35  2.75</code></pre>
+<p>同样的,如果每一个操作都开始新的一行的话,需要使用小括号将他们括起来.</p>
+<p>将处理之后的数据框赋予一个新的变量名的时候,需要注意变量名等号和小括号的左半部分需要在同一行.</p>
+<pre class="python"><code>new = (
+diamonds &gt;&gt;
+  tail(5)
+)
+new</code></pre>
+<pre><code>##        carat        cut color clarity  depth  table  price     x     y     z
+## 53935   0.72      Ideal     D     SI1   60.8   57.0   2757  5.75  5.76  3.50
+## 53936   0.72       Good     D     SI1   63.1   55.0   2757  5.69  5.75  3.61
+## 53937   0.70  Very Good     D     SI1   62.8   60.0   2757  5.66  5.68  3.56
+## 53938   0.86    Premium     H     SI2   61.0   58.0   2757  6.15  6.12  3.74
+## 53939   0.75      Ideal     D     SI2   62.2   55.0   2757  5.83  5.87  3.64</code></pre>
+<p>另外一个管道操作符<code>&gt;&gt;=</code>意味着对原始数据直接进行修改后付给这个变量.</p>
+<pre class="python"><code>diamonds2 = diamonds.copy()
+diamonds2 &gt;&gt; head(5)</code></pre>
+<pre><code>##    carat      cut color clarity  depth  table  price     x     y     z
+## 0   0.23    Ideal     E     SI2   61.5   55.0    326  3.95  3.98  2.43
+## 1   0.21  Premium     E     SI1   59.8   61.0    326  3.89  3.84  2.31
+## 2   0.23     Good     E     VS1   56.9   65.0    327  4.05  4.07  2.31
+## 3   0.29  Premium     I     VS2   62.4   58.0    334  4.20  4.23  2.63
+## 4   0.31     Good     J     SI2   63.3   58.0    335  4.34  4.35  2.75</code></pre>
+<pre class="python"><code>diamonds2 &gt;&gt;= head(5)
+diamonds2</code></pre>
+<pre><code>##    carat      cut color clarity  depth  table  price     x     y     z
+## 0   0.23    Ideal     E     SI2   61.5   55.0    326  3.95  3.98  2.43
+## 1   0.21  Premium     E     SI1   59.8   61.0    326  3.89  3.84  2.31
+## 2   0.23     Good     E     VS1   56.9   65.0    327  4.05  4.07  2.31
+## 3   0.29  Premium     I     VS2   62.4   58.0    334  4.20  4.23  2.63
+## 4   0.31     Good     J     SI2   63.3   58.0    335  4.34  4.35  2.75</code></pre>
+<pre class="python"><code>diamonds &gt;&gt; head(10)</code></pre>
+<pre><code>##    carat        cut color clarity  depth  table  price     x     y     z
+## 0   0.23      Ideal     E     SI2   61.5   55.0    326  3.95  3.98  2.43
+## 1   0.21    Premium     E     SI1   59.8   61.0    326  3.89  3.84  2.31
+## 2   0.23       Good     E     VS1   56.9   65.0    327  4.05  4.07  2.31
+## 3   0.29    Premium     I     VS2   62.4   58.0    334  4.20  4.23  2.63
+## 4   0.31       Good     J     SI2   63.3   58.0    335  4.34  4.35  2.75
+## 5   0.24  Very Good     J    VVS2   62.8   57.0    336  3.94  3.96  2.48
+## 6   0.24  Very Good     I    VVS1   62.3   57.0    336  3.95  3.98  2.47
+## 7   0.26  Very Good     H     SI1   61.9   55.0    337  4.07  4.11  2.53
+## 8   0.22       Fair     E     VS2   65.1   61.0    337  3.87  3.78  2.49
+## 9   0.23  Very Good     H     VS1   59.4   61.0    338  4.00  4.05  2.39</code></pre>
+</div>
+<div id="数据框标志x" class="section level3">
+<h3><span class="header-section-number">2.2.2</span> 数据框标志<code>X</code></h3>
+<p>在管道操作符中,将数据框传到后面的函数中,需要使用<code>X</code>标志来代表.在R中,我们可以直接使用数据框的列名来引用每一列,在python中,需要使用<code>X</code>来表示.</p>
+<pre class="python"><code>diamonds &gt;&gt; select(X.carat, X.cut) &gt;&gt; head(5)</code></pre>
+<pre><code>##    carat      cut
+## 0   0.23    Ideal
+## 1   0.21  Premium
+## 2   0.23     Good
+## 3   0.29  Premium
+## 4   0.31     Good</code></pre>
+</div>
+<div id="选择某列或者删除某列selecting-and-dropping" class="section level3">
+<h3><span class="header-section-number">2.2.3</span> 选择某列或者删除某列(selecting and dropping)</h3>
+<p>在R中,使用<code>select</code>函数可以完成选择和删除,在删除某列时,直接在前面加上减号就可以了.但是在python中,<code>select</code>也可以完成删除列,只是减号改为<code>~</code>.但是对于删除列,还有一个专门的函数,<code>drop()</code>.</p>
+<p>选择列的时候,既可以使用列的index,也可以使用<code>X</code>符合以及引号括起来的列名进行选择.可惜的是,暂时看到是不支持切片的.</p>
+<pre class="python"><code>(
+diamonds &gt;&gt; 
+  select(0, X.price, &quot;x&quot;, [&#39;y&#39;, &#39;z&#39;]) &gt;&gt;
+  head(5)
+)
+</code></pre>
+<pre><code>##    carat  price     x     y     z
+## 0   0.23    326  3.95  3.98  2.43
+## 1   0.21    326  3.89  3.84  2.31
+## 2   0.23    327  4.05  4.07  2.31
+## 3   0.29    334  4.20  4.23  2.63
+## 4   0.31    335  4.34  4.35  2.75</code></pre>
+<pre class="python"><code>(
+diamonds &gt;&gt;
+  select([&#39;carat&#39;,&#39;price&#39;]) &gt;&gt;
+  head(5)
+)</code></pre>
+<pre><code>##    carat  price
+## 0   0.23    326
+## 1   0.21    326
+## 2   0.23    327
+## 3   0.29    334
+## 4   0.31    335</code></pre>
+<pre class="python"><code>(
+diamonds &gt;&gt;
+  drop(1, X.price, [&#39;x&#39;, &#39;y&#39;]) &gt;&gt;
+  head()
+)</code></pre>
+<pre><code>##    carat color clarity  depth  table     z
+## 0   0.23     E     SI2   61.5   55.0  2.43
+## 1   0.21     E     SI1   59.8   61.0  2.31
+## 2   0.23     E     VS1   56.9   65.0  2.31
+## 3   0.29     I     VS2   62.4   58.0  2.63
+## 4   0.31     J     SI2   63.3   58.0  2.75</code></pre>
+<pre class="python"><code>(
+diamonds &gt;&gt;
+  select(~0, ~X.price) &gt;&gt;
+  head(5)
+)</code></pre>
+<pre><code>##       z
+## 0  2.43
+## 1  2.31
+## 2  2.31
+## 3  2.63
+## 4  2.75</code></pre>
+<div id="selection-filter函数" class="section level4">
+<h4><span class="header-section-number">2.2.3.1</span> Selection filter函数</h4>
+<p>和<code>dplyr</code>类似,也有很多配合使用的函数.</p>
+<table>
+<colgroup>
+<col width="52%" />
+<col width="47%" />
+</colgroup>
+<thead>
+<tr class="header">
+<th>Function</th>
+<th>Meaning</th>
+</tr>
+</thead>
+<tbody>
+<tr class="odd">
+<td><code>starts_with(prefix)</code></td>
+<td>find columns that start with a string prefix.</td>
+</tr>
+<tr class="even">
+<td><code>ends_with(suffix)</code></td>
+<td>find columns that end with a string suffix.</td>
+</tr>
+<tr class="odd">
+<td><code>contains(substr)</code></td>
+<td>find columns that contain a substring in their name.</td>
+</tr>
+<tr class="even">
+<td><code>everything()</code></td>
+<td>all columns.</td>
+</tr>
+<tr class="odd">
+<td><code>columns_between(start_col, end_col, inclusive=True)</code></td>
+<td>find columns between a specified start and end column. The inclusive boolean keyword argument indicates whether the end column should be included or not.</td>
+</tr>
+<tr class="even">
+<td><code>columns_to(end_col, inclusive=True)</code></td>
+<td>get columns up to a specified end column. The inclusive argument indicates whether the ending column should be included or not.</td>
+</tr>
+<tr class="odd">
+<td><code>columns_from(start_col)</code></td>
+<td>get the columns starting at a specified column.</td>
+</tr>
+</tbody>
+</table>
+<p>因为<code>dfply</code>并不支持切片,所以可以看到,分别提供了三个函数用来代替切片的功能.</p>
+<pre class="python"><code>(
+diamonds &gt;&gt;
+  select(columns_between(&quot;carat&quot;, &quot;color&quot;)) &gt;&gt;
+  head(5)
+)</code></pre>
+<pre><code>##    carat      cut color
+## 0   0.23    Ideal     E
+## 1   0.21  Premium     E
+## 2   0.23     Good     E
+## 3   0.29  Premium     I
+## 4   0.31     Good     J</code></pre>
+<pre class="python"><code>(
+diamonds &gt;&gt;
+  select(columns_to(&quot;color&quot;)) &gt;&gt;
+  head(5)
+)</code></pre>
+<pre><code>##    carat      cut
+## 0   0.23    Ideal
+## 1   0.21  Premium
+## 2   0.23     Good
+## 3   0.29  Premium
+## 4   0.31     Good</code></pre>
+<pre class="python"><code>(
+diamonds &gt;&gt;
+  select(columns_from(&quot;color&quot;)) &gt;&gt;
+  head(5)
+)</code></pre>
+<pre><code>##   color clarity  depth  table  price     x     y     z
+## 0     E     SI2   61.5   55.0    326  3.95  3.98  2.43
+## 1     E     SI1   59.8   61.0    326  3.89  3.84  2.31
+## 2     E     VS1   56.9   65.0    327  4.05  4.07  2.31
+## 3     I     VS2   62.4   58.0    334  4.20  4.23  2.63
+## 4     J     SI2   63.3   58.0    335  4.34  4.35  2.75</code></pre>
+<pre class="python"><code>diamonds &gt;&gt; select(columns_to(1, inclusive=True), &#39;depth&#39;, columns_from(-2)) &gt;&gt; head(2)</code></pre>
+<pre><code>##    carat      cut  depth     y     z
+## 0   0.23    Ideal   61.5  3.98  2.43
+## 1   0.21  Premium   59.8  3.84  2.31</code></pre>
+</div>
+</div>
+<div id="对列进行筛选" class="section level3">
+<h3><span class="header-section-number">2.2.4</span> 对列进行筛选</h3>
+<div id="row_slice" class="section level4">
+<h4><span class="header-section-number">2.2.4.1</span> <code>row_slice()</code></h4>
+<p>与<code>pandas</code>的<code>iloc</code>方法类似,使用index对列筛选.</p>
+<p>问题是,仍然不支持切片.但是可以和<code>group_by</code>联合使用,从而选出每一组的固定行.</p>
+<pre class="python"><code>diamonds &gt;&gt; row_slice([10,15])</code></pre>
+<pre><code>##     carat      cut color clarity  depth  table  price     x     y     z
+## 10   0.30     Good     J     SI1   64.0   55.0    339  4.25  4.28  2.73
+## 15   0.32  Premium     E      I1   60.9   58.0    345  4.38  4.42  2.68</code></pre>
+<pre class="python"><code>diamonds &gt;&gt; group_by(&#39;cut&#39;) &gt;&gt; row_slice(5)</code></pre>
+<pre><code>##      carat        cut color clarity  depth  table  price     x     y     z
+## 128   0.91       Fair     H     SI2   64.4   57.0   2763  6.11  6.09  3.93
+## 20    0.30       Good     I     SI2   63.3   56.0    351  4.26  4.30  2.71
+## 40    0.33      Ideal     I     SI2   61.2   56.0    403  4.49  4.50  2.75
+## 26    0.24    Premium     I     VS1   62.5   57.0    355  3.97  3.94  2.47
+## 21    0.23  Very Good     E     VS2   63.8   55.0    352  3.85  3.92  2.48</code></pre>
+</div>
+<div id="sample函数" class="section level4">
+<h4><span class="header-section-number">2.2.4.2</span> <code>sample()</code>函数</h4>
+<p>和<code>pandas</code>的<code>.sample()</code>方法类似,可以用于随机抽取列.</p>
+<pre class="python"><code>diamonds &gt;&gt; sample(frac=0.0001, replace=False)</code></pre>
+<pre><code>##        carat        cut color clarity  depth  table  price     x     y     z
+## 35971   0.40    Premium     F     SI1   61.7   62.0    920  4.76  4.71  2.92
+## 12741   1.01      Ideal     H     VS2   60.6   57.0   5317  6.54  6.49  3.95
+## 23321   1.03      Ideal     F      IF   61.3   56.0  11365  6.53  6.55  4.01
+## 37784   0.53  Very Good     G     SI2   62.5   55.0   1000  5.14  5.19  3.23
+## 8715    0.37      Ideal     G     SI1   62.0   55.0    586  4.62  4.64  2.87</code></pre>
+<pre class="python"><code>diamonds &gt;&gt; sample(n=3, replace=True)</code></pre>
+<pre><code>##        carat        cut color clarity  depth  table  price     x     y     z
+## 4188    0.83      Ideal     F     SI1   62.2   55.0   3560  6.01  6.03  3.74
+## 19620   1.26      Ideal     H     VS1   60.9   57.0   8238  6.97  6.99  4.25
+## 43303   0.61  Very Good     I     VS2   63.4   55.0   1401  5.46  5.42  3.45</code></pre>
+</div>
+<div id="distinct函数" class="section level4">
+<h4><span class="header-section-number">2.2.4.3</span> <code>distinct()</code>函数</h4>
+<p>只保留唯一不重复的行.传入的参数为列名,可以是多个列.与<code>pandas</code>的<code>.drop_duolicates()</code>方法类似.</p>
+<pre class="python"><code>diamonds &gt;&gt; distinct(X.color, X.price) &gt;&gt; head(5)</code></pre>
+<pre><code>##    carat        cut color clarity  depth  table  price     x     y     z
+## 0   0.23      Ideal     E     SI2   61.5   55.0    326  3.95  3.98  2.43
+## 2   0.23       Good     E     VS1   56.9   65.0    327  4.05  4.07  2.31
+## 3   0.29    Premium     I     VS2   62.4   58.0    334  4.20  4.23  2.63
+## 4   0.31       Good     J     SI2   63.3   58.0    335  4.34  4.35  2.75
+## 5   0.24  Very Good     J    VVS2   62.8   57.0    336  3.94  3.96  2.48</code></pre>
+</div>
+<div id="mask和filter_by函数" class="section level4">
+<h4><span class="header-section-number">2.2.4.4</span> <code>mask()</code>和<code>filter_by()</code>函数</h4>
+<p>类似于<code>dplyr</code>中的<code>filter()</code>函数.这两个函数是等价的.</p>
+<pre class="python"><code>diamonds &gt;&gt; mask(X.cut == &#39;Ideal&#39;) &gt;&gt; head(4)</code></pre>
+<pre><code>##     carat    cut color clarity  depth  table  price     x     y     z
+## 0    0.23  Ideal     E     SI2   61.5   55.0    326  3.95  3.98  2.43
+## 11   0.23  Ideal     J     VS1   62.8   56.0    340  3.93  3.90  2.46
+## 13   0.31  Ideal     J     SI2   62.2   54.0    344  4.35  4.37  2.71
+## 16   0.30  Ideal     I     SI2   62.0   54.0    348  4.31  4.34  2.68</code></pre>
+<pre class="python"><code>diamonds &gt;&gt; mask(X.cut == &#39;Ideal&#39;, X.color == &#39;E&#39;, X.table &lt; 55, X.price &lt; 500)</code></pre>
+<pre><code>##        carat    cut color clarity  depth  table  price     x     y     z
+## 26683   0.33  Ideal     E     SI2   62.2   54.0    427  4.44  4.46  2.77
+## 32297   0.34  Ideal     E     SI2   62.4   54.0    454  4.49  4.52  2.81
+## 40928   0.30  Ideal     E     SI1   61.6   54.0    499  4.32  4.35  2.67
+## 50623   0.30  Ideal     E     SI2   62.1   54.0    401  4.32  4.35  2.69
+## 50625   0.30  Ideal     E     SI2   62.0   54.0    401  4.33  4.35  2.69</code></pre>
+<pre class="python"><code>diamonds &gt;&gt; filter_by(X.cut == &#39;Ideal&#39;, X.color == &#39;E&#39;, X.table &lt; 55, X.price &lt; 500)</code></pre>
+<pre><code>##        carat    cut color clarity  depth  table  price     x     y     z
+## 26683   0.33  Ideal     E     SI2   62.2   54.0    427  4.44  4.46  2.77
+## 32297   0.34  Ideal     E     SI2   62.4   54.0    454  4.49  4.52  2.81
+## 40928   0.30  Ideal     E     SI1   61.6   54.0    499  4.32  4.35  2.67
+## 50623   0.30  Ideal     E     SI2   62.1   54.0    401  4.32  4.35  2.69
+## 50625   0.30  Ideal     E     SI2   62.0   54.0    401  4.33  4.35  2.69</code></pre>
+</div>
+<div id="pull函数" class="section level4">
+<h4><span class="header-section-number">2.2.4.5</span> <code>pull()</code>函数</h4>
+<p>与<code>dplyr</code>中函数同名且功能相同.</p>
+<pre class="python"><code>(diamonds
+ &gt;&gt; filter_by(X.cut == &#39;Ideal&#39;, X.color == &#39;E&#39;, X.table &lt; 55, X.price &lt; 500)
+ &gt;&gt; pull(&#39;carat&#39;))</code></pre>
+<pre><code>## 26683    0.33
+## 32297    0.34
+## 40928    0.30
+## 50623    0.30
+## 50625    0.30
+## Name: carat, dtype: float64
+## 
+## D:\software\python\lib\site-packages\dfply\subset.py:87: DeprecationWarning: 
+## .ix is deprecated. Please use
+## .loc for label based indexing or
+## .iloc for positional indexing
+## 
+## See the documentation here:
+## http://pandas.pydata.org/pandas-docs/stable/indexing.html#ix-indexer-is-deprecated
+##   return df.ix[:, column]</code></pre>
+</div>
+</div>
+<div id="数据框转变" class="section level3">
+<h3><span class="header-section-number">2.2.5</span> 数据框转变</h3>
+<div id="mutate函数" class="section level4">
+<h4><span class="header-section-number">2.2.5.1</span> <code>mutate()</code>函数</h4>
+<p>添加新的变量(列)</p>
+<pre class="python"><code>diamonds &gt;&gt; mutate(x_plus_y=X.x + X.y) &gt;&gt; select(columns_from(&#39;x&#39;)) &gt;&gt; head(3)</code></pre>
+<pre><code>##       x     y     z  x_plus_y
+## 0  3.95  3.98  2.43      7.93
+## 1  3.89  3.84  2.31      7.73
+## 2  4.05  4.07  2.31      8.12</code></pre>
+<pre class="python"><code>diamonds &gt;&gt; mutate(x_plus_y=X.x + X.y, y_div_z=(X.y / X.z)) &gt;&gt; select(columns_from(&#39;x&#39;)) &gt;&gt; head(3)</code></pre>
+<pre><code>##       x     y     z  x_plus_y   y_div_z
+## 0  3.95  3.98  2.43      7.93  1.637860
+## 1  3.89  3.84  2.31      7.73  1.662338
+## 2  4.05  4.07  2.31      8.12  1.761905</code></pre>
+</div>
+<div id="transmutate函数" class="section level4">
+<h4><span class="header-section-number">2.2.5.2</span> <code>transmutate()</code>函数</h4>
+<p>只保留下新创建的列(变量).</p>
+<pre class="python"><code>diamonds &gt;&gt; transmute(x_plus_y=X.x + X.y, y_div_z=(X.y / X.z)) &gt;&gt; head(3)</code></pre>
+<pre><code>##    x_plus_y   y_div_z
+## 0      7.93  1.637860
+## 1      7.73  1.662338
+## 2      8.12  1.761905</code></pre>
+</div>
+</div>
+<div id="分组grouping" class="section level3">
+<h3><span class="header-section-number">2.2.6</span> 分组(grouping)</h3>
+<div id="group_by和ungroup函数" class="section level4">
+<h4><span class="header-section-number">2.2.6.1</span> <code>group_by()</code>和<code>ungroup()</code>函数</h4>
+<p>分组非常有用.利用某个或某几个变量将数据框分成不同的部分,然后对每一组分别进行处理.结束之后,需要使用<code>ungroup()</code>函数结束分组状态.</p>
+<p>比如,如果想知道对于不同的<code>cut</code>的钻石的最高价和最低价,可以使用下面的代码.</p>
+<pre class="python"><code>(diamonds &gt;&gt; group_by(X.cut) &gt;&gt;
+ mutate(price_lead=lead(X.price), price_lag=lag(X.price)) &gt;&gt;
+ head(2) &gt;&gt; select(X.cut, X.price, X.price_lead, X.price_lag))</code></pre>
+<pre><code>##           cut  price  price_lead  price_lag
+## 8        Fair    337      2757.0        NaN
+## 91       Fair   2757      2759.0      337.0
+## 2        Good    327       335.0        NaN
+## 4        Good    335       339.0      327.0
+## 0       Ideal    326       340.0        NaN
+## 11      Ideal    340       344.0      326.0
+## 1     Premium    326       334.0        NaN
+## 3     Premium    334       342.0      326.0
+## 5   Very Good    336       336.0        NaN
+## 6   Very Good    336       337.0      336.0</code></pre>
+</div>
+</div>
+<div id="重塑数据框reshaping" class="section level3">
+<h3><span class="header-section-number">2.2.7</span> 重塑数据框(reshaping)</h3>
+<div id="arrange函数" class="section level4">
+<h4><span class="header-section-number">2.2.7.1</span> <code>arrange()</code>函数</h4>
+<p>这个函数是用来sort的.跟<code>pandas</code>的<code>.sort_valiues()</code>方法是一样的.</p>
+<pre class="python"><code>diamonds &gt;&gt; arrange(X.table, ascending=False) &gt;&gt; head(5)</code></pre>
+<pre><code>##        carat   cut color clarity  depth  table  price     x     y     z
+## 24932   2.01  Fair     F     SI1   58.6   95.0  13387  8.32  8.31  4.87
+## 50773   0.81  Fair     F     SI2   68.8   79.0   2301  5.26  5.20  3.58
+## 51342   0.79  Fair     G     SI1   65.3   76.0   2362  5.52  5.13  3.35
+## 52860   0.50  Fair     E     VS2   79.0   73.0   2579  5.21  5.18  4.09
+## 49375   0.70  Fair     H     VS1   62.0   73.0   2100  5.65  5.54  3.47</code></pre>
+<pre class="python"><code>(diamonds &gt;&gt; group_by(X.cut) &gt;&gt; arrange(X.price) &gt;&gt;
+ head(3) &gt;&gt; ungroup() &gt;&gt; mask(X.carat &lt; 0.23))</code></pre>
+<pre><code>##     carat      cut color clarity  depth  table  price     x     y     z
+## 8    0.22     Fair     E     VS2   65.1   61.0    337  3.87  3.78  2.49
+## 1    0.21  Premium     E     SI1   59.8   61.0    326  3.89  3.84  2.31
+## 12   0.22  Premium     F     SI1   60.4   61.0    342  3.88  3.84  2.33</code></pre>
+</div>
+<div id="rename函数" class="section level4">
+<h4><span class="header-section-number">2.2.7.2</span> <code>rename()</code>函数</h4>
+<p>对列进行重新命名.</p>
+<pre class="python"><code>diamonds &gt;&gt; rename(CUT=X.cut, COLOR=&#39;color&#39;) &gt;&gt; head(2)</code></pre>
+<pre><code>##    carat      CUT COLOR clarity  depth  table  price     x     y     z
+## 0   0.23    Ideal     E     SI2   61.5   55.0    326  3.95  3.98  2.43
+## 1   0.21  Premium     E     SI1   59.8   61.0    326  3.89  3.84  2.31</code></pre>
+</div>
+<div id="gather函数和spread函数" class="section level4">
+<h4><span class="header-section-number">2.2.7.3</span> <code>gather()</code>函数和<code>spread()</code>函数</h4>
+<p>对长宽数据进行转换的函数.<code>gather()</code>将宽数据转边为长数据,<code>spread()</code>将长数据转换为宽数据.</p>
+<pre class="python"><code>diamonds &gt;&gt; gather(&#39;variable&#39;, &#39;value&#39;, [&#39;price&#39;, &#39;depth&#39;,&#39;x&#39;,&#39;y&#39;,&#39;z&#39;]) &gt;&gt; head(5)</code></pre>
+<pre><code>##    carat      cut color clarity  table variable  value
+## 0   0.23    Ideal     E     SI2   55.0    price  326.0
+## 1   0.21  Premium     E     SI1   61.0    price  326.0
+## 2   0.23     Good     E     VS1   65.0    price  327.0
+## 3   0.29  Premium     I     VS2   58.0    price  334.0
+## 4   0.31     Good     J     SI2   58.0    price  335.0</code></pre>
+<pre class="python"><code>elongated = diamonds &gt;&gt; gather(&#39;variable&#39;, &#39;value&#39;, add_id=True)
+elongated &gt;&gt; head(5)</code></pre>
+<pre><code>##    _ID variable value
+## 0    0    carat  0.23
+## 1    1    carat  0.21
+## 2    2    carat  0.23
+## 3    3    carat  0.29
+## 4    4    carat  0.31</code></pre>
+<pre class="python"><code>widened = elongated &gt;&gt; spread(X.variable, X.value)
+widened &gt;&gt; head(5)</code></pre>
+<pre><code>##    _ID carat clarity color      cut depth price table     x     y     z
+## 0    0  0.23     SI2     E    Ideal  61.5   326    55  3.95  3.98  2.43
+## 1    1  0.21     SI1     E  Premium  59.8   326    61  3.89  3.84  2.31
+## 2    2  0.23     VS1     E     Good  56.9   327    65  4.05  4.07  2.31
+## 3    3  0.29     VS2     I  Premium  62.4   334    58   4.2  4.23  2.63
+## 4    4  0.31     SI2     J     Good  63.3   335    58  4.34  4.35  2.75</code></pre>
+</div>
+</div>
+<div id="合并joining" class="section level3">
+<h3><span class="header-section-number">2.2.8</span> 合并(joining)</h3>
+<p>这个用处非常多.</p>
+<table>
+<thead>
+<tr class="header">
+<th>Funcation</th>
+<th>Meaning</th>
+</tr>
+</thead>
+<tbody>
+<tr class="odd">
+<td>inner_join(other, by=‘column’)</td>
+<td>合并两个数据框共有的部分</td>
+</tr>
+<tr class="even">
+<td>outer_join(other, by=‘column’)</td>
+<td>合并两个数据框并集部分</td>
+</tr>
+<tr class="odd">
+<td>full_join(other, by=‘column’)</td>
+<td>合并两个数据框并集部分</td>
+</tr>
+<tr class="even">
+<td>right_join(other, by=‘column’)</td>
+<td>以右边数据框为准进行合并</td>
+</tr>
+<tr class="odd">
+<td>left_join(other, by=‘column’)</td>
+<td>以左边数据框为准进行合并</td>
+</tr>
+<tr class="even">
+<td>semi_join(other, by=‘column’)</td>
+<td>只保留左边数据框能够匹配上右边数据框的行</td>
+</tr>
+<tr class="odd">
+<td>anti_join(other, by=‘column’)</td>
+<td>只保留两个数据框都互不相同的行</td>
+</tr>
+</tbody>
+</table>
+<pre class="python"><code>a = pd.DataFrame({
+        &#39;x1&#39;:[&#39;A&#39;,&#39;B&#39;,&#39;C&#39;],
+        &#39;x2&#39;:[1,2,3]
+    })
+b = pd.DataFrame({
+    &#39;x1&#39;:[&#39;A&#39;,&#39;B&#39;,&#39;D&#39;],
+    &#39;x3&#39;:[True,False,True]
+})
+
+a &gt;&gt; inner_join(b, by=&#39;x1&#39;)</code></pre>
+<pre><code>##   x1  x2     x3
+## 0  A   1   True
+## 1  B   2  False</code></pre>
+<pre class="python"><code>a &gt;&gt; outer_join(b, by=&#39;x1&#39;)</code></pre>
+<pre><code>##   x1   x2     x3
+## 0  A  1.0   True
+## 1  B  2.0  False
+## 2  C  3.0    NaN
+## 3  D  NaN   True</code></pre>
+<pre class="python"><code>a &gt;&gt; full_join(b, by=&#39;x1&#39;)</code></pre>
+<pre><code>##   x1   x2     x3
+## 0  A  1.0   True
+## 1  B  2.0  False
+## 2  C  3.0    NaN
+## 3  D  NaN   True</code></pre>
+<pre class="python"><code>a &gt;&gt; semi_join(b, by=&#39;x1&#39;)</code></pre>
+<pre><code>##   x1  x2
+## 0  A   1
+## 1  B   2</code></pre>
+<pre class="python"><code>a &gt;&gt; anti_join(b, by=&#39;x1&#39;)</code></pre>
+<pre><code>##   x1  x2
+## 2  C   3</code></pre>
+<p>未完待续….</p>
+</div>
+</div>
+</div>
+
+    </div>
+
+    
+
+
+
+
+
+<div class="article-tags">
+  
+  <a class="badge badge-light" href="/tag/blog/">Blog</a>
+  
+  <a class="badge badge-light" href="/tag/chinese/">Chinese</a>
+  
+</div>
+
+
+
+<div class="share-box">
+  <ul class="share">
+    
+      
+      
+      
+        
+      
+      
+      
+      
+      
+      
+      
+      <li>
+        <a href="https://twitter.com/intent/tweet?url=https%3A%2F%2Fjaspershen.github.io%2Fpost%2F2019-11-29-python-dplyphon%2F&amp;text=Python%E4%B8%AD%E4%B8%8Edplyr%E7%B1%BB%E4%BC%BC%E7%9A%84%E6%95%B0%E6%8D%AE%E5%A4%84%E7%90%86%E5%8C%85" target="_blank" rel="noopener" class="share-btn-twitter" aria-label="twitter">
+          <i class="fab fa-twitter"></i>
+        </a>
+      </li>
+    
+      
+      
+      
+        
+      
+      
+      
+      
+      
+      
+      
+      <li>
+        <a href="https://www.facebook.com/sharer.php?u=https%3A%2F%2Fjaspershen.github.io%2Fpost%2F2019-11-29-python-dplyphon%2F&amp;t=Python%E4%B8%AD%E4%B8%8Edplyr%E7%B1%BB%E4%BC%BC%E7%9A%84%E6%95%B0%E6%8D%AE%E5%A4%84%E7%90%86%E5%8C%85" target="_blank" rel="noopener" class="share-btn-facebook" aria-label="facebook">
+          <i class="fab fa-facebook"></i>
+        </a>
+      </li>
+    
+      
+      
+      
+        
+      
+      
+      
+      
+      
+      
+      
+        
+      
+      <li>
+        <a href="mailto:?subject=Python%E4%B8%AD%E4%B8%8Edplyr%E7%B1%BB%E4%BC%BC%E7%9A%84%E6%95%B0%E6%8D%AE%E5%A4%84%E7%90%86%E5%8C%85&amp;body=https%3A%2F%2Fjaspershen.github.io%2Fpost%2F2019-11-29-python-dplyphon%2F" target="_blank" rel="noopener" class="share-btn-email" aria-label="envelope">
+          <i class="fas fa-envelope"></i>
+        </a>
+      </li>
+    
+      
+      
+      
+        
+      
+      
+      
+      
+      
+      
+      
+      <li>
+        <a href="https://www.linkedin.com/shareArticle?url=https%3A%2F%2Fjaspershen.github.io%2Fpost%2F2019-11-29-python-dplyphon%2F&amp;title=Python%E4%B8%AD%E4%B8%8Edplyr%E7%B1%BB%E4%BC%BC%E7%9A%84%E6%95%B0%E6%8D%AE%E5%A4%84%E7%90%86%E5%8C%85" target="_blank" rel="noopener" class="share-btn-linkedin" aria-label="linkedin-in">
+          <i class="fab fa-linkedin-in"></i>
+        </a>
+      </li>
+    
+      
+      
+      
+        
+      
+      
+      
+      
+      
+      
+      
+      <li>
+        <a href="whatsapp://send?text=Python%E4%B8%AD%E4%B8%8Edplyr%E7%B1%BB%E4%BC%BC%E7%9A%84%E6%95%B0%E6%8D%AE%E5%A4%84%E7%90%86%E5%8C%85%20https%3A%2F%2Fjaspershen.github.io%2Fpost%2F2019-11-29-python-dplyphon%2F" target="_blank" rel="noopener" class="share-btn-whatsapp" aria-label="whatsapp">
+          <i class="fab fa-whatsapp"></i>
+        </a>
+      </li>
+    
+      
+      
+      
+        
+      
+      
+      
+      
+      
+      
+      
+      <li>
+        <a href="https://service.weibo.com/share/share.php?url=https%3A%2F%2Fjaspershen.github.io%2Fpost%2F2019-11-29-python-dplyphon%2F&amp;title=Python%E4%B8%AD%E4%B8%8Edplyr%E7%B1%BB%E4%BC%BC%E7%9A%84%E6%95%B0%E6%8D%AE%E5%A4%84%E7%90%86%E5%8C%85" target="_blank" rel="noopener" class="share-btn-weibo" aria-label="weibo">
+          <i class="fab fa-weibo"></i>
+        </a>
+      </li>
+    
+  </ul>
+</div>
+
+
+
+
+
+
+
+
+
+
+
+  
+  
+
+
+
+  
+  
+  
+    
+  
+  
+  
+  <div class="media author-card content-widget-hr">
+    
+      
+      <a href="https://jaspershen.github.io/"><img class="avatar mr-3 avatar-circle" src="/authors/admin/avatar_hu86242519a21313948ac7dc77e0a27da6_1568301_270x270_fill_q75_lanczos_center.jpg" alt="Xiaotao Shen"></a>
+    
+
+    <div class="media-body">
+      <h5 class="card-title"><a href="https://jaspershen.github.io/">Xiaotao Shen</a></h5>
+      <h6 class="card-subtitle">Postdoctoral Research Fellow</h6>
+      <p class="card-text">Metabolomics, Multi-omics, Bioinformatics, Systems Biology.</p>
+      <ul class="network-icon" aria-hidden="true">
+  
+    
+    
+    
+      
+    
+    
+    
+    
+    
+      
+    
+    <li>
+      <a href="/#contact" >
+        <i class="fas fa-envelope"></i>
+      </a>
+    </li>
+  
+    
+    
+    
+      
+    
+    
+    
+    
+    
+      
+    
+    <li>
+      <a href="https://twitter.com/GeorgeCushen" target="_blank" rel="noopener">
+        <i class="fab fa-github"></i>
+      </a>
+    </li>
+  
+    
+    
+    
+      
+    
+    
+    
+    
+    
+      
+    
+    <li>
+      <a href="https://scholar.google.co.uk/citations?user=sIwtMXoAAAAJ" target="_blank" rel="noopener">
+        <i class="fas fa-graduation-cap"></i>
+      </a>
+    </li>
+  
+    
+    
+    
+      
+    
+    
+    
+    
+    
+      
+    
+    <li>
+      <a href="https://github.com/gcushen" target="_blank" rel="noopener">
+        <i class="fab fa-twitter"></i>
+      </a>
+    </li>
+  
+    
+    
+    
+      
+    
+    
+    
+    
+    
+      
+    
+    <li>
+      <a href="https://www.linkedin.com/" target="_blank" rel="noopener">
+        <i class="fab fa-linkedin"></i>
+      </a>
+    </li>
+  
+    
+    
+    
+    
+    
+    
+    
+      
+    
+    <li>
+      <a href="/uploads/resume.pdf" >
+        <i class="ai ai-cv"></i>
+      </a>
+    </li>
+  
+</ul>
+
+    </div>
+  </div>
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+  </div>
+</article>
+  </div>
+
+  <div class="page-footer">
+    
+    
+    <div class="container">
+      <footer class="site-footer">
+
+  
+
+
+
+
+
+
+
+
+
+
+
+
+  
+  
+  
+  
+  
+
+
+
+
+
+
+
+
+
+
+
+
+
+  
+  
+  
+
+  
+  
+    
+  
+  
+    
+  
+
+  
+
+  
+  <p class="powered-by copyright-license-text">
+    © 2023 Xiaotao Shen
+  </p>
+  
+
+  <p class="powered-by footer-license-icons">
+    <a href="https://creativecommons.org/licenses/by-nc-nd/4.0" rel="noopener noreferrer" target="_blank" aria-label="Creative Commons">
+      <i class="fab fa-creative-commons fa-2x" aria-hidden="true"></i>
+      <i class="fab fa-creative-commons-by fa-2x" aria-hidden="true"></i>
+      
+        <i class="fab fa-creative-commons-nc fa-2x" aria-hidden="true"></i>
+      
+      
+        <i class="fab fa-creative-commons-nd fa-2x" aria-hidden="true"></i>
+      
+    </a>
+  </p>
+
+
+
+
+
+  <p class="powered-by">
+    
+    
+    
+      
+      
+      
+      
+      
+      
+      Published with <a href="https://wowchemy.com/?utm_campaign=poweredby" target="_blank" rel="noopener">Wowchemy</a> — the free, <a href="https://github.com/wowchemy/wowchemy-hugo-themes" target="_blank" rel="noopener">open source</a> website builder that empowers creators.
+    
+  </p>
+</footer>
+
+    </div>
+    
+  </div>
+
+  
+
+
+<script src="/js/vendor-bundle.min.f64289d8217e08e3afcd597d60836062.js"></script>
+
+
+
+
+  
+
+  
+  
+
+  
+
+
+
+
+
+
+
+
+
+
+
+
+
+  
+  <script id="search-hit-fuse-template" type="text/x-template">
+    <div class="search-hit" id="summary-{{key}}">
+      <div class="search-hit-content">
+        <div class="search-hit-name">
+          <a href="{{relpermalink}}">{{title}}</a>
+          <div class="article-metadata search-hit-type">{{type}}</div>
+          <p class="search-hit-description">{{snippet}}</p>
+        </div>
+      </div>
+    </div>
+  </script>
+  
+    <script src="https://cdn.jsdelivr.net/gh/krisk/Fuse@v3.2.1/dist/fuse.min.js" integrity="sha512-o38bmzBGX+hD3JHWUFCDA09btWaqrNmoJ3RXLlrysA7PP01Kgs4UlE4MhelE1v5dJR3+cxlR4qQlotsW7jKsnw==" crossorigin="anonymous"></script>
+    <script src="https://cdn.jsdelivr.net/gh/julmot/mark.js@8.11.1/dist/jquery.mark.min.js" integrity="sha512-mhbv5DqBMgrWL+32MmsDOt/OAvqr/cHimk6B8y/bx/xS88MVkYGPiVv2ixKVrkywF2qHplNRUvFsAHUdxZ3Krg==" crossorigin="anonymous"></script>
+  
+
+
+
+
+
+
+
+
+
+
+
+
+  
+  
+  
+  
+  
+  
+  
+
+
+
+
+
+
+
+<script id="page-data" type="application/json">{"use_headroom":true}</script>
+
+
+
+  <script src="/js/wowchemy-headroom.db4755770454eb63685f8de785c0a172.js" type="module"></script>
+
+
+
+
+
+
+
+
+
+  
+  
+
+
+<script src="/en/js/wowchemy.min.ead4a376bcf2c4714888c770ea9b0040.js"></script>
+
+
+
+
+
+
+
+  
+<div id="modal" class="modal fade" role="dialog">
+  <div class="modal-dialog">
+    <div class="modal-content">
+      <div class="modal-header">
+        <h5 class="modal-title">Cite</h5>
+        <button type="button" class="close" data-dismiss="modal" aria-label="Close">
+          <span aria-hidden="true">&times;</span>
+        </button>
+      </div>
+      <div class="modal-body">
+        
+        <pre><code></code></pre>
+      </div>
+      <div class="modal-footer">
+        <a class="btn btn-outline-primary my-1 js-copy-cite" href="#" target="_blank">
+          <i class="fas fa-copy"></i> Copy
+        </a>
+        <a class="btn btn-outline-primary my-1 js-download-cite" href="#" target="_blank">
+          <i class="fas fa-download"></i> Download
+        </a>
+        <div id="modal-error"></div>
+      </div>
+    </div>
+  </div>
+</div>
+
+
+  <script src="/js/wowchemy-publication.68f8d7090562ca65fc6d3cb3f8f2d2cb.js" type="module"></script>
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+</body>
+</html>

@@ -1,0 +1,536 @@
+<?xml version="1.0" encoding="utf-8" standalone="yes" ?>
+<rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
+  <channel>
+    <title>Database | Xiaotao Shen</title>
+    <link>https://jaspershen.github.io/category/database/</link>
+      <atom:link href="https://jaspershen.github.io/category/database/index.xml" rel="self" type="application/rss+xml" />
+    <description>Database</description>
+    <generator>Wowchemy (https://wowchemy.com)</generator><language>en-us</language><lastBuildDate>Thu, 14 Nov 2019 00:00:00 +0000</lastBuildDate>
+    <image>
+      <url>https://jaspershen.github.io/media/icon_hu805a85e690e4f2727bf7d5f685d888f7_86836_512x512_fill_lanczos_center_3.png</url>
+      <title>Database</title>
+      <link>https://jaspershen.github.io/category/database/</link>
+    </image>
+    
+    <item>
+      <title>KEGG数据库总结</title>
+      <link>https://jaspershen.github.io/post/2019-11-14-kegg/</link>
+      <pubDate>Thu, 14 Nov 2019 00:00:00 +0000</pubDate>
+      <guid>https://jaspershen.github.io/post/2019-11-14-kegg/</guid>
+      <description>
+&lt;script src=&#34;index_files/header-attrs/header-attrs.js&#34;&gt;&lt;/script&gt;
+
+&lt;div id=&#34;TOC&#34;&gt;
+&lt;ul&gt;
+&lt;li&gt;&lt;a href=&#34;#kegg-pathway数据库&#34;&gt;&lt;span class=&#34;toc-section-number&#34;&gt;1&lt;/span&gt; KEGG Pathway数据库&lt;/a&gt;
+&lt;ul&gt;
+&lt;li&gt;&lt;a href=&#34;#背景&#34;&gt;&lt;span class=&#34;toc-section-number&#34;&gt;1.1&lt;/span&gt; 背景&lt;/a&gt;&lt;/li&gt;
+&lt;li&gt;&lt;a href=&#34;#kgml的overview&#34;&gt;&lt;span class=&#34;toc-section-number&#34;&gt;1.2&lt;/span&gt; &lt;code&gt;KGML&lt;/code&gt;的overview&lt;/a&gt;&lt;/li&gt;
+&lt;li&gt;&lt;a href=&#34;#如何获得某个pathwaykgml文件&#34;&gt;&lt;span class=&#34;toc-section-number&#34;&gt;1.3&lt;/span&gt; 如何获得某个pathway&lt;code&gt;KGML&lt;/code&gt;文件&lt;/a&gt;&lt;/li&gt;
+&lt;li&gt;&lt;a href=&#34;#pathway&#34;&gt;&lt;span class=&#34;toc-section-number&#34;&gt;1.4&lt;/span&gt; Pathway&lt;/a&gt;
+&lt;ul&gt;
+&lt;li&gt;&lt;a href=&#34;#pathway-element&#34;&gt;&lt;span class=&#34;toc-section-number&#34;&gt;1.4.1&lt;/span&gt; Pathway element&lt;/a&gt;&lt;/li&gt;
+&lt;/ul&gt;&lt;/li&gt;
+&lt;li&gt;&lt;a href=&#34;#entry条目&#34;&gt;&lt;span class=&#34;toc-section-number&#34;&gt;1.5&lt;/span&gt; Entry(条目)&lt;/a&gt;
+&lt;ul&gt;
+&lt;li&gt;&lt;a href=&#34;#entry-element&#34;&gt;&lt;span class=&#34;toc-section-number&#34;&gt;1.5.1&lt;/span&gt; Entry element&lt;/a&gt;&lt;/li&gt;
+&lt;/ul&gt;&lt;/li&gt;
+&lt;li&gt;&lt;a href=&#34;#relation&#34;&gt;&lt;span class=&#34;toc-section-number&#34;&gt;1.6&lt;/span&gt; Relation&lt;/a&gt;
+&lt;ul&gt;
+&lt;li&gt;&lt;a href=&#34;#relation元素&#34;&gt;&lt;span class=&#34;toc-section-number&#34;&gt;1.6.1&lt;/span&gt; relation元素&lt;/a&gt;&lt;/li&gt;
+&lt;/ul&gt;&lt;/li&gt;
+&lt;li&gt;&lt;a href=&#34;#reaction反应&#34;&gt;&lt;span class=&#34;toc-section-number&#34;&gt;1.7&lt;/span&gt; Reaction反应&lt;/a&gt;&lt;/li&gt;
+&lt;/ul&gt;&lt;/li&gt;
+&lt;/ul&gt;
+&lt;/div&gt;
+
+&lt;div id=&#34;kegg-pathway数据库&#34; class=&#34;section level1&#34; number=&#34;1&#34;&gt;
+&lt;h1&gt;&lt;span class=&#34;header-section-number&#34;&gt;1&lt;/span&gt; KEGG Pathway数据库&lt;/h1&gt;
+&lt;p&gt;KEGG pathway的数据是使用&lt;code&gt;KGML&lt;/code&gt;(KEGG Markup Language)格式存储下来的.详细的信息可以阅读官方文档.&lt;/p&gt;
+&lt;p&gt;&lt;a href=&#34;https://www.kegg.jp/kegg/xml/docs/&#34; class=&#34;uri&#34;&gt;https://www.kegg.jp/kegg/xml/docs/&lt;/a&gt;&lt;/p&gt;
+&lt;div id=&#34;背景&#34; class=&#34;section level2&#34; number=&#34;1.1&#34;&gt;
+&lt;h2&gt;&lt;span class=&#34;header-section-number&#34;&gt;1.1&lt;/span&gt; 背景&lt;/h2&gt;
+&lt;p&gt;KEGG pathway有两个类型.&lt;/p&gt;
+&lt;ul&gt;
+&lt;li&gt;&lt;p&gt;&lt;strong&gt;reference pathways&lt;/strong&gt;: 手动画的.&lt;/p&gt;&lt;/li&gt;
+&lt;li&gt;&lt;p&gt;&lt;strong&gt;organism-specific pathways&lt;/strong&gt;: 使用计算方法自动从reference pathway得到的.&lt;/p&gt;&lt;/li&gt;
+&lt;/ul&gt;
+&lt;p&gt;在&lt;code&gt;KGML&lt;/code&gt;文件中,&lt;code&gt;entry&lt;/code&gt;指的是node,而&lt;code&gt;relation&lt;/code&gt;和&lt;code&gt;reaction&lt;/code&gt;指的是整个网络的边.在KEGG pathway中,矩形表示基因(也可以认为是gene的产物蛋白质),而circle代表的是metabolite.&lt;/p&gt;
+&lt;p&gt;如果网络中只有&lt;code&gt;entry&lt;/code&gt;和&lt;code&gt;relation&lt;/code&gt;,则该网络称为&lt;code&gt;protein network&lt;/code&gt;.如果只有&lt;code&gt;entry&lt;/code&gt;和&lt;code&gt;reaction&lt;/code&gt;,则称为&lt;code&gt;chemical network&lt;/code&gt;.&lt;/p&gt;
+&lt;p&gt;所以一般来说,可以用两种方式来表示metabolic pathway:&lt;/p&gt;
+&lt;ol style=&#34;list-style-type: decimal&#34;&gt;
+&lt;li&gt;&lt;p&gt;metabolic pathways viewed as both protein networks and chemical networks and&lt;/p&gt;&lt;/li&gt;
+&lt;li&gt;&lt;p&gt;regulatory pathways viewed as protein networks only.&lt;/p&gt;&lt;/li&gt;
+&lt;/ol&gt;
+&lt;/div&gt;
+&lt;div id=&#34;kgml的overview&#34; class=&#34;section level2&#34; number=&#34;1.2&#34;&gt;
+&lt;h2&gt;&lt;span class=&#34;header-section-number&#34;&gt;1.2&lt;/span&gt; &lt;code&gt;KGML&lt;/code&gt;的overview&lt;/h2&gt;
+&lt;p&gt;&lt;img src=&#34;overview.png&#34; /&gt;&lt;/p&gt;
+&lt;p&gt;这幅图是整个&lt;code&gt;KGML&lt;/code&gt;的总览.&lt;/p&gt;
+&lt;/div&gt;
+&lt;div id=&#34;如何获得某个pathwaykgml文件&#34; class=&#34;section level2&#34; number=&#34;1.3&#34;&gt;
+&lt;h2&gt;&lt;span class=&#34;header-section-number&#34;&gt;1.3&lt;/span&gt; 如何获得某个pathway&lt;code&gt;KGML&lt;/code&gt;文件&lt;/h2&gt;
+&lt;p&gt;使用R包&lt;code&gt;KEGGlincs&lt;/code&gt;可以下载pathway的&lt;code&gt;KGML&lt;/code&gt;文件.&lt;/p&gt;
+&lt;pre class=&#34;r&#34;&gt;&lt;code&gt;library(tidyverse)
+library(KEGGREST)
+library(KEGGlincs)
+###
+#获得所有has的pathway ID
+path_id &amp;lt;- KEGGREST::keggList(database = &amp;quot;pathway&amp;quot;, 
+                              organism = &amp;quot;hsa&amp;quot;)
+head(path_id)&lt;/code&gt;&lt;/pre&gt;
+&lt;pre&gt;&lt;code&gt;##                                                     path:hsa00010 
+##             &amp;quot;Glycolysis / Gluconeogenesis - Homo sapiens (human)&amp;quot; 
+##                                                     path:hsa00020 
+##                &amp;quot;Citrate cycle (TCA cycle) - Homo sapiens (human)&amp;quot; 
+##                                                     path:hsa00030 
+##                &amp;quot;Pentose phosphate pathway - Homo sapiens (human)&amp;quot; 
+##                                                     path:hsa00040 
+## &amp;quot;Pentose and glucuronate interconversions - Homo sapiens (human)&amp;quot; 
+##                                                     path:hsa00051 
+##          &amp;quot;Fructose and mannose metabolism - Homo sapiens (human)&amp;quot; 
+##                                                     path:hsa00052 
+##                     &amp;quot;Galactose metabolism - Homo sapiens (human)&amp;quot;&lt;/code&gt;&lt;/pre&gt;
+&lt;pre class=&#34;r&#34;&gt;&lt;code&gt;path_id &amp;lt;- 
+  path_id %&amp;gt;% 
+  names() %&amp;gt;% 
+  unique() %&amp;gt;% 
+  stringr::str_replace(&amp;quot;path:&amp;quot;, &amp;quot;&amp;quot;)
+head(path_id)&lt;/code&gt;&lt;/pre&gt;
+&lt;pre&gt;&lt;code&gt;## [1] &amp;quot;hsa00010&amp;quot; &amp;quot;hsa00020&amp;quot; &amp;quot;hsa00030&amp;quot; &amp;quot;hsa00040&amp;quot; &amp;quot;hsa00051&amp;quot; &amp;quot;hsa00052&amp;quot;&lt;/code&gt;&lt;/pre&gt;
+&lt;pre class=&#34;r&#34;&gt;&lt;code&gt;##下载kgml文件并进行解析
+temp_kgml &amp;lt;- 
+  KEGGlincs::get_KGML(pathwayid = path_id[1])
+class(temp_kgml)&lt;/code&gt;&lt;/pre&gt;
+&lt;pre&gt;&lt;code&gt;## [1] &amp;quot;KEGGPathway&amp;quot;
+## attr(,&amp;quot;package&amp;quot;)
+## [1] &amp;quot;KEGGgraph&amp;quot;&lt;/code&gt;&lt;/pre&gt;
+&lt;pre class=&#34;r&#34;&gt;&lt;code&gt;temp_kgml&lt;/code&gt;&lt;/pre&gt;
+&lt;pre&gt;&lt;code&gt;## KEGG Pathway
+## [ Title ]: Glycolysis / Gluconeogenesis
+## [ Name ]: path:hsa00010
+## [ Organism ]: hsa
+## [ Number ] :00010
+## [ Image ] :https://www.kegg.jp/kegg/pathway/hsa/hsa00010.png
+## [ Link ] :https://www.kegg.jp/kegg-bin/show_pathway?hsa00010
+## ------------------------------------------------------------
+## Statistics:
+##  102 node(s)
+##  89 edge(s)
+##  35 reaction(s)
+## ------------------------------------------------------------&lt;/code&gt;&lt;/pre&gt;
+&lt;p&gt;&lt;code&gt;get_KGML()&lt;/code&gt;函数其实分别使用了&lt;code&gt;KEGGREST&lt;/code&gt;包中的&lt;code&gt;keggGet()&lt;/code&gt;函数来下载的,然后使用&lt;code&gt;KEGGgraph&lt;/code&gt;包中的&lt;code&gt;paraseKGML()&lt;/code&gt;函数来解析.&lt;/p&gt;
+&lt;pre class=&#34;r&#34;&gt;&lt;code&gt;temp_kgml2 &amp;lt;-
+  KEGGREST::keggGet(dbentries = path_id[1], option = &amp;quot;kgml&amp;quot;)&lt;/code&gt;&lt;/pre&gt;
+&lt;pre&gt;&lt;code&gt;## No encoding supplied: defaulting to UTF-8.&lt;/code&gt;&lt;/pre&gt;
+&lt;pre class=&#34;r&#34;&gt;&lt;code&gt;class(temp_kgml2)&lt;/code&gt;&lt;/pre&gt;
+&lt;pre&gt;&lt;code&gt;## [1] &amp;quot;character&amp;quot;&lt;/code&gt;&lt;/pre&gt;
+&lt;pre class=&#34;r&#34;&gt;&lt;code&gt;temp_kgml2 &amp;lt;- 
+  KEGGgraph::parseKGML(file = temp_kgml2)
+temp_kgml2&lt;/code&gt;&lt;/pre&gt;
+&lt;pre&gt;&lt;code&gt;## KEGG Pathway
+## [ Title ]: Glycolysis / Gluconeogenesis
+## [ Name ]: path:hsa00010
+## [ Organism ]: hsa
+## [ Number ] :00010
+## [ Image ] :https://www.kegg.jp/kegg/pathway/hsa/hsa00010.png
+## [ Link ] :https://www.kegg.jp/kegg-bin/show_pathway?hsa00010
+## ------------------------------------------------------------
+## Statistics:
+##  102 node(s)
+##  89 edge(s)
+##  35 reaction(s)
+## ------------------------------------------------------------&lt;/code&gt;&lt;/pre&gt;
+&lt;/div&gt;
+&lt;div id=&#34;pathway&#34; class=&#34;section level2&#34; number=&#34;1.4&#34;&gt;
+&lt;h2&gt;&lt;span class=&#34;header-section-number&#34;&gt;1.4&lt;/span&gt; Pathway&lt;/h2&gt;
+&lt;div id=&#34;pathway-element&#34; class=&#34;section level3&#34; number=&#34;1.4.1&#34;&gt;
+&lt;h3&gt;&lt;span class=&#34;header-section-number&#34;&gt;1.4.1&lt;/span&gt; Pathway element&lt;/h3&gt;
+&lt;p&gt;一共有六个属性.&lt;/p&gt;
+&lt;table&gt;
+&lt;thead&gt;
+&lt;tr&gt;
+&lt;th style=&#34;text-align:left;&#34;&gt;
+Attribute.name
+&lt;/th&gt;
+&lt;th style=&#34;text-align:left;&#34;&gt;
+Explanation
+&lt;/th&gt;
+&lt;/tr&gt;
+&lt;/thead&gt;
+&lt;tbody&gt;
+&lt;tr&gt;
+&lt;td style=&#34;text-align:left;&#34;&gt;
+name
+&lt;/td&gt;
+&lt;td style=&#34;text-align:left;&#34;&gt;
+Pathway ID
+&lt;/td&gt;
+&lt;/tr&gt;
+&lt;tr&gt;
+&lt;td style=&#34;text-align:left;&#34;&gt;
+org
+&lt;/td&gt;
+&lt;td style=&#34;text-align:left;&#34;&gt;
+ko/ec/org ID
+&lt;/td&gt;
+&lt;/tr&gt;
+&lt;tr&gt;
+&lt;td style=&#34;text-align:left;&#34;&gt;
+number
+&lt;/td&gt;
+&lt;td style=&#34;text-align:left;&#34;&gt;
+pathway ID numebr
+&lt;/td&gt;
+&lt;/tr&gt;
+&lt;tr&gt;
+&lt;td style=&#34;text-align:left;&#34;&gt;
+title
+&lt;/td&gt;
+&lt;td style=&#34;text-align:left;&#34;&gt;
+pathway title
+&lt;/td&gt;
+&lt;/tr&gt;
+&lt;tr&gt;
+&lt;td style=&#34;text-align:left;&#34;&gt;
+image
+&lt;/td&gt;
+&lt;td style=&#34;text-align:left;&#34;&gt;
+pathway figure link
+&lt;/td&gt;
+&lt;/tr&gt;
+&lt;tr&gt;
+&lt;td style=&#34;text-align:left;&#34;&gt;
+link
+&lt;/td&gt;
+&lt;td style=&#34;text-align:left;&#34;&gt;
+pathway link
+&lt;/td&gt;
+&lt;/tr&gt;
+&lt;/tbody&gt;
+&lt;/table&gt;
+&lt;p&gt;我们可以下载pathway的图片.&lt;/p&gt;
+&lt;pre class=&#34;r&#34;&gt;&lt;code&gt;image_link &amp;lt;- slot(slot(temp_kgml, &amp;quot;pathwayInfo&amp;quot;), &amp;quot;image&amp;quot;)
+image_link&lt;/code&gt;&lt;/pre&gt;
+&lt;pre&gt;&lt;code&gt;## [1] &amp;quot;https://www.kegg.jp/kegg/pathway/hsa/hsa00010.png&amp;quot;&lt;/code&gt;&lt;/pre&gt;
+&lt;pre class=&#34;r&#34;&gt;&lt;code&gt;download.file(url = image_link, 
+              destfile = basename(image_link), 
+              mode = &amp;quot;wb&amp;quot;)&lt;/code&gt;&lt;/pre&gt;
+&lt;p&gt;&lt;img src=&#34;hsa00010.png&#34; /&gt;&lt;/p&gt;
+&lt;/div&gt;
+&lt;/div&gt;
+&lt;div id=&#34;entry条目&#34; class=&#34;section level2&#34; number=&#34;1.5&#34;&gt;
+&lt;h2&gt;&lt;span class=&#34;header-section-number&#34;&gt;1.5&lt;/span&gt; Entry(条目)&lt;/h2&gt;
+&lt;div id=&#34;entry-element&#34; class=&#34;section level3&#34; number=&#34;1.5.1&#34;&gt;
+&lt;h3&gt;&lt;span class=&#34;header-section-number&#34;&gt;1.5.1&lt;/span&gt; Entry element&lt;/h3&gt;
+&lt;p&gt;包括了网络中的node的属性.属性包括以下内容.&lt;/p&gt;
+&lt;table&gt;
+&lt;thead&gt;
+&lt;tr&gt;
+&lt;th style=&#34;text-align:left;&#34;&gt;
+Attribute.name
+&lt;/th&gt;
+&lt;th style=&#34;text-align:left;&#34;&gt;
+Explanation
+&lt;/th&gt;
+&lt;/tr&gt;
+&lt;/thead&gt;
+&lt;tbody&gt;
+&lt;tr&gt;
+&lt;td style=&#34;text-align:left;&#34;&gt;
+id
+&lt;/td&gt;
+&lt;td style=&#34;text-align:left;&#34;&gt;
+ID of the entry
+&lt;/td&gt;
+&lt;/tr&gt;
+&lt;tr&gt;
+&lt;td style=&#34;text-align:left;&#34;&gt;
+name
+&lt;/td&gt;
+&lt;td style=&#34;text-align:left;&#34;&gt;
+KEGG ID of the entry
+&lt;/td&gt;
+&lt;/tr&gt;
+&lt;tr&gt;
+&lt;td style=&#34;text-align:left;&#34;&gt;
+type
+&lt;/td&gt;
+&lt;td style=&#34;text-align:left;&#34;&gt;
+Type of the entry
+&lt;/td&gt;
+&lt;/tr&gt;
+&lt;tr&gt;
+&lt;td style=&#34;text-align:left;&#34;&gt;
+link
+&lt;/td&gt;
+&lt;td style=&#34;text-align:left;&#34;&gt;
+Link of the entry
+&lt;/td&gt;
+&lt;/tr&gt;
+&lt;tr&gt;
+&lt;td style=&#34;text-align:left;&#34;&gt;
+reaction
+&lt;/td&gt;
+&lt;td style=&#34;text-align:left;&#34;&gt;
+The KEGG ID of corresponding reaction
+&lt;/td&gt;
+&lt;/tr&gt;
+&lt;/tbody&gt;
+&lt;/table&gt;
+&lt;pre class=&#34;r&#34;&gt;&lt;code&gt;#整体信息
+temp_kgml@pathwayInfo&lt;/code&gt;&lt;/pre&gt;
+&lt;pre&gt;&lt;code&gt;## [ Title ]: Glycolysis / Gluconeogenesis
+## [ Name ]: path:hsa00010
+## [ Organism ]: hsa
+## [ Number ] :00010
+## [ Image ] :https://www.kegg.jp/kegg/pathway/hsa/hsa00010.png
+## [ Link ] :https://www.kegg.jp/kegg-bin/show_pathway?hsa00010&lt;/code&gt;&lt;/pre&gt;
+&lt;pre class=&#34;r&#34;&gt;&lt;code&gt;#分别的属性
+temp_kgml@pathwayInfo@name&lt;/code&gt;&lt;/pre&gt;
+&lt;pre&gt;&lt;code&gt;## [1] &amp;quot;path:hsa00010&amp;quot;&lt;/code&gt;&lt;/pre&gt;
+&lt;pre class=&#34;r&#34;&gt;&lt;code&gt;temp_kgml@pathwayInfo@org&lt;/code&gt;&lt;/pre&gt;
+&lt;pre&gt;&lt;code&gt;## [1] &amp;quot;hsa&amp;quot;&lt;/code&gt;&lt;/pre&gt;
+&lt;pre class=&#34;r&#34;&gt;&lt;code&gt;temp_kgml@pathwayInfo@number&lt;/code&gt;&lt;/pre&gt;
+&lt;pre&gt;&lt;code&gt;## [1] &amp;quot;00010&amp;quot;&lt;/code&gt;&lt;/pre&gt;
+&lt;pre class=&#34;r&#34;&gt;&lt;code&gt;temp_kgml@pathwayInfo@title&lt;/code&gt;&lt;/pre&gt;
+&lt;pre&gt;&lt;code&gt;## [1] &amp;quot;Glycolysis / Gluconeogenesis&amp;quot;&lt;/code&gt;&lt;/pre&gt;
+&lt;pre class=&#34;r&#34;&gt;&lt;code&gt;temp_kgml@pathwayInfo@image&lt;/code&gt;&lt;/pre&gt;
+&lt;pre&gt;&lt;code&gt;## [1] &amp;quot;https://www.kegg.jp/kegg/pathway/hsa/hsa00010.png&amp;quot;&lt;/code&gt;&lt;/pre&gt;
+&lt;pre class=&#34;r&#34;&gt;&lt;code&gt;temp_kgml@pathwayInfo@link&lt;/code&gt;&lt;/pre&gt;
+&lt;pre&gt;&lt;code&gt;## [1] &amp;quot;https://www.kegg.jp/kegg-bin/show_pathway?hsa00010&amp;quot;&lt;/code&gt;&lt;/pre&gt;
+&lt;p&gt;图片下载链接:&lt;/p&gt;
+&lt;p&gt;&lt;a href=&#34;http://www.kegg.jp/kegg/pathway/hsa/hsa00010.png&#34;&gt;&lt;/a&gt;&lt;/p&gt;
+&lt;p&gt;pathway详细信息链接:&lt;/p&gt;
+&lt;p&gt;&lt;a href=&#34;http://www.kegg.jp/kegg-bin/show_pathway?hsa00010&#34;&gt;&lt;/a&gt;&lt;/p&gt;
+&lt;p&gt;我们下面看看pathwa中node的信息.&lt;/p&gt;
+&lt;pre class=&#34;r&#34;&gt;&lt;code&gt;temp_kgml&lt;/code&gt;&lt;/pre&gt;
+&lt;pre&gt;&lt;code&gt;## KEGG Pathway
+## [ Title ]: Glycolysis / Gluconeogenesis
+## [ Name ]: path:hsa00010
+## [ Organism ]: hsa
+## [ Number ] :00010
+## [ Image ] :https://www.kegg.jp/kegg/pathway/hsa/hsa00010.png
+## [ Link ] :https://www.kegg.jp/kegg-bin/show_pathway?hsa00010
+## ------------------------------------------------------------
+## Statistics:
+##  102 node(s)
+##  89 edge(s)
+##  35 reaction(s)
+## ------------------------------------------------------------&lt;/code&gt;&lt;/pre&gt;
+&lt;p&gt;可以看到这个pathway含有node,edge还有reaction.&lt;/p&gt;
+&lt;pre class=&#34;r&#34;&gt;&lt;code&gt;# node
+temp_kgml@nodes$`18`&lt;/code&gt;&lt;/pre&gt;
+&lt;pre&gt;&lt;code&gt;## KEGG Node (Entry &amp;#39;18&amp;#39;):
+## ------------------------------------------------------------
+## [ displayName ]: ALDOA, ALDA, GSD12, HEL-S-87p...
+## [ Name ]: hsa:226,hsa:229,hsa:230
+## [ Type ]: gene
+## [ Link ]: https://www.kegg.jp/dbget-bin/www_bget?hsa:226+hsa:229+hsa:230
+## ------------------------------------------------------------&lt;/code&gt;&lt;/pre&gt;
+&lt;pre class=&#34;r&#34;&gt;&lt;code&gt;#edge
+temp_kgml@edges[[1]]&lt;/code&gt;&lt;/pre&gt;
+&lt;pre&gt;&lt;code&gt;##   KEGG Edge (Type: ECrel):
+## ------------------------------------------------------------
+## [ Entry 1 ID ]: 73
+## [ Entry 2 ID ]: 75
+## [ Subtype ]: 
+##   [ Subtype name ]: compound
+##   [ Subtype value ]: 90
+## ------------------------------------------------------------&lt;/code&gt;&lt;/pre&gt;
+&lt;pre class=&#34;r&#34;&gt;&lt;code&gt;#reaction
+temp_kgml@reactions[[1]]&lt;/code&gt;&lt;/pre&gt;
+&lt;pre&gt;&lt;code&gt;## KEGG Reaction(rn:R00710)
+## ------------------------------------------------------------
+## [ Name ]: rn:R00710
+## [ Type ]: reversible
+## [ Substrate Name ]: cpd:C00084
+## [ Product Name ]: cpd:C00033&lt;/code&gt;&lt;/pre&gt;
+&lt;div id=&#34;type属性的详细解释&#34; class=&#34;section level4&#34; number=&#34;1.5.1.1&#34;&gt;
+&lt;h4&gt;&lt;span class=&#34;header-section-number&#34;&gt;1.5.1.1&lt;/span&gt; Type属性的详细解释&lt;/h4&gt;
+&lt;p&gt;在pathway中,如果一个pathway链接到另外一个pathway,那么pathway也是会被作为一个node展示出来.&lt;/p&gt;
+&lt;table&gt;
+&lt;thead&gt;
+&lt;tr&gt;
+&lt;th style=&#34;text-align:left;&#34;&gt;
+Attribute.name
+&lt;/th&gt;
+&lt;th style=&#34;text-align:left;&#34;&gt;
+Explanation
+&lt;/th&gt;
+&lt;/tr&gt;
+&lt;/thead&gt;
+&lt;tbody&gt;
+&lt;tr&gt;
+&lt;td style=&#34;text-align:left;&#34;&gt;
+ortholog
+&lt;/td&gt;
+&lt;td style=&#34;text-align:left;&#34;&gt;
+the node is a KO (ortholog group)
+&lt;/td&gt;
+&lt;/tr&gt;
+&lt;tr&gt;
+&lt;td style=&#34;text-align:left;&#34;&gt;
+enzyme
+&lt;/td&gt;
+&lt;td style=&#34;text-align:left;&#34;&gt;
+the node is an enzyme
+&lt;/td&gt;
+&lt;/tr&gt;
+&lt;tr&gt;
+&lt;td style=&#34;text-align:left;&#34;&gt;
+reaction
+&lt;/td&gt;
+&lt;td style=&#34;text-align:left;&#34;&gt;
+the node is a reaction
+&lt;/td&gt;
+&lt;/tr&gt;
+&lt;tr&gt;
+&lt;td style=&#34;text-align:left;&#34;&gt;
+gene
+&lt;/td&gt;
+&lt;td style=&#34;text-align:left;&#34;&gt;
+the node is a gene product (mostly a protein)
+&lt;/td&gt;
+&lt;/tr&gt;
+&lt;tr&gt;
+&lt;td style=&#34;text-align:left;&#34;&gt;
+group
+&lt;/td&gt;
+&lt;td style=&#34;text-align:left;&#34;&gt;
+the node is a complex of gene products (mostly a protein complex)
+&lt;/td&gt;
+&lt;/tr&gt;
+&lt;tr&gt;
+&lt;td style=&#34;text-align:left;&#34;&gt;
+compound
+&lt;/td&gt;
+&lt;td style=&#34;text-align:left;&#34;&gt;
+the node is a chemical compound (including a glycan)
+&lt;/td&gt;
+&lt;/tr&gt;
+&lt;tr&gt;
+&lt;td style=&#34;text-align:left;&#34;&gt;
+map
+&lt;/td&gt;
+&lt;td style=&#34;text-align:left;&#34;&gt;
+the node is a linked pathway map
+&lt;/td&gt;
+&lt;/tr&gt;
+&lt;tr&gt;
+&lt;td style=&#34;text-align:left;&#34;&gt;
+brite
+&lt;/td&gt;
+&lt;td style=&#34;text-align:left;&#34;&gt;
+the node is a linked brite hierarchy
+&lt;/td&gt;
+&lt;/tr&gt;
+&lt;tr&gt;
+&lt;td style=&#34;text-align:left;&#34;&gt;
+other
+&lt;/td&gt;
+&lt;td style=&#34;text-align:left;&#34;&gt;
+the node is an unclassified type
+&lt;/td&gt;
+&lt;/tr&gt;
+&lt;/tbody&gt;
+&lt;/table&gt;
+&lt;/div&gt;
+&lt;/div&gt;
+&lt;/div&gt;
+&lt;div id=&#34;relation&#34; class=&#34;section level2&#34; number=&#34;1.6&#34;&gt;
+&lt;h2&gt;&lt;span class=&#34;header-section-number&#34;&gt;1.6&lt;/span&gt; Relation&lt;/h2&gt;
+&lt;div id=&#34;relation元素&#34; class=&#34;section level3&#34; number=&#34;1.6.1&#34;&gt;
+&lt;h3&gt;&lt;span class=&#34;header-section-number&#34;&gt;1.6.1&lt;/span&gt; relation元素&lt;/h3&gt;
+&lt;p&gt;这里面的relation不包括我们所知道的酶催化代谢物的联系.只包括两个proteins(gene products)或者两个KOs(ortholog groups)或者protein和compound&lt;/p&gt;
+&lt;table&gt;
+&lt;thead&gt;
+&lt;tr&gt;
+&lt;th style=&#34;text-align:left;&#34;&gt;
+Attribute.name
+&lt;/th&gt;
+&lt;th style=&#34;text-align:left;&#34;&gt;
+Explanation
+&lt;/th&gt;
+&lt;/tr&gt;
+&lt;/thead&gt;
+&lt;tbody&gt;
+&lt;tr&gt;
+&lt;td style=&#34;text-align:left;&#34;&gt;
+entry1
+&lt;/td&gt;
+&lt;td style=&#34;text-align:left;&#34;&gt;
+the first (from) entry that defines this relation
+&lt;/td&gt;
+&lt;/tr&gt;
+&lt;tr&gt;
+&lt;td style=&#34;text-align:left;&#34;&gt;
+entry2
+&lt;/td&gt;
+&lt;td style=&#34;text-align:left;&#34;&gt;
+the second (to) entry that defines this relation
+&lt;/td&gt;
+&lt;/tr&gt;
+&lt;tr&gt;
+&lt;td style=&#34;text-align:left;&#34;&gt;
+type
+&lt;/td&gt;
+&lt;td style=&#34;text-align:left;&#34;&gt;
+the type of this relation
+&lt;/td&gt;
+&lt;/tr&gt;
+&lt;/tbody&gt;
+&lt;/table&gt;
+&lt;div id=&#34;type属性&#34; class=&#34;section level4&#34; number=&#34;1.6.1.1&#34;&gt;
+&lt;h4&gt;&lt;span class=&#34;header-section-number&#34;&gt;1.6.1.1&lt;/span&gt; Type属性&lt;/h4&gt;
+&lt;p&gt;relation的type一共有5个,分别是&lt;/p&gt;
+&lt;ul&gt;
+&lt;li&gt;&lt;p&gt;&lt;strong&gt;ECrel&lt;/strong&gt;: enzyme-enzyme relation, indicating two enzymes catalyzing successive reaction steps.代表的是两个酶之间的联系,比如enzyme1-metabolite1-enzyme2-metabolite2.那么enzyme1-enzyme2之间的关系realtion就是&lt;code&gt;ECrel&lt;/code&gt;.&lt;/p&gt;&lt;/li&gt;
+&lt;li&gt;&lt;p&gt;&lt;strong&gt;PPrel&lt;/strong&gt;: protein-protein interaction, such as binding and modification.&lt;/p&gt;&lt;/li&gt;
+&lt;li&gt;&lt;p&gt;&lt;strong&gt;GErel&lt;/strong&gt;: gene expression interaction, indicating relation of transcription factor and target gene product.&lt;/p&gt;&lt;/li&gt;
+&lt;li&gt;&lt;p&gt;&lt;strong&gt;PCrel&lt;/strong&gt;: protein-compound interaction,注意这个关系不是enzyme催化的关系.&lt;/p&gt;&lt;/li&gt;
+&lt;li&gt;&lt;p&gt;&lt;strong&gt;maplink&lt;/strong&gt;: 跟另外一个pathway的联系.&lt;/p&gt;&lt;/li&gt;
+&lt;/ul&gt;
+&lt;/div&gt;
+&lt;div id=&#34;subtype-element&#34; class=&#34;section level4&#34; number=&#34;1.6.1.2&#34;&gt;
+&lt;h4&gt;&lt;span class=&#34;header-section-number&#34;&gt;1.6.1.2&lt;/span&gt; subtype element&lt;/h4&gt;
+&lt;p&gt;每个relatio还有一个subtype属性.这个属性用来对relation做进一步的说明.&lt;/p&gt;
+&lt;ul&gt;
+&lt;li&gt;&lt;strong&gt;name&lt;/strong&gt;: interation/relation的信息.&lt;/li&gt;
+&lt;/ul&gt;
+&lt;p&gt;包含以下几种信息.&lt;/p&gt;
+&lt;p&gt;&lt;img src=&#34;figure2.png&#34; /&gt;&lt;/p&gt;
+&lt;p&gt;其中&lt;code&gt;compound&lt;/code&gt;是指这个relation其实是两个enzyme.&lt;/p&gt;
+&lt;pre class=&#34;r&#34;&gt;&lt;code&gt;temp_kgml@edges[[1]]@entry1ID&lt;/code&gt;&lt;/pre&gt;
+&lt;pre&gt;&lt;code&gt;## [1] &amp;quot;73&amp;quot;&lt;/code&gt;&lt;/pre&gt;
+&lt;pre class=&#34;r&#34;&gt;&lt;code&gt;temp_kgml@edges[[1]]@entry2ID&lt;/code&gt;&lt;/pre&gt;
+&lt;pre&gt;&lt;code&gt;## [1] &amp;quot;75&amp;quot;&lt;/code&gt;&lt;/pre&gt;
+&lt;pre class=&#34;r&#34;&gt;&lt;code&gt;temp_kgml@edges[[1]]@type&lt;/code&gt;&lt;/pre&gt;
+&lt;pre&gt;&lt;code&gt;## [1] &amp;quot;ECrel&amp;quot;&lt;/code&gt;&lt;/pre&gt;
+&lt;pre class=&#34;r&#34;&gt;&lt;code&gt;temp_kgml@edges[[1]]@subtype&lt;/code&gt;&lt;/pre&gt;
+&lt;pre&gt;&lt;code&gt;## $subtype
+##   [ Subtype name ]: compound
+##   [ Subtype value ]: 90&lt;/code&gt;&lt;/pre&gt;
+&lt;p&gt;这个relation就是两个enzyme连接起来的.&lt;/p&gt;
+&lt;/div&gt;
+&lt;/div&gt;
+&lt;/div&gt;
+&lt;div id=&#34;reaction反应&#34; class=&#34;section level2&#34; number=&#34;1.7&#34;&gt;
+&lt;h2&gt;&lt;span class=&#34;header-section-number&#34;&gt;1.7&lt;/span&gt; Reaction反应&lt;/h2&gt;
+&lt;p&gt;reaction和relation很类似.不一样的是type属性.&lt;/p&gt;
+&lt;p&gt;type属性包括&lt;code&gt;reversible&lt;/code&gt;和&lt;code&gt;irreversible&lt;/code&gt;.分别表示可逆反应和不可逆反映.&lt;/p&gt;
+&lt;pre class=&#34;r&#34;&gt;&lt;code&gt;temp_kgml@reactions[[1]]@name&lt;/code&gt;&lt;/pre&gt;
+&lt;pre&gt;&lt;code&gt;## [1] &amp;quot;rn:R00710&amp;quot;&lt;/code&gt;&lt;/pre&gt;
+&lt;pre class=&#34;r&#34;&gt;&lt;code&gt;temp_kgml@reactions[[1]]@type&lt;/code&gt;&lt;/pre&gt;
+&lt;pre&gt;&lt;code&gt;## [1] &amp;quot;reversible&amp;quot;&lt;/code&gt;&lt;/pre&gt;
+&lt;pre class=&#34;r&#34;&gt;&lt;code&gt;temp_kgml@reactions[[1]]@substrateName&lt;/code&gt;&lt;/pre&gt;
+&lt;pre&gt;&lt;code&gt;## [1] &amp;quot;cpd:C00084&amp;quot;&lt;/code&gt;&lt;/pre&gt;
+&lt;pre class=&#34;r&#34;&gt;&lt;code&gt;temp_kgml@reactions[[1]]@productName&lt;/code&gt;&lt;/pre&gt;
+&lt;pre&gt;&lt;code&gt;## [1] &amp;quot;cpd:C00033&amp;quot;&lt;/code&gt;&lt;/pre&gt;
+&lt;/div&gt;
+&lt;/div&gt;
+</description>
+    </item>
+    
+  </channel>
+</rss>

@@ -1,0 +1,497 @@
+LOCUS       Z78533                   740 bp    DNA     linear   PLN 30-NOV-2006
+DEFINITION  C.irapeanum 5.8S rRNA gene and ITS1 and ITS2 DNA.
+ACCESSION   Z78533
+VERSION     Z78533.1  GI:2765658
+KEYWORDS    5.8S ribosomal RNA; 5.8S rRNA gene; internal transcribed spacer;
+            ITS1; ITS2.
+SOURCE      Cypripedium irapeanum
+  ORGANISM  Cypripedium irapeanum
+            Eukaryota; Viridiplantae; Streptophyta; Embryophyta; Tracheophyta;
+            Spermatophyta; Magnoliophyta; Liliopsida; Asparagales; Orchidaceae;
+            Cypripedioideae; Cypripedium.
+REFERENCE   1
+  AUTHORS   Cox,A.V., Pridgeon,A.M., Albert,V.A. and Chase,M.W.
+  TITLE     Phylogenetics of the slipper orchids (Cypripedioideae:
+            Orchidaceae): nuclear rDNA ITS sequences
+  JOURNAL   Unpublished
+REFERENCE   2  (bases 1 to 740)
+  AUTHORS   Cox,A.V.
+  TITLE     Direct Submission
+  JOURNAL   Submitted (19-AUG-1996) Cox A.V., Royal Botanic Gardens, Kew,
+            Richmond, Surrey TW9 3AB, UK
+FEATURES             Location/Qualifiers
+     source          1..740
+                     /organism="Cypripedium irapeanum"
+                     /mol_type="genomic DNA"
+                     /db_xref="taxon:49711"
+     misc_feature    1..380
+                     /note="internal transcribed spacer 1"
+     gene            381..550
+                     /gene="5.8S rRNA"
+     rRNA            381..550
+                     /gene="5.8S rRNA"
+                     /product="5.8S ribosomal RNA"
+     misc_feature    551..740
+                     /note="internal transcribed spacer 2"
+ORIGIN      
+        1 cgtaacaagg tttccgtagg tgaacctgcg gaaggatcat tgatgagacc gtggaataaa
+       61 cgatcgagtg aatccggagg accggtgtac tcagctcacc gggggcattg ctcccgtggt
+      121 gaccctgatt tgttgttggg ccgcctcggg agcgtccatg gcgggtttga acctctagcc
+      181 cggcgcagtt tgggcgccaa gccatatgaa agcatcaccg gcgaatggca ttgtcttccc
+      241 caaaacccgg agcggcggcg tgctgtcgcg tgcccaatga attttgatga ctctcgcaaa
+      301 cgggaatctt ggctctttgc atcggatgga aggacgcagc gaaatgcgat aagtggtgtg
+      361 aattgcaaga tcccgtgaac catcgagtct tttgaacgca agttgcgccc gaggccatca
+      421 ggctaagggc acgcctgctt gggcgtcgcg cttcgtctct ctcctgccaa tgcttgcccg
+      481 gcatacagcc aggccggcgt ggtgcggatg tgaaagattg gccccttgtg cctaggtgcg
+      541 gcgggtccaa gagctggtgt tttgatggcc cggaacccgg caagaggtgg acggatgctg
+      601 gcagcagctg ccgtgcgaat cccccatgtt gtcgtgcttg tcggacaggc aggagaaccc
+      661 ttccgaaccc caatggaggg cggttgaccg ccattcggat gtgaccccag gtcaggcggg
+      721 ggcacccgct gagtttacgc
+//
+LOCUS       Z78532                   753 bp    DNA     linear   PLN 30-NOV-2006
+DEFINITION  C.californicum 5.8S rRNA gene and ITS1 and ITS2 DNA.
+ACCESSION   Z78532
+VERSION     Z78532.1  GI:2765657
+KEYWORDS    5.8S ribosomal RNA; 5.8S rRNA gene; internal transcribed spacer;
+            ITS1; ITS2.
+SOURCE      Cypripedium californicum
+  ORGANISM  Cypripedium californicum
+            Eukaryota; Viridiplantae; Streptophyta; Embryophyta; Tracheophyta;
+            Spermatophyta; Magnoliophyta; Liliopsida; Asparagales; Orchidaceae;
+            Cypripedioideae; Cypripedium.
+REFERENCE   1
+  AUTHORS   Cox,A.V., Pridgeon,A.M., Albert,V.A. and Chase,M.W.
+  TITLE     Phylogenetics of the slipper orchids (Cypripedioideae:
+            Orchidaceae): nuclear rDNA ITS sequences
+  JOURNAL   Unpublished
+REFERENCE   2  (bases 1 to 753)
+  AUTHORS   Cox,A.V.
+  TITLE     Direct Submission
+  JOURNAL   Submitted (19-AUG-1996) Cox A.V., Royal Botanic Gardens, Kew,
+            Richmond, Surrey TW9 3AB, UK
+FEATURES             Location/Qualifiers
+     source          1..753
+                     /organism="Cypripedium californicum"
+                     /mol_type="genomic DNA"
+                     /db_xref="taxon:53039"
+     misc_feature    1..380
+                     /note="internal transcribed spacer 1"
+     gene            381..550
+                     /gene="5.8S rRNA"
+     rRNA            381..550
+                     /gene="5.8S rRNA"
+                     /product="5.8S ribosomal RNA"
+     misc_feature    551..753
+                     /note="internal transcribed spacer 2"
+ORIGIN      
+        1 cgtaacaagg tttccgtagg tgaacctgcg gaaggatcat tgttgagaca acagaatata
+       61 tgatcgagtg aatctggagg acctgtggta actcagctcg tcgtggcact gcttttgtcg
+      121 tgaccctgct ttgttgttgg gcctcctcaa gagctttcat ggcaggtttg aactttagta
+      181 cggtgcagtt tgcgccaagt catataaagc atcactgatg aatgacatta ttgtcagaaa
+      241 aaatcagagg ggcagtatgc tactgagcat gccagtgaat ttttatgact ctcgcaacgg
+      301 atatcttggc tctaacatcg atgaagaacg cagctaaatg cgataagtgg tgtgaattgc
+      361 agaatcccgt gaaccatcga gtctttgaac gcaagttgcg ctcgaggcca tcaggctaag
+      421 ggcacgcctg cctgggcgtc gtgtgttgcg tctctcctac caatgcttgc ttggcatatc
+      481 gctaagctgg cattatacgg atgtgaatga ttggcccctt gtgcctaggt gcggtgggtc
+      541 taaggattgt tgctttgatg ggtaggaatg tggcacgagg tggagaatgc taacagtcat
+      601 aaggctgcta tttgaatccc ccatgttgtt gtattttttc gaacctacac aagaacctaa
+      661 ttgaacccca atggagctaa aataaccatt gggcagttga tttccattca gatgcgaccc
+      721 caggtcaggc ggggccaccc gctgagttga ggc
+//
+LOCUS       Z78531                   748 bp    DNA     linear   PLN 30-NOV-2006
+DEFINITION  C.fasciculatum 5.8S rRNA gene and ITS1 and ITS2 DNA.
+ACCESSION   Z78531
+VERSION     Z78531.1  GI:2765656
+KEYWORDS    5.8S ribosomal RNA; 5.8S rRNA gene; internal transcribed spacer;
+            ITS1; ITS2.
+SOURCE      Cypripedium fasciculatum
+  ORGANISM  Cypripedium fasciculatum
+            Eukaryota; Viridiplantae; Streptophyta; Embryophyta; Tracheophyta;
+            Spermatophyta; Magnoliophyta; Liliopsida; Asparagales; Orchidaceae;
+            Cypripedioideae; Cypripedium.
+REFERENCE   1
+  AUTHORS   Cox,A.V., Pridgeon,A.M., Albert,V.A. and Chase,M.W.
+  TITLE     Phylogenetics of the slipper orchids (Cypripedioideae:
+            Orchidaceae): nuclear rDNA ITS sequences
+  JOURNAL   Unpublished
+REFERENCE   2  (bases 1 to 748)
+  AUTHORS   Cox,A.V.
+  TITLE     Direct Submission
+  JOURNAL   Submitted (19-AUG-1996) Cox A.V., Royal Botanic Gardens, Kew,
+            Richmond, Surrey TW9 3AB, UK
+FEATURES             Location/Qualifiers
+     source          1..748
+                     /organism="Cypripedium fasciculatum"
+                     /mol_type="genomic DNA"
+                     /db_xref="taxon:53040"
+     misc_feature    1..380
+                     /note="internal transcribed spacer 1"
+     gene            381..550
+                     /gene="5.8S rRNA"
+     rRNA            381..550
+                     /gene="5.8S rRNA"
+                     /product="5.8S ribosomal RNA"
+     misc_feature    551..748
+                     /note="internal transcribed spacer 2"
+ORIGIN      
+        1 cgtaacaagg tttccgtagg tgaacctgcg gaaggatcat tgttgagaca gcagaacata
+       61 cgatcgagtg aatccggagg acccgtggtt acacggctca ccgtggcttt gctctcgtgg
+      121 tgaacccggt ttgcgaccgg gccgcctcgg gaactttcat ggcgggtttg aacgtctagc
+      181 gcggcgcagt ttgcgccaag tcatatggag cgtcaccgat ggatggcatt tttgtcaaga
+      241 aaaactcgga ggggcggcgt ctgttgcgcg tgccaatgaa tttatgacga ctctcggcaa
+      301 cgggatatct ggctcttgca tcgatgaaga acgcagcgaa atgcgataag tggtgtgaat
+      361 tgcagaatcc cgcgaaccat cgagtctttg aacgcaagtt gcgcccgagg ccatcaggct
+      421 aagggcacgc ctgcctgggc gtcgtgtgct gcgtctctcc tgataatgct tgattggcat
+      481 gcggctagtc tgtcattgtg aggacgtgaa agattggccc cttgcgccta ggtgcggcgg
+      541 gtctaagcat cggtgttctg atggcccgga acttggcagt aggtggagga tgctggcagc
+      601 cgcaaggctg ccgttcgaat cccccgtgtt gtcgtactcg tcaggcctac agaagaacct
+      661 gtttgaaccc ccagtggacg caaaaccgcc ctcgggcggt gatttccatt cagatgcgac
+      721 cccagtcagg cgggccaccc gtgagtaa
+//
+LOCUS       Z78530                   744 bp    DNA     linear   PLN 30-NOV-2006
+DEFINITION  C.margaritaceum 5.8S rRNA gene and ITS1 and ITS2 DNA.
+ACCESSION   Z78530
+VERSION     Z78530.1  GI:2765655
+KEYWORDS    5.8S ribosomal RNA; 5.8S rRNA gene; internal transcribed spacer;
+            ITS1; ITS2.
+SOURCE      Cypripedium margaritaceum
+  ORGANISM  Cypripedium margaritaceum
+            Eukaryota; Viridiplantae; Streptophyta; Embryophyta; Tracheophyta;
+            Spermatophyta; Magnoliophyta; Liliopsida; Asparagales; Orchidaceae;
+            Cypripedioideae; Cypripedium.
+REFERENCE   1
+  AUTHORS   Cox,A.V., Pridgeon,A.M., Albert,V.A. and Chase,M.W.
+  TITLE     Phylogenetics of the slipper orchids (Cypripedioideae:
+            Orchidaceae): nuclear rDNA ITS sequences
+  JOURNAL   Unpublished
+REFERENCE   2  (bases 1 to 744)
+  AUTHORS   Cox,A.V.
+  TITLE     Direct Submission
+  JOURNAL   Submitted (19-AUG-1996) Cox A.V., Royal Botanic Gardens, Kew,
+            Richmond, Surrey TW9 3AB, UK
+FEATURES             Location/Qualifiers
+     source          1..744
+                     /organism="Cypripedium margaritaceum"
+                     /mol_type="genomic DNA"
+                     /db_xref="taxon:53047"
+     misc_feature    1..380
+                     /note="internal transcribed spacer 1"
+     gene            381..550
+                     /gene="5.8S rRNA"
+     rRNA            381..550
+                     /gene="5.8S rRNA"
+                     /product="5.8S ribosomal RNA"
+     misc_feature    551..744
+                     /note="internal transcribed spacer 2"
+ORIGIN      
+        1 cgtaacaagg tttccgtagg tgaacctgcg gaaggatcat tgttgaaaca acataataaa
+       61 cgattgagtg aatctggagg acttgtggta atttggctcg ctagggatat ccttttgtgg
+      121 tgaccatgat ttgtcattgg gcctcattga gagctttcat ggcgggtttg aacctctagc
+      181 acggtccagt ttgcaccaag gtatataaag aatcaccgat gaatgacatt attgccccac
+      241 acaacgtcgg aggtgtggtg tgttaatgtt cattccaatg aattttgatg actctcggca
+      301 gacggatatc ttgactcttg catcgatgaa gaacgcaccg aaatgtgata agtggtgtga
+      361 attgcagaat cccgtgaacc atcgagtctt tgaacgcaag ttgcgcccga ggccatcagg
+      421 ctaagggcac gcctgcctgg gcgtcgtatg ttttatctct ccttccaatg cttgtccagc
+      481 atatagctag gccatcattg tgtggatgtg aaagattggc cccttgtgct taggtgcggt
+      541 gggtctaagg atatgtgttt tgatggtctg aaacttggca agaggtggag gatgctggca
+      601 gccgcaaggc tattgtttga atcccccatg ttgtcatgtt tgttgggcct atagaacaac
+      661 ttgtttggac cctaattaag gcaaaacaat ccttgggtgg ttgatttcca atcagatgcg
+      721 accccagtca gggggccacc ccat
+//
+LOCUS       Z78529                   733 bp    DNA     linear   PLN 30-NOV-2006
+DEFINITION  C.lichiangense 5.8S rRNA gene and ITS1 and ITS2 DNA.
+ACCESSION   Z78529
+VERSION     Z78529.1  GI:2765654
+KEYWORDS    5.8S ribosomal RNA; 5.8S rRNA gene; internal transcribed spacer;
+            ITS1; ITS2.
+SOURCE      Cypripedium lichiangense
+  ORGANISM  Cypripedium lichiangense
+            Eukaryota; Viridiplantae; Streptophyta; Embryophyta; Tracheophyta;
+            Spermatophyta; Magnoliophyta; Liliopsida; Asparagales; Orchidaceae;
+            Cypripedioideae; Cypripedium.
+REFERENCE   1
+  AUTHORS   Cox,A.V., Pridgeon,A.M., Albert,V.A. and Chase,M.W.
+  TITLE     Phylogenetics of the slipper orchids (Cypripedioideae:
+            Orchidaceae): nuclear rDNA ITS sequences
+  JOURNAL   Unpublished
+REFERENCE   2  (bases 1 to 733)
+  AUTHORS   Cox,A.V.
+  TITLE     Direct Submission
+  JOURNAL   Submitted (19-AUG-1996) Cox A.V., Royal Botanic Gardens, Kew,
+            Richmond, Surrey TW9 3AB, UK
+FEATURES             Location/Qualifiers
+     source          1..733
+                     /organism="Cypripedium lichiangense"
+                     /mol_type="genomic DNA"
+                     /db_xref="taxon:53045"
+     misc_feature    1..380
+                     /note="internal transcribed spacer 1"
+     gene            381..550
+                     /gene="5.8S rRNA"
+     rRNA            381..550
+                     /gene="5.8S rRNA"
+                     /product="5.8S ribosomal RNA"
+     misc_feature    551..733
+                     /note="internal transcribed spacer 2"
+ORIGIN      
+        1 acggcgagct gccgaaggac attgttgaga cagcagaata tacgattgag tgaatctgga
+       61 ggacttgtgg ttatttggct cgctagggat ttccttttgt ggtgaccatg atttgtcatt
+      121 gggcctcatt gagagctttc atggcgggtt tgaacctcta gcacggtgca gtttgcacca
+      181 aggtatataa agaatcaccg atgaatgaca ttattgtcaa aaaagtcgga ggtgtggtgt
+      241 gttattggtc atgccaatga attgttgatg actctcgccg agggatatct tggctcttgc
+      301 atcgatgaag aatcccaccg aaatgtgata agtggtgtga attgcagaat cccgtgaacc
+      361 atcgagtctt tgaacgcaag ttgcgcccga ggccatcagg ctaagggcac gcctgcctgg
+      421 gcgtcgtatg ttttatctct ccttccaatg cttgtccagc atatagctag gccatcattg
+      481 tgtggatgtg aaagattggc cccttgtgct taggtgcggt gggtctaagg atatgtgttt
+      541 tgatggtctg aaacttggca agaggtggag gatgctggca gccgcaaggc tattgtttga
+      601 atcccccatg ttgtcatatt tgttgggcct atagaacaac ttgtttggac cctaattaag
+      661 gcaaaacaat ccttgggtgg ttgatttcca atcagatgcg accccagtca gcgggccacc
+      721 agctgagcta aaa
+//
+LOCUS       Z78527                   718 bp    DNA     linear   PLN 30-NOV-2006
+DEFINITION  C.yatabeanum 5.8S rRNA gene and ITS1 and ITS2 DNA.
+ACCESSION   Z78527
+VERSION     Z78527.1  GI:2765652
+KEYWORDS    5.8S ribosomal RNA; 5.8S rRNA gene; internal transcribed spacer;
+            ITS1; ITS2.
+SOURCE      Cypripedium yatabeanum
+  ORGANISM  Cypripedium yatabeanum
+            Eukaryota; Viridiplantae; Streptophyta; Embryophyta; Tracheophyta;
+            Spermatophyta; Magnoliophyta; Liliopsida; Asparagales; Orchidaceae;
+            Cypripedioideae; Cypripedium.
+REFERENCE   1
+  AUTHORS   Cox,A.V., Pridgeon,A.M., Albert,V.A. and Chase,M.W.
+  TITLE     Phylogenetics of the slipper orchids (Cypripedioideae:
+            Orchidaceae): nuclear rDNA ITS sequences
+  JOURNAL   Unpublished
+REFERENCE   2  (bases 1 to 718)
+  AUTHORS   Cox,A.V.
+  TITLE     Direct Submission
+  JOURNAL   Submitted (19-AUG-1996) Cox A.V., Royal Botanic Gardens, Kew,
+            Richmond, Surrey TW9 3AB, UK
+FEATURES             Location/Qualifiers
+     source          1..718
+                     /organism="Cypripedium yatabeanum"
+                     /mol_type="genomic DNA"
+                     /db_xref="taxon:53053"
+     misc_feature    1..380
+                     /note="internal transcribed spacer 1"
+     gene            381..550
+                     /gene="5.8S rRNA"
+     rRNA            381..550
+                     /gene="5.8S rRNA"
+                     /product="5.8S ribosomal RNA"
+     misc_feature    551..718
+                     /note="internal transcribed spacer 2"
+ORIGIN      
+        1 cgtaacaagg tttccgtagg tgaacctgcg gaaggatcat tgttgagaca gtagaatata
+       61 tgatcgagtg aatctggatg acctgtggtt actcggctcg cctgatttgt tgttgggctt
+      121 ccttaggagc ttacatggcg ggtttgaacc tctaccacgg tgcagtttgc gccaagtcat
+      181 atgaagcata actgcaaatg gcactactgt caccaaaagt tggagtggca gtgtgttatt
+      241 gcatgcgcta atggattttt gatgactctc ggccaacgga tatctggctc tttgcatcga
+      301 tgaaggaacg cagcgaaatg cgataagtgg tgtgaattgc agaatcccgc gaaccatcga
+      361 gtctttgaac gcaagttgcg cccgaggcca tcaggctaag ggcacgcctg cctgggcgtc
+      421 gtgtatcgca tctctcttgc caatgcttac ccggcataca actaggctgg cattgggtgg
+      481 atgtgaaaga ttggcccctt gtgcctaggt gcggtgggtc taaggattga tgttttgatg
+      541 gatcgaaacc tggcaggagg tggaggatgc tggaagccgc aaggctgtcg ttcgaatccc
+      601 ccatgttgtc atatttgtcg aacctataaa agaacatgct tgaaccccaa tggattgtaa
+      661 aatgaccctt ggcggttgat ttccatttag atgcgacccc aggtcaggcg ggccaccc
+//
+LOCUS       Z78526                   730 bp    DNA     linear   PLN 30-NOV-2006
+DEFINITION  C.guttatum 5.8S rRNA gene and ITS1 and ITS2 DNA.
+ACCESSION   Z78526
+VERSION     Z78526.1  GI:2765651
+KEYWORDS    5.8S ribosomal RNA; 5.8S rRNA gene; internal transcribed spacer;
+            ITS1; ITS2.
+SOURCE      Cypripedium guttatum
+  ORGANISM  Cypripedium guttatum
+            Eukaryota; Viridiplantae; Streptophyta; Embryophyta; Tracheophyta;
+            Spermatophyta; Magnoliophyta; Liliopsida; Asparagales; Orchidaceae;
+            Cypripedioideae; Cypripedium.
+REFERENCE   1
+  AUTHORS   Cox,A.V., Pridgeon,A.M., Albert,V.A. and Chase,M.W.
+  TITLE     Phylogenetics of the slipper orchids (Cypripedioideae:
+            Orchidaceae): nuclear rDNA ITS sequences
+  JOURNAL   Unpublished
+REFERENCE   2  (bases 1 to 730)
+  AUTHORS   Cox,A.V.
+  TITLE     Direct Submission
+  JOURNAL   Submitted (19-AUG-1996) Cox A.V., Royal Botanic Gardens, Kew,
+            Richmond, Surrey TW9 3AB, UK
+FEATURES             Location/Qualifiers
+     source          1..730
+                     /organism="Cypripedium guttatum"
+                     /mol_type="genomic DNA"
+                     /db_xref="taxon:53043"
+     misc_feature    1..380
+                     /note="internal transcribed spacer 1"
+     gene            381..550
+                     /gene="5.8S rRNA"
+     rRNA            381..550
+                     /gene="5.8S rRNA"
+                     /product="5.8S ribosomal RNA"
+     misc_feature    551..730
+                     /note="internal transcribed spacer 2"
+ORIGIN      
+        1 cgtaacaagg tttccgtagg tgaacctgcg gaaggatcat tgttgagaca gtagaatata
+       61 tgatcgagtg aatctggagg acctgtggtt actcggctcc cctgatttgt tgttgggctt
+      121 ccttaggagc ttacatgccg ggtttgaacc tctaccacgg tgcagtttgc gccaagtcat
+      181 atgaagcata actgaacaat ggcattattg tcaccaaaag ttggagtggc agtgtgctat
+      241 tgcatgcgct aatggatttt tgatgactct cgccaacgga tatcttggct cttgcatcga
+      301 tgaagaaccc agcgaaatgc gataagtggt gtgaattgca gaatcccgcg aaccatcgag
+      361 tctttgaacg caagttgcgc ccgaggccat caggctaagg gcacgcctgc ctgggcgtcg
+      421 tgtatcgcat ctctcttgcc aatgcttacc cggcatacaa ctaggctggc attgtgcgga
+      481 tgtgaaagat tggccccttg tgcctaggtg cggtgggtct aaggattgat gttttgatgg
+      541 atcgaaacct ggcaggaggt ggaggatgct ggaagccgca aggctgtcgt tcgaatcccc
+      601 catgttgtca tatttgtcga acctataaaa gaacatgctt gaaccccaat ggatgtaaaa
+      661 tgacccttgg cggttgattt ccatttagat gcgaccccag gtcaggcggg gccacccgct
+      721 gagtttatgt
+//
+LOCUS       Z78525                   704 bp    DNA     linear   PLN 30-NOV-2006
+DEFINITION  C.acaule 5.8S rRNA gene and ITS1 and ITS2 DNA.
+ACCESSION   Z78525
+VERSION     Z78525.1  GI:2765650
+KEYWORDS    5.8S ribosomal RNA; 5.8S rRNA gene; internal transcribed spacer;
+            ITS1; ITS2.
+SOURCE      Cypripedium acaule (pink lady's slipper)
+  ORGANISM  Cypripedium acaule
+            Eukaryota; Viridiplantae; Streptophyta; Embryophyta; Tracheophyta;
+            Spermatophyta; Magnoliophyta; Liliopsida; Asparagales; Orchidaceae;
+            Cypripedioideae; Cypripedium.
+REFERENCE   1
+  AUTHORS   Cox,A.V., Pridgeon,A.M., Albert,V.A. and Chase,M.W.
+  TITLE     Phylogenetics of the slipper orchids (Cypripedioideae:
+            Orchidaceae): nuclear rDNA ITS sequences
+  JOURNAL   Unpublished
+REFERENCE   2  (bases 1 to 704)
+  AUTHORS   Cox,A.V.
+  TITLE     Direct Submission
+  JOURNAL   Submitted (19-AUG-1996) Cox A.V., Royal Botanic Gardens, Kew,
+            Richmond, Surrey TW9 3AB, UK
+FEATURES             Location/Qualifiers
+     source          1..704
+                     /organism="Cypripedium acaule"
+                     /mol_type="genomic DNA"
+                     /db_xref="taxon:38191"
+     misc_feature    1..380
+                     /note="internal transcribed spacer 1"
+     gene            381..550
+                     /gene="5.8S rRNA"
+     rRNA            381..550
+                     /gene="5.8S rRNA"
+                     /product="5.8S ribosomal RNA"
+     misc_feature    551..704
+                     /note="internal transcribed spacer 2"
+ORIGIN      
+        1 tgttgagata gcagaatata catcgagtga atccggagga cctgtggtta ttcggcttgc
+       61 cgagggcttt gcttttgtgg tgacccaaat ttgtcgttgg gcctcctcgg gagctttcat
+      121 ggcaggtttc aaactctagc acggcacagt ttgtgccaag tcatatgaag catcaccgac
+      181 aaatgacatt attgtcaaaa aagttggagg ggcggtgtcc tcctgtgcat gccgaatata
+      241 attttgatga ctctcgacaa gcggatatct tggctcttgc atcggatgaa gaacccagcg
+      301 aaatgcgata agtggtgtga attgcaagat cccgtgaacc atcgagtctt ttgaacgcaa
+      361 gttgcgcccg aggccatcag gctaagggca cgcctgcctg ggcgtcgtgt gttgtgtctc
+      421 tcttgccaat gcctgtccat atatctaggc ttgcattgtg cggatgcgaa agattggccc
+      481 cttgtgcctt ggcgcgttgg gtctaaggaa tgttttgatg gcccgaaact tggcaggagg
+      541 tggaggacat tggctgccac aaggttgtca tttaaatccc ccatgttatc gtatttatcg
+      601 gacctatata ataacttgtt tgaaccccag tggaggcaaa atgacccttg gatggttgac
+      661 tgccattcat atgcgacccc aggtcaggcg ggccacccgc tgca
+//
+LOCUS       Z78524                   740 bp    DNA     linear   PLN 30-NOV-2006
+DEFINITION  C.formosanum 5.8S rRNA gene and ITS1 and ITS2 DNA.
+ACCESSION   Z78524
+VERSION     Z78524.1  GI:2765649
+KEYWORDS    5.8S ribosomal RNA; 5.8S rRNA gene; internal transcribed spacer;
+            ITS1; ITS2.
+SOURCE      Cypripedium formosanum
+  ORGANISM  Cypripedium formosanum
+            Eukaryota; Viridiplantae; Streptophyta; Embryophyta; Tracheophyta;
+            Spermatophyta; Magnoliophyta; Liliopsida; Asparagales; Orchidaceae;
+            Cypripedioideae; Cypripedium.
+REFERENCE   1
+  AUTHORS   Cox,A.V., Pridgeon,A.M., Albert,V.A. and Chase,M.W.
+  TITLE     Phylogenetics of the slipper orchids (Cypripedioideae:
+            Orchidaceae): nuclear rDNA ITS sequences
+  JOURNAL   Unpublished
+REFERENCE   2  (bases 1 to 740)
+  AUTHORS   Cox,A.V.
+  TITLE     Direct Submission
+  JOURNAL   Submitted (19-AUG-1996) Cox A.V., Royal Botanic Gardens, Kew,
+            Richmond, Surrey TW9 3AB, UK
+FEATURES             Location/Qualifiers
+     source          1..740
+                     /organism="Cypripedium formosanum"
+                     /mol_type="genomic DNA"
+                     /db_xref="taxon:53042"
+     misc_feature    1..380
+                     /note="internal transcribed spacer 1"
+     gene            381..550
+                     /gene="5.8S rRNA"
+     rRNA            381..550
+                     /gene="5.8S rRNA"
+                     /product="5.8S ribosomal RNA"
+     misc_feature    551..740
+                     /note="internal transcribed spacer 2"
+ORIGIN      
+        1 cgtaacaagg tttccgtagg tgaacctgcg gaaggatcat tgttgagata gtagaatata
+       61 tgattgagtg aatatggagg acatgtggtt acttggctcg tcagtgcttt gcttttgtgg
+      121 tgaccttaat tgggcctcct taggagcttt catggcgggt tcaaaccttt agcacggcgc
+      181 agtttgtgcc aagtcatata agcatccctg atgaatggca ttgttgttaa aaaagtcgga
+      241 ggggcggcat gctgttgtgc atgctaatga attttttgat gactctcgca acggaacttg
+      301 gctctttaca tccgatgaag aacgcagcga aatgcgataa gtggtgtgaa ttgcagaatc
+      361 ccgtgaacca tcgagtattt gaacgcaagt tgcgcccaag gccatcaggc taagggcacg
+      421 cctgcctggg cgtcgtgtgc tgcatctctc ctnccaatgc ttgcccagca tatagctagg
+      481 ttagcattgt gcggatgaaa tattggcccc ttgtgcttag gtgcggtggg tctaaggatt
+      541 agtattttga tagctcggaa ctcggcagga ggtggagaat gttggtagct gcaaggctgc
+      601 catttgaatt ccccatgttg tcgtatttgt tgaacctata aaagaacttg tttgaacccc
+      661 aatgaaggaa aaatgaccct tgggcggttg attttcattc agatgcaacc ccaggtcagg
+      721 tggccaccct gagattaagc
+//
+LOCUS       Z78523                   709 bp    DNA     linear   PLN 30-NOV-2006
+DEFINITION  C.himalaicum 5.8S rRNA gene and ITS1 and ITS2 DNA.
+ACCESSION   Z78523
+VERSION     Z78523.1  GI:2765648
+KEYWORDS    5.8S ribosomal RNA; 5.8S rRNA gene; internal transcribed spacer;
+            ITS1; ITS2.
+SOURCE      Cypripedium himalaicum
+  ORGANISM  Cypripedium himalaicum
+            Eukaryota; Viridiplantae; Streptophyta; Embryophyta; Tracheophyta;
+            Spermatophyta; Magnoliophyta; Liliopsida; Asparagales; Orchidaceae;
+            Cypripedioideae; Cypripedium.
+REFERENCE   1
+  AUTHORS   Cox,A.V., Pridgeon,A.M., Albert,V.A. and Chase,M.W.
+  TITLE     Phylogenetics of the slipper orchids (Cypripedioideae:
+            Orchidaceae): nuclear rDNA ITS sequences
+  JOURNAL   Unpublished
+REFERENCE   2  (bases 1 to 709)
+  AUTHORS   Cox,A.V.
+  TITLE     Direct Submission
+  JOURNAL   Submitted (19-AUG-1996) Cox A.V., Royal Botanic Gardens, Kew,
+            Richmond, Surrey TW9 3AB, UK
+FEATURES             Location/Qualifiers
+     source          1..709
+                     /organism="Cypripedium himalaicum"
+                     /mol_type="genomic DNA"
+                     /db_xref="taxon:53044"
+     misc_feature    1..380
+                     /note="internal transcribed spacer 1"
+     gene            381..550
+                     /gene="5.8S rRNA"
+     rRNA            381..550
+                     /gene="5.8S rRNA"
+                     /product="5.8S ribosomal RNA"
+     misc_feature    551..709
+                     /note="internal transcribed spacer 2"
+ORIGIN      
+        1 cgtaaccagg tttccgtagg tgaacctgcg gcaggatcat tgttgagaca gcagaatata
+       61 tgatcgagtg aatccggtgg acttgtggtt actcagctcg acataggctt tgcttttgcg
+      121 gtgaccctaa cttgtcattg ggcctcctcc caagctttcc ttgtgggtgt gaacctctag
+      181 cacggtgcag tatgcgccaa gtcatatgaa gcatcactga ggaatgacat tattgtccca
+      241 aaagctagag tggaagcgtg ctcttgcatg catgcataat gaatttttta ttgactctcg
+      301 acatatgtgg tgtgaattgc agaatcccgt gaaccatcga gtctttgaac gcaagttgcg
+      361 cccgatgcca tcaggctaag ggcacgcctg cctgggcgtc gtgtgctgcg tctctcctat
+      421 caatgctttc ctatcatata gattggtttg cattgcgtgg atgcgaaaga ttggcccctt
+      481 gtgcctaggt gcggtgggtc taaggactag tgttttgatg gttcgaaacc tggcaggagg
+      541 tggaggatgt tggcagctat aaggctatcg tttgaacccc ccatattgtc gtgtttgtcg
+      601 gacctagaga agaacctgtt tgaatcccaa tggaggcaaa caaccctcgg gcggttgatt
+      661 gccattcata ttgcgaccca ggtcaggcgg ggccaccgct gagtttaag
+//

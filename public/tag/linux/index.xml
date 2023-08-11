@@ -1,0 +1,60 @@
+<?xml version="1.0" encoding="utf-8" standalone="yes" ?>
+<rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
+  <channel>
+    <title>Linux | Xiaotao Shen</title>
+    <link>https://jaspershen.github.io/tag/linux/</link>
+      <atom:link href="https://jaspershen.github.io/tag/linux/index.xml" rel="self" type="application/rss+xml" />
+    <description>Linux</description>
+    <generator>Wowchemy (https://wowchemy.com)</generator><language>en-us</language><lastBuildDate>Mon, 23 Mar 2020 00:00:00 +0000</lastBuildDate>
+    <image>
+      <url>https://jaspershen.github.io/media/icon_hu805a85e690e4f2727bf7d5f685d888f7_86836_512x512_fill_lanczos_center_3.png</url>
+      <title>Linux</title>
+      <link>https://jaspershen.github.io/tag/linux/</link>
+    </image>
+    
+    <item>
+      <title>在Linux服务器和本地之间传输数据</title>
+      <link>https://jaspershen.github.io/post/2020-03-23-linux-server-local-file-transfer/</link>
+      <pubDate>Mon, 23 Mar 2020 00:00:00 +0000</pubDate>
+      <guid>https://jaspershen.github.io/post/2020-03-23-linux-server-local-file-transfer/</guid>
+      <description>
+
+&lt;div id=&#34;TOC&#34;&gt;
+&lt;ul&gt;
+&lt;li&gt;&lt;a href=&#34;#从本地向服务器copy文件&#34;&gt;&lt;span class=&#34;toc-section-number&#34;&gt;1&lt;/span&gt; 从本地向服务器copy文件&lt;/a&gt;&lt;/li&gt;
+&lt;li&gt;&lt;a href=&#34;#从本地向服务器copy文件夹&#34;&gt;&lt;span class=&#34;toc-section-number&#34;&gt;2&lt;/span&gt; 从本地向服务器copy文件夹&lt;/a&gt;&lt;/li&gt;
+&lt;li&gt;&lt;a href=&#34;#从服务器向本地copy文件&#34;&gt;&lt;span class=&#34;toc-section-number&#34;&gt;3&lt;/span&gt; 从服务器向本地copy文件&lt;/a&gt;&lt;/li&gt;
+&lt;li&gt;&lt;a href=&#34;#从服务器向本地copy文件夹&#34;&gt;&lt;span class=&#34;toc-section-number&#34;&gt;4&lt;/span&gt; 从服务器向本地copy文件夹&lt;/a&gt;&lt;/li&gt;
+&lt;/ul&gt;
+&lt;/div&gt;
+
+&lt;p&gt;可以使用&lt;code&gt;scp&lt;/code&gt;在本地和服务器之间传输数据.&lt;code&gt;scp&lt;/code&gt;全称是&lt;code&gt;secure copy&lt;/code&gt;.注意,在mac中,直接打开terminal即可,不能够登录到服务器再进行下面操作.&lt;/p&gt;
+&lt;div id=&#34;从本地向服务器copy文件&#34; class=&#34;section level1&#34;&gt;
+&lt;h1&gt;&lt;span class=&#34;header-section-number&#34;&gt;1&lt;/span&gt; 从本地向服务器copy文件&lt;/h1&gt;
+&lt;pre class=&#34;markdown&#34;&gt;&lt;code&gt;scp /file/to/send username@remote:/where/to/put&lt;/code&gt;&lt;/pre&gt;
+&lt;p&gt;其中&lt;code&gt;/file/to/send&lt;/code&gt;是比本地数据所在路径.&lt;code&gt;username&lt;/code&gt;是你在remote服务器的用户名.&lt;code&gt;remote&lt;/code&gt;一般是你的登录IP.&lt;code&gt;where/to/put&lt;/code&gt;是你想要在远程服务器存放数据的路径.&lt;/p&gt;
+&lt;p&gt;比如:&lt;/p&gt;
+&lt;pre class=&#34;markdown&#34;&gt;&lt;code&gt;scp /Users/shenxt/projects/demark_multiomics/denmark_project/data_analysis_2020_02_13/transcriptome_data_analysis/module_analysis/sft shenxt@login.scg.stanford.edu:/home/shenxt/denmark_multiomics/data_analysis_2020_02_13/transcriptome_data_analysis/module_analysis/&lt;/code&gt;&lt;/pre&gt;
+&lt;/div&gt;
+&lt;div id=&#34;从本地向服务器copy文件夹&#34; class=&#34;section level1&#34;&gt;
+&lt;h1&gt;&lt;span class=&#34;header-section-number&#34;&gt;2&lt;/span&gt; 从本地向服务器copy文件夹&lt;/h1&gt;
+&lt;p&gt;拷贝文件夹需要设定参数&lt;code&gt;r&lt;/code&gt;&lt;/p&gt;
+&lt;pre class=&#34;markdown&#34;&gt;&lt;code&gt;scp -r /file/to/send username@remote:/where/to/put&lt;/code&gt;&lt;/pre&gt;
+&lt;p&gt;其中&lt;code&gt;/file/to/send&lt;/code&gt;是比本地数据所在路径.&lt;code&gt;username&lt;/code&gt;是你在remote服务器的用户名.&lt;code&gt;remote&lt;/code&gt;一般是你的登录IP.&lt;code&gt;where/to/put&lt;/code&gt;是你想要在远程服务器存放数据的路径.&lt;/p&gt;
+&lt;/div&gt;
+&lt;div id=&#34;从服务器向本地copy文件&#34; class=&#34;section level1&#34;&gt;
+&lt;h1&gt;&lt;span class=&#34;header-section-number&#34;&gt;3&lt;/span&gt; 从服务器向本地copy文件&lt;/h1&gt;
+&lt;pre class=&#34;markdown&#34;&gt;&lt;code&gt;scp username@remote:/file/to/send /where/to/put&lt;/code&gt;&lt;/pre&gt;
+&lt;p&gt;参数和上面是一样的.&lt;/p&gt;
+&lt;p&gt;比如:&lt;/p&gt;
+&lt;pre class=&#34;markdown&#34;&gt;&lt;code&gt;scp shenxt@login.scg.stanford.edu:/home/shenxt/denmark_multiomics/data_analysis_2020_02_13/transcriptome_data_analysis/module_analysis/sft /Users/shenxt/projects/demark_multiomics/denmark_project/data_analysis_2020_02_13/transcriptome_data_analysis/module_analysis&lt;/code&gt;&lt;/pre&gt;
+&lt;/div&gt;
+&lt;div id=&#34;从服务器向本地copy文件夹&#34; class=&#34;section level1&#34;&gt;
+&lt;h1&gt;&lt;span class=&#34;header-section-number&#34;&gt;4&lt;/span&gt; 从服务器向本地copy文件夹&lt;/h1&gt;
+&lt;pre class=&#34;markdown&#34;&gt;&lt;code&gt;scp username@remote:/file/to/send/ /where/to/put&lt;/code&gt;&lt;/pre&gt;
+&lt;/div&gt;
+</description>
+    </item>
+    
+  </channel>
+</rss>

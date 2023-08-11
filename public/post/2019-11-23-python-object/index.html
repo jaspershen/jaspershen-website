@@ -1,0 +1,1610 @@
+<!DOCTYPE html>
+<!-- This site was created with Wowchemy. https://www.wowchemy.com -->
+<!-- Last Published: August 10, 2023 --><html lang="en-us" >
+
+
+<head>
+  <meta charset="utf-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1" />
+  <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+  
+  
+  
+    <meta name="generator" content="Wowchemy 5.7.0 for Hugo" />
+  
+
+  
+  
+
+
+
+
+
+
+
+
+
+
+
+
+  
+  
+
+
+
+
+
+
+
+
+
+
+  
+
+
+
+
+
+
+
+  
+  
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+  
+
+  
+  
+  
+    
+      
+      <link rel="preload" as="style" href="https://fonts.googleapis.com/css2?family=Bruno+Ace&family=Limelight&family=Poppins:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,100;1,200;1,300;1,400;1,500;1,600;1,700;1,800;1,900&display=swap">
+      <link rel="stylesheet" href="https://fonts.googleapis.com/css2?family=Bruno+Ace&family=Limelight&family=Poppins:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,100;1,200;1,300;1,400;1,500;1,600;1,700;1,800;1,900&display=swap" media="print" onload="this.media='all'">
+    
+  
+
+  
+  
+
+  
+  
+    
+    <script src="/js/mathjax-config.js"></script>
+  
+
+  
+
+  <link rel="stylesheet" href="/css/vendor-bundle.min.047268c6dd09ad74ba54a0ba71837064.css" media="print" onload="this.media='all'">
+
+  
+  
+  
+    
+    
+      <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/academicons@1.9.2/css/academicons.min.css" integrity="sha512-KlJCpRsLf+KKu2VQa5vmRuClRFjxc5lXO03ixZt82HZUk41+1I0bD8KBSA0fY290ayMfWYI9udIqeOWSu1/uZg==" crossorigin="anonymous" media="print" onload="this.media='all'">
+    
+
+    
+    
+    
+    
+      
+      
+    
+    
+    
+
+    
+    
+    
+
+    
+
+    
+    
+      
+      
+
+      
+      
+
+      
+    
+      
+      
+
+      
+      
+
+      
+    
+      
+      
+
+      
+      
+
+      
+    
+      
+      
+
+      
+      
+
+      
+    
+      
+      
+
+      
+      
+
+      
+    
+      
+      
+
+      
+      
+
+      
+    
+      
+      
+
+      
+      
+
+      
+    
+      
+      
+
+      
+      
+
+      
+    
+      
+      
+
+      
+      
+
+      
+    
+      
+      
+
+      
+      
+
+      
+    
+      
+      
+
+      
+      
+
+      
+        <script src="https://cdn.jsdelivr.net/npm/mathjax@3/es5/tex-chtml.js" integrity="" crossorigin="anonymous" async></script>
+      
+    
+      
+      
+
+      
+      
+
+      
+    
+      
+      
+
+      
+      
+
+      
+    
+  
+
+  
+  
+  
+  
+  
+  
+  <link rel="stylesheet" href="/css/wowchemy.00f70589ff95c2db8722b74912195f3f.css" />
+
+  
+  
+  
+
+  
+  
+  
+  
+  
+  
+  
+    
+    
+    <link rel="stylesheet" href="/css/libs/chroma/github-light.min.css" title="hl-light" media="print" onload="this.media='all'" >
+    <link rel="stylesheet" href="/css/libs/chroma/dracula.min.css" title="hl-dark" media="print" onload="this.media='all'" disabled>
+  
+
+  
+  
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+  
+  
+  
+
+
+
+
+
+
+  <meta name="author" content="Xiaotao Shen" />
+
+
+
+
+
+  
+
+<meta name="description" content="1 对象1.1 多态(polymorphism)1.2 多态和方法1.3 封装(encapsulation)1.4 继承2 类2.1 类到底是什么?2.2 创建自定义类2.3 属性,函数和方法2.4 隐藏2.5 类的命名空间2.6 指定超类2.7 深入探讨继承在本文中，学习如何创建对象，还将学习多态、封装、方法、属性、超类和继承。
+1 对象对象大致意味着一系列数据（属性）以及一套访问和操作这些数据的方法。使用对象而非全局变量和函数的原因有多个，下面列出了使用对象的最重要的好处。" />
+
+
+
+<link rel="alternate" hreflang="en-us" href="https://jaspershen.github.io/post/2019-11-23-python-object/" />
+<link rel="canonical" href="https://jaspershen.github.io/post/2019-11-23-python-object/" />
+
+
+
+  <link rel="manifest" href="/manifest.webmanifest" />
+
+
+
+<link rel="icon" type="image/png" href="/media/icon_hu805a85e690e4f2727bf7d5f685d888f7_86836_32x32_fill_lanczos_center_3.png" />
+<link rel="apple-touch-icon" type="image/png" href="/media/icon_hu805a85e690e4f2727bf7d5f685d888f7_86836_180x180_fill_lanczos_center_3.png" />
+
+<meta name="theme-color" content="#007C48" />
+
+
+
+
+
+
+
+
+
+
+  
+  
+
+
+
+
+
+
+<meta property="twitter:card" content="summary" />
+
+  <meta property="twitter:site" content="@wowchemy" />
+  <meta property="twitter:creator" content="@wowchemy" />
+<meta property="twitter:image" content="https://jaspershen.github.io/media/icon_hu805a85e690e4f2727bf7d5f685d888f7_86836_512x512_fill_lanczos_center_3.png" />
+<meta property="og:site_name" content="Xiaotao Shen" />
+<meta property="og:url" content="https://jaspershen.github.io/post/2019-11-23-python-object/" />
+<meta property="og:title" content="Python中如何创建自定义对象 | Xiaotao Shen" />
+<meta property="og:description" content="1 对象1.1 多态(polymorphism)1.2 多态和方法1.3 封装(encapsulation)1.4 继承2 类2.1 类到底是什么?2.2 创建自定义类2.3 属性,函数和方法2.4 隐藏2.5 类的命名空间2.6 指定超类2.7 深入探讨继承在本文中，学习如何创建对象，还将学习多态、封装、方法、属性、超类和继承。
+1 对象对象大致意味着一系列数据（属性）以及一套访问和操作这些数据的方法。使用对象而非全局变量和函数的原因有多个，下面列出了使用对象的最重要的好处。" /><meta property="og:image" content="https://jaspershen.github.io/media/icon_hu805a85e690e4f2727bf7d5f685d888f7_86836_512x512_fill_lanczos_center_3.png" /><meta property="og:locale" content="en-us" />
+
+  
+    <meta
+      property="article:published_time"
+      content="2019-11-23T00:00:00&#43;00:00"
+    />
+  
+  
+    <meta property="article:modified_time" content="2019-11-23T00:00:00&#43;00:00">
+  
+
+
+
+
+
+
+    
+
+
+
+
+
+
+  
+
+
+
+
+<script type="application/ld+json">
+{
+  "@context": "https://schema.org",
+  "@type": "BlogPosting",
+  "mainEntityOfPage": {
+    "@type": "WebPage",
+    "@id": "https://jaspershen.github.io/post/2019-11-23-python-object/"
+  },
+  "headline": "Python中如何创建自定义对象",
+  
+  "datePublished": "2019-11-23T00:00:00Z",
+  "dateModified": "2019-11-23T00:00:00Z",
+  
+  "author": {
+    "@type": "Person",
+    "name": "Xiaotao Shen"
+  },
+  
+  "publisher": {
+    "@type": "Organization",
+    "name": "Xiaotao Shen",
+    "logo": {
+      "@type": "ImageObject",
+      "url": "https://jaspershen.github.io/media/icon_hu805a85e690e4f2727bf7d5f685d888f7_86836_192x192_fill_lanczos_center_3.png"
+    }
+  },
+  "description": "1 对象\r1.1 多态(polymorphism)\r1.2 多态和方法\r1.3 封装(encapsulation)\r1.4 继承\r2 类\r2.1 类到底是什么?\r2.2 创建自定义类\r2.3 属性,函数和方法\r2.4 隐藏\r2.5 类的命名空间\r2.6 指定超类\r2.7 深入探讨继承\r在本文中，学习如何创建对象，还将学习多态、封装、方法、属性、超类和继承。\n1 对象\r对象大致意味着一系列数据（属性）以及一套访问和操作这些数据的方法。使用对象而非全局变量和函数的原因有多个，下面列出了使用对象的最重要的好处。"
+}
+</script>
+
+  
+
+  
+
+
+
+
+  
+  
+  
+
+  
+  
+
+  
+
+
+  
+  <title>Python中如何创建自定义对象 | Xiaotao Shen</title>
+
+  
+  
+  
+  
+
+
+
+
+
+
+
+
+
+
+
+</head>
+
+
+<body id="top" data-spy="scroll" data-offset="70" data-target="#TableOfContents" class="page-wrapper   " data-wc-page-id="854c247bb9c3525e6e39c9c493ea0613" >
+
+  
+  
+  
+  
+  
+  
+  
+  
+  
+  <script src="/js/wowchemy-init.min.c51bb6301bb2be5edd35b3630c50ed3a.js"></script>
+
+  
+
+
+<aside class="search-modal" id="search">
+  <div class="container">
+    <section class="search-header">
+
+      <div class="row no-gutters justify-content-between mb-3">
+        <div class="col-6">
+          <h1>Search</h1>
+        </div>
+        <div class="col-6 col-search-close">
+          <a class="js-search" href="#" aria-label="Close"><i class="fas fa-times-circle text-muted" aria-hidden="true"></i></a>
+        </div>
+      </div>
+
+      <div id="search-box">
+        
+        <input name="q" id="search-query" placeholder="Search..." autocapitalize="off"
+        autocomplete="off" autocorrect="off" spellcheck="false" type="search" class="form-control"
+        aria-label="Search...">
+        
+      </div>
+
+      
+      
+
+      
+
+    </section>
+    <section class="section-search-results">
+
+      <div id="search-hits">
+        
+      </div>
+
+    </section>
+  </div>
+</aside>
+
+
+
+  <div class="page-header header--fixed">
+  
+  
+  
+  
+  
+
+
+
+
+
+
+
+
+
+
+
+
+<header>
+  <nav class="navbar navbar-expand-lg navbar-light compensate-for-scrollbar" id="navbar-main">
+    <div class="container-xl">
+
+      
+      <div class="d-none d-lg-inline-flex">
+        <a class="navbar-brand" href="/">Xiaotao Shen</a>
+      </div>
+      
+
+      
+      <button type="button" class="navbar-toggler" data-toggle="collapse"
+              data-target="#navbar-content" aria-controls="navbar-content" aria-expanded="false" aria-label="Toggle navigation">
+      <span><i class="fas fa-bars"></i></span>
+      </button>
+      
+
+      
+      <div class="navbar-brand-mobile-wrapper d-inline-flex d-lg-none">
+        <a class="navbar-brand" href="/">Xiaotao Shen</a>
+      </div>
+      
+
+      
+      
+      <div class="navbar-collapse main-menu-item collapse justify-content-start" id="navbar-content">
+
+        
+        <ul class="navbar-nav d-md-inline-flex">
+          
+
+          
+
+          
+          
+          
+            
+          
+
+          
+
+          
+          
+          
+          
+
+          
+            
+              
+              
+            
+            
+              
+              
+              
+                
+              
+              
+            
+          
+
+          <li class="nav-item">
+            <a class="nav-link " href="/#about"><span>🏠 About</span></a>
+          </li>
+
+          
+          
+
+          
+
+          
+          
+          
+            
+          
+
+          
+
+          
+          
+          
+          
+
+          
+            
+              
+              
+            
+            
+              
+              
+              
+                
+              
+              
+            
+          
+
+          <li class="nav-item">
+            <a class="nav-link " href="/#posts"><span>📖 Posts</span></a>
+          </li>
+
+          
+          
+
+          
+
+          
+          
+          
+            
+          
+
+          
+
+          
+          
+          
+          
+
+          
+            
+              
+              
+            
+            
+              
+              
+              
+                
+              
+              
+            
+          
+
+          <li class="nav-item">
+            <a class="nav-link " href="/#projects"><span>💻 Projects</span></a>
+          </li>
+
+          
+          
+
+          
+
+          
+          
+          
+            
+          
+
+          
+
+          
+          
+          
+          
+
+          
+            
+              
+              
+            
+            
+              
+              
+              
+                
+              
+              
+            
+          
+
+          <li class="nav-item">
+            <a class="nav-link " href="/#talks"><span>🗣️ Talks</span></a>
+          </li>
+
+          
+          
+
+          
+
+          
+          
+          
+            
+          
+
+          
+
+          
+          
+          
+          
+
+          
+            
+              
+              
+            
+            
+              
+              
+              
+                
+              
+              
+            
+          
+
+          <li class="nav-item">
+            <a class="nav-link " href="/#featured"><span>🗞️ Publications</span></a>
+          </li>
+
+          
+          
+
+          
+
+          
+          
+          
+            
+          
+
+          
+
+          
+          
+          
+          
+
+          
+            
+              
+              
+            
+            
+              
+              
+              
+                
+              
+              
+            
+          
+
+          <li class="nav-item">
+            <a class="nav-link " href="/#contact"><span>📥 Contact</span></a>
+          </li>
+
+          
+          
+
+        
+
+          
+        </ul>
+      </div>
+
+      <ul class="nav-icons navbar-nav flex-row ml-auto d-flex pl-md-2">
+
+        
+        
+          
+            
+            <li class="nav-item d-none d-lg-inline-flex">
+              <a class="nav-link" href="https://twitter.com/GeorgeCushen" target="_blank" rel="noopener" aria-label="github">
+                <i class="fab fa-github" aria-hidden="true"></i>
+              </a>
+            </li>
+          
+        
+
+        
+        
+        
+        <li class="nav-item">
+          <a class="nav-link js-search" href="#" aria-label="Search"><i class="fas fa-search" aria-hidden="true"></i></a>
+        </li>
+        
+
+        
+        
+        
+        <li class="nav-item dropdown theme-dropdown">
+          <a href="#" class="nav-link" data-toggle="dropdown" aria-haspopup="true" aria-label="Display preferences">
+            <i class="fas fa-moon" aria-hidden="true"></i>
+          </a>
+          <div class="dropdown-menu">
+            <a href="#" class="dropdown-item js-set-theme-light">
+              <span>Light</span>
+            </a>
+            <a href="#" class="dropdown-item js-set-theme-dark">
+              <span>Dark</span>
+            </a>
+            <a href="#" class="dropdown-item js-set-theme-auto">
+              <span>Automatic</span>
+            </a>
+          </div>
+        </li>
+        
+
+        
+        
+
+      </ul>
+
+    </div>
+  </nav>
+</header>
+
+
+  </div>
+
+  <div class="page-body">
+    
+    
+    
+
+    <article class="article">
+
+  
+
+
+
+
+
+
+
+
+
+
+
+
+
+  
+
+  
+  
+  
+<div class="article-container pt-3">
+  <h1>Python中如何创建自定义对象</h1>
+
+  
+
+  
+    
+
+
+<div class="article-metadata">
+
+  
+  
+
+  
+  <span class="article-date">
+    
+    
+      
+    
+    Nov 23, 2019
+  </span>
+  
+
+  
+
+  
+  <span class="middot-divider"></span>
+  <span class="article-reading-time">
+    2 min read
+  </span>
+  
+
+  
+  
+  
+  
+
+  
+  
+  <span class="middot-divider"></span>
+  <span class="article-categories">
+    <i class="fas fa-folder mr-1"></i><a href="/category/python/">Python</a></span>
+  
+
+</div>
+
+    
+
+
+
+
+
+  
+</div>
+
+
+
+  <div class="article-container">
+
+    <div class="article-style">
+      
+
+<div id="TOC">
+<ul>
+<li><a href="#对象"><span class="toc-section-number">1</span> 对象</a><ul>
+<li><a href="#多态polymorphism"><span class="toc-section-number">1.1</span> 多态(polymorphism)</a></li>
+<li><a href="#多态和方法"><span class="toc-section-number">1.2</span> 多态和方法</a></li>
+<li><a href="#封装encapsulation"><span class="toc-section-number">1.3</span> 封装(encapsulation)</a></li>
+<li><a href="#继承"><span class="toc-section-number">1.4</span> 继承</a></li>
+</ul></li>
+<li><a href="#类"><span class="toc-section-number">2</span> 类</a><ul>
+<li><a href="#类到底是什么"><span class="toc-section-number">2.1</span> 类到底是什么?</a></li>
+<li><a href="#创建自定义类"><span class="toc-section-number">2.2</span> 创建自定义类</a></li>
+<li><a href="#属性函数和方法"><span class="toc-section-number">2.3</span> 属性,函数和方法</a></li>
+<li><a href="#隐藏"><span class="toc-section-number">2.4</span> 隐藏</a></li>
+<li><a href="#类的命名空间"><span class="toc-section-number">2.5</span> 类的命名空间</a></li>
+<li><a href="#指定超类"><span class="toc-section-number">2.6</span> 指定超类</a></li>
+<li><a href="#深入探讨继承"><span class="toc-section-number">2.7</span> 深入探讨继承</a></li>
+</ul></li>
+</ul>
+</div>
+
+<p>在本文中，学习如何创建对象，还将学习多态、封装、方法、属性、超类和继承。</p>
+<div id="对象" class="section level1">
+<h1><span class="header-section-number">1</span> 对象</h1>
+<p>对象大致意味着一系列数据（属性）以及一套访问和操作这些数据的方法。使用对象而非全局变量和函数的原因有多个，下面列出了使用对象的最重要的好处。</p>
+<ul>
+<li><p><strong>多态</strong>:可对不同类型的对象执行相同的操作，而这些操作就像“被施了魔法”一样能够正常运行。</p></li>
+<li><p><strong>封装</strong>:对外部隐藏有关对象工作原理的细节。</p></li>
+<li><p><strong>继承</strong>:可基于通用类创建出专用类。</p></li>
+</ul>
+<div id="多态polymorphism" class="section level2">
+<h2><span class="header-section-number">1.1</span> 多态(polymorphism)</h2>
+<p>这大致意味着即便你不知道变量指向的是哪种对象，也能够对其执行操作，且操作的行为将随对象所属的类型（类）而异。这跟R中的对象是一致的,比如通用函数<code>plot()</code>可以对多种不同种类的对象进行操作.</p>
+</div>
+<div id="多态和方法" class="section level2">
+<h2><span class="header-section-number">1.2</span> 多态和方法</h2>
+<p>与对象属性相关联的函数称为方法.比如对于字符串,列表和字典都有很多饭囊发.</p>
+<pre class="python"><code>&#39;abc&#39;.count(&#39;a&#39;)</code></pre>
+<pre><code>## 1</code></pre>
+<pre class="python"><code>[1, 2, &#39;a&#39;].count(&#39;a&#39;)</code></pre>
+<pre><code>## 1</code></pre>
+<p>方法<code>count</code>既可以用用于字符串对象,也可以用于列表对象.</p>
+<p>同样的,如果我们创建了一个包含<code>count</code>方法的对象,我们也可以像字符串和列表一样使用<code>count</code>方法.</p>
+<p>还有,比如运算符<code>+</code>,既可以用于整数也可以用于字符串.另外像函数<code>len()</code>,也都可以用于不同的对象.</p>
+<blockquote>
+<p>新的函数: <code>repr</code>: 将对象转换为供解释器读取的形式.参考下面连接:<a href="https://www.runoob.com/python/python-func-repr.html" class="uri">https://www.runoob.com/python/python-func-repr.html</a></p>
+</blockquote>
+</div>
+<div id="封装encapsulation" class="section level2">
+<h2><span class="header-section-number">1.3</span> 封装(encapsulation)</h2>
+<p>封装（encapsulation）指的是向外部隐藏不必要的细节。</p>
+<p>一个简单的例子:</p>
+<pre><code>o = OpenObject() # 对象就是这样创建的
+o.set_name(&#39;Sir Lancelot&#39;)
+o.get_name()</code></pre>
+<p>如何将名称“封装”在对象中呢？没问题，将其作为一个属性即可。属性是归属于对象的变量，就像方法一样。实际上，方法差不多就是与函数相关联的属性.</p>
+<p>对象的方法可能修改这些属性，因此对象将一系列函数（方法）组合起来，并赋予它们访问一些变量（属性）的权限，而属性可用于在两次函数调用之间存储值。</p>
+</div>
+<div id="继承" class="section level2">
+<h2><span class="header-section-number">1.4</span> 继承</h2>
+<p>如果你已经有了一个类，并要创建一个与之很像的类（可能只是新增了几个方法），该如何办呢？创建这个新类时，你不想复制旧类的代码，将其粘贴到新类中。</p>
+<p>例如，你可能已经有了一个名为Shape的类，它知道如何将自己绘制到屏幕上。现在你想创建一个名为Rectangle的类，但它不仅知道如何将自己绘制到屏幕上，而且还知道如何计算其面积。你不想重新编写方法draw，因为Shape已经有一个这样的方法，且效果很好。那么该如何办呢？让Rectangle继承Shape的方法，使得对Rectangle对象调用方法draw时，将自动调用Shape类的这个方法.</p>
+</div>
+</div>
+<div id="类" class="section level1">
+<h1><span class="header-section-number">2</span> 类</h1>
+<div id="类到底是什么" class="section level2">
+<h2><span class="header-section-number">2.1</span> 类到底是什么?</h2>
+<p>本书前面反复提到了类，并将其用作类型的同义词。从很多方面来说，这正是类的定义–一种对象。每个对象都属于特定的类，并被称为该类的实例。</p>
+<p>例如，如果你在窗外看到一只鸟，这只鸟就是“鸟类”的一个实例。鸟类是一个非常通用（抽象）的类，它有多个子类：你看到的那只鸟可能属于子类“云雀”。你可将“鸟类”视为由所有鸟组成的集合，而“云雀”是其一个子集。一个类的对象为另一个类的对象的子集时，前者就是后者的子类。因此“云雀”为“鸟类”的子类，而“鸟类”为“云雀”的超类。</p>
+<p>通过这样的陈述，子类和超类就很容易理解。但在面向对象编程中，子类关系意味深长，因为类是由其支持的方法定义的。类的所有实例都有该类的所有方法，因此子类的所有实例都有超类的所有方法。有鉴于此，要定义子类，只需定义多出来的方法（还可能重写一些既有的方法）。
+例如，Bird类可能提供方法fly，而Penguin类（Bird的一个子类）可能新增方法eat_fish。创建Penguin类时，你还可能想重写超类的方法，即方法fly。鉴于企鹅不能飞，因此在Penguin的实例中，方法fly应什么都不做或引发异常（参见第8章）。</p>
+</div>
+<div id="创建自定义类" class="section level2">
+<h2><span class="header-section-number">2.2</span> 创建自定义类</h2>
+<p>一个简单的例子.</p>
+<pre class="python"><code>__metaclass__ = type # 如果你使用的是Python 2，请包含这行代码
+class Person:
+  def set_name(self, name):
+    self.name = name
+  def get_name(self):
+    return self.name
+  def greet(self):
+    print(&quot;Hello, world! I&#39;m {}.&quot;.format(self.name))</code></pre>
+<p>这个示例包含三个方法定义，它们类似于函数定义，但位于class语句内。Person当然是类的名称.使用<code>class</code>语句来创建自定义类,并且创建了独立的命名空间,用于在其中定义函数.</p>
+<p>那么参数<code>self</code>是什么呢?他指向对象本身.那么那个是对象呢?</p>
+<p>下面通过创建两个实例来说明这一点.</p>
+<pre class="python"><code>foo = Person()
+bar = Person()
+foo.set_name(&#39;Luke Skywalker&#39;)
+bar.set_name(&#39;Anakin Skywalker&#39;)
+foo.greet()</code></pre>
+<pre><code>## Hello, world! I&#39;m Luke Skywalker.</code></pre>
+<pre class="python"><code>bar.greet()</code></pre>
+<pre><code>## Hello, world! I&#39;m Anakin Skywalker.</code></pre>
+<p>对foo调用set_name和greet时，foo都会作为第一个参数自动传递给它们。我将这个参数命名为self，这非常贴切。实际上，可以随便给这个
+参数命名，但鉴于它总是指向对象本身，因此习惯上将其命名为self。</p>
+<p>显然，self很有用，甚至必不可少。如果没有它，所有的方法都无法访问对象本身——要操作的属性所属的对象。与以前一样，也可以从外部访问这些属性。</p>
+<pre class="python"><code>foo.name</code></pre>
+<pre><code>## &#39;Luke Skywalker&#39;</code></pre>
+<pre class="python"><code>bar.name</code></pre>
+<pre><code>## &#39;Anakin Skywalker&#39;</code></pre>
+</div>
+<div id="属性函数和方法" class="section level2">
+<h2><span class="header-section-number">2.3</span> 属性,函数和方法</h2>
+<p>实际上，<strong>方法和函数的区别表现在前一节提到的参数self上</strong>。方法（更准确地说是关联的方法）将其第一个参数关联到它所属的实例，因此无需提供这个参数。无疑可以将属性关联到一个普通函数，但这样就没有特殊的self参数了。</p>
+<p>我们再看一个简单的例子:</p>
+<pre class="python"><code>class Class:
+  def method(self):
+    print(&#39;I have a self!&#39;)
+
+def function():
+  print(&quot;I don&#39;t...&quot;)</code></pre>
+<p>我们首先创建了一个叫做<code>Class</code>的类,然后给其创建了一个叫做<code>method</code>的方法.另外,我们还创建了一个函数,叫做<code>function</code>.</p>
+<pre class="python"><code>instance = Class()
+instance.method()</code></pre>
+<pre><code>## I have a self!</code></pre>
+<p>然后创建一个该类的实例,然后调用<code>method</code>方法.</p>
+<p>我们还可以把该实例的方法修改为另外的方法.</p>
+<pre class="python"><code>instance.method = function
+instance.method()</code></pre>
+<pre><code>## I don&#39;t...</code></pre>
+</div>
+<div id="隐藏" class="section level2">
+<h2><span class="header-section-number">2.4</span> 隐藏</h2>
+<p>默认情况下，可从外部访问对象的属性.</p>
+<pre class="python"><code>class Bird:
+  name = &#39;Bird&#39;
+  song = &#39;Squaawk!&#39;
+  def sing(self):
+    print(self.song)
+
+
+test = Bird()    
+test.name</code></pre>
+<pre><code>## &#39;Bird&#39;</code></pre>
+<pre class="python"><code>test.song</code></pre>
+<pre><code>## &#39;Squaawk!&#39;</code></pre>
+<p>可以看到,在class下面,可以通过上面的方式来定义类的属性.那么如何将类的属性定义为<strong>私有</strong>,从而在外部无法访问呢?私有属性不能从对象外部访问，而只能通过存取器方法（如get_name和set_name）来访问。</p>
+<p>要让方法或属性成为私有的（不能从外部访问），只需让其名称以两个下划线打头即可。</p>
+<p>举个简单例子:</p>
+<pre class="python"><code>class Secretive:
+  def __inaccessible(self):
+    print(&quot;Bet you can&#39;t see me ...&quot;)
+  def accessible(self):
+    print(&quot;The secret message is:&quot;)
+    self.__inaccessible()</code></pre>
+<p>现在从外部不能访问<code>__inaccessible</code>，但在类中（如<code>accessible</code>中）依然可以使用它。</p>
+<pre class="python"><code>s = Secretive()
+s.accessible()</code></pre>
+<pre><code>## The secret message is:
+## Bet you can&#39;t see me ...</code></pre>
+<pre class="python"><code>s._Secretive__inaccessible()</code></pre>
+<pre><code>## Bet you can&#39;t see me ...</code></pre>
+<p>总之，你无法禁止别人访问对象的私有方法和属性，但这种名称修改方式发出了强烈的信号，让他们不要这样做。</p>
+</div>
+<div id="类的命名空间" class="section level2">
+<h2><span class="header-section-number">2.5</span> 类的命名空间</h2>
+<p>下面两条语句大致等价：</p>
+<pre><code>def foo(x): return x * x
+foo = lambda x: x * x</code></pre>
+<p>它们都创建一个返回参数平方的函数，并将这个函数关联到变量foo。可以在全局（模块）作用域内定义名称foo，也可以在函数或方法内定义。定义类时情况亦如此：在class语句中定义的代码都是在一个特殊的命名空间（类的命名空间）内执行的，而类的所有成员都可访问这个命
+名空间。类定义其实就是要执行的代码段，并非所有的Python程序员都知道这一点，但知道这一点很有帮助。</p>
+<p>每个实例都可访问这个类作用域内的变量，就像方法一样。</p>
+</div>
+<div id="指定超类" class="section level2">
+<h2><span class="header-section-number">2.6</span> 指定超类</h2>
+<p>本章前面讨论过，子类扩展了超类的定义。要指定超类，可在class语句中的类名后加上超类名，并将其用圆括号括起。</p>
+<pre><code>class Filter:
+  def init(self):
+    self.blocked = []
+  def filter(self, sequence):
+    return [x for x in sequence if x not in self.blocked]
+
+class SPAMFilter(Filter): # SPAMFilter是Filter的子类
+  def init(self): # 重写超类Filter的方法init
+    self.blocked = [&#39;SPAM&#39;]</code></pre>
+</div>
+<div id="深入探讨继承" class="section level2">
+<h2><span class="header-section-number">2.7</span> 深入探讨继承</h2>
+<p>要确定一个类是否是另一个类的子类，可使用内置函数<code>issubclass</code>。</p>
+<p>如果你有一个类，并想知道它的基类，可访问其特殊属性<code>__bases__</code>。</p>
+<p>同样，要确定对象是否是特定类的实例，可使用<code>isinstance</code>。</p>
+<p>如果你要获悉对象属于哪个类，可使用属性<code>__class__</code>。</p>
+</div>
+</div>
+
+    </div>
+
+    
+
+
+
+
+
+<div class="article-tags">
+  
+  <a class="badge badge-light" href="/tag/blog/">Blog</a>
+  
+  <a class="badge badge-light" href="/tag/chinese/">Chinese</a>
+  
+</div>
+
+
+
+<div class="share-box">
+  <ul class="share">
+    
+      
+      
+      
+        
+      
+      
+      
+      
+      
+      
+      
+      <li>
+        <a href="https://twitter.com/intent/tweet?url=https%3A%2F%2Fjaspershen.github.io%2Fpost%2F2019-11-23-python-object%2F&amp;text=Python%E4%B8%AD%E5%A6%82%E4%BD%95%E5%88%9B%E5%BB%BA%E8%87%AA%E5%AE%9A%E4%B9%89%E5%AF%B9%E8%B1%A1" target="_blank" rel="noopener" class="share-btn-twitter" aria-label="twitter">
+          <i class="fab fa-twitter"></i>
+        </a>
+      </li>
+    
+      
+      
+      
+        
+      
+      
+      
+      
+      
+      
+      
+      <li>
+        <a href="https://www.facebook.com/sharer.php?u=https%3A%2F%2Fjaspershen.github.io%2Fpost%2F2019-11-23-python-object%2F&amp;t=Python%E4%B8%AD%E5%A6%82%E4%BD%95%E5%88%9B%E5%BB%BA%E8%87%AA%E5%AE%9A%E4%B9%89%E5%AF%B9%E8%B1%A1" target="_blank" rel="noopener" class="share-btn-facebook" aria-label="facebook">
+          <i class="fab fa-facebook"></i>
+        </a>
+      </li>
+    
+      
+      
+      
+        
+      
+      
+      
+      
+      
+      
+      
+        
+      
+      <li>
+        <a href="mailto:?subject=Python%E4%B8%AD%E5%A6%82%E4%BD%95%E5%88%9B%E5%BB%BA%E8%87%AA%E5%AE%9A%E4%B9%89%E5%AF%B9%E8%B1%A1&amp;body=https%3A%2F%2Fjaspershen.github.io%2Fpost%2F2019-11-23-python-object%2F" target="_blank" rel="noopener" class="share-btn-email" aria-label="envelope">
+          <i class="fas fa-envelope"></i>
+        </a>
+      </li>
+    
+      
+      
+      
+        
+      
+      
+      
+      
+      
+      
+      
+      <li>
+        <a href="https://www.linkedin.com/shareArticle?url=https%3A%2F%2Fjaspershen.github.io%2Fpost%2F2019-11-23-python-object%2F&amp;title=Python%E4%B8%AD%E5%A6%82%E4%BD%95%E5%88%9B%E5%BB%BA%E8%87%AA%E5%AE%9A%E4%B9%89%E5%AF%B9%E8%B1%A1" target="_blank" rel="noopener" class="share-btn-linkedin" aria-label="linkedin-in">
+          <i class="fab fa-linkedin-in"></i>
+        </a>
+      </li>
+    
+      
+      
+      
+        
+      
+      
+      
+      
+      
+      
+      
+      <li>
+        <a href="whatsapp://send?text=Python%E4%B8%AD%E5%A6%82%E4%BD%95%E5%88%9B%E5%BB%BA%E8%87%AA%E5%AE%9A%E4%B9%89%E5%AF%B9%E8%B1%A1%20https%3A%2F%2Fjaspershen.github.io%2Fpost%2F2019-11-23-python-object%2F" target="_blank" rel="noopener" class="share-btn-whatsapp" aria-label="whatsapp">
+          <i class="fab fa-whatsapp"></i>
+        </a>
+      </li>
+    
+      
+      
+      
+        
+      
+      
+      
+      
+      
+      
+      
+      <li>
+        <a href="https://service.weibo.com/share/share.php?url=https%3A%2F%2Fjaspershen.github.io%2Fpost%2F2019-11-23-python-object%2F&amp;title=Python%E4%B8%AD%E5%A6%82%E4%BD%95%E5%88%9B%E5%BB%BA%E8%87%AA%E5%AE%9A%E4%B9%89%E5%AF%B9%E8%B1%A1" target="_blank" rel="noopener" class="share-btn-weibo" aria-label="weibo">
+          <i class="fab fa-weibo"></i>
+        </a>
+      </li>
+    
+  </ul>
+</div>
+
+
+
+
+
+
+
+
+
+
+
+  
+  
+
+
+
+  
+  
+  
+    
+  
+  
+  
+  <div class="media author-card content-widget-hr">
+    
+      
+      <a href="https://jaspershen.github.io/"><img class="avatar mr-3 avatar-circle" src="/authors/admin/avatar_hu86242519a21313948ac7dc77e0a27da6_1568301_270x270_fill_q75_lanczos_center.jpg" alt="Xiaotao Shen"></a>
+    
+
+    <div class="media-body">
+      <h5 class="card-title"><a href="https://jaspershen.github.io/">Xiaotao Shen</a></h5>
+      <h6 class="card-subtitle">Postdoctoral Research Fellow</h6>
+      <p class="card-text">Metabolomics, Multi-omics, Bioinformatics, Systems Biology.</p>
+      <ul class="network-icon" aria-hidden="true">
+  
+    
+    
+    
+      
+    
+    
+    
+    
+    
+      
+    
+    <li>
+      <a href="/#contact" >
+        <i class="fas fa-envelope"></i>
+      </a>
+    </li>
+  
+    
+    
+    
+      
+    
+    
+    
+    
+    
+      
+    
+    <li>
+      <a href="https://twitter.com/GeorgeCushen" target="_blank" rel="noopener">
+        <i class="fab fa-github"></i>
+      </a>
+    </li>
+  
+    
+    
+    
+      
+    
+    
+    
+    
+    
+      
+    
+    <li>
+      <a href="https://scholar.google.co.uk/citations?user=sIwtMXoAAAAJ" target="_blank" rel="noopener">
+        <i class="fas fa-graduation-cap"></i>
+      </a>
+    </li>
+  
+    
+    
+    
+      
+    
+    
+    
+    
+    
+      
+    
+    <li>
+      <a href="https://github.com/gcushen" target="_blank" rel="noopener">
+        <i class="fab fa-twitter"></i>
+      </a>
+    </li>
+  
+    
+    
+    
+      
+    
+    
+    
+    
+    
+      
+    
+    <li>
+      <a href="https://www.linkedin.com/" target="_blank" rel="noopener">
+        <i class="fab fa-linkedin"></i>
+      </a>
+    </li>
+  
+    
+    
+    
+    
+    
+    
+    
+      
+    
+    <li>
+      <a href="/uploads/resume.pdf" >
+        <i class="ai ai-cv"></i>
+      </a>
+    </li>
+  
+</ul>
+
+    </div>
+  </div>
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+  </div>
+</article>
+  </div>
+
+  <div class="page-footer">
+    
+    
+    <div class="container">
+      <footer class="site-footer">
+
+  
+
+
+
+
+
+
+
+
+
+
+
+
+  
+  
+  
+  
+  
+
+
+
+
+
+
+
+
+
+
+
+
+
+  
+  
+  
+
+  
+  
+    
+  
+  
+    
+  
+
+  
+
+  
+  <p class="powered-by copyright-license-text">
+    © 2023 Xiaotao Shen
+  </p>
+  
+
+  <p class="powered-by footer-license-icons">
+    <a href="https://creativecommons.org/licenses/by-nc-nd/4.0" rel="noopener noreferrer" target="_blank" aria-label="Creative Commons">
+      <i class="fab fa-creative-commons fa-2x" aria-hidden="true"></i>
+      <i class="fab fa-creative-commons-by fa-2x" aria-hidden="true"></i>
+      
+        <i class="fab fa-creative-commons-nc fa-2x" aria-hidden="true"></i>
+      
+      
+        <i class="fab fa-creative-commons-nd fa-2x" aria-hidden="true"></i>
+      
+    </a>
+  </p>
+
+
+
+
+
+  <p class="powered-by">
+    
+    
+    
+      
+      
+      
+      
+      
+      
+      Published with <a href="https://wowchemy.com/?utm_campaign=poweredby" target="_blank" rel="noopener">Wowchemy</a> — the free, <a href="https://github.com/wowchemy/wowchemy-hugo-themes" target="_blank" rel="noopener">open source</a> website builder that empowers creators.
+    
+  </p>
+</footer>
+
+    </div>
+    
+  </div>
+
+  
+
+
+<script src="/js/vendor-bundle.min.f64289d8217e08e3afcd597d60836062.js"></script>
+
+
+
+
+  
+
+  
+  
+
+  
+
+
+
+
+
+
+
+
+
+
+
+
+
+  
+  <script id="search-hit-fuse-template" type="text/x-template">
+    <div class="search-hit" id="summary-{{key}}">
+      <div class="search-hit-content">
+        <div class="search-hit-name">
+          <a href="{{relpermalink}}">{{title}}</a>
+          <div class="article-metadata search-hit-type">{{type}}</div>
+          <p class="search-hit-description">{{snippet}}</p>
+        </div>
+      </div>
+    </div>
+  </script>
+  
+    <script src="https://cdn.jsdelivr.net/gh/krisk/Fuse@v3.2.1/dist/fuse.min.js" integrity="sha512-o38bmzBGX+hD3JHWUFCDA09btWaqrNmoJ3RXLlrysA7PP01Kgs4UlE4MhelE1v5dJR3+cxlR4qQlotsW7jKsnw==" crossorigin="anonymous"></script>
+    <script src="https://cdn.jsdelivr.net/gh/julmot/mark.js@8.11.1/dist/jquery.mark.min.js" integrity="sha512-mhbv5DqBMgrWL+32MmsDOt/OAvqr/cHimk6B8y/bx/xS88MVkYGPiVv2ixKVrkywF2qHplNRUvFsAHUdxZ3Krg==" crossorigin="anonymous"></script>
+  
+
+
+
+
+
+
+
+
+
+
+
+
+  
+  
+  
+  
+  
+  
+  
+
+
+
+
+
+
+
+<script id="page-data" type="application/json">{"use_headroom":true}</script>
+
+
+
+  <script src="/js/wowchemy-headroom.db4755770454eb63685f8de785c0a172.js" type="module"></script>
+
+
+
+
+
+
+
+
+
+  
+  
+
+
+<script src="/en/js/wowchemy.min.ead4a376bcf2c4714888c770ea9b0040.js"></script>
+
+
+
+
+
+
+
+  
+<div id="modal" class="modal fade" role="dialog">
+  <div class="modal-dialog">
+    <div class="modal-content">
+      <div class="modal-header">
+        <h5 class="modal-title">Cite</h5>
+        <button type="button" class="close" data-dismiss="modal" aria-label="Close">
+          <span aria-hidden="true">&times;</span>
+        </button>
+      </div>
+      <div class="modal-body">
+        
+        <pre><code></code></pre>
+      </div>
+      <div class="modal-footer">
+        <a class="btn btn-outline-primary my-1 js-copy-cite" href="#" target="_blank">
+          <i class="fas fa-copy"></i> Copy
+        </a>
+        <a class="btn btn-outline-primary my-1 js-download-cite" href="#" target="_blank">
+          <i class="fas fa-download"></i> Download
+        </a>
+        <div id="modal-error"></div>
+      </div>
+    </div>
+  </div>
+</div>
+
+
+  <script src="/js/wowchemy-publication.68f8d7090562ca65fc6d3cb3f8f2d2cb.js" type="module"></script>
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+</body>
+</html>

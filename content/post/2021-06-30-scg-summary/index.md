@@ -1,0 +1,32 @@
+---
+title: "stanford scg总结"
+author: "Xiaotao Shen"
+date: 2021-06-30
+categories: ["Linux"]
+tags: ["Blog", "Chinese"]
+commentable: true
+output: md_document
+summary: "stanford scg总结"
+---
+
+
+
+
+# 登陆SCG服务器
+
+```
+ssh shenxt@login.scg.stanford.edu
+```
+
+然后输入密码.`shenxt`为sunetID.
+
+如果想要登陆不同节点,需要:
+
+```
+ssh shenxt@login01.scg.stanford.edu
+```
+
+# mac连接存储服务器
+
+参考: https://login.scg.stanford.edu/tutorials/data_movement/
+

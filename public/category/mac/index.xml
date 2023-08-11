@@ -1,0 +1,139 @@
+<?xml version="1.0" encoding="utf-8" standalone="yes" ?>
+<rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
+  <channel>
+    <title>Mac | Xiaotao Shen</title>
+    <link>https://jaspershen.github.io/category/mac/</link>
+      <atom:link href="https://jaspershen.github.io/category/mac/index.xml" rel="self" type="application/rss+xml" />
+    <description>Mac</description>
+    <generator>Wowchemy (https://wowchemy.com)</generator><language>en-us</language><lastBuildDate>Sat, 07 Mar 2020 00:00:00 +0000</lastBuildDate>
+    <image>
+      <url>https://jaspershen.github.io/media/icon_hu805a85e690e4f2727bf7d5f685d888f7_86836_512x512_fill_lanczos_center_3.png</url>
+      <title>Mac</title>
+      <link>https://jaspershen.github.io/category/mac/</link>
+    </image>
+    
+    <item>
+      <title>Mac使用summary</title>
+      <link>https://jaspershen.github.io/post/2020-03-07-mac-summary/</link>
+      <pubDate>Sat, 07 Mar 2020 00:00:00 +0000</pubDate>
+      <guid>https://jaspershen.github.io/post/2020-03-07-mac-summary/</guid>
+      <description>
+
+&lt;div id=&#34;TOC&#34;&gt;
+&lt;ul&gt;
+&lt;li&gt;&lt;a href=&#34;#mac常用快捷键&#34;&gt;&lt;span class=&#34;toc-section-number&#34;&gt;1&lt;/span&gt; Mac常用快捷键&lt;/a&gt;&lt;/li&gt;
+&lt;li&gt;&lt;a href=&#34;#space和desktop&#34;&gt;&lt;span class=&#34;toc-section-number&#34;&gt;2&lt;/span&gt; space和desktop&lt;/a&gt;&lt;/li&gt;
+&lt;li&gt;&lt;a href=&#34;#分割屏幕&#34;&gt;&lt;span class=&#34;toc-section-number&#34;&gt;3&lt;/span&gt; 分割屏幕&lt;/a&gt;&lt;/li&gt;
+&lt;li&gt;&lt;a href=&#34;#截图&#34;&gt;&lt;span class=&#34;toc-section-number&#34;&gt;4&lt;/span&gt; 截图&lt;/a&gt;&lt;/li&gt;
+&lt;li&gt;&lt;a href=&#34;#mac-touchpad常用手势操作&#34;&gt;&lt;span class=&#34;toc-section-number&#34;&gt;5&lt;/span&gt; Mac touchpad常用手势操作&lt;/a&gt;&lt;ul&gt;
+&lt;li&gt;&lt;a href=&#34;#单指&#34;&gt;&lt;span class=&#34;toc-section-number&#34;&gt;5.1&lt;/span&gt; 单指&lt;/a&gt;&lt;/li&gt;
+&lt;li&gt;&lt;a href=&#34;#双指&#34;&gt;&lt;span class=&#34;toc-section-number&#34;&gt;5.2&lt;/span&gt; 双指&lt;/a&gt;&lt;/li&gt;
+&lt;li&gt;&lt;a href=&#34;#三指&#34;&gt;&lt;span class=&#34;toc-section-number&#34;&gt;5.3&lt;/span&gt; 三指&lt;/a&gt;&lt;/li&gt;
+&lt;li&gt;&lt;a href=&#34;#四指&#34;&gt;&lt;span class=&#34;toc-section-number&#34;&gt;5.4&lt;/span&gt; 四指&lt;/a&gt;&lt;/li&gt;
+&lt;li&gt;&lt;a href=&#34;#五指&#34;&gt;&lt;span class=&#34;toc-section-number&#34;&gt;5.5&lt;/span&gt; 五指&lt;/a&gt;&lt;/li&gt;
+&lt;/ul&gt;&lt;/li&gt;
+&lt;/ul&gt;
+&lt;/div&gt;
+
+&lt;div id=&#34;mac常用快捷键&#34; class=&#34;section level1&#34;&gt;
+&lt;h1&gt;&lt;span class=&#34;header-section-number&#34;&gt;1&lt;/span&gt; Mac常用快捷键&lt;/h1&gt;
+&lt;ul&gt;
+&lt;li&gt;&lt;p&gt;&lt;code&gt;command + space&lt;/code&gt;:打开spotlight&lt;/p&gt;&lt;/li&gt;
+&lt;li&gt;&lt;p&gt;&lt;code&gt;command + tab&lt;/code&gt;: 切换应用.&lt;/p&gt;&lt;/li&gt;
+&lt;li&gt;&lt;p&gt;&lt;code&gt;command + q&lt;/code&gt;:需要长按q,关闭当前应用.注意finder不能使用该快捷键关闭.&lt;/p&gt;&lt;/li&gt;
+&lt;li&gt;&lt;p&gt;&lt;code&gt;command + c&lt;/code&gt;:拷贝&lt;/p&gt;&lt;/li&gt;
+&lt;li&gt;&lt;p&gt;&lt;code&gt;command + v&lt;/code&gt;:粘贴&lt;/p&gt;&lt;/li&gt;
+&lt;li&gt;&lt;p&gt;&lt;code&gt;command + option + v&lt;/code&gt;:复制之后粘贴,相当于剪切.&lt;/p&gt;&lt;/li&gt;
+&lt;li&gt;&lt;p&gt;&lt;code&gt;command + n&lt;/code&gt;:在当前应用下新建一个该应用的切口.&lt;/p&gt;&lt;/li&gt;
+&lt;li&gt;&lt;p&gt;&lt;code&gt;command + t&lt;/code&gt;:在当前应用下新建标签页.&lt;/p&gt;&lt;/li&gt;
+&lt;li&gt;&lt;p&gt;&lt;code&gt;command + f&lt;/code&gt;:查找.&lt;/p&gt;&lt;/li&gt;
+&lt;li&gt;&lt;p&gt;&lt;code&gt;command + option + f&lt;/code&gt;:在chrome浏览器中定位到搜索栏.&lt;/p&gt;&lt;/li&gt;
+&lt;li&gt;&lt;p&gt;&lt;code&gt;ctl + command + f&lt;/code&gt;:当前应用最大化,再点击一次,恢复到最大化之前.&lt;/p&gt;&lt;/li&gt;
+&lt;li&gt;&lt;p&gt;&lt;code&gt;command + m&lt;/code&gt;:当前应用最小化,不推荐使用,因为没有快捷键可以让其恢复.&lt;/p&gt;&lt;/li&gt;
+&lt;li&gt;&lt;p&gt;&lt;code&gt;command + h&lt;/code&gt;:隐藏当前应用.&lt;/p&gt;&lt;/li&gt;
+&lt;li&gt;&lt;p&gt;&lt;code&gt;command + option + h&lt;/code&gt;:隐藏出当前应用外的其他所有应用.&lt;/p&gt;&lt;/li&gt;
+&lt;li&gt;&lt;p&gt;&lt;code&gt;command + ,&lt;/code&gt;: 打开当前应用的偏好设置.&lt;/p&gt;&lt;/li&gt;
+&lt;li&gt;&lt;p&gt;&lt;code&gt;command + w&lt;/code&gt;:关闭当前标签页.&lt;/p&gt;&lt;/li&gt;
+&lt;li&gt;&lt;p&gt;&lt;code&gt;command + Option + w&lt;/code&gt;:关闭当前应用的所有标签页.&lt;/p&gt;&lt;/li&gt;
+&lt;li&gt;&lt;p&gt;&lt;code&gt;command + o&lt;/code&gt;:打开文件&lt;/p&gt;&lt;/li&gt;
+&lt;li&gt;&lt;p&gt;&lt;code&gt;command + s&lt;/code&gt;:保存文件&lt;/p&gt;&lt;/li&gt;
+&lt;li&gt;&lt;p&gt;&lt;code&gt;command + Shift + s&lt;/code&gt;:文件另存为&lt;/p&gt;&lt;/li&gt;
+&lt;li&gt;&lt;p&gt;&lt;code&gt;command + delete&lt;/code&gt;:删除文件.&lt;/p&gt;&lt;/li&gt;
+&lt;li&gt;&lt;p&gt;&lt;code&gt;command + shift + t&lt;/code&gt;:chrome下重新打开刚才关闭的tab.&lt;/p&gt;&lt;/li&gt;
+&lt;li&gt;&lt;p&gt;&lt;code&gt;comand + shift + [&lt;/code&gt;: 同一个应用中的标签页向前切换.&lt;/p&gt;&lt;/li&gt;
+&lt;li&gt;&lt;p&gt;&lt;code&gt;comand + shift + ]&lt;/code&gt;: 同一个应用中的标签页向后切换.&lt;/p&gt;&lt;/li&gt;
+&lt;li&gt;&lt;p&gt;&lt;code&gt;ctl + space&lt;/code&gt;:切换输入法.&lt;/p&gt;&lt;/li&gt;
+&lt;li&gt;&lt;p&gt;&lt;code&gt;option + command + space&lt;/code&gt;:打开finder.&lt;/p&gt;&lt;/li&gt;
+&lt;li&gt;&lt;p&gt;&lt;code&gt;command + i&lt;/code&gt;:显示文件或者文件夹信息.&lt;/p&gt;&lt;/li&gt;
+&lt;li&gt;&lt;p&gt;&lt;code&gt;command + ~&lt;/code&gt;:在同一个应用的多个窗口间快速切换.&lt;/p&gt;&lt;/li&gt;
+&lt;/ul&gt;
+&lt;/div&gt;
+&lt;div id=&#34;space和desktop&#34; class=&#34;section level1&#34;&gt;
+&lt;h1&gt;&lt;span class=&#34;header-section-number&#34;&gt;2&lt;/span&gt; space和desktop&lt;/h1&gt;
+&lt;p&gt;跟windows一样,mac也有桌面,可以通过新建桌面,然后将不同的应用放在其中.从而让自己的工作比较有条理.但是注意,在mac中,如果你将一个应用最大化,那么该应用就会变成一个space,这个space是和desktop平行的.所以不推荐最大化,最好是使用将应用使用整个屏幕.&lt;/p&gt;
+&lt;ul&gt;
+&lt;li&gt;&lt;p&gt;&lt;code&gt;ctl + up&lt;/code&gt;:显示所有的desktop和space,这些显示在屏幕最顶端.而当前desktop的所有应用显示在下方.&lt;/p&gt;&lt;/li&gt;
+&lt;li&gt;&lt;p&gt;&lt;code&gt;ctl + down&lt;/code&gt;:显示当前应用的所有窗口.&lt;/p&gt;&lt;/li&gt;
+&lt;li&gt;&lt;p&gt;&lt;code&gt;ctl + left&lt;/code&gt;: 向左切换desktop和space.&lt;/p&gt;&lt;/li&gt;
+&lt;li&gt;&lt;p&gt;&lt;code&gt;ctl + right&lt;/code&gt;:向右切换desktop和space.&lt;/p&gt;&lt;/li&gt;
+&lt;li&gt;&lt;p&gt;&lt;code&gt;ctl + s&lt;/code&gt;:保存.&lt;/p&gt;&lt;/li&gt;
+&lt;li&gt;&lt;p&gt;按住option,然后左上角最大化按钮会变为加号,这就是适用屏幕按钮.&lt;/p&gt;&lt;/li&gt;
+&lt;/ul&gt;
+&lt;/div&gt;
+&lt;div id=&#34;分割屏幕&#34; class=&#34;section level1&#34;&gt;
+&lt;h1&gt;&lt;span class=&#34;header-section-number&#34;&gt;3&lt;/span&gt; 分割屏幕&lt;/h1&gt;
+&lt;p&gt;如何将两个应用同时平铺在屏幕中,方便左右对照或者如拷贝文件等.&lt;/p&gt;
+&lt;ul&gt;
+&lt;li&gt;首先将某个应用最大化,也就是创建一个新的space,可以适用快捷键&lt;code&gt;ctrl + comamnd + f&lt;/code&gt;, 然后进入到misson control界面,然后将另外一个应用拖到该space下即可.&lt;/li&gt;
+&lt;/ul&gt;
+&lt;/div&gt;
+&lt;div id=&#34;截图&#34; class=&#34;section level1&#34;&gt;
+&lt;h1&gt;&lt;span class=&#34;header-section-number&#34;&gt;4&lt;/span&gt; 截图&lt;/h1&gt;
+&lt;ul&gt;
+&lt;li&gt;&lt;p&gt;&lt;code&gt;shift + command + 3&lt;/code&gt;:全屏截图&lt;/p&gt;&lt;/li&gt;
+&lt;li&gt;&lt;p&gt;&lt;code&gt;shift + command + 4&lt;/code&gt;:选择区域截图.&lt;/p&gt;&lt;/li&gt;
+&lt;/ul&gt;
+&lt;/div&gt;
+&lt;div id=&#34;mac-touchpad常用手势操作&#34; class=&#34;section level1&#34;&gt;
+&lt;h1&gt;&lt;span class=&#34;header-section-number&#34;&gt;5&lt;/span&gt; Mac touchpad常用手势操作&lt;/h1&gt;
+&lt;div id=&#34;单指&#34; class=&#34;section level2&#34;&gt;
+&lt;h2&gt;&lt;span class=&#34;header-section-number&#34;&gt;5.1&lt;/span&gt; 单指&lt;/h2&gt;
+&lt;ul&gt;
+&lt;li&gt;&lt;p&gt;单指click:相当于鼠标左击.&lt;/p&gt;&lt;/li&gt;
+&lt;li&gt;&lt;p&gt;单指double click:鼠标双击.&lt;/p&gt;&lt;/li&gt;
+&lt;/ul&gt;
+&lt;/div&gt;
+&lt;div id=&#34;双指&#34; class=&#34;section level2&#34;&gt;
+&lt;h2&gt;&lt;span class=&#34;header-section-number&#34;&gt;5.2&lt;/span&gt; 双指&lt;/h2&gt;
+&lt;ul&gt;
+&lt;li&gt;&lt;p&gt;双指轻点:鼠标右键.&lt;/p&gt;&lt;/li&gt;
+&lt;li&gt;&lt;p&gt;双指各个方向滑动:鼠标滚轮.&lt;/p&gt;&lt;/li&gt;
+&lt;/ul&gt;
+&lt;/div&gt;
+&lt;div id=&#34;三指&#34; class=&#34;section level2&#34;&gt;
+&lt;h2&gt;&lt;span class=&#34;header-section-number&#34;&gt;5.3&lt;/span&gt; 三指&lt;/h2&gt;
+&lt;ul&gt;
+&lt;li&gt;三指选择:鼠标按住左键然后拖拽选择.&lt;/li&gt;
+&lt;/ul&gt;
+&lt;/div&gt;
+&lt;div id=&#34;四指&#34; class=&#34;section level2&#34;&gt;
+&lt;h2&gt;&lt;span class=&#34;header-section-number&#34;&gt;5.4&lt;/span&gt; 四指&lt;/h2&gt;
+&lt;ul&gt;
+&lt;li&gt;&lt;p&gt;四指并排向左或者右:切换space和desktop.&lt;/p&gt;&lt;/li&gt;
+&lt;li&gt;&lt;p&gt;四指并排向上:mission control.&lt;/p&gt;&lt;/li&gt;
+&lt;li&gt;&lt;p&gt;四指并排向下:显示当前应用的所有窗口.&lt;/p&gt;&lt;/li&gt;
+&lt;/ul&gt;
+&lt;/div&gt;
+&lt;div id=&#34;五指&#34; class=&#34;section level2&#34;&gt;
+&lt;h2&gt;&lt;span class=&#34;header-section-number&#34;&gt;5.5&lt;/span&gt; 五指&lt;/h2&gt;
+&lt;ul&gt;
+&lt;li&gt;&lt;p&gt;五指向内聚拢: 显示所有程序.&lt;/p&gt;&lt;/li&gt;
+&lt;li&gt;&lt;p&gt;五指向外发散: 显示桌面.&lt;/p&gt;&lt;/li&gt;
+&lt;/ul&gt;
+&lt;/div&gt;
+&lt;/div&gt;
+</description>
+    </item>
+    
+  </channel>
+</rss>

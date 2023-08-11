@@ -1,0 +1,2144 @@
+<!DOCTYPE html>
+<!-- This site was created with Wowchemy. https://www.wowchemy.com -->
+<!-- Last Published: August 10, 2023 --><html lang="en-us" >
+
+
+<head>
+  <meta charset="utf-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1" />
+  <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+  
+  
+  
+    <meta name="generator" content="Wowchemy 5.7.0 for Hugo" />
+  
+
+  
+  
+
+
+
+
+
+
+
+
+
+
+
+
+  
+  
+
+
+
+
+
+
+
+
+
+
+  
+
+
+
+
+
+
+
+  
+  
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+  
+
+  
+  
+  
+    
+      
+      <link rel="preload" as="style" href="https://fonts.googleapis.com/css2?family=Bruno+Ace&family=Limelight&family=Poppins:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,100;1,200;1,300;1,400;1,500;1,600;1,700;1,800;1,900&display=swap">
+      <link rel="stylesheet" href="https://fonts.googleapis.com/css2?family=Bruno+Ace&family=Limelight&family=Poppins:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,100;1,200;1,300;1,400;1,500;1,600;1,700;1,800;1,900&display=swap" media="print" onload="this.media='all'">
+    
+  
+
+  
+  
+
+  
+  
+    
+    <script src="/js/mathjax-config.js"></script>
+  
+
+  
+
+  <link rel="stylesheet" href="/css/vendor-bundle.min.047268c6dd09ad74ba54a0ba71837064.css" media="print" onload="this.media='all'">
+
+  
+  
+  
+    
+    
+      <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/academicons@1.9.2/css/academicons.min.css" integrity="sha512-KlJCpRsLf+KKu2VQa5vmRuClRFjxc5lXO03ixZt82HZUk41+1I0bD8KBSA0fY290ayMfWYI9udIqeOWSu1/uZg==" crossorigin="anonymous" media="print" onload="this.media='all'">
+    
+
+    
+    
+    
+    
+      
+      
+    
+    
+    
+
+    
+    
+    
+
+    
+
+    
+    
+      
+      
+
+      
+      
+
+      
+    
+      
+      
+
+      
+      
+
+      
+    
+      
+      
+
+      
+      
+
+      
+    
+      
+      
+
+      
+      
+
+      
+    
+      
+      
+
+      
+      
+
+      
+    
+      
+      
+
+      
+      
+
+      
+    
+      
+      
+
+      
+      
+
+      
+    
+      
+      
+
+      
+      
+
+      
+    
+      
+      
+
+      
+      
+
+      
+    
+      
+      
+
+      
+      
+
+      
+    
+      
+      
+
+      
+      
+
+      
+        <script src="https://cdn.jsdelivr.net/npm/mathjax@3/es5/tex-chtml.js" integrity="" crossorigin="anonymous" async></script>
+      
+    
+      
+      
+
+      
+      
+
+      
+    
+      
+      
+
+      
+      
+
+      
+    
+  
+
+  
+  
+  
+  
+  
+  
+  <link rel="stylesheet" href="/css/wowchemy.00f70589ff95c2db8722b74912195f3f.css" />
+
+  
+  
+  
+
+  
+  
+  
+  
+  
+  
+  
+    
+    
+    <link rel="stylesheet" href="/css/libs/chroma/github-light.min.css" title="hl-light" media="print" onload="this.media='all'" >
+    <link rel="stylesheet" href="/css/libs/chroma/dracula.min.css" title="hl-dark" media="print" onload="this.media='all'" disabled>
+  
+
+  
+  
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+  
+  
+  
+
+
+
+
+
+
+  <meta name="author" content="Xiaotao Shen" />
+
+
+
+
+
+  
+
+<meta name="description" content="1 安装2 Numpy中的数据格式3 Numpy array基础3.1 Array的属性3.2 Array索引:获得其中单个元素3.3 Array切片:获得一个subarray3.3.1 一维array3.3.2 多维array3.4 重塑array的形状3.5 Array的合并和分裂(Concatenation and Splitting)3.5.1 合并array3.5.2 分割array4 在Numpy array上进行运算4." />
+
+
+
+<link rel="alternate" hreflang="en-us" href="https://jaspershen.github.io/post/2019-11-24-python-numpy-summary/" />
+<link rel="canonical" href="https://jaspershen.github.io/post/2019-11-24-python-numpy-summary/" />
+
+
+
+  <link rel="manifest" href="/manifest.webmanifest" />
+
+
+
+<link rel="icon" type="image/png" href="/media/icon_hu805a85e690e4f2727bf7d5f685d888f7_86836_32x32_fill_lanczos_center_3.png" />
+<link rel="apple-touch-icon" type="image/png" href="/media/icon_hu805a85e690e4f2727bf7d5f685d888f7_86836_180x180_fill_lanczos_center_3.png" />
+
+<meta name="theme-color" content="#007C48" />
+
+
+
+
+
+
+
+
+
+
+  
+  
+
+
+
+
+
+
+<meta property="twitter:card" content="summary" />
+
+  <meta property="twitter:site" content="@wowchemy" />
+  <meta property="twitter:creator" content="@wowchemy" />
+<meta property="twitter:image" content="https://jaspershen.github.io/media/icon_hu805a85e690e4f2727bf7d5f685d888f7_86836_512x512_fill_lanczos_center_3.png" />
+<meta property="og:site_name" content="Xiaotao Shen" />
+<meta property="og:url" content="https://jaspershen.github.io/post/2019-11-24-python-numpy-summary/" />
+<meta property="og:title" content="Python NumPy包总结 | Xiaotao Shen" />
+<meta property="og:description" content="1 安装2 Numpy中的数据格式3 Numpy array基础3.1 Array的属性3.2 Array索引:获得其中单个元素3.3 Array切片:获得一个subarray3.3.1 一维array3.3.2 多维array3.4 重塑array的形状3.5 Array的合并和分裂(Concatenation and Splitting)3.5.1 合并array3.5.2 分割array4 在Numpy array上进行运算4." /><meta property="og:image" content="https://jaspershen.github.io/media/icon_hu805a85e690e4f2727bf7d5f685d888f7_86836_512x512_fill_lanczos_center_3.png" /><meta property="og:locale" content="en-us" />
+
+  
+    <meta
+      property="article:published_time"
+      content="2019-11-24T00:00:00&#43;00:00"
+    />
+  
+  
+    <meta property="article:modified_time" content="2019-11-24T00:00:00&#43;00:00">
+  
+
+
+
+
+
+
+    
+
+
+
+
+
+
+  
+
+
+
+
+<script type="application/ld+json">
+{
+  "@context": "https://schema.org",
+  "@type": "BlogPosting",
+  "mainEntityOfPage": {
+    "@type": "WebPage",
+    "@id": "https://jaspershen.github.io/post/2019-11-24-python-numpy-summary/"
+  },
+  "headline": "Python NumPy包总结",
+  
+  "datePublished": "2019-11-24T00:00:00Z",
+  "dateModified": "2019-11-24T00:00:00Z",
+  
+  "author": {
+    "@type": "Person",
+    "name": "Xiaotao Shen"
+  },
+  
+  "publisher": {
+    "@type": "Organization",
+    "name": "Xiaotao Shen",
+    "logo": {
+      "@type": "ImageObject",
+      "url": "https://jaspershen.github.io/media/icon_hu805a85e690e4f2727bf7d5f685d888f7_86836_192x192_fill_lanczos_center_3.png"
+    }
+  },
+  "description": "1 安装\r2 Numpy中的数据格式\r3 Numpy array基础\r3.1 Array的属性\r3.2 Array索引:获得其中单个元素\r3.3 Array切片:获得一个subarray\r3.3.1 一维array\r3.3.2 多维array\r3.4 重塑array的形状\r3.5 Array的合并和分裂(Concatenation and Splitting)\r3.5.1 合并array\r3.5.2 分割array\r4 在Numpy array上进行运算\r4."
+}
+</script>
+
+  
+
+  
+
+
+
+
+  
+  
+  
+
+  
+  
+
+  
+
+
+  
+  <title>Python NumPy包总结 | Xiaotao Shen</title>
+
+  
+  
+  
+  
+
+
+
+
+
+
+
+
+
+
+
+</head>
+
+
+<body id="top" data-spy="scroll" data-offset="70" data-target="#TableOfContents" class="page-wrapper   " data-wc-page-id="fe845c62a5cf24cc157bb529dc2c5882" >
+
+  
+  
+  
+  
+  
+  
+  
+  
+  
+  <script src="/js/wowchemy-init.min.c51bb6301bb2be5edd35b3630c50ed3a.js"></script>
+
+  
+
+
+<aside class="search-modal" id="search">
+  <div class="container">
+    <section class="search-header">
+
+      <div class="row no-gutters justify-content-between mb-3">
+        <div class="col-6">
+          <h1>Search</h1>
+        </div>
+        <div class="col-6 col-search-close">
+          <a class="js-search" href="#" aria-label="Close"><i class="fas fa-times-circle text-muted" aria-hidden="true"></i></a>
+        </div>
+      </div>
+
+      <div id="search-box">
+        
+        <input name="q" id="search-query" placeholder="Search..." autocapitalize="off"
+        autocomplete="off" autocorrect="off" spellcheck="false" type="search" class="form-control"
+        aria-label="Search...">
+        
+      </div>
+
+      
+      
+
+      
+
+    </section>
+    <section class="section-search-results">
+
+      <div id="search-hits">
+        
+      </div>
+
+    </section>
+  </div>
+</aside>
+
+
+
+  <div class="page-header header--fixed">
+  
+  
+  
+  
+  
+
+
+
+
+
+
+
+
+
+
+
+
+<header>
+  <nav class="navbar navbar-expand-lg navbar-light compensate-for-scrollbar" id="navbar-main">
+    <div class="container-xl">
+
+      
+      <div class="d-none d-lg-inline-flex">
+        <a class="navbar-brand" href="/">Xiaotao Shen</a>
+      </div>
+      
+
+      
+      <button type="button" class="navbar-toggler" data-toggle="collapse"
+              data-target="#navbar-content" aria-controls="navbar-content" aria-expanded="false" aria-label="Toggle navigation">
+      <span><i class="fas fa-bars"></i></span>
+      </button>
+      
+
+      
+      <div class="navbar-brand-mobile-wrapper d-inline-flex d-lg-none">
+        <a class="navbar-brand" href="/">Xiaotao Shen</a>
+      </div>
+      
+
+      
+      
+      <div class="navbar-collapse main-menu-item collapse justify-content-start" id="navbar-content">
+
+        
+        <ul class="navbar-nav d-md-inline-flex">
+          
+
+          
+
+          
+          
+          
+            
+          
+
+          
+
+          
+          
+          
+          
+
+          
+            
+              
+              
+            
+            
+              
+              
+              
+                
+              
+              
+            
+          
+
+          <li class="nav-item">
+            <a class="nav-link " href="/#about"><span>🏠 About</span></a>
+          </li>
+
+          
+          
+
+          
+
+          
+          
+          
+            
+          
+
+          
+
+          
+          
+          
+          
+
+          
+            
+              
+              
+            
+            
+              
+              
+              
+                
+              
+              
+            
+          
+
+          <li class="nav-item">
+            <a class="nav-link " href="/#posts"><span>📖 Posts</span></a>
+          </li>
+
+          
+          
+
+          
+
+          
+          
+          
+            
+          
+
+          
+
+          
+          
+          
+          
+
+          
+            
+              
+              
+            
+            
+              
+              
+              
+                
+              
+              
+            
+          
+
+          <li class="nav-item">
+            <a class="nav-link " href="/#projects"><span>💻 Projects</span></a>
+          </li>
+
+          
+          
+
+          
+
+          
+          
+          
+            
+          
+
+          
+
+          
+          
+          
+          
+
+          
+            
+              
+              
+            
+            
+              
+              
+              
+                
+              
+              
+            
+          
+
+          <li class="nav-item">
+            <a class="nav-link " href="/#talks"><span>🗣️ Talks</span></a>
+          </li>
+
+          
+          
+
+          
+
+          
+          
+          
+            
+          
+
+          
+
+          
+          
+          
+          
+
+          
+            
+              
+              
+            
+            
+              
+              
+              
+                
+              
+              
+            
+          
+
+          <li class="nav-item">
+            <a class="nav-link " href="/#featured"><span>🗞️ Publications</span></a>
+          </li>
+
+          
+          
+
+          
+
+          
+          
+          
+            
+          
+
+          
+
+          
+          
+          
+          
+
+          
+            
+              
+              
+            
+            
+              
+              
+              
+                
+              
+              
+            
+          
+
+          <li class="nav-item">
+            <a class="nav-link " href="/#contact"><span>📥 Contact</span></a>
+          </li>
+
+          
+          
+
+        
+
+          
+        </ul>
+      </div>
+
+      <ul class="nav-icons navbar-nav flex-row ml-auto d-flex pl-md-2">
+
+        
+        
+          
+            
+            <li class="nav-item d-none d-lg-inline-flex">
+              <a class="nav-link" href="https://twitter.com/GeorgeCushen" target="_blank" rel="noopener" aria-label="github">
+                <i class="fab fa-github" aria-hidden="true"></i>
+              </a>
+            </li>
+          
+        
+
+        
+        
+        
+        <li class="nav-item">
+          <a class="nav-link js-search" href="#" aria-label="Search"><i class="fas fa-search" aria-hidden="true"></i></a>
+        </li>
+        
+
+        
+        
+        
+        <li class="nav-item dropdown theme-dropdown">
+          <a href="#" class="nav-link" data-toggle="dropdown" aria-haspopup="true" aria-label="Display preferences">
+            <i class="fas fa-moon" aria-hidden="true"></i>
+          </a>
+          <div class="dropdown-menu">
+            <a href="#" class="dropdown-item js-set-theme-light">
+              <span>Light</span>
+            </a>
+            <a href="#" class="dropdown-item js-set-theme-dark">
+              <span>Dark</span>
+            </a>
+            <a href="#" class="dropdown-item js-set-theme-auto">
+              <span>Automatic</span>
+            </a>
+          </div>
+        </li>
+        
+
+        
+        
+
+      </ul>
+
+    </div>
+  </nav>
+</header>
+
+
+  </div>
+
+  <div class="page-body">
+    
+    
+    
+
+    <article class="article">
+
+  
+
+
+
+
+
+
+
+
+
+
+
+
+
+  
+
+  
+  
+  
+<div class="article-container pt-3">
+  <h1>Python NumPy包总结</h1>
+
+  
+
+  
+    
+
+
+<div class="article-metadata">
+
+  
+  
+
+  
+  <span class="article-date">
+    
+    
+      
+    
+    Nov 24, 2019
+  </span>
+  
+
+  
+
+  
+  <span class="middot-divider"></span>
+  <span class="article-reading-time">
+    10 min read
+  </span>
+  
+
+  
+  
+  
+  
+
+  
+  
+  <span class="middot-divider"></span>
+  <span class="article-categories">
+    <i class="fas fa-folder mr-1"></i><a href="/category/python/">Python</a></span>
+  
+
+</div>
+
+    
+
+
+
+
+
+  
+</div>
+
+
+
+  <div class="article-container">
+
+    <div class="article-style">
+      
+
+<div id="TOC">
+<ul>
+<li><a href="#安装"><span class="toc-section-number">1</span> 安装</a></li>
+<li><a href="#numpy中的数据格式"><span class="toc-section-number">2</span> Numpy中的数据格式</a></li>
+<li><a href="#numpy-array基础"><span class="toc-section-number">3</span> Numpy array基础</a><ul>
+<li><a href="#array的属性"><span class="toc-section-number">3.1</span> Array的属性</a></li>
+<li><a href="#array索引获得其中单个元素"><span class="toc-section-number">3.2</span> Array索引:获得其中单个元素</a></li>
+<li><a href="#array切片获得一个subarray"><span class="toc-section-number">3.3</span> Array切片:获得一个subarray</a><ul>
+<li><a href="#一维array"><span class="toc-section-number">3.3.1</span> 一维array</a></li>
+<li><a href="#多维array"><span class="toc-section-number">3.3.2</span> 多维array</a></li>
+</ul></li>
+<li><a href="#重塑array的形状"><span class="toc-section-number">3.4</span> 重塑array的形状</a></li>
+<li><a href="#array的合并和分裂concatenation-and-splitting"><span class="toc-section-number">3.5</span> Array的合并和分裂(Concatenation and Splitting)</a><ul>
+<li><a href="#合并array"><span class="toc-section-number">3.5.1</span> 合并array</a></li>
+<li><a href="#分割array"><span class="toc-section-number">3.5.2</span> 分割array</a></li>
+</ul></li>
+</ul></li>
+<li><a href="#在numpy-array上进行运算"><span class="toc-section-number">4</span> 在Numpy array上进行运算</a><ul>
+<li><a href="#universal-functionsufuncs"><span class="toc-section-number">4.1</span> Universal Functions(UFuncs)</a></li>
+<li><a href="#面向数组的编程"><span class="toc-section-number">4.2</span> 面向数组的编程</a><ul>
+<li><a href="#expressing-conditional-logic-as-array-operations"><span class="toc-section-number">4.2.1</span> Expressing Conditional Logic as Array Operations</a></li>
+<li><a href="#numpy中的数学和统计方法"><span class="toc-section-number">4.2.2</span> Numpy中的数学和统计方法</a></li>
+<li><a href="#排序sorting"><span class="toc-section-number">4.2.3</span> 排序(sorting)</a></li>
+<li><a href="#unique-and-other-set-logic"><span class="toc-section-number">4.2.4</span> Unique and Other Set Logic</a></li>
+<li><a href="#array数据的输入和的输出"><span class="toc-section-number">4.2.5</span> array数据的输入和的输出</a></li>
+</ul></li>
+</ul></li>
+</ul>
+</div>
+
+<div id="安装" class="section level1">
+<h1><span class="header-section-number">1</span> 安装</h1>
+<p>在终端中输入:</p>
+<pre><code>pip install numpy</code></pre>
+<p>调用numpy</p>
+<pre class="python"><code>import numpy as np
+np.__version__</code></pre>
+<pre><code>## &#39;1.16.4&#39;</code></pre>
+</div>
+<div id="numpy中的数据格式" class="section level1">
+<h1><span class="header-section-number">2</span> Numpy中的数据格式</h1>
+<table>
+<colgroup>
+<col width="45%" />
+<col width="54%" />
+</colgroup>
+<thead>
+<tr class="header">
+<th>Data type</th>
+<th>Description</th>
+</tr>
+</thead>
+<tbody>
+<tr class="odd">
+<td>bool_ Boolean</td>
+<td>(True or False) stored as a byte</td>
+</tr>
+<tr class="even">
+<td>int_ Default</td>
+<td>integer type (same as C long; normally either int64 or int32)</td>
+</tr>
+<tr class="odd">
+<td>intc</td>
+<td>Identical to C int (normally int32 or int64)</td>
+</tr>
+<tr class="even">
+<td>intp</td>
+<td>Integer used for indexing (same as C ssize_t; normally either int32 or int64)</td>
+</tr>
+<tr class="odd">
+<td>int8</td>
+<td>Byte (–128 to 127)</td>
+</tr>
+<tr class="even">
+<td>int16</td>
+<td>Integer (–32768 to 32767)</td>
+</tr>
+<tr class="odd">
+<td>int32</td>
+<td>Integer (–2147483648 to 2147483647)</td>
+</tr>
+<tr class="even">
+<td>int64</td>
+<td>Integer (–9223372036854775808 to 9223372036854775807)</td>
+</tr>
+<tr class="odd">
+<td>uint8</td>
+<td>Unsigned integer (0 to 255)</td>
+</tr>
+<tr class="even">
+<td>uint16</td>
+<td>Unsigned integer (0 to 65535)</td>
+</tr>
+<tr class="odd">
+<td>uint32</td>
+<td>Unsigned integer (0 to 4294967295)</td>
+</tr>
+<tr class="even">
+<td>uint64</td>
+<td>Unsigned integer (0 to 18446744073709551615)</td>
+</tr>
+<tr class="odd">
+<td>float_</td>
+<td>Shorthand for float64</td>
+</tr>
+<tr class="even">
+<td>float16</td>
+<td>Half-precision float: sign bit, 5 bits exponent, 10 bits mantissa</td>
+</tr>
+<tr class="odd">
+<td>float32</td>
+<td>Single-precision float: sign bit, 8 bits exponent, 23 bits mantissa</td>
+</tr>
+<tr class="even">
+<td>float64</td>
+<td>Double-precision float: sign bit, 11 bits exponent, 52 bits mantissa</td>
+</tr>
+<tr class="odd">
+<td>complex_</td>
+<td>Shorthand for complex128</td>
+</tr>
+<tr class="even">
+<td>complex64</td>
+<td>Complex number, represented by two 32-bit floats</td>
+</tr>
+<tr class="odd">
+<td>complex128</td>
+<td>Complex number, represented by two 64-bit floats</td>
+</tr>
+</tbody>
+</table>
+</div>
+<div id="numpy-array基础" class="section level1">
+<h1><span class="header-section-number">3</span> Numpy array基础</h1>
+<div id="array的属性" class="section level2">
+<h2><span class="header-section-number">3.1</span> Array的属性</h2>
+<p>先生成三个不同的array,一维,二维和三维array.</p>
+<pre class="python"><code>import numpy as np
+np.random.seed(0)#设置seed,保证重复性
+
+x1 = np.random.randint(10, size = 6)#一维
+x2 = np.random.randint(10, size = (3, 4))#二维
+x3 = np.random.randint(10, size = (3, 4, 5))#三维
+x1</code></pre>
+<pre><code>## array([5, 0, 3, 3, 7, 9])</code></pre>
+<pre class="python"><code>x2</code></pre>
+<pre><code>## array([[3, 5, 2, 4],
+##        [7, 6, 8, 8],
+##        [1, 6, 7, 7]])</code></pre>
+<pre class="python"><code>x3</code></pre>
+<pre><code>## array([[[8, 1, 5, 9, 8],
+##         [9, 4, 3, 0, 3],
+##         [5, 0, 2, 3, 8],
+##         [1, 3, 3, 3, 7]],
+## 
+##        [[0, 1, 9, 9, 0],
+##         [4, 7, 3, 2, 7],
+##         [2, 0, 0, 4, 5],
+##         [5, 6, 8, 4, 1]],
+## 
+##        [[4, 9, 8, 1, 1],
+##         [7, 9, 9, 3, 6],
+##         [7, 2, 0, 3, 5],
+##         [9, 4, 4, 6, 4]]])</code></pre>
+<p>每一个array都有<code>ndim</code>,<code>shape</code>和<code>size</code>属性.</p>
+<pre class="python"><code>print(x1.ndim, x1.shape, x1.size)</code></pre>
+<pre><code>## 1 (6,) 6</code></pre>
+<pre class="python"><code>print(x2.ndim, x2.shape, x2.size)</code></pre>
+<pre><code>## 2 (3, 4) 12</code></pre>
+<pre class="python"><code>print(x3.ndim, x3.shape, x3.size)</code></pre>
+<pre><code>## 3 (3, 4, 5) 60</code></pre>
+<p>从上面例子可以看出来这三个属性分别代表什么意思.</p>
+<ul>
+<li><p><code>ndim</code>属性:该数据是几维数据.</p></li>
+<li><p><code>shape</code>属性:该数据每个维度的大小,这个可以看作是R中的<code>dim()</code>函数得到的内容.</p></li>
+<li><p><code>size</code>属性:该数据的总的cell数目.</p></li>
+</ul>
+<p><code>dtype</code>属性是指array的数据类型.</p>
+<pre class="python"><code>print(x1.dtype, x2.dtype, x3.dtype)</code></pre>
+<pre><code>## int32 int32 int32</code></pre>
+</div>
+<div id="array索引获得其中单个元素" class="section level2">
+<h2><span class="header-section-number">3.2</span> Array索引:获得其中单个元素</h2>
+<p>array的索引跟python中内置的列表非常像,可以使用位置索引,但是同样注意从0开始算起.</p>
+<pre class="python"><code>x1</code></pre>
+<pre><code>## array([5, 0, 3, 3, 7, 9])</code></pre>
+<pre class="python"><code>x1[0]</code></pre>
+<pre><code>## 5</code></pre>
+<pre class="python"><code>x1[-1]#倒数第一个元素</code></pre>
+<pre><code>## 9</code></pre>
+<p>对于多维,比如二维array,则跟R中的数据框类似,使用逗号分开行和列的索引.</p>
+<pre class="python"><code>x2</code></pre>
+<pre><code>## array([[3, 5, 2, 4],
+##        [7, 6, 8, 8],
+##        [1, 6, 7, 7]])</code></pre>
+<pre class="python"><code>x2[0,0]</code></pre>
+<pre><code>## 3</code></pre>
+<pre class="python"><code>x2[0,0] = 10
+x2</code></pre>
+<pre><code>## array([[10,  5,  2,  4],
+##        [ 7,  6,  8,  8],
+##        [ 1,  6,  7,  7]])</code></pre>
+<pre class="python"><code>x2[0,0]</code></pre>
+<pre><code>## 10</code></pre>
+</div>
+<div id="array切片获得一个subarray" class="section level2">
+<h2><span class="header-section-number">3.3</span> Array切片:获得一个subarray</h2>
+<p>类似于列表,可以这样切片:</p>
+<pre><code>list[start🔚step]</code></pre>
+<p>需要强调一次再,取出的subarray不包括end.</p>
+<div id="一维array" class="section level3">
+<h3><span class="header-section-number">3.3.1</span> 一维array</h3>
+<pre class="python"><code>x = np.arange(10)
+x</code></pre>
+<pre><code>## array([0, 1, 2, 3, 4, 5, 6, 7, 8, 9])</code></pre>
+<pre class="python"><code>x[:5]#前五个元素</code></pre>
+<pre><code>## array([0, 1, 2, 3, 4])</code></pre>
+<pre class="python"><code>x[4:7]#前五个元素</code></pre>
+<pre><code>## array([4, 5, 6])</code></pre>
+<pre class="python"><code>x[::2]#前五个元素</code></pre>
+<pre><code>## array([0, 2, 4, 6, 8])</code></pre>
+<pre class="python"><code>x[::-1]#将array反向排列</code></pre>
+<pre><code>## array([9, 8, 7, 6, 5, 4, 3, 2, 1, 0])</code></pre>
+</div>
+<div id="多维array" class="section level3">
+<h3><span class="header-section-number">3.3.2</span> 多维array</h3>
+<p>多维数组跟一致数组一样,只是需要使用逗号把不同维度的切片分开即可.</p>
+<pre><code>array[start🔚step,start:end;step]</code></pre>
+<pre class="python"><code>x2</code></pre>
+<pre><code>## array([[10,  5,  2,  4],
+##        [ 7,  6,  8,  8],
+##        [ 1,  6,  7,  7]])</code></pre>
+<pre class="python"><code>x2[1:3, 1:3]</code></pre>
+<pre><code>## array([[6, 8],
+##        [6, 7]])</code></pre>
+<pre class="python"><code>x2[::-1, ::-1]</code></pre>
+<pre><code>## array([[ 7,  7,  6,  1],
+##        [ 8,  8,  6,  7],
+##        [ 4,  2,  5, 10]])</code></pre>
+<p>如果对于行或者列只取出一个,会出现什么情况呢?</p>
+<pre class="python"><code>x2</code></pre>
+<pre><code>## array([[10,  5,  2,  4],
+##        [ 7,  6,  8,  8],
+##        [ 1,  6,  7,  7]])</code></pre>
+<pre class="python"><code>x2[1:3, 0]</code></pre>
+<pre><code>## array([7, 1])</code></pre>
+<pre class="python"><code>x2[1:3, 0].ndim</code></pre>
+<pre><code>## 1</code></pre>
+<p>可以看到,降维了.</p>
+<p><img src="array_slicing.png" /></p>
+</div>
+</div>
+<div id="重塑array的形状" class="section level2">
+<h2><span class="header-section-number">3.4</span> 重塑array的形状</h2>
+<p>array的形状,上面简单介绍了,指的就是数组的各个维度的大小.比较常用的是<code>reshape</code>方法.</p>
+<pre class="python"><code>grid = np.arange(1, 10)
+grid</code></pre>
+<pre><code>## array([1, 2, 3, 4, 5, 6, 7, 8, 9])</code></pre>
+<pre class="python"><code>grid.reshape((3,3))</code></pre>
+<pre><code>## array([[1, 2, 3],
+##        [4, 5, 6],
+##        [7, 8, 9]])</code></pre>
+</div>
+<div id="array的合并和分裂concatenation-and-splitting" class="section level2">
+<h2><span class="header-section-number">3.5</span> Array的合并和分裂(Concatenation and Splitting)</h2>
+<div id="合并array" class="section level3">
+<h3><span class="header-section-number">3.5.1</span> 合并array</h3>
+<p>将两个array合并为一个array,可以使用函数<code>concatenate</code>,是<code>numpy</code>中的函数.</p>
+<pre class="python"><code>x = np.array([1, 2, 3])
+y = np.array([3, 2, 1])
+z = [99, 99, 99]
+np.concatenate([x, y, z])</code></pre>
+<pre><code>## array([ 1,  2,  3,  3,  2,  1, 99, 99, 99])</code></pre>
+<p>可以看到,需要将array放在一个<code>list</code>(中括号)中.</p>
+<p>还可以用于二维array的合并.</p>
+<pre class="python"><code>grid = np.array([[1, 2, 3],
+[4, 5, 6]])
+grid</code></pre>
+<pre><code>## array([[1, 2, 3],
+##        [4, 5, 6]])</code></pre>
+<pre class="python"><code>np.concatenate([grid, grid])</code></pre>
+<pre><code>## array([[1, 2, 3],
+##        [4, 5, 6],
+##        [1, 2, 3],
+##        [4, 5, 6]])</code></pre>
+<p>可以看到,这样类似于R中的数据库的<code>rbind</code>功能,将array按照列进行合并.</p>
+<p>那么如何实现<code>cbind</code>效果呢?</p>
+<pre class="python"><code>np.concatenate([grid, grid], axis=1)</code></pre>
+<pre><code>## array([[1, 2, 3, 1, 2, 3],
+##        [4, 5, 6, 4, 5, 6]])</code></pre>
+<p>其实还可以使用更为形象的函数,<code>np.vstack</code>(相当于R中的<code>rbind</code>),和<code>np.hstack</code>(相当于R中的<code>cbind</code>).</p>
+<pre class="python"><code>x = np.array([1, 2, 3])
+grid = np.array([[9, 8, 7],
+[6, 5, 4]])
+np.vstack([x, grid])</code></pre>
+<pre><code>## array([[1, 2, 3],
+##        [9, 8, 7],
+##        [6, 5, 4]])</code></pre>
+<pre class="python"><code>y = np.array([[99],
+[99]])
+np.hstack([grid, y])</code></pre>
+<pre><code>## array([[ 9,  8,  7, 99],
+##        [ 6,  5,  4, 99]])</code></pre>
+</div>
+<div id="分割array" class="section level3">
+<h3><span class="header-section-number">3.5.2</span> 分割array</h3>
+<p>分割array有几个函数.</p>
+<p><code>np.split</code>,<code>np.hsplit</code>,和<code>np.vsplit</code>.看几个例子就明白了.</p>
+<pre class="python"><code>x = [1, 2, 3, 99, 99, 3, 2, 1]
+x</code></pre>
+<pre><code>## [1, 2, 3, 99, 99, 3, 2, 1]</code></pre>
+<pre class="python"><code>x1, x2, x3 = np.split(x, [3, 5])
+x1</code></pre>
+<pre><code>## array([1, 2, 3])</code></pre>
+<pre class="python"><code>x2</code></pre>
+<pre><code>## array([99, 99])</code></pre>
+<pre class="python"><code>x3</code></pre>
+<pre><code>## array([3, 2, 1])</code></pre>
+<p>对于函数<code>split</code>,第一参数是要分割的列表,第二个参数需要是一个list,代表从哪分割,比如这里面的<code>[3,5]</code>,就代表着将列表分割为三段,分别是[:3],[3:5],[5:].</p>
+<p>同样对于<code>hsplit</code>和<code>vsplit</code>也就比较好理解了,分别是对多维array进行垂直和水平切割.</p>
+<pre class="python"><code>grid = np.arange(16).reshape((4, 4))
+grid</code></pre>
+<pre><code>## array([[ 0,  1,  2,  3],
+##        [ 4,  5,  6,  7],
+##        [ 8,  9, 10, 11],
+##        [12, 13, 14, 15]])</code></pre>
+<pre class="python"><code>upper, lower = np.vsplit(grid, [2])
+print(upper)</code></pre>
+<pre><code>## [[0 1 2 3]
+##  [4 5 6 7]]</code></pre>
+<pre class="python"><code>print(lower)</code></pre>
+<pre><code>## [[ 8  9 10 11]
+##  [12 13 14 15]]</code></pre>
+<pre class="python"><code>left, right = np.hsplit(grid, [2])
+print(left)</code></pre>
+<pre><code>## [[ 0  1]
+##  [ 4  5]
+##  [ 8  9]
+##  [12 13]]</code></pre>
+<pre class="python"><code>print(right)</code></pre>
+<pre><code>## [[ 2  3]
+##  [ 6  7]
+##  [10 11]
+##  [14 15]]</code></pre>
+</div>
+</div>
+</div>
+<div id="在numpy-array上进行运算" class="section level1">
+<h1><span class="header-section-number">4</span> 在Numpy array上进行运算</h1>
+<p>对array进行运算有一点非常重要,就是进行向量化操作(vectorized operations),跟R一样.这样的好处时可以提高运算速度.</p>
+<div id="universal-functionsufuncs" class="section level2">
+<h2><span class="header-section-number">4.1</span> Universal Functions(UFuncs)</h2>
+<p>举一个简单的例子,给定一组数,计算每个数的倒数.如果用以前的思维,那么应该对每一个数分别计算倒数,然后循环.但是其实大可不必.</p>
+<pre class="python"><code>import numpy as np
+values = np.arange(1,10)
+values</code></pre>
+<pre><code>## array([1, 2, 3, 4, 5, 6, 7, 8, 9])</code></pre>
+<pre class="python"><code>1/values</code></pre>
+<pre><code>## array([1.        , 0.5       , 0.33333333, 0.25      , 0.2       ,
+##        0.16666667, 0.14285714, 0.125     , 0.11111111])</code></pre>
+<p>这在R中的基础数据格式,向量中就可以运行的,但是对python的基础数据格式,列表和tuple是不可以的.</p>
+<pre class="python"><code>list(range(1,10))
+# 1/list(range(1,10))</code></pre>
+<pre><code>## [1, 2, 3, 4, 5, 6, 7, 8, 9]</code></pre>
+<p>也就是说列表是不支持向量化操作的,只有在numpy的array上才可以.</p>
+<p>所以,可以将numpy中的一维array想象成是R中的向量,这样就好记住多了.</p>
+<p>那么,同样的,两个一维array也可以像R向量一样,做向量化的操作.比如+,÷等.但是两个array的长度必须相等,否则报错.</p>
+<pre class="python"><code>np.arange(1,10)/np.arange(2,11)</code></pre>
+<pre><code>## array([0.5       , 0.66666667, 0.75      , 0.8       , 0.83333333,
+##        0.85714286, 0.875     , 0.88888889, 0.9       ])</code></pre>
+<pre class="python"><code>np.arange(1,10) + np.arange(2,11)</code></pre>
+<pre><code>## array([ 3,  5,  7,  9, 11, 13, 15, 17, 19])</code></pre>
+<pre class="python"><code>np.arange(1,10) - np.arange(2,11)</code></pre>
+<pre><code>## array([-1, -1, -1, -1, -1, -1, -1, -1, -1])</code></pre>
+<p>当然,向量化的操作并不局限于一维的array,对于二维的array同样适用,只要将其对比为R中的数据框即可.当然,也可以二维和一维操作,这时候是按照每行都对同一个一维array分别操作进行的.</p>
+<pre class="python"><code>test = np.arange(1,10)
+test = test.reshape((3,3))
+test2 = np.arange(2,11).reshape((3,3)) 
+test3 = np.array([1,2,3])
+test</code></pre>
+<pre><code>## array([[1, 2, 3],
+##        [4, 5, 6],
+##        [7, 8, 9]])</code></pre>
+<pre class="python"><code>test2</code></pre>
+<pre><code>## array([[ 2,  3,  4],
+##        [ 5,  6,  7],
+##        [ 8,  9, 10]])</code></pre>
+<pre class="python"><code>test3</code></pre>
+<pre><code>## array([1, 2, 3])</code></pre>
+<pre class="python"><code>test + test2</code></pre>
+<pre><code>## array([[ 3,  5,  7],
+##        [ 9, 11, 13],
+##        [15, 17, 19]])</code></pre>
+<pre class="python"><code>test/test2</code></pre>
+<pre><code>## array([[0.5       , 0.66666667, 0.75      ],
+##        [0.8       , 0.83333333, 0.85714286],
+##        [0.875     , 0.88888889, 0.9       ]])</code></pre>
+<pre class="python"><code>test/test3</code></pre>
+<pre><code>## array([[1. , 1. , 1. ],
+##        [4. , 2.5, 2. ],
+##        [7. , 4. , 3. ]])</code></pre>
+<p>再来看一个例子:</p>
+<pre class="python"><code>import numpy as np
+x = np.random.randn(8)
+y = np.random.randn(8)
+x</code></pre>
+<pre><code>## array([ 1.25441407,  1.41910204, -0.74385608, -2.5174371 , -1.50709602,
+##         1.14907613, -1.19357825,  1.14104245])</code></pre>
+<pre class="python"><code>y</code></pre>
+<pre><code>## array([ 1.50944508,  1.06777513, -0.68658948,  0.01487332, -0.3756659 ,
+##        -0.03822364,  0.36797447, -0.0447237 ])</code></pre>
+<pre class="python"><code>np.maximum(x, y)</code></pre>
+<pre><code>## array([ 1.50944508,  1.41910204, -0.68658948,  0.01487332, -0.3756659 ,
+##         1.14907613,  0.36797447,  1.14104245])</code></pre>
+<p>可以看到,<code>np.maximum()</code>函数对两个array的同一位置上的数取最大值,返回与输入array长度相同的array.</p>
+<p>如果两个array长度不同,则报错.</p>
+<p>常见的接受一个array的ufuncs:</p>
+<table>
+<colgroup>
+<col width="44%" />
+<col width="55%" />
+</colgroup>
+<thead>
+<tr class="header">
+<th>Function</th>
+<th>Description</th>
+</tr>
+</thead>
+<tbody>
+<tr class="odd">
+<td><code>abs</code>,<code>fabs</code></td>
+<td>Compute the absolute value element-wise for integer, floating-point, or complex values</td>
+</tr>
+<tr class="even">
+<td><code>sqrt</code></td>
+<td>Compute the square root of each element (equivalent to arr ** 0.5)</td>
+</tr>
+<tr class="odd">
+<td><code>square</code></td>
+<td>Compute the square of each element (equivalent to arr ** 2)</td>
+</tr>
+<tr class="even">
+<td><code>exp</code></td>
+<td>Compute the exponent ex of each element</td>
+</tr>
+<tr class="odd">
+<td><code>log, log10, log2, log1p</code></td>
+<td>Natural logarithm (base e), log base 10, log base 2, and log(1 + x), respectively</td>
+</tr>
+<tr class="even">
+<td><code>sign</code></td>
+<td>Compute the sign of each element: 1 (positive), 0 (zero), or –1 (negative)</td>
+</tr>
+<tr class="odd">
+<td><code>ceil</code></td>
+<td>Compute the ceiling of each element (i.e., the smallest integer greater than or equal to that</td>
+</tr>
+</tbody>
+</table>
+<p>number)
+<code>floor</code> | Compute the floor of each element (i.e., the largest integer less than or equal to each element)
+<code>rint</code> | Round elements to the nearest integer, preserving the dtype
+<code>modf</code> | Return fractional and integral parts of array as a separate array
+<code>isnan</code> | Return boolean array indicating whether each value is NaN (Not a Number)
+<code>isfinite, isinf</code> | Return boolean array indicating whether each element is finite (non-inf, non-NaN) or infinite,
+respectively
+<code>cos</code>, <code>cosh</code>,<code>sin</code>,<code>sinh</code>,<code>tan</code>,<code>tanh</code> | Regular and hyperbolic trigonometric functions
+<code>arccos</code>, <code>arccosh</code>, <code>arcsin</code>, <code>arcsinh</code>, <code>arctan</code>, <code>arctanh</code> | Inverse trigonometric functions logical_not Compute truth value of not x element-wise (equivalent to ~arr).</p>
+<p>常见的接受两个array的ufuncs:</p>
+<table>
+<thead>
+<tr class="header">
+<th>Function</th>
+<th>Description</th>
+</tr>
+</thead>
+<tbody>
+<tr class="odd">
+<td><code>add</code></td>
+<td>Add corresponding elements in arrays</td>
+</tr>
+<tr class="even">
+<td><code>subtract</code></td>
+<td>Subtract elements in second array from first array</td>
+</tr>
+<tr class="odd">
+<td><code>multiply</code></td>
+<td>Multiply array elements</td>
+</tr>
+<tr class="even">
+<td><code>divide</code>, <code>floor_divide</code></td>
+<td>Divide or floor divide (truncating the remainder)</td>
+</tr>
+<tr class="odd">
+<td><code>power</code></td>
+<td>Raise elements in first array to powers indicated in second array</td>
+</tr>
+<tr class="even">
+<td><code>maximum</code>, <code>fmax</code></td>
+<td>Element-wise maximum; fmax ignores NaN</td>
+</tr>
+<tr class="odd">
+<td><code>minimum</code>, <code>fmin</code></td>
+<td>Element-wise minimum; fmin ignores NaN</td>
+</tr>
+<tr class="even">
+<td><code>mod</code></td>
+<td>Element-wise modulus (remainder of division)</td>
+</tr>
+</tbody>
+</table>
+<p><code>copysign</code> Copy sign of values in second argument to values in first argument
+<code>greater</code>, <code>greater_equal</code>, <code>less</code>, <code>less_equal</code>, <code>equal</code>, <code>not_equal</code> | Perform element-wise comparison, yielding boolean array (equivalent to infix operators &gt;, &gt;=, &lt;, &lt;=, ==, !=)
+<code>logical_and</code>, <code>logical_or</code>, <code>logical_xor</code> | Compute element-wise truth value of logical operation (equivalent to infix operators &amp; |, ^)</p>
+</div>
+<div id="面向数组的编程" class="section level2">
+<h2><span class="header-section-number">4.2</span> 面向数组的编程</h2>
+<p>一般来说,使用向量化操作,会比loop循环至少快上一个数量级.</p>
+<div id="expressing-conditional-logic-as-array-operations" class="section level3">
+<h3><span class="header-section-number">4.2.1</span> Expressing Conditional Logic as Array Operations</h3>
+<pre class="python"><code>import numpy as np
+xarr = np.array([1.1, 1.2, 1.3, 1.4, 1.5])
+yarr = np.array([2.1, 2.2, 2.3, 2.4, 2.5])
+cond = np.array([True, False, True, True, False])
+result = [(x if c else y) for x, y, c in zip(xarr, yarr, cond)]
+result</code></pre>
+<pre><code>## [1.1, 2.2, 1.3, 1.4, 2.5]</code></pre>
+<p>这种办法问题很多.我们可以使用<code>np.where()</code>函数来做.</p>
+<pre class="python"><code>result = np.where(cond, xarr, yarr)
+result</code></pre>
+<pre><code>## array([1.1, 2.2, 1.3, 1.4, 2.5])</code></pre>
+<pre class="python"><code>arr = np.random.randn(4, 4)
+arr</code></pre>
+<pre><code>## array([[-0.30237513, -2.2244036 ,  0.72400636,  0.35900276],
+##        [ 1.07612104,  0.19214083,  0.85292596,  0.01835718],
+##        [ 0.42830357,  0.99627783, -0.49114966,  0.71267817],
+##        [ 1.11334035, -2.15367459, -0.41611148, -1.07089699]])</code></pre>
+<pre class="python"><code>arr &gt; 0</code></pre>
+<pre><code>## array([[False, False,  True,  True],
+##        [ True,  True,  True,  True],
+##        [ True,  True, False,  True],
+##        [ True, False, False, False]])</code></pre>
+<pre class="python"><code>np.where(arr &gt; 2, 2, -2)</code></pre>
+<pre><code>## array([[-2, -2, -2, -2],
+##        [-2, -2, -2, -2],
+##        [-2, -2, -2, -2],
+##        [-2, -2, -2, -2]])</code></pre>
+<pre class="python"><code>np.where(arr &gt; 0, 2, arr)</code></pre>
+<pre><code>## array([[-0.30237513, -2.2244036 ,  2.        ,  2.        ],
+##        [ 2.        ,  2.        ,  2.        ,  2.        ],
+##        [ 2.        ,  2.        , -0.49114966,  2.        ],
+##        [ 2.        , -2.15367459, -0.41611148, -1.07089699]])</code></pre>
+<p><code>np.random.randn()</code>函数用来随机产生二维的array.</p>
+</div>
+<div id="numpy中的数学和统计方法" class="section level3">
+<h3><span class="header-section-number">4.2.2</span> Numpy中的数学和统计方法</h3>
+<p>随机产生正态分布数据.</p>
+<pre class="python"><code>arr = np.random.randn(5, 4)
+arr</code></pre>
+<pre><code>## array([[ 0.22113881, -1.12305712, -1.05075796,  1.01207905],
+##        [ 1.54371643, -0.40211489,  0.8647491 , -0.22686923],
+##        [ 0.81116027,  0.28779461, -0.53846816,  1.9084621 ],
+##        [-0.475776  ,  1.44073112, -1.14907568,  0.80571455],
+##        [ 1.75610703,  0.97297991, -1.55111911,  0.19114348]])</code></pre>
+<pre class="python"><code>arr.mean()</code></pre>
+<pre><code>## 0.2649269161929305</code></pre>
+<pre class="python"><code>np.mean(arr)</code></pre>
+<pre><code>## 0.2649269161929305</code></pre>
+<pre class="python"><code>arr.max()</code></pre>
+<pre><code>## 1.9084621003056945</code></pre>
+<pre class="python"><code>np.max(arr)</code></pre>
+<pre><code>## 1.9084621003056945</code></pre>
+<pre class="python"><code>arr.min()</code></pre>
+<pre><code>## -1.5511191116398637</code></pre>
+<pre class="python"><code>np.min(arr)</code></pre>
+<pre><code>## -1.5511191116398637</code></pre>
+<pre class="python"><code>arr.sum()</code></pre>
+<pre><code>## 5.298538323858611</code></pre>
+<pre class="python"><code>np.sum(arr)</code></pre>
+<pre><code>## 5.298538323858611</code></pre>
+<p>对于这些方法,都有一个参数,<code>axis</code>,用来指示是否按行或者按列进行计算.0代表按行,1代表按列.</p>
+<pre class="python"><code>arr.mean(axis=0)</code></pre>
+<pre><code>## array([ 0.77126931,  0.23526673, -0.68493436,  0.73810599])</code></pre>
+<pre class="python"><code>arr.mean(axis=1)</code></pre>
+<pre><code>## array([-0.2351493 ,  0.44487035,  0.61723721,  0.1553985 ,  0.34227783])</code></pre>
+<pre class="python"><code>arr = np.array([0, 1, 2, 3, 4, 5, 6, 7])
+arr</code></pre>
+<pre><code>## array([0, 1, 2, 3, 4, 5, 6, 7])</code></pre>
+<pre class="python"><code>arr.cumsum()#累乘</code></pre>
+<pre><code>## array([ 0,  1,  3,  6, 10, 15, 21, 28], dtype=int32)</code></pre>
+<pre class="python"><code>arr = np.array([[0, 1, 2], [3, 4, 5], [6, 7, 8]])
+arr</code></pre>
+<pre><code>## array([[0, 1, 2],
+##        [3, 4, 5],
+##        [6, 7, 8]])</code></pre>
+<pre class="python"><code>arr.cumsum(axis=0)</code></pre>
+<pre><code>## array([[ 0,  1,  2],
+##        [ 3,  5,  7],
+##        [ 9, 12, 15]], dtype=int32)</code></pre>
+<pre class="python"><code>arr.cumsum(axis=1)</code></pre>
+<pre><code>## array([[ 0,  1,  3],
+##        [ 3,  7, 12],
+##        [ 6, 13, 21]], dtype=int32)</code></pre>
+<p>array常用统计方法总结</p>
+<table>
+<colgroup>
+<col width="46%" />
+<col width="53%" />
+</colgroup>
+<thead>
+<tr class="header">
+<th>Method</th>
+<th>meaning</th>
+</tr>
+</thead>
+<tbody>
+<tr class="odd">
+<td><code>sum</code></td>
+<td>Sum of all the elements in the array or along an axis; zero-length arrays have sum 0</td>
+</tr>
+<tr class="even">
+<td><code>mean</code></td>
+<td>Arithmetic mean; zero-length arrays have NaN mean</td>
+</tr>
+<tr class="odd">
+<td><code>std</code>, <code>var</code></td>
+<td>Standard deviation and variance, respectively, with optional degrees of freedom adjustment (default</td>
+</tr>
+</tbody>
+</table>
+<p>denominator n)
+<code>min</code>, <code>max</code> | Minimum and maximum
+<code>argmin</code>, <code>argmax</code> | Indices of minimum and maximum elements, respectively
+<code>cumsum</code> | Cumulative sum of elements starting from 0
+<code>cumprod</code> | Cumulative product of elements starting from 1</p>
+</div>
+<div id="排序sorting" class="section level3">
+<h3><span class="header-section-number">4.2.3</span> 排序(sorting)</h3>
+<p>使用<code>sort</code>方法来对array进行排序.</p>
+<pre class="python"><code>arr = np.random.randn(6)
+arr</code></pre>
+<pre><code>## array([ 1.60477607, -1.42002593, -2.44378268, -2.05633855, -0.99225755,
+##         1.01128532])</code></pre>
+<pre class="python"><code>arr.sort()
+arr</code></pre>
+<pre><code>## array([-2.44378268, -2.05633855, -1.42002593, -0.99225755,  1.01128532,
+##         1.60477607])</code></pre>
+<pre class="python"><code>arr = np.random.randn(5, 3)
+arr</code></pre>
+<pre><code>## array([[ 1.40044008, -0.65499168, -0.25579069],
+##        [-0.71438561, -0.50083877,  0.05564534],
+##        [-0.48896178, -0.37992245,  0.25973465],
+##        [-1.68134864, -0.91679481, -0.1192241 ],
+##        [-0.44627728, -2.14335544,  0.01003777]])</code></pre>
+<pre class="python"><code>arr.sort(axis=0)
+arr.sort(axis=1)</code></pre>
+</div>
+<div id="unique-and-other-set-logic" class="section level3">
+<h3><span class="header-section-number">4.2.4</span> Unique and Other Set Logic</h3>
+<pre class="python"><code>names = np.array([&#39;Bob&#39;, &#39;Joe&#39;, &#39;Will&#39;, &#39;Bob&#39;, &#39;Will&#39;, &#39;Joe&#39;, &#39;Joe&#39;])
+names</code></pre>
+<pre><code>## array([&#39;Bob&#39;, &#39;Joe&#39;, &#39;Will&#39;, &#39;Bob&#39;, &#39;Will&#39;, &#39;Joe&#39;, &#39;Joe&#39;], dtype=&#39;&lt;U4&#39;)</code></pre>
+<pre class="python"><code>np.unique(names)</code></pre>
+<pre><code>## array([&#39;Bob&#39;, &#39;Joe&#39;, &#39;Will&#39;], dtype=&#39;&lt;U4&#39;)</code></pre>
+<pre class="python"><code>sorted(names)</code></pre>
+<pre><code>## [&#39;Bob&#39;, &#39;Bob&#39;, &#39;Joe&#39;, &#39;Joe&#39;, &#39;Joe&#39;, &#39;Will&#39;, &#39;Will&#39;]</code></pre>
+<pre class="python"><code>sorted(set(names))</code></pre>
+<pre><code>## [&#39;Bob&#39;, &#39;Joe&#39;, &#39;Will&#39;]</code></pre>
+<p>总结</p>
+<table>
+<colgroup>
+<col width="55%" />
+<col width="44%" />
+</colgroup>
+<thead>
+<tr class="header">
+<th>Functions</th>
+<th>meaning</th>
+</tr>
+</thead>
+<tbody>
+<tr class="odd">
+<td><code>unique(x)</code></td>
+<td>Compute the sorted, unique elements in x</td>
+</tr>
+<tr class="even">
+<td><code>intersect1d(x, y)</code></td>
+<td>Compute the sorted, common elements in x and y</td>
+</tr>
+<tr class="odd">
+<td><code>union1d(x, y)</code></td>
+<td>Compute the sorted union of elements</td>
+</tr>
+<tr class="even">
+<td><code>in1d(x, y)</code></td>
+<td>Compute a boolean array indicating whether each element of x is contained in y</td>
+</tr>
+<tr class="odd">
+<td><code>setdiff1d(x, y)</code></td>
+<td>Set difference, elements in x that are not in y</td>
+</tr>
+<tr class="even">
+<td><code>setxor1d(x, y)</code></td>
+<td>Set symmetric differences; elements that are in either of the arrays, but not both</td>
+</tr>
+</tbody>
+</table>
+</div>
+<div id="array数据的输入和的输出" class="section level3">
+<h3><span class="header-section-number">4.2.5</span> array数据的输入和的输出</h3>
+<p>跟R的<code>save</code>和<code>load</code>比较像.</p>
+<pre class="python"><code>arr = np.arange(10)
+arr</code></pre>
+<pre><code>## array([0, 1, 2, 3, 4, 5, 6, 7, 8, 9])</code></pre>
+<pre class="python"><code>np.save(file=&#39;some_array&#39;, arr=arr)</code></pre>
+<p>默认的后缀民为<code>.npy</code>.然后可以使用<code>np.load()</code>函数load.</p>
+<pre class="python"><code>np.load(&#39;some_array.npy&#39;)</code></pre>
+<pre><code>## array([0, 1, 2, 3, 4, 5, 6, 7, 8, 9])</code></pre>
+</div>
+</div>
+</div>
+
+    </div>
+
+    
+
+
+
+
+
+<div class="article-tags">
+  
+  <a class="badge badge-light" href="/tag/blog/">Blog</a>
+  
+  <a class="badge badge-light" href="/tag/chinese/">Chinese</a>
+  
+</div>
+
+
+
+<div class="share-box">
+  <ul class="share">
+    
+      
+      
+      
+        
+      
+      
+      
+      
+      
+      
+      
+      <li>
+        <a href="https://twitter.com/intent/tweet?url=https%3A%2F%2Fjaspershen.github.io%2Fpost%2F2019-11-24-python-numpy-summary%2F&amp;text=Python&#43;NumPy%E5%8C%85%E6%80%BB%E7%BB%93" target="_blank" rel="noopener" class="share-btn-twitter" aria-label="twitter">
+          <i class="fab fa-twitter"></i>
+        </a>
+      </li>
+    
+      
+      
+      
+        
+      
+      
+      
+      
+      
+      
+      
+      <li>
+        <a href="https://www.facebook.com/sharer.php?u=https%3A%2F%2Fjaspershen.github.io%2Fpost%2F2019-11-24-python-numpy-summary%2F&amp;t=Python&#43;NumPy%E5%8C%85%E6%80%BB%E7%BB%93" target="_blank" rel="noopener" class="share-btn-facebook" aria-label="facebook">
+          <i class="fab fa-facebook"></i>
+        </a>
+      </li>
+    
+      
+      
+      
+        
+      
+      
+      
+      
+      
+      
+      
+        
+      
+      <li>
+        <a href="mailto:?subject=Python%20NumPy%E5%8C%85%E6%80%BB%E7%BB%93&amp;body=https%3A%2F%2Fjaspershen.github.io%2Fpost%2F2019-11-24-python-numpy-summary%2F" target="_blank" rel="noopener" class="share-btn-email" aria-label="envelope">
+          <i class="fas fa-envelope"></i>
+        </a>
+      </li>
+    
+      
+      
+      
+        
+      
+      
+      
+      
+      
+      
+      
+      <li>
+        <a href="https://www.linkedin.com/shareArticle?url=https%3A%2F%2Fjaspershen.github.io%2Fpost%2F2019-11-24-python-numpy-summary%2F&amp;title=Python&#43;NumPy%E5%8C%85%E6%80%BB%E7%BB%93" target="_blank" rel="noopener" class="share-btn-linkedin" aria-label="linkedin-in">
+          <i class="fab fa-linkedin-in"></i>
+        </a>
+      </li>
+    
+      
+      
+      
+        
+      
+      
+      
+      
+      
+      
+      
+      <li>
+        <a href="whatsapp://send?text=Python&#43;NumPy%E5%8C%85%E6%80%BB%E7%BB%93%20https%3A%2F%2Fjaspershen.github.io%2Fpost%2F2019-11-24-python-numpy-summary%2F" target="_blank" rel="noopener" class="share-btn-whatsapp" aria-label="whatsapp">
+          <i class="fab fa-whatsapp"></i>
+        </a>
+      </li>
+    
+      
+      
+      
+        
+      
+      
+      
+      
+      
+      
+      
+      <li>
+        <a href="https://service.weibo.com/share/share.php?url=https%3A%2F%2Fjaspershen.github.io%2Fpost%2F2019-11-24-python-numpy-summary%2F&amp;title=Python&#43;NumPy%E5%8C%85%E6%80%BB%E7%BB%93" target="_blank" rel="noopener" class="share-btn-weibo" aria-label="weibo">
+          <i class="fab fa-weibo"></i>
+        </a>
+      </li>
+    
+  </ul>
+</div>
+
+
+
+
+
+
+
+
+
+
+
+  
+  
+
+
+
+  
+  
+  
+    
+  
+  
+  
+  <div class="media author-card content-widget-hr">
+    
+      
+      <a href="https://jaspershen.github.io/"><img class="avatar mr-3 avatar-circle" src="/authors/admin/avatar_hu86242519a21313948ac7dc77e0a27da6_1568301_270x270_fill_q75_lanczos_center.jpg" alt="Xiaotao Shen"></a>
+    
+
+    <div class="media-body">
+      <h5 class="card-title"><a href="https://jaspershen.github.io/">Xiaotao Shen</a></h5>
+      <h6 class="card-subtitle">Postdoctoral Research Fellow</h6>
+      <p class="card-text">Metabolomics, Multi-omics, Bioinformatics, Systems Biology.</p>
+      <ul class="network-icon" aria-hidden="true">
+  
+    
+    
+    
+      
+    
+    
+    
+    
+    
+      
+    
+    <li>
+      <a href="/#contact" >
+        <i class="fas fa-envelope"></i>
+      </a>
+    </li>
+  
+    
+    
+    
+      
+    
+    
+    
+    
+    
+      
+    
+    <li>
+      <a href="https://twitter.com/GeorgeCushen" target="_blank" rel="noopener">
+        <i class="fab fa-github"></i>
+      </a>
+    </li>
+  
+    
+    
+    
+      
+    
+    
+    
+    
+    
+      
+    
+    <li>
+      <a href="https://scholar.google.co.uk/citations?user=sIwtMXoAAAAJ" target="_blank" rel="noopener">
+        <i class="fas fa-graduation-cap"></i>
+      </a>
+    </li>
+  
+    
+    
+    
+      
+    
+    
+    
+    
+    
+      
+    
+    <li>
+      <a href="https://github.com/gcushen" target="_blank" rel="noopener">
+        <i class="fab fa-twitter"></i>
+      </a>
+    </li>
+  
+    
+    
+    
+      
+    
+    
+    
+    
+    
+      
+    
+    <li>
+      <a href="https://www.linkedin.com/" target="_blank" rel="noopener">
+        <i class="fab fa-linkedin"></i>
+      </a>
+    </li>
+  
+    
+    
+    
+    
+    
+    
+    
+      
+    
+    <li>
+      <a href="/uploads/resume.pdf" >
+        <i class="ai ai-cv"></i>
+      </a>
+    </li>
+  
+</ul>
+
+    </div>
+  </div>
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+  </div>
+</article>
+  </div>
+
+  <div class="page-footer">
+    
+    
+    <div class="container">
+      <footer class="site-footer">
+
+  
+
+
+
+
+
+
+
+
+
+
+
+
+  
+  
+  
+  
+  
+
+
+
+
+
+
+
+
+
+
+
+
+
+  
+  
+  
+
+  
+  
+    
+  
+  
+    
+  
+
+  
+
+  
+  <p class="powered-by copyright-license-text">
+    © 2023 Xiaotao Shen
+  </p>
+  
+
+  <p class="powered-by footer-license-icons">
+    <a href="https://creativecommons.org/licenses/by-nc-nd/4.0" rel="noopener noreferrer" target="_blank" aria-label="Creative Commons">
+      <i class="fab fa-creative-commons fa-2x" aria-hidden="true"></i>
+      <i class="fab fa-creative-commons-by fa-2x" aria-hidden="true"></i>
+      
+        <i class="fab fa-creative-commons-nc fa-2x" aria-hidden="true"></i>
+      
+      
+        <i class="fab fa-creative-commons-nd fa-2x" aria-hidden="true"></i>
+      
+    </a>
+  </p>
+
+
+
+
+
+  <p class="powered-by">
+    
+    
+    
+      
+      
+      
+      
+      
+      
+      Published with <a href="https://wowchemy.com/?utm_campaign=poweredby" target="_blank" rel="noopener">Wowchemy</a> — the free, <a href="https://github.com/wowchemy/wowchemy-hugo-themes" target="_blank" rel="noopener">open source</a> website builder that empowers creators.
+    
+  </p>
+</footer>
+
+    </div>
+    
+  </div>
+
+  
+
+
+<script src="/js/vendor-bundle.min.f64289d8217e08e3afcd597d60836062.js"></script>
+
+
+
+
+  
+
+  
+  
+
+  
+
+
+
+
+
+
+
+
+
+
+
+
+
+  
+  <script id="search-hit-fuse-template" type="text/x-template">
+    <div class="search-hit" id="summary-{{key}}">
+      <div class="search-hit-content">
+        <div class="search-hit-name">
+          <a href="{{relpermalink}}">{{title}}</a>
+          <div class="article-metadata search-hit-type">{{type}}</div>
+          <p class="search-hit-description">{{snippet}}</p>
+        </div>
+      </div>
+    </div>
+  </script>
+  
+    <script src="https://cdn.jsdelivr.net/gh/krisk/Fuse@v3.2.1/dist/fuse.min.js" integrity="sha512-o38bmzBGX+hD3JHWUFCDA09btWaqrNmoJ3RXLlrysA7PP01Kgs4UlE4MhelE1v5dJR3+cxlR4qQlotsW7jKsnw==" crossorigin="anonymous"></script>
+    <script src="https://cdn.jsdelivr.net/gh/julmot/mark.js@8.11.1/dist/jquery.mark.min.js" integrity="sha512-mhbv5DqBMgrWL+32MmsDOt/OAvqr/cHimk6B8y/bx/xS88MVkYGPiVv2ixKVrkywF2qHplNRUvFsAHUdxZ3Krg==" crossorigin="anonymous"></script>
+  
+
+
+
+
+
+
+
+
+
+
+
+
+  
+  
+  
+  
+  
+  
+  
+
+
+
+
+
+
+
+<script id="page-data" type="application/json">{"use_headroom":true}</script>
+
+
+
+  <script src="/js/wowchemy-headroom.db4755770454eb63685f8de785c0a172.js" type="module"></script>
+
+
+
+
+
+
+
+
+
+  
+  
+
+
+<script src="/en/js/wowchemy.min.ead4a376bcf2c4714888c770ea9b0040.js"></script>
+
+
+
+
+
+
+
+  
+<div id="modal" class="modal fade" role="dialog">
+  <div class="modal-dialog">
+    <div class="modal-content">
+      <div class="modal-header">
+        <h5 class="modal-title">Cite</h5>
+        <button type="button" class="close" data-dismiss="modal" aria-label="Close">
+          <span aria-hidden="true">&times;</span>
+        </button>
+      </div>
+      <div class="modal-body">
+        
+        <pre><code></code></pre>
+      </div>
+      <div class="modal-footer">
+        <a class="btn btn-outline-primary my-1 js-copy-cite" href="#" target="_blank">
+          <i class="fas fa-copy"></i> Copy
+        </a>
+        <a class="btn btn-outline-primary my-1 js-download-cite" href="#" target="_blank">
+          <i class="fas fa-download"></i> Download
+        </a>
+        <div id="modal-error"></div>
+      </div>
+    </div>
+  </div>
+</div>
+
+
+  <script src="/js/wowchemy-publication.68f8d7090562ca65fc6d3cb3f8f2d2cb.js" type="module"></script>
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+</body>
+</html>

@@ -1,0 +1,1630 @@
+<!DOCTYPE html>
+<!-- This site was created with Wowchemy. https://www.wowchemy.com -->
+<!-- Last Published: August 10, 2023 --><html lang="en-us" >
+
+
+<head>
+  <meta charset="utf-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1" />
+  <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+  
+  
+  
+    <meta name="generator" content="Wowchemy 5.7.0 for Hugo" />
+  
+
+  
+  
+
+
+
+
+
+
+
+
+
+
+
+
+  
+  
+
+
+
+
+
+
+
+
+
+
+  
+
+
+
+
+
+
+
+  
+  
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+  
+
+  
+  
+  
+    
+      
+      <link rel="preload" as="style" href="https://fonts.googleapis.com/css2?family=Bruno+Ace&family=Limelight&family=Poppins:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,100;1,200;1,300;1,400;1,500;1,600;1,700;1,800;1,900&display=swap">
+      <link rel="stylesheet" href="https://fonts.googleapis.com/css2?family=Bruno+Ace&family=Limelight&family=Poppins:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,100;1,200;1,300;1,400;1,500;1,600;1,700;1,800;1,900&display=swap" media="print" onload="this.media='all'">
+    
+  
+
+  
+  
+
+  
+  
+    
+    <script src="/js/mathjax-config.js"></script>
+  
+
+  
+
+  <link rel="stylesheet" href="/css/vendor-bundle.min.047268c6dd09ad74ba54a0ba71837064.css" media="print" onload="this.media='all'">
+
+  
+  
+  
+    
+    
+      <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/academicons@1.9.2/css/academicons.min.css" integrity="sha512-KlJCpRsLf+KKu2VQa5vmRuClRFjxc5lXO03ixZt82HZUk41+1I0bD8KBSA0fY290ayMfWYI9udIqeOWSu1/uZg==" crossorigin="anonymous" media="print" onload="this.media='all'">
+    
+
+    
+    
+    
+    
+      
+      
+    
+    
+    
+
+    
+    
+    
+
+    
+
+    
+    
+      
+      
+
+      
+      
+
+      
+    
+      
+      
+
+      
+      
+
+      
+    
+      
+      
+
+      
+      
+
+      
+    
+      
+      
+
+      
+      
+
+      
+    
+      
+      
+
+      
+      
+
+      
+    
+      
+      
+
+      
+      
+
+      
+    
+      
+      
+
+      
+      
+
+      
+    
+      
+      
+
+      
+      
+
+      
+    
+      
+      
+
+      
+      
+
+      
+    
+      
+      
+
+      
+      
+
+      
+    
+      
+      
+
+      
+      
+
+      
+        <script src="https://cdn.jsdelivr.net/npm/mathjax@3/es5/tex-chtml.js" integrity="" crossorigin="anonymous" async></script>
+      
+    
+      
+      
+
+      
+      
+
+      
+    
+      
+      
+
+      
+      
+
+      
+    
+  
+
+  
+  
+  
+  
+  
+  
+  <link rel="stylesheet" href="/css/wowchemy.00f70589ff95c2db8722b74912195f3f.css" />
+
+  
+  
+  
+
+  
+  
+  
+  
+  
+  
+  
+    
+    
+    <link rel="stylesheet" href="/css/libs/chroma/github-light.min.css" title="hl-light" media="print" onload="this.media='all'" >
+    <link rel="stylesheet" href="/css/libs/chroma/dracula.min.css" title="hl-dark" media="print" onload="this.media='all'" disabled>
+  
+
+  
+  
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+  
+  
+  
+
+
+
+
+
+
+  <meta name="author" content="Xiaotao Shen" />
+
+
+
+
+
+  
+
+<meta name="description" content="0.1 使用networkD3包构建桑吉图 0.1.1 基础桑吉图绘制 0.1.2 另外一个例子 0.1.3 使用ggalluvial包绘制桑吉图 本文翻译自“The graph gallery”网站,原帖文地址链接:https://www.r-graph-gallery.com/sankey-diagram.html
+桑吉图(sankey diagram)使用来研究同一个变量在其不同分类中的比例或者说是流动的.实体(或者说是节点,node)一般使用长方形或者文字来表示.箭头和弧线用来表示在他们之间的流动.
+0.1 使用networkD3包构建桑吉图 0.1.1 基础桑吉图绘制 可以使用两种格式的数据进行桑吉图绘制:
+connection data frame(一共三列),可以理解为长数据. 关联矩阵(incidence matrix),可以理解为宽数据. 0.1.1.1 使用connection data frame connection data frame至少需要两列,分别为source和target." />
+
+
+
+<link rel="alternate" hreflang="en-us" href="https://jaspershen.github.io/post/r-sankey/" />
+<link rel="canonical" href="https://jaspershen.github.io/post/r-sankey/" />
+
+
+
+  <link rel="manifest" href="/manifest.webmanifest" />
+
+
+
+<link rel="icon" type="image/png" href="/media/icon_hu805a85e690e4f2727bf7d5f685d888f7_86836_32x32_fill_lanczos_center_3.png" />
+<link rel="apple-touch-icon" type="image/png" href="/media/icon_hu805a85e690e4f2727bf7d5f685d888f7_86836_180x180_fill_lanczos_center_3.png" />
+
+<meta name="theme-color" content="#007C48" />
+
+
+
+
+
+
+
+
+
+
+  
+  
+
+
+
+
+
+
+<meta property="twitter:card" content="summary" />
+
+  <meta property="twitter:site" content="@wowchemy" />
+  <meta property="twitter:creator" content="@wowchemy" />
+<meta property="twitter:image" content="https://jaspershen.github.io/media/icon_hu805a85e690e4f2727bf7d5f685d888f7_86836_512x512_fill_lanczos_center_3.png" />
+<meta property="og:site_name" content="Xiaotao Shen" />
+<meta property="og:url" content="https://jaspershen.github.io/post/r-sankey/" />
+<meta property="og:title" content="R可视化之桑吉图 | Xiaotao Shen" />
+<meta property="og:description" content="0.1 使用networkD3包构建桑吉图 0.1.1 基础桑吉图绘制 0.1.2 另外一个例子 0.1.3 使用ggalluvial包绘制桑吉图 本文翻译自“The graph gallery”网站,原帖文地址链接:https://www.r-graph-gallery.com/sankey-diagram.html
+桑吉图(sankey diagram)使用来研究同一个变量在其不同分类中的比例或者说是流动的.实体(或者说是节点,node)一般使用长方形或者文字来表示.箭头和弧线用来表示在他们之间的流动.
+0.1 使用networkD3包构建桑吉图 0.1.1 基础桑吉图绘制 可以使用两种格式的数据进行桑吉图绘制:
+connection data frame(一共三列),可以理解为长数据. 关联矩阵(incidence matrix),可以理解为宽数据. 0.1.1.1 使用connection data frame connection data frame至少需要两列,分别为source和target." /><meta property="og:image" content="https://jaspershen.github.io/media/icon_hu805a85e690e4f2727bf7d5f685d888f7_86836_512x512_fill_lanczos_center_3.png" /><meta property="og:locale" content="en-us" />
+
+  
+    <meta
+      property="article:published_time"
+      content="2019-10-12T00:00:00&#43;00:00"
+    />
+  
+  
+    <meta property="article:modified_time" content="2019-10-12T00:00:00&#43;00:00">
+  
+
+
+
+
+
+
+    
+
+
+
+
+
+
+  
+
+
+
+
+<script type="application/ld+json">
+{
+  "@context": "https://schema.org",
+  "@type": "BlogPosting",
+  "mainEntityOfPage": {
+    "@type": "WebPage",
+    "@id": "https://jaspershen.github.io/post/r-sankey/"
+  },
+  "headline": "R可视化之桑吉图",
+  
+  "datePublished": "2019-10-12T00:00:00Z",
+  "dateModified": "2019-10-12T00:00:00Z",
+  
+  "author": {
+    "@type": "Person",
+    "name": "Xiaotao Shen"
+  },
+  
+  "publisher": {
+    "@type": "Organization",
+    "name": "Xiaotao Shen",
+    "logo": {
+      "@type": "ImageObject",
+      "url": "https://jaspershen.github.io/media/icon_hu805a85e690e4f2727bf7d5f685d888f7_86836_192x192_fill_lanczos_center_3.png"
+    }
+  },
+  "description": "0.1 使用networkD3包构建桑吉图 0.1.1 基础桑吉图绘制 0.1.2 另外一个例子 0.1.3 使用ggalluvial包绘制桑吉图 本文翻译自“The graph gallery”网站,原帖文地址链接:https://www.r-graph-gallery.com/sankey-diagram.html\n桑吉图(sankey diagram)使用来研究同一个变量在其不同分类中的比例或者说是流动的.实体(或者说是节点,node)一般使用长方形或者文字来表示.箭头和弧线用来表示在他们之间的流动.\n0.1 使用networkD3包构建桑吉图 0.1.1 基础桑吉图绘制 可以使用两种格式的数据进行桑吉图绘制:\nconnection data frame(一共三列),可以理解为长数据. 关联矩阵(incidence matrix),可以理解为宽数据. 0.1.1.1 使用connection data frame connection data frame至少需要两列,分别为source和target."
+}
+</script>
+
+  
+
+  
+
+
+
+
+  
+  
+  
+
+  
+  
+
+  
+
+
+  
+  <title>R可视化之桑吉图 | Xiaotao Shen</title>
+
+  
+  
+  
+  
+
+
+
+
+
+
+
+
+
+
+
+</head>
+
+
+<body id="top" data-spy="scroll" data-offset="70" data-target="#TableOfContents" class="page-wrapper   " data-wc-page-id="b7725103151feab4415bbebba7d35ca4" >
+
+  
+  
+  
+  
+  
+  
+  
+  
+  
+  <script src="/js/wowchemy-init.min.c51bb6301bb2be5edd35b3630c50ed3a.js"></script>
+
+  
+
+
+<aside class="search-modal" id="search">
+  <div class="container">
+    <section class="search-header">
+
+      <div class="row no-gutters justify-content-between mb-3">
+        <div class="col-6">
+          <h1>Search</h1>
+        </div>
+        <div class="col-6 col-search-close">
+          <a class="js-search" href="#" aria-label="Close"><i class="fas fa-times-circle text-muted" aria-hidden="true"></i></a>
+        </div>
+      </div>
+
+      <div id="search-box">
+        
+        <input name="q" id="search-query" placeholder="Search..." autocapitalize="off"
+        autocomplete="off" autocorrect="off" spellcheck="false" type="search" class="form-control"
+        aria-label="Search...">
+        
+      </div>
+
+      
+      
+
+      
+
+    </section>
+    <section class="section-search-results">
+
+      <div id="search-hits">
+        
+      </div>
+
+    </section>
+  </div>
+</aside>
+
+
+
+  <div class="page-header header--fixed">
+  
+  
+  
+  
+  
+
+
+
+
+
+
+
+
+
+
+
+
+<header>
+  <nav class="navbar navbar-expand-lg navbar-light compensate-for-scrollbar" id="navbar-main">
+    <div class="container-xl">
+
+      
+      <div class="d-none d-lg-inline-flex">
+        <a class="navbar-brand" href="/">Xiaotao Shen</a>
+      </div>
+      
+
+      
+      <button type="button" class="navbar-toggler" data-toggle="collapse"
+              data-target="#navbar-content" aria-controls="navbar-content" aria-expanded="false" aria-label="Toggle navigation">
+      <span><i class="fas fa-bars"></i></span>
+      </button>
+      
+
+      
+      <div class="navbar-brand-mobile-wrapper d-inline-flex d-lg-none">
+        <a class="navbar-brand" href="/">Xiaotao Shen</a>
+      </div>
+      
+
+      
+      
+      <div class="navbar-collapse main-menu-item collapse justify-content-start" id="navbar-content">
+
+        
+        <ul class="navbar-nav d-md-inline-flex">
+          
+
+          
+
+          
+          
+          
+            
+          
+
+          
+
+          
+          
+          
+          
+
+          
+            
+              
+              
+            
+            
+              
+              
+              
+                
+              
+              
+            
+          
+
+          <li class="nav-item">
+            <a class="nav-link " href="/#about"><span>🏠 About</span></a>
+          </li>
+
+          
+          
+
+          
+
+          
+          
+          
+            
+          
+
+          
+
+          
+          
+          
+          
+
+          
+            
+              
+              
+            
+            
+              
+              
+              
+                
+              
+              
+            
+          
+
+          <li class="nav-item">
+            <a class="nav-link " href="/#posts"><span>📖 Posts</span></a>
+          </li>
+
+          
+          
+
+          
+
+          
+          
+          
+            
+          
+
+          
+
+          
+          
+          
+          
+
+          
+            
+              
+              
+            
+            
+              
+              
+              
+                
+              
+              
+            
+          
+
+          <li class="nav-item">
+            <a class="nav-link " href="/#projects"><span>💻 Projects</span></a>
+          </li>
+
+          
+          
+
+          
+
+          
+          
+          
+            
+          
+
+          
+
+          
+          
+          
+          
+
+          
+            
+              
+              
+            
+            
+              
+              
+              
+                
+              
+              
+            
+          
+
+          <li class="nav-item">
+            <a class="nav-link " href="/#talks"><span>🗣️ Talks</span></a>
+          </li>
+
+          
+          
+
+          
+
+          
+          
+          
+            
+          
+
+          
+
+          
+          
+          
+          
+
+          
+            
+              
+              
+            
+            
+              
+              
+              
+                
+              
+              
+            
+          
+
+          <li class="nav-item">
+            <a class="nav-link " href="/#featured"><span>🗞️ Publications</span></a>
+          </li>
+
+          
+          
+
+          
+
+          
+          
+          
+            
+          
+
+          
+
+          
+          
+          
+          
+
+          
+            
+              
+              
+            
+            
+              
+              
+              
+                
+              
+              
+            
+          
+
+          <li class="nav-item">
+            <a class="nav-link " href="/#contact"><span>📥 Contact</span></a>
+          </li>
+
+          
+          
+
+        
+
+          
+        </ul>
+      </div>
+
+      <ul class="nav-icons navbar-nav flex-row ml-auto d-flex pl-md-2">
+
+        
+        
+          
+            
+            <li class="nav-item d-none d-lg-inline-flex">
+              <a class="nav-link" href="https://twitter.com/GeorgeCushen" target="_blank" rel="noopener" aria-label="github">
+                <i class="fab fa-github" aria-hidden="true"></i>
+              </a>
+            </li>
+          
+        
+
+        
+        
+        
+        <li class="nav-item">
+          <a class="nav-link js-search" href="#" aria-label="Search"><i class="fas fa-search" aria-hidden="true"></i></a>
+        </li>
+        
+
+        
+        
+        
+        <li class="nav-item dropdown theme-dropdown">
+          <a href="#" class="nav-link" data-toggle="dropdown" aria-haspopup="true" aria-label="Display preferences">
+            <i class="fas fa-moon" aria-hidden="true"></i>
+          </a>
+          <div class="dropdown-menu">
+            <a href="#" class="dropdown-item js-set-theme-light">
+              <span>Light</span>
+            </a>
+            <a href="#" class="dropdown-item js-set-theme-dark">
+              <span>Dark</span>
+            </a>
+            <a href="#" class="dropdown-item js-set-theme-auto">
+              <span>Automatic</span>
+            </a>
+          </div>
+        </li>
+        
+
+        
+        
+
+      </ul>
+
+    </div>
+  </nav>
+</header>
+
+
+  </div>
+
+  <div class="page-body">
+    
+    
+    
+
+    <article class="article">
+
+  
+
+
+
+
+
+
+
+
+
+
+
+
+
+  
+
+  
+  
+  
+<div class="article-container pt-3">
+  <h1>R可视化之桑吉图</h1>
+
+  
+
+  
+    
+
+
+<div class="article-metadata">
+
+  
+  
+
+  
+  <span class="article-date">
+    
+    
+      
+    
+    Oct 12, 2019
+  </span>
+  
+
+  
+
+  
+  <span class="middot-divider"></span>
+  <span class="article-reading-time">
+    3 min read
+  </span>
+  
+
+  
+  
+  
+  
+
+  
+  
+  <span class="middot-divider"></span>
+  <span class="article-categories">
+    <i class="fas fa-folder mr-1"></i><a href="/category/r/">R</a></span>
+  
+
+</div>
+
+    
+
+
+
+
+
+  
+</div>
+
+
+
+  <div class="article-container">
+
+    <div class="article-style">
+      
+<script src="index_files/header-attrs/header-attrs.js"></script>
+<script src="index_files/htmlwidgets/htmlwidgets.js"></script>
+<script src="index_files/d3/d3.min.js"></script>
+<script src="index_files/sankey/sankey.js"></script>
+<script src="index_files/sankeyNetwork-binding/sankeyNetwork.js"></script>
+
+<div id="TOC">
+<ul>
+<li><a href="#使用networkd3包构建桑吉图"><span class="toc-section-number">0.1</span> 使用<code>networkD3</code>包构建桑吉图</a>
+<ul>
+<li><a href="#基础桑吉图绘制"><span class="toc-section-number">0.1.1</span> 基础桑吉图绘制</a></li>
+<li><a href="#另外一个例子"><span class="toc-section-number">0.1.2</span> 另外一个例子</a></li>
+<li><a href="#使用ggalluvial包绘制桑吉图"><span class="toc-section-number">0.1.3</span> 使用<code>ggalluvial</code>包绘制桑吉图</a></li>
+</ul></li>
+</ul>
+</div>
+
+<blockquote>
+<p>本文翻译自“The graph gallery”网站,原帖文地址链接:<a href="https://www.r-graph-gallery.com/sankey-diagram.html" class="uri">https://www.r-graph-gallery.com/sankey-diagram.html</a></p>
+</blockquote>
+<p>桑吉图(sankey diagram)使用来研究同一个变量在其不同分类中的比例或者说是流动的.实体(或者说是节点,node)一般使用长方形或者文字来表示.箭头和弧线用来表示在他们之间的流动.</p>
+<div id="使用networkd3包构建桑吉图" class="section level2" number="0.1">
+<h2><span class="header-section-number">0.1</span> 使用<code>networkD3</code>包构建桑吉图</h2>
+<div id="基础桑吉图绘制" class="section level3" number="0.1.1">
+<h3><span class="header-section-number">0.1.1</span> 基础桑吉图绘制</h3>
+<p>可以使用两种格式的数据进行桑吉图绘制:</p>
+<ul>
+<li>connection data frame(一共三列),可以理解为长数据.</li>
+<li>关联矩阵(incidence matrix),可以理解为宽数据.</li>
+</ul>
+<div id="使用connection-data-frame" class="section level4" number="0.1.1.1">
+<h4><span class="header-section-number">0.1.1.1</span> 使用connection data frame</h4>
+<p>connection data frame至少需要两列,分别为source和target.第三列可以用来说明该connection的数值.</p>
+<pre class="r"><code>library(networkD3)
+library(tidyverse)</code></pre>
+<pre><code>## ── Attaching packages ─────────────────────────────────────── tidyverse 1.3.0 ──</code></pre>
+<pre><code>## ✓ ggplot2 3.3.3     ✓ purrr   0.3.4
+## ✓ tibble  3.1.0     ✓ dplyr   1.0.4
+## ✓ tidyr   1.1.3     ✓ stringr 1.4.0
+## ✓ readr   1.4.0     ✓ forcats 0.5.0</code></pre>
+<pre><code>## ── Conflicts ────────────────────────────────────────── tidyverse_conflicts() ──
+## x dplyr::filter() masks stats::filter()
+## x dplyr::lag()    masks stats::lag()</code></pre>
+<pre class="r"><code>links &lt;- data.frame(
+  source = c(&quot;group_A&quot;,&quot;group_A&quot;, &quot;group_B&quot;, &quot;group_C&quot;, &quot;group_C&quot;, &quot;group_E&quot;), 
+  target = c(&quot;group_C&quot;,&quot;group_D&quot;, &quot;group_E&quot;, &quot;group_F&quot;, &quot;group_G&quot;, &quot;group_H&quot;), 
+  value = c(2,3, 2, 3, 1, 3)
+  )
+head(links)</code></pre>
+<pre><code>##    source  target value
+## 1 group_A group_C     2
+## 2 group_A group_D     3
+## 3 group_B group_E     2
+## 4 group_C group_F     3
+## 5 group_C group_G     1
+## 6 group_E group_H     3</code></pre>
+<pre class="r"><code>##构建connection data frame中所有nodes的data frame
+nodes &lt;- data.frame(
+  name = c(as.character(links$source), 
+  as.character(links$target)) %&gt;% unique()
+)
+
+#然后我们需要将每个node的名字代替为其在node data frame中的位置index,注意是要从哦开始计算.
+links$IDsource &lt;- match(links$source, nodes$name) - 1 
+links$IDtarget &lt;- match(links$target, nodes$name) - 1
+
+#开始创建桑吉图
+p &lt;- networkD3::sankeyNetwork(
+  Links = links,
+  Nodes = nodes,
+  Source = &quot;IDsource&quot;,
+  Target = &quot;IDtarget&quot;,
+  Value = &quot;value&quot;,
+  NodeID = &quot;name&quot;,
+  sinksRight = FALSE
+)
+p</code></pre>
+<div id="htmlwidget-1" style="width:672px;height:480px;" class="sankeyNetwork html-widget"></div>
+<script type="application/json" data-for="htmlwidget-1">{"x":{"links":{"source":[0,0,1,2,2,3],"target":[2,4,3,5,6,7],"value":[2,3,2,3,1,3]},"nodes":{"name":["group_A","group_B","group_C","group_E","group_D","group_F","group_G","group_H"],"group":["group_A","group_B","group_C","group_E","group_D","group_F","group_G","group_H"]},"options":{"NodeID":"name","NodeGroup":"name","LinkGroup":null,"colourScale":"d3.scaleOrdinal(d3.schemeCategory20);","fontSize":7,"fontFamily":null,"nodeWidth":15,"nodePadding":10,"units":"","margin":{"top":null,"right":null,"bottom":null,"left":null},"iterations":32,"sinksRight":false}},"evals":[],"jsHooks":[]}</script>
+<p>图片时交互性的.</p>
+</div>
+<div id="使用关联矩阵" class="section level4" number="0.1.1.2">
+<h4><span class="header-section-number">0.1.1.2</span> 使用关联矩阵</h4>
+<p>关联矩阵时正方形或者长方形的.行名和列名分别为node的名称.每一个cell代表着两个node之间flow的数值.但是因为在<code>network3D</code>中,只能使用长数据,因此其实就是将宽数据转换为长数据.</p>
+</div>
+</div>
+<div id="另外一个例子" class="section level3" number="0.1.2">
+<h3><span class="header-section-number">0.1.2</span> 另外一个例子</h3>
+<p>我们使用桑吉图来展示科学家的移民或者说是流动情况.左边代表科学家的移出国,右边代表科学家的移进国.数据来自scientific publication(<a href="https://onlinelibrary.wiley.com/doi/abs/10.1111/imre.12327" class="uri">https://onlinelibrary.wiley.com/doi/abs/10.1111/imre.12327</a>).</p>
+<pre class="r"><code>#加载包
+library(tidyverse)
+library(networkD3)
+
+# 读取数据
+data &lt;- 
+  read.table(&quot;https://raw.githubusercontent.com/holtzy/data_to_viz/master/Example_dataset/13_AdjacencyDirectedWeighted.csv&quot;, header = TRUE)
+
+# 讲数据转换为长数据
+data_long &lt;- data %&gt;%
+  rownames_to_column(var = &quot;name&quot;) %&gt;%
+  pivot_longer(cols = -name, names_to = &quot;key&quot;, values_to = &quot;value&quot;) %&gt;% 
+  filter(value &gt; 0) %&gt;% 
+  as.data.frame()
+
+colnames(data_long) &lt;- 
+  c(&quot;source&quot;, &quot;target&quot;, &quot;value&quot;)
+
+data_long$target &lt;- 
+  paste(data_long$target, &quot; &quot;, sep = &quot;&quot;)
+
+# 创建node data frame
+nodes &lt;- 
+  data.frame(name = c(as.character(data_long$source),  
+                      as.character(data_long$target)) %&gt;% unique()
+             ) %&gt;% 
+  arrange(name) %&gt;% 
+  as.data.frame()
+ 
+data_long$IDsource = match(data_long$source, nodes$name) - 1 
+data_long$IDtarget = match(data_long$target, nodes$name) - 1
+
+# prepare colour scale
+ColourScal &lt;- &#39;d3.scaleOrdinal() .range([&quot;#FDE725FF&quot;,&quot;#B4DE2CFF&quot;,&quot;#6DCD59FF&quot;,&quot;#35B779FF&quot;,&quot;#1F9E89FF&quot;,
+&quot;#26828EFF&quot;,&quot;#31688EFF&quot;,&quot;#3E4A89FF&quot;,&quot;#482878FF&quot;,&quot;#440154FF&quot;])&#39;
+
+# Make the Network
+sankeyNetwork(
+  Links = data_long,
+  Nodes = nodes,
+  Source = &quot;IDsource&quot;,
+  Target = &quot;IDtarget&quot;,
+  Value = &quot;value&quot;,
+  NodeID = &quot;name&quot;,
+  sinksRight = FALSE,
+  colourScale = ColourScal,
+  nodeWidth = 40,
+  fontSize = 13,
+  nodePadding = 20
+)</code></pre>
+<div id="htmlwidget-2" style="width:672px;height:480px;" class="sankeyNetwork html-widget"></div>
+<script type="application/json" data-for="htmlwidget-2">{"x":{"links":{"source":[0,0,0,0,0,2,2,2,2,2,2,4,6,6,6,8,8,10,10,12,12,12,12,12,12,13,13,13,13,13,16,16,18,18,18],"target":[1,5,9,11,19,3,5,9,11,15,19,5,5,7,9,5,7,5,11,3,5,9,11,14,19,3,5,9,11,15,5,17,5,9,19],"value":[3.142471,2.107883,0.540887,0.155988,0.673004,1.630997,0.601265,0.97306,0.333608,0.380388,0.869311,2.401476,1.762587,0.879198,3.627847,1.215929,0.276908,0.17037,0.190706,0.525881,1.390272,1.508008,0.34742,1.307907,4.902081,0.145264,0.468762,1.057904,0.278746,0.781316,0.60923,1.870501,0.449623,0.169274,0.927243]},"nodes":{"name":["Africa","Africa ","East Asia","East.Asia ","Europe","Europe ","Latin America","Latin.America ","North America","North.America ","Oceania","Oceania ","South Asia","South East Asia","South.Asia ","South.East.Asia ","Soviet Union","Soviet.Union ","West Asia","West.Asia "],"group":["Africa","Africa ","East Asia","East.Asia ","Europe","Europe ","Latin America","Latin.America ","North America","North.America ","Oceania","Oceania ","South Asia","South East Asia","South.Asia ","South.East.Asia ","Soviet Union","Soviet.Union ","West Asia","West.Asia "]},"options":{"NodeID":"name","NodeGroup":"name","LinkGroup":null,"colourScale":"d3.scaleOrdinal() .range([\"#FDE725FF\",\"#B4DE2CFF\",\"#6DCD59FF\",\"#35B779FF\",\"#1F9E89FF\",\n\"#26828EFF\",\"#31688EFF\",\"#3E4A89FF\",\"#482878FF\",\"#440154FF\"])","fontSize":13,"fontFamily":null,"nodeWidth":40,"nodePadding":20,"units":"","margin":{"top":null,"right":null,"bottom":null,"left":null},"iterations":32,"sinksRight":false}},"evals":[],"jsHooks":[]}</script>
+</div>
+<div id="使用ggalluvial包绘制桑吉图" class="section level3" number="0.1.3">
+<h3><span class="header-section-number">0.1.3</span> 使用<code>ggalluvial</code>包绘制桑吉图</h3>
+<p><code>ggalluvial</code>包是<code>ggplot2</code>的一个扩展包.可以用来绘制桑吉图.</p>
+<pre class="r"><code>##加载包
+library(ggalluvial)
+## 使用示例数据
+data(vaccinations)
+head(vaccinations)</code></pre>
+<pre><code>##      survey freq subject response start_date   end_date
+## 1 ms153_NSA   48       1   Always 2010-09-22 2010-10-25
+## 2 ms153_NSA    9       2   Always 2010-09-22 2010-10-25
+## 3 ms153_NSA   66       3   Always 2010-09-22 2010-10-25
+## 4 ms153_NSA    1       4   Always 2010-09-22 2010-10-25
+## 5 ms153_NSA   11       5   Always 2010-09-22 2010-10-25
+## 6 ms153_NSA    1       6   Always 2010-09-22 2010-10-25</code></pre>
+<pre class="r"><code>levels(vaccinations$response) &lt;- rev(levels(vaccinations$response))
+ggplot(vaccinations,
+       aes(x = survey, 
+           y = freq,
+           stratum = response, 
+           alluvium = subject,
+           fill = response, 
+           label = response)) +
+  scale_x_discrete(expand = c(.1, .1)) +
+  ggalluvial::geom_flow() +
+  labs(x = &quot;&quot;, y = &quot;&quot;) +
+  ggalluvial::geom_stratum(alpha = .5) +
+  geom_text(stat = &quot;stratum&quot;, size = 3) +
+  theme_bw() +
+  theme(legend.position = &quot;none&quot;, 
+        plot.background = element_blank(), 
+        panel.border = element_blank(), 
+        panel.grid = element_blank(), 
+        axis.ticks = element_blank(), 
+        axis.text.y = element_blank()) +
+  ggtitle(&quot;vaccination survey responses at three points in time&quot;)</code></pre>
+<pre><code>## Warning: The `.dots` argument of `group_by()` is deprecated as of dplyr 1.0.0.</code></pre>
+<p><img src="index_files/figure-html/unnamed-chunk-3-1.png" width="672" /></p>
+<p>我们在对该包做一个详细的讲解.</p>
+<div id="冲积图alluvial-diagrams的结构" class="section level4" number="0.1.3.1">
+<h4><span class="header-section-number">0.1.3.1</span> 冲积图(Alluvial diagrams)的结构</h4>
+<p>使用<code>ggalluvial</code>包绘制的图称之为冲积图(Alluvial diagrams).我们以上面的例子图为例,来进行解释.</p>
+<ul>
+<li><p>X轴代表着数据流动的分类.比如上图中,一共有三类,也就是ms153_NSA,ms432_NSA和ms460_NSA.</p></li>
+<li><p>而X轴的每一类又会分为不同的分组,称之为地层(strata).在我们这个例子中,每一类都分成了四组,Missing,Never,Sometimes和Always.</p></li>
+<li><p>然后我们再看每一列,每一列的每一个分组都会被图形分割,这称之为冲积(alluvia).在这个例子中,每个冲积的宽度(也就是在Y轴上range)代表着分类的该组分到下一个分类某个分组的数据的多少.当然,冲积的颜色用来代表不同的分类.</p></li>
+<li><p>两个相邻的分类之间的连接的冲积称之为flow.</p></li>
+</ul>
+<p>我们对这个图的结构进行详细的理解之后,我们在来看如何使用<code>galluvial</code>包绘制冲积图.</p>
+</div>
+<div id="所需要的数据类型" class="section level4" number="0.1.3.2">
+<h4><span class="header-section-number">0.1.3.2</span> 所需要的数据类型</h4>
+<p>跟<code>network3D</code>包一样,<code>ggalluvial</code>包也可以使用宽数据和长数据.我们使用<code>UCBAdmissions</code>数据为例进行说明.</p>
+<div id="宽数据" class="section level5" number="0.1.3.2.1">
+<h5><span class="header-section-number">0.1.3.2.1</span> 宽数据</h5>
+<p><code>UCBAdmissions</code>数据一共有4列.</p>
+</div>
+</div>
+</div>
+</div>
+
+    </div>
+
+    
+
+
+
+
+
+<div class="article-tags">
+  
+  <a class="badge badge-light" href="/tag/blog/">Blog</a>
+  
+  <a class="badge badge-light" href="/tag/academic/">Academic</a>
+  
+</div>
+
+
+
+<div class="share-box">
+  <ul class="share">
+    
+      
+      
+      
+        
+      
+      
+      
+      
+      
+      
+      
+      <li>
+        <a href="https://twitter.com/intent/tweet?url=https%3A%2F%2Fjaspershen.github.io%2Fpost%2Fr-sankey%2F&amp;text=R%E5%8F%AF%E8%A7%86%E5%8C%96%E4%B9%8B%E6%A1%91%E5%90%89%E5%9B%BE" target="_blank" rel="noopener" class="share-btn-twitter" aria-label="twitter">
+          <i class="fab fa-twitter"></i>
+        </a>
+      </li>
+    
+      
+      
+      
+        
+      
+      
+      
+      
+      
+      
+      
+      <li>
+        <a href="https://www.facebook.com/sharer.php?u=https%3A%2F%2Fjaspershen.github.io%2Fpost%2Fr-sankey%2F&amp;t=R%E5%8F%AF%E8%A7%86%E5%8C%96%E4%B9%8B%E6%A1%91%E5%90%89%E5%9B%BE" target="_blank" rel="noopener" class="share-btn-facebook" aria-label="facebook">
+          <i class="fab fa-facebook"></i>
+        </a>
+      </li>
+    
+      
+      
+      
+        
+      
+      
+      
+      
+      
+      
+      
+        
+      
+      <li>
+        <a href="mailto:?subject=R%E5%8F%AF%E8%A7%86%E5%8C%96%E4%B9%8B%E6%A1%91%E5%90%89%E5%9B%BE&amp;body=https%3A%2F%2Fjaspershen.github.io%2Fpost%2Fr-sankey%2F" target="_blank" rel="noopener" class="share-btn-email" aria-label="envelope">
+          <i class="fas fa-envelope"></i>
+        </a>
+      </li>
+    
+      
+      
+      
+        
+      
+      
+      
+      
+      
+      
+      
+      <li>
+        <a href="https://www.linkedin.com/shareArticle?url=https%3A%2F%2Fjaspershen.github.io%2Fpost%2Fr-sankey%2F&amp;title=R%E5%8F%AF%E8%A7%86%E5%8C%96%E4%B9%8B%E6%A1%91%E5%90%89%E5%9B%BE" target="_blank" rel="noopener" class="share-btn-linkedin" aria-label="linkedin-in">
+          <i class="fab fa-linkedin-in"></i>
+        </a>
+      </li>
+    
+      
+      
+      
+        
+      
+      
+      
+      
+      
+      
+      
+      <li>
+        <a href="whatsapp://send?text=R%E5%8F%AF%E8%A7%86%E5%8C%96%E4%B9%8B%E6%A1%91%E5%90%89%E5%9B%BE%20https%3A%2F%2Fjaspershen.github.io%2Fpost%2Fr-sankey%2F" target="_blank" rel="noopener" class="share-btn-whatsapp" aria-label="whatsapp">
+          <i class="fab fa-whatsapp"></i>
+        </a>
+      </li>
+    
+      
+      
+      
+        
+      
+      
+      
+      
+      
+      
+      
+      <li>
+        <a href="https://service.weibo.com/share/share.php?url=https%3A%2F%2Fjaspershen.github.io%2Fpost%2Fr-sankey%2F&amp;title=R%E5%8F%AF%E8%A7%86%E5%8C%96%E4%B9%8B%E6%A1%91%E5%90%89%E5%9B%BE" target="_blank" rel="noopener" class="share-btn-weibo" aria-label="weibo">
+          <i class="fab fa-weibo"></i>
+        </a>
+      </li>
+    
+  </ul>
+</div>
+
+
+
+
+
+
+
+
+
+
+
+  
+  
+
+
+
+  
+  
+  
+    
+  
+  
+  
+  <div class="media author-card content-widget-hr">
+    
+      
+      <a href="https://jaspershen.github.io/"><img class="avatar mr-3 avatar-circle" src="/authors/admin/avatar_hu86242519a21313948ac7dc77e0a27da6_1568301_270x270_fill_q75_lanczos_center.jpg" alt="Xiaotao Shen"></a>
+    
+
+    <div class="media-body">
+      <h5 class="card-title"><a href="https://jaspershen.github.io/">Xiaotao Shen</a></h5>
+      <h6 class="card-subtitle">Postdoctoral Research Fellow</h6>
+      <p class="card-text">Metabolomics, Multi-omics, Bioinformatics, Systems Biology.</p>
+      <ul class="network-icon" aria-hidden="true">
+  
+    
+    
+    
+      
+    
+    
+    
+    
+    
+      
+    
+    <li>
+      <a href="/#contact" >
+        <i class="fas fa-envelope"></i>
+      </a>
+    </li>
+  
+    
+    
+    
+      
+    
+    
+    
+    
+    
+      
+    
+    <li>
+      <a href="https://twitter.com/GeorgeCushen" target="_blank" rel="noopener">
+        <i class="fab fa-github"></i>
+      </a>
+    </li>
+  
+    
+    
+    
+      
+    
+    
+    
+    
+    
+      
+    
+    <li>
+      <a href="https://scholar.google.co.uk/citations?user=sIwtMXoAAAAJ" target="_blank" rel="noopener">
+        <i class="fas fa-graduation-cap"></i>
+      </a>
+    </li>
+  
+    
+    
+    
+      
+    
+    
+    
+    
+    
+      
+    
+    <li>
+      <a href="https://github.com/gcushen" target="_blank" rel="noopener">
+        <i class="fab fa-twitter"></i>
+      </a>
+    </li>
+  
+    
+    
+    
+      
+    
+    
+    
+    
+    
+      
+    
+    <li>
+      <a href="https://www.linkedin.com/" target="_blank" rel="noopener">
+        <i class="fab fa-linkedin"></i>
+      </a>
+    </li>
+  
+    
+    
+    
+    
+    
+    
+    
+      
+    
+    <li>
+      <a href="/uploads/resume.pdf" >
+        <i class="ai ai-cv"></i>
+      </a>
+    </li>
+  
+</ul>
+
+    </div>
+  </div>
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+  </div>
+</article>
+  </div>
+
+  <div class="page-footer">
+    
+    
+    <div class="container">
+      <footer class="site-footer">
+
+  
+
+
+
+
+
+
+
+
+
+
+
+
+  
+  
+  
+  
+  
+
+
+
+
+
+
+
+
+
+
+
+
+
+  
+  
+  
+
+  
+  
+    
+  
+  
+    
+  
+
+  
+
+  
+  <p class="powered-by copyright-license-text">
+    © 2023 Xiaotao Shen
+  </p>
+  
+
+  <p class="powered-by footer-license-icons">
+    <a href="https://creativecommons.org/licenses/by-nc-nd/4.0" rel="noopener noreferrer" target="_blank" aria-label="Creative Commons">
+      <i class="fab fa-creative-commons fa-2x" aria-hidden="true"></i>
+      <i class="fab fa-creative-commons-by fa-2x" aria-hidden="true"></i>
+      
+        <i class="fab fa-creative-commons-nc fa-2x" aria-hidden="true"></i>
+      
+      
+        <i class="fab fa-creative-commons-nd fa-2x" aria-hidden="true"></i>
+      
+    </a>
+  </p>
+
+
+
+
+
+  <p class="powered-by">
+    
+    
+    
+      
+      
+      
+      
+      
+      
+      Published with <a href="https://wowchemy.com/?utm_campaign=poweredby" target="_blank" rel="noopener">Wowchemy</a> — the free, <a href="https://github.com/wowchemy/wowchemy-hugo-themes" target="_blank" rel="noopener">open source</a> website builder that empowers creators.
+    
+  </p>
+</footer>
+
+    </div>
+    
+  </div>
+
+  
+
+
+<script src="/js/vendor-bundle.min.f64289d8217e08e3afcd597d60836062.js"></script>
+
+
+
+
+  
+
+  
+  
+
+  
+
+
+
+
+
+
+
+
+
+
+
+
+
+  
+  <script id="search-hit-fuse-template" type="text/x-template">
+    <div class="search-hit" id="summary-{{key}}">
+      <div class="search-hit-content">
+        <div class="search-hit-name">
+          <a href="{{relpermalink}}">{{title}}</a>
+          <div class="article-metadata search-hit-type">{{type}}</div>
+          <p class="search-hit-description">{{snippet}}</p>
+        </div>
+      </div>
+    </div>
+  </script>
+  
+    <script src="https://cdn.jsdelivr.net/gh/krisk/Fuse@v3.2.1/dist/fuse.min.js" integrity="sha512-o38bmzBGX+hD3JHWUFCDA09btWaqrNmoJ3RXLlrysA7PP01Kgs4UlE4MhelE1v5dJR3+cxlR4qQlotsW7jKsnw==" crossorigin="anonymous"></script>
+    <script src="https://cdn.jsdelivr.net/gh/julmot/mark.js@8.11.1/dist/jquery.mark.min.js" integrity="sha512-mhbv5DqBMgrWL+32MmsDOt/OAvqr/cHimk6B8y/bx/xS88MVkYGPiVv2ixKVrkywF2qHplNRUvFsAHUdxZ3Krg==" crossorigin="anonymous"></script>
+  
+
+
+
+
+
+
+
+
+
+
+
+
+  
+  
+  
+  
+  
+  
+  
+
+
+
+
+
+
+
+<script id="page-data" type="application/json">{"use_headroom":true}</script>
+
+
+
+  <script src="/js/wowchemy-headroom.db4755770454eb63685f8de785c0a172.js" type="module"></script>
+
+
+
+
+
+
+
+
+
+  
+  
+
+
+<script src="/en/js/wowchemy.min.ead4a376bcf2c4714888c770ea9b0040.js"></script>
+
+
+
+
+
+
+
+  
+<div id="modal" class="modal fade" role="dialog">
+  <div class="modal-dialog">
+    <div class="modal-content">
+      <div class="modal-header">
+        <h5 class="modal-title">Cite</h5>
+        <button type="button" class="close" data-dismiss="modal" aria-label="Close">
+          <span aria-hidden="true">&times;</span>
+        </button>
+      </div>
+      <div class="modal-body">
+        
+        <pre><code></code></pre>
+      </div>
+      <div class="modal-footer">
+        <a class="btn btn-outline-primary my-1 js-copy-cite" href="#" target="_blank">
+          <i class="fas fa-copy"></i> Copy
+        </a>
+        <a class="btn btn-outline-primary my-1 js-download-cite" href="#" target="_blank">
+          <i class="fas fa-download"></i> Download
+        </a>
+        <div id="modal-error"></div>
+      </div>
+    </div>
+  </div>
+</div>
+
+
+  <script src="/js/wowchemy-publication.68f8d7090562ca65fc6d3cb3f8f2d2cb.js" type="module"></script>
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+</body>
+</html>

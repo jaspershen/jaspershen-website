@@ -1,0 +1,1555 @@
+<!DOCTYPE html>
+<!-- This site was created with Wowchemy. https://www.wowchemy.com -->
+<!-- Last Published: August 10, 2023 --><html lang="en-us" >
+
+
+<head>
+  <meta charset="utf-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1" />
+  <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+  
+  
+  
+    <meta name="generator" content="Wowchemy 5.7.0 for Hugo" />
+  
+
+  
+  
+
+
+
+
+
+
+
+
+
+
+
+
+  
+  
+
+
+
+
+
+
+
+
+
+
+  
+
+
+
+
+
+
+
+  
+  
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+  
+
+  
+  
+  
+    
+      
+      <link rel="preload" as="style" href="https://fonts.googleapis.com/css2?family=Bruno+Ace&family=Limelight&family=Poppins:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,100;1,200;1,300;1,400;1,500;1,600;1,700;1,800;1,900&display=swap">
+      <link rel="stylesheet" href="https://fonts.googleapis.com/css2?family=Bruno+Ace&family=Limelight&family=Poppins:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,100;1,200;1,300;1,400;1,500;1,600;1,700;1,800;1,900&display=swap" media="print" onload="this.media='all'">
+    
+  
+
+  
+  
+
+  
+  
+    
+    <script src="/js/mathjax-config.js"></script>
+  
+
+  
+
+  <link rel="stylesheet" href="/css/vendor-bundle.min.047268c6dd09ad74ba54a0ba71837064.css" media="print" onload="this.media='all'">
+
+  
+  
+  
+    
+    
+      <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/academicons@1.9.2/css/academicons.min.css" integrity="sha512-KlJCpRsLf+KKu2VQa5vmRuClRFjxc5lXO03ixZt82HZUk41+1I0bD8KBSA0fY290ayMfWYI9udIqeOWSu1/uZg==" crossorigin="anonymous" media="print" onload="this.media='all'">
+    
+
+    
+    
+    
+    
+      
+      
+    
+    
+    
+
+    
+    
+    
+
+    
+
+    
+    
+      
+      
+
+      
+      
+
+      
+    
+      
+      
+
+      
+      
+
+      
+    
+      
+      
+
+      
+      
+
+      
+    
+      
+      
+
+      
+      
+
+      
+    
+      
+      
+
+      
+      
+
+      
+    
+      
+      
+
+      
+      
+
+      
+    
+      
+      
+
+      
+      
+
+      
+    
+      
+      
+
+      
+      
+
+      
+    
+      
+      
+
+      
+      
+
+      
+    
+      
+      
+
+      
+      
+
+      
+    
+      
+      
+
+      
+      
+
+      
+        <script src="https://cdn.jsdelivr.net/npm/mathjax@3/es5/tex-chtml.js" integrity="" crossorigin="anonymous" async></script>
+      
+    
+      
+      
+
+      
+      
+
+      
+    
+      
+      
+
+      
+      
+
+      
+    
+  
+
+  
+  
+  
+  
+  
+  
+  <link rel="stylesheet" href="/css/wowchemy.00f70589ff95c2db8722b74912195f3f.css" />
+
+  
+  
+  
+
+  
+  
+  
+  
+  
+  
+  
+    
+    
+    <link rel="stylesheet" href="/css/libs/chroma/github-light.min.css" title="hl-light" media="print" onload="this.media='all'" >
+    <link rel="stylesheet" href="/css/libs/chroma/dracula.min.css" title="hl-dark" media="print" onload="this.media='all'" disabled>
+  
+
+  
+  
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+  
+  
+  
+
+
+
+
+
+
+  <meta name="author" content="Xiaotao Shen" />
+
+
+
+
+
+  
+
+<meta name="description" content="0.1 Introduction 0.2 Installation and help 0.3 Data cleaning 0.4 Statistical analysis 0.1 Introduction MetCleaning provides an integrated and automatic pipeline for data cleaning and statistical analysis of large scale mass spectrometry (MS) based-metabolomic data." />
+
+
+
+<link rel="alternate" hreflang="en-us" href="https://jaspershen.github.io/post/2016-11-25-metcleaning/" />
+<link rel="canonical" href="https://jaspershen.github.io/post/2016-11-25-metcleaning/" />
+
+
+
+  <link rel="manifest" href="/manifest.webmanifest" />
+
+
+
+<link rel="icon" type="image/png" href="/media/icon_hu805a85e690e4f2727bf7d5f685d888f7_86836_32x32_fill_lanczos_center_3.png" />
+<link rel="apple-touch-icon" type="image/png" href="/media/icon_hu805a85e690e4f2727bf7d5f685d888f7_86836_180x180_fill_lanczos_center_3.png" />
+
+<meta name="theme-color" content="#007C48" />
+
+
+
+
+
+
+
+
+
+
+  
+  
+
+
+
+
+
+
+<meta property="twitter:card" content="summary" />
+
+  <meta property="twitter:site" content="@wowchemy" />
+  <meta property="twitter:creator" content="@wowchemy" />
+<meta property="twitter:image" content="https://jaspershen.github.io/media/icon_hu805a85e690e4f2727bf7d5f685d888f7_86836_512x512_fill_lanczos_center_3.png" />
+<meta property="og:site_name" content="Xiaotao Shen" />
+<meta property="og:url" content="https://jaspershen.github.io/post/2016-11-25-metcleaning/" />
+<meta property="og:title" content="MetCleaning instruction | Xiaotao Shen" />
+<meta property="og:description" content="0.1 Introduction 0.2 Installation and help 0.3 Data cleaning 0.4 Statistical analysis 0.1 Introduction MetCleaning provides an integrated and automatic pipeline for data cleaning and statistical analysis of large scale mass spectrometry (MS) based-metabolomic data." /><meta property="og:image" content="https://jaspershen.github.io/media/icon_hu805a85e690e4f2727bf7d5f685d888f7_86836_512x512_fill_lanczos_center_3.png" /><meta property="og:locale" content="en-us" />
+
+  
+    <meta
+      property="article:published_time"
+      content="2016-11-25T00:00:00&#43;00:00"
+    />
+  
+  
+    <meta property="article:modified_time" content="2016-11-25T00:00:00&#43;00:00">
+  
+
+
+
+
+
+
+    
+
+
+
+
+
+
+  
+
+
+
+
+<script type="application/ld+json">
+{
+  "@context": "https://schema.org",
+  "@type": "BlogPosting",
+  "mainEntityOfPage": {
+    "@type": "WebPage",
+    "@id": "https://jaspershen.github.io/post/2016-11-25-metcleaning/"
+  },
+  "headline": "MetCleaning instruction",
+  
+  "datePublished": "2016-11-25T00:00:00Z",
+  "dateModified": "2016-11-25T00:00:00Z",
+  
+  "author": {
+    "@type": "Person",
+    "name": "Xiaotao Shen"
+  },
+  
+  "publisher": {
+    "@type": "Organization",
+    "name": "Xiaotao Shen",
+    "logo": {
+      "@type": "ImageObject",
+      "url": "https://jaspershen.github.io/media/icon_hu805a85e690e4f2727bf7d5f685d888f7_86836_192x192_fill_lanczos_center_3.png"
+    }
+  },
+  "description": "0.1 Introduction 0.2 Installation and help 0.3 Data cleaning 0.4 Statistical analysis 0.1 Introduction MetCleaning provides an integrated and automatic pipeline for data cleaning and statistical analysis of large scale mass spectrometry (MS) based-metabolomic data."
+}
+</script>
+
+  
+
+  
+
+
+
+
+  
+  
+  
+
+  
+  
+
+  
+
+
+  
+  <title>MetCleaning instruction | Xiaotao Shen</title>
+
+  
+  
+  
+  
+
+
+
+
+
+
+
+
+
+
+
+</head>
+
+
+<body id="top" data-spy="scroll" data-offset="70" data-target="#TableOfContents" class="page-wrapper   " data-wc-page-id="6f25c2b530e256aff29fcd552d255c0e" >
+
+  
+  
+  
+  
+  
+  
+  
+  
+  
+  <script src="/js/wowchemy-init.min.c51bb6301bb2be5edd35b3630c50ed3a.js"></script>
+
+  
+
+
+<aside class="search-modal" id="search">
+  <div class="container">
+    <section class="search-header">
+
+      <div class="row no-gutters justify-content-between mb-3">
+        <div class="col-6">
+          <h1>Search</h1>
+        </div>
+        <div class="col-6 col-search-close">
+          <a class="js-search" href="#" aria-label="Close"><i class="fas fa-times-circle text-muted" aria-hidden="true"></i></a>
+        </div>
+      </div>
+
+      <div id="search-box">
+        
+        <input name="q" id="search-query" placeholder="Search..." autocapitalize="off"
+        autocomplete="off" autocorrect="off" spellcheck="false" type="search" class="form-control"
+        aria-label="Search...">
+        
+      </div>
+
+      
+      
+
+      
+
+    </section>
+    <section class="section-search-results">
+
+      <div id="search-hits">
+        
+      </div>
+
+    </section>
+  </div>
+</aside>
+
+
+
+  <div class="page-header header--fixed">
+  
+  
+  
+  
+  
+
+
+
+
+
+
+
+
+
+
+
+
+<header>
+  <nav class="navbar navbar-expand-lg navbar-light compensate-for-scrollbar" id="navbar-main">
+    <div class="container-xl">
+
+      
+      <div class="d-none d-lg-inline-flex">
+        <a class="navbar-brand" href="/">Xiaotao Shen</a>
+      </div>
+      
+
+      
+      <button type="button" class="navbar-toggler" data-toggle="collapse"
+              data-target="#navbar-content" aria-controls="navbar-content" aria-expanded="false" aria-label="Toggle navigation">
+      <span><i class="fas fa-bars"></i></span>
+      </button>
+      
+
+      
+      <div class="navbar-brand-mobile-wrapper d-inline-flex d-lg-none">
+        <a class="navbar-brand" href="/">Xiaotao Shen</a>
+      </div>
+      
+
+      
+      
+      <div class="navbar-collapse main-menu-item collapse justify-content-start" id="navbar-content">
+
+        
+        <ul class="navbar-nav d-md-inline-flex">
+          
+
+          
+
+          
+          
+          
+            
+          
+
+          
+
+          
+          
+          
+          
+
+          
+            
+              
+              
+            
+            
+              
+              
+              
+                
+              
+              
+            
+          
+
+          <li class="nav-item">
+            <a class="nav-link " href="/#about"><span>🏠 About</span></a>
+          </li>
+
+          
+          
+
+          
+
+          
+          
+          
+            
+          
+
+          
+
+          
+          
+          
+          
+
+          
+            
+              
+              
+            
+            
+              
+              
+              
+                
+              
+              
+            
+          
+
+          <li class="nav-item">
+            <a class="nav-link " href="/#posts"><span>📖 Posts</span></a>
+          </li>
+
+          
+          
+
+          
+
+          
+          
+          
+            
+          
+
+          
+
+          
+          
+          
+          
+
+          
+            
+              
+              
+            
+            
+              
+              
+              
+                
+              
+              
+            
+          
+
+          <li class="nav-item">
+            <a class="nav-link " href="/#projects"><span>💻 Projects</span></a>
+          </li>
+
+          
+          
+
+          
+
+          
+          
+          
+            
+          
+
+          
+
+          
+          
+          
+          
+
+          
+            
+              
+              
+            
+            
+              
+              
+              
+                
+              
+              
+            
+          
+
+          <li class="nav-item">
+            <a class="nav-link " href="/#talks"><span>🗣️ Talks</span></a>
+          </li>
+
+          
+          
+
+          
+
+          
+          
+          
+            
+          
+
+          
+
+          
+          
+          
+          
+
+          
+            
+              
+              
+            
+            
+              
+              
+              
+                
+              
+              
+            
+          
+
+          <li class="nav-item">
+            <a class="nav-link " href="/#featured"><span>🗞️ Publications</span></a>
+          </li>
+
+          
+          
+
+          
+
+          
+          
+          
+            
+          
+
+          
+
+          
+          
+          
+          
+
+          
+            
+              
+              
+            
+            
+              
+              
+              
+                
+              
+              
+            
+          
+
+          <li class="nav-item">
+            <a class="nav-link " href="/#contact"><span>📥 Contact</span></a>
+          </li>
+
+          
+          
+
+        
+
+          
+        </ul>
+      </div>
+
+      <ul class="nav-icons navbar-nav flex-row ml-auto d-flex pl-md-2">
+
+        
+        
+          
+            
+            <li class="nav-item d-none d-lg-inline-flex">
+              <a class="nav-link" href="https://twitter.com/GeorgeCushen" target="_blank" rel="noopener" aria-label="github">
+                <i class="fab fa-github" aria-hidden="true"></i>
+              </a>
+            </li>
+          
+        
+
+        
+        
+        
+        <li class="nav-item">
+          <a class="nav-link js-search" href="#" aria-label="Search"><i class="fas fa-search" aria-hidden="true"></i></a>
+        </li>
+        
+
+        
+        
+        
+        <li class="nav-item dropdown theme-dropdown">
+          <a href="#" class="nav-link" data-toggle="dropdown" aria-haspopup="true" aria-label="Display preferences">
+            <i class="fas fa-moon" aria-hidden="true"></i>
+          </a>
+          <div class="dropdown-menu">
+            <a href="#" class="dropdown-item js-set-theme-light">
+              <span>Light</span>
+            </a>
+            <a href="#" class="dropdown-item js-set-theme-dark">
+              <span>Dark</span>
+            </a>
+            <a href="#" class="dropdown-item js-set-theme-auto">
+              <span>Automatic</span>
+            </a>
+          </div>
+        </li>
+        
+
+        
+        
+
+      </ul>
+
+    </div>
+  </nav>
+</header>
+
+
+  </div>
+
+  <div class="page-body">
+    
+    
+    
+
+    <article class="article">
+
+  
+
+
+
+
+
+
+
+
+
+
+
+
+
+  
+
+  
+  
+  
+<div class="article-container pt-3">
+  <h1>MetCleaning instruction</h1>
+
+  
+
+  
+    
+
+
+<div class="article-metadata">
+
+  
+  
+
+  
+  <span class="article-date">
+    
+    
+      
+    
+    Nov 25, 2016
+  </span>
+  
+
+  
+
+  
+  <span class="middot-divider"></span>
+  <span class="article-reading-time">
+    5 min read
+  </span>
+  
+
+  
+  
+  
+  
+
+  
+  
+  <span class="middot-divider"></span>
+  <span class="article-categories">
+    <i class="fas fa-folder mr-1"></i><a href="/category/metabolomics/">Metabolomics</a></span>
+  
+
+</div>
+
+    
+
+
+
+
+
+  
+</div>
+
+
+
+  <div class="article-container">
+
+    <div class="article-style">
+      
+<script src="index_files/header-attrs/header-attrs.js"></script>
+
+<div id="TOC">
+<ul>
+<li><a href="#introduction"><span class="toc-section-number">0.1</span> <strong>Introduction</strong></a></li>
+<li><a href="#installation-and-help"><span class="toc-section-number">0.2</span> <strong>Installation and help</strong></a></li>
+<li><a href="#data-cleaning"><span class="toc-section-number">0.3</span> <strong>Data cleaning</strong></a></li>
+<li><a href="#statistical-analysis"><span class="toc-section-number">0.4</span> <strong>Statistical analysis</strong></a></li>
+</ul>
+</div>
+
+<div id="introduction" class="section level2" number="0.1">
+<h2><span class="header-section-number">0.1</span> <strong>Introduction</strong></h2>
+<hr />
+<p><em>MetCleaning</em> provides an integrated and automatic pipeline for data cleaning and statistical analysis of large scale mass spectrometry (MS) based-metabolomic data. It includes missing value (MV) filtering and imputation, zero value filtering, data normalization, data integration, data quality assessment, univariate statistical analysis, multivariate statistical analysis such as PCA and PLS-DA, potential marker selection and show. This document describes how to use the integrated functions, <em>MetClean</em> and <em>MetStat</em> in <em>MetCleaning</em> utilizing demo data.</p>
+<div class="figure">
+<img src="/images/metcleaning/workflow%20for%20instruction.jpg" alt="" />
+<p class="caption">Figure1 Workflow of <em>MetCleaning</em></p>
+</div>
+</div>
+<div id="installation-and-help" class="section level2" number="0.2">
+<h2><span class="header-section-number">0.2</span> <strong>Installation and help</strong></h2>
+<hr />
+<p><em>MetCleaning</em> is published in github <a href="https://github.com/jaspershen/MetCleaning">(link)</a>. So you can install it via to github.</p>
+<p>code 1: Installation of <em>MetCleaning</em></p>
+<pre><code>##pcaMethods and impute should be installed form bioconductor
+##pcaMethos
+source(&quot;http://bioconductor.org/biocLite.R&quot;)
+    biocLite(&quot;pcaMethods&quot;)
+##impute
+source(&quot;http://bioconductor.org/biocLite.R&quot;)
+    biocLite(&quot;impute&quot;)
+ if(!require(devtools)) {
+  install.packages(&quot;devtools&quot;)
+ }
+ library(devtools)
+ install_github(&quot;jaspershen/MetCleaning&quot;)
+ library(MetCleaning)
+ help(package = &quot;MetCleaning&quot;)</code></pre>
+</div>
+<div id="data-cleaning" class="section level2" number="0.3">
+<h2><span class="header-section-number">0.3</span> <strong>Data cleaning</strong></h2>
+<hr />
+<p>Data cleaning is integrated as a function named as <em>MetClean</em> in <em>MetCleaning</em>. We use the demo data as the example. Copy the code below and paste in you R console.</p>
+<p>code 2: Demo data of <em>MetClean</em></p>
+<pre><code>##demo data
+data(data, package = &quot;MetCleaning&quot;)
+data(sample.information, package = &quot;MetCleaning&quot;)
+##demo work directory
+dir.create(&quot;Demo for MetCleaning&quot;)
+setwd(&quot;Demo for MetCleaning&quot;)
+##write files
+write.csv(data, &quot;data.csv&quot;, row.names = FALSE)
+write.csv(sample.information , &quot;sample.information.csv&quot;, row.names = FALSE)</code></pre>
+<p>The demo data have been added in your work directory and organized in you work directory as Figure 2 shows. It contains two files, “data.csv” and “sample.information.csv”.
+1. “data.csv” is the metabolomic dataset you want to process. Rows are features and columns are feature abundance of samples and information of features. The information of features must contain “name” (feature name), “mz” (mass to change ratio) and “rt” (retention time). Other information of features are optional, for example “isotopes” and “adducts”. The name of sample can contain “.”, but cannot contain “-” and space. And the start of sample name cannot be number. <strong>For example, “A210.a” and “A210a” are valid, and “210a” or “210-a” are invalid.</strong>
+2. “sample.information.csv” is sample information for metabolomic dataset. Column 1 is “sample.name” which is the names of subject and QC samples. Please confirm that the sample names in “sample.information.csv” and “data.csv” are completely same. Column 2 is “injection.order” which is the injection order of QC and subject samples. Column 3 is “class”, which is used to distinguish “QC” and “Subject” samples. Column 4 is “batch” to provide acquisition batch information for samples. Column 5 is “group”, which is used to label the group of subject sample, for example, “control” and “case”. The “group” of QC samples is labeled as “QC”.</p>
+<div class="figure">
+<img src="/images/metcleaning/data%20organisation.jpg" alt="" />
+<p class="caption">Figure2 Data organisation of MetCleaning</p>
+</div>
+<p>Then you can run <em>MetClean</em> function to do data cleaning of data. All the arguments of <em>MetClean</em> can be found in the other functions in <em>MetCleaning</em>. You can use <em>help(package = “MetCleaning”)</em> to see the help page of <em>MetCleaning</em>.</p>
+<p>code 3: Running of <em>MetClean</em></p>
+<pre><code>##demo data
+MetClean(polarity = &quot;positive&quot;)</code></pre>
+<p>Running results of <em>MetClean</em>
+1.Missing or zero values filtering. In the missing or zero value filtering step, if there are samples which beyond the threshold you set, you should decide to filter them or not. We recommend to remove all of them as Figure 3 shows.</p>
+<div class="figure">
+<img src="/images/metcleaning/mv%20filter.jpg" alt="" />
+<p class="caption">Figure3 Missing or zero value filtering</p>
+</div>
+<p>2.Sample filtering. In the QC or subject sample filtering step (based on PCA), if there are samples which beyond the threshold you set, you should decide to filter them or not. We don’t recommend to remove them as Figure 4 shows, because they should be consired combined other information.</p>
+<div class="figure">
+<img src="/images/metcleaning/sample%20filter.jpg" alt="" />
+<p class="caption">Figure4 Sample filtering</p>
+</div>
+<p>3.Output files. Output files of <em>MetClean</em> are listed as Figure 5 shows.
+(1) “1MV overview”, “2MV filter”, “3Zero overview” and “4Zero filter” are missing and zero values filtering information.
+(2) “5QC outlier filter” and “6Subject outlier filter” are sample filtering based on PCA information.
+(3) “7Normalization result” is the data normalization information for each batch.
+(4) “8Batch effect” is the batch effect both in before and after data cleaning.
+(5) “9metabolite plot” is the scatter plot for each feature.
+(6) “10Data overview” is the overview of data.
+(7) “11RSD overview” is the RSD distribution for each batch both before and after data cleaning.
+(8) <strong>“data_after_pre.csv”, “qc.info.csv” and “subject.info”</strong> are the data and sample information after data cleaning.
+(9) “intermediate” is the intermediate data during processing.</p>
+<div class="figure">
+<img src="/images/metcleaning/output%20files%20of%20MetClean.jpg" alt="" />
+<p class="caption">Figure5 Output files of <em>MetClean</em></p>
+</div>
+</div>
+<div id="statistical-analysis" class="section level2" number="0.4">
+<h2><span class="header-section-number">0.4</span> <strong>Statistical analysis</strong></h2>
+<hr />
+<p>Data statistical analysis is integrated as a function named as <em>MetStat</em> in <em>MetCleaning</em>. We use the demo data as the example. <strong>Please note that now <em>MetStat</em> can only process two class data.</strong> Copy the code below and paste in you R console.</p>
+<p>code 4: Demo data of <em>MetStat</em></p>
+<pre><code>data(&quot;met.data.after.pre&quot;, package = &quot;MetCleaning&quot;)
+data(new.group, package = &quot;MetCleaning&quot;)
+##create a folder for MetStat demo
+dir.create(&quot;Demo for MetStat&quot;)
+setwd(&quot;Demo for MetStat&quot;)
+## export the demo data as csv
+write.csv(new.group, &quot;new.group.csv&quot;, row.names = FALSE)</code></pre>
+<p>The demo data have been added in your work directory. “new.group.csv” is a sample.information which has been changed the group information you want to use for statistical analysis. For the sample which you don’t want to use them for statistical analysis, you can set they group information as NA like Figure 6 shows.</p>
+<div class="figure">
+<img src="/images/metcleaning/new.group.jpg" alt="" />
+<p class="caption">Figure6 new group information</p>
+</div>
+<p>code 5: Running of <em>MetStat</em></p>
+<pre><code>MetStat(MetFlowData = met.data.after.pre, new.group = TRUE)</code></pre>
+<p>Running results of <em>MetStat</em>
+1.Sample removing. Firstly, you need to confirm the samples which you want to remove form dataset as Figure 7 shows.</p>
+<div class="figure">
+<img src="/images/metcleaning/sample%20remove.jpg" alt="" />
+<p class="caption">Figure7 sample removing confirmation</p>
+</div>
+<p>2.Number of component selection in PLS-DA analysis. In PLS-DA analysis, you should manually select the best choice of the number of component. When the Console show “How many comps do you want to see?”, you can type 10 and enter “Enter” key. Then a MSE plot is showing, and the best number of component is the one has the smallest CV values. So type the number (in this example is 4) and enter “Enter” key.</p>
+<div class="figure">
+<img src="/images/metcleaning/PLS%20analysis.jpg" alt="" />
+<p class="caption">Figure8 Number of component selection in PLS-DA analysis</p>
+</div>
+<p>3.Output files. Output files of <em>MetStat</em> are listed as Figure 9 shows.
+(1) “12PCA analysis” is the PCA score plot.
+(2) “13PLS analysis” contains the PLS-DA results.
+(3) “14heatmap” is the heatmap.
+(4) “15marker selection” contains the information of markers, volcano plot and boxplots of markers.
+(5) <strong>“data_after_stat.csv”, “qc.info.csv” and “subject.info”</strong> are the data and sample information after statistical analysis.
+(6) “intermediate” is the intermediate data during processing.</p>
+<div class="figure">
+<img src="/images/metcleaning/output%20files%20of%20MetStat.jpg" alt="" />
+<p class="caption">Figure9 Output files of <em>MetStat</em></p>
+</div>
+</div>
+
+    </div>
+
+    
+
+
+
+
+
+<div class="article-tags">
+  
+  <a class="badge badge-light" href="/tag/blog/">Blog</a>
+  
+  <a class="badge badge-light" href="/tag/chinese/">Chinese</a>
+  
+</div>
+
+
+
+<div class="share-box">
+  <ul class="share">
+    
+      
+      
+      
+        
+      
+      
+      
+      
+      
+      
+      
+      <li>
+        <a href="https://twitter.com/intent/tweet?url=https%3A%2F%2Fjaspershen.github.io%2Fpost%2F2016-11-25-metcleaning%2F&amp;text=MetCleaning&#43;instruction" target="_blank" rel="noopener" class="share-btn-twitter" aria-label="twitter">
+          <i class="fab fa-twitter"></i>
+        </a>
+      </li>
+    
+      
+      
+      
+        
+      
+      
+      
+      
+      
+      
+      
+      <li>
+        <a href="https://www.facebook.com/sharer.php?u=https%3A%2F%2Fjaspershen.github.io%2Fpost%2F2016-11-25-metcleaning%2F&amp;t=MetCleaning&#43;instruction" target="_blank" rel="noopener" class="share-btn-facebook" aria-label="facebook">
+          <i class="fab fa-facebook"></i>
+        </a>
+      </li>
+    
+      
+      
+      
+        
+      
+      
+      
+      
+      
+      
+      
+        
+      
+      <li>
+        <a href="mailto:?subject=MetCleaning%20instruction&amp;body=https%3A%2F%2Fjaspershen.github.io%2Fpost%2F2016-11-25-metcleaning%2F" target="_blank" rel="noopener" class="share-btn-email" aria-label="envelope">
+          <i class="fas fa-envelope"></i>
+        </a>
+      </li>
+    
+      
+      
+      
+        
+      
+      
+      
+      
+      
+      
+      
+      <li>
+        <a href="https://www.linkedin.com/shareArticle?url=https%3A%2F%2Fjaspershen.github.io%2Fpost%2F2016-11-25-metcleaning%2F&amp;title=MetCleaning&#43;instruction" target="_blank" rel="noopener" class="share-btn-linkedin" aria-label="linkedin-in">
+          <i class="fab fa-linkedin-in"></i>
+        </a>
+      </li>
+    
+      
+      
+      
+        
+      
+      
+      
+      
+      
+      
+      
+      <li>
+        <a href="whatsapp://send?text=MetCleaning&#43;instruction%20https%3A%2F%2Fjaspershen.github.io%2Fpost%2F2016-11-25-metcleaning%2F" target="_blank" rel="noopener" class="share-btn-whatsapp" aria-label="whatsapp">
+          <i class="fab fa-whatsapp"></i>
+        </a>
+      </li>
+    
+      
+      
+      
+        
+      
+      
+      
+      
+      
+      
+      
+      <li>
+        <a href="https://service.weibo.com/share/share.php?url=https%3A%2F%2Fjaspershen.github.io%2Fpost%2F2016-11-25-metcleaning%2F&amp;title=MetCleaning&#43;instruction" target="_blank" rel="noopener" class="share-btn-weibo" aria-label="weibo">
+          <i class="fab fa-weibo"></i>
+        </a>
+      </li>
+    
+  </ul>
+</div>
+
+
+
+
+
+
+
+
+
+
+
+  
+  
+
+
+
+  
+  
+  
+    
+  
+  
+  
+  <div class="media author-card content-widget-hr">
+    
+      
+      <a href="https://jaspershen.github.io/"><img class="avatar mr-3 avatar-circle" src="/authors/admin/avatar_hu86242519a21313948ac7dc77e0a27da6_1568301_270x270_fill_q75_lanczos_center.jpg" alt="Xiaotao Shen"></a>
+    
+
+    <div class="media-body">
+      <h5 class="card-title"><a href="https://jaspershen.github.io/">Xiaotao Shen</a></h5>
+      <h6 class="card-subtitle">Postdoctoral Research Fellow</h6>
+      <p class="card-text">Metabolomics, Multi-omics, Bioinformatics, Systems Biology.</p>
+      <ul class="network-icon" aria-hidden="true">
+  
+    
+    
+    
+      
+    
+    
+    
+    
+    
+      
+    
+    <li>
+      <a href="/#contact" >
+        <i class="fas fa-envelope"></i>
+      </a>
+    </li>
+  
+    
+    
+    
+      
+    
+    
+    
+    
+    
+      
+    
+    <li>
+      <a href="https://twitter.com/GeorgeCushen" target="_blank" rel="noopener">
+        <i class="fab fa-github"></i>
+      </a>
+    </li>
+  
+    
+    
+    
+      
+    
+    
+    
+    
+    
+      
+    
+    <li>
+      <a href="https://scholar.google.co.uk/citations?user=sIwtMXoAAAAJ" target="_blank" rel="noopener">
+        <i class="fas fa-graduation-cap"></i>
+      </a>
+    </li>
+  
+    
+    
+    
+      
+    
+    
+    
+    
+    
+      
+    
+    <li>
+      <a href="https://github.com/gcushen" target="_blank" rel="noopener">
+        <i class="fab fa-twitter"></i>
+      </a>
+    </li>
+  
+    
+    
+    
+      
+    
+    
+    
+    
+    
+      
+    
+    <li>
+      <a href="https://www.linkedin.com/" target="_blank" rel="noopener">
+        <i class="fab fa-linkedin"></i>
+      </a>
+    </li>
+  
+    
+    
+    
+    
+    
+    
+    
+      
+    
+    <li>
+      <a href="/uploads/resume.pdf" >
+        <i class="ai ai-cv"></i>
+      </a>
+    </li>
+  
+</ul>
+
+    </div>
+  </div>
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+  </div>
+</article>
+  </div>
+
+  <div class="page-footer">
+    
+    
+    <div class="container">
+      <footer class="site-footer">
+
+  
+
+
+
+
+
+
+
+
+
+
+
+
+  
+  
+  
+  
+  
+
+
+
+
+
+
+
+
+
+
+
+
+
+  
+  
+  
+
+  
+  
+    
+  
+  
+    
+  
+
+  
+
+  
+  <p class="powered-by copyright-license-text">
+    © 2023 Xiaotao Shen
+  </p>
+  
+
+  <p class="powered-by footer-license-icons">
+    <a href="https://creativecommons.org/licenses/by-nc-nd/4.0" rel="noopener noreferrer" target="_blank" aria-label="Creative Commons">
+      <i class="fab fa-creative-commons fa-2x" aria-hidden="true"></i>
+      <i class="fab fa-creative-commons-by fa-2x" aria-hidden="true"></i>
+      
+        <i class="fab fa-creative-commons-nc fa-2x" aria-hidden="true"></i>
+      
+      
+        <i class="fab fa-creative-commons-nd fa-2x" aria-hidden="true"></i>
+      
+    </a>
+  </p>
+
+
+
+
+
+  <p class="powered-by">
+    
+    
+    
+      
+      
+      
+      
+      
+      
+      Published with <a href="https://wowchemy.com/?utm_campaign=poweredby" target="_blank" rel="noopener">Wowchemy</a> — the free, <a href="https://github.com/wowchemy/wowchemy-hugo-themes" target="_blank" rel="noopener">open source</a> website builder that empowers creators.
+    
+  </p>
+</footer>
+
+    </div>
+    
+  </div>
+
+  
+
+
+<script src="/js/vendor-bundle.min.f64289d8217e08e3afcd597d60836062.js"></script>
+
+
+
+
+  
+
+  
+  
+
+  
+
+
+
+
+
+
+
+
+
+
+
+
+
+  
+  <script id="search-hit-fuse-template" type="text/x-template">
+    <div class="search-hit" id="summary-{{key}}">
+      <div class="search-hit-content">
+        <div class="search-hit-name">
+          <a href="{{relpermalink}}">{{title}}</a>
+          <div class="article-metadata search-hit-type">{{type}}</div>
+          <p class="search-hit-description">{{snippet}}</p>
+        </div>
+      </div>
+    </div>
+  </script>
+  
+    <script src="https://cdn.jsdelivr.net/gh/krisk/Fuse@v3.2.1/dist/fuse.min.js" integrity="sha512-o38bmzBGX+hD3JHWUFCDA09btWaqrNmoJ3RXLlrysA7PP01Kgs4UlE4MhelE1v5dJR3+cxlR4qQlotsW7jKsnw==" crossorigin="anonymous"></script>
+    <script src="https://cdn.jsdelivr.net/gh/julmot/mark.js@8.11.1/dist/jquery.mark.min.js" integrity="sha512-mhbv5DqBMgrWL+32MmsDOt/OAvqr/cHimk6B8y/bx/xS88MVkYGPiVv2ixKVrkywF2qHplNRUvFsAHUdxZ3Krg==" crossorigin="anonymous"></script>
+  
+
+
+
+
+
+
+
+
+
+
+
+
+  
+  
+  
+  
+  
+  
+  
+
+
+
+
+
+
+
+<script id="page-data" type="application/json">{"use_headroom":true}</script>
+
+
+
+  <script src="/js/wowchemy-headroom.db4755770454eb63685f8de785c0a172.js" type="module"></script>
+
+
+
+
+
+
+
+
+
+  
+  
+
+
+<script src="/en/js/wowchemy.min.ead4a376bcf2c4714888c770ea9b0040.js"></script>
+
+
+
+
+
+
+
+  
+<div id="modal" class="modal fade" role="dialog">
+  <div class="modal-dialog">
+    <div class="modal-content">
+      <div class="modal-header">
+        <h5 class="modal-title">Cite</h5>
+        <button type="button" class="close" data-dismiss="modal" aria-label="Close">
+          <span aria-hidden="true">&times;</span>
+        </button>
+      </div>
+      <div class="modal-body">
+        
+        <pre><code></code></pre>
+      </div>
+      <div class="modal-footer">
+        <a class="btn btn-outline-primary my-1 js-copy-cite" href="#" target="_blank">
+          <i class="fas fa-copy"></i> Copy
+        </a>
+        <a class="btn btn-outline-primary my-1 js-download-cite" href="#" target="_blank">
+          <i class="fas fa-download"></i> Download
+        </a>
+        <div id="modal-error"></div>
+      </div>
+    </div>
+  </div>
+</div>
+
+
+  <script src="/js/wowchemy-publication.68f8d7090562ca65fc6d3cb3f8f2d2cb.js" type="module"></script>
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+</body>
+</html>
