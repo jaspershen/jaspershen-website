@@ -256,9 +256,9 @@ sections:
       - project
     title: 💻 Projects
   design:
-    columns: "1"
+    columns: "2"
     flip_alt_rows: false
-    view: showcase
+    view: compact
   id: projects
   
 # - block: markdown
