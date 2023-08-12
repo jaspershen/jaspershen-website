@@ -45,7 +45,7 @@ header:
 
 footer:
   copyright:
-    notice: '© {year} Xiaotao Shen'
+    notice: '© {year} Me. This work is licensed under {license}'
     license:
       enable: true
       allow_derivatives: false
@@ -66,7 +66,7 @@ features:
     theme_light: github-light
     theme_dark: dracula
   math:
-    enable: true
+    enable: false
   privacy_pack:
     enable: false
   repository:
@@ -105,7 +105,7 @@ features:
 extensions:
   cms:
     branch: main
-    local_backend: true
+    local_backend: false
   academicons:
     enable: true
 

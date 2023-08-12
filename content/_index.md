@@ -84,18 +84,18 @@ sections:
         text: 👫 Chuchu Wang's blog
         url: "http://wangcc.sxl.cn/"
       title: ☕️ Record My life ☕️
-      
   design:
     interval: 5000
     is_fullscreen: true
     loop: true
     slide_height: ""
-      
+
 - block: about.biography
   content:
-    title: 👤 About me
+    title: Biography
     username: admin
   id: about
+  
 # - block: features
 #   content:
 #     items:
@@ -103,24 +103,16 @@ sections:
 #       icon: r-project
 #       icon_pack: fab
 #       name: R
-#     - description: 50%
+#     - description: 100%
 #       icon: chart-line
 #       icon_pack: fas
 #       name: Statistics
-#     - description: 80%
-#       icon: github
-#       icon_pack: fab
-#       name: GitHub
-#     - description: 50%
-#       icon: python
-#       icon_pack: fab
-#       name: Python
-#     - description: 80%
-#       icon: linux
-#       icon_pack: fab
-#       name: Linux
+#     - description: 10%
+#       icon: camera-retro
+#       icon_pack: fas
+#       name: Photography
 #     title: Skills
-
+    
 - block: experience
   id: experience
   content:
@@ -189,43 +181,40 @@ sections:
     title: 🧑‍🎓 Experience
   design:
     columns: "2"
+    
+- block: accomplishments
+  content:
+    date_format: Jan 2006
+    items:
+    - certificate_url: https://www.coursera.org
+      date_end: ""
+      date_start: "2021-01-25"
+      description: ""
+      organization: Coursera
+      organization_url: https://www.coursera.org
+      title: Neural Networks and Deep Learning
+      url: ""
+    - certificate_url: https://www.edx.org
+      date_end: ""
+      date_start: "2021-01-01"
+      description: Formulated informed blockchain models, hypotheses, and use cases.
+      organization: edX
+      organization_url: https://www.edx.org
+      title: Blockchain Fundamentals
+      url: https://www.edx.org/professional-certificate/uc-berkeleyx-blockchain-fundamentals
+    - certificate_url: https://www.datacamp.com
+      date_end: "2020-12-21"
+      date_start: "2020-07-01"
+      description: ""
+      organization: DataCamp
+      organization_url: https://www.datacamp.com
+      title: Object-Oriented Programming in R
+      url: ""
+    subtitle: null
+    title: Accomplish&shy;ments
+  design:
+    columns: "2"
 
-# - block: accomplishments
-#   content:
-#     date_format: Jan 2006
-#     items:
-#     - certificate_url: uploads/file/Young_investigator_award.pdf
-#       date_end: ""
-#       date_start: "2023-08-25"
-#       description: ""
-#       organization: CASMS
-#       organization_url: https://casms.org/
-#       title: Young Investigator Award 2023
-#       url: ""
-#       
-#     - certificate_url: ""
-#       date_end: ""
-#       date_start: "2023-05-01"
-#       description: 
-#       organization: Stanford
-#       organization_url: https://med.stanford.edu/sporr
-#       title: SPORR 2023 Rigor and Reproducibility Awards
-#       url: https://med.stanford.edu/sporr
-#       
-#     - certificate_url: https://www.datacamp.com
-#       date_end: "2020-12-21"
-#       date_start: "2020-07-01"
-#       description: ""
-#       organization: Stanford
-#       organization_url: https://www.isglobal.org/-/exposome-data-analysis-challenge
-#       title: Winner Selected by the Event Committee
-#       url: ""
-#       
-#     subtitle: null
-#     title: 🏅 Awards
-#   design:
-#     columns: "2"
-  
 - block: collection
   content:
     count: 5
@@ -238,7 +227,7 @@ sections:
     columns: "2"
     view: card
   id: publication
-
+    
 - block: portfolio
   content:
     buttons:
@@ -260,30 +249,7 @@ sections:
     flip_alt_rows: false
     view: compact
   id: projects
-  
-# - block: markdown
-#   content:
-#     subtitle: ""
-#     text: '{{< gallery album="demo" >}}'
-#     title: Gallery
-#   design:
-#     columns: "1"
-  
-# - block: collection
-#   content:
-#     filters:
-#       exclude_featured: true
-#       folders:
-#       - publication
-#     text: |-
-#       {{% callout note %}}
-#       Quickly discover relevant content by [filtering publications](./publication/).
-#       {{% /callout %}}
-#     title: Recent Publications
-#   design:
-#     columns: "2"
-#     view: citation
-    
+
 - block: collection
   content:
     filters:
@@ -318,6 +284,46 @@ sections:
     view: compact
   id: posts
   
+- block: markdown
+  content:
+    subtitle: ""
+    text: '{{< gallery album="demo" >}}'
+    title: Gallery
+  design:
+    columns: "1"
+    
+# - block: collection
+#   content:
+#     filters:
+#       featured_only: true
+#       folders:
+#       - publication
+#     title: Featured Publications
+#   design:
+#     columns: "2"
+#     view: card
+#   id: featured
+  
+- block: collection
+  content:
+    filters:
+      exclude_featured: true
+      folders:
+      - publication
+    text: |-
+      {{% callout note %}}
+      Quickly discover relevant content by [filtering publications](./publication/).
+      {{% /callout %}}
+    title: Recent Publications
+  design:
+    columns: "2"
+    view: citation
+    
+- block: tag_cloud
+  content:
+    title: Popular Topics
+  design:
+    columns: "2"
 - block: contact
   content:
     address:
@@ -357,17 +363,10 @@ sections:
     subtitle: null
     text: Lorem ipsum dolor sit amet, consectetur adipiscing elit. Nam mi diam, venenatis
       ut magna et, vehicula efficitur enim.
-    title: 📥 Contact
+    title: Contact
   design:
     columns: "2"
   id: contact
-
-- block: tag_cloud
-  content:
-    title: 
-  design:
-    columns: "1"
-  
 title: null
 type: landing
 ---
