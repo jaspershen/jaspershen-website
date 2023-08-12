@@ -23,3 +23,5 @@ url_pdf: ""
 url_slides: ""
 url_video: ""
 ---
+
+The Stanford Chinese Postdoc Association is a vibrant community of the Chinese postdocs, across all disciplines, at Stanford University. Our mission is to create and hold a space of all Chinese postdocs, and help them in study, work and life as much as we can. We welcome all the Chinese postdocs join us!

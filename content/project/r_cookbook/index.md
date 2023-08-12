@@ -23,3 +23,5 @@ url_pdf: ""
 url_slides: ""
 url_video: ""
 ---
+
+This is myself note book for R study. 

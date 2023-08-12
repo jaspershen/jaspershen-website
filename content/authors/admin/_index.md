@@ -46,7 +46,7 @@ social:
   link: https://www.linkedin.com/in/shenxt/
 - icon: weixin
   icon_pack: fab
-  link: https://www.jaspershen.github.io/image/wechat_QR.jpg
+  link: https://jaspershen.github.io/image/wechat_QR.jpg
 - icon: cv
   icon_pack: ai
   link: file/XiaotaoShen_CV.pdf
