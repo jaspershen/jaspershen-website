@@ -68,7 +68,7 @@ sections:
         icon_pack: fas
         text: Check my publications here
         url: "https://scholar.google.co.uk/citations?hl=en&user=3TK9yz8AAAAJ"
-      title: Research interest
+      title: 🧬 Research interest
     - align: center
       background:
         color: '#555'
@@ -79,9 +79,9 @@ sections:
         position: center
       content: 😄Life with my family😄
       link:
-        # icon: graduation-cap
-        # icon_pack: fas
-        text: 👫 Chuchu Wang's blog
+        icon: link
+        icon_pack: fas
+        text: Chuchu Wang's blog
         url: "http://wangcc.sxl.cn/"
       title: ☕️ Record My life ☕️
   design:
@@ -89,10 +89,9 @@ sections:
     is_fullscreen: true
     loop: true
     slide_height: ""
-
 - block: about.biography
   content:
-    title: Biography
+    title: 👤 About me
     username: admin
   id: about
   
