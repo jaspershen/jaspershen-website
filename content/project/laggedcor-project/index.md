@@ -1,0 +1,27 @@
+---
+date: "2020-01-20T00:00:00Z"
+external_link: "https://jaspershen.github.io/laggedcor/"
+image:
+  caption: Photo by rawpixel on Unsplash
+  focal_point: Smart
+links:
+- icon: house
+  icon_pack: fas
+  name: 
+  url: https://jaspershen.github.io/laggedcor/
+- icon: github
+  icon_pack: fab
+  name: 
+  url: https://github.com/jaspershen/laggedcor
+slides:
+summary:
+tags:
+- Multi-omics
+title: laggedCor
+url_code: ""
+url_pdf: ""
+url_slides: ""
+url_video: ""
+---
+
+`TidyMass` project is a comprehensive computational framework that can process the whole workflow of data processing and analysis for LC-MS-based untargeted metabolomics using tidyverse principles.

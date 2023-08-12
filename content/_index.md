@@ -93,7 +93,7 @@ sections:
       
 - block: about.biography
   content:
-    title: About me
+    title: 👤 About me
     username: admin
   id: about
 # - block: features
@@ -120,6 +120,7 @@ sections:
 #       icon_pack: fab
 #       name: Linux
 #     title: Skills
+
 - block: experience
   id: experience
   content:
@@ -185,41 +186,45 @@ sections:
       location: Hohhot, Inner Mongolia, China 🇨🇳
       title: B.S.
       
-    title: Experience
+    title: 🧑‍🎓 Experience
   design:
     columns: "2"
-- block: accomplishments
-  content:
-    date_format: Jan 2006
-    items:
-    - certificate_url: https://www.coursera.org
-      date_end: ""
-      date_start: "2021-01-25"
-      description: ""
-      organization: Coursera
-      organization_url: https://www.coursera.org
-      title: Neural Networks and Deep Learning
-      url: ""
-    - certificate_url: https://www.edx.org
-      date_end: ""
-      date_start: "2021-01-01"
-      description: Formulated informed blockchain models, hypotheses, and use cases.
-      organization: edX
-      organization_url: https://www.edx.org
-      title: Blockchain Fundamentals
-      url: https://www.edx.org/professional-certificate/uc-berkeleyx-blockchain-fundamentals
-    - certificate_url: https://www.datacamp.com
-      date_end: "2020-12-21"
-      date_start: "2020-07-01"
-      description: ""
-      organization: DataCamp
-      organization_url: https://www.datacamp.com
-      title: Object-Oriented Programming in R
-      url: ""
-    subtitle: null
-    title: Accomplish&shy;ments
-  design:
-    columns: "2"
+
+# - block: accomplishments
+#   content:
+#     date_format: Jan 2006
+#     items:
+#     - certificate_url: uploads/file/Young_investigator_award.pdf
+#       date_end: ""
+#       date_start: "2023-08-25"
+#       description: ""
+#       organization: CASMS
+#       organization_url: https://casms.org/
+#       title: Young Investigator Award 2023
+#       url: ""
+#       
+#     - certificate_url: ""
+#       date_end: ""
+#       date_start: "2023-05-01"
+#       description: 
+#       organization: Stanford
+#       organization_url: https://med.stanford.edu/sporr
+#       title: SPORR 2023 Rigor and Reproducibility Awards
+#       url: https://med.stanford.edu/sporr
+#       
+#     - certificate_url: https://www.datacamp.com
+#       date_end: "2020-12-21"
+#       date_start: "2020-07-01"
+#       description: ""
+#       organization: Stanford
+#       organization_url: https://www.isglobal.org/-/exposome-data-analysis-challenge
+#       title: Winner Selected by the Event Committee
+#       url: ""
+#       
+#     subtitle: null
+#     title: 🏅 Awards
+#   design:
+#     columns: "2"
   
 - block: collection
   content:
@@ -239,27 +244,30 @@ sections:
     buttons:
     - name: All
       tag: '*'
-    - name: Deep Learning
-      tag: Deep Learning
-    - name: Other
-      tag: Demo
+    - name: Metabolomics
+      tag: Metabolomics
+    - name: Multi-omics
+      tag: Multi-omics
+    - name: Others
+      tag: Others
     default_button_index: 0
     filters:
       folders:
       - project
-    title: Projects
+    title: 💻 Projects
   design:
     columns: "1"
     flip_alt_rows: false
     view: showcase
   id: projects
+  
 # - block: markdown
 #   content:
 #     subtitle: ""
 #     text: '{{< gallery album="demo" >}}'
 #     title: Gallery
-  design:
-    columns: "1"
+#   design:
+#     columns: "1"
   
 # - block: collection
 #   content:
@@ -281,7 +289,7 @@ sections:
     filters:
       folders:
       - event
-    title: Recent & Upcoming Talks
+    title: 🗣 Talks
   design:
     columns: "2"
     view: compact
@@ -304,18 +312,12 @@ sections:
     order: desc
     subtitle: ""
     text: ""
-    title: Posts
+    title: 📖 Posts
   design:
     columns: "2"
     view: compact
   id: posts
   
-- block: tag_cloud
-  content:
-    title: 
-  design:
-    columns: "1"
-    
 - block: contact
   content:
     address:
@@ -355,10 +357,17 @@ sections:
     subtitle: null
     text: Lorem ipsum dolor sit amet, consectetur adipiscing elit. Nam mi diam, venenatis
       ut magna et, vehicula efficitur enim.
-    title: Contact
+    title: 📥 Contact
   design:
     columns: "2"
   id: contact
+
+- block: tag_cloud
+  content:
+    title: 
+  design:
+    columns: "1"
+  
 title: null
 type: landing
 ---

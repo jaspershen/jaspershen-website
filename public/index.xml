@@ -13,26 +13,6 @@
     </image>
     
     <item>
-      <title>Example Talk</title>
-      <link>https://jaspershen.github.io/talk/example-talk/</link>
-      <pubDate>Sat, 01 Jun 2030 13:00:00 +0000</pubDate>
-      <guid>https://jaspershen.github.io/talk/example-talk/</guid>
-      <description>&lt;div class=&#34;alert alert-note&#34;&gt;
-  &lt;div&gt;
-    Click on the &lt;strong&gt;Slides&lt;/strong&gt; button above to view the built-in slides feature.
-  &lt;/div&gt;
-&lt;/div&gt;
-&lt;p&gt;Slides can be added in a few ways:&lt;/p&gt;
-&lt;ul&gt;
-&lt;li&gt;&lt;strong&gt;Create&lt;/strong&gt; slides using Wowchemy&amp;rsquo;s &lt;a href=&#34;https://wowchemy.com/docs/managing-content/#create-slides&#34; target=&#34;_blank&#34; rel=&#34;noopener&#34;&gt;&lt;em&gt;Slides&lt;/em&gt;&lt;/a&gt; feature and link using &lt;code&gt;slides&lt;/code&gt; parameter in the front matter of the talk file&lt;/li&gt;
-&lt;li&gt;&lt;strong&gt;Upload&lt;/strong&gt; an existing slide deck to &lt;code&gt;static/&lt;/code&gt; and link using &lt;code&gt;url_slides&lt;/code&gt; parameter in the front matter of the talk file&lt;/li&gt;
-&lt;li&gt;&lt;strong&gt;Embed&lt;/strong&gt; your slides (e.g. Google Slides) or presentation video on this page using &lt;a href=&#34;https://wowchemy.com/docs/writing-markdown-latex/&#34; target=&#34;_blank&#34; rel=&#34;noopener&#34;&gt;shortcodes&lt;/a&gt;.&lt;/li&gt;
-&lt;/ul&gt;
-&lt;p&gt;Further event details, including &lt;a href=&#34;https://wowchemy.com/docs/writing-markdown-latex/&#34; target=&#34;_blank&#34; rel=&#34;noopener&#34;&gt;page elements&lt;/a&gt; such as image galleries, can be added to the body of this page.&lt;/p&gt;
-</description>
-    </item>
-    
-    <item>
       <title>How to update shen personal website</title>
       <link>https://jaspershen.github.io/post/2022-10-23-shen-blog-instruction/</link>
       <pubDate>Sun, 23 Oct 2022 00:00:00 +0000</pubDate>
@@ -46,6 +26,23 @@
 &lt;p&gt;About: 20&lt;/p&gt;
 &lt;p&gt;featured: 22&lt;/p&gt;
 </description>
+    </item>
+    
+    <item>
+      <title>TidyMicrobiome</title>
+      <link>https://jaspershen.github.io/project/tidymicrobiome-project/</link>
+      <pubDate>Sat, 27 Aug 2022 00:00:00 +0000</pubDate>
+      <guid>https://jaspershen.github.io/project/tidymicrobiome-project/</guid>
+      <description>&lt;p&gt;&lt;code&gt;TidyMicrobiome&lt;/code&gt; project is a comprehensive computational framework that can process the whole workflow of data processing and analysis for microbiome data using tidyverse principles.&lt;/p&gt;
+</description>
+    </item>
+    
+    <item>
+      <title>SCPA</title>
+      <link>https://jaspershen.github.io/project/scpa-project/</link>
+      <pubDate>Sun, 29 Aug 2021 00:00:00 +0000</pubDate>
+      <guid>https://jaspershen.github.io/project/scpa-project/</guid>
+      <description></description>
     </item>
     
     <item>
@@ -161,6 +158,59 @@
 &lt;div class=&#34;highlight&#34;&gt;&lt;pre tabindex=&#34;0&#34; class=&#34;chroma&#34;&gt;&lt;code class=&#34;language-fallback&#34; data-lang=&#34;fallback&#34;&gt;&lt;span class=&#34;line&#34;&gt;&lt;span class=&#34;cl&#34;&gt;ssh shenxt@login01.scg.stanford.edu
 &lt;/span&gt;&lt;/span&gt;&lt;/code&gt;&lt;/pre&gt;&lt;/div&gt;&lt;h1 id=&#34;mac连接存储服务器&#34;&gt;mac连接存储服务器&lt;/h1&gt;
 &lt;p&gt;参考: &lt;a href=&#34;https://login.scg.stanford.edu/tutorials/data_movement/&#34; target=&#34;_blank&#34; rel=&#34;noopener&#34;&gt;https://login.scg.stanford.edu/tutorials/data_movement/&lt;/a&gt;&lt;/p&gt;
+</description>
+    </item>
+    
+    <item>
+      <title>R cookbook</title>
+      <link>https://jaspershen.github.io/project/r_cookbook/</link>
+      <pubDate>Sun, 22 Mar 2020 00:00:00 +0000</pubDate>
+      <guid>https://jaspershen.github.io/project/r_cookbook/</guid>
+      <description></description>
+    </item>
+    
+    <item>
+      <title>MetNormalizer</title>
+      <link>https://jaspershen.github.io/project/metnormalizer-project/</link>
+      <pubDate>Tue, 21 Jan 2020 00:00:00 +0000</pubDate>
+      <guid>https://jaspershen.github.io/project/metnormalizer-project/</guid>
+      <description>&lt;p&gt;&lt;code&gt;MetNormalizer&lt;/code&gt; is used to normalize large scale metabolomics data.&lt;/p&gt;
+</description>
+    </item>
+    
+    <item>
+      <title>deepPseudoMSI</title>
+      <link>https://jaspershen.github.io/project/deeppseudomsi-project/</link>
+      <pubDate>Mon, 20 Jan 2020 00:00:00 +0000</pubDate>
+      <guid>https://jaspershen.github.io/project/deeppseudomsi-project/</guid>
+      <description>&lt;p&gt;The &lt;code&gt;deepPseudoMSI&lt;/code&gt; project is the first method that convert LC-MS raw data to “images” and then process them using deep learning method for diagnosis.&lt;/p&gt;
+</description>
+    </item>
+    
+    <item>
+      <title>laggedCor</title>
+      <link>https://jaspershen.github.io/project/laggedcor-project/</link>
+      <pubDate>Mon, 20 Jan 2020 00:00:00 +0000</pubDate>
+      <guid>https://jaspershen.github.io/project/laggedcor-project/</guid>
+      <description>&lt;p&gt;&lt;code&gt;TidyMass&lt;/code&gt; project is a comprehensive computational framework that can process the whole workflow of data processing and analysis for LC-MS-based untargeted metabolomics using tidyverse principles.&lt;/p&gt;
+</description>
+    </item>
+    
+    <item>
+      <title>metID</title>
+      <link>https://jaspershen.github.io/project/metid-project/</link>
+      <pubDate>Mon, 20 Jan 2020 00:00:00 +0000</pubDate>
+      <guid>https://jaspershen.github.io/project/metid-project/</guid>
+      <description>&lt;p&gt;&lt;code&gt;metID&lt;/code&gt; is a R packge which is used for metabolite identification based on in-house database and public database based on accurate mass, retention time and/or MS2 spectra.&lt;/p&gt;
+</description>
+    </item>
+    
+    <item>
+      <title>TidyMass</title>
+      <link>https://jaspershen.github.io/project/tidymass-project/</link>
+      <pubDate>Mon, 20 Jan 2020 00:00:00 +0000</pubDate>
+      <guid>https://jaspershen.github.io/project/tidymass-project/</guid>
+      <description>&lt;p&gt;&lt;code&gt;TidyMass&lt;/code&gt; project is a comprehensive computational framework that can process the whole workflow of data processing and analysis for LC-MS-based untargeted metabolomics using tidyverse principles.&lt;/p&gt;
 </description>
     </item>
     
@@ -304,24 +354,29 @@ $$&lt;/p&gt;
     </item>
     
     <item>
-      <title>Example Project</title>
-      <link>https://jaspershen.github.io/project/example/</link>
+      <title>Normalization and Integration of Large-Scale Mass Spectrometry-based Metabolomics Data Using Support Vector Regression</title>
+      <link>https://jaspershen.github.io/talk/normalization-and-integration-of-large-scale-mass-spectrometry-based-metabolomics-data-using-support-vector-regression/</link>
+      <pubDate>Fri, 22 Jul 2016 13:00:00 +0000</pubDate>
+      <guid>https://jaspershen.github.io/talk/normalization-and-integration-of-large-scale-mass-spectrometry-based-metabolomics-data-using-support-vector-regression/</guid>
+      <description></description>
+    </item>
+    
+    <item>
+      <title>MetDNA</title>
+      <link>https://jaspershen.github.io/project/metdna-project/</link>
       <pubDate>Wed, 27 Apr 2016 00:00:00 +0000</pubDate>
-      <guid>https://jaspershen.github.io/project/example/</guid>
-      <description>&lt;p&gt;Lorem ipsum dolor sit amet, consectetur adipiscing elit. Duis posuere tellus ac convallis placerat. Proin tincidunt magna sed ex sollicitudin condimentum. Sed ac faucibus dolor, scelerisque sollicitudin nisi. Cras purus urna, suscipit quis sapien eu, pulvinar tempor diam. Quisque risus orci, mollis id ante sit amet, gravida egestas nisl. Sed ac tempus magna. Proin in dui enim. Donec condimentum, sem id dapibus fringilla, tellus enim condimentum arcu, nec volutpat est felis vel metus. Vestibulum sit amet erat at nulla eleifend gravida.&lt;/p&gt;
-&lt;p&gt;Nullam vel molestie justo. Curabitur vitae efficitur leo. In hac habitasse platea dictumst. Sed pulvinar mauris dui, eget varius purus congue ac. Nulla euismod, lorem vel elementum dapibus, nunc justo porta mi, sed tempus est est vel tellus. Nam et enim eleifend, laoreet sem sit amet, elementum sem. Morbi ut leo congue, maximus velit ut, finibus arcu. In et libero cursus, rutrum risus non, molestie leo. Nullam congue quam et volutpat malesuada. Sed risus tortor, pulvinar et dictum nec, sodales non mi. Phasellus lacinia commodo laoreet. Nam mollis, erat in feugiat consectetur, purus eros egestas tellus, in auctor urna odio at nibh. Mauris imperdiet nisi ac magna convallis, at rhoncus ligula cursus.&lt;/p&gt;
-&lt;p&gt;Cras aliquam rhoncus ipsum, in hendrerit nunc mattis vitae. Duis vitae efficitur metus, ac tempus leo. Cras nec fringilla lacus. Quisque sit amet risus at ipsum pharetra commodo. Sed aliquam mauris at consequat eleifend. Praesent porta, augue sed viverra bibendum, neque ante euismod ante, in vehicula justo lorem ac eros. Suspendisse augue libero, venenatis eget tincidunt ut, malesuada at lorem. Donec vitae bibendum arcu. Aenean maximus nulla non pretium iaculis. Quisque imperdiet, nulla in pulvinar aliquet, velit quam ultrices quam, sit amet fringilla leo sem vel nunc. Mauris in lacinia lacus.&lt;/p&gt;
-&lt;p&gt;Suspendisse a tincidunt lacus. Curabitur at urna sagittis, dictum ante sit amet, euismod magna. Sed rutrum massa id tortor commodo, vitae elementum turpis tempus. Lorem ipsum dolor sit amet, consectetur adipiscing elit. Aenean purus turpis, venenatis a ullamcorper nec, tincidunt et massa. Integer posuere quam rutrum arcu vehicula imperdiet. Mauris ullamcorper quam vitae purus congue, quis euismod magna eleifend. Vestibulum semper vel augue eget tincidunt. Fusce eget justo sodales, dapibus odio eu, ultrices lorem. Duis condimentum lorem id eros commodo, in facilisis mauris scelerisque. Morbi sed auctor leo. Nullam volutpat a lacus quis pharetra. Nulla congue rutrum magna a ornare.&lt;/p&gt;
-&lt;p&gt;Aliquam in turpis accumsan, malesuada nibh ut, hendrerit justo. Cum sociis natoque penatibus et magnis dis parturient montes, nascetur ridiculus mus. Quisque sed erat nec justo posuere suscipit. Donec ut efficitur arcu, in malesuada neque. Nunc dignissim nisl massa, id vulputate nunc pretium nec. Quisque eget urna in risus suscipit ultricies. Pellentesque odio odio, tincidunt in eleifend sed, posuere a diam. Nam gravida nisl convallis semper elementum. Morbi vitae felis faucibus, vulputate orci placerat, aliquet nisi. Aliquam erat volutpat. Maecenas sagittis pulvinar purus, sed porta quam laoreet at.&lt;/p&gt;
+      <guid>https://jaspershen.github.io/project/metdna-project/</guid>
+      <description>&lt;p&gt;MetDNA characterizes initial seed metabolites using a small tandem spectral library, and utilize their experimental MS2 spectra as surrogate spectra to annotate their reaction-paired neighbor metabolites which are subsequently served as the basis for recursive analysis.&lt;/p&gt;
 </description>
     </item>
     
     <item>
-      <title>External Project</title>
-      <link>https://jaspershen.github.io/project/external-project/</link>
+      <title>MetFlow</title>
+      <link>https://jaspershen.github.io/project/metflow-project/</link>
       <pubDate>Wed, 27 Apr 2016 00:00:00 +0000</pubDate>
-      <guid>https://jaspershen.github.io/project/external-project/</guid>
-      <description></description>
+      <guid>https://jaspershen.github.io/project/metflow-project/</guid>
+      <description>&lt;p&gt;We developed an interactive web server, namely, MetFlow, to provide an integrated and comprehensive workflow for metabolomics data cleaning and differential metabolite discovery.&lt;/p&gt;
+</description>
     </item>
     
     <item>

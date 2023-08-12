@@ -1,0 +1,32 @@
+<?xml version="1.0" encoding="utf-8" standalone="yes" ?>
+<rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
+  <channel>
+    <title>Others | Xiaotao Shen</title>
+    <link>https://jaspershen.github.io/tag/others/</link>
+      <atom:link href="https://jaspershen.github.io/tag/others/index.xml" rel="self" type="application/rss+xml" />
+    <description>Others</description>
+    <generator>Wowchemy (https://wowchemy.com)</generator><language>en-us</language><lastBuildDate>Sun, 29 Aug 2021 00:00:00 +0000</lastBuildDate>
+    <image>
+      <url>https://jaspershen.github.io/media/icon_hu805a85e690e4f2727bf7d5f685d888f7_86836_512x512_fill_lanczos_center_3.png</url>
+      <title>Others</title>
+      <link>https://jaspershen.github.io/tag/others/</link>
+    </image>
+    
+    <item>
+      <title>SCPA</title>
+      <link>https://jaspershen.github.io/project/scpa-project/</link>
+      <pubDate>Sun, 29 Aug 2021 00:00:00 +0000</pubDate>
+      <guid>https://jaspershen.github.io/project/scpa-project/</guid>
+      <description></description>
+    </item>
+    
+    <item>
+      <title>R cookbook</title>
+      <link>https://jaspershen.github.io/project/r_cookbook/</link>
+      <pubDate>Sun, 22 Mar 2020 00:00:00 +0000</pubDate>
+      <guid>https://jaspershen.github.io/project/r_cookbook/</guid>
+      <description></description>
+    </item>
+    
+  </channel>
+</rss>

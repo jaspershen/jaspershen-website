@@ -2,12 +2,8 @@
 <urlset xmlns="http://www.sitemaps.org/schemas/sitemap/0.9"
   xmlns:xhtml="http://www.w3.org/1999/xhtml">
   <url>
-    <loc>https://jaspershen.github.io/talk/example-talk/</loc>
-    <lastmod>2023-08-10T21:35:18-07:00</lastmod>
-    <changefreq>weekly</changefreq>
-  </url><url>
     <loc>https://jaspershen.github.io/</loc>
-    <lastmod>2023-08-10T23:53:02-07:00</lastmod>
+    <lastmod>2023-08-11T10:05:29-07:00</lastmod>
     <changefreq>weekly</changefreq>
   </url><url>
     <loc>https://jaspershen.github.io/tag/blog/</loc>
@@ -34,6 +30,26 @@
     <lastmod>2023-08-10T23:53:02-07:00</lastmod>
     <changefreq>weekly</changefreq>
   </url><url>
+    <loc>https://jaspershen.github.io/tag/multi-omics/</loc>
+    <lastmod>2022-08-27T00:00:00+00:00</lastmod>
+    <changefreq>weekly</changefreq>
+  </url><url>
+    <loc>https://jaspershen.github.io/project/</loc>
+    <lastmod>2022-08-27T00:00:00+00:00</lastmod>
+    <changefreq>weekly</changefreq>
+  </url><url>
+    <loc>https://jaspershen.github.io/project/tidymicrobiome-project/</loc>
+    <lastmod>2022-08-27T00:00:00+00:00</lastmod>
+    <changefreq>weekly</changefreq>
+  </url><url>
+    <loc>https://jaspershen.github.io/tag/others/</loc>
+    <lastmod>2021-08-29T00:00:00+00:00</lastmod>
+    <changefreq>weekly</changefreq>
+  </url><url>
+    <loc>https://jaspershen.github.io/project/scpa-project/</loc>
+    <lastmod>2021-08-29T00:00:00+00:00</lastmod>
+    <changefreq>weekly</changefreq>
+  </url><url>
     <loc>https://jaspershen.github.io/category/linux/</loc>
     <lastmod>2023-08-10T23:53:02-07:00</lastmod>
     <changefreq>weekly</changefreq>
@@ -44,6 +60,34 @@
   </url><url>
     <loc>https://jaspershen.github.io/post/2021-06-30-scg-summary/</loc>
     <lastmod>2023-08-10T23:53:02-07:00</lastmod>
+    <changefreq>weekly</changefreq>
+  </url><url>
+    <loc>https://jaspershen.github.io/project/r_cookbook/</loc>
+    <lastmod>2020-03-22T00:00:00+00:00</lastmod>
+    <changefreq>weekly</changefreq>
+  </url><url>
+    <loc>https://jaspershen.github.io/tag/metabolomics/</loc>
+    <lastmod>2020-01-21T00:00:00+00:00</lastmod>
+    <changefreq>weekly</changefreq>
+  </url><url>
+    <loc>https://jaspershen.github.io/project/metnormalizer-project/</loc>
+    <lastmod>2020-01-21T00:00:00+00:00</lastmod>
+    <changefreq>weekly</changefreq>
+  </url><url>
+    <loc>https://jaspershen.github.io/project/deeppseudomsi-project/</loc>
+    <lastmod>2020-01-20T00:00:00+00:00</lastmod>
+    <changefreq>weekly</changefreq>
+  </url><url>
+    <loc>https://jaspershen.github.io/project/laggedcor-project/</loc>
+    <lastmod>2020-01-20T00:00:00+00:00</lastmod>
+    <changefreq>weekly</changefreq>
+  </url><url>
+    <loc>https://jaspershen.github.io/project/metid-project/</loc>
+    <lastmod>2020-01-20T00:00:00+00:00</lastmod>
+    <changefreq>weekly</changefreq>
+  </url><url>
+    <loc>https://jaspershen.github.io/project/tidymass-project/</loc>
+    <lastmod>2020-01-20T00:00:00+00:00</lastmod>
     <changefreq>weekly</changefreq>
   </url><url>
     <loc>https://jaspershen.github.io/publication-type/3/</loc>
@@ -70,24 +114,16 @@
     <lastmod>2023-08-10T21:35:18-07:00</lastmod>
     <changefreq>weekly</changefreq>
   </url><url>
-    <loc>https://jaspershen.github.io/tag/deep-learning/</loc>
-    <lastmod>2023-08-10T21:35:18-07:00</lastmod>
+    <loc>https://jaspershen.github.io/talk/normalization-and-integration-of-large-scale-mass-spectrometry-based-metabolomics-data-using-support-vector-regression/</loc>
+    <lastmod>2016-07-22T13:00:00+00:00</lastmod>
     <changefreq>weekly</changefreq>
   </url><url>
-    <loc>https://jaspershen.github.io/tag/demo/</loc>
-    <lastmod>2023-08-10T21:35:18-07:00</lastmod>
+    <loc>https://jaspershen.github.io/project/metdna-project/</loc>
+    <lastmod>2016-04-27T00:00:00+00:00</lastmod>
     <changefreq>weekly</changefreq>
   </url><url>
-    <loc>https://jaspershen.github.io/project/example/</loc>
-    <lastmod>2023-08-10T21:35:18-07:00</lastmod>
-    <changefreq>weekly</changefreq>
-  </url><url>
-    <loc>https://jaspershen.github.io/project/external-project/</loc>
-    <lastmod>2023-08-10T21:35:18-07:00</lastmod>
-    <changefreq>weekly</changefreq>
-  </url><url>
-    <loc>https://jaspershen.github.io/project/</loc>
-    <lastmod>2023-08-10T21:35:18-07:00</lastmod>
+    <loc>https://jaspershen.github.io/project/metflow-project/</loc>
+    <lastmod>2016-04-27T00:00:00+00:00</lastmod>
     <changefreq>weekly</changefreq>
   </url><url>
     <loc>https://jaspershen.github.io/publication-type/2/</loc>
