@@ -194,42 +194,6 @@ sections:
       # Text color (true=light, false=dark, or remove for the dynamic theme color).
       text_color_light: true
     
-# - block: accomplishments
-#   content:
-#     date_format: Jan 2006
-#     items:
-#     - certificate_url: uploads/file/Young_investigator_award.pdf
-#       date_end: ""
-#       date_start: "2023-08-25"
-#       description: ""
-#       organization: CASMS
-#       organization_url: https://casms.org/
-#       title: Young Investigator Award 2023
-#       url: ""
-#       
-#     - certificate_url: ""
-#       date_end: ""
-#       date_start: "2023-05-01"
-#       description: 
-#       organization: Stanford
-#       organization_url: https://med.stanford.edu/sporr
-#       title: SPORR 2023 Rigor and Reproducibility Awards
-#       url: https://med.stanford.edu/sporr
-#       
-#     - certificate_url: https://www.datacamp.com
-#       date_end: "2020-12-21"
-#       date_start: "2020-07-01"
-#       description: ""
-#       organization: Stanford
-#       organization_url: https://www.isglobal.org/-/exposome-data-analysis-challenge
-#       title: Winner Selected by the Event Committee
-#       url: ""
-#       
-#     subtitle: null
-#     title: 🏅 Awards
-#   design:
-#     columns: "2"
-
 - block: collection
   content:
     count: 5
@@ -399,59 +363,6 @@ sections:
       text_color_light: true
   id: news
     
-# - block: features
-#   content:
-#     items:
-#     - description: 
-#       icon: Stanford
-#       icon_pack: custom
-#       name: 🌳 Nature Biotechnology 
-#     - description: 
-#       icon: Stanford
-#       icon_pack: custom
-#       name: 🌳 Nature Communications 
-#     - description: 
-#       icon: Stanford
-#       icon_pack: custom
-#       name: 🌳 Briefing in Bioinformatics 
-#     - description: 
-#       icon: Stanford
-#       icon_pack: custom
-#       name: 🌳 Bioinformatics
-#     - description: 
-#       icon: Stanford
-#       icon_pack: custom
-#       name: 🌳 GigaScience 
-#     - description: 
-#       icon: Stanford
-#       icon_pack: custom
-#       name: 🌳 PLOS one
-#     - description: 
-#       icon: Stanford
-#       icon_pack: custom
-#       name: 🌳 Genomics, Proteomics&Bioinformatics 
-#     - description: 
-#       icon: Stanford
-#       icon_pack: custom
-#       name: 🌳 Communications Chemistry 
-#     - description: 
-#       icon: Stanford
-#       icon_pack: custom
-#       name: 🌳 Communications Biology
-#     - description: 
-#       icon: Stanford
-#       icon_pack: custom
-#       name: 🌳 Frontiers Molecular Biosciences 
-#     - description: 
-#       icon: Stanford
-#       icon_pack: custom
-#       name: 🌳 iMeta 
-#     - description: 
-#       icon: Stanford
-#       icon_pack: custom
-#       name: 🌳 Proteomics
-#     title: 🐕‍🦺 Journal Referee
-
 - block: collection
   content:
     count: 5
@@ -464,6 +375,114 @@ sections:
     columns: "2"
     view: community/compact2
   id: journal_referee
+
+- block: accomplishments
+  content:
+    date_format: Jan 2006
+    items:
+    - certificate_url: 
+      date_end: ""
+      date_start: "2023-08-25"
+      description: "Chinese American Society of Mass Spectrometry"
+      organization: CASMS
+      organization_url: https://casms.org/
+      title: Young Investigator Award 2023
+      url: ""
+
+    - certificate_url: ""
+      date_end: ""
+      date_start: "2023-05-01"
+      description: Stanford Program on Research Rigor & Reproducibility
+      organization: Stanford
+      organization_url: https://med.stanford.edu/sporr
+      title: SPORR 2023 Rigor and Reproducibility Awards
+      url: 
+
+    - certificate_url: 
+      date_end: ""
+      date_start: "2021-05-01"
+      description: Exposome Data Challenge Event
+      organization: ISGlobal
+      organization_url: https://www.isglobal.org/-/exposome-data-analysis-challenge
+      title: Winner Selected by the Event Committee
+      url: ""
+      
+    - certificate_url: 
+      date_end: ""
+      date_start: "2018-06-01"
+      description: The International Metabolomics Society
+      organization: metabolomics_society
+      organization_url: https://www.isglobal.org/-/exposome-data-analysis-challenge
+      title: Student Travel Award for Oral Presentation
+      url: ""
+      
+    - certificate_url: 
+      date_end: ""
+      date_start: "2018-06-01"
+      description: Journal Metabolites
+      organization: org
+      organization_url: 
+      title: Student Travel Award for Oral Presentation
+      url: ""
+
+    - certificate_url: 
+      date_end: ""
+      date_start: "2017-06-01"
+      description: Ministry of Education of the People’s Republic of China
+      organization: China
+      organization_url: 
+      title: China National Scholarship
+      url: ""
+      
+    - certificate_url: 
+      date_end: ""
+      date_start: "2017-06-01"
+      description: The 3rd China MS Analysis Conference
+      organization: org
+      organization_url: 
+      title: Award for Outstanding Youth Report 
+      url: ""
+      
+    - certificate_url: 
+      date_end: ""
+      date_start: "2016-06-01"
+      description: University of Chinese Academy of Sciences
+      organization: CAS
+      organization_url: 
+      title: Merit Student
+      url: ""
+      
+    - certificate_url: 
+      date_end: ""
+      date_start: "2016-06-01"
+      description: The 34th China MS Society Conference
+      organization: org
+      organization_url: 
+      title: Award for Outstanding Youth Report
+      url: ""
+      
+    - certificate_url: 
+      date_end: ""
+      date_start: "2016-06-01"
+      description: Inner Mongolia Autonomous Region
+      organization: org
+      organization_url: 
+      title: Inner Mongolia Outstanding Graduate
+      url: ""
+      
+    - certificate_url: 
+      date_end: ""
+      date_start: "2011-06-01"
+      description: Inner Mongolia University
+      organization: IMU
+      organization_url: 
+      title: National Encouragement Scholarship
+      url: ""
+
+    subtitle: null
+    title: 🏅 Awards
+  design:
+    columns: "2"
     
 - block: tag_cloud
   content:
