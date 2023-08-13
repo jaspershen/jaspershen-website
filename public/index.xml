@@ -65,12 +65,28 @@
     </item>
     
     <item>
+      <title>massDatabase utilities for the operation of the public compound and pathway database</title>
+      <link>https://jaspershen.github.io/publication/massdatabase-utilities-for-the-operation-of-the-public-compound-and-pathway-database/</link>
+      <pubDate>Sat, 01 Oct 2022 00:00:00 +0000</pubDate>
+      <guid>https://jaspershen.github.io/publication/massdatabase-utilities-for-the-operation-of-the-public-compound-and-pathway-database/</guid>
+      <description></description>
+    </item>
+    
+    <item>
       <title>TidyMicrobiome</title>
       <link>https://jaspershen.github.io/project/tidymicrobiome-project/</link>
       <pubDate>Sat, 27 Aug 2022 00:00:00 +0000</pubDate>
       <guid>https://jaspershen.github.io/project/tidymicrobiome-project/</guid>
       <description>&lt;p&gt;&lt;code&gt;TidyMicrobiome&lt;/code&gt; project is a comprehensive computational framework that can process the whole workflow of data processing and analysis for microbiome data using tidyverse principles.&lt;/p&gt;
 </description>
+    </item>
+    
+    <item>
+      <title>Deep learning-based pseudo-mass spectrometry imaging analysis for precision medicine</title>
+      <link>https://jaspershen.github.io/publication/deep-learning-based-pseudo-mass-spectrometry-imaging-analysis-for-precision-medicine/</link>
+      <pubDate>Wed, 10 Aug 2022 00:00:00 +0000</pubDate>
+      <guid>https://jaspershen.github.io/publication/deep-learning-based-pseudo-mass-spectrometry-imaging-analysis-for-precision-medicine/</guid>
+      <description></description>
     </item>
     
     <item>
@@ -554,7 +570,7 @@ data.head()
 
 
 
-&lt;div id=&#34;chart-548613927&#34; class=&#34;chart&#34;&gt;&lt;/div&gt;
+&lt;div id=&#34;chart-619258473&#34; class=&#34;chart&#34;&gt;&lt;/div&gt;
 &lt;script&gt;
   (function() {
     let a = setInterval( function() {
@@ -564,7 +580,7 @@ data.head()
       clearInterval( a );
 
       Plotly.d3.json(&#34;./line-chart.json&#34;, function(chart) {
-        Plotly.plot(&#39;chart-548613927&#39;, chart.data, chart.layout, {responsive: true});
+        Plotly.plot(&#39;chart-619258473&#39;, chart.data, chart.layout, {responsive: true});
       });
     }, 500 );
   })();
@@ -948,7 +964,7 @@ data.head()
 
 
 
-&lt;div id=&#34;chart-514268397&#34; class=&#34;chart&#34;&gt;&lt;/div&gt;
+&lt;div id=&#34;chart-629857431&#34; class=&#34;chart&#34;&gt;&lt;/div&gt;
 &lt;script&gt;
   (function() {
     let a = setInterval( function() {
@@ -958,7 +974,7 @@ data.head()
       clearInterval( a );
 
       Plotly.d3.json(&#34;./line-chart.json&#34;, function(chart) {
-        Plotly.plot(&#39;chart-514268397&#39;, chart.data, chart.layout, {responsive: true});
+        Plotly.plot(&#39;chart-629857431&#39;, chart.data, chart.layout, {responsive: true});
       });
     }, 500 );
   })();
