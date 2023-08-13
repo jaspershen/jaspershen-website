@@ -180,6 +180,19 @@ sections:
     title: 🧑‍🎓 Experience
   design:
     columns: "2"
+    background:
+      image: 
+        filename: human-evolution.jpg
+        filters:
+          brightness: 0.5
+      #  Image fit. Options are `cover` (default), `contain`, or `actual` size.
+      size: cover
+      # Image focal point. Options include `left`, `center` (default), or `right`.
+      position: center
+      # Use a fun parallax-like fixed background effect on desktop? true/false
+      parallax: true
+      # Text color (true=light, false=dark, or remove for the dynamic theme color).
+      text_color_light: true
     
 # - block: accomplishments
 #   content:
@@ -224,7 +237,7 @@ sections:
       featured_only: false
       folders:
       - publication
-    title: Publications
+    title: 📃 Publications
   design:
     columns: "2"
     view: card
@@ -250,7 +263,21 @@ sections:
     columns: "2"
     flip_alt_rows: false
     view: community/compact2
+    background:
+      image: 
+        filename: code2.jpg
+        filters:
+          brightness: 0.5
+      #  Image fit. Options are `cover` (default), `contain`, or `actual` size.
+      size: cover
+      # Image focal point. Options include `left`, `center` (default), or `right`.
+      position: center
+      # Use a fun parallax-like fixed background effect on desktop? true/false
+      parallax: true
+      # Text color (true=light, false=dark, or remove for the dynamic theme color).
+      text_color_light: true
   id: projects
+
 
 - block: collection
   content:
@@ -284,6 +311,19 @@ sections:
   design:
     columns: "2"
     view: compact
+    background:
+      image: 
+        filename: blog.jpg
+        filters:
+          brightness: 0.5
+      #  Image fit. Options are `cover` (default), `contain`, or `actual` size.
+      size: cover
+      # Image focal point. Options include `left`, `center` (default), or `right`.
+      position: center
+      # Use a fun parallax-like fixed background effect on desktop? true/false
+      parallax: true
+      # Text color (true=light, false=dark, or remove for the dynamic theme color).
+      text_color_light: true
   id: posts
   
 - block: contact
@@ -301,17 +341,13 @@ sections:
     - icon: twitter
       icon_pack: fab
       link: https://twitter.com/xiaotaoshen1990
-      name: DM Me
+      name: Twitter
     - icon: weixin
       icon_pack: fab
       link: https://jaspershen.github.io/image/wechat_QR.jpg
-      name: Skype Me
-    - icon: video
-      icon_pack: fas
-      link: https://zoom.com
-      name: Zoom Me
-    directions: Enter Building 1 and take the stairs to Office 200 on Floor 2
-    email: test@example.org
+      name: WeChat
+    directions: 
+    email: shenxt1990@outlook.com
     form:
       formspree:
         id: null
@@ -319,13 +355,12 @@ sections:
         captcha: false
       provider: netlify
     office_hours:
-    - Monday 10:00 to 13:00
-    - Wednesday 09:00 to 10:00
-    phone: 888 888 88 88
+    - Monday - Friday 9:30 to 17:30
+    - Weekend 14:00 to 17:00
+    phone: +1 571-267-9283
     subtitle: null
-    text: Lorem ipsum dolor sit amet, consectetur adipiscing elit. Nam mi diam, venenatis
-      ut magna et, vehicula efficitur enim.
-    title: Contact
+    text: 
+    title: 📥 Contact
   design:
     columns: "2"
   id: contact
@@ -338,11 +373,116 @@ sections:
 #   design:
 #     columns: "1"
     
+- block: collection
+  content:
+    count: 5
+    filters:
+      featured_only: false
+      folders:
+      - news
+    title: 📰 News
+  design:
+    columns: "2"
+    view: list
+    background:
+      image: 
+        filename: reading_news.jpeg
+        filters:
+          brightness: 0.5
+      #  Image fit. Options are `cover` (default), `contain`, or `actual` size.
+      size: cover
+      # Image focal point. Options include `left`, `center` (default), or `right`.
+      position: center
+      # Use a fun parallax-like fixed background effect on desktop? true/false
+      parallax: true
+      # Text color (true=light, false=dark, or remove for the dynamic theme color).
+      text_color_light: true
+  id: news
+    
+# - block: features
+#   content:
+#     items:
+#     - description: 
+#       icon: Stanford
+#       icon_pack: custom
+#       name: 🌳 Nature Biotechnology 
+#     - description: 
+#       icon: Stanford
+#       icon_pack: custom
+#       name: 🌳 Nature Communications 
+#     - description: 
+#       icon: Stanford
+#       icon_pack: custom
+#       name: 🌳 Briefing in Bioinformatics 
+#     - description: 
+#       icon: Stanford
+#       icon_pack: custom
+#       name: 🌳 Bioinformatics
+#     - description: 
+#       icon: Stanford
+#       icon_pack: custom
+#       name: 🌳 GigaScience 
+#     - description: 
+#       icon: Stanford
+#       icon_pack: custom
+#       name: 🌳 PLOS one
+#     - description: 
+#       icon: Stanford
+#       icon_pack: custom
+#       name: 🌳 Genomics, Proteomics&Bioinformatics 
+#     - description: 
+#       icon: Stanford
+#       icon_pack: custom
+#       name: 🌳 Communications Chemistry 
+#     - description: 
+#       icon: Stanford
+#       icon_pack: custom
+#       name: 🌳 Communications Biology
+#     - description: 
+#       icon: Stanford
+#       icon_pack: custom
+#       name: 🌳 Frontiers Molecular Biosciences 
+#     - description: 
+#       icon: Stanford
+#       icon_pack: custom
+#       name: 🌳 iMeta 
+#     - description: 
+#       icon: Stanford
+#       icon_pack: custom
+#       name: 🌳 Proteomics
+#     title: 🐕‍🦺 Journal Referee
+
+- block: collection
+  content:
+    count: 5
+    filters:
+      featured_only: false
+      folders:
+      - journal_referee
+    title: 🐕‍🦺 Journal Referee
+  design:
+    columns: "2"
+    view: community/compact2
+  id: journal_referee
+    
 - block: tag_cloud
   content:
     title: 
   design:
     columns: "1"
+    background:
+      image: 
+        filename: galary.jpg
+        filters:
+          brightness: 1
+      #  Image fit. Options are `cover` (default), `contain`, or `actual` size.
+      size: cover
+      # Image focal point. Options include `left`, `center` (default), or `right`.
+      position: center
+      # Use a fun parallax-like fixed background effect on desktop? true/false
+      parallax: true
+      # Text color (true=light, false=dark, or remove for the dynamic theme color).
+      text_color_light: true
 
 title: null
 type: landing

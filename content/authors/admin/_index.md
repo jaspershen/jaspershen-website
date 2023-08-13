@@ -22,7 +22,7 @@ interests:
 
 last_name: Shen
 organizations:
-- name: Stanford University School of Medicine
+- name: Stanford University
   url: https://www.stanford.edu/
 role: Postdoctoral Research Fellow
 social:
