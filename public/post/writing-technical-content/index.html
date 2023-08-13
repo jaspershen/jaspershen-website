@@ -242,6 +242,45 @@
 
 
 
+<script async src="https://www.googletagmanager.com/gtag/js?id=UA-143314205-1"></script>
+<script>
+  window.dataLayer = window.dataLayer || [];
+
+  function gtag() {
+      dataLayer.push(arguments);
+  }
+
+  function trackOutboundLink(url, target) {
+    gtag('event', 'click', {
+         'event_category': 'outbound',
+         'event_label': url,
+         'transport_type': 'beacon',
+         'event_callback': function () {
+           if (target !== '_blank') {
+             document.location = url;
+           }
+         }
+    });
+    console.debug("Outbound link clicked: " + url);
+  }
+
+  function onClickCallback(event) {
+    if ((event.target.tagName !== 'A') || (event.target.host === window.location.host)) {
+      return;
+    }
+    trackOutboundLink(event.target, event.target.getAttribute('target'));  
+  }
+
+  gtag('js', new Date());
+  gtag('config', 'UA-143314205-1', {});
+  gtag('set', {'cookie_flags': 'SameSite=None;Secure'});
+
+  
+  document.addEventListener('click', onClickCallback, false);
+</script>
+
+
+
 
 
 
@@ -319,9 +358,9 @@ Highlight your code snippets, take notes on math classes, and draw diagrams from
   <meta property="twitter:site" content="@wowchemy" />
   <meta property="twitter:creator" content="@wowchemy" />
 <meta property="twitter:image" content="https://jaspershen.github.io/post/writing-technical-content/featured.jpg" />
-<meta property="og:site_name" content="Xiaotao" />
+<meta property="og:site_name" content="Xiaotao Shen" />
 <meta property="og:url" content="https://jaspershen.github.io/post/writing-technical-content/" />
-<meta property="og:title" content="Writing technical content in Markdown | Xiaotao" />
+<meta property="og:title" content="Writing technical content in Markdown | Xiaotao Shen" />
 <meta property="og:description" content="Wowchemy is designed to give technical content creators a seamless experience. You can focus on the content and Wowchemy handles the rest.
 Highlight your code snippets, take notes on math classes, and draw diagrams from textual representation." /><meta property="og:image" content="https://jaspershen.github.io/post/writing-technical-content/featured.jpg" /><meta property="og:locale" content="en-us" />
 
@@ -376,7 +415,7 @@ Highlight your code snippets, take notes on math classes, and draw diagrams from
   
   "publisher": {
     "@type": "Organization",
-    "name": "Xiaotao",
+    "name": "Xiaotao Shen",
     "logo": {
       "@type": "ImageObject",
       "url": "https://jaspershen.github.io/media/logo_hua82804f08c421dd09439d93e6d351d6c_109030_192x192_fit_lanczos_3.png"
@@ -404,7 +443,7 @@ Highlight your code snippets, take notes on math classes, and draw diagrams from
 
 
   
-  <title>Writing technical content in Markdown | Xiaotao</title>
+  <title>Writing technical content in Markdown | Xiaotao Shen</title>
 
   
   
@@ -505,7 +544,7 @@ Highlight your code snippets, take notes on math classes, and draw diagrams from
 
       
       <div class="d-none d-lg-inline-flex">
-        <a class="navbar-brand" href="/"><img src="/media/logo_hua82804f08c421dd09439d93e6d351d6c_109030_0x70_resize_lanczos_3.png" alt="Xiaotao"
+        <a class="navbar-brand" href="/"><img src="/media/logo_hua82804f08c421dd09439d93e6d351d6c_109030_0x70_resize_lanczos_3.png" alt="Xiaotao Shen"
             
             ></a>
       </div>
@@ -520,7 +559,7 @@ Highlight your code snippets, take notes on math classes, and draw diagrams from
 
       
       <div class="navbar-brand-mobile-wrapper d-inline-flex d-lg-none">
-        <a class="navbar-brand" href="/"><img src="/media/logo_hua82804f08c421dd09439d93e6d351d6c_109030_0x70_resize_lanczos_3.png" alt="Xiaotao"
+        <a class="navbar-brand" href="/"><img src="/media/logo_hua82804f08c421dd09439d93e6d351d6c_109030_0x70_resize_lanczos_3.png" alt="Xiaotao Shen"
           
           ></a>
       </div>
@@ -1111,7 +1150,7 @@ data.head()
 
 
 
-<div id="chart-629857431" class="chart"></div>
+<div id="chart-517436982" class="chart"></div>
 <script>
   (function() {
     let a = setInterval( function() {
@@ -1121,7 +1160,7 @@ data.head()
       clearInterval( a );
 
       Plotly.d3.json("./line-chart.json", function(chart) {
-        Plotly.plot('chart-629857431', chart.data, chart.layout, {responsive: true});
+        Plotly.plot('chart-517436982', chart.data, chart.layout, {responsive: true});
       });
     }, 500 );
   })();

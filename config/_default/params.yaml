@@ -21,7 +21,7 @@ marketing:
     description: 'A highly-customizable Hugo academic resume theme powered by Wowchemy website builder.'
     twitter: 'wowchemy'
   analytics:
-    google_analytics: ''
+    google_analytics: 'UA-143314205-1'
     baidu_tongji: ''
     google_tag_manager: ''
     microsoft_clarity: ''  
@@ -70,7 +70,7 @@ features:
   privacy_pack:
     enable: false
   repository:
-    url: 'https://github.com/<username>/<repository>'
+    url: 'https://github.com/jaspershen/jaspershen-website'
     content_dir: content
     branch: main
   avatar:
@@ -79,7 +79,7 @@ features:
   comment:
     provider: ''
     disqus:
-      shortname: ''
+      shortname: 'blog-at8qrhng8b'
       show_count: true
     commento:
       url: ''
