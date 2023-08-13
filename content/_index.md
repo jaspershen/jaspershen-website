@@ -329,14 +329,6 @@ sections:
     columns: "2"
   id: contact
 
-# - block: markdown
-#   content:
-#     subtitle: ""
-#     text: '{{< gallery album="demo" >}}'
-#     title: Gallery
-#   design:
-#     columns: "1"
-    
 - block: collection
   content:
     count: 5
@@ -481,8 +473,108 @@ sections:
 
     subtitle: null
     title: 🏅 Awards
+  id: awards
   design:
     columns: "2"
+    background:
+      image: 
+        filename: messi.png
+        filters:
+          brightness: 0.5
+      #  Image fit. Options are `cover` (default), `contain`, or `actual` size.
+      size: cover
+      # Image focal point. Options include `left`, `center` (default), or `right`.
+      position: center
+      # Use a fun parallax-like fixed background effect on desktop? true/false
+      parallax: true
+      # Text color (true=light, false=dark, or remove for the dynamic theme color).
+      text_color_light: true
+
+- block: experience
+  id: academic_service
+  content:
+    date_format: Jan 2006
+    items:
+    - company: Phenomics
+      company_logo: phenomics
+      company_url: "https://www.springer.com/journal/43657"
+      date_end: ""
+      date_start: "2023-02-01"
+      description: ""
+      location: China 🇨🇳
+      title: Member of Youth Editorial Board
+      
+    - company: Brain-X
+      company_logo: brainx
+      company_url: "http://www.brain-x.science/"
+      date_end: ""
+      date_start: "2023-01-01"
+      description: 
+      location: China 🇨🇳
+      title: Member of Youth Editorial Board
+      
+    - company: iMeta
+      company_logo: imeta
+      company_url: "https://onlinelibrary.wiley.com/journal/2770596x"
+      date_end: ""
+      date_start: "2022-07-01"
+      description: 
+      location: China 🇨🇳
+      title: Member of Youth Editorial Board
+      
+    - company: npj women's health
+      company_logo: npj_women_health
+      company_url: "https://www.nature.com/npjwomenshealth/"
+      date_end: ""
+      date_start: "2023-08-01"
+      description: 
+      location: UK 🇬🇧
+      title: Member of Editorial Board
+    title: 🦮 Academic Service
+  design:
+    columns: "2"
+
+- block: people
+  id: collaborators
+  content:
+    sort_ascending: true
+    sort_by: Params.last_name
+    title: 🤝 Collaborators
+    subtitle: ""
+    # text: |-
+    #   {{% callout note %}}
+    #   [All team members](./people/).
+    #   {{% /callout %}}
+    user_groups:
+    - Academia
+    - Industry
+  design:
+    background:
+      image: 
+        filename: collaborators.jpg
+        filters:
+          brightness: 0.2
+      #  Image fit. Options are `cover` (default), `contain`, or `actual` size.
+      size: cover
+      # Image focal point. Options include `left`, `center` (default), or `right`.
+      position: center
+      # Use a fun parallax-like fixed background effect on desktop? true/false
+      parallax: true
+      # Text color (true=light, false=dark, or remove for the dynamic theme color).
+      text_color_light: true
+    show_interests: false
+    show_role: true
+    show_social: true
+    show_organization: true
+
+- block: markdown
+  content:
+    subtitle: ""
+    text: 
+    title: 📸 Photos
+  id: photos
+  design:
+    columns: "1"
     
 - block: tag_cloud
   content:
