@@ -196,15 +196,16 @@ sections:
     
 - block: collection
   content:
-    count: 5
+    count: 3
     filters:
-      featured_only: false
+      featured_only: true
       folders:
       - publication
     title: 📃 Publications
   design:
-    columns: "2"
-    view: card
+    columns: "1"
+    flip_alt_rows: false
+    view: showcase
   id: publication
     
 - block: portfolio

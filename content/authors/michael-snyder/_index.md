@@ -1,7 +1,7 @@
 ---
 organizations:
 - name: Stanford University
-role: Professor <br> Yale University
+role: Professor <br> Stanford University
 social:
 - display:
     header: true
