@@ -7,11 +7,11 @@ image:
 links:
 - icon: house
   icon_pack: fas
-  name: 
+  name: Link
   url: https://jaspershen.github.io/MetNormalizer
 - icon: github
   icon_pack: fab
-  name: 
+  name: Code
   url: https://github.com/jaspershen/MetNormalizer
 slides: 
 summary: 

@@ -1,24 +1,24 @@
 ---
 bio: Metabolomics, Multi-omics, Bioinformatics, Systems Biology.
-education:
-  courses:
-  - course: PhD
-    institution: Chinese Academy of Sciences
-    year: 2013-2018
-  - course: BSc
-    institution: Inner Mongolia University
-    year: 2009-2013
+# education:
+#   courses:
+#   - course: PhD
+#     institution: Chinese Academy of Sciences
+#     year: 2013-2018
+#   - course: BSc
+#     institution: Inner Mongolia University
+#     year: 2009-2013
 email: "shenxt@stanford.edu"
 first_name: Xiaotao
 highlight_name: true
-interests:
-- Bioinformatics
-- Metabolomics
-- Proteomics
-- Microbiome
-- Multi-omics
-- Systems Biology
-- Aging
+# interests:
+# - Bioinformatics
+# - Metabolomics
+# - Proteomics
+# - Microbiome
+# - Multi-omics
+# - Systems Biology
+# - Aging
 
 last_name: Shen
 organizations:

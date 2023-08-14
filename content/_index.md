@@ -48,11 +48,11 @@ sections:
             brightness: 0.8
         position: right
       content: 👋Welcome to Xiaotao Shen's Personal Website!👋
-      title: "😁 Hello, everyone!"
+      title: "😁 Hello!"
       link:
         icon: address-card
         icon_pack: fas
-        text: Check my CV here
+        text: CV
         url: https://www.shenxt.info/files/XiaotaoShen_CV.pdf
     - align: left
       background:
@@ -66,7 +66,7 @@ sections:
       link:
         icon: graduation-cap
         icon_pack: fas
-        text: Check my publications here
+        text: My publications
         url: "https://scholar.google.co.uk/citations?hl=en&user=3TK9yz8AAAAJ"
       title: 🧬 Research interest
     - align: center
@@ -81,7 +81,7 @@ sections:
       link:
         icon: link
         icon_pack: fas
-        text: Chuchu Wang's blog
+        text: Chuchu Wang
         url: "http://wangcc.sxl.cn/"
       title: ☕️ Record My life ☕️
   design:
@@ -117,15 +117,6 @@ sections:
   content:
     date_format: Jan 2006
     items:
-    - company: Stanford Chinese Postdoctoral Association
-      company_logo: scpa_logo
-      company_url: "https://scpa.netlify.app/"
-      date_end: "2022-07-31"
-      date_start: "2021-08-01"
-      description: ""
-      location: Palo Alto, California 🇺🇸
-      title: Co-chair
-      
     - company: Stanford University
       company_logo: stanford_logo
       company_url: "https://www.stanford.edu/"
@@ -141,6 +132,16 @@ sections:
       
       location: Palo Alto, California 🇺🇸
       title: Postdoctoral Research Fellow
+    
+    - company: Stanford Chinese Postdoctoral Association
+      company_logo: scpa_logo
+      company_url: "https://scpa.netlify.app/"
+      date_end: "2022-07-31"
+      date_start: "2021-08-01"
+      description: ""
+      location: Palo Alto, California 🇺🇸
+      title: Co-chair
+      
     - company: Chinese Academy of Sciences
       company_logo: cas_logo
       company_url: "http://www.ucas.ac.cn/"
@@ -177,7 +178,7 @@ sections:
       location: Hohhot, Inner Mongolia, China 🇨🇳
       title: B.S.
       
-    title: 🧑‍🎓 Experience
+    title: 🧑‍🎓 Experiences
   design:
     columns: "2"
     background:
@@ -243,16 +244,16 @@ sections:
       text_color_light: true
   id: projects
 
-
 - block: collection
   content:
+    count: 3
     filters:
       folders:
-      - event
+      - talk
     title: 🗣 Talks
   design:
     columns: "2"
-    view: compact
+    view: 3
   id: talks
 
 - block: collection
@@ -300,17 +301,17 @@ sections:
       postcode: "94304"
       region: CA
       street: 3165 Porter Drive
-    appointment_url: https://calendly.com
-    autolink: true
-    contact_links:
-    - icon: twitter
-      icon_pack: fab
-      link: https://twitter.com/xiaotaoshen1990
-      name: Twitter
-    - icon: weixin
-      icon_pack: fab
-      link: https://jaspershen.github.io/image/wechat_QR.jpg
-      name: WeChat
+    # appointment_url: https://calendly.com
+    # autolink: true
+    # contact_links:
+    # - icon: twitter
+    #   icon_pack: fab
+    #   link: https://twitter.com/xiaotaoshen1990
+    #   name: Twitter
+    # - icon: weixin
+    #   icon_pack: fab
+    #   link: https://jaspershen.github.io/image/wechat_QR.jpg
+    #   name: WeChat
     directions: 
     email: shenxt1990@outlook.com
     form:
@@ -319,9 +320,9 @@ sections:
       netlify:
         captcha: false
       provider: netlify
-    office_hours:
-    - Monday - Friday 9:30 to 17:30
-    - Weekend 14:00 to 17:00
+    # office_hours:
+    # - Monday - Friday 9:30 to 17:30
+    # - Weekend 14:00 to 17:00
     phone: +1 571-267-9283
     subtitle: null
     text: 

@@ -1,8 +1,11 @@
 ---
+banner:
+  caption: ""
+  image: "news.jpg"
 cms_exclude: true
 header:
   caption: ""
   image: ""
-title: News
+title: 📰 News
 view: 2
 ---

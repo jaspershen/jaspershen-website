@@ -7,11 +7,11 @@ image:
 links:
 - icon: house
   icon_pack: fas
-  name: 
+  name: Link
   url: https://metid.tidymass.org/
 - icon: github
   icon_pack: fab
-  name: 
+  name: Code
   url: https://github.com/tidymass/metid/
 slides: 
 summary:

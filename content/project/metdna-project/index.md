@@ -7,11 +7,11 @@ image:
 links:
 - icon: house
   icon_pack: fas
-  name: 
+  name: Link
   url: http://metdna.zhulab.cn
 - icon: github
   icon_pack: fab
-  name: 
+  name: Code
   url: http://metdna.zhulab.cn
 slides: 
 summary: 

@@ -19,7 +19,7 @@ image:
 projects: []
 publication: 'arXiv'
 publication_types:
-- "2"
+- "3"
 publishDate: "2023-08-02T00:00:00Z"
 summary: Semi-supervised Cooperative Learning for Multiomics Data Fusion
 links:
