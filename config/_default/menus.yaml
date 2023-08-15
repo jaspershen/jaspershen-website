@@ -19,8 +19,8 @@ main:
   - name: 🗣️ Talks
     url: '#talks'
     weight: 50
-  - name: 📖 Posts
-    url: '#posts'
+  - name: 📖 Blog
+    url: '#blog'
     weight: 60
   - name: 📥 Contact
     url: '#contact'

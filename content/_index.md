@@ -266,14 +266,14 @@ sections:
       exclude_future: false
       exclude_past: false
       folders:
-      - post
+      - blog
       publication_type: ""
       tag: ""
     offset: 0
     order: desc
     subtitle: ""
     text: ""
-    title: 📖 Posts
+    title: 📖 Blog
   design:
     columns: "2"
     view: compact
@@ -290,7 +290,7 @@ sections:
       parallax: true
       # Text color (true=light, false=dark, or remove for the dynamic theme color).
       text_color_light: true
-  id: posts
+  id: blog
   
 - block: contact
   content:

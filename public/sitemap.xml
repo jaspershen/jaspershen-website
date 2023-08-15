@@ -3,19 +3,51 @@
   xmlns:xhtml="http://www.w3.org/1999/xhtml">
   <url>
     <loc>https://jaspershen.github.io/news/2023-casms-yia/</loc>
-    <lastmod>2023-08-14T00:00:00+00:00</lastmod>
+    <lastmod>2023-08-14T14:46:58-07:00</lastmod>
     <changefreq>weekly</changefreq>
   </url><url>
     <loc>https://jaspershen.github.io/publication-type/3/</loc>
-    <lastmod>2023-08-12T21:27:22-07:00</lastmod>
+    <lastmod>2023-08-14T14:46:58-07:00</lastmod>
     <changefreq>weekly</changefreq>
   </url><url>
     <loc>https://jaspershen.github.io/publication_types/</loc>
-    <lastmod>2023-08-12T21:27:22-07:00</lastmod>
+    <lastmod>2023-08-14T14:46:58-07:00</lastmod>
     <changefreq>weekly</changefreq>
   </url><url>
     <loc>https://jaspershen.github.io/publication/semi-supervised-cooperative-learning-for-multiomics-data-fusion/</loc>
-    <lastmod>2023-08-12T21:27:22-07:00</lastmod>
+    <lastmod>2023-08-14T14:46:58-07:00</lastmod>
+    <changefreq>weekly</changefreq>
+  </url><url>
+    <loc>https://jaspershen.github.io/categories/</loc>
+    <lastmod>2023-08-12T17:02:10-07:00</lastmod>
+    <changefreq>weekly</changefreq>
+  </url><url>
+    <loc>https://jaspershen.github.io/category/chinese/</loc>
+    <lastmod>2023-07-19T21:13:14-05:00</lastmod>
+    <changefreq>weekly</changefreq>
+  </url><url>
+    <loc>https://jaspershen.github.io/tag/paper/</loc>
+    <lastmod>2023-07-19T21:13:14-05:00</lastmod>
+    <changefreq>weekly</changefreq>
+  </url><url>
+    <loc>https://jaspershen.github.io/blog/</loc>
+    <lastmod>2023-07-19T21:13:14-05:00</lastmod>
+    <changefreq>weekly</changefreq>
+  </url><url>
+    <loc>https://jaspershen.github.io/category/r/</loc>
+    <lastmod>2023-08-12T17:02:10-07:00</lastmod>
+    <changefreq>weekly</changefreq>
+  </url><url>
+    <loc>https://jaspershen.github.io/tag/r-package/</loc>
+    <lastmod>2023-07-19T21:13:14-05:00</lastmod>
+    <changefreq>weekly</changefreq>
+  </url><url>
+    <loc>https://jaspershen.github.io/tags/</loc>
+    <lastmod>2023-08-14T14:46:58-07:00</lastmod>
+    <changefreq>weekly</changefreq>
+  </url><url>
+    <loc>https://jaspershen.github.io/blog/2023-07-19-colorspace/</loc>
+    <lastmod>2023-07-19T21:13:14-05:00</lastmod>
     <changefreq>weekly</changefreq>
   </url><url>
     <loc>https://jaspershen.github.io/publication-type/2/</loc>
@@ -27,27 +59,19 @@
     <changefreq>weekly</changefreq>
   </url><url>
     <loc>https://jaspershen.github.io/talk/2023-asms/</loc>
-    <lastmod>2023-06-06T13:00:00+00:00</lastmod>
-    <changefreq>weekly</changefreq>
-  </url><url>
-    <loc>https://jaspershen.github.io/talk/</loc>
-    <lastmod>2023-06-06T13:00:00+00:00</lastmod>
+    <lastmod>2023-08-14T14:46:58-07:00</lastmod>
     <changefreq>weekly</changefreq>
   </url><url>
     <loc>https://jaspershen.github.io/talk/2023-stanford-postdoc-syposium/</loc>
-    <lastmod>2023-02-08T13:00:00+00:00</lastmod>
+    <lastmod>2023-08-14T14:46:58-07:00</lastmod>
     <changefreq>weekly</changefreq>
   </url><url>
     <loc>https://jaspershen.github.io/tag/metabolomics/</loc>
-    <lastmod>2023-08-12T17:02:10-07:00</lastmod>
+    <lastmod>2023-08-14T14:46:58-07:00</lastmod>
     <changefreq>weekly</changefreq>
   </url><url>
     <loc>https://jaspershen.github.io/journal_referee/nature_biotechnology/</loc>
     <lastmod>2023-08-12T17:02:10-07:00</lastmod>
-    <changefreq>weekly</changefreq>
-  </url><url>
-    <loc>https://jaspershen.github.io/tags/</loc>
-    <lastmod>2023-08-12T22:05:23-07:00</lastmod>
     <changefreq>weekly</changefreq>
   </url><url>
     <loc>https://jaspershen.github.io/publication/2023-01-19-microsampling/</loc>
@@ -55,15 +79,15 @@
     <changefreq>weekly</changefreq>
   </url><url>
     <loc>https://jaspershen.github.io/</loc>
-    <lastmod>2023-08-12T22:05:23-07:00</lastmod>
+    <lastmod>2023-08-14T14:46:58-07:00</lastmod>
     <changefreq>weekly</changefreq>
   </url><url>
     <loc>https://jaspershen.github.io/talk/2022-casms/</loc>
-    <lastmod>2022-10-20T13:00:00+00:00</lastmod>
+    <lastmod>2023-08-14T14:46:58-07:00</lastmod>
     <changefreq>weekly</changefreq>
   </url><url>
     <loc>https://jaspershen.github.io/talk/2022-shandong_university/</loc>
-    <lastmod>2022-10-09T13:00:00+00:00</lastmod>
+    <lastmod>2023-08-14T14:46:58-07:00</lastmod>
     <changefreq>weekly</changefreq>
   </url><url>
     <loc>https://jaspershen.github.io/publication/massdatabase-utilities-for-the-operation-of-the-public-compound-and-pathway-database/</loc>
@@ -71,27 +95,27 @@
     <changefreq>weekly</changefreq>
   </url><url>
     <loc>https://jaspershen.github.io/talk/2022-stanford-genetics-retreat/</loc>
-    <lastmod>2022-09-14T13:00:00+00:00</lastmod>
+    <lastmod>2023-08-14T14:46:58-07:00</lastmod>
     <changefreq>weekly</changefreq>
   </url><url>
     <loc>https://jaspershen.github.io/talk/2022-bamm/</loc>
-    <lastmod>2022-09-08T13:00:00+00:00</lastmod>
+    <lastmod>2023-08-14T14:46:58-07:00</lastmod>
     <changefreq>weekly</changefreq>
   </url><url>
     <loc>https://jaspershen.github.io/tag/multi-omics/</loc>
-    <lastmod>2023-08-11T23:09:14-07:00</lastmod>
+    <lastmod>2023-08-14T14:46:58-07:00</lastmod>
     <changefreq>weekly</changefreq>
   </url><url>
     <loc>https://jaspershen.github.io/project/</loc>
-    <lastmod>2023-08-12T15:04:23-07:00</lastmod>
+    <lastmod>2023-08-14T14:46:58-07:00</lastmod>
     <changefreq>weekly</changefreq>
   </url><url>
     <loc>https://jaspershen.github.io/project/tidymicrobiome-project/</loc>
-    <lastmod>2023-08-11T23:09:14-07:00</lastmod>
+    <lastmod>2023-08-14T14:46:58-07:00</lastmod>
     <changefreq>weekly</changefreq>
   </url><url>
     <loc>https://jaspershen.github.io/talk/2022-acs-fall/</loc>
-    <lastmod>2022-08-22T13:00:00+00:00</lastmod>
+    <lastmod>2023-08-14T14:46:58-07:00</lastmod>
     <changefreq>weekly</changefreq>
   </url><url>
     <loc>https://jaspershen.github.io/publication/deep-learning-based-pseudo-mass-spectrometry-imaging-analysis-for-precision-medicine/</loc>
@@ -99,7 +123,7 @@
     <changefreq>weekly</changefreq>
   </url><url>
     <loc>https://jaspershen.github.io/talk/2022-asms/</loc>
-    <lastmod>2022-06-05T13:00:00+00:00</lastmod>
+    <lastmod>2023-08-14T14:46:58-07:00</lastmod>
     <changefreq>weekly</changefreq>
   </url><url>
     <loc>https://jaspershen.github.io/journal_referee/nature_communications/</loc>
@@ -107,19 +131,19 @@
     <changefreq>weekly</changefreq>
   </url><url>
     <loc>https://jaspershen.github.io/talk/2021-asms/</loc>
-    <lastmod>2021-10-31T13:00:00+00:00</lastmod>
+    <lastmod>2023-08-14T14:46:58-07:00</lastmod>
     <changefreq>weekly</changefreq>
   </url><url>
     <loc>https://jaspershen.github.io/tag/others/</loc>
-    <lastmod>2023-08-12T15:04:23-07:00</lastmod>
+    <lastmod>2023-08-14T14:46:58-07:00</lastmod>
     <changefreq>weekly</changefreq>
   </url><url>
     <loc>https://jaspershen.github.io/project/scpa-project/</loc>
-    <lastmod>2023-08-12T15:04:23-07:00</lastmod>
+    <lastmod>2023-08-14T14:46:58-07:00</lastmod>
     <changefreq>weekly</changefreq>
   </url><url>
     <loc>https://jaspershen.github.io/talk/2021-exposome_data_challenge_event_xiaotao/</loc>
-    <lastmod>2021-04-29T13:00:00+00:00</lastmod>
+    <lastmod>2023-08-14T14:46:58-07:00</lastmod>
     <changefreq>weekly</changefreq>
   </url><url>
     <loc>https://jaspershen.github.io/journal_referee/bib/</loc>
@@ -135,63 +159,51 @@
     <changefreq>weekly</changefreq>
   </url><url>
     <loc>https://jaspershen.github.io/tag/academic/</loc>
-    <lastmod>2023-08-12T22:05:23-07:00</lastmod>
-    <changefreq>weekly</changefreq>
-  </url><url>
-    <loc>https://jaspershen.github.io/categories/</loc>
-    <lastmod>2023-08-12T22:05:23-07:00</lastmod>
+    <lastmod>2023-08-12T17:02:10-07:00</lastmod>
     <changefreq>weekly</changefreq>
   </url><url>
     <loc>https://jaspershen.github.io/category/demo/</loc>
-    <lastmod>2023-08-12T22:05:23-07:00</lastmod>
+    <lastmod>2023-08-12T17:02:10-07:00</lastmod>
+    <changefreq>weekly</changefreq>
+  </url><url>
+    <loc>https://jaspershen.github.io/blog/getting-started/</loc>
+    <lastmod>2020-12-13T00:00:00+00:00</lastmod>
     <changefreq>weekly</changefreq>
   </url><url>
     <loc>https://jaspershen.github.io/news/getting-started/</loc>
     <lastmod>2023-08-12T17:02:10-07:00</lastmod>
     <changefreq>weekly</changefreq>
   </url><url>
-    <loc>https://jaspershen.github.io/post/getting-started/</loc>
-    <lastmod>2023-08-12T22:05:23-07:00</lastmod>
-    <changefreq>weekly</changefreq>
-  </url><url>
     <loc>https://jaspershen.github.io/tag/%E5%BC%80%E6%BA%90/</loc>
-    <lastmod>2023-08-12T22:05:23-07:00</lastmod>
+    <lastmod>2023-08-12T17:02:10-07:00</lastmod>
     <changefreq>weekly</changefreq>
   </url><url>
     <loc>https://jaspershen.github.io/category/%E6%95%99%E7%A8%8B/</loc>
-    <lastmod>2023-08-12T22:05:23-07:00</lastmod>
+    <lastmod>2023-08-12T17:02:10-07:00</lastmod>
     <changefreq>weekly</changefreq>
   </url><url>
     <loc>https://jaspershen.github.io/news/2020-12-01-r-rmarkdown/</loc>
     <lastmod>2023-08-12T17:02:10-07:00</lastmod>
     <changefreq>weekly</changefreq>
   </url><url>
-    <loc>https://jaspershen.github.io/post/2020-12-01-r-rmarkdown/</loc>
-    <lastmod>2023-08-12T22:05:23-07:00</lastmod>
-    <changefreq>weekly</changefreq>
-  </url><url>
     <loc>https://jaspershen.github.io/tag/plot/</loc>
-    <lastmod>2023-08-12T22:05:23-07:00</lastmod>
-    <changefreq>weekly</changefreq>
-  </url><url>
-    <loc>https://jaspershen.github.io/category/r/</loc>
-    <lastmod>2023-08-12T22:05:23-07:00</lastmod>
+    <lastmod>2023-08-12T17:02:10-07:00</lastmod>
     <changefreq>weekly</changefreq>
   </url><url>
     <loc>https://jaspershen.github.io/tag/r-markdown/</loc>
-    <lastmod>2023-08-12T22:05:23-07:00</lastmod>
+    <lastmod>2023-08-12T17:02:10-07:00</lastmod>
     <changefreq>weekly</changefreq>
   </url><url>
     <loc>https://jaspershen.github.io/tag/regression/</loc>
-    <lastmod>2023-08-12T22:05:23-07:00</lastmod>
+    <lastmod>2023-08-12T17:02:10-07:00</lastmod>
     <changefreq>weekly</changefreq>
   </url><url>
     <loc>https://jaspershen.github.io/project/r_cookbook/</loc>
-    <lastmod>2023-08-12T15:04:23-07:00</lastmod>
+    <lastmod>2023-08-14T14:46:58-07:00</lastmod>
     <changefreq>weekly</changefreq>
   </url><url>
     <loc>https://jaspershen.github.io/project/metnormalizer-project/</loc>
-    <lastmod>2023-08-11T23:09:14-07:00</lastmod>
+    <lastmod>2023-08-14T14:46:58-07:00</lastmod>
     <changefreq>weekly</changefreq>
   </url><url>
     <loc>https://jaspershen.github.io/journal_referee/communications_biology/</loc>
@@ -203,7 +215,7 @@
     <changefreq>weekly</changefreq>
   </url><url>
     <loc>https://jaspershen.github.io/project/deeppseudomsi-project/</loc>
-    <lastmod>2023-08-11T23:09:14-07:00</lastmod>
+    <lastmod>2023-08-14T14:46:58-07:00</lastmod>
     <changefreq>weekly</changefreq>
   </url><url>
     <loc>https://jaspershen.github.io/journal_referee/genomics_proteomics_bioinformatics/</loc>
@@ -215,11 +227,11 @@
     <changefreq>weekly</changefreq>
   </url><url>
     <loc>https://jaspershen.github.io/project/laggedcor-project/</loc>
-    <lastmod>2023-08-11T23:09:14-07:00</lastmod>
+    <lastmod>2023-08-14T14:46:58-07:00</lastmod>
     <changefreq>weekly</changefreq>
   </url><url>
     <loc>https://jaspershen.github.io/project/metid-project/</loc>
-    <lastmod>2023-08-11T23:09:14-07:00</lastmod>
+    <lastmod>2023-08-14T14:46:58-07:00</lastmod>
     <changefreq>weekly</changefreq>
   </url><url>
     <loc>https://jaspershen.github.io/journal_referee/proteomics/</loc>
@@ -227,27 +239,27 @@
     <changefreq>weekly</changefreq>
   </url><url>
     <loc>https://jaspershen.github.io/project/tidymass-project/</loc>
-    <lastmod>2023-08-11T23:09:14-07:00</lastmod>
+    <lastmod>2023-08-14T14:46:58-07:00</lastmod>
+    <changefreq>weekly</changefreq>
+  </url><url>
+    <loc>https://jaspershen.github.io/blog/writing-technical-content/</loc>
+    <lastmod>2019-07-12T00:00:00+00:00</lastmod>
     <changefreq>weekly</changefreq>
   </url><url>
     <loc>https://jaspershen.github.io/news/2023-casms-talk/</loc>
-    <lastmod>2019-07-12T00:00:00+00:00</lastmod>
+    <lastmod>2023-08-14T14:46:58-07:00</lastmod>
     <changefreq>weekly</changefreq>
   </url><url>
     <loc>https://jaspershen.github.io/news/writing-technical-content/</loc>
     <lastmod>2023-08-12T17:02:10-07:00</lastmod>
     <changefreq>weekly</changefreq>
   </url><url>
-    <loc>https://jaspershen.github.io/post/writing-technical-content/</loc>
-    <lastmod>2023-08-12T22:05:23-07:00</lastmod>
+    <loc>https://jaspershen.github.io/blog/jupyter/</loc>
+    <lastmod>2019-09-05T00:00:00+00:00</lastmod>
     <changefreq>weekly</changefreq>
   </url><url>
     <loc>https://jaspershen.github.io/news/jupyter/</loc>
     <lastmod>2023-08-12T17:02:10-07:00</lastmod>
-    <changefreq>weekly</changefreq>
-  </url><url>
-    <loc>https://jaspershen.github.io/post/jupyter/</loc>
-    <lastmod>2023-08-12T22:05:23-07:00</lastmod>
     <changefreq>weekly</changefreq>
   </url><url>
     <loc>https://jaspershen.github.io/slides/</loc>
@@ -259,19 +271,19 @@
     <changefreq>weekly</changefreq>
   </url><url>
     <loc>https://jaspershen.github.io/talk/2018-metabolomics-conference/</loc>
-    <lastmod>2018-06-24T13:00:00+00:00</lastmod>
+    <lastmod>2023-08-14T14:46:58-07:00</lastmod>
     <changefreq>weekly</changefreq>
   </url><url>
     <loc>https://jaspershen.github.io/talk/2016-asms/</loc>
-    <lastmod>2016-07-22T13:00:00+00:00</lastmod>
+    <lastmod>2023-08-14T14:46:58-07:00</lastmod>
     <changefreq>weekly</changefreq>
   </url><url>
     <loc>https://jaspershen.github.io/project/metdna-project/</loc>
-    <lastmod>2023-08-11T23:09:14-07:00</lastmod>
+    <lastmod>2023-08-14T14:46:58-07:00</lastmod>
     <changefreq>weekly</changefreq>
   </url><url>
     <loc>https://jaspershen.github.io/project/metflow-project/</loc>
-    <lastmod>2023-08-11T23:09:14-07:00</lastmod>
+    <lastmod>2023-08-14T14:46:58-07:00</lastmod>
     <changefreq>weekly</changefreq>
   </url><url>
     <loc>https://jaspershen.github.io/admin/</loc>
@@ -283,15 +295,15 @@
     <changefreq>weekly</changefreq>
   </url><url>
     <loc>https://jaspershen.github.io/news/</loc>
-    <lastmod>2023-08-12T17:02:10-07:00</lastmod>
-    <changefreq>weekly</changefreq>
-  </url><url>
-    <loc>https://jaspershen.github.io/post/</loc>
-    <lastmod>2023-08-10T21:35:18-07:00</lastmod>
+    <lastmod>2023-08-14T14:46:58-07:00</lastmod>
     <changefreq>weekly</changefreq>
   </url><url>
     <loc>https://jaspershen.github.io/journal_referee/</loc>
     <lastmod>2023-08-12T17:02:10-07:00</lastmod>
+    <changefreq>weekly</changefreq>
+  </url><url>
+    <loc>https://jaspershen.github.io/talk/</loc>
+    <lastmod>2023-08-14T14:46:58-07:00</lastmod>
     <changefreq>weekly</changefreq>
   </url>
 </urlset>

@@ -25,6 +25,7 @@ tags:
 - Academic
 - 开源
 title: Welcome to Wowchemy, the website builder for Hugo
+type: book
 commentable: true
 ---
 
