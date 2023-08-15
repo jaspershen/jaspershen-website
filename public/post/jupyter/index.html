@@ -230,7 +230,7 @@
   
     
     
-    <link rel="stylesheet" href="/css/libs/chroma/github-light.min.css" title="hl-light" media="print" onload="this.media='all'" >
+    <link rel="stylesheet" href="/css/libs/chroma/dracula.min.css" title="hl-light" media="print" onload="this.media='all'" >
     <link rel="stylesheet" href="/css/libs/chroma/dracula.min.css" title="hl-dark" media="print" onload="this.media='all'" disabled>
   
 
@@ -369,7 +369,7 @@
     />
   
   
-    <meta property="article:modified_time" content="2023-08-12T22:05:23-07:00">
+    <meta property="article:modified_time" content="2023-08-15T11:35:45-07:00">
   
 
 
@@ -377,53 +377,6 @@
 
 
 
-    
-
-
-
-
-
-
-  
-
-
-
-
-<script type="application/ld+json">
-{
-  "@context": "https://schema.org",
-  "@type": "BlogPosting",
-  "mainEntityOfPage": {
-    "@type": "WebPage",
-    "@id": "https://jaspershen.github.io/post/jupyter/"
-  },
-  "headline": "Display Jupyter Notebooks with Academic",
-  
-  "image": [
-    "https://jaspershen.github.io/post/jupyter/featured.png"
-  ],
-  
-  "datePublished": "2019-02-05T00:00:00Z",
-  "dateModified": "2023-08-12T22:05:23-07:00",
-  
-  "author": {
-    "@type": "Person",
-    "name": "Xiaotao Shen"
-  },
-  
-  "publisher": {
-    "@type": "Organization",
-    "name": "Xiaotao Shen",
-    "logo": {
-      "@type": "ImageObject",
-      "url": "https://jaspershen.github.io/media/logo_hua82804f08c421dd09439d93e6d351d6c_109030_192x192_fit_lanczos_3.png"
-    }
-  },
-  "description": "Learn how to blog in Academic using Jupyter notebooks"
-}
-</script>
-
-  
 
   
 
@@ -787,7 +740,7 @@
           
 
           <li class="nav-item">
-            <a class="nav-link " href="/#posts"><span>📖 Posts</span></a>
+            <a class="nav-link " href="/#post"><span>📖 Blog</span></a>
           </li>
 
           
@@ -955,113 +908,139 @@
     
     
 
-    <article class="article">
-
-  
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-  
-  
-
-
-<div class="article-container pt-3">
-  <h1>Display Jupyter Notebooks with Academic</h1>
-
-  
-  <p class="page-subtitle">Learn how to blog in Academic using Jupyter notebooks</p>
-  
-
-  
-
-
-<div class="article-metadata">
-
-  
-  
-  
-  
-  <div>
     
 
-  <span class="author-highlighted">
-      Xiaotao Shen</span>
-  </div>
+
+
+
+<div class="container-fluid docs">
+  <div class="row flex-xl-nowrap">
+    <div class="col-12 col-md-3 col-xl-2 docs-sidebar">
+      <form class="docs-search d-flex align-items-center">
+  <button class="btn docs-toggle d-md-none p-0 mr-md-3 w-100" type="button" data-toggle="collapse" data-target="#docs-nav" aria-controls="docs-nav" aria-expanded="false" aria-label="Toggle section navigation">
+    <div class="d-flex">
+      <span class="d-md-none pl-1 flex-grow-1 text-left overflow-hidden">
+        
+        
+          Posts
+        
+      </span>
+      <span><i class="fas fa-chevron-down"></i></span>
+    </div>
+  </button>
+
+  
+  <button class="form-control sidebar-search js-search d-none d-md-flex">
+    <i class="fas fa-search pr-2"></i>
+    <span class="sidebar-search-text">Search...</span>
+    <span class="sidebar-search-shortcut">/</span>
+  </button>
+  
+</form>
+
+<nav class="collapse docs-links" id="docs-nav">
+  
+  
+  
+  
   
   
 
   
-  <span class="article-date">
+  
     
+
     
       
-          Last updated on
+
+      <ul class="nav docs-sidenav">
+        <li><a href="/post/"><i class="fas fa-arrow-left pr-1"></i>Posts</a></li>
+      </ul>
+
       
+      
+
+
+  <li class="active"><a href="/post/jupyter/">Display Jupyter Notebooks with Academic</a></li>
+
     
-    Aug 12, 2023
-  </span>
   
+</nav>
 
-  
+    </div>
 
-  
-  <span class="middot-divider"></span>
-  <span class="article-reading-time">
-    2 min read
-  </span>
-  
-
-  
-  
-  
-  
-
-  
-  
-
-</div>
-
-  
-
-
-
-
-
-</div>
-
-
-<div class="article-header article-container featured-image-wrapper mt-4 mb-4" style="max-width: 720px; max-height: 313px;">
-  <div style="position: relative">
-    <img src="/post/jupyter/featured_hub1daa031c2af6888ff37bd93eb033a1a_71549_720x2500_fit_q75_h2_lanczos_3.webp" width="720" height="313" alt="" class="featured-image">
     
-  </div>
-</div>
+    
+    <div class="d-none d-xl-block col-xl-2 docs-toc">
+      
 
 
 
-  <div class="article-container">
 
-    <div class="article-style">
-      <div class="highlight"><pre tabindex="0" class="chroma"><code class="language-python" data-lang="python"><span class="line"><span class="cl"><span class="kn">from</span> <span class="nn">IPython.core.display</span> <span class="kn">import</span> <span class="n">Image</span>
+
+
+
+
+
+
+
+
+      <ul class="nav toc-top">
+        <li><a href="#" id="back_to_top" class="docs-toc-title">Contents</a></li>
+      </ul>
+
+      <nav id="TableOfContents">
+  <ul>
+    <li><a href="#install-python-and-jupyterlab">Install Python and JupyterLab</a></li>
+    <li><a href="#create-or-upload-a-jupyter-notebook">Create or upload a Jupyter notebook</a></li>
+    <li><a href="#edit-your-post-metadata">Edit your post metadata</a></li>
+    <li><a href="#convert-notebook-to-markdown">Convert notebook to Markdown</a></li>
+    <li><a href="#example">Example</a></li>
+  </ul>
+</nav>
+
+      
+
+
+
+
+
+
+
+
+
+
+
+    </div>
+    
+
+    <main class="col-12 col-md-9 col-xl-8 py-md-3 pl-md-5 docs-content" role="main">
+
+      <div class="docs-article-container">
+        
+      </div>
+
+      
+      
+      
+      <div class="article-header">
+        
+        
+        <img src="/post/jupyter/featured_hub1daa031c2af6888ff37bd93eb033a1a_71549_1800x310_fit_q75_h2_lanczos_3.webp" width="713" height="310" class="article-banner" alt="">
+        
+      </div>
+      
+
+      <div class="docs-article-container">
+        
+        <h1>Display Jupyter Notebooks with Academic</h1>
+
+        <article class="article-style">
+
+          
+          
+
+          <div class="highlight"><pre tabindex="0" class="chroma"><code class="language-python" data-lang="python"><span class="line"><span class="cl"><span class="kn">from</span> <span class="nn">IPython.core.display</span> <span class="kn">import</span> <span class="n">Image</span>
 </span></span><span class="line"><span class="cl"><span class="n">Image</span><span class="p">(</span><span class="s1">&#39;https://www.python.org/static/community_logos/python-logo-master-v3-TM-flattened.png&#39;</span><span class="p">)</span>
 </span></span></code></pre></div><p>
 
@@ -1113,307 +1092,123 @@
 </span></span></code></pre></div><h2 id="example">Example</h2>
 <p>This post was created with Jupyter. The orginal files can be found at <a href="https://github.com/gcushen/hugo-academic/tree/master/exampleSite/content/post/jupyter" target="_blank" rel="noopener">https://github.com/gcushen/hugo-academic/tree/master/exampleSite/content/post/jupyter</a></p>
 
-    </div>
 
-    
+        </article>
 
-
-
-
-
-
-
-<div class="share-box">
-  <ul class="share">
-    
-      
-      
-      
         
-      
-      
-      
-      
-      
-      
-      
-      <li>
-        <a href="https://twitter.com/intent/tweet?url=https%3A%2F%2Fjaspershen.github.io%2Fpost%2Fjupyter%2F&amp;text=Display&#43;Jupyter&#43;Notebooks&#43;with&#43;Academic" target="_blank" rel="noopener" class="share-btn-twitter" aria-label="twitter">
-          <i class="fab fa-twitter"></i>
-        </a>
-      </li>
-    
-      
-      
-      
+
+
+
+<style>
+  .btn-feedback {
+    display: inline-block;
+  }
+  .btn-feedback-negative {
+    margin-left: 1em;
+  }
+  .feedback--response {
+    display: none;
+    margin-top: 1em;
+  }
+  .feedback--response__visible {
+    display: block;
+  }
+</style>
+<div class="d-print-none widget--feedback">
+  <h2 class="feedback--title">Feedback</h2>
+  <p class="feedback--question">Was this page helpful?</p>
+  <p class="feedback--response feedback--response-positive">
+    🙏
+  </p>
+  <p class="feedback--response feedback--response-negative">
+    🙏
+  </p>
+  <button class="btn btn-primary mb-4 btn-feedback btn-feedback-positive">
+    😍 Yes
+  </button>
+  <button class="btn btn-primary mb-4 btn-feedback btn-feedback-negative">
+    😡 No
+  </button>
+</div>
+<script>
+  const btnYes = document.querySelector('.btn-feedback-positive');
+  const btnNo = document.querySelector('.btn-feedback-negative');
+  const responseYes = document.querySelector('.feedback--response-positive');
+  const responseNo = document.querySelector('.feedback--response-negative');
+  const disableButtons = () => {
+    btnYes.disabled = true;
+    btnNo.disabled = true;
+  };
+  const sendFeedback = (value) => {
+    if (typeof gtag !== 'function') return;
+    gtag('event', 'click', {
+      'event_category': 'page_rating',
+      'event_label': window.location.pathname,
+      'value': value,
+      'transport_type': 'beacon',
+      'event_callback': function () {
+        console.debug(`✅ Feedback sent ${value}`);
+      }
+    });
+  };
+  btnYes.addEventListener('click', () => {
+    console.debug('Feedback response: 😍');
+    responseYes.classList.add('feedback--response__visible');
+    disableButtons();
+    sendFeedback(1);
+  });
+  btnNo.addEventListener('click', () => {
+    console.debug('Feedback response: 😡');
+    responseNo.classList.add('feedback--response__visible');
+    disableButtons();
+    sendFeedback(0);
+  });
+</script>
+
+
+
         
-      
-      
-      
-      
-      
-      
-      
-      <li>
-        <a href="https://www.facebook.com/sharer.php?u=https%3A%2F%2Fjaspershen.github.io%2Fpost%2Fjupyter%2F&amp;t=Display&#43;Jupyter&#43;Notebooks&#43;with&#43;Academic" target="_blank" rel="noopener" class="share-btn-facebook" aria-label="facebook">
-          <i class="fab fa-facebook"></i>
-        </a>
-      </li>
-    
-      
-      
-      
+
+
+
         
-      
-      
-      
-      
-      
-      
-      
         
-      
-      <li>
-        <a href="mailto:?subject=Display%20Jupyter%20Notebooks%20with%20Academic&amp;body=https%3A%2F%2Fjaspershen.github.io%2Fpost%2Fjupyter%2F" target="_blank" rel="noopener" class="share-btn-email" aria-label="envelope">
-          <i class="fas fa-envelope"></i>
-        </a>
-      </li>
-    
-      
-      
-      
-        
-      
-      
-      
-      
-      
-      
-      
-      <li>
-        <a href="https://www.linkedin.com/shareArticle?url=https%3A%2F%2Fjaspershen.github.io%2Fpost%2Fjupyter%2F&amp;title=Display&#43;Jupyter&#43;Notebooks&#43;with&#43;Academic" target="_blank" rel="noopener" class="share-btn-linkedin" aria-label="linkedin-in">
-          <i class="fab fa-linkedin-in"></i>
-        </a>
-      </li>
-    
-      
-      
-      
-        
-      
-      
-      
-      
-      
-      
-      
-      <li>
-        <a href="whatsapp://send?text=Display&#43;Jupyter&#43;Notebooks&#43;with&#43;Academic%20https%3A%2F%2Fjaspershen.github.io%2Fpost%2Fjupyter%2F" target="_blank" rel="noopener" class="share-btn-whatsapp" aria-label="whatsapp">
-          <i class="fab fa-whatsapp"></i>
-        </a>
-      </li>
-    
-      
-      
-      
-        
-      
-      
-      
-      
-      
-      
-      
-      <li>
-        <a href="https://service.weibo.com/share/share.php?url=https%3A%2F%2Fjaspershen.github.io%2Fpost%2Fjupyter%2F&amp;title=Display&#43;Jupyter&#43;Notebooks&#43;with&#43;Academic" target="_blank" rel="noopener" class="share-btn-weibo" aria-label="weibo">
-          <i class="fab fa-weibo"></i>
-        </a>
-      </li>
-    
-  </ul>
+        <div class="article-widget">
+          
+<div class="post-nav">
+  
+  
+  
+  <div class="post-nav-item">
+    <div class="meta-nav">Previous</div>
+    <a href="/post/writing-technical-content/" rel="next">Writing technical content in Markdown</a>
+  </div>
+  
+  
 </div>
 
+        </div>
+        
+      </div>
+
+      <div class="body-footer">
+        <p>Last updated on Aug 15, 2023</p>
+
+        
 
 
 
 
+        
 
 
 
 
+        
 
 
-  
-  
-    
+      </div>
 
-
-
-  
-  
-  
-    
-  
-  
-  
-  <div class="media author-card content-widget-hr">
-    
-      
-      <a href="https://jaspershen.github.io/"><img class="avatar mr-3 avatar-circle" src="/authors/admin/avatar_hu86242519a21313948ac7dc77e0a27da6_1568301_270x270_fill_q75_lanczos_center.jpg" alt="Xiaotao Shen"></a>
-    
-
-    <div class="media-body">
-      <h5 class="card-title"><a href="https://jaspershen.github.io/">Xiaotao Shen</a></h5>
-      <h6 class="card-subtitle">Postdoctoral Research Fellow</h6>
-      <p class="card-text">Metabolomics, Multi-omics, Bioinformatics, Systems Biology.</p>
-      <ul class="network-icon" aria-hidden="true">
-  
-    
-    
-    
-      
-    
-    
-    
-    
-    
-      
-    
-    <li>
-      <a href="/#contact" >
-        <i class="fas fa-envelope"></i>
-      </a>
-    </li>
-  
-    
-    
-    
-      
-    
-    
-    
-    
-    
-      
-    
-    <li>
-      <a href="https://github.com/jaspershen" target="_blank" rel="noopener">
-        <i class="fab fa-github"></i>
-      </a>
-    </li>
-  
-    
-    
-    
-    
-    
-    
-    
-      
-    
-    <li>
-      <a href="https://scholar.google.co.uk/citations?hl=en&amp;user=3TK9yz8AAAAJ" target="_blank" rel="noopener">
-        <i class="ai ai-google-scholar"></i>
-      </a>
-    </li>
-  
-    
-    
-    
-      
-    
-    
-    
-    
-    
-      
-    
-    <li>
-      <a href="https://twitter.com/xiaotaoshen1990" target="_blank" rel="noopener">
-        <i class="fab fa-twitter"></i>
-      </a>
-    </li>
-  
-    
-    
-    
-      
-    
-    
-    
-    
-    
-      
-    
-    <li>
-      <a href="https://www.linkedin.com/in/shenxt/" target="_blank" rel="noopener">
-        <i class="fab fa-linkedin"></i>
-      </a>
-    </li>
-  
-    
-    
-    
-      
-    
-    
-    
-    
-    
-      
-    
-    <li>
-      <a href="https://jaspershen.github.io/image/wechat_QR.jpg" target="_blank" rel="noopener">
-        <i class="fab fa-weixin"></i>
-      </a>
-    </li>
-  
-    
-    
-    
-    
-    
-    
-    
-      
-    
-    <li>
-      <a href="/file/XiaotaoShen_CV.pdf" >
-        <i class="ai ai-cv"></i>
-      </a>
-    </li>
-  
-</ul>
-
-    </div>
-  </div>
-
-
-  
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-  </div>
-</article>
-  </div>
-
-  <div class="page-footer">
-    
-    
-    <div class="container">
       <footer class="site-footer">
   <hr>
 
@@ -1502,7 +1297,15 @@
   
   
 </footer>
-    </div>
+
+    </main>
+  </div>
+</div>
+
+  </div>
+
+  <div class="page-footer">
+    
     
   </div>
 
@@ -1528,6 +1331,11 @@
 
 
 
+
+<script src="https://cdn.jsdelivr.net/npm/anchor-js@5.0.0/anchor.min.js" integrity="sha256-aQmOEF2ZD4NM/xt4hthzREIo/2PFkOX/g01WjxEV7Ys=" crossorigin="anonymous"></script>
+<script>
+  anchors.add();
+</script>
 
 
 
@@ -1585,10 +1393,9 @@
 
 
 
-<script id="page-data" type="application/json">{"use_headroom":true}</script>
+<script id="page-data" type="application/json">{"use_headroom":false}</script>
 
 
-  <script src="/js/wowchemy-headroom.db4755770454eb63685f8de785c0a172.js" type="module"></script>
 
 
 

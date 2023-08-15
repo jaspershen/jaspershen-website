@@ -19,7 +19,7 @@
     <changefreq>weekly</changefreq>
   </url><url>
     <loc>https://jaspershen.github.io/categories/</loc>
-    <lastmod>2023-08-12T17:02:10-07:00</lastmod>
+    <lastmod>2023-08-15T11:35:45-07:00</lastmod>
     <changefreq>weekly</changefreq>
   </url><url>
     <loc>https://jaspershen.github.io/category/chinese/</loc>
@@ -27,10 +27,6 @@
     <changefreq>weekly</changefreq>
   </url><url>
     <loc>https://jaspershen.github.io/tag/paper/</loc>
-    <lastmod>2023-07-19T21:13:14-05:00</lastmod>
-    <changefreq>weekly</changefreq>
-  </url><url>
-    <loc>https://jaspershen.github.io/blog/</loc>
     <lastmod>2023-07-19T21:13:14-05:00</lastmod>
     <changefreq>weekly</changefreq>
   </url><url>
@@ -43,10 +39,10 @@
     <changefreq>weekly</changefreq>
   </url><url>
     <loc>https://jaspershen.github.io/tags/</loc>
-    <lastmod>2023-08-14T14:46:58-07:00</lastmod>
+    <lastmod>2023-08-15T11:35:45-07:00</lastmod>
     <changefreq>weekly</changefreq>
   </url><url>
-    <loc>https://jaspershen.github.io/blog/2023-07-19-colorspace/</loc>
+    <loc>https://jaspershen.github.io/post/2023-07-19-colorspace/</loc>
     <lastmod>2023-07-19T21:13:14-05:00</lastmod>
     <changefreq>weekly</changefreq>
   </url><url>
@@ -79,7 +75,7 @@
     <changefreq>weekly</changefreq>
   </url><url>
     <loc>https://jaspershen.github.io/</loc>
-    <lastmod>2023-08-14T14:46:58-07:00</lastmod>
+    <lastmod>2023-08-15T11:35:45-07:00</lastmod>
     <changefreq>weekly</changefreq>
   </url><url>
     <loc>https://jaspershen.github.io/talk/2022-casms/</loc>
@@ -159,27 +155,27 @@
     <changefreq>weekly</changefreq>
   </url><url>
     <loc>https://jaspershen.github.io/tag/academic/</loc>
-    <lastmod>2023-08-12T17:02:10-07:00</lastmod>
+    <lastmod>2023-08-15T11:35:45-07:00</lastmod>
     <changefreq>weekly</changefreq>
   </url><url>
     <loc>https://jaspershen.github.io/category/demo/</loc>
-    <lastmod>2023-08-12T17:02:10-07:00</lastmod>
-    <changefreq>weekly</changefreq>
-  </url><url>
-    <loc>https://jaspershen.github.io/blog/getting-started/</loc>
-    <lastmod>2020-12-13T00:00:00+00:00</lastmod>
+    <lastmod>2023-08-15T11:35:45-07:00</lastmod>
     <changefreq>weekly</changefreq>
   </url><url>
     <loc>https://jaspershen.github.io/news/getting-started/</loc>
     <lastmod>2023-08-12T17:02:10-07:00</lastmod>
     <changefreq>weekly</changefreq>
   </url><url>
+    <loc>https://jaspershen.github.io/post/getting-started/</loc>
+    <lastmod>2023-08-15T11:35:45-07:00</lastmod>
+    <changefreq>weekly</changefreq>
+  </url><url>
     <loc>https://jaspershen.github.io/tag/%E5%BC%80%E6%BA%90/</loc>
-    <lastmod>2023-08-12T17:02:10-07:00</lastmod>
+    <lastmod>2023-08-15T11:35:45-07:00</lastmod>
     <changefreq>weekly</changefreq>
   </url><url>
     <loc>https://jaspershen.github.io/category/%E6%95%99%E7%A8%8B/</loc>
-    <lastmod>2023-08-12T17:02:10-07:00</lastmod>
+    <lastmod>2023-08-15T11:35:45-07:00</lastmod>
     <changefreq>weekly</changefreq>
   </url><url>
     <loc>https://jaspershen.github.io/news/2020-12-01-r-rmarkdown/</loc>
@@ -242,10 +238,6 @@
     <lastmod>2023-08-14T14:46:58-07:00</lastmod>
     <changefreq>weekly</changefreq>
   </url><url>
-    <loc>https://jaspershen.github.io/blog/writing-technical-content/</loc>
-    <lastmod>2019-07-12T00:00:00+00:00</lastmod>
-    <changefreq>weekly</changefreq>
-  </url><url>
     <loc>https://jaspershen.github.io/news/2023-casms-talk/</loc>
     <lastmod>2023-08-14T14:46:58-07:00</lastmod>
     <changefreq>weekly</changefreq>
@@ -254,12 +246,16 @@
     <lastmod>2023-08-12T17:02:10-07:00</lastmod>
     <changefreq>weekly</changefreq>
   </url><url>
-    <loc>https://jaspershen.github.io/blog/jupyter/</loc>
-    <lastmod>2019-09-05T00:00:00+00:00</lastmod>
+    <loc>https://jaspershen.github.io/post/writing-technical-content/</loc>
+    <lastmod>2023-08-15T11:35:45-07:00</lastmod>
     <changefreq>weekly</changefreq>
   </url><url>
     <loc>https://jaspershen.github.io/news/jupyter/</loc>
     <lastmod>2023-08-12T17:02:10-07:00</lastmod>
+    <changefreq>weekly</changefreq>
+  </url><url>
+    <loc>https://jaspershen.github.io/post/jupyter/</loc>
+    <lastmod>2023-08-15T11:35:45-07:00</lastmod>
     <changefreq>weekly</changefreq>
   </url><url>
     <loc>https://jaspershen.github.io/slides/</loc>
@@ -296,6 +292,10 @@
   </url><url>
     <loc>https://jaspershen.github.io/news/</loc>
     <lastmod>2023-08-14T14:46:58-07:00</lastmod>
+    <changefreq>weekly</changefreq>
+  </url><url>
+    <loc>https://jaspershen.github.io/post/</loc>
+    <lastmod>2023-08-15T11:35:45-07:00</lastmod>
     <changefreq>weekly</changefreq>
   </url><url>
     <loc>https://jaspershen.github.io/journal_referee/</loc>
