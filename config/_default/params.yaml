@@ -77,7 +77,7 @@ features:
     gravatar: false
     shape: circle
   comment:
-    provider: ''
+    provider: 'disqus'
     disqus:
       shortname: 'blog-at8qrhng8b'
       show_count: true
