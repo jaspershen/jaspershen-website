@@ -321,7 +321,7 @@ sections:
         id: https://formspree.io/f/xpzgpjby
       netlify:
         captcha: false
-      provider: netlify
+      provider: formspree
     # office_hours:
     # - Monday - Friday 9:30 to 17:30
     # - Weekend 14:00 to 17:00
