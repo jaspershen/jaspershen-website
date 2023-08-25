@@ -89,29 +89,34 @@ sections:
     is_fullscreen: true
     loop: true
     slide_height: ""
+
 - block: about.biography
   content:
     title: 👤 About me
     username: admin
   id: about
+
+- block: features
+  content:
+    title: "📚 Statistics"
+    subtitle: ""
+    text: Data from [Google Scholar](https://scholar.google.com/citations?hl=en&user=3TK9yz8AAAAJ) (8/25/2023)
+    items:
+    - description: Publications
+      icon: newspaper
+      icon_pack: fas
+      name: 34
+    - description: Citations
+      icon: open-data
+      icon_pack: ai
+      name: 1,212
+    - description: H-index
+      icon: google-scholar
+      icon_pack: ai
+      name: 13
+  design:
+    columns: "2"
   
-# - block: features
-#   content:
-#     items:
-#     - description: 90%
-#       icon: r-project
-#       icon_pack: fab
-#       name: R
-#     - description: 100%
-#       icon: chart-line
-#       icon_pack: fas
-#       name: Statistics
-#     - description: 10%
-#       icon: camera-retro
-#       icon_pack: fas
-#       name: Photography
-#     title: Skills
-    
 - block: experience
   id: experience
   content:
