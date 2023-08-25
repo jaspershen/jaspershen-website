@@ -7,6 +7,7 @@ tags: ["R package", "Paper"]
 type: book
 commentable: true
 editable: true
+show_related: true
 summary: "颜色是数据可视化中非常重要的一个元素，它可以传达信息，引起注意，增强美感，甚至影响情绪。但是，如何选择合适的颜色方案呢？有没有一种科学的方法，可以帮助我们在众多的颜色中找到最佳的组合呢?"
 ---
 

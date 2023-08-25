@@ -232,10 +232,15 @@ sections:
     flip_alt_rows: false
     view: community/compact2
     background:
-      image: 
-        filename: code2.jpg
+      video:
+      # Name of video in `assets/media/`.
+        filename: coding.mp4
         filters:
           brightness: 0.5
+      # image: 
+      #   filename: coding.mp4
+      #   filters:
+      #     brightness: 0.5
       #  Image fit. Options are `cover` (default), `contain`, or `actual` size.
       size: cover
       # Image focal point. Options include `left`, `center` (default), or `right`.
@@ -318,7 +323,7 @@ sections:
     email: shenxt1990@outlook.com
     form:
       formspree:
-        id: https://formspree.io/f/xpzgpjby
+        id: xpzgpjby
       netlify:
         captcha: false
       provider: formspree
