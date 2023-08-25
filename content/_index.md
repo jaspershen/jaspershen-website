@@ -53,7 +53,7 @@ sections:
         icon: address-card
         icon_pack: fas
         text: CV
-        url: https://www.shenxt.info/files/XiaotaoShen_CV.pdf
+        url: file/XiaotaoShen_CV.pdf
     - align: left
       background:
         color: '#333'
