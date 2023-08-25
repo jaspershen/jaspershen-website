@@ -350,10 +350,15 @@ sections:
     columns: "2"
     view: list
     background:
-      image: 
-        filename: reading_news.jpeg
+      video:
+      # Name of video in `assets/media/`.
+        filename: pexels-koolshooters-6628560 (2160p).mp4
         filters:
           brightness: 0.5
+      # image: 
+      #   filename: reading_news.jpeg
+      #   filters:
+      #     brightness: 0.5
       #  Image fit. Options are `cover` (default), `contain`, or `actual` size.
       size: cover
       # Image focal point. Options include `left`, `center` (default), or `right`.
@@ -592,10 +597,15 @@ sections:
   design:
     columns: "1"
     background:
-      image: 
-        filename: galary.jpg
+      video:
+      # Name of video in `assets/media/`.
+        filename: pexels_videos_1851190 (2160p).mp4
         filters:
-          brightness: 1
+          brightness: 0.5
+      # image: 
+      #   filename: galary.jpg
+      #   filters:
+      #     brightness: 1
       #  Image fit. Options are `cover` (default), `contain`, or `actual` size.
       size: cover
       # Image focal point. Options include `left`, `center` (default), or `right`.
