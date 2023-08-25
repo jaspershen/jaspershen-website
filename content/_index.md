@@ -234,7 +234,7 @@ sections:
     background:
       video:
       # Name of video in `assets/media/`.
-        filename: coding.mp4
+        filename: pexels_videos_2699 (1080p).mp4
         filters:
           brightness: 0.5
       # image: 
