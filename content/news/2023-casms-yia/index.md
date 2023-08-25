@@ -4,5 +4,6 @@ image:
   caption: ''
   placement: 2
 math: true
+commentable: true
 title: 😀 Xiaotao Shen received the CASMS Young Investigator Award!
 ---

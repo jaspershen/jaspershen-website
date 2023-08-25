@@ -203,6 +203,8 @@ sections:
       folders:
       - publication
     title: 📃 Publications
+    subtitle: |-
+      🔗 [Google scholar](https://scholar.google.co.uk/citations?user=3TK9yz8AAAAJ&hl=en)
   design:
     columns: "1"
     flip_alt_rows: false
@@ -573,6 +575,7 @@ sections:
   content:
     subtitle: ""
     text: 
+    # text: '{{< gallery album="gallery" >}}'
     title: 📸 Photos
   id: photos
   design:
