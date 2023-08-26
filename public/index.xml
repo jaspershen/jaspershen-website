@@ -697,7 +697,7 @@ data.head()
 
 
 
-&lt;div id=&#34;chart-857134692&#34; class=&#34;chart&#34;&gt;&lt;/div&gt;
+&lt;div id=&#34;chart-413286759&#34; class=&#34;chart&#34;&gt;&lt;/div&gt;
 &lt;script&gt;
   (function() {
     let a = setInterval( function() {
@@ -707,7 +707,7 @@ data.head()
       clearInterval( a );
 
       Plotly.d3.json(&#34;./line-chart.json&#34;, function(chart) {
-        Plotly.plot(&#39;chart-857134692&#39;, chart.data, chart.layout, {responsive: true});
+        Plotly.plot(&#39;chart-413286759&#39;, chart.data, chart.layout, {responsive: true});
       });
     }, 500 );
   })();
@@ -1091,7 +1091,7 @@ data.head()
 
 
 
-&lt;div id=&#34;chart-387164925&#34; class=&#34;chart&#34;&gt;&lt;/div&gt;
+&lt;div id=&#34;chart-725143698&#34; class=&#34;chart&#34;&gt;&lt;/div&gt;
 &lt;script&gt;
   (function() {
     let a = setInterval( function() {
@@ -1101,7 +1101,7 @@ data.head()
       clearInterval( a );
 
       Plotly.d3.json(&#34;./line-chart.json&#34;, function(chart) {
-        Plotly.plot(&#39;chart-387164925&#39;, chart.data, chart.layout, {responsive: true});
+        Plotly.plot(&#39;chart-725143698&#39;, chart.data, chart.layout, {responsive: true});
       });
     }, 500 );
   })();
@@ -1485,7 +1485,7 @@ data.head()
 
 
 
-&lt;div id=&#34;chart-934857261&#34; class=&#34;chart&#34;&gt;&lt;/div&gt;
+&lt;div id=&#34;chart-543168729&#34; class=&#34;chart&#34;&gt;&lt;/div&gt;
 &lt;script&gt;
   (function() {
     let a = setInterval( function() {
@@ -1495,7 +1495,7 @@ data.head()
       clearInterval( a );
 
       Plotly.d3.json(&#34;./line-chart.json&#34;, function(chart) {
-        Plotly.plot(&#39;chart-934857261&#39;, chart.data, chart.layout, {responsive: true});
+        Plotly.plot(&#39;chart-543168729&#39;, chart.data, chart.layout, {responsive: true});
       });
     }, 500 );
   })();
@@ -2015,6 +2015,15 @@ $$&lt;/p&gt;
 &lt;h1 id=&#34;questions&#34;&gt;Questions?&lt;/h1&gt;
 &lt;p&gt;&lt;a href=&#34;https://discord.gg/z8wNYzb&#34; target=&#34;_blank&#34; rel=&#34;noopener&#34;&gt;Ask&lt;/a&gt;&lt;/p&gt;
 &lt;p&gt;&lt;a href=&#34;https://wowchemy.com/docs/content/slides/&#34; target=&#34;_blank&#34; rel=&#34;noopener&#34;&gt;Documentation&lt;/a&gt;&lt;/p&gt;
+</description>
+    </item>
+    
+    <item>
+      <title>Privacy Policy</title>
+      <link>https://jaspershen.github.io/privacy/</link>
+      <pubDate>Thu, 28 Jun 2018 00:00:00 +0100</pubDate>
+      <guid>https://jaspershen.github.io/privacy/</guid>
+      <description>&lt;p&gt;Download my website from my github and use it to construct your own website!&lt;/p&gt;
 </description>
     </item>
     
