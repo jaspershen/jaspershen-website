@@ -591,6 +591,10 @@ sections:
     subtitle: ""
     text: '{{< gallery album="photo" >}}'
     title: 📸 Photos
+    gallery_item:
+    - album: photo
+      image: 6E1EF0E8-A5DD-4E23-AF0B-4DEEB94E8255_1_105_c.jpeg
+      caption: Write your image 1 caption here
   id: photos
   design:
     columns: "1"
