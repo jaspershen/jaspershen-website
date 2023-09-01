@@ -5,5 +5,5 @@ image:
   placement: 2
 math: true
 commentable: true
-title: 😀 Xiaotao Shen received the CASMS Young Investigator Award!
+title: 2023-8-29 Xiaotao Shen received the CASMS Young Investigator Award!😀 
 ---
