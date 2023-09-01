@@ -23,7 +23,7 @@
     <item>
       <title>2023-8-29 Xiaotao Shen received the CASMS Young Investigator Award!😀</title>
       <link>https://jaspershen.github.io/news/2023-casms-yia/</link>
-      <pubDate>Mon, 14 Aug 2023 00:00:00 +0000</pubDate>
+      <pubDate>Tue, 29 Aug 2023 00:00:00 +0000</pubDate>
       <guid>https://jaspershen.github.io/news/2023-casms-yia/</guid>
       <description></description>
     </item>
@@ -584,7 +584,7 @@ data.head()
 
 
 
-&lt;div id=&#34;chart-289473156&#34; class=&#34;chart&#34;&gt;&lt;/div&gt;
+&lt;div id=&#34;chart-518967342&#34; class=&#34;chart&#34;&gt;&lt;/div&gt;
 &lt;script&gt;
   (function() {
     let a = setInterval( function() {
@@ -594,7 +594,7 @@ data.head()
       clearInterval( a );
 
       Plotly.d3.json(&#34;./line-chart.json&#34;, function(chart) {
-        Plotly.plot(&#39;chart-289473156&#39;, chart.data, chart.layout, {responsive: true});
+        Plotly.plot(&#39;chart-518967342&#39;, chart.data, chart.layout, {responsive: true});
       });
     }, 500 );
   })();
