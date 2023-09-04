@@ -8,7 +8,7 @@ event: The 69<sup>th</sup> ASMS Conference on Mass Spectrometry and Allied Topic
 event_url: https://www.asms.org/conferences/annual-conference/annual-conference-homepage
 featured: true
 image:
-  caption: 'Image credit: [**Unsplash**](https://unsplash.com/photos/bzdhc5b3Bxs)'
+  caption: 'Image credit: [**Xiaotao Shen**](https://jaspershen.github.io/)'
   focal_point: Right
 links:
 # - icon: github

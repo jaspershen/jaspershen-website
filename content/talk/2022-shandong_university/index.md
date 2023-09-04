@@ -8,7 +8,7 @@ event: Shandong MetLAB-Webinar
 event_url: 
 featured: true
 image:
-  caption: 'Image credit: [**Unsplash**](https://unsplash.com/photos/bzdhc5b3Bxs)'
+  caption: 'Image credit: [**Xiaotao Shen**](https://jaspershen.github.io/)'
   focal_point: Right
 links:
 # - icon: github

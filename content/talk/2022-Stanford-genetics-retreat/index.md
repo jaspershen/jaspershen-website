@@ -8,7 +8,7 @@ event: Stanford Genetics Retreat 2022
 event_url: https://med.stanford.edu/genetics.html
 featured: true
 image:
-  caption: 'Image credit: [**Unsplash**](https://unsplash.com/photos/bzdhc5b3Bxs)'
+  caption: 'Image credit: [**Xiaotao Shen**](https://jaspershen.github.io/)'
   focal_point: Right
 links:
 links:

@@ -8,7 +8,7 @@ event: Stanford University Postdoc Symposium
 event_url: https://surpas.stanford.edu/
 featured: true
 image:
-  caption: 'Image credit: [**Unsplash**](https://unsplash.com/photos/bzdhc5b3Bxs)'
+  caption: 'Image credit: [**Xiaotao Shen**](https://jaspershen.github.io/)'
   focal_point: Right
 links:
 # - icon: github

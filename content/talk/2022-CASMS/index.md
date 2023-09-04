@@ -8,7 +8,7 @@ event: CASMS
 event_url: https://www.casms.org/index.php/component/content/article/71-upcoming-events/284-2022-casms-virtual-conference?Itemid=1162
 featured: true
 image:
-  caption: 'Image credit: [**Unsplash**](https://unsplash.com/photos/bzdhc5b3Bxs)'
+  caption: 'Image credit: [**Xiaotao Shen**](https://jaspershen.github.io/)'
   focal_point: Right
 links:
 # - icon: github

@@ -8,7 +8,7 @@ event: Exposome Data Challenge Event
 event_url: https://www.isglobal.org/-/exposome-data-analysis-challenge
 featured: true
 image:
-  caption: 'Image credit: [**Unsplash**](https://unsplash.com/photos/bzdhc5b3Bxs)'
+  caption: 'Image credit: [**Xiaotao Shen**](https://jaspershen.github.io/)'
   focal_point: Right
 links:
 # - icon: github

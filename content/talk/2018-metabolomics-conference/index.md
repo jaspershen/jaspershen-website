@@ -8,7 +8,7 @@ event: The 14<sup>th</sup> International Conference of the Metabolomics Society
 event_url: http://metabolomics2018.org/
 featured: true
 image:
-  caption: 'Image credit: [**Unsplash**](https://unsplash.com/photos/bzdhc5b3Bxs)'
+  caption: 'Image credit: [**Xiaotao Shen**](https://jaspershen.github.io/)'
   focal_point: Right
 links:
 # - icon: github

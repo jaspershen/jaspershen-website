@@ -8,7 +8,7 @@ event: The 64<sup>th</sup> American Society for Mass Spectrometry Conference
 event_url: https://www.asms.org/publications/journal-of-the-american-society-for-mass-spectrometry-group/news-detail/2016/07/22/highlights-from-the-64th-annual-asms-conference
 featured: true
 image:
-  caption: 'Image credit: [**Unsplash**](https://unsplash.com/photos/bzdhc5b3Bxs)'
+  caption: 'Image credit: [**Xiaotao Shen**](https://jaspershen.github.io/)'
   focal_point: Right
 links:
 # - icon: github
