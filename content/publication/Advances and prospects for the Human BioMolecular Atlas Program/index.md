@@ -10,7 +10,7 @@ authors:
 - Liming Pei
 - Jeffrey M Spraggins
 - Michael Angelo
-- Michael P Snyder
+- Michael Snyder
 doi: ""
 featured: true
 image:

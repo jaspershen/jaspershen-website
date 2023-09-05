@@ -9,7 +9,7 @@ social:
   icon_pack: fas
   link: https://penggaolab.github.io/
 superuser: false
-title: Dr. Peng Gao
+title: Prof. Peng Gao
 user_groups:
 - Academia
 ---

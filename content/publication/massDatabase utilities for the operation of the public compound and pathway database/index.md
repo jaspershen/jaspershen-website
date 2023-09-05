@@ -9,7 +9,7 @@ author_notes:
 authors:
 - admin
 - Chuchu Wang
-- Michael P Snyder
+- Michael Snyder
 doi: ""
 featured: true
 image:

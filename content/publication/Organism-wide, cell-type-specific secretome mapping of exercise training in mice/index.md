@@ -18,7 +18,7 @@ authors:
 - Wentao Huang
 - Amanda L Wiggenhorn
 - Katrin J Svensson
-- Michael P Snyder
+- Michael Snyder
 - Carolyn R Bertozzi
 - Jonathan Z Long
 

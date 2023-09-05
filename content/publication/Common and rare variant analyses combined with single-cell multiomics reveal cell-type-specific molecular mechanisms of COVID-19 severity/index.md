@@ -26,7 +26,7 @@ authors:
 - GEN-COVID Network
 - Mark M Davis
 - Philip S Tsao
-- Michael P Snyder
+- Michael Snyder
 
 featured: false
 publication: medRxiv

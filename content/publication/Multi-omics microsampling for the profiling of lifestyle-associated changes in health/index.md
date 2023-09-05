@@ -25,7 +25,7 @@ authors:
 - Ian Simms
 - Chuchu Wang
 - Daniel Hornburg
-- Michael P Snyder
+- Michael Snyder
 doi: ""
 featured: true
 image:

@@ -9,7 +9,7 @@ social:
   icon_pack: fas
   link: https://ysph.yale.edu/profile/caroline-johnson/
 superuser: false
-title: Dr. Caroline Johnson
+title: Prof. Caroline Johnson
 user_groups:
 - Academia
 ---
