@@ -3,7 +3,7 @@
   xmlns:xhtml="http://www.w3.org/1999/xhtml">
   <url>
     <loc>https://jaspershen.github.io/news/2023-stanford-biox/</loc>
-    <lastmod>2023-09-01T00:00:00+00:00</lastmod>
+    <lastmod>2023-09-03T23:26:49-07:00</lastmod>
     <changefreq>weekly</changefreq>
   </url><url>
     <loc>https://jaspershen.github.io/news/2023-casms-talk/</loc>
@@ -63,11 +63,19 @@
     <changefreq>weekly</changefreq>
   </url><url>
     <loc>https://jaspershen.github.io/talk/2023-asms/</loc>
-    <lastmod>2023-08-14T14:46:58-07:00</lastmod>
+    <lastmod>2023-09-03T23:26:49-07:00</lastmod>
+    <changefreq>weekly</changefreq>
+  </url><url>
+    <loc>https://jaspershen.github.io/publication-type/1/</loc>
+    <lastmod>2023-04-28T00:00:00+00:00</lastmod>
+    <changefreq>weekly</changefreq>
+  </url><url>
+    <loc>https://jaspershen.github.io/publication/organism-wide-cell-type-specific-secretome-mapping-of-exercise-training-in-mice/</loc>
+    <lastmod>2023-04-28T00:00:00+00:00</lastmod>
     <changefreq>weekly</changefreq>
   </url><url>
     <loc>https://jaspershen.github.io/talk/2023-stanford-postdoc-syposium/</loc>
-    <lastmod>2023-08-14T14:46:58-07:00</lastmod>
+    <lastmod>2023-09-03T23:26:49-07:00</lastmod>
     <changefreq>weekly</changefreq>
   </url><url>
     <loc>https://jaspershen.github.io/tag/metabolomics/</loc>
@@ -78,32 +86,36 @@
     <lastmod>2023-08-12T17:02:10-07:00</lastmod>
     <changefreq>weekly</changefreq>
   </url><url>
-    <loc>https://jaspershen.github.io/publication/2023-01-19-microsampling/</loc>
-    <lastmod>2023-08-12T21:27:22-07:00</lastmod>
+    <loc>https://jaspershen.github.io/publication/multi-omics-microsampling-for-the-profiling-of-lifestyle-associated-changes-in-health/</loc>
+    <lastmod>2023-01-19T00:00:00+00:00</lastmod>
     <changefreq>weekly</changefreq>
   </url><url>
     <loc>https://jaspershen.github.io/</loc>
-    <lastmod>2023-08-31T22:38:16-07:00</lastmod>
+    <lastmod>2023-09-03T23:26:49-07:00</lastmod>
     <changefreq>weekly</changefreq>
   </url><url>
     <loc>https://jaspershen.github.io/talk/2022-casms/</loc>
-    <lastmod>2023-08-14T14:46:58-07:00</lastmod>
+    <lastmod>2023-09-03T23:26:49-07:00</lastmod>
     <changefreq>weekly</changefreq>
   </url><url>
     <loc>https://jaspershen.github.io/talk/2022-shandong_university/</loc>
-    <lastmod>2023-08-14T14:46:58-07:00</lastmod>
+    <lastmod>2023-09-03T23:26:49-07:00</lastmod>
     <changefreq>weekly</changefreq>
   </url><url>
     <loc>https://jaspershen.github.io/publication/massdatabase-utilities-for-the-operation-of-the-public-compound-and-pathway-database/</loc>
     <lastmod>2023-08-12T21:27:22-07:00</lastmod>
     <changefreq>weekly</changefreq>
   </url><url>
+    <loc>https://jaspershen.github.io/publication/state-of-the-art-methods-for-exposure-health-studies-results-from-the-exposome-data-challenge-event/</loc>
+    <lastmod>2022-10-01T00:00:00+00:00</lastmod>
+    <changefreq>weekly</changefreq>
+  </url><url>
     <loc>https://jaspershen.github.io/talk/2022-stanford-genetics-retreat/</loc>
-    <lastmod>2023-08-14T14:46:58-07:00</lastmod>
+    <lastmod>2023-09-03T23:26:49-07:00</lastmod>
     <changefreq>weekly</changefreq>
   </url><url>
     <loc>https://jaspershen.github.io/talk/2022-bamm/</loc>
-    <lastmod>2023-08-14T14:46:58-07:00</lastmod>
+    <lastmod>2023-09-03T23:26:49-07:00</lastmod>
     <changefreq>weekly</changefreq>
   </url><url>
     <loc>https://jaspershen.github.io/tag/multi-omics/</loc>
@@ -119,23 +131,47 @@
     <changefreq>weekly</changefreq>
   </url><url>
     <loc>https://jaspershen.github.io/talk/2022-acs-fall/</loc>
-    <lastmod>2023-08-14T14:46:58-07:00</lastmod>
+    <lastmod>2023-09-03T23:26:49-07:00</lastmod>
+    <changefreq>weekly</changefreq>
+  </url><url>
+    <loc>https://jaspershen.github.io/publication/multiomic-analysis-reveals-cell-type-specific-molecular-determinants-of-covid-19-severity/</loc>
+    <lastmod>2022-08-17T00:00:00+00:00</lastmod>
     <changefreq>weekly</changefreq>
   </url><url>
     <loc>https://jaspershen.github.io/publication/deep-learning-based-pseudo-mass-spectrometry-imaging-analysis-for-precision-medicine/</loc>
     <lastmod>2023-08-12T21:27:22-07:00</lastmod>
     <changefreq>weekly</changefreq>
   </url><url>
+    <loc>https://jaspershen.github.io/publication/tidymass-an-object-oriented-reproducible-analysis-framework-for-lcms-data/</loc>
+    <lastmod>2022-07-28T00:00:00+00:00</lastmod>
+    <changefreq>weekly</changefreq>
+  </url><url>
+    <loc>https://jaspershen.github.io/publication/longitudinal-urine-metabolic-profiling-and-gestational-age-prediction-in-pregnancy/</loc>
+    <lastmod>2022-07-10T00:00:00+00:00</lastmod>
+    <changefreq>weekly</changefreq>
+  </url><url>
     <loc>https://jaspershen.github.io/talk/2022-asms/</loc>
     <lastmod>2023-08-14T14:46:58-07:00</lastmod>
+    <changefreq>weekly</changefreq>
+  </url><url>
+    <loc>https://jaspershen.github.io/publication/precision-environmental-health-monitoring-by-longitudinal-exposome-and-multi-omics-profiling/</loc>
+    <lastmod>2022-06-01T00:00:00+00:00</lastmod>
+    <changefreq>weekly</changefreq>
+  </url><url>
+    <loc>https://jaspershen.github.io/publication/longitudinal-interactions-between-levels-of-serum-cytokine-and-the-microbiome-from-four-body-sites/</loc>
+    <lastmod>2022-05-01T00:00:00+00:00</lastmod>
     <changefreq>weekly</changefreq>
   </url><url>
     <loc>https://jaspershen.github.io/journal_referee/nature_communications/</loc>
     <lastmod>2023-08-12T17:02:10-07:00</lastmod>
     <changefreq>weekly</changefreq>
   </url><url>
+    <loc>https://jaspershen.github.io/publication/metid-an-r-package-for-automatable-compound-annotation-for-lc-ms-based-data/</loc>
+    <lastmod>2022-01-15T00:00:00+00:00</lastmod>
+    <changefreq>weekly</changefreq>
+  </url><url>
     <loc>https://jaspershen.github.io/talk/2021-asms/</loc>
-    <lastmod>2023-08-14T14:46:58-07:00</lastmod>
+    <lastmod>2023-09-03T23:26:49-07:00</lastmod>
     <changefreq>weekly</changefreq>
   </url><url>
     <loc>https://jaspershen.github.io/tag/others/</loc>
@@ -146,8 +182,28 @@
     <lastmod>2023-08-14T14:46:58-07:00</lastmod>
     <changefreq>weekly</changefreq>
   </url><url>
+    <loc>https://jaspershen.github.io/publication/common-and-rare-variant-analyses-combined-with-single-cell-multiomics-reveal-cell-type-specific-molecular-mechanisms-of-covid-19-severity/</loc>
+    <lastmod>2021-06-21T00:00:00+00:00</lastmod>
+    <changefreq>weekly</changefreq>
+  </url><url>
+    <loc>https://jaspershen.github.io/publication/integration-and-comparison-of-multi-omics-profiles-of-ngly1-deficiency-plasma-and-cellular-models-to-identify-clinically-relevant-molecular-phenotypes/</loc>
+    <lastmod>2021-05-28T00:00:00+00:00</lastmod>
+    <changefreq>weekly</changefreq>
+  </url><url>
+    <loc>https://jaspershen.github.io/publication/a-serum-metabolomics-analysis-reveals-a-panel-of-screening-metabolic-biomarkers-for-esophageal-squamous-cell-carcinoma/</loc>
+    <lastmod>2021-05-06T00:00:00+00:00</lastmod>
+    <changefreq>weekly</changefreq>
+  </url><url>
     <loc>https://jaspershen.github.io/talk/2021-exposome_data_challenge_event_xiaotao/</loc>
-    <lastmod>2023-08-14T14:46:58-07:00</lastmod>
+    <lastmod>2023-09-03T23:26:49-07:00</lastmod>
+    <changefreq>weekly</changefreq>
+  </url><url>
+    <loc>https://jaspershen.github.io/publication/the-mediation-effect-of-serum-metabolites-on-the-relationship-between-long-term-smoking-exposure-and-esophageal-squamous-cell-carcinoma/</loc>
+    <lastmod>2021-04-15T00:00:00+00:00</lastmod>
+    <changefreq>weekly</changefreq>
+  </url><url>
+    <loc>https://jaspershen.github.io/publication/serum-metabolomics-analysis-for-the-progression-of-esophageal-squamous-cell-carcinoma/</loc>
+    <lastmod>2021-04-02T00:00:00+00:00</lastmod>
     <changefreq>weekly</changefreq>
   </url><url>
     <loc>https://jaspershen.github.io/journal_referee/bib/</loc>
@@ -180,6 +236,10 @@
   </url><url>
     <loc>https://jaspershen.github.io/category/%E6%95%99%E7%A8%8B/</loc>
     <lastmod>2023-08-15T11:51:06-07:00</lastmod>
+    <changefreq>weekly</changefreq>
+  </url><url>
+    <loc>https://jaspershen.github.io/publication/metabolic-dynamics-and-prediction-of-gestational-age-and-time-to-delivery-in-pregnant-women/</loc>
+    <lastmod>2020-06-25T00:00:00+00:00</lastmod>
     <changefreq>weekly</changefreq>
   </url><url>
     <loc>https://jaspershen.github.io/project/r_cookbook/</loc>
@@ -226,8 +286,20 @@
     <lastmod>2023-08-14T14:46:58-07:00</lastmod>
     <changefreq>weekly</changefreq>
   </url><url>
+    <loc>https://jaspershen.github.io/publication/metflow-an-interactive-and-integrated-workflow-for-metabolomics-data-cleaning-and-differential-metabolite-discovery/</loc>
+    <lastmod>2019-08-15T00:00:00+00:00</lastmod>
+    <changefreq>weekly</changefreq>
+  </url><url>
     <loc>https://jaspershen.github.io/post/writing-technical-content/</loc>
     <lastmod>2023-08-15T11:51:06-07:00</lastmod>
+    <changefreq>weekly</changefreq>
+  </url><url>
+    <loc>https://jaspershen.github.io/publication/metabolic-reaction-network-based-recursive-metabolite-annotation-for-untargeted-metabolomics/</loc>
+    <lastmod>2019-04-03T00:00:00+00:00</lastmod>
+    <changefreq>weekly</changefreq>
+  </url><url>
+    <loc>https://jaspershen.github.io/publication/lipidimms-analyzer-integrating-multi-dimensional-information-to-support-lipid-identification-in-ion-mobilitymass-spectrometry-based-lipidomics/</loc>
+    <lastmod>2019-02-15T00:00:00+00:00</lastmod>
     <changefreq>weekly</changefreq>
   </url><url>
     <loc>https://jaspershen.github.io/post/jupyter/</loc>
@@ -242,16 +314,36 @@
     <lastmod>2023-08-10T21:35:18-07:00</lastmod>
     <changefreq>weekly</changefreq>
   </url><url>
+    <loc>https://jaspershen.github.io/publication/development-of-a-correlative-strategy-to-discover-colorectal-tumor-tissue-derived-metabolite-biomarkers-in-plasma-using-untargeted-metabolomics/</loc>
+    <lastmod>2018-12-23T00:00:00+00:00</lastmod>
+    <changefreq>weekly</changefreq>
+  </url><url>
+    <loc>https://jaspershen.github.io/publication/predicting-the-pathological-response-to-neoadjuvant-chemoradiation-using-untargeted-metabolomics-in-locally-advanced-rectal-cancer/</loc>
+    <lastmod>2018-09-01T00:00:00+00:00</lastmod>
+    <changefreq>weekly</changefreq>
+  </url><url>
     <loc>https://jaspershen.github.io/privacy/</loc>
     <lastmod>2023-08-26T11:03:16-07:00</lastmod>
     <changefreq>weekly</changefreq>
   </url><url>
     <loc>https://jaspershen.github.io/talk/2018-metabolomics-conference/</loc>
-    <lastmod>2023-08-14T14:46:58-07:00</lastmod>
+    <lastmod>2023-09-03T23:26:49-07:00</lastmod>
+    <changefreq>weekly</changefreq>
+  </url><url>
+    <loc>https://jaspershen.github.io/publication/lipidccs-prediction-of-collision-cross-section-values-for-lipids-with-high-precision-to-support-ion-mobilitymass-spectrometry-based-lipidomics/</loc>
+    <lastmod>2017-09-05T00:00:00+00:00</lastmod>
+    <changefreq>weekly</changefreq>
+  </url><url>
+    <loc>https://jaspershen.github.io/publication/large-scale-prediction-of-collision-cross-section-values-for-metabolites-in-ion-mobility-mass-spectrometry/</loc>
+    <lastmod>2016-10-21T00:00:00+00:00</lastmod>
     <changefreq>weekly</changefreq>
   </url><url>
     <loc>https://jaspershen.github.io/talk/2016-asms/</loc>
-    <lastmod>2023-08-14T14:46:58-07:00</lastmod>
+    <lastmod>2023-09-03T23:26:49-07:00</lastmod>
+    <changefreq>weekly</changefreq>
+  </url><url>
+    <loc>https://jaspershen.github.io/publication/serum-metabolomics-for-early-diagnosis-of-esophageal-squamous-cell-carcinoma-by-uhplc-qtof/</loc>
+    <lastmod>2016-06-23T00:00:00+00:00</lastmod>
     <changefreq>weekly</changefreq>
   </url><url>
     <loc>https://jaspershen.github.io/project/metdna-project/</loc>
@@ -260,6 +352,10 @@
   </url><url>
     <loc>https://jaspershen.github.io/project/metflow-project/</loc>
     <lastmod>2023-08-14T14:46:58-07:00</lastmod>
+    <changefreq>weekly</changefreq>
+  </url><url>
+    <loc>https://jaspershen.github.io/publication/normalization-and-integration-of-large-scale-metabolomics-data-using-support-vector-regression/</loc>
+    <lastmod>2016-03-26T00:00:00+00:00</lastmod>
     <changefreq>weekly</changefreq>
   </url><url>
     <loc>https://jaspershen.github.io/admin/</loc>
