@@ -10,7 +10,7 @@ authors:
 featured: false
 publication: Bioinformatics
 publication_types:
-- 1
+- 2
 publishDate: 2019-08-15
 summary: "Mass spectrometry-based metabolomics aims to profile the metabolic changes in biological systems and identify differential metabolites related to physiological phenotypes and aberrant activities. However, many confounding factors during data acquisition complicate metabolomics data, which is characterized by high dimensionality, uncertain degrees of missing and zero values, nonlinearity, unwanted variations and non-normality. Therefore, prior to differential metabolite discovery analysis, various types of data cleaning such as batch alignment, missing value imputation, data normalization and scaling are essentially required for data post-processing. Here, we developed an interactive web server, namely, MetFlow, to provide an integrated and comprehensive workflow for metabolomics data cleaning and differential metabolite discovery."
 links:

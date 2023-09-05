@@ -20,7 +20,7 @@ authors:
 featured: false
 publication: Clinical and Translational Medicine
 publication_types:
-- 1
+- 2
 publishDate: 2021-05-06
 summary: Dear Editor, Endoscopy with iodine staining was widely used for esophageal cancer (EC) screening in high-incidence area. 1, 2 Most endoscopy screening-positive population was found to develop esophageal epithelium lesion, and therefore endured higher risk for developing esophageal squamous cell carcinoma (ESCC) than normal population. 3, 4 However, endoscopic screening may be too costly and invasive for large-scale population, and non-invasive biomarkers may be more applicable and cost effective for population-based screening. 5, 6 In this population-based screening study, we aim to identify potential metabolic biomarkers for early screening of ESCC, and establish the optimal early ESCC screening model. Ultra-performance liquid chromatographyquadrupole time-of-flight mass spectrometry (UPLCQTOF/MS) was used to explore ESCC screening related metabolic biomarkers and profile …
 links:
