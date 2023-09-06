@@ -588,6 +588,15 @@ sections:
 
 - block: markdown
   content:
+    subtitle: "Map of Collaborators"
+    text:
+    title: '<iframe src="map.html" width="1200" height="600"></iframe>'
+  id: collaborator_map
+  design:
+    columns: "1"
+
+- block: markdown
+  content:
     subtitle: ""
     text: '{{< gallery album="photo" >}}'
     title: 📸 Photos
