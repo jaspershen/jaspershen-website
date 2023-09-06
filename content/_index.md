@@ -590,7 +590,7 @@ sections:
   content:
     subtitle: "Map of Collaborators"
     text:
-    title: '<iframe src="map.html" width="1200" height="600"></iframe>'
+    title: '<img src="map.png" alt="Girl in a jacket" style="width:100%;height:100%;">'
   id: collaborator_map
   design:
     columns: "1"
