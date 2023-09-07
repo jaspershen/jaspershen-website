@@ -257,16 +257,16 @@ sections:
   id: projects
 
 - block: collection
+  id: talks 
   content:
     count: 3
     filters:
       folders:
-      - talk
+        - talk
     title: 🗣 Talks
   design:
     columns: "2"
-    view: 3
-  id: talks
+    view: compact
 
 - block: collection
   content:
@@ -353,7 +353,7 @@ sections:
     title: 📰 News
   design:
     columns: "2"
-    view: list
+    view: Compact
     background:
       video:
       # Name of video in `assets/media/`.
@@ -598,7 +598,7 @@ sections:
 - block: markdown
   content:
     subtitle: ""
-    text: '{{< gallery album="photo" >}}'
+    # text: '{{< gallery album="photo" >}}'
     title: 📸 Photos
     gallery_item:
     - album: photo

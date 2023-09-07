@@ -6,6 +6,11 @@ image:
 math: true
 commentable: true
 title: 2023-9-1 Xiaotao Shen presented the nonlinear aging work on 2023 Stanford University Biox Symposium. 
+links:
+- icon: file-pdf
+  icon_pack: fas
+  name: PDF
+  url: file/Bio-X_Poster-Xiaotao-Shen.pdf
 ---
 
-The poster can be found [here](https://jaspershen.github.io/file/Bio-X_Poster-Xiaotao-Shen.pdf).
+
