@@ -353,7 +353,7 @@ sections:
     title: 📰 News
   design:
     columns: "2"
-    view: community/list2
+    view: list
     background:
       video:
       # Name of video in `assets/media/`.

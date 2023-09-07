@@ -17,7 +17,8 @@
       <link>https://jaspershen.github.io/news/2023-stanford-biox/</link>
       <pubDate>Fri, 01 Sep 2023 00:00:00 +0000</pubDate>
       <guid>https://jaspershen.github.io/news/2023-stanford-biox/</guid>
-      <description></description>
+      <description>&lt;p&gt;The poster can be found &lt;a href=&#34;https://jaspershen.github.io/file/Bio-X_Poster-Xiaotao-Shen.pdf&#34; target=&#34;_blank&#34; rel=&#34;noopener&#34;&gt;here&lt;/a&gt;.&lt;/p&gt;
+</description>
     </item>
     
     <item>
@@ -712,7 +713,7 @@ data.head()
 
 
 
-&lt;div id=&#34;chart-243856971&#34; class=&#34;chart&#34;&gt;&lt;/div&gt;
+&lt;div id=&#34;chart-615827349&#34; class=&#34;chart&#34;&gt;&lt;/div&gt;
 &lt;script&gt;
   (function() {
     let a = setInterval( function() {
@@ -722,7 +723,7 @@ data.head()
       clearInterval( a );
 
       Plotly.d3.json(&#34;./line-chart.json&#34;, function(chart) {
-        Plotly.plot(&#39;chart-243856971&#39;, chart.data, chart.layout, {responsive: true});
+        Plotly.plot(&#39;chart-615827349&#39;, chart.data, chart.layout, {responsive: true});
       });
     }, 500 );
   })();
