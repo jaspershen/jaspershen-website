@@ -2,20 +2,28 @@
 <urlset xmlns="http://www.sitemaps.org/schemas/sitemap/0.9"
   xmlns:xhtml="http://www.w3.org/1999/xhtml">
   <url>
+    <loc>https://jaspershen.github.io/talk/2023-bamm/</loc>
+    <lastmod>2023-09-08T13:00:00+00:00</lastmod>
+    <changefreq>weekly</changefreq>
+  </url><url>
+    <loc>https://jaspershen.github.io/news/2023-bamm/</loc>
+    <lastmod>2023-09-08T00:00:00+00:00</lastmod>
+    <changefreq>weekly</changefreq>
+  </url><url>
     <loc>https://jaspershen.github.io/news/2023-stanford-biox/</loc>
-    <lastmod>2023-09-06T21:30:31-07:00</lastmod>
+    <lastmod>2023-09-06T23:34:35-07:00</lastmod>
     <changefreq>weekly</changefreq>
   </url><url>
     <loc>https://jaspershen.github.io/talk/2023-casms/</loc>
-    <lastmod>2023-08-29T13:00:00+00:00</lastmod>
+    <lastmod>2023-09-06T23:34:35-07:00</lastmod>
     <changefreq>weekly</changefreq>
   </url><url>
     <loc>https://jaspershen.github.io/news/2023-casms-talk/</loc>
-    <lastmod>2023-08-31T22:38:16-07:00</lastmod>
+    <lastmod>2023-09-06T23:34:35-07:00</lastmod>
     <changefreq>weekly</changefreq>
   </url><url>
     <loc>https://jaspershen.github.io/news/2023-casms-yia/</loc>
-    <lastmod>2023-08-31T22:39:13-07:00</lastmod>
+    <lastmod>2023-09-06T23:34:35-07:00</lastmod>
     <changefreq>weekly</changefreq>
   </url><url>
     <loc>https://jaspershen.github.io/publication-type/3/</loc>
@@ -75,7 +83,7 @@
     <changefreq>weekly</changefreq>
   </url><url>
     <loc>https://jaspershen.github.io/talk/2023-stanford-postdoc-syposium/</loc>
-    <lastmod>2023-09-03T23:26:49-07:00</lastmod>
+    <lastmod>2023-09-06T23:34:35-07:00</lastmod>
     <changefreq>weekly</changefreq>
   </url><url>
     <loc>https://jaspershen.github.io/tag/metabolomics/</loc>
@@ -91,7 +99,7 @@
     <changefreq>weekly</changefreq>
   </url><url>
     <loc>https://jaspershen.github.io/</loc>
-    <lastmod>2023-09-06T21:30:31-07:00</lastmod>
+    <lastmod>2023-09-06T23:34:35-07:00</lastmod>
     <changefreq>weekly</changefreq>
   </url><url>
     <loc>https://jaspershen.github.io/talk/2022-casms/</loc>
@@ -335,7 +343,7 @@
     <changefreq>weekly</changefreq>
   </url><url>
     <loc>https://jaspershen.github.io/talk/example/</loc>
-    <lastmod>2017-01-01T13:00:00+00:00</lastmod>
+    <lastmod>2023-09-06T23:34:35-07:00</lastmod>
     <changefreq>weekly</changefreq>
   </url><url>
     <loc>https://jaspershen.github.io/publication/large-scale-prediction-of-collision-cross-section-values-for-metabolites-in-ion-mobility-mass-spectrometry/</loc>
