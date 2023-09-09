@@ -43,7 +43,7 @@ sections:
       background:
         color: '#666'
         image:
-          filename: stanford.jpg
+          filename: WechatIMG1028.jpg
           filters:
             brightness: 0.8
         position: right
