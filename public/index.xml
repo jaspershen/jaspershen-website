@@ -29,6 +29,59 @@
     </item>
     
     <item>
+      <title>tidytof:一种可扩展和可重现的高维细胞数据分析的整洁框架</title>
+      <link>https://jaspershen.github.io/post/2023-07-19-tidytof/</link>
+      <pubDate>Fri, 08 Sep 2023 00:00:00 +0000</pubDate>
+      <guid>https://jaspershen.github.io/post/2023-07-19-tidytof/</guid>
+      <description>&lt;p&gt;依赖于tidyverse风格的组学数据处理软件越来越多了！期待我们的tidymicrobiome！&lt;/p&gt;
+&lt;h1 id=&#34;tidytof一种可扩展和可重现的高维细胞数据分析的整洁框架&#34;&gt;tidytof:一种可扩展和可重现的高维细胞数据分析的整洁框架&lt;/h1&gt;
+&lt;h2 id=&#34;摘要&#34;&gt;摘要&lt;/h2&gt;
+&lt;p&gt;尽管已经开发出许多分析高维细胞数据的算法,但这些算法的软件实现仍然高度定制化——这意味着探索一个数据集需要用户学习每个数据处理步骤所需的独特的、互操作性差的软件语法。为解决这个问题,我们开发了tidytof,一个开源的R软件包,用于使用越来越受欢迎的“整洁数据”接口分析高维细胞数据。&lt;/p&gt;
+&lt;h2 id=&#34;可获得性和实现&#34;&gt;可获得性和实现&lt;/h2&gt;
+&lt;p&gt;tidytof可在https://github.com/keyes-timothy/tidytof获得,基于MIT许可证发布。它支持Linux、Windows和MacOS。额外的文档可在软件包网站上获得(&lt;a href=&#34;https://keyes-timothy.github.io/tidytof/&#34; target=&#34;_blank&#34; rel=&#34;noopener&#34;&gt;https://keyes-timothy.github.io/tidytof/&lt;/a&gt;)。&lt;/p&gt;
+&lt;h2 id=&#34;引言&#34;&gt;引言&lt;/h2&gt;
+&lt;p&gt;在过去的十年中,高维细胞技术已经成为高通量单细胞分析人类和动物组织的突出技术。基于时间飞行的质谱细胞学(或细胞质谱)、全谱流式细胞技术和序列基础的细胞技术现在已经实现了每次实验从数百万个细胞中收集多重蛋白质测量的大数据集。为从这些复杂的数据集中洞察信息,最近几年也见证了几十种用于单细胞、细胞亚群和整体样本水平分析高维细胞数据的算法的开发。然而,遍历这些方法的选择、使用和互操作性需求仍然是一个重大挑战。&lt;/p&gt;
+&lt;p&gt;在同一时间内,“整洁数据”的概念已经构成了数据科学领域的范式转变。整洁数据指的是以灵活的二维表格(称为数据帧)表示的数据,其中每一行表示一个观察,每一列表示一个实验变量。数据整洁性的核心概念是将数据表示为一致的整洁格式可以简化数据处理,方法是标准化构建分析流程所需的工具。采用整洁数据实践通常鼓励在统计软件工程中使用直观的以人为中心的设计原则,允许研究人员通过使用一致的词汇表达常见的数据处理操作,在工具和研究领域之间应用类似的分析框架。&lt;/p&gt;
+&lt;p&gt;这里,我们在之前的工作基础上,提出tidytof,一个R软件包,使用整洁接口实现全面、高效和可扩展的高维细胞数据分析框架。tidytof的综合文档和教程在补充注释和软件包注释中提供。&lt;/p&gt;
+&lt;h2 id=&#34;软件设计&#34;&gt;软件设计&lt;/h2&gt;
+&lt;p&gt;tidytof将热门的高维细胞数据分析方法进行了整合,如文件读取、预处理、批效应校正、质量控制、聚类、降维、差异表达分析、特征提取和可视化,变成一个可组合的、易于使用的应用程序接口,适合有经验和无经验的程序员。&lt;/p&gt;
+&lt;p&gt;它的设计策略有三个主要好处:1)它允许tidytof简化访问以不同方式执行相同基本任务的算法的方式;2) tidytof动词的模块化设计意味着它们可以组合起来对单细胞数据进行灵活的分析;3) 作为高性能整洁生态系统工具的扩展,tidytof提供了相对于现有的单细胞数据分析软件的卓越的计算性能。&lt;/p&gt;
+&lt;p&gt;
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+&lt;figure  &gt;
+  &lt;div class=&#34;d-flex justify-content-center&#34;&gt;
+    &lt;div class=&#34;w-100&#34; &gt;&lt;img alt=&#34;&#34; srcset=&#34;
+               /post/2023-07-19-tidytof/figure1_hu5fa3503ad3c9b05c11792d4f5c037e45_1096349_10a03f3859e1f40efb3b5e244c561d44.webp 400w,
+               /post/2023-07-19-tidytof/figure1_hu5fa3503ad3c9b05c11792d4f5c037e45_1096349_15492aa1870bb735ddc31c387311aff5.webp 760w,
+               /post/2023-07-19-tidytof/figure1_hu5fa3503ad3c9b05c11792d4f5c037e45_1096349_1200x1200_fit_q75_h2_lanczos_3.webp 1200w&#34;
+               src=&#34;https://jaspershen.github.io/post/2023-07-19-tidytof/figure1_hu5fa3503ad3c9b05c11792d4f5c037e45_1096349_10a03f3859e1f40efb3b5e244c561d44.webp&#34;
+               width=&#34;629&#34;
+               height=&#34;760&#34;
+               loading=&#34;lazy&#34; data-zoomable /&gt;&lt;/div&gt;
+  &lt;/div&gt;&lt;/figure&gt;
+&lt;/p&gt;
+&lt;h2 id=&#34;性能基准测试&#34;&gt;性能基准测试&lt;/h2&gt;
+&lt;p&gt;我们使用等价的工作流程对tidytof的速度和内存性能进行了基准测试,并与具有类似功能的两个低级API(基本R和flowCore)以及三个高级API(cytofkit、immunoCluster和Spectre)进行了比较。结果显示,tidytof的计算性能与现有工具相当或优于现有工具,而且tidytof的总时间是基准测试中使用的所有数据集中最小的。&lt;/p&gt;
+&lt;h2 id=&#34;结论&#34;&gt;结论&lt;/h2&gt;
+&lt;p&gt;总之,tidytof为使用简单的API和与许多现有的数据科学和生物信息学社区创建的工具无缝集成来分析高维细胞数据提供了一个整洁的接口。通过这种方式,tidytof降低了将标准工具应用于高维细胞数据集的编码负担,从而提高了高级分析方法对编程经验有限的研究人员的可访问性。&lt;/p&gt;
+</description>
+    </item>
+    
+    <item>
       <title>2023-9-1 Xiaotao Shen presented the nonlinear aging work on 2023 Stanford University Biox Symposium.</title>
       <link>https://jaspershen.github.io/news/2023-stanford-biox/</link>
       <pubDate>Fri, 01 Sep 2023 00:00:00 +0000</pubDate>
@@ -218,6 +271,22 @@
     </item>
     
     <item>
+      <title>How to update shen personal website</title>
+      <link>https://jaspershen.github.io/post/2022-10-23-shen-blog-instruction/</link>
+      <pubDate>Sun, 23 Oct 2022 21:13:14 -0500</pubDate>
+      <guid>https://jaspershen.github.io/post/2022-10-23-shen-blog-instruction/</guid>
+      <description>&lt;h1 id=&#34;the-menus-appearance&#34;&gt;The menus appearance&lt;/h1&gt;
+&lt;p&gt;The file is here: config/_default/menus.en.toml&lt;/p&gt;
+&lt;h1 id=&#34;the-theme-design&#34;&gt;The theme design&lt;/h1&gt;
+&lt;p&gt;The file is here: config/_default/params.toml&lt;/p&gt;
+&lt;h1 id=&#34;the-order-of-contents&#34;&gt;The order of contents&lt;/h1&gt;
+&lt;p&gt;This is determined by the weight in the index for each content.&lt;/p&gt;
+&lt;p&gt;About: 20&lt;/p&gt;
+&lt;p&gt;featured: 22&lt;/p&gt;
+</description>
+    </item>
+    
+    <item>
       <title>Deep learning-based pseudo-mass spectrometry imaging analysis for precision medicine</title>
       <link>https://jaspershen.github.io/talk/2022-casms/</link>
       <pubDate>Thu, 20 Oct 2022 13:00:00 +0000</pubDate>
@@ -369,6 +438,108 @@
       <guid>https://jaspershen.github.io/project/scpa-project/</guid>
       <description>&lt;p&gt;The Stanford Chinese Postdoc Association is a vibrant community of the Chinese postdocs, across all disciplines, at Stanford University. Our mission is to create and hold a space of all Chinese postdocs, and help them in study, work and life as much as we can. We welcome all the Chinese postdocs join us!&lt;/p&gt;
 </description>
+    </item>
+    
+    <item>
+      <title>RNA-seq原始数据处理</title>
+      <link>https://jaspershen.github.io/post/2021-06-30-rnaseq-raw-data-processing/</link>
+      <pubDate>Wed, 30 Jun 2021 21:13:14 -0500</pubDate>
+      <guid>https://jaspershen.github.io/post/2021-06-30-rnaseq-raw-data-processing/</guid>
+      <description>&lt;p&gt;颜色是数据可视化中非常重要的一个元素，它可以传达信息，引起注意，增强美感，甚至影响情绪。但是，如何选择合适的颜色方案呢？有没有一种科学的方法，可以帮助我们在众多的颜色中找到最佳的组合呢？&lt;/p&gt;
+&lt;h1 id=&#34;rna-seq原始数据&#34;&gt;RNA-seq原始数据&lt;/h1&gt;
+&lt;p&gt;参考:https://mp.weixin.qq.com/s?__biz=MzA4NDAzODkzMA==&amp;amp;mid=2651272899&amp;amp;idx=1&amp;amp;sn=6779b2bd21f3b607a08227d31c7212c6&amp;amp;chksm=841ed2beb3695ba8bee23563c28caa005447b2298785719964732b16cafe3a15d7d4937b95c1&amp;amp;scene=21#wechat_redirect&lt;/p&gt;
+&lt;p&gt;原始数据格式为fastq,为本文文件.用来保存生物序列.每一个样本一个fastq文件,每个序列用四行信息记录.&lt;/p&gt;
+&lt;h1 id=&#34;数据整理&#34;&gt;数据整理&lt;/h1&gt;
+&lt;p&gt;一般需要将不同数据放在不同文件夹下.&lt;/p&gt;
+&lt;h2 id=&#34;raw_data&#34;&gt;raw_data&lt;/h2&gt;
+&lt;p&gt;原始数据.fastq或者fastq.gz格式.&lt;/p&gt;
+&lt;h2 id=&#34;qc_results&#34;&gt;qc_results&lt;/h2&gt;
+&lt;p&gt;用来存放质量控制得到的数据.&lt;/p&gt;
+&lt;h2 id=&#34;clean_data&#34;&gt;clean_data&lt;/h2&gt;
+&lt;p&gt;用来存放&lt;code&gt;trim_galore&lt;/code&gt;清洗之后的数据.&lt;/p&gt;
+&lt;h2 id=&#34;reference_geonome&#34;&gt;reference_geonome&lt;/h2&gt;
+&lt;p&gt;用来存放参考基因组.&lt;/p&gt;
+&lt;h2 id=&#34;aligned&#34;&gt;aligned&lt;/h2&gt;
+&lt;p&gt;用来存放比对之后的数据.&lt;/p&gt;
+&lt;h1 id=&#34;质量控制&#34;&gt;质量控制&lt;/h1&gt;
+&lt;p&gt;使用&lt;code&gt;fastQC&lt;/code&gt;和&lt;code&gt;multiqc&lt;/code&gt;对测序质量进行评价.&lt;/p&gt;
+&lt;h2 id=&#34;fastqc&#34;&gt;fastQC&lt;/h2&gt;
+&lt;p&gt;首先使用fastQC对每个样品的测序质量进行评估.&lt;/p&gt;
+&lt;div class=&#34;highlight&#34;&gt;&lt;pre tabindex=&#34;0&#34; class=&#34;chroma&#34;&gt;&lt;code class=&#34;language-fallback&#34; data-lang=&#34;fallback&#34;&gt;&lt;span class=&#34;line&#34;&gt;&lt;span class=&#34;cl&#34;&gt;fastqc -o &amp;lt;output dir&amp;gt; &amp;lt;seqfile1,seqfile2..&amp;gt;
+&lt;/span&gt;&lt;/span&gt;&lt;/code&gt;&lt;/pre&gt;&lt;/div&gt;&lt;p&gt;-o:输出的路径&lt;/p&gt;
+&lt;p&gt;&amp;lt;seqfile1,seqfile2..&amp;gt;:要进行评估的原始数据.&lt;/p&gt;
+&lt;p&gt;将路径设置到最外面.&lt;/p&gt;
+&lt;p&gt;然后输入下面代码:&lt;/p&gt;
+&lt;div class=&#34;highlight&#34;&gt;&lt;pre tabindex=&#34;0&#34; class=&#34;chroma&#34;&gt;&lt;code class=&#34;language-fallback&#34; data-lang=&#34;fallback&#34;&gt;&lt;span class=&#34;line&#34;&gt;&lt;span class=&#34;cl&#34;&gt;fastqc -o qc_results *.fastq.gz
+&lt;/span&gt;&lt;/span&gt;&lt;/code&gt;&lt;/pre&gt;&lt;/div&gt;&lt;h2 id=&#34;multiqc&#34;&gt;multiqc&lt;/h2&gt;
+&lt;p&gt;使用multiqc将fastqc对每个测序样品的结果进行汇总.&lt;/p&gt;
+&lt;div class=&#34;highlight&#34;&gt;&lt;pre tabindex=&#34;0&#34; class=&#34;chroma&#34;&gt;&lt;code class=&#34;language-fallback&#34; data-lang=&#34;fallback&#34;&gt;&lt;span class=&#34;line&#34;&gt;&lt;span class=&#34;cl&#34;&gt;multiqc *fastqc.zip --pdf
+&lt;/span&gt;&lt;/span&gt;&lt;/code&gt;&lt;/pre&gt;&lt;/div&gt;&lt;p&gt;fastQC的结果是fastqc.zip格式.&lt;/p&gt;
+&lt;p&gt;需要先将路径设置到&lt;code&gt;qc_results&lt;/code&gt;中.然后运行该命令.&lt;/p&gt;
+&lt;h1 id=&#34;使用trim-galore去除低质量的reads和adaptor&#34;&gt;使用trim-galore去除低质量的reads和adaptor&lt;/h1&gt;
+&lt;p&gt;处理单个样本可以使用下面命令.&lt;/p&gt;
+&lt;div class=&#34;highlight&#34;&gt;&lt;pre tabindex=&#34;0&#34; class=&#34;chroma&#34;&gt;&lt;code class=&#34;language-fallback&#34; data-lang=&#34;fallback&#34;&gt;&lt;span class=&#34;line&#34;&gt;&lt;span class=&#34;cl&#34;&gt;trim_galore -output_dir clean_data --paired --length 75 --quality 25 --stringency 5 /raw_data/*fastq.gz
+&lt;/span&gt;&lt;/span&gt;&lt;/code&gt;&lt;/pre&gt;&lt;/div&gt;&lt;p&gt;批量多核处理:&lt;/p&gt;
+&lt;p&gt;首先设置路径到&lt;code&gt;raw_data&lt;/code&gt;&lt;/p&gt;
+&lt;div class=&#34;highlight&#34;&gt;&lt;pre tabindex=&#34;0&#34; class=&#34;chroma&#34;&gt;&lt;code class=&#34;language-fallback&#34; data-lang=&#34;fallback&#34;&gt;&lt;span class=&#34;line&#34;&gt;&lt;span class=&#34;cl&#34;&gt;ls|grep R1_001.fastq.gz&amp;gt;gz1
+&lt;/span&gt;&lt;/span&gt;&lt;span class=&#34;line&#34;&gt;&lt;span class=&#34;cl&#34;&gt;ls|grep R2_001.fastq.gz&amp;gt;gz2
+&lt;/span&gt;&lt;/span&gt;&lt;span class=&#34;line&#34;&gt;&lt;span class=&#34;cl&#34;&gt;paste gz1 gz2&amp;gt;config
+&lt;/span&gt;&lt;/span&gt;&lt;span class=&#34;line&#34;&gt;&lt;span class=&#34;cl&#34;&gt;cat config
+&lt;/span&gt;&lt;/span&gt;&lt;/code&gt;&lt;/pre&gt;&lt;/div&gt;&lt;p&gt;然后创建一个&lt;code&gt;trim.sh&lt;/code&gt;文件:&lt;/p&gt;
+&lt;div class=&#34;highlight&#34;&gt;&lt;pre tabindex=&#34;0&#34; class=&#34;chroma&#34;&gt;&lt;code class=&#34;language-fallback&#34; data-lang=&#34;fallback&#34;&gt;&lt;span class=&#34;line&#34;&gt;&lt;span class=&#34;cl&#34;&gt;touch trim.sh
+&lt;/span&gt;&lt;/span&gt;&lt;/code&gt;&lt;/pre&gt;&lt;/div&gt;&lt;p&gt;vim打开.&lt;/p&gt;
+&lt;div class=&#34;highlight&#34;&gt;&lt;pre tabindex=&#34;0&#34; class=&#34;chroma&#34;&gt;&lt;code class=&#34;language-fallback&#34; data-lang=&#34;fallback&#34;&gt;&lt;span class=&#34;line&#34;&gt;&lt;span class=&#34;cl&#34;&gt;vim trim.sh
+&lt;/span&gt;&lt;/span&gt;&lt;/code&gt;&lt;/pre&gt;&lt;/div&gt;&lt;p&gt;按esc,然后&lt;code&gt;:i&lt;/code&gt;进入插入模式,写入下面的代码:&lt;/p&gt;
+&lt;div class=&#34;highlight&#34;&gt;&lt;pre tabindex=&#34;0&#34; class=&#34;chroma&#34;&gt;&lt;code class=&#34;language-fallback&#34; data-lang=&#34;fallback&#34;&gt;&lt;span class=&#34;line&#34;&gt;&lt;span class=&#34;cl&#34;&gt;dir=/home/kelly/wesproject/clean_data/
+&lt;/span&gt;&lt;/span&gt;&lt;span class=&#34;line&#34;&gt;&lt;span class=&#34;cl&#34;&gt;cat config |while read id
+&lt;/span&gt;&lt;/span&gt;&lt;span class=&#34;line&#34;&gt;&lt;span class=&#34;cl&#34;&gt;do
+&lt;/span&gt;&lt;/span&gt;&lt;span class=&#34;line&#34;&gt;&lt;span class=&#34;cl&#34;&gt;      arr=${id}
+&lt;/span&gt;&lt;/span&gt;&lt;span class=&#34;line&#34;&gt;&lt;span class=&#34;cl&#34;&gt;      fq1=${arr[0]}
+&lt;/span&gt;&lt;/span&gt;&lt;span class=&#34;line&#34;&gt;&lt;span class=&#34;cl&#34;&gt;      fq2=${arr[1]}
+&lt;/span&gt;&lt;/span&gt;&lt;span class=&#34;line&#34;&gt;&lt;span class=&#34;cl&#34;&gt;      nohup trim_galore -q 25 --phred33 --length 36 -e 0.1 --stringency 3 --paired -o $dir $fq1 $fq2 &amp;amp;
+&lt;/span&gt;&lt;/span&gt;&lt;span class=&#34;line&#34;&gt;&lt;span class=&#34;cl&#34;&gt;done
+&lt;/span&gt;&lt;/span&gt;&lt;/code&gt;&lt;/pre&gt;&lt;/div&gt;&lt;p&gt;其中dir是clean_data的绝对路径.&lt;/p&gt;
+&lt;p&gt;然后按esc,然后&lt;code&gt;:wq&lt;/code&gt;保存退出.&lt;/p&gt;
+&lt;p&gt;然后运行该文件.&lt;/p&gt;
+&lt;div class=&#34;highlight&#34;&gt;&lt;pre tabindex=&#34;0&#34; class=&#34;chroma&#34;&gt;&lt;code class=&#34;language-fallback&#34; data-lang=&#34;fallback&#34;&gt;&lt;span class=&#34;line&#34;&gt;&lt;span class=&#34;cl&#34;&gt;shell trim.sh
+&lt;/span&gt;&lt;/span&gt;&lt;/code&gt;&lt;/pre&gt;&lt;/div&gt;&lt;p&gt;然后就会在clean_data中生成数据.&lt;/p&gt;
+&lt;p&gt;进入该文件夹下.可以查看文件的数据.&lt;/p&gt;
+&lt;div class=&#34;highlight&#34;&gt;&lt;pre tabindex=&#34;0&#34; class=&#34;chroma&#34;&gt;&lt;code class=&#34;language-fallback&#34; data-lang=&#34;fallback&#34;&gt;&lt;span class=&#34;line&#34;&gt;&lt;span class=&#34;cl&#34;&gt;ls -lht | grep val | wc -l
+&lt;/span&gt;&lt;/span&gt;&lt;/code&gt;&lt;/pre&gt;&lt;/div&gt;&lt;p&gt;这种写法&lt;code&gt;|&lt;/code&gt;跟R中的&lt;code&gt;%&amp;gt;%&lt;/code&gt;类似.&lt;/p&gt;
+&lt;p&gt;这里面,&lt;code&gt;wc -l&lt;/code&gt;是计数的.&lt;/p&gt;
+&lt;h1 id=&#34;序列比对&#34;&gt;序列比对&lt;/h1&gt;
+&lt;p&gt;我们使用&lt;code&gt;hisat&lt;/code&gt;进行序列比对.&lt;/p&gt;
+&lt;p&gt;下载参考基因组:&lt;/p&gt;
+&lt;p&gt;路径设置到想要存放路径的地方.&lt;/p&gt;
+&lt;div class=&#34;highlight&#34;&gt;&lt;pre tabindex=&#34;0&#34; class=&#34;chroma&#34;&gt;&lt;code class=&#34;language-fallback&#34; data-lang=&#34;fallback&#34;&gt;&lt;span class=&#34;line&#34;&gt;&lt;span class=&#34;cl&#34;&gt;wget ftp://ftp.ccb.jhu.edu/pub/infphilo/hisat2/data/hg38.tar.gz
+&lt;/span&gt;&lt;/span&gt;&lt;/code&gt;&lt;/pre&gt;&lt;/div&gt;&lt;p&gt;这里我们下载最近的hg38参考基因组.&lt;/p&gt;
+&lt;p&gt;hisat2使用.&lt;/p&gt;
+&lt;div class=&#34;highlight&#34;&gt;&lt;pre tabindex=&#34;0&#34; class=&#34;chroma&#34;&gt;&lt;code class=&#34;language-fallback&#34; data-lang=&#34;fallback&#34;&gt;&lt;span class=&#34;line&#34;&gt;&lt;span class=&#34;cl&#34;&gt;hisat2 -p 6 -x &amp;lt;dir of index of genome&amp;gt; -1 seq_val_1.fq.gz -2 seq_val_2.fq.gz -S  tem.hisat2.sam
+&lt;/span&gt;&lt;/span&gt;&lt;/code&gt;&lt;/pre&gt;&lt;/div&gt;&lt;p&gt;-p: 处理核心数.&lt;/p&gt;
+&lt;p&gt;-x: 参考基因组存放位置.最后需要写上&lt;code&gt;geome&lt;/code&gt;.&lt;/p&gt;
+&lt;p&gt;-1: 两端测序的第一个文件.&lt;/p&gt;
+&lt;p&gt;-2: 两端测序的第二个文件.&lt;/p&gt;
+&lt;p&gt;-S: 生成的sam格式数据的名字.&lt;/p&gt;
+&lt;p&gt;具体例子:&lt;/p&gt;
+&lt;div class=&#34;highlight&#34;&gt;&lt;pre tabindex=&#34;0&#34; class=&#34;chroma&#34;&gt;&lt;code class=&#34;language-fallback&#34; data-lang=&#34;fallback&#34;&gt;&lt;span class=&#34;line&#34;&gt;&lt;span class=&#34;cl&#34;&gt;hisat2 --dta -t -p 8 -x ./reference_genome/index/hg38/genome -1 ./clean_data/iPOP_MC_PBMC_RNAseq_1_S1_L001_R1_001_val_1.fq.gz -2 ./clean_data/iPOP_MC_PBMC_RNAseq_1_S1_L001_R2_001_val_2.fq.gz -S ./aligned/iPOP_MC_PBMC_RNAseq_1_S1_L001_R2_001_val_2.sam
+&lt;/span&gt;&lt;/span&gt;&lt;/code&gt;&lt;/pre&gt;&lt;/div&gt;&lt;p&gt;路径需要在整个project root路径.&lt;/p&gt;
+&lt;p&gt;注意参考基因组的路径写法,其实我们的参考基因组就存放在&lt;code&gt;./reference_genome/index/hg38/&lt;/code&gt;文件夹下.genome一定要加上去.&lt;/p&gt;
+&lt;p&gt;写一个循环进行批次处理:&lt;/p&gt;
+&lt;div class=&#34;highlight&#34;&gt;&lt;pre tabindex=&#34;0&#34; class=&#34;chroma&#34;&gt;&lt;code class=&#34;language-fallback&#34; data-lang=&#34;fallback&#34;&gt;&lt;span class=&#34;line&#34;&gt;&lt;span class=&#34;cl&#34;&gt;for i in iPOP_MC_PBMC_RNAseq_1_S1_L001 iPOP_MC_PBMC_RNAseq_10_S10_L001 iPOP_MC_PBMC_RNAseq_11_S11_L001 iPOP_MC_PBMC_RNAseq_12_S12_L001 iPOP_MC_PBMC_RNAseq_13_S13_L001 iPOP_MC_PBMC_RNAseq_14_S14_L001 iPOP_MC_PBMC_RNAseq_15_S15_L001 iPOP_MC_PBMC_RNAseq_16_S16_L001 iPOP_MC_PBMC_RNAseq_17_S17_L001 iPOP_MC_PBMC_RNAseq_18_S18_L001 iPOP_MC_PBMC_RNAseq_19_S19_L001 iPOP_MC_PBMC_RNAseq_2_S2_L001 iPOP_MC_PBMC_RNAseq_20_S20_L001 iPOP_MC_PBMC_RNAseq_21_S21_L001 iPOP_MC_PBMC_RNAseq_22_S22_L001 iPOP_MC_PBMC_RNAseq_23_S23_L001 iPOP_MC_PBMC_RNAseq_24_S24_L001 iPOP_MC_PBMC_RNAseq_25_S25_L001 iPOP_MC_PBMC_RNAseq_26_S26_L001 iPOP_MC_PBMC_RNAseq_27_S27_L001 iPOP_MC_PBMC_RNAseq_28_S28_L001 iPOP_MC_PBMC_RNAseq_29_S29_L001 iPOP_MC_PBMC_RNAseq_3_S3_L001 iPOP_MC_PBMC_RNAseq_30_S30_L001 iPOP_MC_PBMC_RNAseq_31_S31_L001 iPOP_MC_PBMC_RNAseq_32_S32_L001 iPOP_MC_PBMC_RNAseq_33_S33_L001 iPOP_MC_PBMC_RNAseq_34_S34_L001 iPOP_MC_PBMC_RNAseq_35_S35_L001 iPOP_MC_PBMC_RNAseq_36_S36_L001 iPOP_MC_PBMC_RNAseq_37_S37_L001 iPOP_MC_PBMC_RNAseq_38_S38_L001 iPOP_MC_PBMC_RNAseq_39_S39_L001 iPOP_MC_PBMC_RNAseq_4_S4_L001 iPOP_MC_PBMC_RNAseq_40_S40_L001 iPOP_MC_PBMC_RNAseq_41_S41_L001 iPOP_MC_PBMC_RNAseq_42_S42_L001 iPOP_MC_PBMC_RNAseq_43_S43_L001 iPOP_MC_PBMC_RNAseq_44_S44_L001 iPOP_MC_PBMC_RNAseq_45_S45_L001 iPOP_MC_PBMC_RNAseq_46_S46_L001 iPOP_MC_PBMC_RNAseq_47_S47_L001 iPOP_MC_PBMC_RNAseq_5_S5_L001 iPOP_MC_PBMC_RNAseq_6_S6_L001 iPOP_MC_PBMC_RNAseq_7_S7_L001 iPOP_MC_PBMC_RNAseq_8_S8_L001 iPOP_MC_PBMC_RNAseq_9_S9_L001 Undetermined_S0_L001
+&lt;/span&gt;&lt;/span&gt;&lt;span class=&#34;line&#34;&gt;&lt;span class=&#34;cl&#34;&gt;do 
+&lt;/span&gt;&lt;/span&gt;&lt;span class=&#34;line&#34;&gt;&lt;span class=&#34;cl&#34;&gt;hisat2 --dta -t -p 15 -x ./reference_genome/index/hg38/genome \
+&lt;/span&gt;&lt;/span&gt;&lt;span class=&#34;line&#34;&gt;&lt;span class=&#34;cl&#34;&gt;-1 ./clean_data/&amp;#34;$i&amp;#34;_R1_001_val_1.fq.gz \
+&lt;/span&gt;&lt;/span&gt;&lt;span class=&#34;line&#34;&gt;&lt;span class=&#34;cl&#34;&gt;-2 ./clean_data/&amp;#34;$i&amp;#34;_R2_001_val_2.fq.gz \
+&lt;/span&gt;&lt;/span&gt;&lt;span class=&#34;line&#34;&gt;&lt;span class=&#34;cl&#34;&gt;-S ./aligned/&amp;#34;$i&amp;#34;.sam; done
+&lt;/span&gt;&lt;/span&gt;&lt;/code&gt;&lt;/pre&gt;&lt;/div&gt;&lt;h1 id=&#34;samtools将sam转换为bam&#34;&gt;samtools将sam转换为bam&lt;/h1&gt;
+&lt;p&gt;使用samtools将得到的sam格式数据转换为bam格式,并且进行sort.&lt;/p&gt;
+&lt;p&gt;单个转换:&lt;/p&gt;
+&lt;div class=&#34;highlight&#34;&gt;&lt;pre tabindex=&#34;0&#34; class=&#34;chroma&#34;&gt;&lt;code class=&#34;language-fallback&#34; data-lang=&#34;fallback&#34;&gt;&lt;span class=&#34;line&#34;&gt;&lt;span class=&#34;cl&#34;&gt;samtools view -S iPOP_MC_PBMC_RNAseq_10_S10_L001.sam -b &amp;gt; iPOP_MC_PBMC_RNAseq_10_S10_L001.bam
+&lt;/span&gt;&lt;/span&gt;&lt;/code&gt;&lt;/pre&gt;&lt;/div&gt;&lt;p&gt;批次转换:&lt;/p&gt;
+&lt;div class=&#34;highlight&#34;&gt;&lt;pre tabindex=&#34;0&#34; class=&#34;chroma&#34;&gt;&lt;code class=&#34;language-fallback&#34; data-lang=&#34;fallback&#34;&gt;&lt;span class=&#34;line&#34;&gt;&lt;span class=&#34;cl&#34;&gt;for i in iPOP_MC_PBMC_RNAseq_11_S11_L001 iPOP_MC_PBMC_RNAseq_12_S12_L001 iPOP_MC_PBMC_RNAseq_13_S13_L001 iPOP_MC_PBMC_RNAseq_14_S14_L001 iPOP_MC_PBMC_RNAseq_15_S15_L001 iPOP_MC_PBMC_RNAseq_16_S16_L001 iPOP_MC_PBMC_RNAseq_17_S17_L001 iPOP_MC_PBMC_RNAseq_18_S18_L001 iPOP_MC_PBMC_RNAseq_19_S19_L001 iPOP_MC_PBMC_RNAseq_2_S2_L001 iPOP_MC_PBMC_RNAseq_20_S20_L001 iPOP_MC_PBMC_RNAseq_21_S21_L001 iPOP_MC_PBMC_RNAseq_22_S22_L001 iPOP_MC_PBMC_RNAseq_23_S23_L001 iPOP_MC_PBMC_RNAseq_24_S24_L001 iPOP_MC_PBMC_RNAseq_25_S25_L001 iPOP_MC_PBMC_RNAseq_26_S26_L001 iPOP_MC_PBMC_RNAseq_27_S27_L001 iPOP_MC_PBMC_RNAseq_28_S28_L001 iPOP_MC_PBMC_RNAseq_29_S29_L001 iPOP_MC_PBMC_RNAseq_3_S3_L001 iPOP_MC_PBMC_RNAseq_30_S30_L001 iPOP_MC_PBMC_RNAseq_31_S31_L001 iPOP_MC_PBMC_RNAseq_32_S32_L001 iPOP_MC_PBMC_RNAseq_33_S33_L001 iPOP_MC_PBMC_RNAseq_34_S34_L001 iPOP_MC_PBMC_RNAseq_35_S35_L001 iPOP_MC_PBMC_RNAseq_36_S36_L001 iPOP_MC_PBMC_RNAseq_37_S37_L001 iPOP_MC_PBMC_RNAseq_38_S38_L001 iPOP_MC_PBMC_RNAseq_39_S39_L001 iPOP_MC_PBMC_RNAseq_4_S4_L001 iPOP_MC_PBMC_RNAseq_40_S40_L001 iPOP_MC_PBMC_RNAseq_41_S41_L001 iPOP_MC_PBMC_RNAseq_42_S42_L001 iPOP_MC_PBMC_RNAseq_43_S43_L001 iPOP_MC_PBMC_RNAseq_44_S44_L001 iPOP_MC_PBMC_RNAseq_45_S45_L001 iPOP_MC_PBMC_RNAseq_46_S46_L001 iPOP_MC_PBMC_RNAseq_47_S47_L001 iPOP_MC_PBMC_RNAseq_5_S5_L001 iPOP_MC_PBMC_RNAseq_6_S6_L001 iPOP_MC_PBMC_RNAseq_7_S7_L001 iPOP_MC_PBMC_RNAseq_8_S8_L001 iPOP_MC_PBMC_RNAseq_9_S9_L001 Undetermined_S0_L001
+&lt;/span&gt;&lt;/span&gt;&lt;span class=&#34;line&#34;&gt;&lt;span class=&#34;cl&#34;&gt;do
+&lt;/span&gt;&lt;/span&gt;&lt;span class=&#34;line&#34;&gt;&lt;span class=&#34;cl&#34;&gt;samtools view -S &amp;#34;$i&amp;#34;.sam -b &amp;gt; &amp;#34;$i&amp;#34;.bam; done
+&lt;/span&gt;&lt;/span&gt;&lt;/code&gt;&lt;/pre&gt;&lt;/div&gt;</description>
     </item>
     
     <item>
@@ -737,7 +908,7 @@ data.head()
 
 
 
-&lt;div id=&#34;chart-746185392&#34; class=&#34;chart&#34;&gt;&lt;/div&gt;
+&lt;div id=&#34;chart-231859467&#34; class=&#34;chart&#34;&gt;&lt;/div&gt;
 &lt;script&gt;
   (function() {
     let a = setInterval( function() {
@@ -747,7 +918,7 @@ data.head()
       clearInterval( a );
 
       Plotly.d3.json(&#34;./line-chart.json&#34;, function(chart) {
-        Plotly.plot(&#39;chart-746185392&#39;, chart.data, chart.layout, {responsive: true});
+        Plotly.plot(&#39;chart-231859467&#39;, chart.data, chart.layout, {responsive: true});
       });
     }, 500 );
   })();

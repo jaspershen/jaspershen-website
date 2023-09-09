@@ -3,10 +3,38 @@
   xmlns:xhtml="http://www.w3.org/1999/xhtml">
   <url>
     <loc>https://jaspershen.github.io/talk/2023-bamm/</loc>
-    <lastmod>2023-09-08T13:00:00+00:00</lastmod>
+    <lastmod>2023-09-08T21:43:26-07:00</lastmod>
     <changefreq>weekly</changefreq>
   </url><url>
     <loc>https://jaspershen.github.io/news/2023-bamm/</loc>
+    <lastmod>2023-09-08T21:43:26-07:00</lastmod>
+    <changefreq>weekly</changefreq>
+  </url><url>
+    <loc>https://jaspershen.github.io/categories/</loc>
+    <lastmod>2023-09-08T00:00:00+00:00</lastmod>
+    <changefreq>weekly</changefreq>
+  </url><url>
+    <loc>https://jaspershen.github.io/category/chinese/</loc>
+    <lastmod>2023-09-08T00:00:00+00:00</lastmod>
+    <changefreq>weekly</changefreq>
+  </url><url>
+    <loc>https://jaspershen.github.io/tag/paper/</loc>
+    <lastmod>2023-09-08T00:00:00+00:00</lastmod>
+    <changefreq>weekly</changefreq>
+  </url><url>
+    <loc>https://jaspershen.github.io/category/r/</loc>
+    <lastmod>2023-09-08T00:00:00+00:00</lastmod>
+    <changefreq>weekly</changefreq>
+  </url><url>
+    <loc>https://jaspershen.github.io/tag/r-package/</loc>
+    <lastmod>2023-09-08T00:00:00+00:00</lastmod>
+    <changefreq>weekly</changefreq>
+  </url><url>
+    <loc>https://jaspershen.github.io/tags/</loc>
+    <lastmod>2023-09-08T00:00:00+00:00</lastmod>
+    <changefreq>weekly</changefreq>
+  </url><url>
+    <loc>https://jaspershen.github.io/post/2023-07-19-tidytof/</loc>
     <lastmod>2023-09-08T00:00:00+00:00</lastmod>
     <changefreq>weekly</changefreq>
   </url><url>
@@ -36,30 +64,6 @@
   </url><url>
     <loc>https://jaspershen.github.io/publication/semi-supervised-cooperative-learning-for-multiomics-data-fusion/</loc>
     <lastmod>2023-08-14T14:46:58-07:00</lastmod>
-    <changefreq>weekly</changefreq>
-  </url><url>
-    <loc>https://jaspershen.github.io/categories/</loc>
-    <lastmod>2023-08-24T22:47:55-07:00</lastmod>
-    <changefreq>weekly</changefreq>
-  </url><url>
-    <loc>https://jaspershen.github.io/category/chinese/</loc>
-    <lastmod>2023-08-24T22:47:55-07:00</lastmod>
-    <changefreq>weekly</changefreq>
-  </url><url>
-    <loc>https://jaspershen.github.io/tag/paper/</loc>
-    <lastmod>2023-08-24T22:47:55-07:00</lastmod>
-    <changefreq>weekly</changefreq>
-  </url><url>
-    <loc>https://jaspershen.github.io/category/r/</loc>
-    <lastmod>2023-08-24T22:47:55-07:00</lastmod>
-    <changefreq>weekly</changefreq>
-  </url><url>
-    <loc>https://jaspershen.github.io/tag/r-package/</loc>
-    <lastmod>2023-08-24T22:47:55-07:00</lastmod>
-    <changefreq>weekly</changefreq>
-  </url><url>
-    <loc>https://jaspershen.github.io/tags/</loc>
-    <lastmod>2023-08-24T22:47:55-07:00</lastmod>
     <changefreq>weekly</changefreq>
   </url><url>
     <loc>https://jaspershen.github.io/post/2023-07-19-colorspace/</loc>
@@ -96,6 +100,14 @@
   </url><url>
     <loc>https://jaspershen.github.io/publication/multi-omics-microsampling-for-the-profiling-of-lifestyle-associated-changes-in-health/</loc>
     <lastmod>2023-09-05T09:18:23-07:00</lastmod>
+    <changefreq>weekly</changefreq>
+  </url><url>
+    <loc>https://jaspershen.github.io/tag/blog/</loc>
+    <lastmod>2023-08-12T12:09:11-07:00</lastmod>
+    <changefreq>weekly</changefreq>
+  </url><url>
+    <loc>https://jaspershen.github.io/post/2022-10-23-shen-blog-instruction/</loc>
+    <lastmod>2023-08-12T12:09:11-07:00</lastmod>
     <changefreq>weekly</changefreq>
   </url><url>
     <loc>https://jaspershen.github.io/</loc>
@@ -188,6 +200,18 @@
   </url><url>
     <loc>https://jaspershen.github.io/project/scpa-project/</loc>
     <lastmod>2023-08-14T14:46:58-07:00</lastmod>
+    <changefreq>weekly</changefreq>
+  </url><url>
+    <loc>https://jaspershen.github.io/tag/chinese/</loc>
+    <lastmod>2023-08-12T12:09:11-07:00</lastmod>
+    <changefreq>weekly</changefreq>
+  </url><url>
+    <loc>https://jaspershen.github.io/category/linux/</loc>
+    <lastmod>2023-08-12T12:09:11-07:00</lastmod>
+    <changefreq>weekly</changefreq>
+  </url><url>
+    <loc>https://jaspershen.github.io/post/2021-06-30-rnaseq-raw-data-processing/</loc>
+    <lastmod>2023-08-12T12:09:11-07:00</lastmod>
     <changefreq>weekly</changefreq>
   </url><url>
     <loc>https://jaspershen.github.io/publication/common-and-rare-variant-analyses-combined-with-single-cell-multiomics-reveal-cell-type-specific-molecular-mechanisms-of-covid-19-severity/</loc>

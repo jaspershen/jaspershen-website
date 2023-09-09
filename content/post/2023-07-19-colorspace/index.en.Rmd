@@ -1,6 +1,7 @@
 ---
 title: "如何使用colorspace包选择合适的颜色方案"
-author: "admin"
+authors: 
+- admin
 date: 2023-07-19T21:13:14-05:00
 categories: ["R", "Chinese"]
 tags: ["R package", "Paper"]
