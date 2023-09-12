@@ -202,7 +202,7 @@ sections:
     
 - block: collection
   content:
-    count: 3
+    count: 6
     filters:
       featured_only: true
       folders:

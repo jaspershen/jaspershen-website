@@ -17,7 +17,7 @@ authors:
 - Sophia Miryam Schüssler-Fiorenza Rose
 - Michael Snyder
 
-featured: false
+featured: true
 publication: Genome Research
 publication_types:
 - 2
