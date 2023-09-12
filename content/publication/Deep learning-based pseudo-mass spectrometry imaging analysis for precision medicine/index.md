@@ -36,7 +36,7 @@ links:
 - icon: file-pdf
   icon_pack: fas
   name: PDF
-  url: file/Deep learning-based pseudo-mass spectrometry imaging analysis for precision medicine.pdf
+  url: publication/Deep learning-based pseudo-mass spectrometry imaging analysis for precision medicine.pdf
 # - icon: github
 #   icon_pack: fab
 #   name: Code

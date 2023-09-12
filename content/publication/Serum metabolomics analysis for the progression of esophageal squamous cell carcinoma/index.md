@@ -29,5 +29,5 @@ links:
 - icon: file-pdf
   icon_pack: fas
   name: PDF
-  url: 
+  url: publication/Serum metabolomics analysis for the progression of esophageal squamous cell carcinoma.pdf
 ---

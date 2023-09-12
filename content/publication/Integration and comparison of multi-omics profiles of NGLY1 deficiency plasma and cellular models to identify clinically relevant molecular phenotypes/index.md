@@ -32,5 +32,5 @@ links:
 - icon: file-pdf
   icon_pack: fas
   name: PDF
-  url: 
+  url: publication/Integration and comparison of multi-omics profiles of NGLY1 deficiency plasma and cellular models to identify clinically relevant molecular phenotypes.pdf
 ---

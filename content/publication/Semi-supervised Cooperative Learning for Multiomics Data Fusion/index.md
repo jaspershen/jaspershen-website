@@ -30,7 +30,7 @@ links:
 - icon: file-pdf
   icon_pack: fas
   name: PDF
-  url: file/Semi-supervised Cooperative Learning for Multiomics Data Fusion.pdf
+  url: publication/Semi-supervised Cooperative Learning for Multiomics Data Fusion.pdf
 # - icon: github
 #   icon_pack: fab
 #   name: Code

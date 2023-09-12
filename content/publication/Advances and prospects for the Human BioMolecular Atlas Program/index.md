@@ -31,7 +31,7 @@ links:
 - icon: file-pdf
   icon_pack: fas
   name: PDF
-  url: file/Advances and prospects for the Human BioMolecular Atlas Program (HuBMAP).pdf
+  url: publication/Advances and prospects for the Human BioMolecular Atlas Program (HuBMAP).pdf
 # - icon: github
 #   icon_pack: fab
 #   name: Code

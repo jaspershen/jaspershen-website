@@ -42,5 +42,5 @@ links:
 - icon: file-pdf
   icon_pack: fas
   name: PDF
-  url: 
+  url: publication/Common and rare variant analyses combined with single-cell multiomics reveal cell-type-specific molecular mechanisms of COVID-19 severity.pdf
 ---

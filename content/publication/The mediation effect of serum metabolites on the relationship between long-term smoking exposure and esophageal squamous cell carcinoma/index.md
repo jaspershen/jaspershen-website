@@ -30,5 +30,5 @@ links:
 - icon: file-pdf
   icon_pack: fas
   name: PDF
-  url: 
+  url: publication/The mediation effect of serum metabolites on the relationship between long-term smoking exposure and esophageal squamous cell carcinoma.pdf
 ---

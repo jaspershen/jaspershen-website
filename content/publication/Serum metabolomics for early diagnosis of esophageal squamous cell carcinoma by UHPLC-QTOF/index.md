@@ -38,5 +38,5 @@ links:
 - icon: file-pdf
   icon_pack: fas
   name: PDF
-  url: 
+  url: publication/Serum metabolomics for early diagnosis of esophageal squamous cell carcinoma by UHPLC-QTOF-MS.pdf
 ---

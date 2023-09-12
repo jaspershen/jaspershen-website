@@ -30,7 +30,7 @@ links:
 - icon: file-pdf
   icon_pack: fas
   name: PDF
-  url: file/massDatabase utilities for the operation of the public compound and pathway database.pdf
+  url: publication/massDatabase utilities for the operation of the public compound and pathway database.pdf
 # - icon: github
 #   icon_pack: fab
 #   name: Code

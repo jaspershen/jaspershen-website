@@ -29,5 +29,5 @@ links:
 - icon: file-pdf
   icon_pack: fas
   name: PDF
-  url: 
+  url: publication/State-of-the-art methods for exposure-health studies Results from the exposome data challenge event.pdf
 ---

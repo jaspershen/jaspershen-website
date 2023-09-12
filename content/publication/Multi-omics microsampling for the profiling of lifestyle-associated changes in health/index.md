@@ -46,7 +46,7 @@ links:
 - icon: file-pdf
   icon_pack: fas
   name: PDF
-  url: file/Multi-omics microsampling for the profiling of lifestyle-associated changes in health.pdf
+  url: publication/Multi-omics microsampling for the profiling of lifestyle-associated changes in health.pdf
 # - icon: github
 #   icon_pack: fab
 #   name: Code

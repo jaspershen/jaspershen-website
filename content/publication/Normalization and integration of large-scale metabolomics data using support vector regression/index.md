@@ -29,5 +29,5 @@ links:
 - icon: file-pdf
   icon_pack: fas
   name: PDF
-  url: 
+  url: publication/Normalization and integration of large-scale metabolomics data using support vector regression.pdf
 ---

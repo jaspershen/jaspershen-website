@@ -34,5 +34,5 @@ links:
 - icon: file-pdf
   icon_pack: fas
   name: PDF
-  url: 
+  url: publication/Metabolic Dynamics and Prediction of Gestational Age and Time to Delivery in Pregnant Women.pdf
 ---

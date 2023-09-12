@@ -31,5 +31,5 @@ links:
 - icon: file-pdf
   icon_pack: fas
   name: PDF
-  url: 
+  url: publication/A serum metabolomics analysis reveals a panel of screening metabolic biomarkers for esophageal squamous cell carcinoma.pdf
 ---

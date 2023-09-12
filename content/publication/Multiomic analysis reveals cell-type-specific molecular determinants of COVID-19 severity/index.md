@@ -39,5 +39,5 @@ links:
 - icon: file-pdf
   icon_pack: fas
   name: PDF
-  url: 
+  url: publication/Multiomic analysis reveals cell-type-specific molecular determinants of COVID-19 severity.pdf
 ---

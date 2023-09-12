@@ -36,5 +36,5 @@ links:
 - icon: file-pdf
   icon_pack: fas
   name: PDF
-  url: 
+  url: publication/Organism-wide cell-type-specific secretome mapping of exercise training in mice.pdf
 ---

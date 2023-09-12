@@ -31,5 +31,5 @@ links:
 - icon: file-pdf
   icon_pack: fas
   name: PDF
-  url: 
+  url: publication/Precision environmental health monitoring by longitudinal exposome and multi-omics profiling.pdf
 ---

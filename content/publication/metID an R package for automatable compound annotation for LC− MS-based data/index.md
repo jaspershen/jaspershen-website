@@ -30,5 +30,5 @@ links:
 - icon: file-pdf
   icon_pack: fas
   name: PDF
-  url: 
+  url: publication/metID an R package for automatable compound annotation for LC2MS-based data.pdf
 ---

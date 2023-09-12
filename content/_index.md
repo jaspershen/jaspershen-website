@@ -598,7 +598,7 @@ sections:
 - block: markdown
   content:
     subtitle: ""
-    # text: '{{< gallery album="photo" >}}'
+    # text: '{{< gallery album="photo2" >}}'
     title: 📸 Photos
     gallery_item:
     - album: photo

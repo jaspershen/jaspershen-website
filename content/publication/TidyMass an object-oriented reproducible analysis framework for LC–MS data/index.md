@@ -30,5 +30,5 @@ links:
 - icon: file-pdf
   icon_pack: fas
   name: PDF
-  url: 
+  url: publication/TidyMass an object-oriented reproducible analysis framework for LC–MS data.pdf
 ---

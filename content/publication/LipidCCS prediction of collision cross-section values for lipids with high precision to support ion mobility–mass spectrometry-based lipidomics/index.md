@@ -24,5 +24,5 @@ links:
 - icon: file-pdf
   icon_pack: fas
   name: PDF
-  url: 
+  url: publication/LipidCCS Prediction of Collision Cross-Section Values for Lipids with High Precision To Support Ion Mobility−Mass Spectrometry-Based Lipidomics.pdf
 ---

@@ -21,5 +21,5 @@ links:
 - icon: file-pdf
   icon_pack: fas
   name: PDF
-  url: 
+  url: publication/MetFlow an interactive and integrated workflow for metabolomics data cleaning and differential metabolite discovery.pdf
 ---
