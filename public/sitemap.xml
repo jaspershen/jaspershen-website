@@ -2,24 +2,32 @@
 <urlset xmlns="http://www.sitemaps.org/schemas/sitemap/0.9"
   xmlns:xhtml="http://www.w3.org/1999/xhtml">
   <url>
+    <loc>https://jaspershen.github.io/categories/</loc>
+    <lastmod>2023-09-14T16:58:13-07:00</lastmod>
+    <changefreq>weekly</changefreq>
+  </url><url>
+    <loc>https://jaspershen.github.io/category/chinese/</loc>
+    <lastmod>2023-09-14T16:58:13-07:00</lastmod>
+    <changefreq>weekly</changefreq>
+  </url><url>
+    <loc>https://jaspershen.github.io/tag/paper/</loc>
+    <lastmod>2023-09-14T16:58:13-07:00</lastmod>
+    <changefreq>weekly</changefreq>
+  </url><url>
+    <loc>https://jaspershen.github.io/tags/</loc>
+    <lastmod>2023-09-14T16:58:13-07:00</lastmod>
+    <changefreq>weekly</changefreq>
+  </url><url>
+    <loc>https://jaspershen.github.io/post/2023-09-14-ipop-lipidomics/</loc>
+    <lastmod>2023-09-14T16:58:13-07:00</lastmod>
+    <changefreq>weekly</changefreq>
+  </url><url>
     <loc>https://jaspershen.github.io/talk/2023-bamm/</loc>
     <lastmod>2023-09-08T21:43:26-07:00</lastmod>
     <changefreq>weekly</changefreq>
   </url><url>
     <loc>https://jaspershen.github.io/news/2023-bamm/</loc>
     <lastmod>2023-09-08T21:43:26-07:00</lastmod>
-    <changefreq>weekly</changefreq>
-  </url><url>
-    <loc>https://jaspershen.github.io/categories/</loc>
-    <lastmod>2023-09-08T22:09:23-07:00</lastmod>
-    <changefreq>weekly</changefreq>
-  </url><url>
-    <loc>https://jaspershen.github.io/category/chinese/</loc>
-    <lastmod>2023-09-08T22:09:23-07:00</lastmod>
-    <changefreq>weekly</changefreq>
-  </url><url>
-    <loc>https://jaspershen.github.io/tag/paper/</loc>
-    <lastmod>2023-09-08T22:09:23-07:00</lastmod>
     <changefreq>weekly</changefreq>
   </url><url>
     <loc>https://jaspershen.github.io/category/r/</loc>
@@ -30,16 +38,8 @@
     <lastmod>2023-09-08T22:09:23-07:00</lastmod>
     <changefreq>weekly</changefreq>
   </url><url>
-    <loc>https://jaspershen.github.io/tags/</loc>
-    <lastmod>2023-09-08T22:09:23-07:00</lastmod>
-    <changefreq>weekly</changefreq>
-  </url><url>
     <loc>https://jaspershen.github.io/post/2023-07-19-tidytof/</loc>
     <lastmod>2023-09-08T22:09:23-07:00</lastmod>
-    <changefreq>weekly</changefreq>
-  </url><url>
-    <loc>https://jaspershen.github.io/post/2023-09-14-ipop-lipidomics/</loc>
-    <lastmod>2023-09-08T00:00:00+00:00</lastmod>
     <changefreq>weekly</changefreq>
   </url><url>
     <loc>https://jaspershen.github.io/news/2023-stanford-biox/</loc>
