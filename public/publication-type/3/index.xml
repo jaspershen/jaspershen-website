@@ -5,12 +5,20 @@
     <link>https://jaspershen.github.io/publication-type/3/</link>
       <atom:link href="https://jaspershen.github.io/publication-type/3/index.xml" rel="self" type="application/rss+xml" />
     <description>3</description>
-    <generator>Wowchemy (https://wowchemy.com)</generator><language>en-us</language><lastBuildDate>Wed, 02 Aug 2023 00:00:00 +0000</lastBuildDate>
+    <generator>Wowchemy (https://wowchemy.com)</generator><language>en-us</language><lastBuildDate>Thu, 21 Sep 2023 00:00:00 +0000</lastBuildDate>
     <image>
       <url>https://jaspershen.github.io/media/logo_hua82804f08c421dd09439d93e6d351d6c_109030_300x300_fit_lanczos_3.png</url>
       <title>3</title>
       <link>https://jaspershen.github.io/publication-type/3/</link>
     </image>
+    
+    <item>
+      <title>microbiomedataset A tidyverse-style framework for organizing and processing microbiome data</title>
+      <link>https://jaspershen.github.io/publication/microbiomedataset-a-tidyverse-style-framework-for-organizing-and-processing-microbiome-data/</link>
+      <pubDate>Thu, 21 Sep 2023 00:00:00 +0000</pubDate>
+      <guid>https://jaspershen.github.io/publication/microbiomedataset-a-tidyverse-style-framework-for-organizing-and-processing-microbiome-data/</guid>
+      <description></description>
+    </item>
     
     <item>
       <title>Semi-supervised Cooperative Learning for Multiomics Data Fusion</title>

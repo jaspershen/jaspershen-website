@@ -2,24 +2,36 @@
 <urlset xmlns="http://www.sitemaps.org/schemas/sitemap/0.9"
   xmlns:xhtml="http://www.w3.org/1999/xhtml">
   <url>
+    <loc>https://jaspershen.github.io/publication-type/3/</loc>
+    <lastmod>2023-09-21T00:00:00+00:00</lastmod>
+    <changefreq>weekly</changefreq>
+  </url><url>
+    <loc>https://jaspershen.github.io/publication/microbiomedataset-a-tidyverse-style-framework-for-organizing-and-processing-microbiome-data/</loc>
+    <lastmod>2023-09-21T00:00:00+00:00</lastmod>
+    <changefreq>weekly</changefreq>
+  </url><url>
+    <loc>https://jaspershen.github.io/publication_types/</loc>
+    <lastmod>2023-09-21T00:00:00+00:00</lastmod>
+    <changefreq>weekly</changefreq>
+  </url><url>
     <loc>https://jaspershen.github.io/categories/</loc>
-    <lastmod>2023-09-14T16:58:13-07:00</lastmod>
+    <lastmod>2023-09-14T17:00:55-07:00</lastmod>
     <changefreq>weekly</changefreq>
   </url><url>
     <loc>https://jaspershen.github.io/category/chinese/</loc>
-    <lastmod>2023-09-14T16:58:13-07:00</lastmod>
+    <lastmod>2023-09-14T17:00:55-07:00</lastmod>
     <changefreq>weekly</changefreq>
   </url><url>
     <loc>https://jaspershen.github.io/tag/paper/</loc>
-    <lastmod>2023-09-14T16:58:13-07:00</lastmod>
+    <lastmod>2023-09-14T17:00:55-07:00</lastmod>
     <changefreq>weekly</changefreq>
   </url><url>
     <loc>https://jaspershen.github.io/tags/</loc>
-    <lastmod>2023-09-14T16:58:13-07:00</lastmod>
+    <lastmod>2023-09-14T17:00:55-07:00</lastmod>
     <changefreq>weekly</changefreq>
   </url><url>
     <loc>https://jaspershen.github.io/post/2023-09-14-ipop-lipidomics/</loc>
-    <lastmod>2023-09-14T16:58:13-07:00</lastmod>
+    <lastmod>2023-09-14T17:00:55-07:00</lastmod>
     <changefreq>weekly</changefreq>
   </url><url>
     <loc>https://jaspershen.github.io/talk/2023-bamm/</loc>
@@ -56,14 +68,6 @@
   </url><url>
     <loc>https://jaspershen.github.io/news/2023-casms-yia/</loc>
     <lastmod>2023-09-06T23:34:35-07:00</lastmod>
-    <changefreq>weekly</changefreq>
-  </url><url>
-    <loc>https://jaspershen.github.io/publication-type/3/</loc>
-    <lastmod>2023-09-12T14:10:33-07:00</lastmod>
-    <changefreq>weekly</changefreq>
-  </url><url>
-    <loc>https://jaspershen.github.io/publication_types/</loc>
-    <lastmod>2023-09-12T16:03:53-07:00</lastmod>
     <changefreq>weekly</changefreq>
   </url><url>
     <loc>https://jaspershen.github.io/publication/semi-supervised-cooperative-learning-for-multiomics-data-fusion/</loc>

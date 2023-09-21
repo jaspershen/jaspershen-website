@@ -13,6 +13,14 @@
     </image>
     
     <item>
+      <title>microbiomedataset A tidyverse-style framework for organizing and processing microbiome data</title>
+      <link>https://jaspershen.github.io/publication/microbiomedataset-a-tidyverse-style-framework-for-organizing-and-processing-microbiome-data/</link>
+      <pubDate>Thu, 21 Sep 2023 00:00:00 +0000</pubDate>
+      <guid>https://jaspershen.github.io/publication/microbiomedataset-a-tidyverse-style-framework-for-organizing-and-processing-microbiome-data/</guid>
+      <description></description>
+    </item>
+    
+    <item>
       <title>脂质组学研究揭示健康、疾病和衰老过程中的动态变化</title>
       <link>https://jaspershen.github.io/post/2023-09-14-ipop-lipidomics/</link>
       <pubDate>Thu, 14 Sep 2023 00:00:00 +0000</pubDate>
@@ -1160,7 +1168,7 @@ data.head()
 
 
 
-&lt;div id=&#34;chart-962583417&#34; class=&#34;chart&#34;&gt;&lt;/div&gt;
+&lt;div id=&#34;chart-147856392&#34; class=&#34;chart&#34;&gt;&lt;/div&gt;
 &lt;script&gt;
   (function() {
     let a = setInterval( function() {
@@ -1170,7 +1178,7 @@ data.head()
       clearInterval( a );
 
       Plotly.d3.json(&#34;./line-chart.json&#34;, function(chart) {
-        Plotly.plot(&#39;chart-962583417&#39;, chart.data, chart.layout, {responsive: true});
+        Plotly.plot(&#39;chart-147856392&#39;, chart.data, chart.layout, {responsive: true});
       });
     }, 500 );
   })();
