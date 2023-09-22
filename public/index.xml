@@ -13,6 +13,14 @@
     </image>
     
     <item>
+      <title>Nonlinear Dynamic Changes During Human Aging Revealed in Multi-omics Profiles</title>
+      <link>https://jaspershen.github.io/talk/2023-genetics-retreat/</link>
+      <pubDate>Thu, 21 Sep 2023 13:00:00 +0000</pubDate>
+      <guid>https://jaspershen.github.io/talk/2023-genetics-retreat/</guid>
+      <description></description>
+    </item>
+    
+    <item>
       <title>microbiomedataset A tidyverse-style framework for organizing and processing microbiome data</title>
       <link>https://jaspershen.github.io/publication/microbiomedataset-a-tidyverse-style-framework-for-organizing-and-processing-microbiome-data/</link>
       <pubDate>Thu, 21 Sep 2023 00:00:00 +0000</pubDate>
@@ -1168,7 +1176,7 @@ data.head()
 
 
 
-&lt;div id=&#34;chart-187256394&#34; class=&#34;chart&#34;&gt;&lt;/div&gt;
+&lt;div id=&#34;chart-685149732&#34; class=&#34;chart&#34;&gt;&lt;/div&gt;
 &lt;script&gt;
   (function() {
     let a = setInterval( function() {
@@ -1178,7 +1186,7 @@ data.head()
       clearInterval( a );
 
       Plotly.d3.json(&#34;./line-chart.json&#34;, function(chart) {
-        Plotly.plot(&#39;chart-187256394&#39;, chart.data, chart.layout, {responsive: true});
+        Plotly.plot(&#39;chart-685149732&#39;, chart.data, chart.layout, {responsive: true});
       });
     }, 500 );
   })();
