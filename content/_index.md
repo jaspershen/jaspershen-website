@@ -100,7 +100,7 @@ sections:
   content:
     title: "📚 Statistics"
     subtitle: ""
-    text: Data from [Google Scholar](https://scholar.google.com/citations?hl=en&user=3TK9yz8AAAAJ) (8/25/2023)
+    text: Data from [Google Scholar](https://scholar.google.com/citations?hl=en&user=3TK9yz8AAAAJ) (9/21/2023)
     items:
     - description: Publications
       icon: newspaper
@@ -109,7 +109,7 @@ sections:
     - description: Citations
       icon: open-data
       icon_pack: ai
-      name: 1,212
+      name: 1,243
     - description: H-index
       icon: google-scholar
       icon_pack: ai
