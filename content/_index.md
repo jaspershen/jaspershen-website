@@ -109,7 +109,7 @@ sections:
     - description: Citations
       icon: open-data
       icon_pack: ai
-      name: 1,400
+      name: 1,406
     - description: H-index
       icon: google-scholar
       icon_pack: ai
