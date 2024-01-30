@@ -325,7 +325,7 @@ sections:
     #   link: https://jaspershen.github.io/image/wechat_QR.jpg
     #   name: WeChat
     directions: 
-    email: shenxt1990@outlook.com
+    email: xiaotao.shen@outlook.com
     form:
       formspree:
         id: xpzgpjby
