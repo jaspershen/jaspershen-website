@@ -45,7 +45,7 @@ header:
 
 footer:
   copyright:
-    notice: '© 2015-2023 Xiaotao Shen'
+    notice: '© 2015-2024 Xiaotao Shen'
     license:
       enable: false
       allow_derivatives: false

@@ -24,7 +24,7 @@ last_name: Shen
 organizations:
 - name: Stanford University
   url: https://www.stanford.edu/
-role: Postdoctoral Research Fellow
+role: Research Scientist
 social:
 - icon: envelope
   icon_pack: fas
@@ -60,9 +60,17 @@ user_groups:
 
 I will join Nanyang Technological University Singapore (NTU) as an Nanyang Assistant Professor (Tenure Track). My research will focus on method development for multi-omics data integration and its application to precision medicine. I am looking for highly motivated postdocs and students to join my lab. Please feel free to contact me if you are interested (xiaotao.shen@outlook.com). The Shen Lab website is here: https://www.shen-lab.org/.
 
-now, I am still a Postdoctoral Research Fellow in [Prof. Michael Snyder's lab](https://med.stanford.edu/snyderlab/about.html) at Stanford University School of Medicine. My overarching research interests are bioinformatics algorithms development for multi-omics data, and their application to precision medicine. Specifically, I am interested in bioinformatics algorithm development, including 1) Comprehensive analysis workflow and deep learning for LC-MS data, 2) Metabolic network analysis, 3) Wearable and multi-omics data integration, and 4) microbiome and metabolome data integration. I also employed the developed bioinformatics algorithms as a unique systems biology approach to study the potential biomarkers and mechanisms of 1) pregnancy and related diseases, 2) aging and related diseases, and 3) cancer. 
-More tools and projects I developed can be found in the [Projects](#projects) part.
+now, I am still a Postdoctoral Research Fellow in [Prof. Michael Snyder's lab](https://med.stanford.edu/snyderlab/about.html) at Stanford University School of Medicine. My overarching research interests are bioinformatics algorithms development for multi-omics data, and their application to precision medicine. Specifically, I am interested in bioinformatics algorithm development, including:
 
-Now I am also the member of [Stanford Chinese Postdoctral Association (SCPA)](https://scpa.netlify.app/). Feel free to let me know if you want to join us and contribute to the amazing community!
+1. Comprehensive analysis workflow and deep learning for LC-MS data, 
+
+2. Metabolic network analysis, 
+
+3. Wearable and multi-omics data integration,
+
+4. microbiome and metabolome data integration. 
+ 
+I also employed the developed bioinformatics algorithms as a unique systems biology approach to study the potential biomarkers and mechanisms of 1) pregnancy and related diseases, 2) aging and related diseases, and 3) cancer. 
+More tools and projects I developed can be found in the [Projects](#projects) part.
 
  :dog: :school: :u7533: :smile: :facepunch: :fist: :family: :panda_face: :earth_asia: :tada: :cn:

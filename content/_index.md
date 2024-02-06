@@ -36,59 +36,59 @@ sections:
 #       gradient_start: '#004ba0'
 #       text_color_light: true
 
-- block: slider
-  content:
-    slides:
-    - align: center
-      background:
-        color: '#666'
-        image:
-          filename: WechatIMG1028.jpg
-          filters:
-            brightness: 0.8
-        position: right
-      content: 👋Welcome to Xiaotao Shen's Personal Website!👋
-      title: "😁 Hello!"
-      link:
-        icon: address-card
-        icon_pack: fas
-        text: CV
-        url: file/XiaotaoShen_CV.pdf
-    - align: left
-      background:
-        color: '#333'
-        image:
-          filename: bioinformatics.jpg
-          filters:
-            brightness: 0.8
-        position: center
-      content: I am broadly interested in Metabolomics, Multi-omics, Biostatistics, Systems Biology, and Bioinformatics, and their application in healthcare.
-      link:
-        icon: graduation-cap
-        icon_pack: fas
-        text: My publications
-        url: "https://scholar.google.co.uk/citations?hl=en&user=3TK9yz8AAAAJ"
-      title: 🧬 Research interest
-    - align: center
-      background:
-        color: '#555'
-        image:
-          filename: wcc.jpg
-          filters:
-            brightness: 0.8
-        position: center
-      content: 😄Life with my family😄
-      link:
-        icon: link
-        icon_pack: fas
-        text: Chuchu Wang
-        url: "http://wangcc.sxl.cn/"
-      title: ☕️ Record My life ☕️
-  design:
-    interval: 5000
-    is_fullscreen: true
-    loop: true
-    slide_height: ""
+# - block: slider
+#   content:
+#     slides:
+#     - align: center
+#       background:
+#         color: '#666'
+#         image:
+#           filename: WechatIMG1028.jpg
+#           filters:
+#             brightness: 0.8
+#         position: right
+#       content: 👋Welcome to Xiaotao Shen's Personal Website!👋
+#       title: "😁 Hello!"
+#       link:
+#         icon: address-card
+#         icon_pack: fas
+#         text: CV
+#         url: file/XiaotaoShen_CV.pdf
+#     - align: left
+#       background:
+#         color: '#333'
+#         image:
+#           filename: bioinformatics.jpg
+#           filters:
+#             brightness: 0.8
+#         position: center
+#       content: I am broadly interested in Metabolomics, Multi-omics, Biostatistics, Systems Biology, and Bioinformatics, and their application in healthcare.
+#       link:
+#         icon: graduation-cap
+#         icon_pack: fas
+#         text: My publications
+#         url: "https://scholar.google.co.uk/citations?hl=en&user=3TK9yz8AAAAJ"
+#       title: 🧬 Research interest
+#     - align: center
+#       background:
+#         color: '#555'
+#         image:
+#           filename: wcc.jpg
+#           filters:
+#             brightness: 0.8
+#         position: center
+#       content: 😄Life with my family😄
+#       link:
+#         icon: link
+#         icon_pack: fas
+#         text: Chuchu Wang
+#         url: "http://wangcc.sxl.cn/"
+#       title: ☕️ Record My life ☕️
+#   design:
+#     interval: 5000
+#     is_fullscreen: true
+#     loop: true
+#     slide_height: ""
 
 - block: about.biography
   content:
@@ -109,7 +109,7 @@ sections:
     - description: Citations
       icon: open-data
       icon_pack: ai
-      name: 1,406
+      name: 1,425
     - description: H-index
       icon: google-scholar
       icon_pack: ai
@@ -126,6 +126,22 @@ sections:
       company_logo: stanford_logo
       company_url: "https://www.stanford.edu/"
       date_end: ""
+      date_start: "2023-12-01"
+      description: |-
+        :man_teacher: Advisor: [Prof. Michael P. Snyder](http://snyderlab.stanford.edu/)
+        
+        🧪 Research:
+        * Metabolomics and System Biology
+        * Multi-omics data analysis and their application in healthcare
+        * Software and algorithm development for metabolomics and other omics data
+      
+      location: Palo Alto, California 🇺🇸
+      title: Research Scientist
+
+    - company: Stanford University
+      company_logo: stanford_logo
+      company_url: "https://www.stanford.edu/"
+      date_end: "2023-12-01"
       date_start: "2019-04-01"
       description: |-
         :man_teacher: Advisor: [Prof. Michael P. Snyder](http://snyderlab.stanford.edu/)
