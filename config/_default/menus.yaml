@@ -4,9 +4,9 @@
 #   The weight parameter defines the order that the links will appear in.
 
 main:
-  - name: About
-    url: '#about'
-    weight: 10
+  # - name: About
+  #   url: '#about'
+  #   weight: 10
   - name: Experiences
     url: '#experience'
     weight: 20
@@ -19,41 +19,54 @@ main:
   - name: Talks
     url: '#talks'
     weight: 50
-  - name: Blog
-    url: '#post'
-    weight: 60
-  - name: Contact
-    url: '#contact'
-    weight: 70
-  - name: News
-    url: '#news'
-    weight: 80
-  - name:  More
-    identifier: more
-    weight: 90
-  - name: Journal Referee
-    parent: more
-    url: '#journal_referee'
-    weight: 100
+
+  # - name: News
+  #   url: '#news'
+  #   weight: 80
+  
   - name: Awards
-    parent: more
     url: '#awards'
     weight: 110
+
   - name: Academic Service
-    parent: more
     url: '#academic_service'
     weight: 120
-  - name: Collaborators
-    parent: more
-    url: '#collaborators'
-    weight: 130
-  - name: Photos
-    parent: more
-    url: '#photos'
-    weight: 140
 
-# Link to a PDF of your resume/CV from the menu.
-# To enable, copy your resume/CV to `static/uploads/resume.pdf` and uncomment the lines below.
-#  - name: CV
-#    url: uploads/resume.pdf
-#    weight: 70
+  - name: Contact
+    url: '#contact'
+    weight: 130
+
+  - name: Blog
+    url: 'post/'
+    weight: 140  
+
+
+#   - name:  More
+#     identifier: more
+#     weight: 90
+#   # - name: Journal Referee
+#   #   parent: more
+#   #   url: '#journal_referee'
+#   #   weight: 100
+#   # - name: Awards
+#   #   parent: more
+#   #   url: '#awards'
+#   #   weight: 110
+#   - name: Academic Service
+#     parent: more
+#     url: '#academic_service'
+#     weight: 120
+#   # - name: Collaborators
+#   #   parent: more
+#   #   url: '#collaborators'
+#   #   weight: 130
+#   # - name: Photos
+#   #   parent: more
+#   #   url: '#photos'
+#   #   weight: 140
+
+# # Link to a PDF of your resume/CV from the menu.
+# # To enable, copy your resume/CV to `static/uploads/resume.pdf` and uncomment the lines below.
+# #  - name: CV
+# #    url: uploads/resume.pdf
+# #    weight: 70

@@ -227,9 +227,9 @@ sections:
     subtitle: |-
       🔗 [Google scholar](https://scholar.google.co.uk/citations?user=3TK9yz8AAAAJ&hl=en)
   design:
-    columns: "1"
+    columns: "2"
     flip_alt_rows: false
-    view: showcase
+    view: compact
   id: publication
     
 - block: portfolio
@@ -275,134 +275,83 @@ sections:
 - block: collection
   id: talks 
   content:
-    count: 3
+    count: 5
     filters:
       folders:
         - talk
     title: 🗣 Talks
   design:
     columns: "2"
-    view: compact
+    view: list
 
-- block: collection
-  content:
-    count: 3
-    filters:
-      author: ""
-      category: ""
-      exclude_featured: false
-      exclude_future: false
-      exclude_past: false
-      folders:
-      - post
-      publication_type: ""
-      tag: ""
-    offset: 0
-    order: desc
-    subtitle: ""
-    text: ""
-    title: 📖 Blog
-  design:
-    columns: "2"
-    view: compact
-    background:
-      image: 
-        filename: blog.jpg
-        filters:
-          brightness: 0.5
-      #  Image fit. Options are `cover` (default), `contain`, or `actual` size.
-      size: cover
-      # Image focal point. Options include `left`, `center` (default), or `right`.
-      position: center
-      # Use a fun parallax-like fixed background effect on desktop? true/false
-      parallax: true
-      # Text color (true=light, false=dark, or remove for the dynamic theme color).
-      text_color_light: true
-  id: post
+# - block: collection
+#   content:
+#     count: 5
+#     filters:
+#       author: ""
+#       category: ""
+#       exclude_featured: false
+#       exclude_future: false
+#       exclude_past: false
+#       folders:
+#       - post
+#       publication_type: ""
+#       tag: ""
+#     offset: 0
+#     order: desc
+#     subtitle: ""
+#     text: ""
+#     title: 📖 Blog
+#   design:
+#     columns: "2"
+#     view: list
+#     background:
+#       image: 
+#         filename: blog.jpg
+#         filters:
+#           brightness: 0.5
+#       #  Image fit. Options are `cover` (default), `contain`, or `actual` size.
+#       size: cover
+#       # Image focal point. Options include `left`, `center` (default), or `right`.
+#       position: center
+#       # Use a fun parallax-like fixed background effect on desktop? true/false
+#       parallax: true
+#       # Text color (true=light, false=dark, or remove for the dynamic theme color).
+#       text_color_light: true
+#   id: post
   
-- block: contact
-  content:
-    address:
-      city: Palo Alto
-      country: United States
-      country_code: US
-      postcode: "94304"
-      region: CA
-      street: 3165 Porter Drive
-    # appointment_url: https://calendly.com
-    # autolink: true
-    # contact_links:
-    # - icon: twitter
-    #   icon_pack: fab
-    #   link: https://twitter.com/xiaotaoshen1990
-    #   name: Twitter
-    # - icon: weixin
-    #   icon_pack: fab
-    #   link: https://jaspershen.github.io/image/wechat_QR.jpg
-    #   name: WeChat
-    directions: 
-    email: xiaotao.shen@outlook.com
-    form:
-      formspree:
-        id: xpzgpjby
-      netlify:
-        captcha: false
-      provider: formspree
-    # office_hours:
-    # - Monday - Friday 9:30 to 17:30
-    # - Weekend 14:00 to 17:00
-    phone: +1 571-267-9283
-    subtitle: null
-    text: 
-    title: 📥 Contact
-  design:
-    columns: "2"
-  id: contact
 
-- block: collection
-  content:
-    count: 5
-    filters:
-      featured_only: false
-      folders:
-      - news
-    title: 📰 News
-  design:
-    columns: "2"
-    view: Compact
-    background:
-      video:
-      # Name of video in `assets/media/`.
-        filename: pexels-koolshooters-6628560 (2160p).mp4
-        filters:
-          brightness: 0.5
-      # image: 
-      #   filename: reading_news.jpeg
-      #   filters:
-      #     brightness: 0.5
-      #  Image fit. Options are `cover` (default), `contain`, or `actual` size.
-      size: cover
-      # Image focal point. Options include `left`, `center` (default), or `right`.
-      position: center
-      # Use a fun parallax-like fixed background effect on desktop? true/false
-      parallax: true
-      # Text color (true=light, false=dark, or remove for the dynamic theme color).
-      text_color_light: true
-  id: news
+# - block: collection
+#   content:
+#     count: 5
+#     filters:
+#       featured_only: false
+#       folders:
+#       - news
+#     title: 📰 News
+#   design:
+#     columns: "2"
+#     view: list
+#     background:
+#       video:
+#       # Name of video in `assets/media/`.
+#         filename: pexels-koolshooters-6628560 (2160p).mp4
+#         filters:
+#           brightness: 0.5
+#       # image: 
+#       #   filename: reading_news.jpeg
+#       #   filters:
+#       #     brightness: 0.5
+#       #  Image fit. Options are `cover` (default), `contain`, or `actual` size.
+#       size: cover
+#       # Image focal point. Options include `left`, `center` (default), or `right`.
+#       position: center
+#       # Use a fun parallax-like fixed background effect on desktop? true/false
+#       parallax: true
+#       # Text color (true=light, false=dark, or remove for the dynamic theme color).
+#       text_color_light: true
+#   id: news
     
-- block: collection
-  content:
-    count: 5
-    filters:
-      featured_only: false
-      folders:
-      - journal_referee
-    title: 🐕‍🦺 Journal Referee
-  design:
-    columns: "2"
-    view: community/compact2
-  id: journal_referee
-
 - block: accomplishments
   content:
     date_format: Jan 2006
@@ -569,61 +518,115 @@ sections:
   design:
     columns: "2"
 
-- block: people
-  id: collaborators
+- block: collection
   content:
-    sort_ascending: true
-    sort_by: Params.last_name
-    title: 🤝 Collaborators
-    subtitle: ""
-    # text: |-
-    #   {{% callout note %}}
-    #   [All team members](./people/).
-    #   {{% /callout %}}
-    user_groups:
-    - Academia
-    - Industry
+    count: 5
+    filters:
+      featured_only: false
+      folders:
+      - journal_referee
+    title: 🐕‍🦺 Journal Referee
   design:
-    background:
-      image: 
-        filename: collaborators.jpg
-        filters:
-          brightness: 0.2
-      #  Image fit. Options are `cover` (default), `contain`, or `actual` size.
-      size: cover
-      # Image focal point. Options include `left`, `center` (default), or `right`.
-      position: center
-      # Use a fun parallax-like fixed background effect on desktop? true/false
-      parallax: true
-      # Text color (true=light, false=dark, or remove for the dynamic theme color).
-      text_color_light: true
-    show_interests: false
-    show_role: true
-    show_social: true
-    show_organization: true
+    columns: "2"
+    # view: community/compact2
+    view: list
+  id: journal_referee
 
-- block: markdown
-  content:
-    subtitle: "Map of Collaborators"
-    text:
-    title: '<img src="map.png" alt="Girl in a jacket" style="width:100%;height:100%;">'
-  id: collaborator_map
-  design:
-    columns: "1"
 
-- block: markdown
+# - block: people
+#   id: collaborators
+#   content:
+#     sort_ascending: true
+#     sort_by: Params.last_name
+#     title: 🤝 Collaborators
+#     subtitle: ""
+#     # text: |-
+#     #   {{% callout note %}}
+#     #   [All team members](./people/).
+#     #   {{% /callout %}}
+#     user_groups:
+#     - Academia
+#     - Industry
+#   design:
+#     background:
+#       image: 
+#         filename: collaborators.jpg
+#         filters:
+#           brightness: 0.2
+#       #  Image fit. Options are `cover` (default), `contain`, or `actual` size.
+#       size: cover
+#       # Image focal point. Options include `left`, `center` (default), or `right`.
+#       position: center
+#       # Use a fun parallax-like fixed background effect on desktop? true/false
+#       parallax: true
+#       # Text color (true=light, false=dark, or remove for the dynamic theme color).
+#       text_color_light: true
+#     show_interests: false
+#     show_role: true
+#     show_social: true
+#     show_organization: true
+
+# - block: markdown
+#   content:
+#     subtitle: "Map of Collaborators"
+#     text:
+#     title: '<img src="map.png" alt="Girl in a jacket" style="width:100%;height:100%;">'
+#   id: collaborator_map
+#   design:
+#     columns: "1"
+
+# - block: markdown
+#   content:
+#     subtitle: ""
+#     # text: '{{< gallery album="photo2" >}}'
+#     title: 📸 Photos
+#     gallery_item:
+#     - album: photo
+#       image: 6E1EF0E8-A5DD-4E23-AF0B-4DEEB94E8255_1_105_c.jpeg
+#       caption: Write your image 1 caption here
+#   id: photos
+#   design:
+#     columns: "1"
+
+- block: contact
   content:
-    subtitle: ""
-    # text: '{{< gallery album="photo2" >}}'
-    title: 📸 Photos
-    gallery_item:
-    - album: photo
-      image: 6E1EF0E8-A5DD-4E23-AF0B-4DEEB94E8255_1_105_c.jpeg
-      caption: Write your image 1 caption here
-  id: photos
+    address:
+      city: Palo Alto
+      country: United States
+      country_code: US
+      postcode: "94304"
+      region: CA
+      street: 3165 Porter Drive
+    # appointment_url: https://calendly.com
+    # autolink: true
+    # contact_links:
+    # - icon: twitter
+    #   icon_pack: fab
+    #   link: https://twitter.com/xiaotaoshen1990
+    #   name: Twitter
+    # - icon: weixin
+    #   icon_pack: fab
+    #   link: https://jaspershen.github.io/image/wechat_QR.jpg
+    #   name: WeChat
+    directions: 
+    email: xiaotao.shen@outlook.com
+    form:
+      formspree:
+        id: xpzgpjby
+      netlify:
+        captcha: false
+      provider: formspree
+    # office_hours:
+    # - Monday - Friday 9:30 to 17:30
+    # - Weekend 14:00 to 17:00
+    phone: +1 571-267-9283
+    subtitle: null
+    text: 
+    title: 📥 Contact
   design:
-    columns: "1"
-    
+    columns: "2"
+  id: contact
+
 - block: tag_cloud
   content:
     title: 
