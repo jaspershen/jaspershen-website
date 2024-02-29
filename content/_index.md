@@ -216,73 +216,73 @@ sections:
       # Text color (true=light, false=dark, or remove for the dynamic theme color).
       text_color_light: true
     
-- block: collection
-  content:
-    count: 5
-    filters:
-      featured_only: true
-      folders:
-      - publication
-    title: 📃 PUBLICATIONS
-    subtitle: |-
-      🔗 [Google scholar](https://scholar.google.co.uk/citations?user=3TK9yz8AAAAJ&hl=en)
-  design:
-    columns: "2"
-    flip_alt_rows: false
-    view: compact
-  id: publication
+# - block: collection
+#   content:
+#     count: 5
+#     filters:
+#       featured_only: true
+#       folders:
+#       - publication
+#     title: 📃 PUBLICATIONS
+#     subtitle: |-
+#       🔗 [Google scholar](https://scholar.google.co.uk/citations?user=3TK9yz8AAAAJ&hl=en)
+#   design:
+#     columns: "2"
+#     flip_alt_rows: false
+#     view: compact
+#   id: publication
     
-- block: portfolio
-  content:
-    buttons:
-    - name: All
-      tag: '*'
-    - name: Metabolomics
-      tag: Metabolomics
-    - name: Multi-omics
-      tag: Multi-omics
-    - name: Others
-      tag: Others
-    default_button_index: 0
-    filters:
-      folders:
-      - project
-    title: 💻 PROJECTS
-  design:
-    columns: "2"
-    flip_alt_rows: false
-    view: community/compact2
-    background:
-      video:
-      # Name of video in `assets/media/`.
-        filename: pexels_videos_2699 (1080p).mp4
-        filters:
-          brightness: 0.5
-      # image: 
-      #   filename: coding.mp4
-      #   filters:
-      #     brightness: 0.5
-      #  Image fit. Options are `cover` (default), `contain`, or `actual` size.
-      size: cover
-      # Image focal point. Options include `left`, `center` (default), or `right`.
-      position: center
-      # Use a fun parallax-like fixed background effect on desktop? true/false
-      parallax: true
-      # Text color (true=light, false=dark, or remove for the dynamic theme color).
-      text_color_light: true
-  id: projects
+# - block: portfolio
+#   content:
+#     buttons:
+#     - name: All
+#       tag: '*'
+#     - name: Metabolomics
+#       tag: Metabolomics
+#     - name: Multi-omics
+#       tag: Multi-omics
+#     - name: Others
+#       tag: Others
+#     default_button_index: 0
+#     filters:
+#       folders:
+#       - project
+#     title: 💻 PROJECTS
+#   design:
+#     columns: "2"
+#     flip_alt_rows: false
+#     view: community/compact2
+#     background:
+#       video:
+#       # Name of video in `assets/media/`.
+#         filename: pexels_videos_2699 (1080p).mp4
+#         filters:
+#           brightness: 0.5
+#       # image: 
+#       #   filename: coding.mp4
+#       #   filters:
+#       #     brightness: 0.5
+#       #  Image fit. Options are `cover` (default), `contain`, or `actual` size.
+#       size: cover
+#       # Image focal point. Options include `left`, `center` (default), or `right`.
+#       position: center
+#       # Use a fun parallax-like fixed background effect on desktop? true/false
+#       parallax: true
+#       # Text color (true=light, false=dark, or remove for the dynamic theme color).
+#       text_color_light: true
+#   id: projects
 
-- block: collection
-  id: talks 
-  content:
-    count: 5
-    filters:
-      folders:
-        - talk
-    title: 🗣 TALKS
-  design:
-    columns: "2"
-    view: list
+# - block: collection
+#   id: talks 
+#   content:
+#     count: 5
+#     filters:
+#       folders:
+#         - talks
+#     title: 🗣 TALKS
+#   design:
+#     columns: "2"
+#     view: list
 
 # - block: collection
 #   content:
@@ -321,36 +321,36 @@ sections:
 #   id: post
   
 
-# - block: collection
-#   content:
-#     count: 5
-#     filters:
-#       featured_only: false
-#       folders:
-#       - news
-#     title: 📰 News
-#   design:
-#     columns: "2"
-#     view: list
-#     background:
-#       video:
-#       # Name of video in `assets/media/`.
-#         filename: pexels-koolshooters-6628560 (2160p).mp4
-#         filters:
-#           brightness: 0.5
-#       # image: 
-#       #   filename: reading_news.jpeg
-#       #   filters:
-#       #     brightness: 0.5
-#       #  Image fit. Options are `cover` (default), `contain`, or `actual` size.
-#       size: cover
-#       # Image focal point. Options include `left`, `center` (default), or `right`.
-#       position: center
-#       # Use a fun parallax-like fixed background effect on desktop? true/false
-#       parallax: true
-#       # Text color (true=light, false=dark, or remove for the dynamic theme color).
-#       text_color_light: true
-#   id: news
+- block: collection
+  content:
+    count: 5
+    filters:
+      featured_only: false
+      folders:
+      - news
+    title: 📰 News
+  design:
+    columns: "2"
+    view: list
+    background:
+      video:
+      # Name of video in `assets/media/`.
+        filename: pexels-koolshooters-6628560 (2160p).mp4
+        filters:
+          brightness: 0.5
+      # image: 
+      #   filename: reading_news.jpeg
+      #   filters:
+      #     brightness: 0.5
+      #  Image fit. Options are `cover` (default), `contain`, or `actual` size.
+      size: cover
+      # Image focal point. Options include `left`, `center` (default), or `right`.
+      position: center
+      # Use a fun parallax-like fixed background effect on desktop? true/false
+      parallax: true
+      # Text color (true=light, false=dark, or remove for the dynamic theme color).
+      text_color_light: true
+  id: news
     
 - block: accomplishments
   content:
