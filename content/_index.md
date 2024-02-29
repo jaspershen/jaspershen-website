@@ -92,7 +92,7 @@ sections:
 
 - block: about.biography
   content:
-    title: 👤 About me
+    title: 👤 ABOUT ME
     username: admin
   id: about
 
@@ -199,7 +199,7 @@ sections:
       location: Hohhot, Inner Mongolia, China 🇨🇳
       title: B.S.
       
-    title: 🧑‍🎓 Experiences
+    title: 🧑‍🎓 EXPERIENCES
   design:
     columns: "2"
     background:
@@ -223,7 +223,7 @@ sections:
       featured_only: true
       folders:
       - publication
-    title: 📃 Publications
+    title: 📃 PUBLICATIONS
     subtitle: |-
       🔗 [Google scholar](https://scholar.google.co.uk/citations?user=3TK9yz8AAAAJ&hl=en)
   design:
@@ -247,7 +247,7 @@ sections:
     filters:
       folders:
       - project
-    title: 💻 Projects
+    title: 💻 PROJECTS
   design:
     columns: "2"
     flip_alt_rows: false
@@ -279,7 +279,7 @@ sections:
     filters:
       folders:
         - talk
-    title: 🗣 Talks
+    title: 🗣 TALKS
   design:
     columns: "2"
     view: list
@@ -456,7 +456,7 @@ sections:
       url: ""
 
     subtitle: null
-    title: 🏅 Awards
+    title: 🏅 AWARDS
   id: awards
   design:
     columns: "2"
@@ -514,7 +514,7 @@ sections:
       description: 
       location: UK 🇬🇧
       title: Member of Editorial Board
-    title: 🦮 Academic Service
+    title: 🦮 ACADEMIC SERVICE
   design:
     columns: "2"
 
@@ -525,7 +525,7 @@ sections:
       featured_only: false
       folders:
       - journal_referee
-    title: 🐕‍🦺 Journal Referee
+    title: 🐕‍🦺 JOURNAL REFEREE
   design:
     columns: "2"
     # view: community/compact2
@@ -622,7 +622,7 @@ sections:
     phone: +1 571-267-9283
     subtitle: null
     text: 
-    title: 📥 Contact
+    title: 📥 CONTACT
   design:
     columns: "2"
   id: contact

@@ -7,16 +7,16 @@ main:
   # - name: About
   #   url: '#about'
   #   weight: 10
-  - name: Experiences
+  - name: EXPERIENCE
     url: '#experience'
     weight: 20
-  - name: Publications
+  - name: PUBLICATIONS
     url: '#publication'
     weight: 30
-  - name: Projects
+  - name: PROJECTS
     url: '#projects'
     weight: 40
-  - name: Talks
+  - name: TALKS
     url: '#talks'
     weight: 50
 
@@ -24,19 +24,19 @@ main:
   #   url: '#news'
   #   weight: 80
   
-  - name: Awards
+  - name: AWARDS
     url: '#awards'
     weight: 110
 
-  - name: Academic Service
+  - name: ACADEMIC SERVICE
     url: '#academic_service'
     weight: 120
 
-  - name: Contact
+  - name: CONTACT
     url: '#contact'
     weight: 130
 
-  - name: Blog
+  - name: BLOG
     url: 'post/'
     weight: 140  
 
