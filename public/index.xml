@@ -13,6 +13,22 @@
     </image>
     
     <item>
+      <title>Generalized reporter score-based enrichment analysis for omics data</title>
+      <link>https://jaspershen.github.io/publication/generalized-reporter-score-based-enrichment-analysis-for-omics-data/</link>
+      <pubDate>Mon, 08 Apr 2024 00:00:00 +0000</pubDate>
+      <guid>https://jaspershen.github.io/publication/generalized-reporter-score-based-enrichment-analysis-for-omics-data/</guid>
+      <description></description>
+    </item>
+    
+    <item>
+      <title>Longitudinal profiling of the microbiome at four body sites reveals core stability and individualized dynamics during health and disease</title>
+      <link>https://jaspershen.github.io/publication/longitudinal-profiling-of-the-microbiome-at-four-body-sites-reveals-core-stability-and-individualized-dynamics-during-health-and-disease/</link>
+      <pubDate>Tue, 12 Mar 2024 00:00:00 +0000</pubDate>
+      <guid>https://jaspershen.github.io/publication/longitudinal-profiling-of-the-microbiome-at-four-body-sites-reveals-core-stability-and-individualized-dynamics-during-health-and-disease/</guid>
+      <description></description>
+    </item>
+    
+    <item>
       <title>Nonlinear Dynamic Changes During Human Aging Revealed in Multi-omics Profiles</title>
       <link>https://jaspershen.github.io/talks/2023-genetics-retreat/</link>
       <pubDate>Thu, 21 Sep 2023 13:00:00 +0000</pubDate>
@@ -1176,7 +1192,7 @@ data.head()
 
 
 
-&lt;div id=&#34;chart-564172938&#34; class=&#34;chart&#34;&gt;&lt;/div&gt;
+&lt;div id=&#34;chart-549816273&#34; class=&#34;chart&#34;&gt;&lt;/div&gt;
 &lt;script&gt;
   (function() {
     let a = setInterval( function() {
@@ -1186,7 +1202,7 @@ data.head()
       clearInterval( a );
 
       Plotly.d3.json(&#34;./line-chart.json&#34;, function(chart) {
-        Plotly.plot(&#39;chart-564172938&#39;, chart.data, chart.layout, {responsive: true});
+        Plotly.plot(&#39;chart-549816273&#39;, chart.data, chart.layout, {responsive: true});
       });
     }, 500 );
   })();

@@ -58,9 +58,9 @@ user_groups:
 - Principal Investigator
 ---
 
-I will join Nanyang Technological University Singapore (NTU) as an Nanyang Assistant Professor (Tenure Track). My research will focus on method development for multi-omics data integration and its application to precision medicine. I am looking for highly motivated postdocs and students to join my lab. Please feel free to contact me if you are interested (xiaotao.shen@outlook.com). The Shen Lab website is here: https://www.shen-lab.org/.
+I am an Assistant Professor (Tenure Track) at Lee Kong Chian School of Medicine, Nanyang Technological University Singapore (NTU). My research focus on method development for multi-omics data integration and its application to precision medicine. I am looking for highly motivated postdocs and students to join my lab. Please feel free to contact me if you are interested (xiaotao.shen@ntu.edu.sg). The Shen Lab website is here: https://www.shen-lab.org/.
 
-now, I am still a Postdoctoral Research Fellow in [Prof. Michael Snyder's lab](https://med.stanford.edu/snyderlab/about.html) at Stanford University School of Medicine. My overarching research interests are bioinformatics algorithms development for multi-omics data, and their application to precision medicine. Specifically, I am interested in bioinformatics algorithm development, including:
+ My overarching research interests are bioinformatics algorithms development for multi-omics data, and their application to precision medicine. Specifically, I am interested in bioinformatics algorithm development, including:
 
 1. Comprehensive analysis workflow and deep learning for LC-MS data, 
 
