@@ -122,10 +122,26 @@ sections:
   content:
     date_format: Jan 2006
     items:
+    - company: Nanyang Technological University Singapore
+      company_logo: ntu_logo
+      company_url: "https://www.ntu.edu.sg/medicine"
+      date_end: ""
+      date_start: "2024-05-02"
+      description: |-
+        
+        🧪 Research:
+        * Host and microbe interaction
+        * Multi-omics data analysis and their application in healthcare
+        * Software and algorithm development for metabolomics and other omics data
+        * Aging and Aging-related diseases
+        * Human pregnancy and pregnancy-related diseases
+      
+      location: Singapore 🇸🇬
+      title: Nanyang Assistant Professor (Tenure Track)
     - company: Stanford University
       company_logo: stanford_logo
       company_url: "https://www.stanford.edu/"
-      date_end: ""
+      date_end: "2024-04-28"
       date_start: "2023-12-01"
       description: |-
         :man_teacher: Advisor: [Prof. Michael P. Snyder](http://snyderlab.stanford.edu/)
