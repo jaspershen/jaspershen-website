@@ -22,9 +22,9 @@ highlight_name: true
 
 last_name: Shen
 organizations:
-- name: Stanford University
-  url: https://www.stanford.edu/
-role: Research Scientist
+- name: Nanyang Technological University Singapore
+  url: https://www.ntu.edu.sg/medicine
+role: Nanyang Assistant Professor
 social:
 - icon: envelope
   icon_pack: fas
