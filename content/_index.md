@@ -100,16 +100,16 @@ sections:
   content:
     title: "📚 Statistics"
     subtitle: ""
-    text: Data from [Google Scholar](https://scholar.google.com/citations?hl=en&user=3TK9yz8AAAAJ) (06/11/2024)
+    text: Data from [Google Scholar](https://scholar.google.com/citations?hl=en&user=3TK9yz8AAAAJ) (07/01/2024)
     items:
     - description: Publications
       icon: newspaper
       icon_pack: fas
-      name: 41
+      name: 43
     - description: Citations
       icon: open-data
       icon_pack: ai
-      name: 1,616
+      name: 1,663
     - description: H-index
       icon: google-scholar
       icon_pack: ai
