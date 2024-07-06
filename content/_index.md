@@ -100,7 +100,7 @@ sections:
   content:
     title: "📚 Statistics"
     subtitle: ""
-    text: Data from [Google Scholar](https://scholar.google.com/citations?hl=en&user=3TK9yz8AAAAJ) (07/01/2024)
+    text: Data from [Google Scholar](https://scholar.google.com/citations?hl=en&user=3TK9yz8AAAAJ) (07/06/2024)
     items:
     - description: Publications
       icon: newspaper
@@ -109,7 +109,7 @@ sections:
     - description: Citations
       icon: open-data
       icon_pack: ai
-      name: 1,663
+      name: 1,672
     - description: H-index
       icon: google-scholar
       icon_pack: ai
@@ -337,36 +337,36 @@ sections:
 #   id: post
   
 
-- block: collection
-  content:
-    count: 5
-    filters:
-      featured_only: false
-      folders:
-      - news
-    title: 📰 News
-  design:
-    columns: "2"
-    view: list
-    background:
-      video:
-      # Name of video in `assets/media/`.
-        filename: pexels-koolshooters-6628560 (2160p).mp4
-        filters:
-          brightness: 0.5
-      # image: 
-      #   filename: reading_news.jpeg
-      #   filters:
-      #     brightness: 0.5
-      #  Image fit. Options are `cover` (default), `contain`, or `actual` size.
-      size: cover
-      # Image focal point. Options include `left`, `center` (default), or `right`.
-      position: center
-      # Use a fun parallax-like fixed background effect on desktop? true/false
-      parallax: true
-      # Text color (true=light, false=dark, or remove for the dynamic theme color).
-      text_color_light: true
-  id: news
+# - block: collection
+#   content:
+#     count: 5
+#     filters:
+#       featured_only: false
+#       folders:
+#       - news
+#     title: 📰 News
+#   design:
+#     columns: "2"
+#     view: list
+#     background:
+#       video:
+#       # Name of video in `assets/media/`.
+#         filename: pexels-koolshooters-6628560 (2160p).mp4
+#         filters:
+#           brightness: 0.5
+#       # image: 
+#       #   filename: reading_news.jpeg
+#       #   filters:
+#       #     brightness: 0.5
+#       #  Image fit. Options are `cover` (default), `contain`, or `actual` size.
+#       size: cover
+#       # Image focal point. Options include `left`, `center` (default), or `right`.
+#       position: center
+#       # Use a fun parallax-like fixed background effect on desktop? true/false
+#       parallax: true
+#       # Text color (true=light, false=dark, or remove for the dynamic theme color).
+#       text_color_light: true
+#   id: news
     
 - block: accomplishments
   content:
@@ -607,12 +607,12 @@ sections:
 - block: contact
   content:
     address:
-      city: Palo Alto
-      country: United States
-      country_code: US
-      postcode: "94304"
-      region: CA
-      street: 3165 Porter Drive
+      city: Singapore
+      country: Singapore
+      country_code: sg
+      postcode: "636921"
+      region: 
+      street: 59 Nanyang Dr
     # appointment_url: https://calendly.com
     # autolink: true
     # contact_links:

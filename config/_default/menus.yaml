@@ -18,10 +18,10 @@ main:
     url: '#experience'
     weight: 2
 
-  - name: News
-    parent: home
-    url: '#news'
-    weight: 3
+  # - name: NEWS
+  #   parent: home
+  #   url: '#news'
+  #   weight: 3
   
   - name: AWARDS
     parent: home
