@@ -105,15 +105,15 @@ sections:
     - description: Publications
       icon: newspaper
       icon_pack: fas
-      name: 43
+      name: 23
     - description: Citations
       icon: open-data
       icon_pack: ai
-      name: 1,672
+      name: 1,913
     - description: H-index
       icon: google-scholar
       icon_pack: ai
-      name: 18
+      name: 19
   design:
     columns: "2"
   
@@ -122,6 +122,18 @@ sections:
   content:
     date_format: Jan 2006
     items:
+    - company: KK Women's and Children's Hospital
+      company_logo: kkh_logo
+      company_url: "https://www.kkh.com.sg/"
+      date_end: ""
+      date_start: "2024-10-01"
+      description: |-
+        
+        🧪 Research:
+        * Human pregnancy and pregnancy-related diseases
+      
+      location: Singapore 🇸🇬
+      title: Adjunct Principal Investigator
     - company: Nanyang Technological University Singapore
       company_logo: ntu_logo
       company_url: "https://www.ntu.edu.sg/medicine"
