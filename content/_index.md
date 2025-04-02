@@ -100,7 +100,7 @@ sections:
   content:
     title: "📚 Statistics"
     subtitle: ""
-    text: Data from [Google Scholar](https://scholar.google.com/citations?hl=en&user=3TK9yz8AAAAJ) (07/06/2024)
+    text: Data from [Google Scholar](https://scholar.google.com/citations?hl=en&user=3TK9yz8AAAAJ) (04/02/2025)
     items:
     - description: Publications
       icon: newspaper
@@ -109,7 +109,7 @@ sections:
     - description: Citations
       icon: open-data
       icon_pack: ai
-      name: 1,955
+      name: 2,211
     - description: H-index
       icon: google-scholar
       icon_pack: ai
@@ -122,6 +122,13 @@ sections:
   content:
     date_format: Jan 2006
     items:
+    - company: Singapore Phenome Center, NTU Singapore
+      company_logo: SPC-logo
+      company_url: "https://www.ntu.edu.sg/spc"
+      date_end: ""
+      date_start: "2025-02-26"
+      location: Singapore 🇸🇬
+      title: Director
     - company: KK Women's and Children's Hospital
       company_logo: kkh_logo
       company_url: "https://www.kkh.com.sg/"
@@ -606,7 +613,7 @@ sections:
 # - block: markdown
 #   content:
 #     subtitle: ""
-#     # text: '{{< gallery album="photo2" >}}'
+#     text: '{{< gallery album="photo" >}}'
 #     title: 📸 Photos
 #     gallery_item:
 #     - album: photo
