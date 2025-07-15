@@ -2,21 +2,21 @@
 <rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
   <channel>
     <title>Linux | Xiaotao Shen</title>
-    <link>https://jaspershenlab.com/category/linux/</link>
-      <atom:link href="https://jaspershenlab.com/category/linux/index.xml" rel="self" type="application/rss+xml" />
+    <link>/category/linux/</link>
+      <atom:link href="/category/linux/index.xml" rel="self" type="application/rss+xml" />
     <description>Linux</description>
     <generator>Wowchemy (https://wowchemy.com)</generator><language>en-us</language><lastBuildDate>Wed, 30 Jun 2021 21:13:14 -0500</lastBuildDate>
     <image>
-      <url>https://jaspershenlab.com/media/logo_hua82804f08c421dd09439d93e6d351d6c_109030_300x300_fit_lanczos_3.png</url>
+      <url>/media/logo_hua82804f08c421dd09439d93e6d351d6c_109030_300x300_fit_lanczos_3.png</url>
       <title>Linux</title>
-      <link>https://jaspershenlab.com/category/linux/</link>
+      <link>/category/linux/</link>
     </image>
     
     <item>
       <title>RNA-seq原始数据处理</title>
-      <link>https://jaspershenlab.com/post/2021-06-30-rnaseq-raw-data-processing/</link>
+      <link>/post/2021-06-30-rnaseq-raw-data-processing/</link>
       <pubDate>Wed, 30 Jun 2021 21:13:14 -0500</pubDate>
-      <guid>https://jaspershenlab.com/post/2021-06-30-rnaseq-raw-data-processing/</guid>
+      <guid>/post/2021-06-30-rnaseq-raw-data-processing/</guid>
       <description>&lt;p&gt;颜色是数据可视化中非常重要的一个元素，它可以传达信息，引起注意，增强美感，甚至影响情绪。但是，如何选择合适的颜色方案呢？有没有一种科学的方法，可以帮助我们在众多的颜色中找到最佳的组合呢？&lt;/p&gt;
 &lt;h1 id=&#34;rna-seq原始数据&#34;&gt;RNA-seq原始数据&lt;/h1&gt;
 &lt;p&gt;参考:https://mp.weixin.qq.com/s?__biz=MzA4NDAzODkzMA==&amp;amp;mid=2651272899&amp;amp;idx=1&amp;amp;sn=6779b2bd21f3b607a08227d31c7212c6&amp;amp;chksm=841ed2beb3695ba8bee23563c28caa005447b2298785719964732b16cafe3a15d7d4937b95c1&amp;amp;scene=21#wechat_redirect&lt;/p&gt;

@@ -2,14 +2,14 @@
 <rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
   <channel>
     <title>Publication_types | Xiaotao Shen</title>
-    <link>https://jaspershenlab.com/publication_types/</link>
-      <atom:link href="https://jaspershenlab.com/publication_types/index.xml" rel="self" type="application/rss+xml" />
+    <link>/publication_types/</link>
+      <atom:link href="/publication_types/index.xml" rel="self" type="application/rss+xml" />
     <description>Publication_types</description>
     <generator>Wowchemy (https://wowchemy.com)</generator><language>en-us</language><lastBuildDate>Mon, 08 Apr 2024 00:00:00 +0000</lastBuildDate>
     <image>
-      <url>https://jaspershenlab.com/media/logo_hua82804f08c421dd09439d93e6d351d6c_109030_300x300_fit_lanczos_3.png</url>
+      <url>/media/logo_hua82804f08c421dd09439d93e6d351d6c_109030_300x300_fit_lanczos_3.png</url>
       <title>Publication_types</title>
-      <link>https://jaspershenlab.com/publication_types/</link>
+      <link>/publication_types/</link>
     </image>
     
   </channel>
