@@ -2,53 +2,53 @@
 <rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
   <channel>
     <title>Xiaotao Shen</title>
-    <link>https://jaspershen.github.io/</link>
-      <atom:link href="https://jaspershen.github.io/index.xml" rel="self" type="application/rss+xml" />
+    <link>https://jaspershenlab.com/</link>
+      <atom:link href="https://jaspershenlab.com/index.xml" rel="self" type="application/rss+xml" />
     <description>Xiaotao Shen</description>
     <generator>Wowchemy (https://wowchemy.com)</generator><language>en-us</language><lastBuildDate>Mon, 24 Oct 2022 00:00:00 +0000</lastBuildDate>
     <image>
-      <url>https://jaspershen.github.io/media/logo_hua82804f08c421dd09439d93e6d351d6c_109030_300x300_fit_lanczos_3.png</url>
+      <url>https://jaspershenlab.com/media/logo_hua82804f08c421dd09439d93e6d351d6c_109030_300x300_fit_lanczos_3.png</url>
       <title>Xiaotao Shen</title>
-      <link>https://jaspershen.github.io/</link>
+      <link>https://jaspershenlab.com/</link>
     </image>
     
     <item>
       <title>Generalized reporter score-based enrichment analysis for omics data</title>
-      <link>https://jaspershen.github.io/publication/generalized-reporter-score-based-enrichment-analysis-for-omics-data/</link>
+      <link>https://jaspershenlab.com/publication/generalized-reporter-score-based-enrichment-analysis-for-omics-data/</link>
       <pubDate>Mon, 08 Apr 2024 00:00:00 +0000</pubDate>
-      <guid>https://jaspershen.github.io/publication/generalized-reporter-score-based-enrichment-analysis-for-omics-data/</guid>
+      <guid>https://jaspershenlab.com/publication/generalized-reporter-score-based-enrichment-analysis-for-omics-data/</guid>
       <description></description>
     </item>
     
     <item>
       <title>Longitudinal profiling of the microbiome at four body sites reveals core stability and individualized dynamics during health and disease</title>
-      <link>https://jaspershen.github.io/publication/longitudinal-profiling-of-the-microbiome-at-four-body-sites-reveals-core-stability-and-individualized-dynamics-during-health-and-disease/</link>
+      <link>https://jaspershenlab.com/publication/longitudinal-profiling-of-the-microbiome-at-four-body-sites-reveals-core-stability-and-individualized-dynamics-during-health-and-disease/</link>
       <pubDate>Tue, 12 Mar 2024 00:00:00 +0000</pubDate>
-      <guid>https://jaspershen.github.io/publication/longitudinal-profiling-of-the-microbiome-at-four-body-sites-reveals-core-stability-and-individualized-dynamics-during-health-and-disease/</guid>
+      <guid>https://jaspershenlab.com/publication/longitudinal-profiling-of-the-microbiome-at-four-body-sites-reveals-core-stability-and-individualized-dynamics-during-health-and-disease/</guid>
       <description></description>
     </item>
     
     <item>
       <title>Nonlinear Dynamic Changes During Human Aging Revealed in Multi-omics Profiles</title>
-      <link>https://jaspershen.github.io/talks/2023-genetics-retreat/</link>
+      <link>https://jaspershenlab.com/talks/2023-genetics-retreat/</link>
       <pubDate>Thu, 21 Sep 2023 13:00:00 +0000</pubDate>
-      <guid>https://jaspershen.github.io/talks/2023-genetics-retreat/</guid>
+      <guid>https://jaspershenlab.com/talks/2023-genetics-retreat/</guid>
       <description></description>
     </item>
     
     <item>
       <title>microbiomedataset A tidyverse-style framework for organizing and processing microbiome data</title>
-      <link>https://jaspershen.github.io/publication/microbiomedataset-a-tidyverse-style-framework-for-organizing-and-processing-microbiome-data/</link>
+      <link>https://jaspershenlab.com/publication/microbiomedataset-a-tidyverse-style-framework-for-organizing-and-processing-microbiome-data/</link>
       <pubDate>Thu, 21 Sep 2023 00:00:00 +0000</pubDate>
-      <guid>https://jaspershen.github.io/publication/microbiomedataset-a-tidyverse-style-framework-for-organizing-and-processing-microbiome-data/</guid>
+      <guid>https://jaspershenlab.com/publication/microbiomedataset-a-tidyverse-style-framework-for-organizing-and-processing-microbiome-data/</guid>
       <description></description>
     </item>
     
     <item>
       <title>脂质组学研究揭示健康、疾病和衰老过程中的动态变化</title>
-      <link>https://jaspershen.github.io/post/2023-09-14-ipop-lipidomics/</link>
+      <link>https://jaspershenlab.com/post/2023-09-14-ipop-lipidomics/</link>
       <pubDate>Thu, 14 Sep 2023 00:00:00 +0000</pubDate>
-      <guid>https://jaspershen.github.io/post/2023-09-14-ipop-lipidomics/</guid>
+      <guid>https://jaspershenlab.com/post/2023-09-14-ipop-lipidomics/</guid>
       <description>&lt;blockquote&gt;
 &lt;p&gt;分享一篇文章。是最近刚发表的.&lt;/p&gt;
 &lt;/blockquote&gt;
@@ -75,7 +75,7 @@
                /post/2023-09-14-ipop-lipidomics/figure1_hu3b82dfaed5e9027a578a9a59c63878fa_239257_bba253659668a91875c4d4545e595cd2.webp 400w,
                /post/2023-09-14-ipop-lipidomics/figure1_hu3b82dfaed5e9027a578a9a59c63878fa_239257_c17933719d66407fd8b17328eea9b8b3.webp 760w,
                /post/2023-09-14-ipop-lipidomics/figure1_hu3b82dfaed5e9027a578a9a59c63878fa_239257_1200x1200_fit_q75_h2_lanczos_3.webp 1200w&#34;
-               src=&#34;https://jaspershen.github.io/post/2023-09-14-ipop-lipidomics/figure1_hu3b82dfaed5e9027a578a9a59c63878fa_239257_bba253659668a91875c4d4545e595cd2.webp&#34;
+               src=&#34;https://jaspershenlab.com/post/2023-09-14-ipop-lipidomics/figure1_hu3b82dfaed5e9027a578a9a59c63878fa_239257_bba253659668a91875c4d4545e595cd2.webp&#34;
                width=&#34;760&#34;
                height=&#34;371&#34;
                loading=&#34;lazy&#34; data-zoomable /&gt;&lt;/div&gt;
@@ -116,7 +116,7 @@
                /post/2023-09-14-ipop-lipidomics/figure2_hue763d5679199599d941852c31e3908ff_571170_77206ee71f3aa2384103008e4490a8f5.webp 400w,
                /post/2023-09-14-ipop-lipidomics/figure2_hue763d5679199599d941852c31e3908ff_571170_e2b18a7a4d4e232e4519eaceac0f4042.webp 760w,
                /post/2023-09-14-ipop-lipidomics/figure2_hue763d5679199599d941852c31e3908ff_571170_1200x1200_fit_q75_h2_lanczos_3.webp 1200w&#34;
-               src=&#34;https://jaspershen.github.io/post/2023-09-14-ipop-lipidomics/figure2_hue763d5679199599d941852c31e3908ff_571170_77206ee71f3aa2384103008e4490a8f5.webp&#34;
+               src=&#34;https://jaspershenlab.com/post/2023-09-14-ipop-lipidomics/figure2_hue763d5679199599d941852c31e3908ff_571170_77206ee71f3aa2384103008e4490a8f5.webp&#34;
                width=&#34;760&#34;
                height=&#34;666&#34;
                loading=&#34;lazy&#34; data-zoomable /&gt;&lt;/div&gt;
@@ -148,7 +148,7 @@
                /post/2023-09-14-ipop-lipidomics/figure3_hud1f8f7c4ff6a2f833d159b804e4ce870_457729_5a580db79f79a3302a026f58638f26cb.webp 400w,
                /post/2023-09-14-ipop-lipidomics/figure3_hud1f8f7c4ff6a2f833d159b804e4ce870_457729_3d77d04ec96ae68e22ad4f94967bb6d7.webp 760w,
                /post/2023-09-14-ipop-lipidomics/figure3_hud1f8f7c4ff6a2f833d159b804e4ce870_457729_1200x1200_fit_q75_h2_lanczos_3.webp 1200w&#34;
-               src=&#34;https://jaspershen.github.io/post/2023-09-14-ipop-lipidomics/figure3_hud1f8f7c4ff6a2f833d159b804e4ce870_457729_5a580db79f79a3302a026f58638f26cb.webp&#34;
+               src=&#34;https://jaspershenlab.com/post/2023-09-14-ipop-lipidomics/figure3_hud1f8f7c4ff6a2f833d159b804e4ce870_457729_5a580db79f79a3302a026f58638f26cb.webp&#34;
                width=&#34;760&#34;
                height=&#34;410&#34;
                loading=&#34;lazy&#34; data-zoomable /&gt;&lt;/div&gt;
@@ -180,7 +180,7 @@
                /post/2023-09-14-ipop-lipidomics/figure4_hu7b2e93df270c941af5b5ec72ce4177a1_571427_f04101e296707f04101bfd4f947ead2c.webp 400w,
                /post/2023-09-14-ipop-lipidomics/figure4_hu7b2e93df270c941af5b5ec72ce4177a1_571427_dd1aca0f01b3ca96271f5ebfc43dfddd.webp 760w,
                /post/2023-09-14-ipop-lipidomics/figure4_hu7b2e93df270c941af5b5ec72ce4177a1_571427_1200x1200_fit_q75_h2_lanczos_3.webp 1200w&#34;
-               src=&#34;https://jaspershen.github.io/post/2023-09-14-ipop-lipidomics/figure4_hu7b2e93df270c941af5b5ec72ce4177a1_571427_f04101e296707f04101bfd4f947ead2c.webp&#34;
+               src=&#34;https://jaspershenlab.com/post/2023-09-14-ipop-lipidomics/figure4_hu7b2e93df270c941af5b5ec72ce4177a1_571427_f04101e296707f04101bfd4f947ead2c.webp&#34;
                width=&#34;760&#34;
                height=&#34;567&#34;
                loading=&#34;lazy&#34; data-zoomable /&gt;&lt;/div&gt;
@@ -212,7 +212,7 @@
                /post/2023-09-14-ipop-lipidomics/figure5_hu3f57a6fd211c79e4847fc13ac027ff53_550519_c81bfb43ac121e025649e5cb9fa56782.webp 400w,
                /post/2023-09-14-ipop-lipidomics/figure5_hu3f57a6fd211c79e4847fc13ac027ff53_550519_fbd77ac1279a0a373585f45c123cd358.webp 760w,
                /post/2023-09-14-ipop-lipidomics/figure5_hu3f57a6fd211c79e4847fc13ac027ff53_550519_1200x1200_fit_q75_h2_lanczos_3.webp 1200w&#34;
-               src=&#34;https://jaspershen.github.io/post/2023-09-14-ipop-lipidomics/figure5_hu3f57a6fd211c79e4847fc13ac027ff53_550519_c81bfb43ac121e025649e5cb9fa56782.webp&#34;
+               src=&#34;https://jaspershenlab.com/post/2023-09-14-ipop-lipidomics/figure5_hu3f57a6fd211c79e4847fc13ac027ff53_550519_c81bfb43ac121e025649e5cb9fa56782.webp&#34;
                width=&#34;760&#34;
                height=&#34;432&#34;
                loading=&#34;lazy&#34; data-zoomable /&gt;&lt;/div&gt;
@@ -243,7 +243,7 @@
                /post/2023-09-14-ipop-lipidomics/figure6_hud0c5bc4d6e20b79a7811fc1c6c07e965_399012_0241fa35e216b5de480d33f1b94edbba.webp 400w,
                /post/2023-09-14-ipop-lipidomics/figure6_hud0c5bc4d6e20b79a7811fc1c6c07e965_399012_53dd144f019edc3c0cb226afb4618b06.webp 760w,
                /post/2023-09-14-ipop-lipidomics/figure6_hud0c5bc4d6e20b79a7811fc1c6c07e965_399012_1200x1200_fit_q75_h2_lanczos_3.webp 1200w&#34;
-               src=&#34;https://jaspershen.github.io/post/2023-09-14-ipop-lipidomics/figure6_hud0c5bc4d6e20b79a7811fc1c6c07e965_399012_0241fa35e216b5de480d33f1b94edbba.webp&#34;
+               src=&#34;https://jaspershenlab.com/post/2023-09-14-ipop-lipidomics/figure6_hud0c5bc4d6e20b79a7811fc1c6c07e965_399012_0241fa35e216b5de480d33f1b94edbba.webp&#34;
                width=&#34;760&#34;
                height=&#34;527&#34;
                loading=&#34;lazy&#34; data-zoomable /&gt;&lt;/div&gt;
@@ -274,7 +274,7 @@
                /post/2023-09-14-ipop-lipidomics/figure7_huebb2c299e604dc0d1944a046ecab99d3_754743_d1387788eb544eb062c8fe4535fcfc71.webp 400w,
                /post/2023-09-14-ipop-lipidomics/figure7_huebb2c299e604dc0d1944a046ecab99d3_754743_f16cfd67eaa97da019729e939cb98779.webp 760w,
                /post/2023-09-14-ipop-lipidomics/figure7_huebb2c299e604dc0d1944a046ecab99d3_754743_1200x1200_fit_q75_h2_lanczos_3.webp 1200w&#34;
-               src=&#34;https://jaspershen.github.io/post/2023-09-14-ipop-lipidomics/figure7_huebb2c299e604dc0d1944a046ecab99d3_754743_d1387788eb544eb062c8fe4535fcfc71.webp&#34;
+               src=&#34;https://jaspershenlab.com/post/2023-09-14-ipop-lipidomics/figure7_huebb2c299e604dc0d1944a046ecab99d3_754743_d1387788eb544eb062c8fe4535fcfc71.webp&#34;
                width=&#34;760&#34;
                height=&#34;653&#34;
                loading=&#34;lazy&#34; data-zoomable /&gt;&lt;/div&gt;
@@ -298,25 +298,25 @@
     
     <item>
       <title>Nonlinear Dynamic Changes During Human Aging Revealed in Multi-omics Profiles</title>
-      <link>https://jaspershen.github.io/talks/2023-bamm/</link>
+      <link>https://jaspershenlab.com/talks/2023-bamm/</link>
       <pubDate>Fri, 08 Sep 2023 13:00:00 +0000</pubDate>
-      <guid>https://jaspershen.github.io/talks/2023-bamm/</guid>
+      <guid>https://jaspershenlab.com/talks/2023-bamm/</guid>
       <description></description>
     </item>
     
     <item>
       <title>2023-09-08 Xiaotao Shen presented on 2023 BAMM.</title>
-      <link>https://jaspershen.github.io/news/2023-bamm/</link>
+      <link>https://jaspershenlab.com/news/2023-bamm/</link>
       <pubDate>Fri, 08 Sep 2023 00:00:00 +0000</pubDate>
-      <guid>https://jaspershen.github.io/news/2023-bamm/</guid>
+      <guid>https://jaspershenlab.com/news/2023-bamm/</guid>
       <description></description>
     </item>
     
     <item>
       <title>tidytof:一种可扩展和可重现的高维细胞数据分析的整洁框架</title>
-      <link>https://jaspershen.github.io/post/2023-07-19-tidytof/</link>
+      <link>https://jaspershenlab.com/post/2023-07-19-tidytof/</link>
       <pubDate>Fri, 08 Sep 2023 00:00:00 +0000</pubDate>
-      <guid>https://jaspershen.github.io/post/2023-07-19-tidytof/</guid>
+      <guid>https://jaspershenlab.com/post/2023-07-19-tidytof/</guid>
       <description>&lt;p&gt;依赖于tidyverse风格的组学数据处理软件越来越多了！期待我们的tidymicrobiome！&lt;/p&gt;
 &lt;h1 id=&#34;tidytof一种可扩展和可重现的高维细胞数据分析的整洁框架&#34;&gt;tidytof:一种可扩展和可重现的高维细胞数据分析的整洁框架&lt;/h1&gt;
 &lt;h2 id=&#34;摘要&#34;&gt;摘要&lt;/h2&gt;
@@ -352,7 +352,7 @@
                /post/2023-07-19-tidytof/figure1_hu5fa3503ad3c9b05c11792d4f5c037e45_1096349_10a03f3859e1f40efb3b5e244c561d44.webp 400w,
                /post/2023-07-19-tidytof/figure1_hu5fa3503ad3c9b05c11792d4f5c037e45_1096349_15492aa1870bb735ddc31c387311aff5.webp 760w,
                /post/2023-07-19-tidytof/figure1_hu5fa3503ad3c9b05c11792d4f5c037e45_1096349_1200x1200_fit_q75_h2_lanczos_3.webp 1200w&#34;
-               src=&#34;https://jaspershen.github.io/post/2023-07-19-tidytof/figure1_hu5fa3503ad3c9b05c11792d4f5c037e45_1096349_10a03f3859e1f40efb3b5e244c561d44.webp&#34;
+               src=&#34;https://jaspershenlab.com/post/2023-07-19-tidytof/figure1_hu5fa3503ad3c9b05c11792d4f5c037e45_1096349_10a03f3859e1f40efb3b5e244c561d44.webp&#34;
                width=&#34;629&#34;
                height=&#34;760&#34;
                loading=&#34;lazy&#34; data-zoomable /&gt;&lt;/div&gt;
@@ -367,49 +367,49 @@
     
     <item>
       <title>2023-9-1 Xiaotao Shen presented the nonlinear aging work on 2023 Stanford University Biox Symposium.</title>
-      <link>https://jaspershen.github.io/news/2023-stanford-biox/</link>
+      <link>https://jaspershenlab.com/news/2023-stanford-biox/</link>
       <pubDate>Fri, 01 Sep 2023 00:00:00 +0000</pubDate>
-      <guid>https://jaspershen.github.io/news/2023-stanford-biox/</guid>
+      <guid>https://jaspershenlab.com/news/2023-stanford-biox/</guid>
       <description></description>
     </item>
     
     <item>
       <title>Multi-Omics Microsampling for The Profiling of Lifestyle-Associated Changes in Health</title>
-      <link>https://jaspershen.github.io/talks/2023-casms/</link>
+      <link>https://jaspershenlab.com/talks/2023-casms/</link>
       <pubDate>Tue, 29 Aug 2023 13:00:00 +0000</pubDate>
-      <guid>https://jaspershen.github.io/talks/2023-casms/</guid>
+      <guid>https://jaspershenlab.com/talks/2023-casms/</guid>
       <description></description>
     </item>
     
     <item>
       <title>2023-8-29 Xiaotao Shen presented on CASMS2023.</title>
-      <link>https://jaspershen.github.io/news/2023-casms-talk/</link>
+      <link>https://jaspershenlab.com/news/2023-casms-talk/</link>
       <pubDate>Tue, 29 Aug 2023 00:00:00 +0000</pubDate>
-      <guid>https://jaspershen.github.io/news/2023-casms-talk/</guid>
+      <guid>https://jaspershenlab.com/news/2023-casms-talk/</guid>
       <description></description>
     </item>
     
     <item>
       <title>2023-8-29 Xiaotao Shen received the CASMS Young Investigator Award!😀</title>
-      <link>https://jaspershen.github.io/news/2023-casms-yia/</link>
+      <link>https://jaspershenlab.com/news/2023-casms-yia/</link>
       <pubDate>Tue, 29 Aug 2023 00:00:00 +0000</pubDate>
-      <guid>https://jaspershen.github.io/news/2023-casms-yia/</guid>
+      <guid>https://jaspershenlab.com/news/2023-casms-yia/</guid>
       <description></description>
     </item>
     
     <item>
       <title>Semi-supervised Cooperative Learning for Multiomics Data Fusion</title>
-      <link>https://jaspershen.github.io/publication/semi-supervised-cooperative-learning-for-multiomics-data-fusion/</link>
+      <link>https://jaspershenlab.com/publication/semi-supervised-cooperative-learning-for-multiomics-data-fusion/</link>
       <pubDate>Wed, 02 Aug 2023 00:00:00 +0000</pubDate>
-      <guid>https://jaspershen.github.io/publication/semi-supervised-cooperative-learning-for-multiomics-data-fusion/</guid>
+      <guid>https://jaspershenlab.com/publication/semi-supervised-cooperative-learning-for-multiomics-data-fusion/</guid>
       <description></description>
     </item>
     
     <item>
       <title>如何使用colorspace包选择合适的颜色方案</title>
-      <link>https://jaspershen.github.io/post/2023-07-19-colorspace/</link>
+      <link>https://jaspershenlab.com/post/2023-07-19-colorspace/</link>
       <pubDate>Wed, 19 Jul 2023 21:13:14 -0500</pubDate>
-      <guid>https://jaspershen.github.io/post/2023-07-19-colorspace/</guid>
+      <guid>https://jaspershenlab.com/post/2023-07-19-colorspace/</guid>
       <description>&lt;p&gt;颜色是数据可视化中非常重要的一个元素，它可以传达信息，引起注意，增强美感，甚至影响情绪。但是，如何选择合适的颜色方案呢？有没有一种科学的方法，可以帮助我们在众多的颜色中找到最佳的组合呢？&lt;/p&gt;
 &lt;p&gt;答案是有的，那就是colorspace包。colorspace包是一个R语言的扩展包，它提供了一系列的函数和工具，可以让我们在不同的颜色空间中进行颜色的转换，选择，操作和评估。colorspace包基于HCL（色相-色度-亮度）颜色模型，这是一种基于人类视觉感知的颜色表示方法，比RGB（红-绿-蓝）或CMYK（青-品红-黄-黑）等常见的颜色模型更加直观和灵活。&lt;/p&gt;
 &lt;p&gt;colorspace包的主要功能有：&lt;/p&gt;
@@ -459,7 +459,7 @@
 &lt;/span&gt;&lt;/span&gt;&lt;span class=&#34;line&#34;&gt;&lt;span class=&#34;cl&#34;&gt;&lt;span class=&#34;c1&#34;&gt;## [1] &amp;#34;#1FA4FF&amp;#34; &amp;#34;#97BFF3&amp;#34; &amp;#34;#CAD6E9&amp;#34; &amp;#34;#E2E2E2&amp;#34; &amp;#34;#E7D1C5&amp;#34; &amp;#34;#E9B18B&amp;#34; &amp;#34;#E28912&amp;#34;&lt;/span&gt;
 &lt;/span&gt;&lt;/span&gt;&lt;/code&gt;&lt;/pre&gt;&lt;/div&gt;&lt;p&gt;这个函数会返回一个长度为7的向量，每个元素是一个十六进制的颜色代码。我们可以用plot函数来查看这个颜色方案：&lt;/p&gt;
 &lt;div class=&#34;highlight&#34;&gt;&lt;pre tabindex=&#34;0&#34; class=&#34;chroma&#34;&gt;&lt;code class=&#34;language-r&#34; data-lang=&#34;r&#34;&gt;&lt;span class=&#34;line&#34;&gt;&lt;span class=&#34;cl&#34;&gt;&lt;span class=&#34;n&#34;&gt;scales&lt;/span&gt;&lt;span class=&#34;o&#34;&gt;::&lt;/span&gt;&lt;span class=&#34;nf&#34;&gt;show_col&lt;/span&gt;&lt;span class=&#34;p&#34;&gt;(&lt;/span&gt;&lt;span class=&#34;nf&#34;&gt;diverge_hcl&lt;/span&gt;&lt;span class=&#34;p&#34;&gt;(&lt;/span&gt;&lt;span class=&#34;m&#34;&gt;7&lt;/span&gt;&lt;span class=&#34;p&#34;&gt;,&lt;/span&gt; &lt;span class=&#34;n&#34;&gt;h&lt;/span&gt; &lt;span class=&#34;o&#34;&gt;=&lt;/span&gt; &lt;span class=&#34;nf&#34;&gt;c&lt;/span&gt;&lt;span class=&#34;p&#34;&gt;(&lt;/span&gt;&lt;span class=&#34;m&#34;&gt;246&lt;/span&gt;&lt;span class=&#34;p&#34;&gt;,&lt;/span&gt; &lt;span class=&#34;m&#34;&gt;40&lt;/span&gt;&lt;span class=&#34;p&#34;&gt;),&lt;/span&gt; &lt;span class=&#34;n&#34;&gt;c&lt;/span&gt; &lt;span class=&#34;o&#34;&gt;=&lt;/span&gt; &lt;span class=&#34;m&#34;&gt;96&lt;/span&gt;&lt;span class=&#34;p&#34;&gt;,&lt;/span&gt; &lt;span class=&#34;n&#34;&gt;l&lt;/span&gt; &lt;span class=&#34;o&#34;&gt;=&lt;/span&gt; &lt;span class=&#34;nf&#34;&gt;c&lt;/span&gt;&lt;span class=&#34;p&#34;&gt;(&lt;/span&gt;&lt;span class=&#34;m&#34;&gt;65&lt;/span&gt;&lt;span class=&#34;p&#34;&gt;,&lt;/span&gt; &lt;span class=&#34;m&#34;&gt;90&lt;/span&gt;&lt;span class=&#34;p&#34;&gt;)))&lt;/span&gt;
-&lt;/span&gt;&lt;/span&gt;&lt;/code&gt;&lt;/pre&gt;&lt;/div&gt;&lt;img src=&#34;https://jaspershen.github.io/post/2023-07-19-colorspace/index.en_files/figure-html/unnamed-chunk-5-1.png&#34; width=&#34;672&#34; /&gt;
+&lt;/span&gt;&lt;/span&gt;&lt;/code&gt;&lt;/pre&gt;&lt;/div&gt;&lt;img src=&#34;https://jaspershenlab.com/post/2023-07-19-colorspace/index.en_files/figure-html/unnamed-chunk-5-1.png&#34; width=&#34;672&#34; /&gt;
 &lt;p&gt;我们可以看到，这个颜色方案是由蓝色和红色组成的，中间有一个白色。这种类型的颜色方案适合用来表示数据中存在两个极端或对立的情况。&lt;/p&gt;
 &lt;p&gt;类似地，我们可以用其他函数来创建不同类型的颜色方案，例如sequential_hcl, qualitative_hcl等。具体的参数和用法可以参考colorspace包的文档。&lt;/p&gt;
 &lt;h2 id=&#34;使用交互式图形用户界面&#34;&gt;使用交互式图形用户界面&lt;/h2&gt;
@@ -507,58 +507,58 @@
     
     <item>
       <title>Advances and prospects for the Human BioMolecular Atlas Program (HuBMAP)</title>
-      <link>https://jaspershen.github.io/publication/advances-and-prospects-for-the-human-biomolecular-atlas-program/</link>
+      <link>https://jaspershenlab.com/publication/advances-and-prospects-for-the-human-biomolecular-atlas-program/</link>
       <pubDate>Wed, 19 Jul 2023 00:00:00 +0000</pubDate>
-      <guid>https://jaspershen.github.io/publication/advances-and-prospects-for-the-human-biomolecular-atlas-program/</guid>
+      <guid>https://jaspershenlab.com/publication/advances-and-prospects-for-the-human-biomolecular-atlas-program/</guid>
       <description></description>
     </item>
     
     <item>
       <title>Multi-Omics Microsampling for The Profiling of Lifestyle-Associated Changes in Health</title>
-      <link>https://jaspershen.github.io/talks/2023-asms/</link>
+      <link>https://jaspershenlab.com/talks/2023-asms/</link>
       <pubDate>Tue, 06 Jun 2023 13:00:00 +0000</pubDate>
-      <guid>https://jaspershen.github.io/talks/2023-asms/</guid>
+      <guid>https://jaspershenlab.com/talks/2023-asms/</guid>
       <description></description>
     </item>
     
     <item>
       <title>Organism-wide, cell-type-specific secretome mapping of exercise training in mice</title>
-      <link>https://jaspershen.github.io/publication/organism-wide-cell-type-specific-secretome-mapping-of-exercise-training-in-mice/</link>
+      <link>https://jaspershenlab.com/publication/organism-wide-cell-type-specific-secretome-mapping-of-exercise-training-in-mice/</link>
       <pubDate>Fri, 28 Apr 2023 00:00:00 +0000</pubDate>
-      <guid>https://jaspershen.github.io/publication/organism-wide-cell-type-specific-secretome-mapping-of-exercise-training-in-mice/</guid>
+      <guid>https://jaspershenlab.com/publication/organism-wide-cell-type-specific-secretome-mapping-of-exercise-training-in-mice/</guid>
       <description></description>
     </item>
     
     <item>
       <title>Multi-Omics Microsampling for The Profiling of Lifestyle-Associated Changes in Health</title>
-      <link>https://jaspershen.github.io/talks/2023-stanford-postdoc-syposium/</link>
+      <link>https://jaspershenlab.com/talks/2023-stanford-postdoc-syposium/</link>
       <pubDate>Wed, 08 Feb 2023 13:00:00 +0000</pubDate>
-      <guid>https://jaspershen.github.io/talks/2023-stanford-postdoc-syposium/</guid>
+      <guid>https://jaspershenlab.com/talks/2023-stanford-postdoc-syposium/</guid>
       <description>&lt;p&gt;Abstract&lt;/p&gt;
 </description>
     </item>
     
     <item>
       <title>Nature Biotechnology</title>
-      <link>https://jaspershen.github.io/journal_referee/nature_biotechnology/</link>
+      <link>https://jaspershenlab.com/journal_referee/nature_biotechnology/</link>
       <pubDate>Fri, 20 Jan 2023 00:00:00 +0000</pubDate>
-      <guid>https://jaspershen.github.io/journal_referee/nature_biotechnology/</guid>
+      <guid>https://jaspershenlab.com/journal_referee/nature_biotechnology/</guid>
       <description></description>
     </item>
     
     <item>
       <title>Multi-omics microsampling for the profiling of lifestyle-associated changes in health</title>
-      <link>https://jaspershen.github.io/publication/multi-omics-microsampling-for-the-profiling-of-lifestyle-associated-changes-in-health/</link>
+      <link>https://jaspershenlab.com/publication/multi-omics-microsampling-for-the-profiling-of-lifestyle-associated-changes-in-health/</link>
       <pubDate>Thu, 19 Jan 2023 00:00:00 +0000</pubDate>
-      <guid>https://jaspershen.github.io/publication/multi-omics-microsampling-for-the-profiling-of-lifestyle-associated-changes-in-health/</guid>
+      <guid>https://jaspershenlab.com/publication/multi-omics-microsampling-for-the-profiling-of-lifestyle-associated-changes-in-health/</guid>
       <description></description>
     </item>
     
     <item>
       <title>How to update shen personal website</title>
-      <link>https://jaspershen.github.io/post/2022-10-23-shen-blog-instruction/</link>
+      <link>https://jaspershenlab.com/post/2022-10-23-shen-blog-instruction/</link>
       <pubDate>Sun, 23 Oct 2022 21:13:14 -0500</pubDate>
-      <guid>https://jaspershen.github.io/post/2022-10-23-shen-blog-instruction/</guid>
+      <guid>https://jaspershenlab.com/post/2022-10-23-shen-blog-instruction/</guid>
       <description>&lt;h1 id=&#34;the-menus-appearance&#34;&gt;The menus appearance&lt;/h1&gt;
 &lt;p&gt;The file is here: config/_default/menus.en.toml&lt;/p&gt;
 &lt;h1 id=&#34;the-theme-design&#34;&gt;The theme design&lt;/h1&gt;
@@ -572,163 +572,163 @@
     
     <item>
       <title>Deep learning-based pseudo-mass spectrometry imaging analysis for precision medicine</title>
-      <link>https://jaspershen.github.io/talks/2022-casms/</link>
+      <link>https://jaspershenlab.com/talks/2022-casms/</link>
       <pubDate>Thu, 20 Oct 2022 13:00:00 +0000</pubDate>
-      <guid>https://jaspershen.github.io/talks/2022-casms/</guid>
+      <guid>https://jaspershenlab.com/talks/2022-casms/</guid>
       <description></description>
     </item>
     
     <item>
       <title>Deep learning-based pseudo-mass spectrometry imaging analysis for precision medicine</title>
-      <link>https://jaspershen.github.io/talks/2022-shandong_university/</link>
+      <link>https://jaspershenlab.com/talks/2022-shandong_university/</link>
       <pubDate>Sun, 09 Oct 2022 13:00:00 +0000</pubDate>
-      <guid>https://jaspershen.github.io/talks/2022-shandong_university/</guid>
+      <guid>https://jaspershenlab.com/talks/2022-shandong_university/</guid>
       <description></description>
     </item>
     
     <item>
       <title>massDatabase utilities for the operation of the public compound and pathway database</title>
-      <link>https://jaspershen.github.io/publication/massdatabase-utilities-for-the-operation-of-the-public-compound-and-pathway-database/</link>
+      <link>https://jaspershenlab.com/publication/massdatabase-utilities-for-the-operation-of-the-public-compound-and-pathway-database/</link>
       <pubDate>Sat, 01 Oct 2022 00:00:00 +0000</pubDate>
-      <guid>https://jaspershen.github.io/publication/massdatabase-utilities-for-the-operation-of-the-public-compound-and-pathway-database/</guid>
+      <guid>https://jaspershenlab.com/publication/massdatabase-utilities-for-the-operation-of-the-public-compound-and-pathway-database/</guid>
       <description></description>
     </item>
     
     <item>
       <title>State-of-the-art methods for exposure-health studies: Results from the exposome data challenge event</title>
-      <link>https://jaspershen.github.io/publication/state-of-the-art-methods-for-exposure-health-studies-results-from-the-exposome-data-challenge-event/</link>
+      <link>https://jaspershenlab.com/publication/state-of-the-art-methods-for-exposure-health-studies-results-from-the-exposome-data-challenge-event/</link>
       <pubDate>Sat, 01 Oct 2022 00:00:00 +0000</pubDate>
-      <guid>https://jaspershen.github.io/publication/state-of-the-art-methods-for-exposure-health-studies-results-from-the-exposome-data-challenge-event/</guid>
+      <guid>https://jaspershenlab.com/publication/state-of-the-art-methods-for-exposure-health-studies-results-from-the-exposome-data-challenge-event/</guid>
       <description></description>
     </item>
     
     <item>
       <title>Deep learning-based pseudo-mass spectrometry imaging analysis for precision medicine</title>
-      <link>https://jaspershen.github.io/talks/2022-stanford-genetics-retreat/</link>
+      <link>https://jaspershenlab.com/talks/2022-stanford-genetics-retreat/</link>
       <pubDate>Wed, 14 Sep 2022 13:00:00 +0000</pubDate>
-      <guid>https://jaspershen.github.io/talks/2022-stanford-genetics-retreat/</guid>
+      <guid>https://jaspershenlab.com/talks/2022-stanford-genetics-retreat/</guid>
       <description></description>
     </item>
     
     <item>
       <title>Deep learning-based pseudo-mass spectrometry imaging analysis for precision medicine</title>
-      <link>https://jaspershen.github.io/talks/2022-bamm/</link>
+      <link>https://jaspershenlab.com/talks/2022-bamm/</link>
       <pubDate>Thu, 08 Sep 2022 13:00:00 +0000</pubDate>
-      <guid>https://jaspershen.github.io/talks/2022-bamm/</guid>
+      <guid>https://jaspershenlab.com/talks/2022-bamm/</guid>
       <description></description>
     </item>
     
     <item>
       <title>TidyMicrobiome</title>
-      <link>https://jaspershen.github.io/project/tidymicrobiome-project/</link>
+      <link>https://jaspershenlab.com/project/tidymicrobiome-project/</link>
       <pubDate>Sat, 27 Aug 2022 00:00:00 +0000</pubDate>
-      <guid>https://jaspershen.github.io/project/tidymicrobiome-project/</guid>
+      <guid>https://jaspershenlab.com/project/tidymicrobiome-project/</guid>
       <description>&lt;p&gt;&lt;code&gt;TidyMicrobiome&lt;/code&gt; project is a comprehensive computational framework that can process the whole workflow of data processing and analysis for microbiome data using tidyverse principles.&lt;/p&gt;
 </description>
     </item>
     
     <item>
       <title>Tidymass An Object-oriented Computational Framework for LC-MS Data Processing and Analysis</title>
-      <link>https://jaspershen.github.io/talks/2022-acs-fall/</link>
+      <link>https://jaspershenlab.com/talks/2022-acs-fall/</link>
       <pubDate>Mon, 22 Aug 2022 13:00:00 +0000</pubDate>
-      <guid>https://jaspershen.github.io/talks/2022-acs-fall/</guid>
+      <guid>https://jaspershenlab.com/talks/2022-acs-fall/</guid>
       <description></description>
     </item>
     
     <item>
       <title>Multiomic analysis reveals cell-type-specific molecular determinants of COVID-19 severity</title>
-      <link>https://jaspershen.github.io/publication/multiomic-analysis-reveals-cell-type-specific-molecular-determinants-of-covid-19-severity/</link>
+      <link>https://jaspershenlab.com/publication/multiomic-analysis-reveals-cell-type-specific-molecular-determinants-of-covid-19-severity/</link>
       <pubDate>Wed, 17 Aug 2022 00:00:00 +0000</pubDate>
-      <guid>https://jaspershen.github.io/publication/multiomic-analysis-reveals-cell-type-specific-molecular-determinants-of-covid-19-severity/</guid>
+      <guid>https://jaspershenlab.com/publication/multiomic-analysis-reveals-cell-type-specific-molecular-determinants-of-covid-19-severity/</guid>
       <description></description>
     </item>
     
     <item>
       <title>Deep learning-based pseudo-mass spectrometry imaging analysis for precision medicine</title>
-      <link>https://jaspershen.github.io/publication/deep-learning-based-pseudo-mass-spectrometry-imaging-analysis-for-precision-medicine/</link>
+      <link>https://jaspershenlab.com/publication/deep-learning-based-pseudo-mass-spectrometry-imaging-analysis-for-precision-medicine/</link>
       <pubDate>Wed, 10 Aug 2022 00:00:00 +0000</pubDate>
-      <guid>https://jaspershen.github.io/publication/deep-learning-based-pseudo-mass-spectrometry-imaging-analysis-for-precision-medicine/</guid>
+      <guid>https://jaspershenlab.com/publication/deep-learning-based-pseudo-mass-spectrometry-imaging-analysis-for-precision-medicine/</guid>
       <description></description>
     </item>
     
     <item>
       <title>TidyMass an object-oriented reproducible analysis framework for LC–MS data</title>
-      <link>https://jaspershen.github.io/publication/tidymass-an-object-oriented-reproducible-analysis-framework-for-lcms-data/</link>
+      <link>https://jaspershenlab.com/publication/tidymass-an-object-oriented-reproducible-analysis-framework-for-lcms-data/</link>
       <pubDate>Thu, 28 Jul 2022 00:00:00 +0000</pubDate>
-      <guid>https://jaspershen.github.io/publication/tidymass-an-object-oriented-reproducible-analysis-framework-for-lcms-data/</guid>
+      <guid>https://jaspershenlab.com/publication/tidymass-an-object-oriented-reproducible-analysis-framework-for-lcms-data/</guid>
       <description></description>
     </item>
     
     <item>
       <title>Longitudinal Urine Metabolic Profiling and Gestational Age Prediction in Pregnancy</title>
-      <link>https://jaspershen.github.io/publication/longitudinal-urine-metabolic-profiling-and-gestational-age-prediction-in-pregnancy/</link>
+      <link>https://jaspershenlab.com/publication/longitudinal-urine-metabolic-profiling-and-gestational-age-prediction-in-pregnancy/</link>
       <pubDate>Sun, 10 Jul 2022 00:00:00 +0000</pubDate>
-      <guid>https://jaspershen.github.io/publication/longitudinal-urine-metabolic-profiling-and-gestational-age-prediction-in-pregnancy/</guid>
+      <guid>https://jaspershenlab.com/publication/longitudinal-urine-metabolic-profiling-and-gestational-age-prediction-in-pregnancy/</guid>
       <description></description>
     </item>
     
     <item>
       <title>Tidymass An Object-oriented Computational Framework for LC-MS Data Processing and Analysis</title>
-      <link>https://jaspershen.github.io/talks/2022-asms/</link>
+      <link>https://jaspershenlab.com/talks/2022-asms/</link>
       <pubDate>Sun, 05 Jun 2022 13:00:00 +0000</pubDate>
-      <guid>https://jaspershen.github.io/talks/2022-asms/</guid>
+      <guid>https://jaspershenlab.com/talks/2022-asms/</guid>
       <description></description>
     </item>
     
     <item>
       <title>Precision environmental health monitoring by longitudinal exposome and multi-omics profiling</title>
-      <link>https://jaspershen.github.io/publication/precision-environmental-health-monitoring-by-longitudinal-exposome-and-multi-omics-profiling/</link>
+      <link>https://jaspershenlab.com/publication/precision-environmental-health-monitoring-by-longitudinal-exposome-and-multi-omics-profiling/</link>
       <pubDate>Wed, 01 Jun 2022 00:00:00 +0000</pubDate>
-      <guid>https://jaspershen.github.io/publication/precision-environmental-health-monitoring-by-longitudinal-exposome-and-multi-omics-profiling/</guid>
+      <guid>https://jaspershenlab.com/publication/precision-environmental-health-monitoring-by-longitudinal-exposome-and-multi-omics-profiling/</guid>
       <description></description>
     </item>
     
     <item>
       <title>Longitudinal interactions between levels of serum cytokine and the microbiome from four body sites</title>
-      <link>https://jaspershen.github.io/publication/longitudinal-interactions-between-levels-of-serum-cytokine-and-the-microbiome-from-four-body-sites/</link>
+      <link>https://jaspershenlab.com/publication/longitudinal-interactions-between-levels-of-serum-cytokine-and-the-microbiome-from-four-body-sites/</link>
       <pubDate>Sun, 01 May 2022 00:00:00 +0000</pubDate>
-      <guid>https://jaspershen.github.io/publication/longitudinal-interactions-between-levels-of-serum-cytokine-and-the-microbiome-from-four-body-sites/</guid>
+      <guid>https://jaspershenlab.com/publication/longitudinal-interactions-between-levels-of-serum-cytokine-and-the-microbiome-from-four-body-sites/</guid>
       <description></description>
     </item>
     
     <item>
       <title>Nature Communications</title>
-      <link>https://jaspershen.github.io/journal_referee/nature_communications/</link>
+      <link>https://jaspershenlab.com/journal_referee/nature_communications/</link>
       <pubDate>Thu, 20 Jan 2022 00:00:00 +0000</pubDate>
-      <guid>https://jaspershen.github.io/journal_referee/nature_communications/</guid>
+      <guid>https://jaspershenlab.com/journal_referee/nature_communications/</guid>
       <description></description>
     </item>
     
     <item>
       <title>metID: an R package for automatable compound annotation for LC− MS-based data</title>
-      <link>https://jaspershen.github.io/publication/metid-an-r-package-for-automatable-compound-annotation-for-lc-ms-based-data/</link>
+      <link>https://jaspershenlab.com/publication/metid-an-r-package-for-automatable-compound-annotation-for-lc-ms-based-data/</link>
       <pubDate>Sat, 15 Jan 2022 00:00:00 +0000</pubDate>
-      <guid>https://jaspershen.github.io/publication/metid-an-r-package-for-automatable-compound-annotation-for-lc-ms-based-data/</guid>
+      <guid>https://jaspershenlab.com/publication/metid-an-r-package-for-automatable-compound-annotation-for-lc-ms-based-data/</guid>
       <description></description>
     </item>
     
     <item>
       <title>metID A R package for Automatable Compound Annotation for LC−MS-based Data</title>
-      <link>https://jaspershen.github.io/talks/2021-asms/</link>
+      <link>https://jaspershenlab.com/talks/2021-asms/</link>
       <pubDate>Sun, 31 Oct 2021 13:00:00 +0000</pubDate>
-      <guid>https://jaspershen.github.io/talks/2021-asms/</guid>
+      <guid>https://jaspershenlab.com/talks/2021-asms/</guid>
       <description></description>
     </item>
     
     <item>
       <title>SCPA</title>
-      <link>https://jaspershen.github.io/project/scpa-project/</link>
+      <link>https://jaspershenlab.com/project/scpa-project/</link>
       <pubDate>Sun, 29 Aug 2021 00:00:00 +0000</pubDate>
-      <guid>https://jaspershen.github.io/project/scpa-project/</guid>
+      <guid>https://jaspershenlab.com/project/scpa-project/</guid>
       <description>&lt;p&gt;The Stanford Chinese Postdoc Association is a vibrant community of the Chinese postdocs, across all disciplines, at Stanford University. Our mission is to create and hold a space of all Chinese postdocs, and help them in study, work and life as much as we can. We welcome all the Chinese postdocs join us!&lt;/p&gt;
 </description>
     </item>
     
     <item>
       <title>RNA-seq原始数据处理</title>
-      <link>https://jaspershen.github.io/post/2021-06-30-rnaseq-raw-data-processing/</link>
+      <link>https://jaspershenlab.com/post/2021-06-30-rnaseq-raw-data-processing/</link>
       <pubDate>Wed, 30 Jun 2021 21:13:14 -0500</pubDate>
-      <guid>https://jaspershen.github.io/post/2021-06-30-rnaseq-raw-data-processing/</guid>
+      <guid>https://jaspershenlab.com/post/2021-06-30-rnaseq-raw-data-processing/</guid>
       <description>&lt;p&gt;颜色是数据可视化中非常重要的一个元素，它可以传达信息，引起注意，增强美感，甚至影响情绪。但是，如何选择合适的颜色方案呢？有没有一种科学的方法，可以帮助我们在众多的颜色中找到最佳的组合呢？&lt;/p&gt;
 &lt;h1 id=&#34;rna-seq原始数据&#34;&gt;RNA-seq原始数据&lt;/h1&gt;
 &lt;p&gt;参考:https://mp.weixin.qq.com/s?__biz=MzA4NDAzODkzMA==&amp;amp;mid=2651272899&amp;amp;idx=1&amp;amp;sn=6779b2bd21f3b607a08227d31c7212c6&amp;amp;chksm=841ed2beb3695ba8bee23563c28caa005447b2298785719964732b16cafe3a15d7d4937b95c1&amp;amp;scene=21#wechat_redirect&lt;/p&gt;
@@ -828,81 +828,81 @@
     
     <item>
       <title>Common and rare variant analyses combined with single-cell multiomics reveal cell-type-specific molecular mechanisms of COVID-19 severity</title>
-      <link>https://jaspershen.github.io/publication/common-and-rare-variant-analyses-combined-with-single-cell-multiomics-reveal-cell-type-specific-molecular-mechanisms-of-covid-19-severity/</link>
+      <link>https://jaspershenlab.com/publication/common-and-rare-variant-analyses-combined-with-single-cell-multiomics-reveal-cell-type-specific-molecular-mechanisms-of-covid-19-severity/</link>
       <pubDate>Mon, 21 Jun 2021 00:00:00 +0000</pubDate>
-      <guid>https://jaspershen.github.io/publication/common-and-rare-variant-analyses-combined-with-single-cell-multiomics-reveal-cell-type-specific-molecular-mechanisms-of-covid-19-severity/</guid>
+      <guid>https://jaspershenlab.com/publication/common-and-rare-variant-analyses-combined-with-single-cell-multiomics-reveal-cell-type-specific-molecular-mechanisms-of-covid-19-severity/</guid>
       <description></description>
     </item>
     
     <item>
       <title>Integration and comparison of multi-omics profiles of NGLY1 deficiency plasma and cellular models to identify clinically relevant molecular phenotypes</title>
-      <link>https://jaspershen.github.io/publication/integration-and-comparison-of-multi-omics-profiles-of-ngly1-deficiency-plasma-and-cellular-models-to-identify-clinically-relevant-molecular-phenotypes/</link>
+      <link>https://jaspershenlab.com/publication/integration-and-comparison-of-multi-omics-profiles-of-ngly1-deficiency-plasma-and-cellular-models-to-identify-clinically-relevant-molecular-phenotypes/</link>
       <pubDate>Fri, 28 May 2021 00:00:00 +0000</pubDate>
-      <guid>https://jaspershen.github.io/publication/integration-and-comparison-of-multi-omics-profiles-of-ngly1-deficiency-plasma-and-cellular-models-to-identify-clinically-relevant-molecular-phenotypes/</guid>
+      <guid>https://jaspershenlab.com/publication/integration-and-comparison-of-multi-omics-profiles-of-ngly1-deficiency-plasma-and-cellular-models-to-identify-clinically-relevant-molecular-phenotypes/</guid>
       <description></description>
     </item>
     
     <item>
       <title>A serum metabolomics analysis reveals a panel of screening metabolic biomarkers for esophageal squamous cell carcinoma</title>
-      <link>https://jaspershen.github.io/publication/a-serum-metabolomics-analysis-reveals-a-panel-of-screening-metabolic-biomarkers-for-esophageal-squamous-cell-carcinoma/</link>
+      <link>https://jaspershenlab.com/publication/a-serum-metabolomics-analysis-reveals-a-panel-of-screening-metabolic-biomarkers-for-esophageal-squamous-cell-carcinoma/</link>
       <pubDate>Thu, 06 May 2021 00:00:00 +0000</pubDate>
-      <guid>https://jaspershen.github.io/publication/a-serum-metabolomics-analysis-reveals-a-panel-of-screening-metabolic-biomarkers-for-esophageal-squamous-cell-carcinoma/</guid>
+      <guid>https://jaspershenlab.com/publication/a-serum-metabolomics-analysis-reveals-a-panel-of-screening-metabolic-biomarkers-for-esophageal-squamous-cell-carcinoma/</guid>
       <description></description>
     </item>
     
     <item>
       <title>Decoding links between the exposome and health outcomes by multi-omics analysis</title>
-      <link>https://jaspershen.github.io/talks/2021-exposome_data_challenge_event_xiaotao/</link>
+      <link>https://jaspershenlab.com/talks/2021-exposome_data_challenge_event_xiaotao/</link>
       <pubDate>Thu, 29 Apr 2021 13:00:00 +0000</pubDate>
-      <guid>https://jaspershen.github.io/talks/2021-exposome_data_challenge_event_xiaotao/</guid>
+      <guid>https://jaspershenlab.com/talks/2021-exposome_data_challenge_event_xiaotao/</guid>
       <description></description>
     </item>
     
     <item>
       <title>The mediation effect of serum metabolites on the relationship between long-term smoking exposure and esophageal squamous cell carcinoma</title>
-      <link>https://jaspershen.github.io/publication/the-mediation-effect-of-serum-metabolites-on-the-relationship-between-long-term-smoking-exposure-and-esophageal-squamous-cell-carcinoma/</link>
+      <link>https://jaspershenlab.com/publication/the-mediation-effect-of-serum-metabolites-on-the-relationship-between-long-term-smoking-exposure-and-esophageal-squamous-cell-carcinoma/</link>
       <pubDate>Thu, 15 Apr 2021 00:00:00 +0000</pubDate>
-      <guid>https://jaspershen.github.io/publication/the-mediation-effect-of-serum-metabolites-on-the-relationship-between-long-term-smoking-exposure-and-esophageal-squamous-cell-carcinoma/</guid>
+      <guid>https://jaspershenlab.com/publication/the-mediation-effect-of-serum-metabolites-on-the-relationship-between-long-term-smoking-exposure-and-esophageal-squamous-cell-carcinoma/</guid>
       <description></description>
     </item>
     
     <item>
       <title>Serum metabolomics analysis for the progression of esophageal squamous cell carcinoma</title>
-      <link>https://jaspershen.github.io/publication/serum-metabolomics-analysis-for-the-progression-of-esophageal-squamous-cell-carcinoma/</link>
+      <link>https://jaspershenlab.com/publication/serum-metabolomics-analysis-for-the-progression-of-esophageal-squamous-cell-carcinoma/</link>
       <pubDate>Fri, 02 Apr 2021 00:00:00 +0000</pubDate>
-      <guid>https://jaspershen.github.io/publication/serum-metabolomics-analysis-for-the-progression-of-esophageal-squamous-cell-carcinoma/</guid>
+      <guid>https://jaspershenlab.com/publication/serum-metabolomics-analysis-for-the-progression-of-esophageal-squamous-cell-carcinoma/</guid>
       <description></description>
     </item>
     
     <item>
       <title>Briefing in Bioinformatics</title>
-      <link>https://jaspershen.github.io/journal_referee/bib/</link>
+      <link>https://jaspershenlab.com/journal_referee/bib/</link>
       <pubDate>Wed, 30 Dec 2020 00:00:00 +0000</pubDate>
-      <guid>https://jaspershen.github.io/journal_referee/bib/</guid>
+      <guid>https://jaspershenlab.com/journal_referee/bib/</guid>
       <description></description>
     </item>
     
     <item>
       <title>Bioinformatics</title>
-      <link>https://jaspershen.github.io/journal_referee/bioinformatics/</link>
+      <link>https://jaspershenlab.com/journal_referee/bioinformatics/</link>
       <pubDate>Tue, 29 Dec 2020 00:00:00 +0000</pubDate>
-      <guid>https://jaspershen.github.io/journal_referee/bioinformatics/</guid>
+      <guid>https://jaspershenlab.com/journal_referee/bioinformatics/</guid>
       <description></description>
     </item>
     
     <item>
       <title>GigaScience</title>
-      <link>https://jaspershen.github.io/journal_referee/gigascience/</link>
+      <link>https://jaspershenlab.com/journal_referee/gigascience/</link>
       <pubDate>Mon, 28 Dec 2020 00:00:00 +0000</pubDate>
-      <guid>https://jaspershen.github.io/journal_referee/gigascience/</guid>
+      <guid>https://jaspershenlab.com/journal_referee/gigascience/</guid>
       <description></description>
     </item>
     
     <item>
       <title>Welcome to Wowchemy, the website builder for Hugo</title>
-      <link>https://jaspershen.github.io/post/getting-started/</link>
+      <link>https://jaspershenlab.com/post/getting-started/</link>
       <pubDate>Sun, 13 Dec 2020 00:00:00 +0000</pubDate>
-      <guid>https://jaspershen.github.io/post/getting-started/</guid>
+      <guid>https://jaspershenlab.com/post/getting-started/</guid>
       <description>&lt;div class=&#34;highlight&#34;&gt;&lt;pre tabindex=&#34;0&#34; class=&#34;chroma&#34;&gt;&lt;code class=&#34;language-python&#34; data-lang=&#34;python&#34;&gt;&lt;span class=&#34;line&#34;&gt;&lt;span class=&#34;cl&#34;&gt;&lt;span class=&#34;kn&#34;&gt;import&lt;/span&gt; &lt;span class=&#34;nn&#34;&gt;libr&lt;/span&gt;
 &lt;/span&gt;&lt;/span&gt;&lt;span class=&#34;line&#34;&gt;&lt;span class=&#34;cl&#34;&gt;&lt;span class=&#34;nb&#34;&gt;print&lt;/span&gt;&lt;span class=&#34;p&#34;&gt;(&lt;/span&gt;&lt;span class=&#34;s1&#34;&gt;&amp;#39;hello&amp;#39;&lt;/span&gt;&lt;span class=&#34;p&#34;&gt;)&lt;/span&gt;
 &lt;/span&gt;&lt;/span&gt;&lt;/code&gt;&lt;/pre&gt;&lt;/div&gt;&lt;h2 id=&#34;overview&#34;&gt;Overview&lt;/h2&gt;
@@ -980,119 +980,119 @@
     
     <item>
       <title>Metabolic dynamics and prediction of gestational age and time to delivery in pregnant women</title>
-      <link>https://jaspershen.github.io/publication/metabolic-dynamics-and-prediction-of-gestational-age-and-time-to-delivery-in-pregnant-women/</link>
+      <link>https://jaspershenlab.com/publication/metabolic-dynamics-and-prediction-of-gestational-age-and-time-to-delivery-in-pregnant-women/</link>
       <pubDate>Thu, 25 Jun 2020 00:00:00 +0000</pubDate>
-      <guid>https://jaspershen.github.io/publication/metabolic-dynamics-and-prediction-of-gestational-age-and-time-to-delivery-in-pregnant-women/</guid>
+      <guid>https://jaspershenlab.com/publication/metabolic-dynamics-and-prediction-of-gestational-age-and-time-to-delivery-in-pregnant-women/</guid>
       <description></description>
     </item>
     
     <item>
       <title>R cookbook</title>
-      <link>https://jaspershen.github.io/project/r_cookbook/</link>
+      <link>https://jaspershenlab.com/project/r_cookbook/</link>
       <pubDate>Sun, 22 Mar 2020 00:00:00 +0000</pubDate>
-      <guid>https://jaspershen.github.io/project/r_cookbook/</guid>
+      <guid>https://jaspershenlab.com/project/r_cookbook/</guid>
       <description>&lt;p&gt;This is myself note book for R study.&lt;/p&gt;
 </description>
     </item>
     
     <item>
       <title>MetNormalizer</title>
-      <link>https://jaspershen.github.io/project/metnormalizer-project/</link>
+      <link>https://jaspershenlab.com/project/metnormalizer-project/</link>
       <pubDate>Tue, 21 Jan 2020 00:00:00 +0000</pubDate>
-      <guid>https://jaspershen.github.io/project/metnormalizer-project/</guid>
+      <guid>https://jaspershenlab.com/project/metnormalizer-project/</guid>
       <description>&lt;p&gt;&lt;code&gt;MetNormalizer&lt;/code&gt; is used to normalize large scale metabolomics data.&lt;/p&gt;
 </description>
     </item>
     
     <item>
       <title>Communications Biology</title>
-      <link>https://jaspershen.github.io/journal_referee/communications_biology/</link>
+      <link>https://jaspershenlab.com/journal_referee/communications_biology/</link>
       <pubDate>Mon, 20 Jan 2020 00:00:00 +0000</pubDate>
-      <guid>https://jaspershen.github.io/journal_referee/communications_biology/</guid>
+      <guid>https://jaspershenlab.com/journal_referee/communications_biology/</guid>
       <description></description>
     </item>
     
     <item>
       <title>Communications Chemistry</title>
-      <link>https://jaspershen.github.io/journal_referee/communications_chemistry/</link>
+      <link>https://jaspershenlab.com/journal_referee/communications_chemistry/</link>
       <pubDate>Mon, 20 Jan 2020 00:00:00 +0000</pubDate>
-      <guid>https://jaspershen.github.io/journal_referee/communications_chemistry/</guid>
+      <guid>https://jaspershenlab.com/journal_referee/communications_chemistry/</guid>
       <description></description>
     </item>
     
     <item>
       <title>deepPseudoMSI</title>
-      <link>https://jaspershen.github.io/project/deeppseudomsi-project/</link>
+      <link>https://jaspershenlab.com/project/deeppseudomsi-project/</link>
       <pubDate>Mon, 20 Jan 2020 00:00:00 +0000</pubDate>
-      <guid>https://jaspershen.github.io/project/deeppseudomsi-project/</guid>
+      <guid>https://jaspershenlab.com/project/deeppseudomsi-project/</guid>
       <description>&lt;p&gt;The &lt;code&gt;deepPseudoMSI&lt;/code&gt; project is the first method that convert LC-MS raw data to “images” and then process them using deep learning method for diagnosis.&lt;/p&gt;
 </description>
     </item>
     
     <item>
       <title>Genomics, Proteomics&amp;Bioinformatics</title>
-      <link>https://jaspershen.github.io/journal_referee/genomics_proteomics_bioinformatics/</link>
+      <link>https://jaspershenlab.com/journal_referee/genomics_proteomics_bioinformatics/</link>
       <pubDate>Mon, 20 Jan 2020 00:00:00 +0000</pubDate>
-      <guid>https://jaspershen.github.io/journal_referee/genomics_proteomics_bioinformatics/</guid>
+      <guid>https://jaspershenlab.com/journal_referee/genomics_proteomics_bioinformatics/</guid>
       <description></description>
     </item>
     
     <item>
       <title>iMeta</title>
-      <link>https://jaspershen.github.io/journal_referee/imeta/</link>
+      <link>https://jaspershenlab.com/journal_referee/imeta/</link>
       <pubDate>Mon, 20 Jan 2020 00:00:00 +0000</pubDate>
-      <guid>https://jaspershen.github.io/journal_referee/imeta/</guid>
+      <guid>https://jaspershenlab.com/journal_referee/imeta/</guid>
       <description></description>
     </item>
     
     <item>
       <title>laggedCor</title>
-      <link>https://jaspershen.github.io/project/laggedcor-project/</link>
+      <link>https://jaspershenlab.com/project/laggedcor-project/</link>
       <pubDate>Mon, 20 Jan 2020 00:00:00 +0000</pubDate>
-      <guid>https://jaspershen.github.io/project/laggedcor-project/</guid>
+      <guid>https://jaspershenlab.com/project/laggedcor-project/</guid>
       <description>&lt;p&gt;&lt;code&gt;TidyMass&lt;/code&gt; project is a comprehensive computational framework that can process the whole workflow of data processing and analysis for LC-MS-based untargeted metabolomics using tidyverse principles.&lt;/p&gt;
 </description>
     </item>
     
     <item>
       <title>metID</title>
-      <link>https://jaspershen.github.io/project/metid-project/</link>
+      <link>https://jaspershenlab.com/project/metid-project/</link>
       <pubDate>Mon, 20 Jan 2020 00:00:00 +0000</pubDate>
-      <guid>https://jaspershen.github.io/project/metid-project/</guid>
+      <guid>https://jaspershenlab.com/project/metid-project/</guid>
       <description>&lt;p&gt;&lt;code&gt;metID&lt;/code&gt; is a R packge which is used for metabolite identification based on in-house database and public database based on accurate mass, retention time and/or MS2 spectra.&lt;/p&gt;
 </description>
     </item>
     
     <item>
       <title>Proteomics</title>
-      <link>https://jaspershen.github.io/journal_referee/proteomics/</link>
+      <link>https://jaspershenlab.com/journal_referee/proteomics/</link>
       <pubDate>Mon, 20 Jan 2020 00:00:00 +0000</pubDate>
-      <guid>https://jaspershen.github.io/journal_referee/proteomics/</guid>
+      <guid>https://jaspershenlab.com/journal_referee/proteomics/</guid>
       <description></description>
     </item>
     
     <item>
       <title>TidyMass</title>
-      <link>https://jaspershen.github.io/project/tidymass-project/</link>
+      <link>https://jaspershenlab.com/project/tidymass-project/</link>
       <pubDate>Mon, 20 Jan 2020 00:00:00 +0000</pubDate>
-      <guid>https://jaspershen.github.io/project/tidymass-project/</guid>
+      <guid>https://jaspershenlab.com/project/tidymass-project/</guid>
       <description>&lt;p&gt;&lt;code&gt;TidyMass&lt;/code&gt; project is a comprehensive computational framework that can process the whole workflow of data processing and analysis for LC-MS-based untargeted metabolomics using tidyverse principles.&lt;/p&gt;
 </description>
     </item>
     
     <item>
       <title>MetFlow: an interactive and integrated workflow for metabolomics data cleaning and differential metabolite discovery</title>
-      <link>https://jaspershen.github.io/publication/metflow-an-interactive-and-integrated-workflow-for-metabolomics-data-cleaning-and-differential-metabolite-discovery/</link>
+      <link>https://jaspershenlab.com/publication/metflow-an-interactive-and-integrated-workflow-for-metabolomics-data-cleaning-and-differential-metabolite-discovery/</link>
       <pubDate>Thu, 15 Aug 2019 00:00:00 +0000</pubDate>
-      <guid>https://jaspershen.github.io/publication/metflow-an-interactive-and-integrated-workflow-for-metabolomics-data-cleaning-and-differential-metabolite-discovery/</guid>
+      <guid>https://jaspershenlab.com/publication/metflow-an-interactive-and-integrated-workflow-for-metabolomics-data-cleaning-and-differential-metabolite-discovery/</guid>
       <description></description>
     </item>
     
     <item>
       <title>Writing technical content in Markdown</title>
-      <link>https://jaspershen.github.io/post/writing-technical-content/</link>
+      <link>https://jaspershenlab.com/post/writing-technical-content/</link>
       <pubDate>Fri, 12 Jul 2019 00:00:00 +0000</pubDate>
-      <guid>https://jaspershen.github.io/post/writing-technical-content/</guid>
+      <guid>https://jaspershenlab.com/post/writing-technical-content/</guid>
       <description>&lt;p&gt;Wowchemy is designed to give technical content creators a seamless experience. You can focus on the content and Wowchemy handles the rest.&lt;/p&gt;
 &lt;p&gt;&lt;strong&gt;Highlight your code snippets, take notes on math classes, and draw diagrams from textual representation.&lt;/strong&gt;&lt;/p&gt;
 &lt;p&gt;On this page, you&amp;rsquo;ll find some examples of the types of technical content that can be rendered with Wowchemy.&lt;/p&gt;
@@ -1192,7 +1192,7 @@ data.head()
 
 
 
-&lt;div id=&#34;chart-234518796&#34; class=&#34;chart&#34;&gt;&lt;/div&gt;
+&lt;div id=&#34;chart-521496738&#34; class=&#34;chart&#34;&gt;&lt;/div&gt;
 &lt;script&gt;
   (function() {
     let a = setInterval( function() {
@@ -1202,7 +1202,7 @@ data.head()
       clearInterval( a );
 
       Plotly.d3.json(&#34;./line-chart.json&#34;, function(chart) {
-        Plotly.plot(&#39;chart-234518796&#39;, chart.data, chart.layout, {responsive: true});
+        Plotly.plot(&#39;chart-521496738&#39;, chart.data, chart.layout, {responsive: true});
       });
     }, 500 );
   })();
@@ -1484,25 +1484,25 @@ Crash --&gt; [*]
     
     <item>
       <title>Metabolic reaction network-based recursive metabolite annotation for untargeted metabolomics</title>
-      <link>https://jaspershen.github.io/publication/metabolic-reaction-network-based-recursive-metabolite-annotation-for-untargeted-metabolomics/</link>
+      <link>https://jaspershenlab.com/publication/metabolic-reaction-network-based-recursive-metabolite-annotation-for-untargeted-metabolomics/</link>
       <pubDate>Wed, 03 Apr 2019 00:00:00 +0000</pubDate>
-      <guid>https://jaspershen.github.io/publication/metabolic-reaction-network-based-recursive-metabolite-annotation-for-untargeted-metabolomics/</guid>
+      <guid>https://jaspershenlab.com/publication/metabolic-reaction-network-based-recursive-metabolite-annotation-for-untargeted-metabolomics/</guid>
       <description></description>
     </item>
     
     <item>
       <title>LipidIMMS Analyzer integrating multi-dimensional information to support lipid identification in ion mobility—mass spectrometry based lipidomics</title>
-      <link>https://jaspershen.github.io/publication/lipidimms-analyzer-integrating-multi-dimensional-information-to-support-lipid-identification-in-ion-mobilitymass-spectrometry-based-lipidomics/</link>
+      <link>https://jaspershenlab.com/publication/lipidimms-analyzer-integrating-multi-dimensional-information-to-support-lipid-identification-in-ion-mobilitymass-spectrometry-based-lipidomics/</link>
       <pubDate>Fri, 15 Feb 2019 00:00:00 +0000</pubDate>
-      <guid>https://jaspershen.github.io/publication/lipidimms-analyzer-integrating-multi-dimensional-information-to-support-lipid-identification-in-ion-mobilitymass-spectrometry-based-lipidomics/</guid>
+      <guid>https://jaspershenlab.com/publication/lipidimms-analyzer-integrating-multi-dimensional-information-to-support-lipid-identification-in-ion-mobilitymass-spectrometry-based-lipidomics/</guid>
       <description></description>
     </item>
     
     <item>
       <title>Display Jupyter Notebooks with Academic</title>
-      <link>https://jaspershen.github.io/post/jupyter/</link>
+      <link>https://jaspershenlab.com/post/jupyter/</link>
       <pubDate>Tue, 05 Feb 2019 00:00:00 +0000</pubDate>
-      <guid>https://jaspershen.github.io/post/jupyter/</guid>
+      <guid>https://jaspershenlab.com/post/jupyter/</guid>
       <description>&lt;div class=&#34;highlight&#34;&gt;&lt;pre tabindex=&#34;0&#34; class=&#34;chroma&#34;&gt;&lt;code class=&#34;language-python&#34; data-lang=&#34;python&#34;&gt;&lt;span class=&#34;line&#34;&gt;&lt;span class=&#34;cl&#34;&gt;&lt;span class=&#34;kn&#34;&gt;from&lt;/span&gt; &lt;span class=&#34;nn&#34;&gt;IPython.core.display&lt;/span&gt; &lt;span class=&#34;kn&#34;&gt;import&lt;/span&gt; &lt;span class=&#34;n&#34;&gt;Image&lt;/span&gt;
 &lt;/span&gt;&lt;/span&gt;&lt;span class=&#34;line&#34;&gt;&lt;span class=&#34;cl&#34;&gt;&lt;span class=&#34;n&#34;&gt;Image&lt;/span&gt;&lt;span class=&#34;p&#34;&gt;(&lt;/span&gt;&lt;span class=&#34;s1&#34;&gt;&amp;#39;https://www.python.org/static/community_logos/python-logo-master-v3-TM-flattened.png&amp;#39;&lt;/span&gt;&lt;span class=&#34;p&#34;&gt;)&lt;/span&gt;
 &lt;/span&gt;&lt;/span&gt;&lt;/code&gt;&lt;/pre&gt;&lt;/div&gt;&lt;p&gt;
@@ -1559,9 +1559,9 @@ Crash --&gt; [*]
     
     <item>
       <title>Slides</title>
-      <link>https://jaspershen.github.io/slides/example/</link>
+      <link>https://jaspershenlab.com/slides/example/</link>
       <pubDate>Tue, 05 Feb 2019 00:00:00 +0000</pubDate>
-      <guid>https://jaspershen.github.io/slides/example/</guid>
+      <guid>https://jaspershenlab.com/slides/example/</guid>
       <description>&lt;h1 id=&#34;create-slides-in-markdown-with-wowchemy&#34;&gt;Create slides in Markdown with Wowchemy&lt;/h1&gt;
 &lt;p&gt;&lt;a href=&#34;https://wowchemy.com/&#34; target=&#34;_blank&#34; rel=&#34;noopener&#34;&gt;Wowchemy&lt;/a&gt; | &lt;a href=&#34;https://wowchemy.com/docs/content/slides/&#34; target=&#34;_blank&#34; rel=&#34;noopener&#34;&gt;Documentation&lt;/a&gt;&lt;/p&gt;
 &lt;hr&gt;
@@ -1684,50 +1684,50 @@ $$&lt;/p&gt;
     
     <item>
       <title>Development of a correlative strategy to discover colorectal tumor tissue derived metabolite biomarkers in plasma using untargeted metabolomics</title>
-      <link>https://jaspershen.github.io/publication/development-of-a-correlative-strategy-to-discover-colorectal-tumor-tissue-derived-metabolite-biomarkers-in-plasma-using-untargeted-metabolomics/</link>
+      <link>https://jaspershenlab.com/publication/development-of-a-correlative-strategy-to-discover-colorectal-tumor-tissue-derived-metabolite-biomarkers-in-plasma-using-untargeted-metabolomics/</link>
       <pubDate>Sun, 23 Dec 2018 00:00:00 +0000</pubDate>
-      <guid>https://jaspershen.github.io/publication/development-of-a-correlative-strategy-to-discover-colorectal-tumor-tissue-derived-metabolite-biomarkers-in-plasma-using-untargeted-metabolomics/</guid>
+      <guid>https://jaspershenlab.com/publication/development-of-a-correlative-strategy-to-discover-colorectal-tumor-tissue-derived-metabolite-biomarkers-in-plasma-using-untargeted-metabolomics/</guid>
       <description></description>
     </item>
     
     <item>
       <title>Predicting the pathological response to neoadjuvant chemoradiation using untargeted metabolomics in locally advanced rectal cancer</title>
-      <link>https://jaspershen.github.io/publication/predicting-the-pathological-response-to-neoadjuvant-chemoradiation-using-untargeted-metabolomics-in-locally-advanced-rectal-cancer/</link>
+      <link>https://jaspershenlab.com/publication/predicting-the-pathological-response-to-neoadjuvant-chemoradiation-using-untargeted-metabolomics-in-locally-advanced-rectal-cancer/</link>
       <pubDate>Sat, 01 Sep 2018 00:00:00 +0000</pubDate>
-      <guid>https://jaspershen.github.io/publication/predicting-the-pathological-response-to-neoadjuvant-chemoradiation-using-untargeted-metabolomics-in-locally-advanced-rectal-cancer/</guid>
+      <guid>https://jaspershenlab.com/publication/predicting-the-pathological-response-to-neoadjuvant-chemoradiation-using-untargeted-metabolomics-in-locally-advanced-rectal-cancer/</guid>
       <description></description>
     </item>
     
     <item>
       <title>Privacy Policy</title>
-      <link>https://jaspershen.github.io/privacy/</link>
+      <link>https://jaspershenlab.com/privacy/</link>
       <pubDate>Thu, 28 Jun 2018 00:00:00 +0100</pubDate>
-      <guid>https://jaspershen.github.io/privacy/</guid>
+      <guid>https://jaspershenlab.com/privacy/</guid>
       <description>&lt;p&gt;Download my website from my github and use it to construct your own website!&lt;/p&gt;
 </description>
     </item>
     
     <item>
       <title>Metabolic Reaction Network-based Recursive Metabolite Identification for Untargeted Metabolomics</title>
-      <link>https://jaspershen.github.io/talks/2018-metabolomics-conference/</link>
+      <link>https://jaspershenlab.com/talks/2018-metabolomics-conference/</link>
       <pubDate>Sun, 24 Jun 2018 13:00:00 +0000</pubDate>
-      <guid>https://jaspershen.github.io/talks/2018-metabolomics-conference/</guid>
+      <guid>https://jaspershenlab.com/talks/2018-metabolomics-conference/</guid>
       <description></description>
     </item>
     
     <item>
       <title>LipidCCS prediction of collision cross-section values for lipids with high precision to support ion mobility–mass spectrometry-based lipidomics</title>
-      <link>https://jaspershen.github.io/publication/lipidccs-prediction-of-collision-cross-section-values-for-lipids-with-high-precision-to-support-ion-mobilitymass-spectrometry-based-lipidomics/</link>
+      <link>https://jaspershenlab.com/publication/lipidccs-prediction-of-collision-cross-section-values-for-lipids-with-high-precision-to-support-ion-mobilitymass-spectrometry-based-lipidomics/</link>
       <pubDate>Tue, 05 Sep 2017 00:00:00 +0000</pubDate>
-      <guid>https://jaspershen.github.io/publication/lipidccs-prediction-of-collision-cross-section-values-for-lipids-with-high-precision-to-support-ion-mobilitymass-spectrometry-based-lipidomics/</guid>
+      <guid>https://jaspershenlab.com/publication/lipidccs-prediction-of-collision-cross-section-values-for-lipids-with-high-precision-to-support-ion-mobilitymass-spectrometry-based-lipidomics/</guid>
       <description></description>
     </item>
     
     <item>
       <title>Example Talk</title>
-      <link>https://jaspershen.github.io/talks/example/</link>
+      <link>https://jaspershenlab.com/talks/example/</link>
       <pubDate>Sun, 01 Jan 2017 13:00:00 +0000</pubDate>
-      <guid>https://jaspershen.github.io/talks/example/</guid>
+      <guid>https://jaspershenlab.com/talks/example/</guid>
       <description>&lt;div class=&#34;alert alert-note&#34;&gt;
   &lt;div&gt;
     Click on the &lt;strong&gt;Slides&lt;/strong&gt; button above to view the built-in slides feature.
@@ -1745,59 +1745,59 @@ $$&lt;/p&gt;
     
     <item>
       <title>Large-Scale Prediction of Collision Cross-Section Values for Metabolites in Ion Mobility-Mass Spectrometry</title>
-      <link>https://jaspershen.github.io/publication/large-scale-prediction-of-collision-cross-section-values-for-metabolites-in-ion-mobility-mass-spectrometry/</link>
+      <link>https://jaspershenlab.com/publication/large-scale-prediction-of-collision-cross-section-values-for-metabolites-in-ion-mobility-mass-spectrometry/</link>
       <pubDate>Fri, 21 Oct 2016 00:00:00 +0000</pubDate>
-      <guid>https://jaspershen.github.io/publication/large-scale-prediction-of-collision-cross-section-values-for-metabolites-in-ion-mobility-mass-spectrometry/</guid>
+      <guid>https://jaspershenlab.com/publication/large-scale-prediction-of-collision-cross-section-values-for-metabolites-in-ion-mobility-mass-spectrometry/</guid>
       <description></description>
     </item>
     
     <item>
       <title>Normalization and Integration of Large-Scale Mass Spectrometry-based Metabolomics Data Using Support Vector Regression</title>
-      <link>https://jaspershen.github.io/talks/2016-asms/</link>
+      <link>https://jaspershenlab.com/talks/2016-asms/</link>
       <pubDate>Fri, 22 Jul 2016 13:00:00 +0000</pubDate>
-      <guid>https://jaspershen.github.io/talks/2016-asms/</guid>
+      <guid>https://jaspershenlab.com/talks/2016-asms/</guid>
       <description></description>
     </item>
     
     <item>
       <title>Serum metabolomics for early diagnosis of esophageal squamous cell carcinoma by UHPLC-QTOF/MS</title>
-      <link>https://jaspershen.github.io/publication/serum-metabolomics-for-early-diagnosis-of-esophageal-squamous-cell-carcinoma-by-uhplc-qtof/</link>
+      <link>https://jaspershenlab.com/publication/serum-metabolomics-for-early-diagnosis-of-esophageal-squamous-cell-carcinoma-by-uhplc-qtof/</link>
       <pubDate>Thu, 23 Jun 2016 00:00:00 +0000</pubDate>
-      <guid>https://jaspershen.github.io/publication/serum-metabolomics-for-early-diagnosis-of-esophageal-squamous-cell-carcinoma-by-uhplc-qtof/</guid>
+      <guid>https://jaspershenlab.com/publication/serum-metabolomics-for-early-diagnosis-of-esophageal-squamous-cell-carcinoma-by-uhplc-qtof/</guid>
       <description></description>
     </item>
     
     <item>
       <title>MetDNA</title>
-      <link>https://jaspershen.github.io/project/metdna-project/</link>
+      <link>https://jaspershenlab.com/project/metdna-project/</link>
       <pubDate>Wed, 27 Apr 2016 00:00:00 +0000</pubDate>
-      <guid>https://jaspershen.github.io/project/metdna-project/</guid>
+      <guid>https://jaspershenlab.com/project/metdna-project/</guid>
       <description>&lt;p&gt;MetDNA characterizes initial seed metabolites using a small tandem spectral library, and utilize their experimental MS2 spectra as surrogate spectra to annotate their reaction-paired neighbor metabolites which are subsequently served as the basis for recursive analysis.&lt;/p&gt;
 </description>
     </item>
     
     <item>
       <title>MetFlow</title>
-      <link>https://jaspershen.github.io/project/metflow-project/</link>
+      <link>https://jaspershenlab.com/project/metflow-project/</link>
       <pubDate>Wed, 27 Apr 2016 00:00:00 +0000</pubDate>
-      <guid>https://jaspershen.github.io/project/metflow-project/</guid>
+      <guid>https://jaspershenlab.com/project/metflow-project/</guid>
       <description>&lt;p&gt;We developed an interactive web server, namely, MetFlow, to provide an integrated and comprehensive workflow for metabolomics data cleaning and differential metabolite discovery.&lt;/p&gt;
 </description>
     </item>
     
     <item>
       <title>Normalization and integration of large-scale metabolomics data using support vector regression</title>
-      <link>https://jaspershen.github.io/publication/normalization-and-integration-of-large-scale-metabolomics-data-using-support-vector-regression/</link>
+      <link>https://jaspershenlab.com/publication/normalization-and-integration-of-large-scale-metabolomics-data-using-support-vector-regression/</link>
       <pubDate>Sat, 26 Mar 2016 00:00:00 +0000</pubDate>
-      <guid>https://jaspershen.github.io/publication/normalization-and-integration-of-large-scale-metabolomics-data-using-support-vector-regression/</guid>
+      <guid>https://jaspershenlab.com/publication/normalization-and-integration-of-large-scale-metabolomics-data-using-support-vector-regression/</guid>
       <description></description>
     </item>
     
     <item>
       <title></title>
-      <link>https://jaspershen.github.io/admin/config.yml</link>
+      <link>https://jaspershenlab.com/admin/config.yml</link>
       <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
-      <guid>https://jaspershen.github.io/admin/config.yml</guid>
+      <guid>https://jaspershenlab.com/admin/config.yml</guid>
       <description></description>
     </item>
     
