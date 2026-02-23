@@ -97,23 +97,24 @@ sections:
   id: about
 
 - block: features
+  id: scholar-stats
   content:
     title: "📚 Statistics"
     subtitle: ""
-    text: Data from [Google Scholar](https://scholar.google.com/citations?hl=en&user=3TK9yz8AAAAJ) (04/02/2025)
+    text: Data from [Google Scholar](https://scholar.google.com/citations?hl=en&user=3TK9yz8AAAAJ) (02/23/2026)
     items:
     - description: Publications
       icon: newspaper
       icon_pack: fas
-      name: 23
+      name: 62
     - description: Citations
       icon: open-data
       icon_pack: ai
-      name: 2,211
+      name: 3,266
     - description: H-index
       icon: google-scholar
       icon_pack: ai
-      name: 20
+      name: 23
   design:
     columns: "2"
   
@@ -494,7 +495,7 @@ sections:
     title: 🏅 AWARDS
   id: awards
   design:
-    columns: "2"
+    columns: "1"
     background:
       image: 
         filename: messi.png

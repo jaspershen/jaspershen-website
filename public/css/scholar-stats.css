@@ -1,0 +1,118 @@
+.wg-features .featurette .col-12.col-sm-4.gs-stat-card {
+  margin-top: 1rem;
+}
+
+.wg-features .featurette-icon.gs-chart-host {
+  width: 100%;
+  height: auto;
+  margin-bottom: 0.5rem;
+  line-height: 1;
+}
+
+.wg-features .featurette-icon.gs-chart-host i {
+  display: none;
+}
+
+.wg-features .gs-mini-chart {
+  width: 100%;
+  margin: 0 auto;
+  display: block;
+}
+
+.wg-features .gs-mini-chart.gs-mini-chart-single {
+  max-width: 330px;
+  height: 255px;
+}
+
+.wg-features .gs-mini-chart.gs-mini-chart-yearly {
+  max-width: 100%;
+  height: 285px;
+}
+
+.wg-features .gs-mini-chart svg {
+  width: 100%;
+  height: 100%;
+  display: block;
+  overflow: visible;
+}
+
+.wg-features .gs-axis,
+.wg-features .gs-grid {
+  stroke: rgba(0, 0, 0, 0.16);
+  stroke-width: 1;
+}
+
+.dark .wg-features .gs-axis,
+.dark .wg-features .gs-grid {
+  stroke: rgba(255, 255, 255, 0.22);
+}
+
+.wg-features .gs-bar {
+  fill: #0b8a56;
+}
+
+.wg-features .gs-bar.gs-bar-interactive {
+  cursor: pointer;
+  transition: transform 160ms ease, filter 160ms ease, opacity 160ms ease;
+  transform-box: fill-box;
+  transform-origin: center bottom;
+}
+
+.wg-features .gs-bar.gs-bar-interactive.is-hovered {
+  transform: scale(1.18, 1.08);
+  filter: brightness(1.08) saturate(1.05);
+}
+
+.wg-features .gs-bar.gs-bar-muted {
+  fill: rgba(11, 138, 86, 0.22);
+}
+
+.wg-features .gs-label {
+  fill: currentColor;
+  opacity: 0.75;
+  font-size: 8px;
+  font-family: system-ui, -apple-system, BlinkMacSystemFont, "Segoe UI", sans-serif;
+}
+
+.wg-features .gs-stat-number {
+  min-height: 1.6em;
+  font-size: 2.4rem;
+}
+
+.gs-chart-tooltip {
+  position: fixed;
+  z-index: 9999;
+  pointer-events: none;
+  background: rgba(20, 24, 28, 0.92);
+  color: #fff;
+  border-radius: 8px;
+  padding: 6px 10px;
+  font-size: 12px;
+  line-height: 1.1;
+  white-space: nowrap;
+  box-shadow: 0 8px 20px rgba(0, 0, 0, 0.18);
+  opacity: 0;
+  transform: translateY(-2px);
+  transition: opacity 120ms ease, transform 120ms ease;
+}
+
+.gs-chart-tooltip.is-visible {
+  opacity: 1;
+  transform: translateY(0);
+}
+
+@media (max-width: 575.98px) {
+  .wg-features .gs-mini-chart.gs-mini-chart-single {
+    max-width: 280px;
+    height: 210px;
+  }
+
+  .wg-features .gs-mini-chart.gs-mini-chart-yearly {
+    max-width: 100%;
+    height: 220px;
+  }
+
+  .wg-features .gs-stat-number {
+    font-size: 2rem;
+  }
+}

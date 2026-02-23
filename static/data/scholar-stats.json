@@ -1,0 +1,51 @@
+{
+  "source": "Google Scholar",
+  "profile_id": "3TK9yz8AAAAJ",
+  "updated": "2026-02-23",
+  "updated_label": "02/23/2026",
+  "publications": 62,
+  "citations": 3266,
+  "h_index": 23,
+  "citations_by_year": [
+    {
+      "year": 2017,
+      "citations": 32
+    },
+    {
+      "year": 2018,
+      "citations": 68
+    },
+    {
+      "year": 2019,
+      "citations": 113
+    },
+    {
+      "year": 2020,
+      "citations": 153
+    },
+    {
+      "year": 2021,
+      "citations": 262
+    },
+    {
+      "year": 2022,
+      "citations": 313
+    },
+    {
+      "year": 2023,
+      "citations": 405
+    },
+    {
+      "year": 2024,
+      "citations": 650
+    },
+    {
+      "year": 2025,
+      "citations": 1074
+    },
+    {
+      "year": 2026,
+      "citations": 172
+    }
+  ]
+}

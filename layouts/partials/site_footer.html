@@ -52,6 +52,10 @@
     {{ errorf "Check your `params.yaml`. Cannot find footer block at `layouts/partials/%s`" $footer_section_path }}
   {{ end }}
   {{ partial $footer_section_path . }}
-  
-  
+  {{ if .IsHome }}
+  <link rel="stylesheet" href="{{ "css/scholar-stats.css" | relURL }}">
+  <link rel="stylesheet" href="{{ "css/awards-grid.css" | relURL }}">
+  <script src="{{ "js/scholar-stats.js" | relURL }}" defer></script>
+  {{ end }}
+
 </footer>

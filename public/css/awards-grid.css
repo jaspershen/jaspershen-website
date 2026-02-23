@@ -1,0 +1,65 @@
+/* Awards grid cards */
+#awards .row {
+  align-items: flex-start;
+}
+
+#awards .section-heading.col-12.col-lg-4,
+#awards .col-12.col-lg-8 {
+  flex: 0 0 100%;
+  max-width: 100%;
+}
+
+#awards .section-heading.col-12.col-lg-4 {
+  margin-bottom: 1rem !important;
+}
+
+#awards .col-12.col-lg-8 {
+  padding-top: 0.25rem;
+}
+
+#awards .awards-card-grid {
+  display: grid !important;
+  grid-template-columns: repeat(3, minmax(0, 1fr));
+  gap: 1rem;
+  align-items: stretch;
+}
+
+#awards .awards-card-grid > .card.experience.course {
+  margin: 0;
+  transition: transform 180ms ease, box-shadow 180ms ease;
+  transform-origin: center center;
+  height: 100%;
+}
+
+#awards .awards-card-grid > .card.experience.course:hover {
+  transform: scale(1.04);
+  box-shadow: 0 16px 32px rgba(0, 0, 0, 0.22);
+  z-index: 2;
+}
+
+#awards .awards-card-grid > .card.experience.course .card-body {
+  min-height: 165px;
+}
+
+#awards .awards-card-grid > .card.experience.course .card-text {
+  font-size: 0.95rem;
+  line-height: 1.35;
+}
+
+@media (min-width: 1400px) {
+  #awards .awards-card-grid {
+    grid-template-columns: repeat(4, minmax(0, 1fr));
+  }
+}
+
+@media (max-width: 991.98px) {
+  #awards .awards-card-grid {
+    grid-template-columns: repeat(2, minmax(0, 1fr));
+  }
+}
+
+@media (max-width: 575.98px) {
+  #awards .awards-card-grid {
+    grid-template-columns: 1fr;
+  }
+}
