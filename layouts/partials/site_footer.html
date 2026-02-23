@@ -53,9 +53,10 @@
   {{ end }}
   {{ partial $footer_section_path . }}
   {{ if .IsHome }}
-  <link rel="stylesheet" href="{{ "css/scholar-stats.css" | relURL }}">
-  <link rel="stylesheet" href="{{ "css/awards-grid.css" | relURL }}">
-  <script src="{{ "js/scholar-stats.js" | relURL }}" defer></script>
+  <link rel="stylesheet" href="{{ "css/scholar-stats.css?v=20260223-6" | relURL }}">
+  <link rel="stylesheet" href="{{ "css/awards-grid.css?v=20260223-6" | relURL }}">
+  <link rel="stylesheet" href="{{ "css/journal-referee-grid.css?v=20260223-6" | relURL }}">
+  <script src="{{ "js/scholar-stats.js?v=20260223-6" | relURL }}" defer></script>
   {{ end }}
 
 </footer>

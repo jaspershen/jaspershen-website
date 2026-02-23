@@ -508,16 +508,20 @@
     var awardsSection = document.getElementById("awards");
     if (!awardsSection) return;
 
-    var listCol = awardsSection.querySelector(".col-12.col-lg-8");
-    if (!listCol) return;
-
-    var cards = Array.prototype.slice.call(listCol.querySelectorAll(":scope > .card.experience.course"));
-    if (!cards.length) {
-      cards = Array.prototype.slice.call(listCol.querySelectorAll(".card.experience.course"));
-    }
+    var cards = Array.prototype.slice.call(awardsSection.querySelectorAll(".card.experience.course"));
     if (!cards.length) return;
 
-    var grid = listCol.querySelector(":scope > .awards-card-grid");
+    var listCol = cards[0].parentElement;
+    if (!listCol) return;
+
+    var directChildren = Array.prototype.slice.call(listCol.children || []);
+
+    var grid = null;
+    directChildren.forEach(function (el) {
+      if (el.classList && el.classList.contains("awards-card-grid")) {
+        grid = el;
+      }
+    });
     if (!grid) {
       grid = document.createElement("div");
       grid.className = "awards-card-grid";
@@ -528,6 +532,122 @@
       if (card.parentElement !== grid) {
         grid.appendChild(card);
       }
+      card.style.margin = "0";
+    });
+
+    // Apply layout inline as a fallback in case custom CSS is cached or overridden.
+    function applyAwardsGridLayout() {
+      var w = window.innerWidth || document.documentElement.clientWidth || 1200;
+      var cols = 3;
+      if (w >= 1400) cols = 4;
+      else if (w < 576) cols = 1;
+      else if (w < 992) cols = 2;
+
+      grid.style.setProperty("display", "grid", "important");
+      grid.style.setProperty("grid-template-columns", "repeat(" + cols + ", minmax(0, 1fr))", "important");
+      grid.style.setProperty("gap", "1rem", "important");
+      grid.style.setProperty("align-items", "stretch", "important");
+
+      cards.forEach(function (card) {
+        card.style.setProperty("margin", "0", "important");
+        card.style.setProperty("width", "auto", "important");
+        card.style.setProperty("max-width", "none", "important");
+        card.style.setProperty("min-width", "0", "important");
+        card.style.setProperty("display", "block", "important");
+      });
+    }
+
+    applyAwardsGridLayout();
+
+    if (!grid.dataset.resizeBound) {
+      window.addEventListener("resize", applyAwardsGridLayout);
+      grid.dataset.resizeBound = "true";
+    }
+  }
+
+  function initJournalRefereeCoverCards() {
+    var section = document.getElementById("journal_referee");
+    if (!section) return;
+
+    var listItems = Array.prototype.slice.call(section.querySelectorAll(".view-list.view-list-item"));
+    if (!listItems.length) return;
+
+    var listCol = listItems[0].parentElement;
+    if (!listCol) return;
+
+    var grid = listCol.querySelector(".journal-ref-card-grid");
+    if (!grid) {
+      grid = document.createElement("div");
+      grid.className = "journal-ref-card-grid";
+      var seeAll = listCol.querySelector(":scope > .see-all") || listCol.querySelector(".see-all");
+      if (seeAll && seeAll.parentElement === listCol) {
+        listCol.insertBefore(grid, seeAll);
+      } else {
+        listCol.appendChild(grid);
+      }
+    }
+
+    listItems.forEach(function (item) {
+      item.classList.add("jr-source-hidden");
+
+      var pageLink = item.querySelector('a[href^="/journal_referee/"]');
+      if (!pageLink) return;
+
+      var internalHref = pageLink.getAttribute("href");
+      var title = (pageLink.textContent || "").trim();
+      if (!internalHref || !title) return;
+
+      var cardId = "jr-card-" + title.toLowerCase().replace(/[^a-z0-9]+/g, "-").replace(/^-|-$/g, "");
+      if (grid.querySelector('[data-card-id="' + cardId + '"]')) return;
+
+      var externalLink = item.querySelector(".btn-links a[href]");
+      var coverUrl = internalHref.replace(/\/?$/, "/") + "featured.png";
+
+      var card = document.createElement("article");
+      card.className = "jr-card";
+      card.setAttribute("data-card-id", cardId);
+
+      var main = document.createElement("a");
+      main.className = "jr-card-main";
+      main.href = internalHref;
+      main.setAttribute("aria-label", title);
+
+      var media = document.createElement("div");
+      media.className = "jr-card-media";
+
+      var img = document.createElement("img");
+      img.src = coverUrl;
+      img.alt = title + " cover";
+      img.loading = "lazy";
+      img.decoding = "async";
+      img.addEventListener("error", function () {
+        img.style.display = "none";
+      });
+      media.appendChild(img);
+
+      var footer = document.createElement("div");
+      footer.className = "jr-card-footer";
+      var titleEl = document.createElement("div");
+      titleEl.className = "jr-card-title";
+      titleEl.textContent = title;
+      footer.appendChild(titleEl);
+
+      main.appendChild(media);
+      main.appendChild(footer);
+      card.appendChild(main);
+
+      if (externalLink) {
+        var ext = document.createElement("a");
+        ext.className = "jr-card-ext";
+        ext.href = externalLink.getAttribute("href");
+        ext.target = "_blank";
+        ext.rel = "noopener";
+        ext.setAttribute("aria-label", "Open " + title + " website");
+        ext.textContent = "↗";
+        card.appendChild(ext);
+      }
+
+      grid.appendChild(card);
     });
   }
 
@@ -535,9 +655,11 @@
     document.addEventListener("DOMContentLoaded", function () {
       initScholarStats();
       initAwardsGridCards();
+      initJournalRefereeCoverCards();
     });
   } else {
     initScholarStats();
     initAwardsGridCards();
+    initJournalRefereeCoverCards();
   }
 })();

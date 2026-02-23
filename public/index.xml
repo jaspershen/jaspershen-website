@@ -13,6 +13,46 @@
     </image>
     
     <item>
+      <title>Cell Metabolism</title>
+      <link>/journal_referee/cell_metabolism/</link>
+      <pubDate>Mon, 23 Feb 2026 00:00:00 +0000</pubDate>
+      <guid>/journal_referee/cell_metabolism/</guid>
+      <description></description>
+    </item>
+    
+    <item>
+      <title>Cell Systems</title>
+      <link>/journal_referee/cell_systems/</link>
+      <pubDate>Mon, 23 Feb 2026 00:00:00 +0000</pubDate>
+      <guid>/journal_referee/cell_systems/</guid>
+      <description></description>
+    </item>
+    
+    <item>
+      <title>Nature Aging</title>
+      <link>/journal_referee/nature_aging/</link>
+      <pubDate>Mon, 23 Feb 2026 00:00:00 +0000</pubDate>
+      <guid>/journal_referee/nature_aging/</guid>
+      <description></description>
+    </item>
+    
+    <item>
+      <title>Nature Genetics</title>
+      <link>/journal_referee/nature_genetics/</link>
+      <pubDate>Mon, 23 Feb 2026 00:00:00 +0000</pubDate>
+      <guid>/journal_referee/nature_genetics/</guid>
+      <description></description>
+    </item>
+    
+    <item>
+      <title>Nature Methods</title>
+      <link>/journal_referee/nature_methods/</link>
+      <pubDate>Mon, 23 Feb 2026 00:00:00 +0000</pubDate>
+      <guid>/journal_referee/nature_methods/</guid>
+      <description></description>
+    </item>
+    
+    <item>
       <title>Generalized reporter score-based enrichment analysis for omics data</title>
       <link>/publication/generalized-reporter-score-based-enrichment-analysis-for-omics-data/</link>
       <pubDate>Mon, 08 Apr 2024 00:00:00 +0000</pubDate>
@@ -1192,7 +1232,7 @@ data.head()
 
 
 
-&lt;div id=&#34;chart-624715398&#34; class=&#34;chart&#34;&gt;&lt;/div&gt;
+&lt;div id=&#34;chart-587936142&#34; class=&#34;chart&#34;&gt;&lt;/div&gt;
 &lt;script&gt;
   (function() {
     let a = setInterval( function() {
@@ -1202,7 +1242,7 @@ data.head()
       clearInterval( a );
 
       Plotly.d3.json(&#34;./line-chart.json&#34;, function(chart) {
-        Plotly.plot(&#39;chart-624715398&#39;, chart.data, chart.layout, {responsive: true});
+        Plotly.plot(&#39;chart-587936142&#39;, chart.data, chart.layout, {responsive: true});
       });
     }, 500 );
   })();

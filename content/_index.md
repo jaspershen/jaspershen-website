@@ -135,11 +135,6 @@ sections:
       company_url: "https://www.kkh.com.sg/"
       date_end: ""
       date_start: "2024-10-01"
-      description: |-
-        
-        🧪 Research:
-        * Human pregnancy and pregnancy-related diseases
-      
       location: Singapore 🇸🇬
       title: Adjunct Principal Investigator
     - company: Nanyang Technological University Singapore
@@ -147,15 +142,6 @@ sections:
       company_url: "https://www.ntu.edu.sg/medicine"
       date_end: ""
       date_start: "2024-05-02"
-      description: |-
-        
-        🧪 Research:
-        * Host and microbe interaction
-        * Multi-omics data analysis and their application in healthcare
-        * Software and algorithm development for metabolomics and other omics data
-        * Aging and Aging-related diseases
-        * Human pregnancy and pregnancy-related diseases
-      
       location: Singapore 🇸🇬
       title: Nanyang Assistant Professor (Tenure Track)
     - company: Stanford University
@@ -166,14 +152,8 @@ sections:
       description: |-
         :man_teacher: Advisor: [Prof. Michael P. Snyder](http://snyderlab.stanford.edu/)
         
-        🧪 Research:
-        * Metabolomics and System Biology
-        * Multi-omics data analysis and their application in healthcare
-        * Software and algorithm development for metabolomics and other omics data
-      
       location: Palo Alto, California 🇺🇸
       title: Research Scientist
-
     - company: Stanford University
       company_logo: stanford_logo
       company_url: "https://www.stanford.edu/"
@@ -182,14 +162,8 @@ sections:
       description: |-
         :man_teacher: Advisor: [Prof. Michael P. Snyder](http://snyderlab.stanford.edu/)
         
-        🧪 Research:
-        * Metabolomics and System Biology
-        * Multi-omics data analysis and their application in healthcare
-        * Software and algorithm development for metabolomics and other omics data
-      
       location: Palo Alto, California 🇺🇸
       title: Postdoctoral Research Fellow
-    
     - company: Stanford Chinese Postdoctoral Association
       company_logo: scpa_logo
       company_url: "https://scpa.netlify.app/"
@@ -209,7 +183,6 @@ sections:
       
       location: Shanghai, China 🇨🇳
       title: Research Scientist
-      
     - company: Chinese Academy of Sciences
       company_logo: cas_logo
       company_url: "http://www.ucas.ac.cn/"
@@ -217,15 +190,9 @@ sections:
       date_start: "2013-09-01"
       description: |-
         :man_teacher: Advisor: [Prof. Zheng-Jiang Zhu](http://www.zhulab.cn/index.php)
-        
-        🧪 Research:
-  
-        * Metabolomics and System Biology
-        * Bioinformatics
       
       location: Shanghai, China 🇨🇳
       title: Ph.D.
-      
     - company: Inner Mongolia University
       company_logo: imu_logo
       company_url: "http://www.ucas.ac.cn/"
@@ -556,7 +523,7 @@ sections:
 
 - block: collection
   content:
-    count: 5
+    count: 20
     filters:
       featured_only: false
       folders:

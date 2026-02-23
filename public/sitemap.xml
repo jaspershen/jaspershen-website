@@ -2,6 +2,34 @@
 <urlset xmlns="http://www.sitemaps.org/schemas/sitemap/0.9"
   xmlns:xhtml="http://www.w3.org/1999/xhtml">
   <url>
+    <loc>/journal_referee/cell_metabolism/</loc>
+    <lastmod>2026-02-23T00:00:00+00:00</lastmod>
+    <changefreq>weekly</changefreq>
+  </url><url>
+    <loc>/journal_referee/cell_systems/</loc>
+    <lastmod>2026-02-23T00:00:00+00:00</lastmod>
+    <changefreq>weekly</changefreq>
+  </url><url>
+    <loc>/tag/metabolomics/</loc>
+    <lastmod>2026-02-23T00:00:00+00:00</lastmod>
+    <changefreq>weekly</changefreq>
+  </url><url>
+    <loc>/journal_referee/nature_aging/</loc>
+    <lastmod>2026-02-23T00:00:00+00:00</lastmod>
+    <changefreq>weekly</changefreq>
+  </url><url>
+    <loc>/journal_referee/nature_genetics/</loc>
+    <lastmod>2026-02-23T00:00:00+00:00</lastmod>
+    <changefreq>weekly</changefreq>
+  </url><url>
+    <loc>/journal_referee/nature_methods/</loc>
+    <lastmod>2026-02-23T00:00:00+00:00</lastmod>
+    <changefreq>weekly</changefreq>
+  </url><url>
+    <loc>/tags/</loc>
+    <lastmod>2026-02-23T00:00:00+00:00</lastmod>
+    <changefreq>weekly</changefreq>
+  </url><url>
     <loc>/publication-type/2/</loc>
     <lastmod>2024-07-01T21:40:55+08:00</lastmod>
     <changefreq>weekly</changefreq>
@@ -39,10 +67,6 @@
     <changefreq>weekly</changefreq>
   </url><url>
     <loc>/tag/paper/</loc>
-    <lastmod>2024-07-01T21:40:55+08:00</lastmod>
-    <changefreq>weekly</changefreq>
-  </url><url>
-    <loc>/tags/</loc>
     <lastmod>2024-07-01T21:40:55+08:00</lastmod>
     <changefreq>weekly</changefreq>
   </url><url>
@@ -110,10 +134,6 @@
     <lastmod>2024-07-01T21:40:55+08:00</lastmod>
     <changefreq>weekly</changefreq>
   </url><url>
-    <loc>/tag/metabolomics/</loc>
-    <lastmod>2024-07-01T21:40:55+08:00</lastmod>
-    <changefreq>weekly</changefreq>
-  </url><url>
     <loc>/journal_referee/nature_biotechnology/</loc>
     <lastmod>2024-07-01T21:40:55+08:00</lastmod>
     <changefreq>weekly</changefreq>
@@ -131,7 +151,7 @@
     <changefreq>weekly</changefreq>
   </url><url>
     <loc>/</loc>
-    <lastmod>2025-04-02T22:27:55+08:00</lastmod>
+    <lastmod>2026-02-23T23:07:47+08:00</lastmod>
     <changefreq>weekly</changefreq>
   </url><url>
     <loc>/talks/2022-casms/</loc>
