@@ -103,7 +103,7 @@ sections:
     subtitle: ""
     text: Data from [Google Scholar](https://scholar.google.com/citations?hl=en&user=3TK9yz8AAAAJ) (02/23/2026)
     items:
-    - description: Publications
+    - description: Papers
       icon: newspaper
       icon_pack: fas
       name: 62

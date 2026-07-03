@@ -69,6 +69,14 @@
     </item>
     
     <item>
+      <title>Nonlinear Dynamic Changes During Human Aging Revealed in Multi-omics Profiles</title>
+      <link>/talks/2023-genetics-retreat/</link>
+      <pubDate>Thu, 21 Sep 2023 13:00:00 +0000</pubDate>
+      <guid>/talks/2023-genetics-retreat/</guid>
+      <description></description>
+    </item>
+    
+    <item>
       <title>microbiomedataset A tidyverse-style framework for organizing and processing microbiome data</title>
       <link>/publication/microbiomedataset-a-tidyverse-style-framework-for-organizing-and-processing-microbiome-data/</link>
       <pubDate>Thu, 21 Sep 2023 00:00:00 +0000</pubDate>
@@ -329,6 +337,14 @@
     </item>
     
     <item>
+      <title>Nonlinear Dynamic Changes During Human Aging Revealed in Multi-omics Profiles</title>
+      <link>/talks/2023-bamm/</link>
+      <pubDate>Fri, 08 Sep 2023 13:00:00 +0000</pubDate>
+      <guid>/talks/2023-bamm/</guid>
+      <description></description>
+    </item>
+    
+    <item>
       <title>2023-09-08 Xiaotao Shen presented on 2023 BAMM.</title>
       <link>/news/2023-bamm/</link>
       <pubDate>Fri, 08 Sep 2023 00:00:00 +0000</pubDate>
@@ -551,6 +567,15 @@
       <pubDate>Fri, 28 Apr 2023 00:00:00 +0000</pubDate>
       <guid>/publication/organism-wide-cell-type-specific-secretome-mapping-of-exercise-training-in-mice/</guid>
       <description></description>
+    </item>
+    
+    <item>
+      <title>Multi-Omics Microsampling for The Profiling of Lifestyle-Associated Changes in Health</title>
+      <link>/talks/2023-stanford-postdoc-syposium/</link>
+      <pubDate>Wed, 08 Feb 2023 13:00:00 +0000</pubDate>
+      <guid>/talks/2023-stanford-postdoc-syposium/</guid>
+      <description>&lt;p&gt;Abstract&lt;/p&gt;
+</description>
     </item>
     
     <item>
@@ -1207,7 +1232,7 @@ data.head()
 
 
 
-&lt;div id=&#34;chart-673489152&#34; class=&#34;chart&#34;&gt;&lt;/div&gt;
+&lt;div id=&#34;chart-329478516&#34; class=&#34;chart&#34;&gt;&lt;/div&gt;
 &lt;script&gt;
   (function() {
     let a = setInterval( function() {
@@ -1217,7 +1242,7 @@ data.head()
       clearInterval( a );
 
       Plotly.d3.json(&#34;./line-chart.json&#34;, function(chart) {
-        Plotly.plot(&#39;chart-673489152&#39;, chart.data, chart.layout, {responsive: true});
+        Plotly.plot(&#39;chart-329478516&#39;, chart.data, chart.layout, {responsive: true});
       });
     }, 500 );
   })();
