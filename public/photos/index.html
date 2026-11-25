@@ -1,0 +1,1411 @@
+<!DOCTYPE html>
+<!-- This site was created with Wowchemy. https://www.wowchemy.com -->
+<!-- Last Published: November 25, 2026 --><html lang="en-us" >
+
+
+<head>
+  <meta charset="utf-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1" />
+  <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+  
+  
+  
+    <meta name="generator" content="Wowchemy 5.7.0 for Hugo" />
+  
+
+  
+  
+
+
+
+
+
+
+
+
+
+
+
+
+  
+  
+
+
+
+
+
+
+
+
+
+
+  
+
+
+
+
+
+
+
+  
+  
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+  
+
+  
+  
+  
+    
+      
+      <link rel="preload" as="style" href="https://fonts.googleapis.com/css2?family=Bruno+Ace&family=Limelight&family=Poppins:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,100;1,200;1,300;1,400;1,500;1,600;1,700;1,800;1,900&display=swap">
+      <link rel="stylesheet" href="https://fonts.googleapis.com/css2?family=Bruno+Ace&family=Limelight&family=Poppins:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,100;1,200;1,300;1,400;1,500;1,600;1,700;1,800;1,900&display=swap" media="print" onload="this.media='all'">
+    
+  
+
+  
+  
+
+  
+  
+    
+    <script src="/js/mathjax-config.js"></script>
+  
+
+  
+
+  <link rel="stylesheet" href="/css/vendor-bundle.min.047268c6dd09ad74ba54a0ba71837064.css" media="print" onload="this.media='all'">
+
+  
+  
+  
+    
+    
+      <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/academicons@1.9.2/css/academicons.min.css" integrity="sha512-KlJCpRsLf+KKu2VQa5vmRuClRFjxc5lXO03ixZt82HZUk41+1I0bD8KBSA0fY290ayMfWYI9udIqeOWSu1/uZg==" crossorigin="anonymous" media="print" onload="this.media='all'">
+    
+
+    
+    
+    
+    
+      
+      
+    
+    
+    
+
+    
+    
+    
+
+    
+
+    
+    
+      
+      
+
+      
+      
+
+      
+    
+      
+      
+
+      
+      
+
+      
+    
+      
+      
+
+      
+      
+
+      
+    
+      
+      
+
+      
+      
+
+      
+    
+      
+      
+
+      
+      
+
+      
+    
+      
+      
+
+      
+      
+
+      
+    
+      
+      
+
+      
+      
+
+      
+    
+      
+      
+
+      
+      
+
+      
+    
+      
+      
+
+      
+      
+
+      
+    
+      
+      
+
+      
+      
+
+      
+    
+      
+      
+
+      
+      
+
+      
+        <script src="https://cdn.jsdelivr.net/npm/mathjax@3/es5/tex-chtml.js" integrity="" crossorigin="anonymous" async></script>
+      
+    
+      
+      
+
+      
+      
+
+      
+    
+      
+      
+
+      
+      
+
+      
+    
+  
+
+  
+  
+  
+  
+  
+  
+  <link rel="stylesheet" href="/css/wowchemy.a16d7cb7693716e9cb287a32a80e1039.css" />
+
+  
+  
+  
+
+  
+  
+  
+  
+  
+  
+  
+    
+    
+    <link rel="stylesheet" href="/css/libs/chroma/dracula.min.css" title="hl-light" media="print" onload="this.media='all'" >
+    <link rel="stylesheet" href="/css/libs/chroma/dracula.min.css" title="hl-dark" media="print" onload="this.media='all'" disabled>
+  
+
+  
+  
+
+
+
+
+
+
+<script async src="https://www.googletagmanager.com/gtag/js?id=UA-143314205-1"></script>
+<script>
+  window.dataLayer = window.dataLayer || [];
+
+  function gtag() {
+      dataLayer.push(arguments);
+  }
+
+  function trackOutboundLink(url, target) {
+    gtag('event', 'click', {
+         'event_category': 'outbound',
+         'event_label': url,
+         'transport_type': 'beacon',
+         'event_callback': function () {
+           if (target !== '_blank') {
+             document.location = url;
+           }
+         }
+    });
+    console.debug("Outbound link clicked: " + url);
+  }
+
+  function onClickCallback(event) {
+    if ((event.target.tagName !== 'A') || (event.target.host === window.location.host)) {
+      return;
+    }
+    trackOutboundLink(event.target, event.target.getAttribute('target'));  
+  }
+
+  gtag('js', new Date());
+  gtag('config', 'UA-143314205-1', {});
+  gtag('set', {'cookie_flags': 'SameSite=None;Secure'});
+
+  
+  document.addEventListener('click', onClickCallback, false);
+</script>
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+  
+  
+  
+
+
+
+
+
+
+  <meta name="author" content="Xiaotao Shen" />
+
+
+
+
+
+  
+
+<meta name="description" content=" June 2021 April 2021 March 2020 September 2019 Date unknown " />
+
+
+
+<link rel="alternate" hreflang="en-us" href="/photos/" />
+<link rel="canonical" href="/photos/" />
+
+
+
+  <link rel="manifest" href="/manifest.webmanifest" />
+
+
+
+<link rel="icon" type="image/png" href="/media/icon_hu805a85e690e4f2727bf7d5f685d888f7_86836_32x32_fill_lanczos_center_3.png" />
+<link rel="apple-touch-icon" type="image/png" href="/media/icon_hu805a85e690e4f2727bf7d5f685d888f7_86836_180x180_fill_lanczos_center_3.png" />
+
+<meta name="theme-color" content="#007C48" />
+
+
+
+
+
+
+
+
+
+
+  
+  
+
+
+
+
+
+
+<meta property="twitter:card" content="summary" />
+
+  <meta property="twitter:site" content="@wowchemy" />
+  <meta property="twitter:creator" content="@wowchemy" />
+<meta property="twitter:image" content="/media/logo_hua82804f08c421dd09439d93e6d351d6c_109030_300x300_fit_lanczos_3.png" />
+<meta property="og:site_name" content="Xiaotao Shen" />
+<meta property="og:url" content="/photos/" />
+<meta property="og:title" content="Photos | Xiaotao Shen" />
+<meta property="og:description" content=" June 2021 April 2021 March 2020 September 2019 Date unknown " /><meta property="og:image" content="/media/logo_hua82804f08c421dd09439d93e6d351d6c_109030_300x300_fit_lanczos_3.png" /><meta property="og:locale" content="en-us" />
+
+  
+  
+
+
+
+
+
+
+
+  
+
+
+
+
+  
+  
+  
+
+  
+  
+
+  
+
+
+  
+  <title>Photos | Xiaotao Shen</title>
+
+  
+  
+  
+  
+
+
+
+
+
+
+
+
+
+
+
+</head>
+
+
+<body id="top" data-spy="scroll" data-offset="70" data-target="#TableOfContents" class="page-wrapper   " data-wc-page-id="4817317f4a4fb9edc9879c32f4699dac" >
+
+  
+  
+  
+  
+  
+  
+  
+  
+  
+  <script src="/js/wowchemy-init.min.c51bb6301bb2be5edd35b3630c50ed3a.js"></script>
+
+  
+
+
+<aside class="search-modal" id="search">
+  <div class="container">
+    <section class="search-header">
+
+      <div class="row no-gutters justify-content-between mb-3">
+        <div class="col-6">
+          <h1>Search</h1>
+        </div>
+        <div class="col-6 col-search-close">
+          <a class="js-search" href="#" aria-label="Close"><i class="fas fa-times-circle text-muted" aria-hidden="true"></i></a>
+        </div>
+      </div>
+
+      <div id="search-box">
+        
+        <input name="q" id="search-query" placeholder="Search..." autocapitalize="off"
+        autocomplete="off" autocorrect="off" spellcheck="false" type="search" class="form-control"
+        aria-label="Search...">
+        
+      </div>
+
+      
+      
+
+      
+
+    </section>
+    <section class="section-search-results">
+
+      <div id="search-hits">
+        
+      </div>
+
+    </section>
+  </div>
+</aside>
+
+
+
+  <div class="page-header header--fixed">
+  
+  
+  
+  
+  
+
+
+
+
+
+
+
+
+
+
+
+  
+
+
+<header>
+  <nav class="navbar navbar-expand-lg navbar-light compensate-for-scrollbar" id="navbar-main">
+    <div class="container-xl">
+
+      
+      <div class="d-none d-lg-inline-flex">
+        <a class="navbar-brand" href="/"><img src="/media/logo_hua82804f08c421dd09439d93e6d351d6c_109030_0x70_resize_lanczos_3.png" alt="Xiaotao Shen"
+            
+            ></a>
+      </div>
+      
+
+      
+      <button type="button" class="navbar-toggler" data-toggle="collapse"
+              data-target="#navbar-content" aria-controls="navbar-content" aria-expanded="false" aria-label="Toggle navigation">
+      <span><i class="fas fa-bars"></i></span>
+      </button>
+      
+
+      
+      <div class="navbar-brand-mobile-wrapper d-inline-flex d-lg-none">
+        <a class="navbar-brand" href="/"><img src="/media/logo_hua82804f08c421dd09439d93e6d351d6c_109030_0x70_resize_lanczos_3.png" alt="Xiaotao Shen"
+          
+          ></a>
+      </div>
+      
+
+      
+      
+      <div class="navbar-collapse main-menu-item collapse justify-content-start" id="navbar-content">
+
+        
+        <ul class="navbar-nav d-md-inline-flex">
+          
+
+          
+
+          
+          
+          
+            
+          
+
+          
+
+          
+          
+          
+          
+
+          
+            
+              
+              
+            
+            
+              
+              
+              
+                
+              
+              
+            
+          
+
+          <li class="nav-item">
+            <a class="nav-link " href="/#about"><span>ABOUT</span></a>
+          </li>
+
+          
+          
+
+          
+
+          
+          
+          
+            
+          
+
+          
+
+          
+          
+          
+          
+
+          
+            
+              
+              
+            
+            
+              
+              
+              
+                
+              
+              
+            
+          
+
+          <li class="nav-item">
+            <a class="nav-link " href="/#experience"><span>EXPERIENCE</span></a>
+          </li>
+
+          
+          
+
+          
+
+          
+          
+          
+            
+          
+
+          
+
+          
+          
+          
+          
+
+          
+            
+              
+              
+            
+            
+              
+              
+              
+                
+              
+              
+            
+          
+
+          <li class="nav-item">
+            <a class="nav-link " href="/#awards"><span>AWARDS</span></a>
+          </li>
+
+          
+          
+
+          
+
+          
+          
+          
+            
+          
+
+          
+
+          
+          
+          
+          
+
+          
+            
+              
+              
+            
+            
+              
+              
+              
+                
+              
+              
+            
+          
+
+          <li class="nav-item">
+            <a class="nav-link " href="/#academic_service"><span>ACADEMIC SERVICE</span></a>
+          </li>
+
+          
+          
+
+          
+
+          
+          
+          
+            
+          
+
+          
+
+          
+          
+          
+          
+
+          
+            
+              
+              
+            
+            
+              
+              
+              
+                
+              
+              
+            
+          
+
+          <li class="nav-item">
+            <a class="nav-link " href="/#contact"><span>CONTACT</span></a>
+          </li>
+
+          
+          
+
+          
+
+          
+          
+          
+            
+          
+
+          
+
+          
+          
+          
+          
+
+          
+            
+              
+              
+            
+            
+              
+              
+              
+                
+              
+              
+            
+          
+
+          <li class="nav-item">
+            <a class="nav-link " href="/#photos"><span>PHOTO</span></a>
+          </li>
+
+          
+          
+
+        
+
+          
+        </ul>
+      </div>
+
+      <ul class="nav-icons navbar-nav flex-row ml-auto d-flex pl-md-2">
+
+        <li class="nav-item">
+          <a class="nav-link" href="/post/" aria-label="Blog" title="Blog">
+            <i class="fas fa-blog" aria-hidden="true"></i>
+          </a>
+        </li>
+
+        
+        
+          
+            
+            <li class="nav-item d-none d-lg-inline-flex">
+              <a class="nav-link" href="https://github.com/jaspershen" target="_blank" rel="noopener" aria-label="github">
+                <i class="fab fa-github" aria-hidden="true"></i>
+              </a>
+            </li>
+          
+        
+
+        
+        
+        
+        <li class="nav-item">
+          <a class="nav-link js-search" href="#" aria-label="Search"><i class="fas fa-search" aria-hidden="true"></i></a>
+        </li>
+        
+
+        
+        
+        
+        <li class="nav-item dropdown theme-dropdown">
+          <a href="#" class="nav-link" data-toggle="dropdown" aria-haspopup="true" aria-label="Display preferences">
+            <i class="fas fa-moon" aria-hidden="true"></i>
+          </a>
+          <div class="dropdown-menu">
+            <a href="#" class="dropdown-item js-set-theme-light">
+              <span>Light</span>
+            </a>
+            <a href="#" class="dropdown-item js-set-theme-dark">
+              <span>Dark</span>
+            </a>
+            <a href="#" class="dropdown-item js-set-theme-auto">
+              <span>Automatic</span>
+            </a>
+          </div>
+        </li>
+        
+
+        
+        
+
+      </ul>
+
+    </div>
+  </nav>
+</header>
+
+
+  </div>
+
+  <div class="page-body">
+    
+    
+    
+
+    <article class="article">
+
+  
+
+
+
+
+
+
+
+
+
+
+
+
+
+  
+
+  
+  
+  
+<div class="article-container pt-3">
+  <h1>Photos</h1>
+
+  
+
+  
+    
+
+
+<div class="article-metadata">
+
+  
+  
+
+  
+
+  
+
+  
+
+  
+  
+  
+  
+
+  
+  
+
+</div>
+
+    
+
+
+
+
+
+  
+</div>
+
+
+
+  <div class="article-container">
+
+    <div class="article-style">
+      <div class="photo-archive"><section class="photo-archive__month">
+        <h2>June 2021</h2>
+        <div class="personal-photo-grid"><a href="/media/albums/photo/7E1DDA5E-D9CE-4F1B-99E1-BB4FC36FB875_1_105_c.jpeg" data-photo-viewer data-caption="June 27, 2021" aria-label="View photo from 2021-06-27">
+      <img src="/media/albums/photo/7E1DDA5E-D9CE-4F1B-99E1-BB4FC36FB875_1_105_c_hu17e69d4563706f0630a392203766d9a9_369328_800x800_fit_q75_lanczos.jpeg" alt="Photo from 2021-06-27" loading="lazy" width="600" height="800">
+    </a></div></section><section class="photo-archive__month">
+        <h2>April 2021</h2>
+        <div class="personal-photo-grid"><a href="/media/albums/photo/F59D0C2D-B94C-4BD1-AAC0-F6AFCAD4B81E_1_105_c.jpeg" data-photo-viewer data-caption="April 18, 2021" aria-label="View photo from 2021-04-18">
+      <img src="/media/albums/photo/F59D0C2D-B94C-4BD1-AAC0-F6AFCAD4B81E_1_105_c_hu85fe1d85e0d5fbffc51daeaa5792cbd7_523599_800x800_fit_q75_lanczos.jpeg" alt="Photo from 2021-04-18" loading="lazy" width="534" height="800">
+    </a></div></section><section class="photo-archive__month">
+        <h2>March 2020</h2>
+        <div class="personal-photo-grid"><a href="/media/albums/photo/6E1EF0E8-A5DD-4E23-AF0B-4DEEB94E8255_1_105_c.jpeg" data-photo-viewer data-caption="March 22, 2020" aria-label="View photo from 2020-03-22">
+      <img src="/media/albums/photo/6E1EF0E8-A5DD-4E23-AF0B-4DEEB94E8255_1_105_c_hu9fd409d14ca311c857fa348b72baad5c_343478_800x800_fit_q75_lanczos.jpeg" alt="Photo from 2020-03-22" loading="lazy" width="600" height="800">
+    </a></div></section><section class="photo-archive__month">
+        <h2>September 2019</h2>
+        <div class="personal-photo-grid"><a href="/media/albums/photo/60D062CE-DCF7-4AF8-83E6-FB32DF749784_1_105_c.jpeg" data-photo-viewer data-caption="September 27, 2019" aria-label="View photo from 2019-09-27">
+      <img src="/media/albums/photo/60D062CE-DCF7-4AF8-83E6-FB32DF749784_1_105_c_hu392f8e2e9937da1d57c5eb08d4a32b07_219767_800x800_fit_q75_lanczos.jpeg" alt="Photo from 2019-09-27" loading="lazy" width="602" height="800">
+    </a><a href="/media/albums/photo/9E930C56-2BCE-4D30-B2F8-854C3F92FD3B_1_105_c.jpeg" data-photo-viewer data-caption="September 27, 2019" aria-label="View photo from 2019-09-27">
+      <img src="/media/albums/photo/9E930C56-2BCE-4D30-B2F8-854C3F92FD3B_1_105_c_hu02d358aa5f06c4ea4f04b6eefca5e248_219225_800x800_fit_q75_lanczos.jpeg" alt="Photo from 2019-09-27" loading="lazy" width="600" height="800">
+    </a></div></section><section class="photo-archive__month">
+        <h2>Date unknown</h2>
+        <div class="personal-photo-grid"><a href="/media/albums/photo/08BAA733-9D73-4FB7-B917-8F9907DB656A_1_105_c.jpeg" data-photo-viewer data-caption="Date unknown" aria-label="View photo">
+      <img src="/media/albums/photo/08BAA733-9D73-4FB7-B917-8F9907DB656A_1_105_c_hu96a5ab8e0364e843af4687201b687892_263265_800x800_fit_q75_lanczos.jpeg" alt="Photo" loading="lazy" width="800" height="600">
+    </a><a href="/media/albums/photo/4536A39C-A5BB-48CB-BFD7-DD3E38B1C5D9.jpeg" data-photo-viewer data-caption="Date unknown" aria-label="View photo">
+      <img src="/media/albums/photo/4536A39C-A5BB-48CB-BFD7-DD3E38B1C5D9_hu7bc0fc5b3541f6d83ec589f306ff221a_152012_800x800_fit_q75_lanczos.jpeg" alt="Photo" loading="lazy" width="800" height="535">
+    </a><a href="/media/albums/photo/9701693031096_.pic.jpg" data-photo-viewer data-caption="Date unknown" aria-label="View photo">
+      <img src="/media/albums/photo/9701693031096_.pic_hu2598b70eaa25800121249b7edff3816d_539370_800x800_fit_q75_lanczos.jpg" alt="Photo" loading="lazy" width="600" height="800">
+    </a><a href="/media/albums/photo/9711693031097_.pic.jpg" data-photo-viewer data-caption="Date unknown" aria-label="View photo">
+      <img src="/media/albums/photo/9711693031097_.pic_hu2164d49aace1bfb379515b617308c59c_836807_800x800_fit_q75_lanczos.jpg" alt="Photo" loading="lazy" width="800" height="600">
+    </a><a href="/media/albums/photo/9731693031101_.pic.jpg" data-photo-viewer data-caption="Date unknown" aria-label="View photo">
+      <img src="/media/albums/photo/9731693031101_.pic_hu35dcbf91913b437bd4b5a7b41dbacde6_738151_800x800_fit_q75_lanczos.jpg" alt="Photo" loading="lazy" width="600" height="800">
+    </a><a href="/media/albums/photo/9741693031102_.pic.jpg" data-photo-viewer data-caption="Date unknown" aria-label="View photo">
+      <img src="/media/albums/photo/9741693031102_.pic_huedfe00fb1d62fc93cfae262d0376ad51_573713_800x800_fit_q75_lanczos.jpg" alt="Photo" loading="lazy" width="600" height="800">
+    </a><a href="/media/albums/photo/9761693031281_.pic.jpg" data-photo-viewer data-caption="Date unknown" aria-label="View photo">
+      <img src="/media/albums/photo/9761693031281_.pic_hub174110b8b11f92a6a19a7d91bbb5eb9_161666_800x800_fit_q75_lanczos.jpg" alt="Photo" loading="lazy" width="600" height="800">
+    </a><a href="/media/albums/photo/9771693031282_.pic.jpg" data-photo-viewer data-caption="Date unknown" aria-label="View photo">
+      <img src="/media/albums/photo/9771693031282_.pic_hu9e5e7f5598bb9b4dbb2212e6d0a7fe59_249772_800x800_fit_q75_lanczos.jpg" alt="Photo" loading="lazy" width="800" height="600">
+    </a><a href="/media/albums/photo/9781693031283_.pic.jpg" data-photo-viewer data-caption="Date unknown" aria-label="View photo">
+      <img src="/media/albums/photo/9781693031283_.pic_hu513b04b50a68a3449c95e2d7a82542d7_524691_800x800_fit_q75_lanczos.jpg" alt="Photo" loading="lazy" width="600" height="800">
+    </a><a href="/media/albums/photo/9791693031284_.pic.jpg" data-photo-viewer data-caption="Date unknown" aria-label="View photo">
+      <img src="/media/albums/photo/9791693031284_.pic_hud72be5e84cbed72cdd732273138e14a3_340799_800x800_fit_q75_lanczos.jpg" alt="Photo" loading="lazy" width="800" height="600">
+    </a><a href="/media/albums/photo/9801693031285_.pic.jpg" data-photo-viewer data-caption="Date unknown" aria-label="View photo">
+      <img src="/media/albums/photo/9801693031285_.pic_hu0a19da86e144f220ef93be4d31f7e63a_280670_800x800_fit_q75_lanczos.jpg" alt="Photo" loading="lazy" width="600" height="800">
+    </a><a href="/media/albums/photo/9811693031286_.pic.jpg" data-photo-viewer data-caption="Date unknown" aria-label="View photo">
+      <img src="/media/albums/photo/9811693031286_.pic_hua40649420bfd41f594d12c899bd2cbcc_296191_800x800_fit_q75_lanczos.jpg" alt="Photo" loading="lazy" width="800" height="600">
+    </a><a href="/media/albums/photo/9821693031287_.pic.jpg" data-photo-viewer data-caption="Date unknown" aria-label="View photo">
+      <img src="/media/albums/photo/9821693031287_.pic_hu29d3ab4f7f483b67e66c4fc6fef63acd_430869_800x800_fit_q75_lanczos.jpg" alt="Photo" loading="lazy" width="600" height="800">
+    </a><a href="/media/albums/photo/9831693031288_.pic.jpg" data-photo-viewer data-caption="Date unknown" aria-label="View photo">
+      <img src="/media/albums/photo/9831693031288_.pic_huc9ecf02741d258952ed3f4eda0ecd1b4_346775_800x800_fit_q75_lanczos.jpg" alt="Photo" loading="lazy" width="800" height="600">
+    </a><a href="/media/albums/photo/9841693031289_.pic.jpg" data-photo-viewer data-caption="Date unknown" aria-label="View photo">
+      <img src="/media/albums/photo/9841693031289_.pic_huc247b02c4e1fa19d372cc5c38a77eabc_320455_800x800_fit_q75_lanczos.jpg" alt="Photo" loading="lazy" width="800" height="600">
+    </a><a href="/media/albums/photo/9851693031290_.pic.jpg" data-photo-viewer data-caption="Date unknown" aria-label="View photo">
+      <img src="/media/albums/photo/9851693031290_.pic_hu09d036c2bf2f8a1f4d2f67d30ac517cf_438830_800x800_fit_q75_lanczos.jpg" alt="Photo" loading="lazy" width="600" height="800">
+    </a><a href="/media/albums/photo/9861693031291_.pic.jpg" data-photo-viewer data-caption="Date unknown" aria-label="View photo">
+      <img src="/media/albums/photo/9861693031291_.pic_hufa1175acc012a5afa41500cafe7c3b50_630453_800x800_fit_q75_lanczos.jpg" alt="Photo" loading="lazy" width="600" height="800">
+    </a><a href="/media/albums/photo/WechatIMG241.jpeg" data-photo-viewer data-caption="Date unknown" aria-label="View photo">
+      <img src="/media/albums/photo/WechatIMG241_hud27b3dff6bfb1a6909ed94e34bf25acf_278385_800x800_fit_q75_lanczos.jpeg" alt="Photo" loading="lazy" width="800" height="599">
+    </a><a href="/media/albums/photo/WechatIMG242.jpeg" data-photo-viewer data-caption="Date unknown" aria-label="View photo">
+      <img src="/media/albums/photo/WechatIMG242_hu4b844514ee16ae5cc0ac9b752ce46cb9_352678_800x800_fit_q75_lanczos.jpeg" alt="Photo" loading="lazy" width="800" height="600">
+    </a><a href="/media/albums/photo/WechatIMG243.jpeg" data-photo-viewer data-caption="Date unknown" aria-label="View photo">
+      <img src="/media/albums/photo/WechatIMG243_hu7d7e2545eaa221dda6be0b0df056382e_333942_800x800_fit_q75_lanczos.jpeg" alt="Photo" loading="lazy" width="800" height="599">
+    </a><a href="/media/albums/photo/WechatIMG436.jpeg" data-photo-viewer data-caption="Date unknown" aria-label="View photo">
+      <img src="/media/albums/photo/WechatIMG436_huccf33236a78ae86531d671b6f4f1ed1e_253101_800x800_fit_q75_lanczos.jpeg" alt="Photo" loading="lazy" width="800" height="599">
+    </a><a href="/media/albums/photo/WechatIMG438.jpeg" data-photo-viewer data-caption="Date unknown" aria-label="View photo">
+      <img src="/media/albums/photo/WechatIMG438_hu74a0cff8011d473a1b78810e706d0e1f_252338_800x800_fit_q75_lanczos.jpeg" alt="Photo" loading="lazy" width="800" height="599">
+    </a><a href="/media/albums/photo/WechatIMG439.jpeg" data-photo-viewer data-caption="Date unknown" aria-label="View photo">
+      <img src="/media/albums/photo/WechatIMG439_huf0058e7a0f20a2be467f207ec56162b1_449241_800x800_fit_q75_lanczos.jpeg" alt="Photo" loading="lazy" width="600" height="800">
+    </a><a href="/media/albums/photo/with%20Zhu%20in%20ASMS%202016.jpg" data-photo-viewer data-caption="Date unknown" aria-label="View photo">
+      <img src="/media/albums/photo/with%20Zhu%20in%20ASMS%202016_huf970c5a45f5777644a070b1af884d021_122731_800x800_fit_q75_lanczos.jpg" alt="Photo" loading="lazy" width="800" height="600">
+    </a><a href="/media/albums/photo/%E9%83%AD%E8%BF%9C2.jpg" data-photo-viewer data-caption="Date unknown" aria-label="View photo">
+      <img src="/media/albums/photo/%E9%83%AD%E8%BF%9C2_hu3ffdc98d5c14bbca107f21d2384b375c_7082965_800x800_fit_q75_lanczos.jpg" alt="Photo" loading="lazy" width="601" height="800">
+    </a></div></section>
+</div>
+<dialog class="photo-viewer" aria-label="Photo viewer">
+  <div class="photo-viewer__toolbar"><button type="button" data-close aria-label="Close"><i class="fas fa-times" aria-hidden="true"></i></button></div>
+  <button type="button" class="photo-viewer__previous" data-direction="-1" aria-label="Previous photo"><i class="fas fa-chevron-left" aria-hidden="true"></i></button>
+  <figure><img alt=""><figcaption></figcaption></figure>
+  <button type="button" class="photo-viewer__next" data-direction="1" aria-label="Next photo"><i class="fas fa-chevron-right" aria-hidden="true"></i></button>
+</dialog>
+<script>
+(function () {
+  var viewer = document.querySelector('.photo-viewer');
+  var links = Array.from(document.querySelectorAll('[data-photo-viewer]'));
+  if (!viewer || !viewer.showModal || !links.length) return;
+  var current = 0, opener;
+  function show(index) {
+    current = (index + links.length) % links.length;
+    var link = links[current], image = viewer.querySelector('img');
+    image.src = link.href;
+    image.alt = link.querySelector('img').alt;
+    viewer.querySelector('figcaption').textContent = link.dataset.caption;
+  }
+  links.forEach(function (link, i) {
+    link.addEventListener('click', function (event) {
+      event.preventDefault(); opener = link; show(i); viewer.showModal();
+    });
+  });
+  viewer.querySelector('[data-close]').addEventListener('click', function () { viewer.close(); });
+  viewer.querySelectorAll('[data-direction]').forEach(function (button) {
+    button.addEventListener('click', function () { show(current + Number(button.dataset.direction)); });
+  });
+  viewer.addEventListener('keydown', function (event) {
+    if (event.key === 'ArrowLeft' || event.key === 'ArrowRight') {
+      event.preventDefault(); show(current + (event.key === 'ArrowRight' ? 1 : -1));
+    }
+  });
+  viewer.addEventListener('click', function (event) { if (event.target === viewer) viewer.close(); });
+  viewer.addEventListener('close', function () { if (opener) opener.focus(); });
+})();
+</script>
+
+
+    </div>
+
+    
+
+
+
+
+
+
+
+<div class="share-box">
+  <ul class="share">
+    
+      
+      
+      
+        
+      
+      
+      
+      
+      
+      
+      
+      <li>
+        <a href="https://twitter.com/intent/tweet?url=%2Fphotos%2F&amp;text=Photos" target="_blank" rel="noopener" class="share-btn-twitter" aria-label="twitter">
+          <i class="fab fa-twitter"></i>
+        </a>
+      </li>
+    
+      
+      
+      
+        
+      
+      
+      
+      
+      
+      
+      
+      <li>
+        <a href="https://www.facebook.com/sharer.php?u=%2Fphotos%2F&amp;t=Photos" target="_blank" rel="noopener" class="share-btn-facebook" aria-label="facebook">
+          <i class="fab fa-facebook"></i>
+        </a>
+      </li>
+    
+      
+      
+      
+        
+      
+      
+      
+      
+      
+      
+      
+        
+      
+      <li>
+        <a href="mailto:?subject=Photos&amp;body=%2Fphotos%2F" target="_blank" rel="noopener" class="share-btn-email" aria-label="envelope">
+          <i class="fas fa-envelope"></i>
+        </a>
+      </li>
+    
+      
+      
+      
+        
+      
+      
+      
+      
+      
+      
+      
+      <li>
+        <a href="https://www.linkedin.com/shareArticle?url=%2Fphotos%2F&amp;title=Photos" target="_blank" rel="noopener" class="share-btn-linkedin" aria-label="linkedin-in">
+          <i class="fab fa-linkedin-in"></i>
+        </a>
+      </li>
+    
+      
+      
+      
+        
+      
+      
+      
+      
+      
+      
+      
+      <li>
+        <a href="whatsapp://send?text=Photos%20%2Fphotos%2F" target="_blank" rel="noopener" class="share-btn-whatsapp" aria-label="whatsapp">
+          <i class="fab fa-whatsapp"></i>
+        </a>
+      </li>
+    
+      
+      
+      
+        
+      
+      
+      
+      
+      
+      
+      
+      <li>
+        <a href="https://service.weibo.com/share/share.php?url=%2Fphotos%2F&amp;title=Photos" target="_blank" rel="noopener" class="share-btn-weibo" aria-label="weibo">
+          <i class="fab fa-weibo"></i>
+        </a>
+      </li>
+    
+  </ul>
+</div>
+
+
+
+
+
+
+
+
+
+
+  
+  
+  
+
+  
+
+  
+
+
+
+
+
+
+
+
+
+
+  </div>
+</article>
+  </div>
+
+  <div class="page-footer">
+    
+    
+    <div class="container">
+      <footer class="site-footer">
+  <hr>
+
+    <div style="display: flex; justify-content: space-between; padding: 20px;">
+          
+ <div style="flex: 1;">
+            </div>
+            
+    
+            <div style="flex: 1;">
+  <p style="text-align:left;">
+    Find me here
+    <br>
+    <i class="fa-brands fa-github"></i> <a href="https://github.com/jaspershen" target="_blank" rel="noopener">GitHub</a>
+<br>
+        <i class="fa-brands fa-weixin"></i> <a href="https://jaspershen.github.io/image/wechat_QR.jpg" target="_blank" rel="noopener">WeChat</a>
+
+    <br>
+        <i class="fa-brands fa-twitter"></i> <a href="https://twitter.com/xiaotaoshen1990" target="_blank" rel="noopener">Twitter</a>
+        
+   <br>
+        <i class="fa-solid fa-envelope"></i> <a href="https://jaspershen.github.io/#contact" target="_blank" rel="noopener">Email</a>  
+        
+        <br>
+<i class="fa-solid fa-location-dot"></i> Address: <a href="https://goo.gl/maps/jSKXmNMoj1s97uQGA" target="_blank" rel="noopener">59 Nanyang Dr, Singapore 636921</a>
+   
+    </p>
+            </div>
+            
+    
+            <div style="flex: 1;">
+            </div>
+            
+    
+            <div style="flex: 1;">
+<script type="text/javascript" id="clstr_globe" src="//clustrmaps.com/globe.js?d=JT2XXgnycJgenT-4ZZU1PN5kgZyfbTe09p1NfUuhot4"></script>
+            </div>
+            
+    
+            <div style="flex: 1;">
+            </div>
+    
+        </div>
+        
+      <hr>
+
+      <div style="padding: 8px 20px 2px; text-align: center; color: #6b7280; font-size: 0.86rem; line-height: 1.8;">
+        <div style="display: inline-flex; flex-wrap: wrap; justify-content: center; align-items: center; column-gap: 0.9rem; row-gap: 0.15rem;">
+          <a href="https://beian.miit.gov.cn/" target="_blank" rel="noopener noreferrer" style="color: inherit; text-decoration: none; white-space: nowrap; transition: color 0.2s ease;" onmouseover="this.style.color='#0b8f5a'" onmouseout="this.style.color='#6b7280'">
+            ICP备案服务信息：豫ICP备2025138601号-1
+          </a>
+          <span style="color: #cbd5e1;">|</span>
+          <a href="https://beian.miit.gov.cn/" target="_blank" rel="noopener noreferrer" style="color: inherit; text-decoration: none; white-space: nowrap; transition: color 0.2s ease;" onmouseover="this.style.color='#0b8f5a'" onmouseout="this.style.color='#6b7280'">
+            ICP备案主体信息：豫ICP备2025138601号
+          </a>
+        </div>
+      </div>
+
+      
+
+
+
+
+
+
+
+
+
+
+
+  
+  
+  
+  
+  
+
+
+<p class="powered-by">
+  
+  <a href="/privacy/">Privacy Policy</a>
+  
+  
+</p>
+
+
+
+
+
+
+
+
+
+
+
+
+  
+  <p class="powered-by copyright-license-text">
+    © 2015-2025 Xiaotao Shen
+  </p>
+  
+
+
+
+
+  
+
+</footer>
+
+    </div>
+    
+  </div>
+
+  
+
+
+<script src="/js/vendor-bundle.min.f64289d8217e08e3afcd597d60836062.js"></script>
+
+
+
+
+  
+
+  
+  
+
+  
+
+
+
+
+
+
+
+
+
+
+
+
+
+  
+  <script id="search-hit-fuse-template" type="text/x-template">
+    <div class="search-hit" id="summary-{{key}}">
+      <div class="search-hit-content">
+        <div class="search-hit-name">
+          <a href="{{relpermalink}}">{{title}}</a>
+          <div class="article-metadata search-hit-type">{{type}}</div>
+          <p class="search-hit-description">{{snippet}}</p>
+        </div>
+      </div>
+    </div>
+  </script>
+  
+    <script src="https://cdn.jsdelivr.net/gh/krisk/Fuse@v3.2.1/dist/fuse.min.js" integrity="sha512-o38bmzBGX+hD3JHWUFCDA09btWaqrNmoJ3RXLlrysA7PP01Kgs4UlE4MhelE1v5dJR3+cxlR4qQlotsW7jKsnw==" crossorigin="anonymous"></script>
+    <script src="https://cdn.jsdelivr.net/gh/julmot/mark.js@8.11.1/dist/jquery.mark.min.js" integrity="sha512-mhbv5DqBMgrWL+32MmsDOt/OAvqr/cHimk6B8y/bx/xS88MVkYGPiVv2ixKVrkywF2qHplNRUvFsAHUdxZ3Krg==" crossorigin="anonymous"></script>
+  
+
+
+
+
+
+
+
+
+
+  <script id="dsq-count-scr" src="https://blog-at8qrhng8b.disqus.com/count.js" async></script>
+
+
+
+
+  
+  
+  
+  
+  
+  
+  
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+<script id="page-data" type="application/json">{"use_headroom":true}</script>
+
+
+  <script src="/js/wowchemy-headroom.db4755770454eb63685f8de785c0a172.js" type="module"></script>
+
+
+
+
+
+
+
+
+
+  
+  
+
+
+<script src="/en/js/wowchemy.min.3322c0d94f0e691b0b24c63f4c41064b.js"></script>
+
+
+
+
+
+
+
+  
+<div id="modal" class="modal fade" role="dialog">
+  <div class="modal-dialog">
+    <div class="modal-content">
+      <div class="modal-header">
+        <h5 class="modal-title">Cite</h5>
+        <button type="button" class="close" data-dismiss="modal" aria-label="Close">
+          <span aria-hidden="true">&times;</span>
+        </button>
+      </div>
+      <div class="modal-body">
+        
+        <pre><code></code></pre>
+      </div>
+      <div class="modal-footer">
+        <a class="btn btn-outline-primary my-1 js-copy-cite" href="#" target="_blank">
+          <i class="fas fa-copy"></i> Copy
+        </a>
+        <a class="btn btn-outline-primary my-1 js-download-cite" href="#" target="_blank">
+          <i class="fas fa-download"></i> Download
+        </a>
+        <div id="modal-error"></div>
+      </div>
+    </div>
+  </div>
+</div>
+
+
+  <script src="/js/wowchemy-publication.68f8d7090562ca65fc6d3cb3f8f2d2cb.js" type="module"></script>
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+</body>
+</html>

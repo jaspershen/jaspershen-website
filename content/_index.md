@@ -96,27 +96,27 @@ sections:
     username: admin
   id: about
 
-- block: features
-  id: scholar-stats
-  content:
-    title: "📚 Statistics"
-    subtitle: ""
-    text: Data from [Google Scholar](https://scholar.google.com/citations?hl=en&user=3TK9yz8AAAAJ) (02/23/2026)
-    items:
-    - description: Papers
-      icon: newspaper
-      icon_pack: fas
-      name: 62
-    - description: Citations
-      icon: open-data
-      icon_pack: ai
-      name: 3,266
-    - description: H-index
-      icon: google-scholar
-      icon_pack: ai
-      name: 23
-  design:
-    columns: "2"
+# - block: features
+#   id: scholar-stats
+#   content:
+#     title: "📚 Statistics"
+#     subtitle: ""
+#     text: Data from [Google Scholar](https://scholar.google.com/citations?hl=en&user=3TK9yz8AAAAJ) (02/23/2026)
+#     items:
+#     - description: Papers
+#       icon: newspaper
+#       icon_pack: fas
+#       name: 62
+#     - description: Citations
+#       icon: open-data
+#       icon_pack: ai
+#       name: 3,266
+#     - description: H-index
+#       icon: google-scholar
+#       icon_pack: ai
+#       name: 23
+#   design:
+#     columns: "2"
   
 - block: experience
   id: experience
@@ -530,7 +530,7 @@ sections:
       - journal_referee
     title: 🐕‍🦺 JOURNAL REFEREE
   design:
-    columns: "2"
+    columns: "1"
     # view: community/compact2
     view: list
   id: journal_referee
@@ -622,7 +622,7 @@ sections:
     # office_hours:
     # - Monday - Friday 9:30 to 17:30
     # - Weekend 14:00 to 17:00
-    phone: +1 571-267-9283
+    phone: +65 83042333
     subtitle: null
     text: 
     title: 📥 CONTACT
@@ -630,29 +630,36 @@ sections:
     columns: "2"
   id: contact
 
-- block: tag_cloud
+- block: photos
+  id: photos
   content:
-    title: 
+    title: 📸 PHOTOS
   design:
     columns: "1"
-    background:
-      video:
-      # Name of video in `assets/media/`.
-        filename: pexels_videos_1851190 (2160p).mp4
-        filters:
-          brightness: 0.5
-      # image: 
-      #   filename: galary.jpg
-      #   filters:
-      #     brightness: 1
-      #  Image fit. Options are `cover` (default), `contain`, or `actual` size.
-      size: cover
-      # Image focal point. Options include `left`, `center` (default), or `right`.
-      position: center
-      # Use a fun parallax-like fixed background effect on desktop? true/false
-      parallax: true
-      # Text color (true=light, false=dark, or remove for the dynamic theme color).
-      text_color_light: true
+
+# - block: tag_cloud
+#   content:
+#     title: 
+#   design:
+#     columns: "1"
+#     background:
+#       video:
+#       # Name of video in `assets/media/`.
+#         filename: pexels_videos_1851190 (2160p).mp4
+#         filters:
+#           brightness: 0.5
+#       # image: 
+#       #   filename: galary.jpg
+#       #   filters:
+#       #     brightness: 1
+#       #  Image fit. Options are `cover` (default), `contain`, or `actual` size.
+#       size: cover
+#       # Image focal point. Options include `left`, `center` (default), or `right`.
+#       position: center
+#       # Use a fun parallax-like fixed background effect on desktop? true/false
+#       parallax: true
+#       # Text color (true=light, false=dark, or remove for the dynamic theme color).
+#       text_color_light: true
 
 title: null
 type: landing

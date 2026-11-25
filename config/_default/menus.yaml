@@ -4,17 +4,17 @@
 #   The weight parameter defines the order that the links will appear in.
 
 main:
-  - name: HOME
-    identifier: home
-    weight: 10
+  # - name: HOME
+  #   identifier: home
+  #   weight: 10
 
   - name: ABOUT
-    parent: home
+    # parent: home
     url: '#about'
     weight: 1
 
   - name: EXPERIENCE
-    parent: home
+    # parent: home
     url: '#experience'
     weight: 2
 
@@ -24,34 +24,33 @@ main:
   #   weight: 3
   
   - name: AWARDS
-    parent: home
+    # parent: home
     url: '#awards'
     weight: 4
 
   - name: ACADEMIC SERVICE
-    parent: home
+    # parent: home
     url: '#academic_service'
     weight: 5
 
   - name: CONTACT
-    parent: home
+    # parent: home
     url: '#contact'
     weight: 6
 
-  - name: PUBLICATIONS
-    url: 'publication/'
-    weight: 30
-  - name: PROJECTS
-    url: 'project/'
-    weight: 40
-  - name: TALKS
-    url: 'talks/'
-    weight: 50
+  - name: PHOTO
+    url: '#photos'
+    weight: 7
 
-  - name: BLOG
-    url: 'post/'
-    weight: 140  
-
+  # - name: PUBLICATIONS
+  #   url: 'publication/'
+  #   weight: 30
+  # - name: PROJECTS
+  #   url: 'project/'
+  #   weight: 40
+  # - name: TALKS
+  #   url: 'talks/'
+  #   weight: 50
 
 #   - name:  More
 #     identifier: more

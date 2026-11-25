@@ -1,0 +1,62 @@
+{{- $photos := slice -}}
+{{- range where (resources.Match "media/albums/photo/*") "ResourceType" "image" -}}
+  {{- $date := "" -}}
+  {{- with .Exif -}}{{- with .Date -}}{{- if ne (.Format "2006") "0001" -}}{{- $date = .Format "2006-01-02" -}}{{- end -}}{{- end -}}{{- end -}}
+  {{- $photos = $photos | append (dict "image" . "date" $date) -}}
+{{- end -}}
+{{- $photos = sort $photos "date" "desc" -}}
+<div class="photo-archive">
+  {{- $group := "initial" -}}
+  {{- range $photos -}}
+    {{- $month := "" -}}
+    {{- with .date -}}{{- $month = substr . 0 7 -}}{{- end -}}
+    {{- if ne $month $group -}}
+      {{- if ne $group "initial" }}</div></section>{{ end -}}
+      {{- $group = $month -}}
+      <section class="photo-archive__month">
+        <h2>{{ if $month }}{{ (time (printf "%s-01" $month)).Format "January 2006" }}{{ else }}Date unknown{{ end }}</h2>
+        <div class="personal-photo-grid">
+    {{- end -}}
+    <a href="{{ .image.RelPermalink }}" data-photo-viewer data-caption="{{ if .date }}{{ (time .date).Format "January 2, 2006" }}{{ else }}Date unknown{{ end }}" aria-label="View photo{{ with .date }} from {{ . }}{{ end }}">
+      {{ $thumb := .image.Fit "800x800" }}<img src="{{ $thumb.RelPermalink }}" alt="Photo{{ with .date }} from {{ . }}{{ end }}" loading="lazy" width="{{ $thumb.Width }}" height="{{ $thumb.Height }}">
+    </a>
+  {{- end -}}
+  {{ if ne $group "initial" }}</div></section>{{ end }}
+</div>
+<dialog class="photo-viewer" aria-label="Photo viewer">
+  <div class="photo-viewer__toolbar"><button type="button" data-close aria-label="Close"><i class="fas fa-times" aria-hidden="true"></i></button></div>
+  <button type="button" class="photo-viewer__previous" data-direction="-1" aria-label="Previous photo"><i class="fas fa-chevron-left" aria-hidden="true"></i></button>
+  <figure><img alt=""><figcaption></figcaption></figure>
+  <button type="button" class="photo-viewer__next" data-direction="1" aria-label="Next photo"><i class="fas fa-chevron-right" aria-hidden="true"></i></button>
+</dialog>
+<script>
+(function () {
+  var viewer = document.querySelector('.photo-viewer');
+  var links = Array.from(document.querySelectorAll('[data-photo-viewer]'));
+  if (!viewer || !viewer.showModal || !links.length) return;
+  var current = 0, opener;
+  function show(index) {
+    current = (index + links.length) % links.length;
+    var link = links[current], image = viewer.querySelector('img');
+    image.src = link.href;
+    image.alt = link.querySelector('img').alt;
+    viewer.querySelector('figcaption').textContent = link.dataset.caption;
+  }
+  links.forEach(function (link, i) {
+    link.addEventListener('click', function (event) {
+      event.preventDefault(); opener = link; show(i); viewer.showModal();
+    });
+  });
+  viewer.querySelector('[data-close]').addEventListener('click', function () { viewer.close(); });
+  viewer.querySelectorAll('[data-direction]').forEach(function (button) {
+    button.addEventListener('click', function () { show(current + Number(button.dataset.direction)); });
+  });
+  viewer.addEventListener('keydown', function (event) {
+    if (event.key === 'ArrowLeft' || event.key === 'ArrowRight') {
+      event.preventDefault(); show(current + (event.key === 'ArrowRight' ? 1 : -1));
+    }
+  });
+  viewer.addEventListener('click', function (event) { if (event.target === viewer) viewer.close(); });
+  viewer.addEventListener('close', function () { if (opener) opener.focus(); });
+})();
+</script>
