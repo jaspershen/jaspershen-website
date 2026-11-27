@@ -2,6 +2,7 @@
 {{- range where (resources.Match "media/albums/photo/*") "ResourceType" "image" -}}
   {{- $date := "" -}}
   {{- with .Exif -}}{{- with .Date -}}{{- if ne (.Format "2006") "0001" -}}{{- $date = .Format "2006-01-02" -}}{{- end -}}{{- end -}}{{- end -}}
+  {{- with findRE `[0-9]{4}-[0-9]{2}-[0-9]{2}` .Name 1 -}}{{- $date = index . 0 -}}{{- end -}}
   {{- $photos = $photos | append (dict "image" . "date" $date) -}}
 {{- end -}}
 {{- $photos = sort $photos "date" "desc" -}}
